@@ -23,7 +23,133 @@ from datetime import timedelta
 
 from . import config, invariants, signals, storage, timeutil
 
-Generator = Callable[[str], str]
+# 生成器は「プロンプト + 期待するスキーマ → JSON 文字列」。
+# スキーマを渡すのは、生成側で構造化出力を使い形の逸脱を防ぐため。
+# 形が合っていても仕様書の規律（根拠の実在性・撤回条件）は別途 review() で検査する。
+Generator = Callable[[str, dict], str]
+
+# 構造化出力の制約に合わせ、数値の範囲指定は使わず additionalProperties は false で固定する。
+_EVIDENCE_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "source_id": {"type": "string"},
+        "event_id": {"type": "string"},
+        "reliability": {"type": "string", "enum": ["A", "B", "C", "D"]},
+    },
+    "required": ["source_id", "event_id", "reliability"],
+    "additionalProperties": False,
+}
+
+CONSENSUS_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "summary": {"type": "string"},
+        "evidence": {"type": "array", "items": _EVIDENCE_SCHEMA},
+    },
+    "required": ["summary", "evidence"],
+    "additionalProperties": False,
+}
+
+_CONFIDENCE = {"type": "string", "enum": ["high", "medium", "low"]}
+
+ANALYSIS_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "independent": {
+            "type": "object",
+            "properties": {
+                "summary": {"type": "string"},
+                "divergence": {"type": "string"},
+                "confidence": _CONFIDENCE,
+                "basis": {"type": "array", "items": {"type": "string"}},
+            },
+            "required": ["summary", "divergence", "confidence", "basis"],
+            "additionalProperties": False,
+        },
+        "phase": {
+            "type": "object",
+            "properties": {
+                "phase": {
+                    "type": "string",
+                    "enum": ["emerging", "validation", "early_growth", "scaling", "maturing", "mature"],
+                },
+                "rationale": {"type": "string"},
+            },
+            "required": ["phase", "rationale"],
+            "additionalProperties": False,
+        },
+        "growth": {
+            "type": "object",
+            "properties": {
+                "probability": {
+                    "type": "object",
+                    "properties": {
+                        "value": {"type": "number"},
+                        "confidence": _CONFIDENCE,
+                        "rationale": {"type": "string"},
+                    },
+                    "required": ["value", "confidence", "rationale"],
+                    "additionalProperties": False,
+                },
+                "magnitude": {
+                    "type": "object",
+                    "properties": {
+                        "value": {
+                            "type": "string",
+                            "enum": ["very_low", "low", "medium", "high", "very_high"],
+                        },
+                        "confidence": _CONFIDENCE,
+                        "rationale": {"type": "string"},
+                    },
+                    "required": ["value", "confidence", "rationale"],
+                    "additionalProperties": False,
+                },
+            },
+            "required": ["probability", "magnitude"],
+            "additionalProperties": False,
+        },
+        "scenarios": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "scenario": {"type": "string", "enum": ["bear", "base", "bull"]},
+                    "narrative": {"type": "string"},
+                    "probability": {"type": "number"},
+                    "falsifier": {"type": "string"},
+                    "projections": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "year": {"type": "integer", "enum": [2030, 2035]},
+                                "market_size": {
+                                    "type": "object",
+                                    "properties": {
+                                        "amount": {"type": "number"},
+                                        "currency": {"type": "string"},
+                                        "unit": {
+                                            "type": "string",
+                                            "enum": ["one", "thousand", "million", "billion", "trillion"],
+                                        },
+                                    },
+                                    "required": ["amount", "currency", "unit"],
+                                    "additionalProperties": False,
+                                },
+                            },
+                            "required": ["year", "market_size"],
+                            "additionalProperties": False,
+                        },
+                    },
+                },
+                "required": ["scenario", "narrative", "probability", "falsifier", "projections"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    "required": ["independent", "phase", "growth", "scenarios"],
+    "additionalProperties": False,
+}
 
 DEFAULT_WINDOW_DAYS = 90
 DEFAULT_MAX_EVENTS = 150
@@ -187,8 +313,8 @@ def draft_profile(
     origin: str = "known_monitor",
 ) -> dict:
     """生成結果を SectorProfile に組み立てる。検証はここでは行わず review() に任せる。"""
-    consensus = _parse(generator(render_prompt(bundle, "consensus")), "consensus")
-    analysis = _parse(generator(render_prompt(bundle, "independent")), "independent")
+    consensus = _parse(generator(render_prompt(bundle, "consensus"), CONSENSUS_SCHEMA), "consensus")
+    analysis = _parse(generator(render_prompt(bundle, "independent"), ANALYSIS_SCHEMA), "independent")
 
     counts = bundle.reliability_counts()
     profile = {

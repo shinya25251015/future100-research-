@@ -216,13 +216,24 @@ def _not_implemented(no: int, key: str, title: str, phase: str) -> Callable:
 
 
 def _kpi_and_forecast_review(today, primary, windows, report_date) -> dict:
-    predictions = sorted((storage.DATA / "predictions").glob("prd_*.json"))
-    if not predictions:
+    from . import backtest
+
+    as_of = f"{report_date}T23:59:59Z"
+    summary = backtest.accuracy(as_of=as_of)
+    if summary.total == 0:
         return _section(16, "kpi_and_forecast_review", "KPI 追跡と予測レビュー (§40-43)",
                         f"{_NONE}（追跡対象の予測がまだ無い）")
-    due = [p for p in predictions if storage.read_json(p)["resolution"]["due_date"] <= report_date]
-    return _section(16, "kpi_and_forecast_review", "KPI 追跡と予測レビュー (§40-43)",
-                    f"追跡中の予測 {len(predictions)} 件。うち本日時点で判定期限を迎えたもの {len(due)} 件。")
+
+    due = backtest.due_predictions(as_of=as_of)
+    narrative = (
+        f"発行済みの予測 {summary.total} 件。判定済み {summary.resolved}"
+        f"（的中 {summary.hit} / 外れ {summary.miss} / 部分 {summary.partial}）、"
+        f"判定不能 {summary.unresolvable}、未判定 {summary.pending}。"
+        f"本日時点で判定期限を迎えた未処理の予測 {len(due)} 件。"
+        "的中率は本システムの誤差の測定値であり、セクターの優劣ではない。"
+    )
+    items = [f"期限超過: {p['prediction_id']} ({p['resolution']['due_date']}) {p['statement'][:60]}" for p in due]
+    return _section(16, "kpi_and_forecast_review", "KPI 追跡と予測レビュー (§40-43)", narrative, items)
 
 
 _SECTION_BUILDERS: list[Callable] = [

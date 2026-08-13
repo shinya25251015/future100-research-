@@ -25,6 +25,7 @@ SCHEMA_BY_KIND = {
     "daily_report": "daily_report.schema.json",
     "raw": "raw_document.schema.json",
     "signal": "signal.schema.json",
+    "backtest_result": "backtest_result.schema.json",
 }
 
 
@@ -71,6 +72,10 @@ def main() -> int:
     run("sector", [(p.stem, storage.read_json(p)) for p in sorted(storage.SECTORS_DIR.glob("sec_*.json"))])
     run("prediction", [(p.stem, storage.read_json(p)) for p in sorted((storage.DATA / "predictions").glob("prd_*.json"))])
     run("daily_report", [(p.stem, storage.read_json(p)) for p in sorted((storage.REPORTS_DIR / "daily").glob("rpt_*.json"))])
+    run("backtest_result", [
+        (p.stem, storage.read_json(p))
+        for p in sorted((storage.ROOT / "backtest" / "outcomes").glob("bt_*.json"))
+    ])
 
     if load_validator("event") is None:
         print("note: jsonschema not installed — schema validation skipped, invariants still checked")

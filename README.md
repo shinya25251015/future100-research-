@@ -29,6 +29,7 @@ python3 scripts/normalize.py               # raw → data/events/（重複統合
 python3 scripts/detect_signals.py          # 弱いシグナルの同時増加を集計 (§10)
 python3 scripts/analyze_sector.py --list   # セクターごとの根拠件数を確認 (§20-34)
 python3 scripts/build_report.py            # 日次レポート 16 項目を生成 (§47)
+python3 scripts/backtest.py --summary      # 予測精度と外れた原因の内訳 (§40-43)
 python3 scripts/validate_data.py           # スキーマ + 仕様書不変条件の検査
 
 python3 -m pytest tests -q                 # テスト（pytest が無ければ各ファイルを直接実行）
@@ -69,6 +70,9 @@ src/future100/
   dedup.py      同一ニュースの統合 (§38)
   signals.py    Early Signal Detection (§10)
   sector_analysis.py  セクター構造評価の入力組み立てと出力検証 (§20-34)
+  generators.py       Claude API 接続（構造化出力・拒否処理）
+  backtest.py         予測 → 実績 → 誤差 → 改善 (§40-43)
+  report.py           日次レポート 16 項目 (§47)
   timeutil.py   UTC 統一と Look-ahead Bias ガード (§36-37)
   invariants.py 仕様書の規律をコードで強制 (§17-19, §39, §44-46)
 scripts/    運用コマンド

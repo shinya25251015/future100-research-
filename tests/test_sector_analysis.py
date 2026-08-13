@@ -105,7 +105,7 @@ def _valid_analysis(basis_id: str) -> dict:
 
 
 def _generator(basis_id: str):
-    def generate(prompt: str) -> str:
+    def generate(prompt: str, schema: dict) -> str:
         if "一般に語られている見方" in prompt:
             return json.dumps({"summary": "発電側が受益者とされる", "evidence": []})
         return json.dumps(_valid_analysis(basis_id))
@@ -133,7 +133,7 @@ def test_hallucinated_evidence_is_rejected():
 def test_missing_falsifier_is_rejected():
     bundle = _bundle()
 
-    def generate(prompt: str) -> str:
+    def generate(prompt: str, schema: dict) -> str:
         if "一般に語られている見方" in prompt:
             return json.dumps({"summary": "…", "evidence": []})
         analysis = _valid_analysis(VISIBLE["event_id"])
@@ -147,7 +147,7 @@ def test_missing_falsifier_is_rejected():
 def test_non_json_output_is_rejected():
     bundle = _bundle()
     try:
-        sector_analysis.draft_profile(bundle, generator=lambda prompt: "承知しました。以下が分析です。")
+        sector_analysis.draft_profile(bundle, generator=lambda prompt, schema: "承知しました。以下が分析です。")
     except ValueError as exc:
         assert "JSON" in str(exc)
         return
@@ -171,6 +171,45 @@ def test_generated_profile_matches_the_schema():
     profile = sector_analysis.draft_profile(bundle, generator=_generator(VISIBLE["event_id"]))
     errors = list(Draft202012Validator(schema, registry=registry).iter_errors(profile))
     assert not errors, "; ".join(f"{'/'.join(str(p) for p in e.path)}: {e.message}" for e in errors[:3])
+
+
+def test_output_schemas_obey_structured_output_limits():
+    """構造化出力は additionalProperties:false と全プロパティの required を要求し、
+    数値範囲などの制約は使えない。スキーマ側で形を保証できないと、検証が後段に全部寄る。"""
+
+    def walk(node, path="root"):
+        if isinstance(node, dict) and node.get("type") == "object":
+            assert node.get("additionalProperties") is False, f"{path}: additionalProperties"
+            assert set(node.get("required", [])) == set(node.get("properties", {})), f"{path}: required"
+            for key, value in node.get("properties", {}).items():
+                walk(value, f"{path}.{key}")
+        if isinstance(node, dict) and node.get("type") == "array":
+            walk(node.get("items", {}), f"{path}[]")
+        if isinstance(node, dict):
+            for unsupported in ("minimum", "maximum", "minLength", "maxLength", "minItems"):
+                assert unsupported not in node, f"{path}: {unsupported} は構造化出力で使えない"
+
+    walk(sector_analysis.CONSENSUS_SCHEMA, "consensus")
+    walk(sector_analysis.ANALYSIS_SCHEMA, "analysis")
+
+
+def test_generator_reports_missing_credentials_clearly():
+    """鍵が無い環境では、握りつぶさず対処法を添えて失敗する。"""
+    import os
+
+    from future100 import generators
+
+    saved = {k: os.environ.pop(k) for k in ("ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN") if k in os.environ}
+    try:
+        generators.anthropic_generator()
+    except generators.GeneratorUnavailable as exc:
+        assert "ANTHROPIC_API_KEY" in str(exc) or "anthropic SDK" in str(exc)
+    except Exception as exc:  # noqa: BLE001
+        raise AssertionError(f"想定外の例外: {type(exc).__name__}: {exc}") from exc
+    else:
+        raise AssertionError("認証情報が無い場合は GeneratorUnavailable を送出すべき")
+    finally:
+        os.environ.update(saved)
 
 
 def main() -> int:

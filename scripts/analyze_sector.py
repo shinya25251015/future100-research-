@@ -31,6 +31,9 @@ def main() -> int:
     parser.add_argument("--max-events", type=int, default=sector_analysis.DEFAULT_MAX_EVENTS)
     parser.add_argument("--show-prompt", action="store_true", help="生成に渡すプロンプトを表示する")
     parser.add_argument("--list", action="store_true", help="全セクターの根拠件数を一覧する")
+    parser.add_argument("--generate", action="store_true", help="Claude API で評価を生成する（要 ANTHROPIC_API_KEY）")
+    parser.add_argument("--replay", help="保存済み生成結果を読み直して検証のみ行う")
+    parser.add_argument("--effort", default="high", choices=["low", "medium", "high", "xhigh", "max"])
     args = parser.parse_args()
 
     as_of = args.as_of or timeutil.now_str()
@@ -68,8 +71,44 @@ def main() -> int:
             print(f"\n{'=' * 30} prompt: {view_kind} {'=' * 30}")
             print(sector_analysis.render_prompt(bundle, view_kind))
 
-    print("\n生成器は未接続。sector_analysis.draft_profile(generator=...) に接続すると評価を作成できる。")
-    print("生成結果は review() を通し、違反が無い場合のみ data/sectors/ に保存する。")
+    if not (args.generate or args.replay):
+        print("\n--generate で評価を生成する（要 ANTHROPIC_API_KEY）。")
+        print("生成結果は review() を通し、違反が無い場合のみ data/sectors/ に保存する。")
+        return 0
+
+    from future100 import generators, storage  # noqa: PLC0415
+
+    try:
+        generator = (
+            generators.replay_generator(args.replay)
+            if args.replay
+            else generators.anthropic_generator(effort=args.effort)
+        )
+    except generators.GeneratorUnavailable as exc:
+        print(f"\n生成器を用意できない: {exc}", file=sys.stderr)
+        return 1
+
+    print(f"\n生成中 (effort={args.effort}) ...")
+    try:
+        profile = sector_analysis.draft_profile(bundle, generator=generator)
+    except generators.GenerationRefused as exc:
+        print(f"生成が拒否された: {exc}", file=sys.stderr)
+        return 1
+    except ValueError as exc:
+        print(f"生成結果を解釈できない: {exc}", file=sys.stderr)
+        return 1
+
+    problems = sector_analysis.review(profile, bundle)
+    if problems:
+        print(f"\n検査に通らなかったため保存しない（{len(problems)} 件）:", file=sys.stderr)
+        for problem in problems:
+            print(f"  {problem}", file=sys.stderr)
+        return 1
+
+    path = storage.save_sector(profile)
+    print(f"検査を通過。保存した: {path}")
+    print(f"  フェーズ {profile['phase']['phase']} / 成長確率 {profile['growth']['probability']['value']} / "
+          f"拡大規模 {profile['growth']['magnitude']['value']}")
     return 0
 
 
