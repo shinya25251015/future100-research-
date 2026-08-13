@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_80GSFC21C0059_8000_-NONE-_-NONE-": "clu_a49aec8ae0"
+  },
+  "by_hash": {
+    "c628364d5e2b116675d1604046860797670a27a8184f624d4411fe07caa6cfea": "clu_a49aec8ae0"
+  },
+  "by_key": {
+    "u.s. department of the treasury::the compton spectrometer and imager (cosi)::2021-03-23": "clu_a49aec8ae0"
+  },
+  "clusters": {
+    "clu_a49aec8ae0": {
+      "primary_event_id": "evt_20260813_c628364d5e",
+      "event_ids": [
+        "evt_20260813_c628364d5e"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

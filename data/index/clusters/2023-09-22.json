@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_36C10F23C0007_3600_-NONE-_-NONE-": "clu_2dc36a8dd1"
+  },
+  "by_hash": {
+    "a16cf25c2afd48055518c1613e04ec0752e78f14b6fc411106a76bc4feebff08": "clu_2dc36a8dd1"
+  },
+  "by_key": {
+    "u.s. department of the treasury::construction long term spinal cord injury vamc north dallas, tx::2023-09-22": "clu_2dc36a8dd1"
+  },
+  "clusters": {
+    "clu_2dc36a8dd1": {
+      "primary_event_id": "evt_20260813_a16cf25c2a",
+      "event_ids": [
+        "evt_20260813_a16cf25c2a"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_19AQMM21F0420_1900_GS00Q12NSD0004_4732": "clu_029afd7b43"
+  },
+  "by_hash": {
+    "8df8f773f9c622e2bb37980fc82e10b95ee1ff90f58ed92bb643e75697e8b4fd": "clu_029afd7b43"
+  },
+  "by_key": {
+    "u.s. department of the treasury::procurement and installation new telephone systems, wi-fi, cabling, etc. hardware, software, support and other associated services at existing foreign posts and new posts.::2021-01-18": "clu_029afd7b43"
+  },
+  "clusters": {
+    "clu_029afd7b43": {
+      "primary_event_id": "evt_20260813_8df8f773f9",
+      "event_ids": [
+        "evt_20260813_8df8f773f9"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

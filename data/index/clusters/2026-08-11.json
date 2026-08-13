@@ -1,33 +1,308 @@
 {
   "by_url": {
-    "http://boj.or.jp/statistics/money/ms/ms2607.pdf": "clu_6fd4f98923",
-    "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1731": "clu_8d70c25e1b",
-    "https://blogs.nvidia.com/blog/800-vdc-power-architecture-ai-factory": "clu_eafef68fc9",
-    "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx": "clu_69c49e500f",
-    "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron": "clu_21c0350197",
-    "https://spectrum.ieee.org/stimulated-geologic-hydrogen": "clu_1ee6ba7dcb",
-    "https://spectrum.ieee.org/ieee-summit-bhutan-digital-transformation": "clu_63f6dc87c2"
+    "http://boj.or.jp/statistics/money/ms/ms2607.pdf": "clu_5b71ae2cfb",
+    "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1731": "clu_6a9ff1fb57",
+    "https://blogs.nvidia.com/blog/800-vdc-power-architecture-ai-factory": "clu_4c506a31ec",
+    "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx": "clu_c851b69491",
+    "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron": "clu_4924fd14cb",
+    "https://spectrum.ieee.org/stimulated-geologic-hydrogen": "clu_fd2f26342a",
+    "https://spectrum.ieee.org/ieee-summit-bhutan-digital-transformation": "clu_35d2db462d",
+    "https://usaspending.gov/award/CONT_AWD_12444526P0068_12C2_-NONE-_-NONE-": "clu_4b37f71088",
+    "https://usaspending.gov/award/CONT_AWD_15JA0525C00000280_1501_-NONE-_-NONE-": "clu_7b2b40bc4c",
+    "https://usaspending.gov/award/CONT_AWD_19AQMM26P0958_1900_-NONE-_-NONE-": "clu_3572e16708",
+    "https://usaspending.gov/award/CONT_AWD_6973GH24F00155_6920_6973GH24D00011_6920": "clu_c1fb13e2a1",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0612_1544_-NONE-_-NONE-": "clu_1ee2942ec7",
+    "https://usaspending.gov/award/CONT_AWD_75N98026P01294_7529_-NONE-_-NONE-": "clu_71a8326640",
+    "https://usaspending.gov/award/CONT_AWD_91990024F0360_9100_91990024A0001_9100": "clu_e938020a09",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0627_1544_-NONE-_-NONE-": "clu_852c5bb98e",
+    "https://usaspending.gov/award/CONT_AWD_70Z08026PMECP0058_7008_-NONE-_-NONE-": "clu_8f8a5ffc2e",
+    "https://usaspending.gov/award/CONT_AWD_140A2326P0291_1450_-NONE-_-NONE-": "clu_f916ef85a0",
+    "https://usaspending.gov/award/CONT_AWD_19AQMM26P0959_1900_-NONE-_-NONE-": "clu_5a08776ee3",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0625_1544_-NONE-_-NONE-": "clu_d71ed713cf",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0610_1544_-NONE-_-NONE-": "clu_85ebf77038",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0626_1544_-NONE-_-NONE-": "clu_eb40cf35e6",
+    "https://usaspending.gov/award/CONT_AWD_12363N26F4112_12C2_GS00F264DA_4732": "clu_1a6153e087",
+    "https://usaspending.gov/award/CONT_AWD_75N95025F00041_7529_75N95021D00010_7529": "clu_46c8d435d0",
+    "https://usaspending.gov/award/CONT_AWD_1202SC26M0680_12C2_1202SC21T2437_12C2": "clu_b48230a5ac",
+    "https://usaspending.gov/award/CONT_AWD_HHSN27300005_7529_HHSN273201600002I_7529": "clu_01da1cfa82",
+    "https://usaspending.gov/award/CONT_AWD_36C25226P0495_3600_-NONE-_-NONE-": "clu_1b026c215b",
+    "https://usaspending.gov/award/CONT_AWD_19GT5026F0279_1900_19GT5023A0002_1900": "clu_7ca2db9c90",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0616_1544_-NONE-_-NONE-": "clu_25ebe236e9",
+    "https://usaspending.gov/award/CONT_AWD_15B40726P00000067_1540_-NONE-_-NONE-": "clu_099fe0d004",
+    "https://usaspending.gov/award/CONT_AWD_36C26225C0288_3600_-NONE-_-NONE-": "clu_528bf2482b",
+    "https://usaspending.gov/award/CONT_AWD_70Z08026PMECP0158_7008_-NONE-_-NONE-": "clu_704398d5ca",
+    "https://usaspending.gov/award/CONT_AWD_1305M226F0103_1330_1305M220DNMAN0060_1330": "clu_2e6fa14ea7",
+    "https://usaspending.gov/award/CONT_AWD_75N96021F00003_7529_HHSN273201600003I_7529": "clu_f1eacd1e5b",
+    "https://usaspending.gov/award/CONT_AWD_75N98026P01272_7529_-NONE-_-NONE-": "clu_ed56221ca4",
+    "https://usaspending.gov/award/CONT_AWD_1204H126M7648_12C2_1204H125T7331_12C2": "clu_01405b4f3e",
+    "https://usaspending.gov/award/CONT_AWD_70Z08825FESDV0010_7008_70Z08818DPQQ21600_7008": "clu_56dbb45a36",
+    "https://usaspending.gov/award/CONT_AWD_72001G21P00025_7200_-NONE-_-NONE-": "clu_5d93828555",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0609_1544_-NONE-_-NONE-": "clu_fe7e65d6e1",
+    "https://usaspending.gov/award/CONT_AWD_15M10325FA4700608_1544_GS00F163CA_4732": "clu_87888be701",
+    "https://usaspending.gov/award/CONT_AWD_692M1526F00168_6920_692M1526A00001_6920": "clu_6c617e91fe",
+    "https://usaspending.gov/award/CONT_AWD_70Z08026PIODV0021_7008_-NONE-_-NONE-": "clu_7b7a683e6a",
+    "https://usaspending.gov/award/CONT_AWD_75N96021F00005_7529_HHSN273201600003I_7529": "clu_c930e9d605",
+    "https://usaspending.gov/award/CONT_AWD_75N98026F00002_7529_75N98022D00036_7529": "clu_9534e69ecc",
+    "https://usaspending.gov/award/CONT_AWD_1202SA26K9401_12C2_1202SA25T9404_12C2": "clu_7fcc39c15a",
+    "https://usaspending.gov/award/CONT_AWD_692M1526F00169_6920_692M1526A00001_6920": "clu_e0e6927301",
+    "https://usaspending.gov/award/CONT_AWD_6973GH24F00183_6920_6973GH24D00011_6920": "clu_aa9ad04993",
+    "https://usaspending.gov/award/CONT_AWD_70FA3025F00000109_7022_70FA3019D00000002_7022": "clu_236e941e19",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0628_1544_-NONE-_-NONE-": "clu_5acb64a821",
+    "https://usaspending.gov/award/CONT_AWD_36C26126P1047_3600_-NONE-_-NONE-": "clu_98f8967cb3",
+    "https://usaspending.gov/award/CONT_AWD_70Z08026PMECP0157_7008_-NONE-_-NONE-": "clu_02c7686b28",
+    "https://usaspending.gov/award/CONT_AWD_36C25025C0162_3600_-NONE-_-NONE-": "clu_2df74d4a3e",
+    "https://usaspending.gov/award/CONT_AWD_692M1521F00101_6920_DTFACT15D00003_6920": "clu_c84a183abd",
+    "https://usaspending.gov/award/CONT_AWD_9523ZY26F0043_9507_NNG15SD74B_8000": "clu_fdc2ee7b74",
+    "https://usaspending.gov/award/CONT_AWD_47PE5526F0599_4740_47PE1925D0065_4740": "clu_3ffc1bba34",
+    "https://usaspending.gov/award/CONT_AWD_692M1526F00167_6920_692M1526A00001_6920": "clu_19e0def19f",
+    "https://usaspending.gov/award/CONT_AWD_75N98026F00294_7529_47QSMS25D00A9_4732": "clu_da9431ac18",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0620_1544_-NONE-_-NONE-": "clu_0692ccf646",
+    "https://usaspending.gov/award/CONT_AWD_75N98026F00296_7529_GS07F0564X_4732": "clu_0e54a2f219",
+    "https://usaspending.gov/award/CONT_AWD_75R60223C00010_7526_-NONE-_-NONE-": "clu_38bd8172a4",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0622_1544_-NONE-_-NONE-": "clu_ad95622130",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0611_1544_-NONE-_-NONE-": "clu_8d4add61db",
+    "https://usaspending.gov/award/CONT_AWD_1605C224F00023_1605_47QRAA18D00DV_4732": "clu_217f8df170",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0623_1544_-NONE-_-NONE-": "clu_7e6c4ac678",
+    "https://usaspending.gov/award/CONT_AWD_140D0426F0760_1406_1202SA23T9103_12C2": "clu_74b57e1350",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0614_1544_-NONE-_-NONE-": "clu_e400fd9c9e",
+    "https://usaspending.gov/award/CONT_AWD_68HE0521F0044_6800_68HE0118D0006_6800": "clu_9e6f3295ed",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0607_1544_-NONE-_-NONE-": "clu_39f2d469b8",
+    "https://usaspending.gov/award/CONT_AWD_15M10423FA4700061_1544_GS35F518GA_4732": "clu_e19d3c91f9",
+    "https://usaspending.gov/award/CONT_AWD_36C26125P1465_3600_-NONE-_-NONE-": "clu_e199f3d14e",
+    "https://usaspending.gov/award/CONT_AWD_36C25226P0349_3600_-NONE-_-NONE-": "clu_472f607cd5",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0621_1544_-NONE-_-NONE-": "clu_2dae64092e",
+    "https://usaspending.gov/award/CONT_AWD_15JA0525C00000283_1501_-NONE-_-NONE-": "clu_d66dc69ffd",
+    "https://usaspending.gov/award/CONT_AWD_1202SB26M1296_12C2_1202SB25T7797_12C2": "clu_72b960c7c4",
+    "https://usaspending.gov/award/CONT_AWD_1202RZ26M0333_12C2_1202RZ26T0019_12C2": "clu_84dd84d3b4",
+    "https://usaspending.gov/award/CONT_AWD_75N96021F00010_7529_HHSN273201600003I_7529": "clu_80cdc040ab",
+    "https://usaspending.gov/award/CONT_AWD_12314426F0296_1205_NNG15SD76B_8000": "clu_9cb75b6071",
+    "https://usaspending.gov/award/CONT_AWD_47PD5526F0303_4740_47PG5226A0008_4740": "clu_9eaf11013e",
+    "https://usaspending.gov/award/CONT_AWD_05GA0A26F0058_0559_GS35F0240P_4730": "clu_5bf697f515",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0613_1544_-NONE-_-NONE-": "clu_64d62ec223",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0608_1544_-NONE-_-NONE-": "clu_6cfeacb04b",
+    "https://usaspending.gov/award/CONT_AWD_191D3226F0107_1900_191D3222D0024_1900": "clu_31c0d9ead9",
+    "https://usaspending.gov/award/CONT_AWD_68HE0523F0082_6800_68HE0118D0014_6800": "clu_7f1f863c4d",
+    "https://usaspending.gov/award/CONT_AWD_36C25026N0577_3600_36C10G24D0041_3600": "clu_c5a41a8921",
+    "https://usaspending.gov/award/CONT_AWD_HHSN27300004_7529_HHSN273201600002I_7529": "clu_a5c13e143b",
+    "https://usaspending.gov/award/CONT_AWD_6991PE26F00236N_6938_693JF725D000010_6938": "clu_d343afbb57",
+    "https://usaspending.gov/award/CONT_AWD_19AQMM26F0168_1900_NNG15SC82B_8000": "clu_1584f96bdd",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0629_1544_-NONE-_-NONE-": "clu_f955ca0124",
+    "https://usaspending.gov/award/CONT_AWD_70FA5025F00000043_7022_70FA6023A00000005_7022": "clu_7a866d3dc7",
+    "https://usaspending.gov/award/CONT_AWD_6973GH25F00831_6920_6973GH25D00039_6920": "clu_b4aac0745d",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0624_1544_-NONE-_-NONE-": "clu_79af99ceb1",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0617_1544_-NONE-_-NONE-": "clu_cd2440788c",
+    "https://usaspending.gov/award/CONT_AWD_693KA721C00022_6920_-NONE-_-NONE-": "clu_c3eaae791d",
+    "https://usaspending.gov/award/CONT_AWD_127EAY26P0045_12C2_-NONE-_-NONE-": "clu_5ec0910b7c",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0618_1544_-NONE-_-NONE-": "clu_73890aa68a",
+    "https://usaspending.gov/award/CONT_AWD_70FA3122F00000030_7022_70RDAD21A00000010_7001": "clu_632c87a8bf",
+    "https://usaspending.gov/award/CONT_AWD_47HAA024F0161_4773_GS35F660GA_4732": "clu_7863123611",
+    "https://usaspending.gov/award/CONT_AWD_36C26126N0013_3600_36C26122D0005_3600": "clu_dbc7a5e4d4",
+    "https://usaspending.gov/award/CONT_AWD_140A2325P0425_1450_-NONE-_-NONE-": "clu_52c57e5deb",
+    "https://usaspending.gov/award/CONT_AWD_70B01C26F00000054_7014_70B01C20D00000004_7014": "clu_191512def2",
+    "https://usaspending.gov/award/CONT_AWD_70FBR124P00000012_7022_-NONE-_-NONE-": "clu_0d607d461f",
+    "https://usaspending.gov/award/CONT_AWD_70Z04526PKODI0052_7008_-NONE-_-NONE-": "clu_09883c946e",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0619_1544_-NONE-_-NONE-": "clu_668cf63b68",
+    "https://usaspending.gov/award/CONT_AWD_36C24825P0028_3600_-NONE-_-NONE-": "clu_72ec1b801e",
+    "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0615_1544_-NONE-_-NONE-": "clu_aa046d4c31",
+    "https://usaspending.gov/award/CONT_AWD_15JA0525F00000120_1501_15JA0524D00000103_1501": "clu_90e5dc6ae9",
+    "https://war.gov/News/Contracts/Contract/Article/4568855/contracts-for-aug-11-2026": "clu_73a49d70d5"
   },
   "by_hash": {
-    "4ca527d298d7cdc85765029ed4acfc00ef692fc43e7ded1390f04cb76f3d99c9": "clu_6fd4f98923",
-    "5941efec5653fd61933f1d8e3036cb0e2f854202a58dc8e1eb616508064feb8a": "clu_8d70c25e1b",
-    "2f9cef8a0be313621c018330ef95441d7a0100b73ef30ac66d4eebfee45f3981": "clu_eafef68fc9",
-    "0f8418882215221ae998786cad7d3cf2d47397781ad023fa444b4f7c2a20c9db": "clu_69c49e500f",
-    "ea74681c054dda4f3fe6bc238b27928c6a6003ba50f0dadb4511ae1f8215a089": "clu_21c0350197",
-    "4975c9c60199301032f462f77e8c314ed5fa44fe391b9e2ac47a7e8206891d8b": "clu_1ee6ba7dcb",
-    "dbda650534a5b29f54cf949b9ec577fafe6a27e9fc9421151df866aba743900b": "clu_63f6dc87c2"
+    "4ca527d298d7cdc85765029ed4acfc00ef692fc43e7ded1390f04cb76f3d99c9": "clu_5b71ae2cfb",
+    "5941efec5653fd61933f1d8e3036cb0e2f854202a58dc8e1eb616508064feb8a": "clu_6a9ff1fb57",
+    "2f9cef8a0be313621c018330ef95441d7a0100b73ef30ac66d4eebfee45f3981": "clu_4c506a31ec",
+    "0f8418882215221ae998786cad7d3cf2d47397781ad023fa444b4f7c2a20c9db": "clu_c851b69491",
+    "ea74681c054dda4f3fe6bc238b27928c6a6003ba50f0dadb4511ae1f8215a089": "clu_4924fd14cb",
+    "4975c9c60199301032f462f77e8c314ed5fa44fe391b9e2ac47a7e8206891d8b": "clu_fd2f26342a",
+    "dbda650534a5b29f54cf949b9ec577fafe6a27e9fc9421151df866aba743900b": "clu_35d2db462d",
+    "8eb9a6153b8f49ad1891383448435cf9f4dc64df7f19f3709940eb8dfeb80576": "clu_4b37f71088",
+    "3435a2ffc1c677499cfbafbbb4063462f4596325352af160efacb7d11d87a745": "clu_7b2b40bc4c",
+    "7bcd6efb5952d83a35273b307d196b00b698b87b9fd179761759390b6f3232b2": "clu_3572e16708",
+    "72b1beb6f9abe6c78d13579b42d646c269ac2c567a6a1ffb8a8810b1c02467e6": "clu_c1fb13e2a1",
+    "f4c8f7ee37e5f2a18e5e380abbe7b857915e6d9f5d1fb73ed088ef37227e4ad8": "clu_1ee2942ec7",
+    "eba76a6cd3956b289250e7a498c3a7d1ebac4b1086c62e06478840b00a3775e5": "clu_71a8326640",
+    "d9b55e089d06b77ddc7487481d2a5090c2dd6be01a29f6e34f3ad061e4416a91": "clu_e938020a09",
+    "3a5133d8a2a26e011522b4444017d6e3ac42f0b398b5d2329edf9b0ef7c7acc0": "clu_852c5bb98e",
+    "7653575b0ae1d0fb0a222f428a138fb22c937be550c16da431562e8b49184729": "clu_8f8a5ffc2e",
+    "f97d3ccda0c484844a5bb2faace4fdc35b1e979cd594d5ce4377799eb5f1fbd5": "clu_f916ef85a0",
+    "9b4fba607df58caa1092fd881f1b3e397e6c131112299ab9685ea31d307a984f": "clu_5a08776ee3",
+    "3c65900b280a3fbbcc6d419fd75dd49d66256263b9661f4edc26e9a39b8b7b6b": "clu_d71ed713cf",
+    "698fd5679dc551c9221227dd3ebd563832f78f3c45b0a443bfaf1c85c62ab673": "clu_85ebf77038",
+    "204d4d6785245ab95b7b4c9631a5aa3772794587cd943d2b1dcbfbeb8bdd7e0b": "clu_eb40cf35e6",
+    "80c822e69306a920dc160956e429a0b4031a3d88bf8ec7eb5feda1aa3479b8ff": "clu_1a6153e087",
+    "11908bba06e5a3dd1515d8ff060a4a28895caa6bc490b16fbe3df84cb1e8f9e1": "clu_46c8d435d0",
+    "bbede4c04843da2ca91d9cd814af867a7ff63151dfe22b922c564b66ae883542": "clu_b48230a5ac",
+    "2a54233b3eb7837d724765e48d757fdb1f7d5f9eeb7d8f168c710aa18a20333d": "clu_01da1cfa82",
+    "728a6eb942447b360b50a5cda9b687a411cfc2af6c3029c23cd7af4c3f31973b": "clu_1b026c215b",
+    "761527ae13942be29f5373ba035887f83179d33a7766eecd7636547905ed4a8b": "clu_7ca2db9c90",
+    "d03174cefc1f42163a4e481d6c0b0dad2b52c5c9f358294deaafa2220ac28de2": "clu_25ebe236e9",
+    "57aea3f378776c68a96727b4a08f02a78478cef164926833e591c98ce72b3bb2": "clu_099fe0d004",
+    "78a3d65f02cd0a147eea1cd36cb1a69567f08409df17fbfcf28f4c80c9a3b226": "clu_528bf2482b",
+    "7fc4f2127a696245b2c4013d5086ef42723a29f2c85d9b5ba7e2678ccd6b46ed": "clu_704398d5ca",
+    "129fbe32f832e2b03d504fdd6adc5c4e52d8782e0c87214d900a71df33383d9b": "clu_2e6fa14ea7",
+    "99e6d5d80426a19a139b380cfceaead82b5f52d355b4e6df95f8266e2d5a952f": "clu_f1eacd1e5b",
+    "2829ed98b218205a7324b6771e09f853f4b98744e70f99feba8a1199b200da76": "clu_ed56221ca4",
+    "13086575741df61f5b46d6af09a98fa837a2dc9f81855360bf26e718890918ad": "clu_01405b4f3e",
+    "ea95f8cb7338d0b3555e58d15eebee237420b63bd82de826ed4d3214c7bd3d41": "clu_56dbb45a36",
+    "e3da4767f7c0b3a84008259e8cd2a138a3334ea179113a66fd0df9dda37ad982": "clu_5d93828555",
+    "7b845177a91df1d157c7b40856c9bdc3abfe8d2f31dbf32adf1c85e0668979fa": "clu_fe7e65d6e1",
+    "894b1b9c34e9b7fc503f31d0c4680353a1c2d862e88445a189d956860fc27f86": "clu_87888be701",
+    "0c05af62d1b306ea376794bfcc354927552a02b2945ee70f754f9c997868fb89": "clu_6c617e91fe",
+    "ec2eb77c61b706a1e946ec3d968f4c10933c56144ce4e239c3ab0552847cd86a": "clu_7b7a683e6a",
+    "db92de1240879378adb6acd0b68c8ad58317495e05356fbc1d935fec62fa24d4": "clu_c930e9d605",
+    "da8c0b4da237c8bf2f8265813c64783f97fb30fcb9e02575fb2bfbc3918c5ec7": "clu_9534e69ecc",
+    "e3aee8f25621bd415521605ad5e1e3dfe5ca2c0d8fa867f30e5afa7c66e274d9": "clu_7fcc39c15a",
+    "60715f9b99238e9802eb998daedd0a76ca228cdfda197303500456b1f99493f4": "clu_e0e6927301",
+    "69aaff7afa9f74998a003f1046306ad229f814ad0258ea0cd3e869a5100af344": "clu_aa9ad04993",
+    "6b55114e838171f6a77172f29a45afd64ecef198ff9936f1e32c0637a8e5e24e": "clu_236e941e19",
+    "48ee4399c6e3d514dc357497510d6524e1a3fe43cd642a8ed5fccde07e87d8c1": "clu_5acb64a821",
+    "3c040488e180296f30ca70d0143e30dd5d59b7f81b2d9bfbb46e7180d713d4db": "clu_98f8967cb3",
+    "53ad94898ef3ee4142b30c26b3ecbd769817fe5be270449e2e9a9f482d6cd935": "clu_02c7686b28",
+    "88468ca13de3a64af6b8c311f87445bbaed3e590de746bff91322ab71c902741": "clu_2df74d4a3e",
+    "37c8d5cee9b03c2112ffd894870cf23f1b60b67a048beb94b795966865d61525": "clu_c84a183abd",
+    "ba1f0c54cdfda79dd3a1d4290e4d91257078379e15baef95e3168aeb3225f264": "clu_fdc2ee7b74",
+    "bd55fd38d587a2db3a9f35a887bdff8e87e356c192dc7b3b28ed40d37c8fdf83": "clu_3ffc1bba34",
+    "36dbb4b104897986aa767c0bc47dba012395a9684b5aeb8be65f899a638c3a0a": "clu_19e0def19f",
+    "418fcec21ccb1edf8f8fee9c38fe7014fe311172beeca7a9247c0b950ce1e524": "clu_da9431ac18",
+    "f4fb764192e57705b17f73310ce29ca4209c1de1ccda34e35e37927aea522f46": "clu_0692ccf646",
+    "0e5a40cea796a9e85aecabdefb3f3345ce8bd819f34ef1867560019ff3c21cf0": "clu_0e54a2f219",
+    "1cbe78ea026b285dd43b770261a66aa0875a45de0399267e43d835b0c4b7f837": "clu_38bd8172a4",
+    "34c79ca47e070279c77151b9bdfa7d0ef69f81dabd9f28449c897e9412f24ba1": "clu_ad95622130",
+    "bed1ca59fb4e03d9b9662900d65572062ab41fa4030584edcb3807e2cacda93b": "clu_8d4add61db",
+    "5b99ef58a348890c63b9f587c1983cdc46df25a965b29bf99bb436abb0fc335a": "clu_217f8df170",
+    "c5f292ab92d8712a3b03a393e8840e4e66828ea2f850963b4fc4367bfe0809e2": "clu_7e6c4ac678",
+    "300b708348cf9932bd4988d0e9544cc2f1bb965df980e49e91efb3bf113e7d84": "clu_74b57e1350",
+    "bf79e99bb7859b098191a687d66e9646994976fcb915240f916239f96632a921": "clu_e400fd9c9e",
+    "fa534dd8e1927629f83fe3e36c754cd07ed2e2e8864a38334c09b85ed2a4eb2f": "clu_9e6f3295ed",
+    "a3d562bbd19166264d4a3ef69de7c5fa7265caf8085e83c07e90408753cabb15": "clu_39f2d469b8",
+    "fe1c35823bc20adf647ab3c1bf00a365c4609f37033fc46f519645d746bbff03": "clu_e19d3c91f9",
+    "87d984203c9bdbe06826c75e9739761b62ce558e923d7f736dc9f7ada5ceb84c": "clu_e199f3d14e",
+    "31f0f089c3f4ad25992c0d73fefeefb0498b651b38b052d4c9d109679aff001d": "clu_472f607cd5",
+    "31d0ebf8e4e16d20ac24c1868220400c3ffa551f7476d549bc226c71597df08c": "clu_2dae64092e",
+    "32c3ef2ff593ffcb12df033e17e26d45a506b86558e5d56b307d35dd306cfb8b": "clu_d66dc69ffd",
+    "89103de9e2c730553365192aae38758745deb668a72405536c5b9c05a59f266f": "clu_72b960c7c4",
+    "f3d59815b6a93c880f46bb3e8269c55034543cbf07b4ac88ded125ee0c8de63e": "clu_84dd84d3b4",
+    "8a65e753bbc97f8023e9c5ba258dab2657d931d3fe00ee5d83efd1782baa21d8": "clu_80cdc040ab",
+    "175e459d15bcd03174ba1bede0f513f618627e6d75ff974e7988b796d7f57b12": "clu_9cb75b6071",
+    "a3e69fdad3993337bdf1ad97d0e6c7d800861bcaf36d087b235b7131a6737a25": "clu_9eaf11013e",
+    "bc5ce9d43c92f004cf9f0c492952b413fd9cae17b80963d3c262ca04ea5e3a51": "clu_5bf697f515",
+    "fa45458213405bd98413e25b94b8471b661757088337782ce72885af9db19fb3": "clu_64d62ec223",
+    "aa930c8e29d6e6a5975cd90bf895027bddc03d05cfaa7f857154a38d5fb345cc": "clu_6cfeacb04b",
+    "c9d3a01291d5ae13aff74246439bd0231c684fbe54296f06e50343049ae87f5a": "clu_31c0d9ead9",
+    "d5c0ca3cbafd55cd43a071d10cee6b2e72f6fa1d7e3226f576a195c058a0176e": "clu_7f1f863c4d",
+    "cebb5e295415e0856613f4ca823e6773ee127f456427993b058f20bd4824e9ba": "clu_c5a41a8921",
+    "6c5a19dff5a84ff677513b08afdf96509b84df762373d702ee78b140cb51c3f2": "clu_a5c13e143b",
+    "a09f76a879a8cc71ced4929c5541730428523e9a59ef811d74dfdda9d1464994": "clu_d343afbb57",
+    "58470297898687f9c42098cfb19e1e1977e422ded9f656d55e700dddf9b51a57": "clu_1584f96bdd",
+    "a43701a1762947ffe6c1396b39d3b9e9bcc8dccf6008facbed1d15c4f205d62e": "clu_f955ca0124",
+    "762fbcab93808e6911ea7be95bc674b77ec5f6776cdf19166ef9aef243d9ebbd": "clu_7a866d3dc7",
+    "e31d0f14b3655196b323e57a74633df10c946f1eb6b0a4e6aebbffeb725fa995": "clu_b4aac0745d",
+    "1ecf925973b74de65a5a96ef51f34f0f66ba8d368f94caea2da0870608cec7c0": "clu_79af99ceb1",
+    "a726f700f3614fc38488aae5a8d4f1e4ce1b15aceada5eda402aec2c92c67af9": "clu_cd2440788c",
+    "4ddfb8e3e838a9e55f0790911cafa90a55b772b68bf63f86dbe032e39ca40004": "clu_c3eaae791d",
+    "7264717bb2589c703eed55bed4a602c5ab18017e950e0a6ef4313525844c1c03": "clu_5ec0910b7c",
+    "acc2b26a951c586f7840e4767a7f6c254c327769bbe68026be2f4aaaa563a9e6": "clu_73890aa68a",
+    "98d4e5128e61f54ad79eb0354970d76bb76a36ce95257edcfdc401acde0fc578": "clu_632c87a8bf",
+    "5b21c7f393fc0a92cd9eb9dfcfa674330433b911e43b0bfa5e15e39fe2ed469f": "clu_7863123611",
+    "2c8921d3d15d667b1403d2f901bdb2da8f31bb3be4f93cb1d8588c183f00bb69": "clu_dbc7a5e4d4",
+    "df90075643475bd380a096ae40bb6c7bae232ebab1a7cbc44d70f289070edfd6": "clu_52c57e5deb",
+    "fd65d286b5ef54b9a1f051de4ada6e13ec88554284d3a5207d04d90275ccfce2": "clu_191512def2",
+    "defecd912437f90e407b08d8d251a7c644a093067f350a81c42aced938ecf0ce": "clu_0d607d461f",
+    "1910628eb8786362304fcd06cde55c8e7df9abe4dfde09ff2ba1eba1f61ec8cd": "clu_09883c946e",
+    "dc5d6b4e6d923f03ce80f24702519625c071b4ccdeea6196e683f4bb99da0e48": "clu_668cf63b68",
+    "99ccaf311d2f5620ef4b34117c5be1a4629919123bc3f3876e3f9d16013afaf2": "clu_72ec1b801e",
+    "2fb93b29563bc6a7bd6b90074c8951d61603dac526477798cde5c02e78e06c9d": "clu_aa046d4c31",
+    "83e16760eaef57dbde2a7de12fb5372ef30c91eb06e7b75acea3663a2428ea63": "clu_90e5dc6ae9",
+    "86263b33f333e5643dae9a34e2c74aa28bc19c7a4ba58c0897a5009252bd969e": "clu_73a49d70d5"
   },
   "by_key": {
-    "日本銀行::マネーストック(7月)::2026-08-11": "clu_6fd4f98923",
-    "european commission::daily news 11 / 08 / 2026::2026-08-11": "clu_8d70c25e1b",
-    "nvidia corporation::why scaling ai compute performance requires a new power architecture::2026-08-11": "clu_eafef68fc9",
-    "nvidia corporation::nvidia nemotron 3.5 lightning and nemo switchyard deliver faster, smarter, more efficient agentic ai::2026-08-11": "clu_69c49e500f",
-    "nvidia corporation::nvidia and local ai community fuel open source models and intelligent agents::2026-08-11": "clu_21c0350197",
-    "ieee::zap rocks. add water. get clean hydrogen::2026-08-11": "clu_1ee6ba7dcb",
-    "ieee::ieee engineering summit supports bhutan’s digital transformation::2026-08-11": "clu_63f6dc87c2"
+    "日本銀行::マネーストック(7月)::2026-08-11": "clu_5b71ae2cfb",
+    "european commission::daily news 11 / 08 / 2026::2026-08-11": "clu_6a9ff1fb57",
+    "nvidia corporation::why scaling ai compute performance requires a new power architecture::2026-08-11": "clu_4c506a31ec",
+    "nvidia corporation::nvidia nemotron 3.5 lightning and nemo switchyard deliver faster, smarter, more efficient agentic ai::2026-08-11": "clu_c851b69491",
+    "nvidia corporation::nvidia and local ai community fuel open source models and intelligent agents::2026-08-11": "clu_4924fd14cb",
+    "ieee::zap rocks. add water. get clean hydrogen::2026-08-11": "clu_fd2f26342a",
+    "ieee::ieee engineering summit supports bhutan’s digital transformation::2026-08-11": "clu_35d2db462d",
+    "u.s. department of the treasury::lei is moving forward with the purchase of epic protector ballistic helmets for all sworn personnel. this effort is part of our continued work to ensure officers have the protective equipment they need for today's operational environment. the ep::2026-08-11": "clu_4b37f71088",
+    "u.s. department of the treasury::bf/bw civil investigators - 3 mcallen & laredo::2026-08-11": "clu_7b2b40bc4c",
+    "u.s. department of the treasury::---------- comments: obo rst glazing panel replacement project - toronto. procure and ship one (01) each fe/br glazing panels from fdi for us consulate toronto, canada. cor: byron armstrong attn: keith aiken it request status: false::2026-08-11": "clu_3572e16708",
+    "u.s. department of the treasury::issc air - incremental base year funds for clins 0001 and 0006::2026-08-11": "clu_c1fb13e2a1",
+    "u.s. department of the treasury::mission - fy2027 district guard support services - d22 - mission critical: transporting and producing prisoners for court proceedings.::2026-08-11": "clu_1ee2942ec7",
+    "u.s. department of the treasury::nhlbi: service: graft sample and data collection: severable::2026-08-11": "clu_71a8326640",
+    "u.s. department of the treasury::sharepoint development and helpdesk support services.::2026-08-11": "clu_e938020a09",
+    "u.s. department of the treasury::mission - fy2027 district guard support services - d23 - mission critical: transporting and producing prisoners for court proceedings.::2026-08-11": "clu_852c5bb98e",
+    "u.s. department of the treasury::bus transportation::2026-08-11": "clu_8f8a5ffc2e",
+    "u.s. department of the treasury::hvac troubleshooting for trane units::2026-08-11": "clu_f916ef85a0",
+    "u.s. department of the treasury::---------- comments: tirana csu project fdi febr products. procure and ship one fe/br shw 4c door leaf, 13 febr glazing panels and the keys and core for two ces doors from fdi. cor: john sligh attn: keith aiken it request status: false::2026-08-11": "clu_5a08776ee3",
+    "u.s. department of the treasury::cyclone hill ce/be::2026-08-11": "clu_1a6153e087",
+    "u.s. department of the treasury::soar-d10-01399 axle -- task order # 392::2026-08-11": "clu_46c8d435d0",
+    "u.s. department of the treasury::pacific oasis inc orocf000500 c41::2026-08-11": "clu_b48230a5ac",
+    "u.s. department of the treasury::igf::ot::igf clinical support services for niehs::2026-08-11": "clu_01da1cfa82",
+    "u.s. department of the treasury::sunnuclear software license subscription base + 4 oys::2026-08-11": "clu_1b026c215b",
+    "u.s. department of the treasury::fuel for official rso vehicles::2026-08-11": "clu_7ca2db9c90",
+    "u.s. department of the treasury::fy26 7/7/26 b2 air evac emergency med flight anguiano-gonzales, samuel 40914-044 hshs holy family hospital greenville, il to st. joseph's hospital springfield, il::2026-08-11": "clu_099fe0d004",
+    "u.s. department of the treasury::wastewater sampling and analysis - base + 4::2026-08-11": "clu_528bf2482b",
+    "u.s. department of the treasury::fuel oil prufier service::2026-08-11": "clu_704398d5ca",
+    "u.s. department of the treasury::year 7 clin 6001 of abs services idiq. the noaa fleet requires support services from the american burau of shipping to maintain regulatory compliance with established uscg standards allowing continued safe operations in support of noaas mission.::2026-08-11": "clu_2e6fa14ea7",
+    "u.s. department of the treasury::contractor: social & scientific systems, inc. task order: 75n96021f00004 - statistical programming and analysis base period: june 30, 2021 - june 29, 2022 can 8469992::2026-08-11": "clu_f1eacd1e5b",
+    "u.s. department of the treasury::nia: service: service agreement on mitochondrial dna (mtdna) haplogroup single nucleotide polymorphism (snp) genotyping for 1500 samples using 10 custom mtdna snp primers which identify mutually exclusive haplogroups (r,n,k,l,m,h,j,uk,t,hv): non seve::2026-08-11": "clu_ed56221ca4",
+    "u.s. department of the treasury::lonestar enterprises, inc orumf000222 e323::2026-08-11": "clu_01405b4f3e",
+    "u.s. department of the treasury::replace aviation fueling system at air station port angeles, port angeles, wa.::2026-08-11": "clu_56dbb45a36",
+    "u.s. department of the treasury::webex fedramp software licensing::2026-08-11": "clu_5d93828555",
+    "u.s. department of the treasury::mission critical - providing physical security in courthouses. fy25 msd design review contract (base plus four)::2026-08-11": "clu_87888be701",
+    "u.s. department of the treasury::itar-26-2749/sli 56892/fcs cloud hosting services/four points technology, l.l.c./::2026-08-11": "clu_6c617e91fe",
+    "u.s. department of the treasury::op engine overhaul course::2026-08-11": "clu_7b7a683e6a",
+    "u.s. department of the treasury::contractor: social & scientific systems, inc. task order: 75n96021f00005 - it infrastructure maintenance base period: june 30, 2021 - june 29, 2022 8469992::2026-08-11": "clu_c930e9d605",
+    "u.s. department of the treasury::jefferson consulting group, llc:1122953 [26-001148]::2026-08-11": "clu_9534e69ecc",
+    "u.s. department of the treasury::r10-petersburg call when needed-exclusive use::2026-08-11": "clu_7fcc39c15a",
+    "u.s. department of the treasury::itar-26-2420 | sli# 58942 cloud hosting services do-0165 fcs2 $322,100 sli locator: ais f&e: soc apt - fy26 funds::2026-08-11": "clu_e0e6927301",
+    "u.s. department of the treasury::ama-200 instructor support services contract - air l/h & trvl incrementally funded.::2026-08-11": "clu_aa9ad04993",
+    "u.s. department of the treasury::wireline cmf funding::2026-08-11": "clu_236e941e19",
+    "u.s. department of the treasury::direct tv subscritpions services for va palo alto health care system (vapahcs).::2026-08-11": "clu_98f8967cb3",
+    "u.s. department of the treasury::cgc mohawk hull services::2026-08-11": "clu_02c7686b28",
+    "u.s. department of the treasury::project 515-23-101 - renovate audiology::2026-08-11": "clu_2df74d4a3e",
+    "u.s. department of the treasury::fcs tag 0154 - toda::2026-08-11": "clu_c84a183abd",
+    "u.s. department of the treasury::entellitrak case management system for tracking er/lr, ra, anti-harassment cases and e-complaint system for anti-harassment reports.::2026-08-11": "clu_fdc2ee7b74",
+    "u.s. department of the treasury::morgan r lewis cths renaming project lewis r. morgan fbct newnan, ga 30263::2026-08-11": "clu_3ffc1bba34",
+    "u.s. department of the treasury::itar-26-2878 sli# 63722, efa-26-aeeredt-4812, four points technology llc, $150,000.00 award of this pr will establish a new delivery order (do ref id 0156) under the fcs2 contract to provide cloud hosting services for aee redt.::2026-08-11": "clu_19e0def19f",
+    "u.s. department of the treasury::nia: supply: ella system with desktop 600-100::2026-08-11": "clu_da9431ac18",
+    "u.s. department of the treasury::nimh: supply: agilent gc (8850 gc system mts ssl/fid), installed software on a pc, (open lab cds) and automatic liquid sampler (7650 als)::2026-08-11": "clu_0e54a2f219",
+    "u.s. department of the treasury::mchb62 c 4669 newborn screening clearinghouse::2026-08-11": "clu_38bd8172a4",
+    "u.s. department of the treasury::ojc strategic communications/marketing support services::2026-08-11": "clu_217f8df170",
+    "u.s. department of the treasury::call when needed (united states department of agriculture-forest service) airtanketer flight service in support of the department of the interior fire suppression mission- 2026 helicopter express::2026-08-11": "clu_74b57e1350",
+    "u.s. department of the treasury::task order award: cbs::2026-08-11": "clu_9e6f3295ed",
+    "u.s. department of the treasury::entellitrak business process implementation system support services all pricing and terms and conditions iaw attached sow and pricing quote dated: 08/01/2023. cor: yung pak phone: 202-510-2320 email: yung.pak@usdoj.gov::2026-08-11": "clu_e19d3c91f9",
+    "u.s. department of the treasury::life safety consultant services for va northern california::2026-08-11": "clu_e199f3d14e",
+    "u.s. department of the treasury::siemen's collimator::2026-08-11": "clu_472f607cd5",
+    "u.s. department of the treasury::bf/bw laredo iv paralegals-4::2026-08-11": "clu_d66dc69ffd",
+    "u.s. department of the treasury::altergott forestry, llc nenbf260568 e1::2026-08-11": "clu_72b960c7c4",
+    "u.s. department of the treasury::alpha site services, llc orupf260002 s206::2026-08-11": "clu_84dd84d3b4",
+    "u.s. department of the treasury::support services for epidemiology; task order 10 - gulf study cohort maintenance core activities cost-reimbursement, severable::2026-08-11": "clu_80cdc040ab",
+    "u.s. department of the treasury::design jet plotter printer with delivery and setup for farm production and conservation, natural resources conservation service.::2026-08-11": "clu_9cb75b6071",
+    "u.s. department of the treasury::hi0001 hilo federal building pigeon mitigation::2026-08-11": "clu_9eaf11013e",
+    "u.s. department of the treasury::ists io security case management::2026-08-11": "clu_5bf697f515",
+    "u.s. department of the treasury::fac - pmsc domestic water treatment::2026-08-11": "clu_31c0d9ead9",
+    "u.s. department of the treasury::task order::2026-08-11": "clu_7f1f863c4d",
+    "u.s. department of the treasury::variax mini cannulated backstock::2026-08-11": "clu_c5a41a8921",
+    "u.s. department of the treasury::admiral callaghan fy26 downgrade - sailing to lay-up site a pcs-acl26-1102 a::2026-08-11": "clu_d343afbb57",
+    "u.s. department of the treasury::gitm-desktop - ultra wide 32\" monitor display samsung viewfinity s8::2026-08-11": "clu_1584f96bdd",
+    "u.s. department of the treasury::boc - 2587 - ids installation labor::2026-08-11": "clu_7a866d3dc7",
+    "u.s. department of the treasury::ama-400 tech ops instructional support services contract techops/issc::2026-08-11": "clu_b4aac0745d",
+    "u.s. department of the treasury::provide second level engineering services to maintain the offshore data processing system (ofdps) hardware and software.::2026-08-11": "clu_c3eaae791d",
+    "u.s. department of the treasury::quincy helibase modular office lease - multiple year plumas national forest (pnf5)::2026-08-11": "clu_5ec0910b7c",
+    "u.s. department of the treasury::icam services::2026-08-11": "clu_632c87a8bf",
+    "u.s. department of the treasury::easi management support services for oia::2026-08-11": "clu_7863123611",
+    "u.s. department of the treasury::air ambulance services for the san francisco veterans affairs medical center (sfvamc)::2026-08-11": "clu_dbc7a5e4d4",
+    "u.s. department of the treasury::grandstand inspections 3 bldgs::2026-08-11": "clu_52c57e5deb",
+    "u.s. department of the treasury::this delivery order is for bulk purchases against uniforms contract.::2026-08-11": "clu_191512def2",
+    "u.s. department of the treasury::windy hill mhp transferred ownership from the vermont state housing authority to the housing foundation, inc for commercial pad lease in support of dr-4720-vt::2026-08-11": "clu_0d607d461f",
+    "u.s. department of the treasury::caretaker services for uscg facilities located on st paul island, alaska.::2026-08-11": "clu_09883c946e",
+    "u.s. department of the treasury::medical gas cylinders::2026-08-11": "clu_72ec1b801e",
+    "u.s. department of the treasury::grand jury and deposition court reporting services::2026-08-11": "clu_90e5dc6ae9",
+    "u.s. department of war (旧 department of defense)::contracts for aug. 11, 2026::2026-08-11": "clu_73a49d70d5"
   },
   "clusters": {
-    "clu_6fd4f98923": {
+    "clu_5b71ae2cfb": {
       "primary_event_id": "evt_20260813_4ca527d298",
       "event_ids": [
         "evt_20260813_4ca527d298"
@@ -36,7 +311,7 @@
         "src_jp_boj"
       ]
     },
-    "clu_8d70c25e1b": {
+    "clu_6a9ff1fb57": {
       "primary_event_id": "evt_20260813_5941efec56",
       "event_ids": [
         "evt_20260813_5941efec56"
@@ -45,7 +320,7 @@
         "src_eu_commission_press"
       ]
     },
-    "clu_eafef68fc9": {
+    "clu_4c506a31ec": {
       "primary_event_id": "evt_20260813_2f9cef8a0b",
       "event_ids": [
         "evt_20260813_2f9cef8a0b"
@@ -54,7 +329,7 @@
         "src_nvidia_newsroom"
       ]
     },
-    "clu_69c49e500f": {
+    "clu_c851b69491": {
       "primary_event_id": "evt_20260813_0f84188822",
       "event_ids": [
         "evt_20260813_0f84188822"
@@ -63,7 +338,7 @@
         "src_nvidia_newsroom"
       ]
     },
-    "clu_21c0350197": {
+    "clu_4924fd14cb": {
       "primary_event_id": "evt_20260813_ea74681c05",
       "event_ids": [
         "evt_20260813_ea74681c05"
@@ -72,7 +347,7 @@
         "src_nvidia_newsroom"
       ]
     },
-    "clu_1ee6ba7dcb": {
+    "clu_fd2f26342a": {
       "primary_event_id": "evt_20260813_4975c9c601",
       "event_ids": [
         "evt_20260813_4975c9c601"
@@ -81,13 +356,904 @@
         "src_ieee_spectrum"
       ]
     },
-    "clu_63f6dc87c2": {
+    "clu_35d2db462d": {
       "primary_event_id": "evt_20260813_dbda650534",
       "event_ids": [
         "evt_20260813_dbda650534"
       ],
       "source_ids": [
         "src_ieee_spectrum"
+      ]
+    },
+    "clu_4b37f71088": {
+      "primary_event_id": "evt_20260813_8eb9a6153b",
+      "event_ids": [
+        "evt_20260813_8eb9a6153b"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_7b2b40bc4c": {
+      "primary_event_id": "evt_20260813_3435a2ffc1",
+      "event_ids": [
+        "evt_20260813_3435a2ffc1"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_3572e16708": {
+      "primary_event_id": "evt_20260813_7bcd6efb59",
+      "event_ids": [
+        "evt_20260813_7bcd6efb59"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_c1fb13e2a1": {
+      "primary_event_id": "evt_20260813_72b1beb6f9",
+      "event_ids": [
+        "evt_20260813_72b1beb6f9"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_1ee2942ec7": {
+      "primary_event_id": "evt_20260813_f4c8f7ee37",
+      "event_ids": [
+        "evt_20260813_f4c8f7ee37"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_71a8326640": {
+      "primary_event_id": "evt_20260813_eba76a6cd3",
+      "event_ids": [
+        "evt_20260813_eba76a6cd3"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_e938020a09": {
+      "primary_event_id": "evt_20260813_d9b55e089d",
+      "event_ids": [
+        "evt_20260813_d9b55e089d"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_852c5bb98e": {
+      "primary_event_id": "evt_20260813_3a5133d8a2",
+      "event_ids": [
+        "evt_20260813_3a5133d8a2"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_8f8a5ffc2e": {
+      "primary_event_id": "evt_20260813_7653575b0a",
+      "event_ids": [
+        "evt_20260813_7653575b0a"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_f916ef85a0": {
+      "primary_event_id": "evt_20260813_f97d3ccda0",
+      "event_ids": [
+        "evt_20260813_f97d3ccda0"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_5a08776ee3": {
+      "primary_event_id": "evt_20260813_9b4fba607d",
+      "event_ids": [
+        "evt_20260813_9b4fba607d"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_d71ed713cf": {
+      "primary_event_id": "evt_20260813_3c65900b28",
+      "event_ids": [
+        "evt_20260813_3c65900b28"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_85ebf77038": {
+      "primary_event_id": "evt_20260813_698fd5679d",
+      "event_ids": [
+        "evt_20260813_698fd5679d"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_eb40cf35e6": {
+      "primary_event_id": "evt_20260813_204d4d6785",
+      "event_ids": [
+        "evt_20260813_204d4d6785"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_1a6153e087": {
+      "primary_event_id": "evt_20260813_80c822e693",
+      "event_ids": [
+        "evt_20260813_80c822e693"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_46c8d435d0": {
+      "primary_event_id": "evt_20260813_11908bba06",
+      "event_ids": [
+        "evt_20260813_11908bba06"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_b48230a5ac": {
+      "primary_event_id": "evt_20260813_bbede4c048",
+      "event_ids": [
+        "evt_20260813_bbede4c048"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_01da1cfa82": {
+      "primary_event_id": "evt_20260813_2a54233b3e",
+      "event_ids": [
+        "evt_20260813_2a54233b3e"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_1b026c215b": {
+      "primary_event_id": "evt_20260813_728a6eb942",
+      "event_ids": [
+        "evt_20260813_728a6eb942"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_7ca2db9c90": {
+      "primary_event_id": "evt_20260813_761527ae13",
+      "event_ids": [
+        "evt_20260813_761527ae13"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_25ebe236e9": {
+      "primary_event_id": "evt_20260813_d03174cefc",
+      "event_ids": [
+        "evt_20260813_d03174cefc"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_099fe0d004": {
+      "primary_event_id": "evt_20260813_57aea3f378",
+      "event_ids": [
+        "evt_20260813_57aea3f378"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_528bf2482b": {
+      "primary_event_id": "evt_20260813_78a3d65f02",
+      "event_ids": [
+        "evt_20260813_78a3d65f02"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_704398d5ca": {
+      "primary_event_id": "evt_20260813_7fc4f2127a",
+      "event_ids": [
+        "evt_20260813_7fc4f2127a"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_2e6fa14ea7": {
+      "primary_event_id": "evt_20260813_129fbe32f8",
+      "event_ids": [
+        "evt_20260813_129fbe32f8"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_f1eacd1e5b": {
+      "primary_event_id": "evt_20260813_99e6d5d804",
+      "event_ids": [
+        "evt_20260813_99e6d5d804"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_ed56221ca4": {
+      "primary_event_id": "evt_20260813_2829ed98b2",
+      "event_ids": [
+        "evt_20260813_2829ed98b2"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_01405b4f3e": {
+      "primary_event_id": "evt_20260813_1308657574",
+      "event_ids": [
+        "evt_20260813_1308657574"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_56dbb45a36": {
+      "primary_event_id": "evt_20260813_ea95f8cb73",
+      "event_ids": [
+        "evt_20260813_ea95f8cb73"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_5d93828555": {
+      "primary_event_id": "evt_20260813_e3da4767f7",
+      "event_ids": [
+        "evt_20260813_e3da4767f7"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_fe7e65d6e1": {
+      "primary_event_id": "evt_20260813_7b845177a9",
+      "event_ids": [
+        "evt_20260813_7b845177a9"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_87888be701": {
+      "primary_event_id": "evt_20260813_894b1b9c34",
+      "event_ids": [
+        "evt_20260813_894b1b9c34"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_6c617e91fe": {
+      "primary_event_id": "evt_20260813_0c05af62d1",
+      "event_ids": [
+        "evt_20260813_0c05af62d1"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_7b7a683e6a": {
+      "primary_event_id": "evt_20260813_ec2eb77c61",
+      "event_ids": [
+        "evt_20260813_ec2eb77c61"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_c930e9d605": {
+      "primary_event_id": "evt_20260813_db92de1240",
+      "event_ids": [
+        "evt_20260813_db92de1240"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_9534e69ecc": {
+      "primary_event_id": "evt_20260813_da8c0b4da2",
+      "event_ids": [
+        "evt_20260813_da8c0b4da2"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_7fcc39c15a": {
+      "primary_event_id": "evt_20260813_e3aee8f256",
+      "event_ids": [
+        "evt_20260813_e3aee8f256"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_e0e6927301": {
+      "primary_event_id": "evt_20260813_60715f9b99",
+      "event_ids": [
+        "evt_20260813_60715f9b99"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_aa9ad04993": {
+      "primary_event_id": "evt_20260813_69aaff7afa",
+      "event_ids": [
+        "evt_20260813_69aaff7afa"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_236e941e19": {
+      "primary_event_id": "evt_20260813_6b55114e83",
+      "event_ids": [
+        "evt_20260813_6b55114e83"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_5acb64a821": {
+      "primary_event_id": "evt_20260813_48ee4399c6",
+      "event_ids": [
+        "evt_20260813_48ee4399c6"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_98f8967cb3": {
+      "primary_event_id": "evt_20260813_3c040488e1",
+      "event_ids": [
+        "evt_20260813_3c040488e1"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_02c7686b28": {
+      "primary_event_id": "evt_20260813_53ad94898e",
+      "event_ids": [
+        "evt_20260813_53ad94898e"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_2df74d4a3e": {
+      "primary_event_id": "evt_20260813_88468ca13d",
+      "event_ids": [
+        "evt_20260813_88468ca13d"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_c84a183abd": {
+      "primary_event_id": "evt_20260813_37c8d5cee9",
+      "event_ids": [
+        "evt_20260813_37c8d5cee9"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_fdc2ee7b74": {
+      "primary_event_id": "evt_20260813_ba1f0c54cd",
+      "event_ids": [
+        "evt_20260813_ba1f0c54cd"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_3ffc1bba34": {
+      "primary_event_id": "evt_20260813_bd55fd38d5",
+      "event_ids": [
+        "evt_20260813_bd55fd38d5"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_19e0def19f": {
+      "primary_event_id": "evt_20260813_36dbb4b104",
+      "event_ids": [
+        "evt_20260813_36dbb4b104"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_da9431ac18": {
+      "primary_event_id": "evt_20260813_418fcec21c",
+      "event_ids": [
+        "evt_20260813_418fcec21c"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_0692ccf646": {
+      "primary_event_id": "evt_20260813_f4fb764192",
+      "event_ids": [
+        "evt_20260813_f4fb764192"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_0e54a2f219": {
+      "primary_event_id": "evt_20260813_0e5a40cea7",
+      "event_ids": [
+        "evt_20260813_0e5a40cea7"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_38bd8172a4": {
+      "primary_event_id": "evt_20260813_1cbe78ea02",
+      "event_ids": [
+        "evt_20260813_1cbe78ea02"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_ad95622130": {
+      "primary_event_id": "evt_20260813_34c79ca47e",
+      "event_ids": [
+        "evt_20260813_34c79ca47e"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_8d4add61db": {
+      "primary_event_id": "evt_20260813_bed1ca59fb",
+      "event_ids": [
+        "evt_20260813_bed1ca59fb"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_217f8df170": {
+      "primary_event_id": "evt_20260813_5b99ef58a3",
+      "event_ids": [
+        "evt_20260813_5b99ef58a3"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_7e6c4ac678": {
+      "primary_event_id": "evt_20260813_c5f292ab92",
+      "event_ids": [
+        "evt_20260813_c5f292ab92"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_74b57e1350": {
+      "primary_event_id": "evt_20260813_300b708348",
+      "event_ids": [
+        "evt_20260813_300b708348"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_e400fd9c9e": {
+      "primary_event_id": "evt_20260813_bf79e99bb7",
+      "event_ids": [
+        "evt_20260813_bf79e99bb7"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_9e6f3295ed": {
+      "primary_event_id": "evt_20260813_fa534dd8e1",
+      "event_ids": [
+        "evt_20260813_fa534dd8e1"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_39f2d469b8": {
+      "primary_event_id": "evt_20260813_a3d562bbd1",
+      "event_ids": [
+        "evt_20260813_a3d562bbd1"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_e19d3c91f9": {
+      "primary_event_id": "evt_20260813_fe1c35823b",
+      "event_ids": [
+        "evt_20260813_fe1c35823b"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_e199f3d14e": {
+      "primary_event_id": "evt_20260813_87d984203c",
+      "event_ids": [
+        "evt_20260813_87d984203c"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_472f607cd5": {
+      "primary_event_id": "evt_20260813_31f0f089c3",
+      "event_ids": [
+        "evt_20260813_31f0f089c3"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_2dae64092e": {
+      "primary_event_id": "evt_20260813_31d0ebf8e4",
+      "event_ids": [
+        "evt_20260813_31d0ebf8e4"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_d66dc69ffd": {
+      "primary_event_id": "evt_20260813_32c3ef2ff5",
+      "event_ids": [
+        "evt_20260813_32c3ef2ff5"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_72b960c7c4": {
+      "primary_event_id": "evt_20260813_89103de9e2",
+      "event_ids": [
+        "evt_20260813_89103de9e2"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_84dd84d3b4": {
+      "primary_event_id": "evt_20260813_f3d59815b6",
+      "event_ids": [
+        "evt_20260813_f3d59815b6"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_80cdc040ab": {
+      "primary_event_id": "evt_20260813_8a65e753bb",
+      "event_ids": [
+        "evt_20260813_8a65e753bb"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_9cb75b6071": {
+      "primary_event_id": "evt_20260813_175e459d15",
+      "event_ids": [
+        "evt_20260813_175e459d15"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_9eaf11013e": {
+      "primary_event_id": "evt_20260813_a3e69fdad3",
+      "event_ids": [
+        "evt_20260813_a3e69fdad3"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_5bf697f515": {
+      "primary_event_id": "evt_20260813_bc5ce9d43c",
+      "event_ids": [
+        "evt_20260813_bc5ce9d43c"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_64d62ec223": {
+      "primary_event_id": "evt_20260813_fa45458213",
+      "event_ids": [
+        "evt_20260813_fa45458213"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_6cfeacb04b": {
+      "primary_event_id": "evt_20260813_aa930c8e29",
+      "event_ids": [
+        "evt_20260813_aa930c8e29"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_31c0d9ead9": {
+      "primary_event_id": "evt_20260813_c9d3a01291",
+      "event_ids": [
+        "evt_20260813_c9d3a01291"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_7f1f863c4d": {
+      "primary_event_id": "evt_20260813_d5c0ca3cba",
+      "event_ids": [
+        "evt_20260813_d5c0ca3cba"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_c5a41a8921": {
+      "primary_event_id": "evt_20260813_cebb5e2954",
+      "event_ids": [
+        "evt_20260813_cebb5e2954"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_a5c13e143b": {
+      "primary_event_id": "evt_20260813_6c5a19dff5",
+      "event_ids": [
+        "evt_20260813_6c5a19dff5"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_d343afbb57": {
+      "primary_event_id": "evt_20260813_a09f76a879",
+      "event_ids": [
+        "evt_20260813_a09f76a879"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_1584f96bdd": {
+      "primary_event_id": "evt_20260813_5847029789",
+      "event_ids": [
+        "evt_20260813_5847029789"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_f955ca0124": {
+      "primary_event_id": "evt_20260813_a43701a176",
+      "event_ids": [
+        "evt_20260813_a43701a176"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_7a866d3dc7": {
+      "primary_event_id": "evt_20260813_762fbcab93",
+      "event_ids": [
+        "evt_20260813_762fbcab93"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_b4aac0745d": {
+      "primary_event_id": "evt_20260813_e31d0f14b3",
+      "event_ids": [
+        "evt_20260813_e31d0f14b3"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_79af99ceb1": {
+      "primary_event_id": "evt_20260813_1ecf925973",
+      "event_ids": [
+        "evt_20260813_1ecf925973"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_cd2440788c": {
+      "primary_event_id": "evt_20260813_a726f700f3",
+      "event_ids": [
+        "evt_20260813_a726f700f3"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_c3eaae791d": {
+      "primary_event_id": "evt_20260813_4ddfb8e3e8",
+      "event_ids": [
+        "evt_20260813_4ddfb8e3e8"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_5ec0910b7c": {
+      "primary_event_id": "evt_20260813_7264717bb2",
+      "event_ids": [
+        "evt_20260813_7264717bb2"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_73890aa68a": {
+      "primary_event_id": "evt_20260813_acc2b26a95",
+      "event_ids": [
+        "evt_20260813_acc2b26a95"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_632c87a8bf": {
+      "primary_event_id": "evt_20260813_98d4e5128e",
+      "event_ids": [
+        "evt_20260813_98d4e5128e"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_7863123611": {
+      "primary_event_id": "evt_20260813_5b21c7f393",
+      "event_ids": [
+        "evt_20260813_5b21c7f393"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_dbc7a5e4d4": {
+      "primary_event_id": "evt_20260813_2c8921d3d1",
+      "event_ids": [
+        "evt_20260813_2c8921d3d1"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_52c57e5deb": {
+      "primary_event_id": "evt_20260813_df90075643",
+      "event_ids": [
+        "evt_20260813_df90075643"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_191512def2": {
+      "primary_event_id": "evt_20260813_fd65d286b5",
+      "event_ids": [
+        "evt_20260813_fd65d286b5"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_0d607d461f": {
+      "primary_event_id": "evt_20260813_defecd9124",
+      "event_ids": [
+        "evt_20260813_defecd9124"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_09883c946e": {
+      "primary_event_id": "evt_20260813_1910628eb8",
+      "event_ids": [
+        "evt_20260813_1910628eb8"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_668cf63b68": {
+      "primary_event_id": "evt_20260813_dc5d6b4e6d",
+      "event_ids": [
+        "evt_20260813_dc5d6b4e6d"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_72ec1b801e": {
+      "primary_event_id": "evt_20260813_99ccaf311d",
+      "event_ids": [
+        "evt_20260813_99ccaf311d"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_aa046d4c31": {
+      "primary_event_id": "evt_20260813_2fb93b2956",
+      "event_ids": [
+        "evt_20260813_2fb93b2956"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_90e5dc6ae9": {
+      "primary_event_id": "evt_20260813_83e16760ea",
+      "event_ids": [
+        "evt_20260813_83e16760ea"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_73a49d70d5": {
+      "primary_event_id": "evt_20260813_86263b33f3",
+      "event_ids": [
+        "evt_20260813_86263b33f3"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
       ]
     }
   }

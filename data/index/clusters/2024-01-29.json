@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://esa.int/Enabling_Support/Space_Transportation/Everything_rockets": "clu_5c8bde72e0"
+  },
+  "by_hash": {
+    "4b63a4d3908ecc2050fe8f92ea7d990e14e7962ef219959b311cacfff7ffa03e": "clu_5c8bde72e0"
+  },
+  "by_key": {
+    "european space agency::everything rockets::2024-01-29": "clu_5c8bde72e0"
+  },
+  "clusters": {
+    "clu_5c8bde72e0": {
+      "primary_event_id": "evt_20260813_4b63a4d390",
+      "event_ids": [
+        "evt_20260813_4b63a4d390"
+      ],
+      "source_ids": [
+        "src_esa_news"
+      ]
+    }
+  }
+}

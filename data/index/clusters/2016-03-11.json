@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_SAQMMA16C0064_1900_-NONE-_-NONE-": "clu_6c092a4d77"
+  },
+  "by_hash": {
+    "12cc7086f3b832765d599d9fba25469a70e7705ae80c1b12ce69b9dc56a0cf29": "clu_6c092a4d77"
+  },
+  "by_key": {
+    "u.s. department of the treasury::the contractor is provide high-quality visa operations support and limited visa processing activities as required in washington, d.c. and in a few remote locations with with substantial experience and proven management practices in providing employees for complex analytical work. the contractor is responsible for all functions of visa processing support except those duties designated by dos as inherently governmental, such as adjudicating visas and making policy decisions, which must be performed by government employees.::2016-03-11": "clu_6c092a4d77"
+  },
+  "clusters": {
+    "clu_6c092a4d77": {
+      "primary_event_id": "evt_20260813_12cc7086f3",
+      "event_ids": [
+        "evt_20260813_12cc7086f3"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

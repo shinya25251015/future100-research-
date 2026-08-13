@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_DEAC3010CC40017_8900_-NONE-_-NONE-": "clu_0759b59b39"
+  },
+  "by_hash": {
+    "1a120f80bbdf2193c1b8b2f78e55d53391ed34fcc17182997716a80df5438166": "clu_0759b59b39"
+  },
+  "by_key": {
+    "u.s. department of the treasury::portsmouth gaseous diffusion plant decontamination and decommissioning project::2010-08-16": "clu_0759b59b39"
+  },
+  "clusters": {
+    "clu_0759b59b39": {
+      "primary_event_id": "evt_20260813_1a120f80bb",
+      "event_ids": [
+        "evt_20260813_1a120f80bb"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

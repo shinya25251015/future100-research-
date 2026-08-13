@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_75A50124C00012_7505_-NONE-_-NONE-": "clu_b9dccb9301"
+  },
+  "by_hash": {
+    "f694318edde79d6e2e61d200a1d07a3d543553323378e85c1c5a1159511410d9": "clu_b9dccb9301"
+  },
+  "by_key": {
+    "u.s. department of the treasury::other transaction: start2 group, inc. (75a50124c00012)::2024-04-10": "clu_b9dccb9301"
+  },
+  "clusters": {
+    "clu_b9dccb9301": {
+      "primary_event_id": "evt_20260813_f694318edd",
+      "event_ids": [
+        "evt_20260813_f694318edd"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

@@ -1,18 +1,21 @@
 {
   "by_url": {
-    "https://event.on24.com/wcc/r/5418459/287E3D5B99470D34C830D69A24B3B207": "clu_ba90560dd3",
-    "https://spectrum.ieee.org/ieee-program-girls-india-stem": "clu_8e24e3b152"
+    "https://event.on24.com/wcc/r/5418459/287E3D5B99470D34C830D69A24B3B207": "clu_31934b88bc",
+    "https://spectrum.ieee.org/ieee-program-girls-india-stem": "clu_e1e37b2db0",
+    "https://war.gov/News/Contracts/Contract/Article/4550330/contracts-for-july-20-2026": "clu_c19a7693f8"
   },
   "by_hash": {
-    "9be9d14ebe61c17b0d15696c04e537387502756a3bd52c6b5a84d985127976d4": "clu_ba90560dd3",
-    "0c3eb63b7aff8746f68c7f46f74451ba5a4b32ebbf7e0526ef96d1e599641416": "clu_8e24e3b152"
+    "9be9d14ebe61c17b0d15696c04e537387502756a3bd52c6b5a84d985127976d4": "clu_31934b88bc",
+    "0c3eb63b7aff8746f68c7f46f74451ba5a4b32ebbf7e0526ef96d1e599641416": "clu_e1e37b2db0",
+    "6e86849f8feb736d95188d4179dc127aca70546cafee9c3a4dd67d3cfdb4e1ca": "clu_c19a7693f8"
   },
   "by_key": {
-    "ieee::sem-guided low-kv fib finishing for leading-edge semiconductor failure analysis::2026-07-20": "clu_ba90560dd3",
-    "ieee::ieee program helps girls in india see a future in stem::2026-07-20": "clu_8e24e3b152"
+    "ieee::sem-guided low-kv fib finishing for leading-edge semiconductor failure analysis::2026-07-20": "clu_31934b88bc",
+    "ieee::ieee program helps girls in india see a future in stem::2026-07-20": "clu_e1e37b2db0",
+    "u.s. department of war (旧 department of defense)::contracts for july 20, 2026::2026-07-20": "clu_c19a7693f8"
   },
   "clusters": {
-    "clu_ba90560dd3": {
+    "clu_31934b88bc": {
       "primary_event_id": "evt_20260813_9be9d14ebe",
       "event_ids": [
         "evt_20260813_9be9d14ebe"
@@ -21,13 +24,22 @@
         "src_ieee_spectrum"
       ]
     },
-    "clu_8e24e3b152": {
+    "clu_e1e37b2db0": {
       "primary_event_id": "evt_20260813_0c3eb63b7a",
       "event_ids": [
         "evt_20260813_0c3eb63b7a"
       ],
       "source_ids": [
         "src_ieee_spectrum"
+      ]
+    },
+    "clu_c19a7693f8": {
+      "primary_event_id": "evt_20260813_6e86849f8f",
+      "event_ids": [
+        "evt_20260813_6e86849f8f"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
       ]
     }
   }

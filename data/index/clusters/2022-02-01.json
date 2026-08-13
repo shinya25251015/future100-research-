@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_75FCMC22F0016_7530_GS35F146DA_4732": "clu_ff6159c1c9"
+  },
+  "by_hash": {
+    "005f654d2e9f84d8a4c96139a11fb4364cc9a640f6b17d32add53e8f0d56408e": "clu_ff6159c1c9"
+  },
+  "by_key": {
+    "u.s. department of the treasury::fiscal intermediary shared system maintainer (fiss) the claim processing system used by medicare administrative contractors (macs) to process medicare part a claims::2022-02-01": "clu_ff6159c1c9"
+  },
+  "clusters": {
+    "clu_ff6159c1c9": {
+      "primary_event_id": "evt_20260813_005f654d2e",
+      "event_ids": [
+        "evt_20260813_005f654d2e"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://war.gov/News/Contracts/Contract/Article/4546541/contracts-for-july-15-2026": "clu_b756ffe7a5"
+  },
+  "by_hash": {
+    "fef861716b92f20d23f1821d9d7ca9650b84fa26aa91f0376c4d68434b1770a9": "clu_b756ffe7a5"
+  },
+  "by_key": {
+    "u.s. department of war (旧 department of defense)::contracts for july 15, 2026::2026-07-15": "clu_b756ffe7a5"
+  },
+  "clusters": {
+    "clu_b756ffe7a5": {
+      "primary_event_id": "evt_20260813_fef861716b",
+      "event_ids": [
+        "evt_20260813_fef861716b"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
+      ]
+    }
+  }
+}

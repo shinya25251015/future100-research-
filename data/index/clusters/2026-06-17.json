@@ -1,0 +1,70 @@
+{
+  "by_url": {
+    "https://esa.int/ESA_Multimedia/Videos/2026/06/Ariane_6_flight_VA269_-_full_replay": "clu_0ac812975d",
+    "https://esa.int/Enabling_Support/Space_Transportation/Ariane/Ariane_6_launches_with_more_powerful_boosters_a_new_record_for_Europe": "clu_909b225729",
+    "https://esa.int/ESA_Multimedia/Images/2026/06/Seen_from_above_liftoff_of_first_Ariane_6_with_P160C-based_boosters": "clu_0705c63b4c",
+    "https://esa.int/ESA_Multimedia/Images/2026/06/Liftoff_first_Ariane_6_liftoff_with_P160C-based_boosters": "clu_7e425b8cf8",
+    "https://esa.int/ESA_Multimedia/Videos/2026/06/First_Ariane_6_liftoff_with_most_powerful_boosters": "clu_63fb4549d1"
+  },
+  "by_hash": {
+    "da41e8fb37cfdf23e93ce617eb92835ea32e5139267ef7f1c72c7e2aa28ed20d": "clu_0ac812975d",
+    "be73fccdf9e028cfc648d7890305bae05aa3f9f9a2431b475ccbabf4c242550d": "clu_909b225729",
+    "3aad0fc91fb27fed7989257786afd0ace8c19ba9276ccba7ee70f7f5937e5d9c": "clu_0705c63b4c",
+    "34b95d58edfb6f738d1c70296b31ed24e77f8767fd92885fc9667066a12ba6b2": "clu_7e425b8cf8",
+    "f8c1abe451480a0aed68d2ea4028889b93ba23bac5752391e9320903ddc55b5f": "clu_63fb4549d1"
+  },
+  "by_key": {
+    "european space agency::ariane 6 flight va269 - full replay::2026-06-17": "clu_0ac812975d",
+    "european space agency::ariane 6 launches with more powerful boosters: a new record for europe::2026-06-17": "clu_909b225729",
+    "european space agency::seen from above: liftoff of first ariane 6 with p160c-based boosters::2026-06-17": "clu_0705c63b4c",
+    "european space agency::liftoff: first ariane 6 liftoff with p160c-based boosters::2026-06-17": "clu_7e425b8cf8",
+    "european space agency::first ariane 6 liftoff with most powerful boosters::2026-06-17": "clu_63fb4549d1"
+  },
+  "clusters": {
+    "clu_0ac812975d": {
+      "primary_event_id": "evt_20260813_da41e8fb37",
+      "event_ids": [
+        "evt_20260813_da41e8fb37"
+      ],
+      "source_ids": [
+        "src_esa_news"
+      ]
+    },
+    "clu_909b225729": {
+      "primary_event_id": "evt_20260813_be73fccdf9",
+      "event_ids": [
+        "evt_20260813_be73fccdf9"
+      ],
+      "source_ids": [
+        "src_esa_news"
+      ]
+    },
+    "clu_0705c63b4c": {
+      "primary_event_id": "evt_20260813_3aad0fc91f",
+      "event_ids": [
+        "evt_20260813_3aad0fc91f"
+      ],
+      "source_ids": [
+        "src_esa_news"
+      ]
+    },
+    "clu_7e425b8cf8": {
+      "primary_event_id": "evt_20260813_34b95d58ed",
+      "event_ids": [
+        "evt_20260813_34b95d58ed"
+      ],
+      "source_ids": [
+        "src_esa_news"
+      ]
+    },
+    "clu_63fb4549d1": {
+      "primary_event_id": "evt_20260813_f8c1abe451",
+      "event_ids": [
+        "evt_20260813_f8c1abe451"
+      ],
+      "source_ids": [
+        "src_esa_news"
+      ]
+    }
+  }
+}

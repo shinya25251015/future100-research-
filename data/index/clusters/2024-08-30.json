@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_140R4024C0013_1425_-NONE-_-NONE-": "clu_3c9d3d65f6"
+  },
+  "by_hash": {
+    "43a682fc2c3e4b332db9c644996397f5d87fd359c9ae3e41480685b2add9cac4": "clu_3c9d3d65f6"
+  },
+  "by_key": {
+    "u.s. department of the treasury::san juan lateral water treatment plant::2024-08-30": "clu_3c9d3d65f6"
+  },
+  "clusters": {
+    "clu_3c9d3d65f6": {
+      "primary_event_id": "evt_20260813_43a682fc2c",
+      "event_ids": [
+        "evt_20260813_43a682fc2c"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

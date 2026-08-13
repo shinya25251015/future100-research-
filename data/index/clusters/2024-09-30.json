@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_75N99024F00003_7529_75N99019D00016_7529": "clu_552d6b8956"
+  },
+  "by_hash": {
+    "3bf8aad7a03db0e06e4fe0015a623290d40a338dffb4a9a2cb0fdfd8364a1d23": "clu_552d6b8956"
+  },
+  "by_key": {
+    "u.s. department of the treasury::additional funds to req #7011484 - c107641 poolesville a&b conversion design-build contract, bldg 102, jose morel lopez [24-005745]::2024-09-30": "clu_552d6b8956"
+  },
+  "clusters": {
+    "clu_552d6b8956": {
+      "primary_event_id": "evt_20260813_3bf8aad7a0",
+      "event_ids": [
+        "evt_20260813_3bf8aad7a0"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

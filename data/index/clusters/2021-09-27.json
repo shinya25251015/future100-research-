@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_50310221F0112_5000_50310218D0027_5000": "clu_312e6640a0"
+  },
+  "by_hash": {
+    "d345248fd14a9078dccca9741a234ba7d7f0a09311f9d087ad66d24a6e1c6577": "clu_312e6640a0"
+  },
+  "by_key": {
+    "u.s. department of the treasury::sec enterprise edgar system support services::2021-09-27": "clu_312e6640a0"
+  },
+  "clusters": {
+    "clu_312e6640a0": {
+      "primary_event_id": "evt_20260813_d345248fd1",
+      "event_ids": [
+        "evt_20260813_d345248fd1"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

@@ -1,21 +1,33 @@
 {
   "by_url": {
-    "https://federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm": "clu_26ef26278d"
+    "https://federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm": "clu_80bb0475a7",
+    "https://war.gov/News/Contracts/Contract/Article/4538357/contracts-for-july-8-2026": "clu_35b89b59aa"
   },
   "by_hash": {
-    "d11485070d9c1f42d7094e3dbcf860b61b5291bf02654aacc089bad3239b6d9f": "clu_26ef26278d"
+    "d11485070d9c1f42d7094e3dbcf860b61b5291bf02654aacc089bad3239b6d9f": "clu_80bb0475a7",
+    "5543bcae899c7a604a8b21079a4c8a3c487699522f38383a936efbf190e2cdad": "clu_35b89b59aa"
   },
   "by_key": {
-    "board of governors of the federal reserve system::minutes of the federal open market committee, june 16-17, 2026::2026-07-08": "clu_26ef26278d"
+    "board of governors of the federal reserve system::minutes of the federal open market committee, june 16-17, 2026::2026-07-08": "clu_80bb0475a7",
+    "u.s. department of war (旧 department of defense)::contracts for july 8, 2026::2026-07-08": "clu_35b89b59aa"
   },
   "clusters": {
-    "clu_26ef26278d": {
+    "clu_80bb0475a7": {
       "primary_event_id": "evt_20260813_d11485070d",
       "event_ids": [
         "evt_20260813_d11485070d"
       ],
       "source_ids": [
         "src_us_federal_reserve"
+      ]
+    },
+    "clu_35b89b59aa": {
+      "primary_event_id": "evt_20260813_5543bcae89",
+      "event_ids": [
+        "evt_20260813_5543bcae89"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
       ]
     }
   }

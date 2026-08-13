@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://esa.int/ESA_Multimedia/Videos/2026/06/Ariane_6_flight_VA269_Liftoff_captured_from_the_mobile_gantry": "clu_d5acdbcd79"
+  },
+  "by_hash": {
+    "9d0aac759188f7386e8f059e0a60c2b0b783a65a2a1c8aa06b4de4fa683abdef": "clu_d5acdbcd79"
+  },
+  "by_key": {
+    "european space agency::ariane 6 flight va269: liftoff captured from the mobile gantry::2026-06-19": "clu_d5acdbcd79"
+  },
+  "clusters": {
+    "clu_d5acdbcd79": {
+      "primary_event_id": "evt_20260813_9d0aac7591",
+      "event_ids": [
+        "evt_20260813_9d0aac7591"
+      ],
+      "source_ids": [
+        "src_esa_news"
+      ]
+    }
+  }
+}

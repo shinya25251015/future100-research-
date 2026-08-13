@@ -1,21 +1,33 @@
 {
   "by_url": {
-    "http://boj.or.jp/research/research_data/reri/index.htm": "clu_3daeaa6073"
+    "http://boj.or.jp/research/research_data/reri/index.htm": "clu_f8b17ef1f0",
+    "https://war.gov/News/Contracts/Contract/Article/4554053/contracts-for-july-23-2026": "clu_d612e268d2"
   },
   "by_hash": {
-    "6b1c63a1da0fb22dd724c959bc39f2cec0a8753bc97ea8ee17179188f3944a94": "clu_3daeaa6073"
+    "6b1c63a1da0fb22dd724c959bc39f2cec0a8753bc97ea8ee17179188f3944a94": "clu_f8b17ef1f0",
+    "1d4466db60f196e7c19266d74f38ecc109ecb15ba897d1fe909b88ae94fc7f0f": "clu_d612e268d2"
   },
   "by_key": {
-    "日本銀行::実質輸出入の動向::2026-07-23": "clu_3daeaa6073"
+    "日本銀行::実質輸出入の動向::2026-07-23": "clu_f8b17ef1f0",
+    "u.s. department of war (旧 department of defense)::contracts for july 23, 2026::2026-07-23": "clu_d612e268d2"
   },
   "clusters": {
-    "clu_3daeaa6073": {
+    "clu_f8b17ef1f0": {
       "primary_event_id": "evt_20260813_6b1c63a1da",
       "event_ids": [
         "evt_20260813_6b1c63a1da"
       ],
       "source_ids": [
         "src_jp_boj"
+      ]
+    },
+    "clu_d612e268d2": {
+      "primary_event_id": "evt_20260813_1d4466db60",
+      "event_ids": [
+        "evt_20260813_1d4466db60"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
       ]
     }
   }

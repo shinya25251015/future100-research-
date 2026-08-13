@@ -1,30 +1,39 @@
 {
   "by_url": {
-    "http://boj.or.jp/about/release_2026/rel260727a.htm": "clu_6a41537127",
-    "http://boj.or.jp/about/recruit/rec260727a.htm": "clu_51ab2383d6",
-    "https://blogs.nvidia.com/blog/open-secure-ai-alliance": "clu_d064fcd47b",
-    "https://content.knowledgehub.wiley.com/improving-the-capabilities-of-cognitive-radar-and-electronic-warfare-systems": "clu_e6c1258ed9",
-    "https://blogs.nvidia.com/blog/vera-cpu-eda": "clu_a779d3d93f",
-    "https://nvidianews.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership": "clu_76d7214dc6"
+    "http://boj.or.jp/about/release_2026/rel260727a.htm": "clu_b939135a47",
+    "http://boj.or.jp/about/recruit/rec260727a.htm": "clu_6bb06de07b",
+    "https://blogs.nvidia.com/blog/open-secure-ai-alliance": "clu_a718311456",
+    "https://content.knowledgehub.wiley.com/improving-the-capabilities-of-cognitive-radar-and-electronic-warfare-systems": "clu_7d59256ed8",
+    "https://blogs.nvidia.com/blog/vera-cpu-eda": "clu_1ddb48b8b1",
+    "https://nvidianews.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership": "clu_078280c123",
+    "https://esa.int/About_Us/Business_with_ESA/Meet_space_startups_at_ESA_s_Industry_Space_Days": "clu_7a1397f577",
+    "https://esa.int/About_Us/Branding_and_Partnerships/France_s_postal_service_La_Poste_honours_Ariane_6": "clu_add1a8b195",
+    "https://war.gov/News/Contracts/Contract/Article/4556787/contracts-for-july-27-2026": "clu_f81e1d52d8"
   },
   "by_hash": {
-    "e067a4bbd0dae41e40d27362fd1b76ab9b403409996bd0b5d348074b79f5f217": "clu_6a41537127",
-    "f6185f2c31f69fdb75fb1ef1dbc3a32b56ce5a833bbdc30f012d8c48b0cd647f": "clu_51ab2383d6",
-    "00e8beeb6877ca139b676daa4a54585af0a49095a244662a8115fd8d183ee80f": "clu_d064fcd47b",
-    "1b25c6cb4368748bac6f2023d4c68f7d56f860c4c99e1b2b57da24bb2d928924": "clu_e6c1258ed9",
-    "6e80bd35b027c401ea97642d293cc2f7d4d9286937aaa11ee70a2bec07848fff": "clu_a779d3d93f",
-    "15aabf6fd7bd7219fddb79e68cbcb7d69c4d7f29bb500ae68af8ce27df8a03c2": "clu_76d7214dc6"
+    "e067a4bbd0dae41e40d27362fd1b76ab9b403409996bd0b5d348074b79f5f217": "clu_b939135a47",
+    "f6185f2c31f69fdb75fb1ef1dbc3a32b56ce5a833bbdc30f012d8c48b0cd647f": "clu_6bb06de07b",
+    "00e8beeb6877ca139b676daa4a54585af0a49095a244662a8115fd8d183ee80f": "clu_a718311456",
+    "1b25c6cb4368748bac6f2023d4c68f7d56f860c4c99e1b2b57da24bb2d928924": "clu_7d59256ed8",
+    "6e80bd35b027c401ea97642d293cc2f7d4d9286937aaa11ee70a2bec07848fff": "clu_1ddb48b8b1",
+    "15aabf6fd7bd7219fddb79e68cbcb7d69c4d7f29bb500ae68af8ce27df8a03c2": "clu_078280c123",
+    "8e11f27ee191a05975967961a26907fb631b3e4d915096b22df99cfdc61eec46": "clu_7a1397f577",
+    "a80f94e8214d0c72c6ce016117c781cf2291de52ff7f3e72fdfa8fc7daa77375": "clu_add1a8b195",
+    "ffa57f9a28342a6c7530ec5eef3cde27712f25215619843cdce293678c95c6c4": "clu_f81e1d52d8"
   },
   "by_key": {
-    "日本銀行::(金研ニュースレター)2026年国際コンファランス::2026-07-27": "clu_6a41537127",
-    "日本銀行::日本銀行に関する学生向けのインターンシップ(総合コース向け)およびオープン・カンパニー(特定コース向け)への参加募集について::2026-07-27": "clu_51ab2383d6",
-    "nvidia corporation::industry leaders unite in open secure ai alliance for ai safety and security::2026-07-27": "clu_d064fcd47b",
-    "ieee::why ai-driven cognitive systems are redefining radar and electronic warfare::2026-07-27": "clu_e6c1258ed9",
-    "nvidia corporation::nvidia harnesses vera cpu to speed up design of next-generation cpus and gpus::2026-07-27": "clu_a779d3d93f",
-    "nvidia corporation::ilya sutskever’s safe superintelligence inc. and nvidia announce long-term strategic partnership::2026-07-27": "clu_76d7214dc6"
+    "日本銀行::(金研ニュースレター)2026年国際コンファランス::2026-07-27": "clu_b939135a47",
+    "日本銀行::日本銀行に関する学生向けのインターンシップ(総合コース向け)およびオープン・カンパニー(特定コース向け)への参加募集について::2026-07-27": "clu_6bb06de07b",
+    "nvidia corporation::industry leaders unite in open secure ai alliance for ai safety and security::2026-07-27": "clu_a718311456",
+    "ieee::why ai-driven cognitive systems are redefining radar and electronic warfare::2026-07-27": "clu_7d59256ed8",
+    "nvidia corporation::nvidia harnesses vera cpu to speed up design of next-generation cpus and gpus::2026-07-27": "clu_1ddb48b8b1",
+    "nvidia corporation::ilya sutskever’s safe superintelligence inc. and nvidia announce long-term strategic partnership::2026-07-27": "clu_078280c123",
+    "european space agency::meet space startups at esa’s industry space days::2026-07-27": "clu_7a1397f577",
+    "european space agency::france’s postal service, la poste, honours ariane 6::2026-07-27": "clu_add1a8b195",
+    "u.s. department of war (旧 department of defense)::contracts for july 27, 2026::2026-07-27": "clu_f81e1d52d8"
   },
   "clusters": {
-    "clu_6a41537127": {
+    "clu_b939135a47": {
       "primary_event_id": "evt_20260813_e067a4bbd0",
       "event_ids": [
         "evt_20260813_e067a4bbd0"
@@ -33,7 +42,7 @@
         "src_jp_boj"
       ]
     },
-    "clu_51ab2383d6": {
+    "clu_6bb06de07b": {
       "primary_event_id": "evt_20260813_f6185f2c31",
       "event_ids": [
         "evt_20260813_f6185f2c31"
@@ -42,7 +51,7 @@
         "src_jp_boj"
       ]
     },
-    "clu_d064fcd47b": {
+    "clu_a718311456": {
       "primary_event_id": "evt_20260813_00e8beeb68",
       "event_ids": [
         "evt_20260813_00e8beeb68"
@@ -51,7 +60,7 @@
         "src_nvidia_newsroom"
       ]
     },
-    "clu_e6c1258ed9": {
+    "clu_7d59256ed8": {
       "primary_event_id": "evt_20260813_1b25c6cb43",
       "event_ids": [
         "evt_20260813_1b25c6cb43"
@@ -60,7 +69,7 @@
         "src_ieee_spectrum"
       ]
     },
-    "clu_a779d3d93f": {
+    "clu_1ddb48b8b1": {
       "primary_event_id": "evt_20260813_6e80bd35b0",
       "event_ids": [
         "evt_20260813_6e80bd35b0"
@@ -69,13 +78,40 @@
         "src_nvidia_newsroom"
       ]
     },
-    "clu_76d7214dc6": {
+    "clu_078280c123": {
       "primary_event_id": "evt_20260813_15aabf6fd7",
       "event_ids": [
         "evt_20260813_15aabf6fd7"
       ],
       "source_ids": [
         "src_nvidia_newsroom"
+      ]
+    },
+    "clu_7a1397f577": {
+      "primary_event_id": "evt_20260813_8e11f27ee1",
+      "event_ids": [
+        "evt_20260813_8e11f27ee1"
+      ],
+      "source_ids": [
+        "src_esa_news"
+      ]
+    },
+    "clu_add1a8b195": {
+      "primary_event_id": "evt_20260813_a80f94e821",
+      "event_ids": [
+        "evt_20260813_a80f94e821"
+      ],
+      "source_ids": [
+        "src_esa_news"
+      ]
+    },
+    "clu_f81e1d52d8": {
+      "primary_event_id": "evt_20260813_ffa57f9a28",
+      "event_ids": [
+        "evt_20260813_ffa57f9a28"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
       ]
     }
   }

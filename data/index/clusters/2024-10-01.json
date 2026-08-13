@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_7200AA24C00092_7200_-NONE-_-NONE-": "clu_c9c473e7c0"
+  },
+  "by_hash": {
+    "b0677337755355d37b5a1d17a15c759b50892b9cb9d036560cd583b47f6c0bdd": "clu_c9c473e7c0"
+  },
+  "by_key": {
+    "u.s. department of the treasury::strengthening infectious disease detection system (strides) activity::2024-10-01": "clu_c9c473e7c0"
+  },
+  "clusters": {
+    "clu_c9c473e7c0": {
+      "primary_event_id": "evt_20260813_b067733775",
+      "event_ids": [
+        "evt_20260813_b067733775"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

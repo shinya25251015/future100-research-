@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_75FCMC22C0018_7530_-NONE-_-NONE-": "clu_602bc942d8"
+  },
+  "by_hash": {
+    "d706c3dea901777f104a7eb1309dc10a0847401d129ce2fbbc7afe9588074dcf": "clu_602bc942d8"
+  },
+  "by_key": {
+    "u.s. department of the treasury::part a/part b medicare administrative contractor (mac) jurisdiction n (jn). jurisdiction n includes the following states and areas: florida and the u.s. territories of puerto rico and the u.s. virgin islands.::2022-05-01": "clu_602bc942d8"
+  },
+  "clusters": {
+    "clu_602bc942d8": {
+      "primary_event_id": "evt_20260813_d706c3dea9",
+      "event_ids": [
+        "evt_20260813_d706c3dea9"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

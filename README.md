@@ -42,6 +42,13 @@ JSON Schema 検証まで行う場合のみ追加依存を入れる（未導入�
 pip install jsonschema referencing
 ```
 
+SEC EDGAR は利用条件として User-Agent に連絡先を要求する。設定しない場合、
+そのソースだけが失敗し他は通常どおり収集される（偽の連絡先は同梱していない）:
+
+```bash
+export FUTURE100_CONTACT_EMAIL=you@example.com
+```
+
 正規化規則（`config/signal_rules.json` / `config/known_sectors.json`）を変えたときは、
 raw を保ったまま作り直す:
 

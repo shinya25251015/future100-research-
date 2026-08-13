@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_1332KP23FNAAA0022_1330_1332KP23DNAAA0003_1330": "clu_cdcb71c8ea"
+  },
+  "by_hash": {
+    "37dccb56b4cc9e47898c8226d006afaf95a504019b7cf53bab715c78af6a23e0": "clu_cdcb71c8ea"
+  },
+  "by_key": {
+    "u.s. department of the treasury::ggss task order 0002 - sustainment services - 5 years::2023-05-11": "clu_cdcb71c8ea"
+  },
+  "clusters": {
+    "clu_cdcb71c8ea": {
+      "primary_event_id": "evt_20260813_37dccb56b4",
+      "event_ids": [
+        "evt_20260813_37dccb56b4"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

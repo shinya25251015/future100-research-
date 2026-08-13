@@ -1,0 +1,34 @@
+{
+  "by_url": {
+    "https://esa.int/ESA_Multimedia/Images/2026/06/Astris_key_visual": "clu_5e2813eafe",
+    "https://esa.int/ESA_Multimedia/Videos/2026/06/Same_rocket_new_boost": "clu_512e6a8c41"
+  },
+  "by_hash": {
+    "80526b7a8b4f7dbe342b6b6830e12aca139aa77dcad7d6cdc50b9b33da9f4bdd": "clu_5e2813eafe",
+    "c3dc05d74b083640b3716128754e31966d65da5dd5db6b4ca8619d1feed8f237": "clu_512e6a8c41"
+  },
+  "by_key": {
+    "european space agency::astris key visual::2026-06-11": "clu_5e2813eafe",
+    "european space agency::same rocket, new boost::2026-06-11": "clu_512e6a8c41"
+  },
+  "clusters": {
+    "clu_5e2813eafe": {
+      "primary_event_id": "evt_20260813_80526b7a8b",
+      "event_ids": [
+        "evt_20260813_80526b7a8b"
+      ],
+      "source_ids": [
+        "src_esa_news"
+      ]
+    },
+    "clu_512e6a8c41": {
+      "primary_event_id": "evt_20260813_c3dc05d74b",
+      "event_ids": [
+        "evt_20260813_c3dc05d74b"
+      ],
+      "source_ids": [
+        "src_esa_news"
+      ]
+    }
+  }
+}

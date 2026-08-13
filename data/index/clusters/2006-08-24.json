@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_NNG06HX01C_8000_-NONE-_-NONE-": "clu_9f9e65e0cc"
+  },
+  "by_hash": {
+    "34f377e4198c4f7904bfa522921ee2245041c8b5e68c370725381682312a983a": "clu_9f9e65e0cc"
+  },
+  "by_key": {
+    "u.s. department of the treasury::tas::80 0122::tas space environment in-situ (seiss) instruments for weather satellites::2006-08-24": "clu_9f9e65e0cc"
+  },
+  "clusters": {
+    "clu_9f9e65e0cc": {
+      "primary_event_id": "evt_20260813_34f377e419",
+      "event_ids": [
+        "evt_20260813_34f377e419"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_70SBUR24F00000103_7003_GS35F110DA_4732": "clu_f687f27c19"
+  },
+  "by_hash": {
+    "94988b7a008d246df4f6aeaa3f4cd05046223b07ff59104a7b8bda34889828d6": "clu_f687f27c19"
+  },
+  "by_key": {
+    "u.s. department of the treasury::development, security, and operations (devsecops) services to support united states citizenship and immigration services(uscis) information technology (it) system delivery primarily vis (verification information system). falcon::2024-05-20": "clu_f687f27c19"
+  },
+  "clusters": {
+    "clu_f687f27c19": {
+      "primary_event_id": "evt_20260813_94988b7a00",
+      "event_ids": [
+        "evt_20260813_94988b7a00"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

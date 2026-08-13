@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_89303321CEM000080_8900_-NONE-_-NONE-": "clu_ea142f4266"
+  },
+  "by_hash": {
+    "b4b6b25c4a32973e9e5bc716bdbc0fcadbdfa22b92399b565fd6cc1ae328f4c8": "clu_ea142f4266"
+  },
+  "by_key": {
+    "u.s. department of the treasury::savannah river national laboratory management and operating (m&o) contract::2021-02-16": "clu_ea142f4266"
+  },
+  "clusters": {
+    "clu_ea142f4266": {
+      "primary_event_id": "evt_20260813_b4b6b25c4a",
+      "event_ids": [
+        "evt_20260813_b4b6b25c4a"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

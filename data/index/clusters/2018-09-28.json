@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_47QFCA18F0067_4732_GS00Q14OADU401_4732": "clu_d29bbb661b"
+  },
+  "by_hash": {
+    "4b0cb5076678fd41eb62c04b68663f16caf3b3100d5867a62e55fa629ff58d04": "clu_d29bbb661b"
+  },
+  "by_key": {
+    "u.s. department of the treasury::igf::ot::igf task order (to) 47qfca18f0067 is hereby awarded to alion science and technology corporation to provide contractor support to the joint capability embedded technology insertion and integration (jcetii) remote sensing center (rsc) within the national capital region (ncr). the period of performance for this to will be september 28, 2018 through september 27, 2023. the total value of the to will be $769,178,979.::2018-09-28": "clu_d29bbb661b"
+  },
+  "clusters": {
+    "clu_d29bbb661b": {
+      "primary_event_id": "evt_20260813_4b0cb50766",
+      "event_ids": [
+        "evt_20260813_4b0cb50766"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

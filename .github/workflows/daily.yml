@@ -31,6 +31,11 @@ jobs:
         run: pip install jsonschema referencing
 
       - name: Run daily cycle
+        # SEC EDGAR は User-Agent に連絡先を要求する。リポジトリの Secrets に
+        # FUTURE100_CONTACT_EMAIL を設定すると Form D（資金調達シグナル）が有効になる。
+        # 未設定でもそのソースが失敗するだけで、他のソースは通常どおり収集される。
+        env:
+          FUTURE100_CONTACT_EMAIL: ${{ secrets.FUTURE100_CONTACT_EMAIL }}
         run: python3 scripts/daily.py
 
       - name: Run tests

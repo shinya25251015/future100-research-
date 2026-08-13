@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_89233123CNA000308_8900_-NONE-_-NONE-": "clu_4691d19c9c"
+  },
+  "by_hash": {
+    "f698fb6b90baeb5df7c0dbad065e16f6118c109fa24e89b9e999e778f897f8ce": "clu_4691d19c9c"
+  },
+  "by_key": {
+    "u.s. department of the treasury::enriched uranium conversion and purification services::2023-04-10": "clu_4691d19c9c"
+  },
+  "clusters": {
+    "clu_4691d19c9c": {
+      "primary_event_id": "evt_20260813_f698fb6b90",
+      "event_ids": [
+        "evt_20260813_f698fb6b90"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

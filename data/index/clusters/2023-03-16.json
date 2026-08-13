@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_47PJ0023C0009_4740_-NONE-_-NONE-": "clu_9a09b8244b"
+  },
+  "by_hash": {
+    "3aec24e6635722720da9ddc1b73ac74d090d1bc885a752dd4b97dcc2e26f84ef": "clu_9a09b8244b"
+  },
+  "by_key": {
+    "u.s. department of the treasury::construction manager as constructor (cmc) services, new food and drug administration, laboratory, building 22 1 denver federal center, lakewood, co 80225::2023-03-16": "clu_9a09b8244b"
+  },
+  "clusters": {
+    "clu_9a09b8244b": {
+      "primary_event_id": "evt_20260813_3aec24e663",
+      "event_ids": [
+        "evt_20260813_3aec24e663"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

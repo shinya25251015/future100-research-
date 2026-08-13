@@ -42,6 +42,31 @@
       "description": "このソースが主に扱う領域 (§4-13)",
       "items": { "$ref": "enums.schema.json#/$defs/event_category" }
     },
+    "user_agent": {
+      "type": "string",
+      "description": "既定の User-Agent を上書きする。SEC EDGAR のように連絡先入りの UA を要求する提供元がある。"
+    },
+    "http_method": {
+      "type": "string",
+      "enum": ["GET", "POST"],
+      "default": "GET",
+      "description": "kind=json_api のみ。検索 API は POST を要求することがある。"
+    },
+    "body": {
+      "type": "object",
+      "description": "http_method=POST のときに送る JSON ボディ。{{start_date}} / {{end_date}} は取得時に直近の日付へ置換される。"
+    },
+    "default_signal_types": {
+      "type": "array",
+      "description": "そのソースの性質上、全件に付与してよいシグナル種別 (§10)。Form D は定義上すべて資金調達の届出、契約公告は定義上すべて調達、というようにソース単位で決まる場合に使う。キーワード判定の結果と和集合になる。",
+      "items": { "$ref": "enums.schema.json#/$defs/signal_type" }
+    },
+    "lookback_days": {
+      "type": "integer",
+      "minimum": 1,
+      "default": 7,
+      "description": "body のテンプレート置換で使う遡及日数。"
+    },
     "mapping": {
       "type": "object",
       "description": "kind=json_api のときの項目対応。値はドット区切りパス、配列を渡すと最初に見つかった値（body は連結）を使う。",
@@ -49,6 +74,10 @@
       "properties": {
         "items_path": { "type": "string" },
         "url": { "type": ["string", "array"], "items": { "type": "string" } },
+        "url_template": {
+          "type": "string",
+          "description": "URL を返さない API 用。項目のフィールド名を {name} で埋める（例 https://www.usaspending.gov/award/{generated_internal_id}）。"
+        },
         "title": { "type": ["string", "array"], "items": { "type": "string" } },
         "body": { "type": ["string", "array"], "items": { "type": "string" } },
         "published_at": { "type": "string" }

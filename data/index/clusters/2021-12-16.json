@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_12314422F0069_1205_GS00Q17NSD3006_4732": "clu_c28a777641"
+  },
+  "by_hash": {
+    "80e65b29cfb1b09b4d710b6dcf71a61de940a4a97d2b648175914c77725d804b": "clu_c28a777641"
+  },
+  "by_key": {
+    "u.s. department of the treasury::usdanet enterprise infrastructure solutions::2021-12-16": "clu_c28a777641"
+  },
+  "clusters": {
+    "clu_c28a777641": {
+      "primary_event_id": "evt_20260813_80e65b29cf",
+      "event_ids": [
+        "evt_20260813_80e65b29cf"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_75A50118C00019_7505_-NONE-_-NONE-": "clu_852ac5a51d"
+  },
+  "by_hash": {
+    "bede7b3618d1a26c6b3691252ed1d080389ac8a60d349d39645dbf849f2e87ee": "clu_852ac5a51d"
+  },
+  "by_key": {
+    "u.s. department of the treasury::procurement and late-stage development of smallpox antiviral drug(s) igf::ot::igf::2018-09-10": "clu_852ac5a51d"
+  },
+  "clusters": {
+    "clu_852ac5a51d": {
+      "primary_event_id": "evt_20260813_bede7b3618",
+      "event_ids": [
+        "evt_20260813_bede7b3618"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

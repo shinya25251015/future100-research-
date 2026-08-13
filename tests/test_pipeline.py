@@ -124,16 +124,43 @@ def test_identical_text_on_different_days_is_not_merged():
     assert second[1] is True
 
 
-def test_identical_text_on_the_same_day_is_merged():
+def test_identical_text_across_sources_is_merged():
+    """転載・全文配信。別ソースに同じ本文が出たら同じ出来事とみなす。"""
     index = dedup.ClusterIndex(day="2026-08-13")
-    title, body = "Sunshine Act Meetings", "Notice of meeting."
-    first = _assign(index, url="https://fr.example/16519", title=title, body=body,
-                    date="2026-08-13", event_id="evt_20260813_7777777777", source_id="src_fr")
-    second = _assign(index, url="https://fr.example/16543", title=title, body=body,
-                     date="2026-08-13", event_id="evt_20260813_8888888888", source_id="src_fr")
+    title, body = "半導体工場への補助金交付が決定", "経済産業省が交付を決定した。"
+    first = _assign(index, url="https://a.example/1", title=title, body=body,
+                    date="2026-08-13", event_id="evt_20260813_7777777777", source_id="src_a")
+    second = _assign(index, url="https://b.example/2", title=title, body=body,
+                     date="2026-08-13", event_id="evt_20260813_8888888888", source_id="src_b")
     assert first[0] == second[0]
     assert second[1] is False
     assert second[2]["method"] == "content_hash"
+
+
+def test_identical_text_within_one_source_is_not_merged():
+    """官報系は同じ日に同じ表題・同じ本文で別件を出す。URL が違えば別レコード。
+
+    実測: 連邦契約 22 件が 1 件に潰れ、Federal Register の別公示も統合されていた。
+    """
+    index = dedup.ClusterIndex(day="2026-08-13")
+    title, body = "Sunshine Act Meetings", "Notice of meeting."
+    first = _assign(index, url="https://fr.example/16519", title=title, body=body,
+                    date="2026-08-13", event_id="evt_20260813_aaaaaaaaa1", source_id="src_fr")
+    second = _assign(index, url="https://fr.example/16543", title=title, body=body,
+                     date="2026-08-13", event_id="evt_20260813_aaaaaaaaa2", source_id="src_fr")
+    assert first[0] != second[0]
+    assert second[1] is True
+
+
+def test_same_url_within_one_source_is_merged():
+    """同一 URL は文字どおり同じ文書。ここだけは同一ソース内でも統合する。"""
+    index = dedup.ClusterIndex(day="2026-08-13")
+    first = _assign(index, url="https://fr.example/16519", title="Notice A", body="body",
+                    date="2026-08-13", event_id="evt_20260813_bbbbbbbbb1", source_id="src_fr")
+    second = _assign(index, url="https://fr.example/16519", title="Notice A (改訂)", body="body 2",
+                     date="2026-08-13", event_id="evt_20260813_bbbbbbbbb2", source_id="src_fr")
+    assert first[0] == second[0]
+    assert second[2]["method"] == "canonical_url"
 
 
 def test_partition_rejects_an_event_from_another_day():
@@ -262,6 +289,74 @@ def test_raw_archive_roundtrip_and_idempotency(tmp_root=None):
 
 
 # --- コレクタ -------------------------------------------------------------
+
+def test_user_agent_env_expansion():
+    """連絡先を要求する提供元 (SEC 等) 用。偽の連絡先を埋め込まず、未設定なら失敗させる。"""
+    import os
+
+    from future100.collect import base
+
+    source = {"source_id": "src_x", "user_agent": "future100 ${FUTURE100_TEST_CONTACT}"}
+    try:
+        base.resolve_user_agent(source)
+    except base.FetchError as exc:
+        assert "FUTURE100_TEST_CONTACT" in exc.reason
+    else:
+        raise AssertionError("missing env var must fail the fetch")
+
+    os.environ["FUTURE100_TEST_CONTACT"] = "me@example.com"
+    try:
+        assert base.resolve_user_agent(source) == "future100 me@example.com"
+        assert base.resolve_user_agent({"source_id": "src_x"}) is None
+    finally:
+        del os.environ["FUTURE100_TEST_CONTACT"]
+
+
+def test_json_api_post_body_renders_dates():
+    from future100.collect import json_api
+
+    source = {
+        "source_id": "src_x",
+        "http_method": "POST",
+        "lookback_days": 7,
+        "body": {"filters": {"time_period": [{"start_date": "{{start_date}}", "end_date": "{{end_date}}"}]}},
+    }
+    import json as json_module
+
+    payload = json_module.loads(json_api._request_body(source))
+    period = payload["filters"]["time_period"][0]
+    assert period["start_date"] < period["end_date"]
+    assert json_api._request_body({"source_id": "src_x"}) is None, "GET では body を送らない"
+
+
+def test_json_api_url_template_is_stable():
+    """URL は raw_id の素。同じ対象が毎回同じ文字列にならないと観測が増殖する。"""
+    from future100.collect import json_api
+
+    mapping = {"url_template": "https://www.usaspending.gov/award/{generated_internal_id}"}
+    item = {"generated_internal_id": "CONT_AWD_1", "Description": "x"}
+    assert json_api._link(item, mapping) == "https://www.usaspending.gov/award/CONT_AWD_1"
+    assert json_api._link({"Description": "x"}, mapping) == "", "ID が無ければ URL を作らない"
+
+
+def test_naive_timestamp_keeps_only_the_date():
+    """タイムゾーン不明の日時を勝手に UTC と解釈しない (§36)。"""
+    from future100.collect import json_api
+
+    assert json_api._published({"t": "2026-08-11 23:57:56"}, "t") == "2026-08-11T00:00:00Z"
+    assert json_api._published({"t": "2026-08-11"}, "t") == "2026-08-11T00:00:00Z"
+    assert json_api._published({"t": "2026-08-11T23:57:56Z"}, "t") == "2026-08-11T23:57:56Z"
+    assert json_api._published({"t": ""}, "t") is None
+
+
+def test_source_level_signal_types_are_applied():
+    """Form D は定義上すべて資金調達、契約公告は定義上すべて調達 (§10)。"""
+    from future100 import normalize
+
+    source = {"default_signal_types": ["vc_investment"]}
+    assert normalize.detect_signal_types("Company X files Form D", source) == ["vc_investment"]
+    assert "vc_investment" not in normalize.detect_signal_types("Company X files Form D")
+
 
 def test_rss_parses_minimal_feed():
     xml = b"""<?xml version="1.0"?><rss version="2.0"><channel>

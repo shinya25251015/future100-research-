@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_70CTD023FR0000053_7012_47QTCA20D005E_4732": "clu_2b53185c4d"
+  },
+  "by_hash": {
+    "6fbfb2010e65019b5d8d4aec1aa886c39ab856d84656c7596bda4840fbd7d99f": "clu_2b53185c4d"
+  },
+  "by_key": {
+    "u.s. department of the treasury::this award is for security assurance support services (sass) ii::2023-07-20": "clu_2b53185c4d"
+  },
+  "clusters": {
+    "clu_2b53185c4d": {
+      "primary_event_id": "evt_20260813_6fbfb2010e",
+      "event_ids": [
+        "evt_20260813_6fbfb2010e"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

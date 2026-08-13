@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_19AQMM18C0185_1900_-NONE-_-NONE-": "clu_404c1b5200"
+  },
+  "by_hash": {
+    "05f971f63bf487cbff444a254a3bdf4af91e1ebeba9fc83df92997854549bc3f": "clu_404c1b5200"
+  },
+  "by_key": {
+    "u.s. department of the treasury::global security engineering&supply chain services.::2019-06-19": "clu_404c1b5200"
+  },
+  "clusters": {
+    "clu_404c1b5200": {
+      "primary_event_id": "evt_20260813_05f971f63b",
+      "event_ids": [
+        "evt_20260813_05f971f63b"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

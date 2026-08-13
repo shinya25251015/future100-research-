@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_91003120F0331_9100_EDFSA11D0012_9100": "clu_1ce3384f93"
+  },
+  "by_hash": {
+    "487de0ae634a08da058b55d142e049665dc9321edfcc5aa2e23186319864a6eb": "clu_1ce3384f93"
+  },
+  "by_key": {
+    "u.s. department of the treasury::the purpose of this modification is to create a new task order for contract ed-fsa-11-d-0012 with the period of performance:01/01/2020 - 12/31/2020.::2019-12-30": "clu_1ce3384f93"
+  },
+  "clusters": {
+    "clu_1ce3384f93": {
+      "primary_event_id": "evt_20260813_487de0ae63",
+      "event_ids": [
+        "evt_20260813_487de0ae63"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

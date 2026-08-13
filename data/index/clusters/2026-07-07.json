@@ -1,21 +1,33 @@
 {
   "by_url": {
-    "https://federalreserve.gov/newsevents/pressreleases/bcreg20260707a.htm": "clu_e2a785c7f6"
+    "https://federalreserve.gov/newsevents/pressreleases/bcreg20260707a.htm": "clu_0f92a4c588",
+    "https://war.gov/News/Contracts/Contract/Article/4535071/contracts-for-july-7-2026": "clu_0624c6f2cb"
   },
   "by_hash": {
-    "9babfb2bdedb59b220f815eb76fac83e385e73b5a8f94ac74f77d82fdb80c006": "clu_e2a785c7f6"
+    "9babfb2bdedb59b220f815eb76fac83e385e73b5a8f94ac74f77d82fdb80c006": "clu_0f92a4c588",
+    "5acfdd52e258b2fca4e150cc13a3a897ac8ad72c96f29b06019566d0a5770027": "clu_0624c6f2cb"
   },
   "by_key": {
-    "board of governors of the federal reserve system::federal reserve board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs::2026-07-07": "clu_e2a785c7f6"
+    "board of governors of the federal reserve system::federal reserve board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs::2026-07-07": "clu_0f92a4c588",
+    "u.s. department of war (旧 department of defense)::contracts for july 7, 2026::2026-07-07": "clu_0624c6f2cb"
   },
   "clusters": {
-    "clu_e2a785c7f6": {
+    "clu_0f92a4c588": {
       "primary_event_id": "evt_20260813_9babfb2bde",
       "event_ids": [
         "evt_20260813_9babfb2bde"
       ],
       "source_ids": [
         "src_us_federal_reserve"
+      ]
+    },
+    "clu_0624c6f2cb": {
+      "primary_event_id": "evt_20260813_5acfdd52e2",
+      "event_ids": [
+        "evt_20260813_5acfdd52e2"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
       ]
     }
   }

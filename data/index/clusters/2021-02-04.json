@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_47PF0021C0017_4740_-NONE-_-NONE-": "clu_48f196f399"
+  },
+  "by_hash": {
+    "eb65cd15689deadf9b7a1635d1c548373f39f4ea7b777735396c1a619a58c703": "clu_48f196f399"
+  },
+  "by_key": {
+    "u.s. department of the treasury::award # 47pf0021c0017. construction manager as constructor (cmc) for the alteration of the tomochichi federal building and u.s. courthouse, 125 bull street, savannah, georgia, 31401.::2021-02-04": "clu_48f196f399"
+  },
+  "clusters": {
+    "clu_48f196f399": {
+      "primary_event_id": "evt_20260813_eb65cd1568",
+      "event_ids": [
+        "evt_20260813_eb65cd1568"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

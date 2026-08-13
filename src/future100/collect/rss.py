@@ -23,7 +23,11 @@ _NS = {"atom": "http://www.w3.org/2005/Atom", "dc": "http://purl.org/dc/elements
 @base.register("atom")
 def collect_feed(source: dict) -> Iterator[dict]:
     url = source.get("endpoint") or source["url"]
-    payload = base.http_get(url, timeout=source.get("timeout", base.DEFAULT_TIMEOUT))
+    payload = base.http_get(
+        url,
+        timeout=source.get("timeout", base.DEFAULT_TIMEOUT),
+        user_agent=base.resolve_user_agent(source),
+    )
     if payload.lstrip()[:200].lower().startswith((b"<!doctype html", b"<html")):
         # bot 対策ページやリダイレクト先の HTML を「壊れたフィード」と誤報告しない
         raise base.FetchError(source["source_id"], "received HTML instead of a feed (bot challenge or moved endpoint)")

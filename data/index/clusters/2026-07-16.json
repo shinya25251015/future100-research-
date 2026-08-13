@@ -1,27 +1,33 @@
 {
   "by_url": {
-    "https://federalreserve.gov/newsevents/pressreleases/enforcement20260716a.htm": "clu_bd6ec00274",
-    "https://federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm": "clu_a3eef7a3a6",
-    "http://boj.or.jp/research/o_survey/ishiki2607.htm": "clu_961273e8be",
-    "http://boj.or.jp/statistics/boj/other/cabs/cabs.xlsx": "clu_79cbb96a84",
-    "http://boj.or.jp/statistics/dl/loan/loos/release/loos2607.pdf": "clu_1fe31ed28b"
+    "https://federalreserve.gov/newsevents/pressreleases/enforcement20260716a.htm": "clu_091afbf0a6",
+    "https://federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm": "clu_e42b1636fd",
+    "http://boj.or.jp/research/o_survey/ishiki2607.htm": "clu_05d2e0e464",
+    "http://boj.or.jp/statistics/boj/other/cabs/cabs.xlsx": "clu_20c283e66a",
+    "http://boj.or.jp/statistics/dl/loan/loos/release/loos2607.pdf": "clu_1e805d31e2",
+    "https://esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_arrive_at_Europe_s_Spaceport": "clu_9563c3a751",
+    "https://war.gov/News/Contracts/Contract/Article/4547947/contracts-for-july-16-2026": "clu_47a7695011"
   },
   "by_hash": {
-    "452a8c8ced67355a93588969dfd42bb6cccc7ab5bbe774b22632633c3e56c200": "clu_bd6ec00274",
-    "78f52390e60a69d29486abcaabcbe397552c9d09e5ed93adceadead6c7fa131a": "clu_a3eef7a3a6",
-    "c1687b7792997912c64d02c6041be7656a021e0b188227a6d38f217def4e4968": "clu_961273e8be",
-    "26d8cc68394945e9b552e50e97616df69d53af04d80f86fde7ba6936e0d1449e": "clu_79cbb96a84",
-    "e67e39a0a0964d94298ee081cdaf9df48758e3416a00d298bde2a23c301f56a4": "clu_1fe31ed28b"
+    "452a8c8ced67355a93588969dfd42bb6cccc7ab5bbe774b22632633c3e56c200": "clu_091afbf0a6",
+    "78f52390e60a69d29486abcaabcbe397552c9d09e5ed93adceadead6c7fa131a": "clu_e42b1636fd",
+    "c1687b7792997912c64d02c6041be7656a021e0b188227a6d38f217def4e4968": "clu_05d2e0e464",
+    "26d8cc68394945e9b552e50e97616df69d53af04d80f86fde7ba6936e0d1449e": "clu_20c283e66a",
+    "e67e39a0a0964d94298ee081cdaf9df48758e3416a00d298bde2a23c301f56a4": "clu_1e805d31e2",
+    "76adee10f2bbfe80fa747aadda301c62e0af0c440b40b62a8b493fceed7362d5": "clu_9563c3a751",
+    "bf85abcc6151d226cf7001e7f287b810e86ed3dbe5bd66c4f1c088a2088dd484": "clu_47a7695011"
   },
   "by_key": {
-    "board of governors of the federal reserve system::federal reserve board issues enforcement action with former chief lending officer of heritage state bank::2026-07-16": "clu_bd6ec00274",
-    "board of governors of the federal reserve system::agencies issue joint statement on handling of highly sensitive information during bank examinations::2026-07-16": "clu_a3eef7a3a6",
-    "日本銀行::「生活意識に関するアンケート調査」(第106回)の結果::2026-07-16": "clu_961273e8be",
-    "日本銀行::業態別の日銀当座預金残高(6月)::2026-07-16": "clu_79cbb96a84",
-    "日本銀行::主要銀行貸出動向アンケート調査(7月)::2026-07-16": "clu_1fe31ed28b"
+    "board of governors of the federal reserve system::federal reserve board issues enforcement action with former chief lending officer of heritage state bank::2026-07-16": "clu_091afbf0a6",
+    "board of governors of the federal reserve system::agencies issue joint statement on handling of highly sensitive information during bank examinations::2026-07-16": "clu_e42b1636fd",
+    "日本銀行::「生活意識に関するアンケート調査」(第106回)の結果::2026-07-16": "clu_05d2e0e464",
+    "日本銀行::業態別の日銀当座預金残高(6月)::2026-07-16": "clu_20c283e66a",
+    "日本銀行::主要銀行貸出動向アンケート調査(7月)::2026-07-16": "clu_1e805d31e2",
+    "european space agency::flex and sentinel-3c arrive at europe’s spaceport::2026-07-16": "clu_9563c3a751",
+    "u.s. department of war (旧 department of defense)::contracts for july 16, 2026::2026-07-16": "clu_47a7695011"
   },
   "clusters": {
-    "clu_bd6ec00274": {
+    "clu_091afbf0a6": {
       "primary_event_id": "evt_20260813_452a8c8ced",
       "event_ids": [
         "evt_20260813_452a8c8ced"
@@ -30,7 +36,7 @@
         "src_us_federal_reserve"
       ]
     },
-    "clu_a3eef7a3a6": {
+    "clu_e42b1636fd": {
       "primary_event_id": "evt_20260813_78f52390e6",
       "event_ids": [
         "evt_20260813_78f52390e6"
@@ -39,7 +45,7 @@
         "src_us_federal_reserve"
       ]
     },
-    "clu_961273e8be": {
+    "clu_05d2e0e464": {
       "primary_event_id": "evt_20260813_c1687b7792",
       "event_ids": [
         "evt_20260813_c1687b7792"
@@ -48,7 +54,7 @@
         "src_jp_boj"
       ]
     },
-    "clu_79cbb96a84": {
+    "clu_20c283e66a": {
       "primary_event_id": "evt_20260813_26d8cc6839",
       "event_ids": [
         "evt_20260813_26d8cc6839"
@@ -57,13 +63,31 @@
         "src_jp_boj"
       ]
     },
-    "clu_1fe31ed28b": {
+    "clu_1e805d31e2": {
       "primary_event_id": "evt_20260813_e67e39a0a0",
       "event_ids": [
         "evt_20260813_e67e39a0a0"
       ],
       "source_ids": [
         "src_jp_boj"
+      ]
+    },
+    "clu_9563c3a751": {
+      "primary_event_id": "evt_20260813_76adee10f2",
+      "event_ids": [
+        "evt_20260813_76adee10f2"
+      ],
+      "source_ids": [
+        "src_esa_news"
+      ]
+    },
+    "clu_47a7695011": {
+      "primary_event_id": "evt_20260813_bf85abcc61",
+      "event_ids": [
+        "evt_20260813_bf85abcc61"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
       ]
     }
   }

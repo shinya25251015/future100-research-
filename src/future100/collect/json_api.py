@@ -16,6 +16,7 @@ from __future__ import annotations
 import json
 import re
 from collections.abc import Iterator
+from datetime import timedelta
 from typing import Any
 
 from .. import timeutil
@@ -29,7 +30,12 @@ _DATE_ONLY = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 def collect_json(source: dict) -> Iterator[dict]:
     url = source.get("endpoint") or source["url"]
     mapping = source.get("mapping") or {}
-    payload = base.http_get(url, timeout=source.get("timeout", base.DEFAULT_TIMEOUT))
+    payload = base.http_get(
+        url,
+        timeout=source.get("timeout", base.DEFAULT_TIMEOUT),
+        user_agent=base.resolve_user_agent(source),
+        body=_request_body(source),
+    )
     try:
         document = json.loads(payload)
     except json.JSONDecodeError as exc:
@@ -41,7 +47,7 @@ def collect_json(source: dict) -> Iterator[dict]:
 
     observed_at = timeutil.now_str()
     for item in items:
-        link = _first_str(item, mapping.get("url", "url"))
+        link = _link(item, mapping)
         title = _first_str(item, mapping.get("title", "title"))
         if not link or not title:
             continue
@@ -57,6 +63,25 @@ def collect_json(source: dict) -> Iterator[dict]:
         )
 
 
+def _request_body(source: dict) -> bytes | None:
+    """POST 用の JSON ボディ。日付テンプレートは取得時刻を基準に置換する。
+
+    テンプレートを使うのは、検索 API が対象期間の明示を要求するため。
+    ここで埋めるのは「いま取りに行く期間」であって、観測時刻 (observed_at) とは別物である。
+    """
+    if source.get("http_method", "GET").upper() != "POST":
+        return None
+    body = source.get("body")
+    if body is None:
+        raise base.FetchError(source["source_id"], "http_method=POST requires a body")
+
+    end = timeutil.now().date()
+    start = end - timedelta(days=source.get("lookback_days", 7))
+    rendered = json.dumps(body, ensure_ascii=False)
+    rendered = rendered.replace("{{start_date}}", f"{start:%Y-%m-%d}").replace("{{end_date}}", f"{end:%Y-%m-%d}")
+    return rendered.encode("utf-8")
+
+
 def _dig(payload: Any, path: str | None) -> Any:
     if not path:
         return payload
@@ -67,6 +92,21 @@ def _dig(payload: Any, path: str | None) -> Any:
         else:
             return None
     return current
+
+
+def _link(item: dict, mapping: dict) -> str:
+    """項目の URL。URL を返さない API 用に、ID から組み立てるテンプレートも受ける。
+
+    URL は raw_id の素になるため、同じ対象が常に同じ文字列になることが重要
+    （そうでないと再取得のたびに新しい観測として増える）。
+    """
+    template = mapping.get("url_template")
+    if template:
+        try:
+            return template.format(**item)
+        except (KeyError, IndexError):
+            return ""
+    return _first_str(item, mapping.get("url", "url"))
 
 
 def _first_str(item: dict, paths: str | list[str]) -> str:
@@ -87,7 +127,14 @@ def _join(item: dict, paths: str | list[str]) -> str:
 
 
 def _published(item: dict, path: str | None) -> str | None:
-    """公開時刻。日付のみの API では 00:00:00Z を補う（時刻不明を day 精度として扱う規約）。"""
+    """公開時刻。
+
+    タイムゾーンを明示しない API が多いため、規約を固定する。
+      - 日付のみ ("2026-08-11")            → 00:00:00Z を補う（day 精度）
+      - タイムゾーン無しの日時             → 日付部分だけを採り 00:00:00Z（時刻を勝手に UTC と見なさない）
+      - タイムゾーン付き                   → そのまま UTC に変換する
+    推測した時刻を書かないことを優先する (§36)。
+    """
     if not path:
         return None
     value = _dig(item, path)
@@ -99,4 +146,7 @@ def _published(item: dict, path: str | None) -> str | None:
     try:
         return timeutil.fmt(timeutil.parse(text))
     except ValueError:
-        return None
+        pass
+    if _DATE_ONLY.match(text[:10]):
+        return f"{text[:10]}T00:00:00Z"
+    return None

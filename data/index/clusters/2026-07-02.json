@@ -1,21 +1,45 @@
 {
   "by_url": {
-    "https://federalreserve.gov/newsevents/pressreleases/enforcement20260702a.htm": "clu_ede071a8f2"
+    "https://federalreserve.gov/newsevents/pressreleases/enforcement20260702a.htm": "clu_65a22c191e",
+    "https://esa.int/ESA_Multimedia/Videos/2026/06/Timelapse_four_P160C_boosters_for_Ariane_6_from_integration_to_launch": "clu_d3831321f2",
+    "https://war.gov/News/Contracts/Contract/Article/4532515/contracts-for-july-2-2026": "clu_0df54f2454"
   },
   "by_hash": {
-    "054611647dc31c3b450f5e60f1f592c7ba5c16161ceefa4f37afd2844130a7f0": "clu_ede071a8f2"
+    "054611647dc31c3b450f5e60f1f592c7ba5c16161ceefa4f37afd2844130a7f0": "clu_65a22c191e",
+    "61a1794b2d503cf866ba737a2a9966431b3fac7f2b6b777f9e918c3dd72a3928": "clu_d3831321f2",
+    "c326ce523dff18921843b0d6f10ce9b880c137d2803433224be5f1d126351fb7": "clu_0df54f2454"
   },
   "by_key": {
-    "board of governors of the federal reserve system::federal reserve board issues enforcement action with small business bank and announces termination enforcement actions with bnp paribas s.a., bnp paribas usa, inc., bnp paribas securities corp., and community bankshares, inc.::2026-07-02": "clu_ede071a8f2"
+    "board of governors of the federal reserve system::federal reserve board issues enforcement action with small business bank and announces termination enforcement actions with bnp paribas s.a., bnp paribas usa, inc., bnp paribas securities corp., and community bankshares, inc.::2026-07-02": "clu_65a22c191e",
+    "european space agency::timelapse: four p160c boosters for ariane 6 – from integration to launch::2026-07-02": "clu_d3831321f2",
+    "u.s. department of war (旧 department of defense)::contracts for july 2, 2026::2026-07-02": "clu_0df54f2454"
   },
   "clusters": {
-    "clu_ede071a8f2": {
+    "clu_65a22c191e": {
       "primary_event_id": "evt_20260813_054611647d",
       "event_ids": [
         "evt_20260813_054611647d"
       ],
       "source_ids": [
         "src_us_federal_reserve"
+      ]
+    },
+    "clu_d3831321f2": {
+      "primary_event_id": "evt_20260813_61a1794b2d",
+      "event_ids": [
+        "evt_20260813_61a1794b2d"
+      ],
+      "source_ids": [
+        "src_esa_news"
+      ]
+    },
+    "clu_0df54f2454": {
+      "primary_event_id": "evt_20260813_c326ce523d",
+      "event_ids": [
+        "evt_20260813_c326ce523d"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
       ]
     }
   }

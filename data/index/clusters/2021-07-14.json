@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_47PJ0021C0045_4740_-NONE-_-NONE-": "clu_44f7c3abfa"
+  },
+  "by_hash": {
+    "c001a30f4d723d7ce103ad99fb1f7a2077e2995f3e7e02ab9e30d52ce889b5d9": "clu_44f7c3abfa"
+  },
+  "by_key": {
+    "u.s. department of the treasury::cmc construction services for the frank e. moss seismic upgrade, backfill, and renovation project located in salt lake city, utah.::2021-07-14": "clu_44f7c3abfa"
+  },
+  "clusters": {
+    "clu_44f7c3abfa": {
+      "primary_event_id": "evt_20260813_c001a30f4d",
+      "event_ids": [
+        "evt_20260813_c001a30f4d"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

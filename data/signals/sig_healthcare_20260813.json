@@ -52,6 +52,15 @@
         "evt_20260813_07e94bc5e3",
         "evt_20260813_db7a0a43ec"
       ]
+    },
+    {
+      "signal_type": "procurement",
+      "count": 2,
+      "baseline_count": 0.0,
+      "event_ids": [
+        "evt_20260813_2a54233b3e",
+        "evt_20260813_6c5a19dff5"
+      ]
     }
   ],
   "coverage": {
@@ -61,15 +70,20 @@
         "source_id": "src_arxiv_cs_ai",
         "observation_start": "2026-08-13T15:29:12Z",
         "covers_baseline": false
+      },
+      {
+        "source_id": "src_usaspending_awards",
+        "observation_start": "2026-08-13T16:08:40Z",
+        "covers_baseline": false
       }
     ],
     "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
   },
   "co_occurrence": {
-    "distinct_signal_types": 2,
-    "distinct_sources": 1,
-    "distinct_regions": 1,
-    "score": 39.2,
+    "distinct_signal_types": 3,
+    "distinct_sources": 2,
+    "distinct_regions": 2,
+    "score": 65.8,
     "threshold_met": false
   },
   "promotion": {

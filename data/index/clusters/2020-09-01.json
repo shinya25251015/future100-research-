@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_75FCMC20C0025_7530_-NONE-_-NONE-": "clu_3b35c4c807"
+  },
+  "by_hash": {
+    "80fa6371d88284fe54ac44f3c4872952c57dab9404b5aa10ca0c48d13d5d69fb": "clu_3b35c4c807"
+  },
+  "by_key": {
+    "u.s. department of the treasury::durable medical equipment (dme) medicare administrative contractor (mac) for jurisdiction c (jc)::2020-09-01": "clu_3b35c4c807"
+  },
+  "clusters": {
+    "clu_3b35c4c807": {
+      "primary_event_id": "evt_20260813_80fa6371d8",
+      "event_ids": [
+        "evt_20260813_80fa6371d8"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

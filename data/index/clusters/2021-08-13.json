@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_70SBUR21F00000089_7003_GS35F393CA_4732": "clu_d403325c36"
+  },
+  "by_hash": {
+    "b1ffb14e2b9fcb94fbf450cd94ad544b55cb94fc84ddbb49ad30aab5e3fff96e": "clu_d403325c36"
+  },
+  "by_key": {
+    "u.s. department of the treasury::contact center tier 1 (cct1)- the purpose of this task order is to provide tier 0 and tier 1 level support for the uscis contact center by assisting the public with information on immigration related services and benefits.::2021-08-13": "clu_d403325c36"
+  },
+  "clusters": {
+    "clu_d403325c36": {
+      "primary_event_id": "evt_20260813_b1ffb14e2b",
+      "event_ids": [
+        "evt_20260813_b1ffb14e2b"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

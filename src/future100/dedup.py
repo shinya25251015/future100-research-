@@ -3,14 +3,18 @@
 同じ出来事を複数媒体が報じた場合、それを 1 クラスタに束ね、代表イベント 1 件だけを
 シグナル計数・レポートに流す。判定は次の順で行い、最初に一致した方法を採用する。
 
-  1. canonical_url が一致        … 同一記事の再取得
-  2. 同日 + content_hash が一致  … 転載・全文配信
-  3. event_key が一致            … 主体 + 動作 + 発生日が同じ
-  4. 同日 + 別ソース + 文面類似  … 表現違いの同一報道
+  1. canonical_url が一致   … 同一文書の再取得（同一ソース内でも統合してよい唯一の判定）
+  2. content_hash が一致    … 転載・全文配信
+  3. event_key が一致       … 主体 + 表題 + 発生日が同じ
+  4. 文面類似               … 表現違いの同一報道
 
 **すべての判定を発生日で区切る。** 定例の公告（Sunshine Act Meetings、営業毎旬報告など）は
 数か月後に一字一句同じ本文で再掲されるため、日付を見ない完全一致判定は別の出来事を
 同一視してしまう。
+
+**2〜4 は別ソース間でのみ使う。** これらはいずれも推定であり、同じ発行元が同じ日に
+同じ表題・同じ定型文で別件を大量に出す一次情報源（契約公告・官報・規則公示）では
+一致が「同じ出来事」を意味しない。同一ソース内で本当に同じ文書なら URL が一致する。
 
 判定がすべて発生日で閉じているため、**索引も発生日ごとに分割**して持つ
 (data/index/clusters/YYYY-MM-DD.json)。1 枚の大きな索引を毎日書き換えると、
@@ -94,9 +98,14 @@ class ClusterIndex:
     ) -> Match | None:
         if canonical_url in self.by_url:
             return self._match(self.by_url[canonical_url], "canonical_url", 1.0)
-        if content_hash in self.by_hash:
+        # ここから先（本文一致・表題一致・文面類似）はすべて推定であり、別ソース間でのみ使う。
+        # 同じ発行元が同じ日に同じ表題・同じ定型文で別件を大量に出す一次情報源
+        # （契約公告・官報・規則公示）があり、そこでは一致が「同じ出来事」を意味しない。
+        # 実測では別々の連邦契約 22 件が 1 件に潰れ、別々の公示も統合されていた。
+        # 同一ソース内で本当に同じ文書なら canonical_url が一致する。
+        if content_hash in self.by_hash and not self._only_source(self.by_hash[content_hash], source_id):
             return self._match(self.by_hash[content_hash], "content_hash", 1.0)
-        if event_key in self.by_key:
+        if event_key in self.by_key and not self._only_source(self.by_key[event_key], source_id):
             return self._match(self.by_key[event_key], "event_key", 1.0)
 
         # 文面類似による統合には 2 つの条件を課す。
@@ -108,13 +117,17 @@ class ClusterIndex:
         probe = textnorm.tokens(text)
         best: Match | None = None
         for cluster_id, tokens in self._tokens.items():
-            cluster = self.clusters.get(cluster_id, {})
-            if set(cluster.get("source_ids", [])) <= {source_id}:
+            if self._only_source(cluster_id, source_id):
                 continue
             score = textnorm.similarity(probe, tokens)
             if score >= SIMILARITY_THRESHOLD and (best is None or score > best.similarity):
                 best = self._match(cluster_id, "token_similarity", round(score, 4))
         return best
+
+    def _only_source(self, cluster_id: str, source_id: str) -> bool:
+        """そのクラスタが当該ソース単独で構成されているか。"""
+        sources = self.clusters.get(cluster_id, {}).get("source_ids", [])
+        return set(sources) <= {source_id}
 
     def _match(self, cluster_id: str, method: str, similarity: float) -> Match:
         cluster = self.clusters.get(cluster_id, {})
@@ -188,7 +201,7 @@ def assign(
         source_id=source_id,
     )
     if match is None:
-        cluster_id = ids.cluster_id(event_key)
+        cluster_id = ids.cluster_id(event_id)
         is_primary = True
         meta = {"content_hash": content_hash, "event_key": event_key, "method": "event_key", "similarity": 1.0}
     else:

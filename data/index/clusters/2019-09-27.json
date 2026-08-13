@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_47PK0119C0009_4740_-NONE-_-NONE-": "clu_9fa39ae35b"
+  },
+  "by_hash": {
+    "6e9d71aaecea6c89aeaeab5d045b5cab2e4cd79732c3a22c26c0105826d05fae": "clu_9fa39ae35b"
+  },
+  "by_key": {
+    "u.s. department of the treasury::construction manager as constructor (cmc) services for the modernization and expansion of the calexico west land port of entry phase 2a, calexico, california.::2019-09-27": "clu_9fa39ae35b"
+  },
+  "clusters": {
+    "clu_9fa39ae35b": {
+      "primary_event_id": "evt_20260813_6e9d71aaec",
+      "event_ids": [
+        "evt_20260813_6e9d71aaec"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

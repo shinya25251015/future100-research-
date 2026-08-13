@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_NNG17FB00C_8000_-NONE-_-NONE-": "clu_cdd8b28e35"
+  },
+  "by_hash": {
+    "4911e3af2afdeb1d79aed614d1a9538f95e78093373042393d3f9d996fcd9162": "clu_cdd8b28e35"
+  },
+  "by_key": {
+    "u.s. department of the treasury::the contractor furnishes all the necessary personnel, facilities, services, equipment, and materials to design, fabricate, integrate, test, and deliver the spacecraft bus, and provide services such as integration and test of the rsv at gsfc and performance of on-orbit activities for the initial restore-l refueling campaign in mid-2020. since the contractor is providing the spacecraft bus, nasa involvement will be tailored to balance the levels of oversight vs. insight needed to ascertain the appropriate level of risk to the overall mission.::2016-12-05": "clu_cdd8b28e35"
+  },
+  "clusters": {
+    "clu_cdd8b28e35": {
+      "primary_event_id": "evt_20260813_4911e3af2a",
+      "event_ids": [
+        "evt_20260813_4911e3af2a"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

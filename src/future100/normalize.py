@@ -76,7 +76,7 @@ def normalize_document(document: dict, source: dict, index: dedup.ClusterIndex) 
                 "role": "initiator",
             }
         ],
-        "signal_types": detect_signal_types(text),
+        "signal_types": detect_signal_types(text, source),
         "sector_links": detect_sector_links(text),
         "sources": [
             {
@@ -104,10 +104,17 @@ def normalize_document(document: dict, source: dict, index: dedup.ClusterIndex) 
     return event
 
 
-def detect_signal_types(text: str) -> list[str]:
+def detect_signal_types(text: str, source: dict | None = None) -> list[str]:
+    """キーワード規則で判定した種別と、ソース単位で自明な種別の和集合 (§10)。
+
+    Form D の届出はすべて資金調達、契約公告はすべて調達というように、
+    ソースの性質だけで決まる種別がある。本文にその語が現れなくても数える。
+    """
     norm = textnorm.normalize_text(text)
-    hits = [rule["signal_type"] for rule in config.load_signal_rules() if any(k in norm for k in rule["any"])]
-    return sorted(set(hits))
+    hits = {rule["signal_type"] for rule in config.load_signal_rules() if any(k in norm for k in rule["any"])}
+    if source:
+        hits.update(source.get("default_signal_types", []))
+    return sorted(hits)
 
 
 def detect_sector_links(text: str) -> list[dict]:

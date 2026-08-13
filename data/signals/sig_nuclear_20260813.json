@@ -37,6 +37,14 @@
         "evt_20260813_0612cf6715",
         "evt_20260813_19b0081ff8"
       ]
+    },
+    {
+      "signal_type": "procurement",
+      "count": 1,
+      "baseline_count": 0.0,
+      "event_ids": [
+        "evt_20260813_728a6eb942"
+      ]
     }
   ],
   "coverage": {

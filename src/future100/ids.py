@@ -20,8 +20,14 @@ def event_id(observed_at: str, content_hash: str) -> str:
     return f"evt_{day}_{content_hash[:10]}"
 
 
-def cluster_id(event_key: str) -> str:
-    return f"clu_{textnorm.short_hash(event_key, length=10)}"
+def cluster_id(seed: str) -> str:
+    """新規クラスタの ID。代表イベントの event_id から導出する。
+
+    event_key から導出すると、「表題も日付も同じだが別の出来事」（同一発行元が同日に
+    出す別々の契約公告など）が同じ ID に落ちてしまい、統合しないと判定したのに
+    同じクラスタに入る。ID は一意性だけを担い、同一性の判断は dedup 側で行う。
+    """
+    return f"clu_{textnorm.short_hash(seed, length=10)}"
 
 
 def sector_id(name: str) -> str:

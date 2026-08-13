@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_47QFCA21F0001_4732_47QTCK18D0001_4732": "clu_a7b770cf93"
+  },
+  "by_hash": {
+    "ee9e8032ae4dd7e11931b6f9fe65e34fe7b936e1421a3fd85e0b0f733a208596": "clu_a7b770cf93"
+  },
+  "by_key": {
+    "u.s. department of the treasury::the scope of the to is to provide enterprise it services for the usace.::2020-11-30": "clu_a7b770cf93"
+  },
+  "clusters": {
+    "clu_a7b770cf93": {
+      "primary_event_id": "evt_20260813_ee9e8032ae",
+      "event_ids": [
+        "evt_20260813_ee9e8032ae"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

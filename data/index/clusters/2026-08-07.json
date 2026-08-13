@@ -1,27 +1,33 @@
 {
   "by_url": {
-    "http://boj.or.jp/research/research_data/cai/index.htm": "clu_3765e5ec4a",
-    "http://boj.or.jp/statistics/market/short/call/call.xlsx": "clu_40f936cae3",
-    "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1727": "clu_11afc7967f",
-    "https://spectrum.ieee.org/v2x-technology-5g-open-ran": "clu_af887fb13e",
-    "https://spectrum.ieee.org/navigating-pivot-tech-expert-leader": "clu_bb7e28c321"
+    "http://boj.or.jp/research/research_data/cai/index.htm": "clu_07ca9b89f6",
+    "http://boj.or.jp/statistics/market/short/call/call.xlsx": "clu_ff0340220a",
+    "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1727": "clu_5111dbda3a",
+    "https://spectrum.ieee.org/v2x-technology-5g-open-ran": "clu_d8cc3a7312",
+    "https://spectrum.ieee.org/navigating-pivot-tech-expert-leader": "clu_92ce87f4ed",
+    "https://usaspending.gov/award/CONT_AWD_7571MN26C00029_7571_-NONE-_-NONE-": "clu_fe74c9acb4",
+    "https://war.gov/News/Contracts/Contract/Article/4566629/contracts-for-aug-7-2026": "clu_bac739f94d"
   },
   "by_hash": {
-    "1344859c6bccd36f08add5f42a792b6c344de06d23acdae6ac3f3799bdcd92a1": "clu_3765e5ec4a",
-    "c34c8f9c09eeca469ca879d3687010d20e7f4dfd5410a76984d77b5463801659": "clu_40f936cae3",
-    "45f4b822416730736e7e85b873ab43071c4f0e231460c1296d3f9aa5d5a14e26": "clu_11afc7967f",
-    "ae49db937399662ec3bc801fcf323980a2cdfc730351c75f4d2cc63e3eb78361": "clu_af887fb13e",
-    "caf5e563bd7e6298304423012900275f5e9cf4402e1f4f50110cfe4592c437b2": "clu_bb7e28c321"
+    "1344859c6bccd36f08add5f42a792b6c344de06d23acdae6ac3f3799bdcd92a1": "clu_07ca9b89f6",
+    "c34c8f9c09eeca469ca879d3687010d20e7f4dfd5410a76984d77b5463801659": "clu_ff0340220a",
+    "45f4b822416730736e7e85b873ab43071c4f0e231460c1296d3f9aa5d5a14e26": "clu_5111dbda3a",
+    "ae49db937399662ec3bc801fcf323980a2cdfc730351c75f4d2cc63e3eb78361": "clu_d8cc3a7312",
+    "caf5e563bd7e6298304423012900275f5e9cf4402e1f4f50110cfe4592c437b2": "clu_92ce87f4ed",
+    "80dab7e28aa3eebdcd578677f4e0cd8fe07e15dc5f279f804fc1c4fc77637a06": "clu_fe74c9acb4",
+    "7b7227b7c0ce8da4846025a749ca56a6b0f670f23004986e3f3d16d256c8b621": "clu_bac739f94d"
   },
   "by_key": {
-    "日本銀行::消費活動指数::2026-08-07": "clu_3765e5ec4a",
-    "日本銀行::コール市場残高(7月)::2026-08-07": "clu_40f936cae3",
-    "european commission::daily news 07 / 08 / 2026::2026-08-07": "clu_11afc7967f",
-    "ieee::cars communicating badly is an already-solved problem::2026-08-07": "clu_af887fb13e",
-    "ieee::navigating the pivot from tech expert to organizational leader::2026-08-07": "clu_bb7e28c321"
+    "日本銀行::消費活動指数::2026-08-07": "clu_07ca9b89f6",
+    "日本銀行::コール市場残高(7月)::2026-08-07": "clu_ff0340220a",
+    "european commission::daily news 07 / 08 / 2026::2026-08-07": "clu_5111dbda3a",
+    "ieee::cars communicating badly is an already-solved problem::2026-08-07": "clu_d8cc3a7312",
+    "ieee::navigating the pivot from tech expert to organizational leader::2026-08-07": "clu_92ce87f4ed",
+    "u.s. department of the treasury::legal services bridge 2.0::2026-08-07": "clu_fe74c9acb4",
+    "u.s. department of war (旧 department of defense)::contracts for aug. 7, 2026::2026-08-07": "clu_bac739f94d"
   },
   "clusters": {
-    "clu_3765e5ec4a": {
+    "clu_07ca9b89f6": {
       "primary_event_id": "evt_20260813_1344859c6b",
       "event_ids": [
         "evt_20260813_1344859c6b"
@@ -30,7 +36,7 @@
         "src_jp_boj"
       ]
     },
-    "clu_40f936cae3": {
+    "clu_ff0340220a": {
       "primary_event_id": "evt_20260813_c34c8f9c09",
       "event_ids": [
         "evt_20260813_c34c8f9c09"
@@ -39,7 +45,7 @@
         "src_jp_boj"
       ]
     },
-    "clu_11afc7967f": {
+    "clu_5111dbda3a": {
       "primary_event_id": "evt_20260813_45f4b82241",
       "event_ids": [
         "evt_20260813_45f4b82241"
@@ -48,7 +54,7 @@
         "src_eu_commission_press"
       ]
     },
-    "clu_af887fb13e": {
+    "clu_d8cc3a7312": {
       "primary_event_id": "evt_20260813_ae49db9373",
       "event_ids": [
         "evt_20260813_ae49db9373"
@@ -57,13 +63,31 @@
         "src_ieee_spectrum"
       ]
     },
-    "clu_bb7e28c321": {
+    "clu_92ce87f4ed": {
       "primary_event_id": "evt_20260813_caf5e563bd",
       "event_ids": [
         "evt_20260813_caf5e563bd"
       ],
       "source_ids": [
         "src_ieee_spectrum"
+      ]
+    },
+    "clu_fe74c9acb4": {
+      "primary_event_id": "evt_20260813_80dab7e28a",
+      "event_ids": [
+        "evt_20260813_80dab7e28a"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_bac739f94d": {
+      "primary_event_id": "evt_20260813_7b7227b7c0",
+      "event_ids": [
+        "evt_20260813_7b7227b7c0"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
       ]
     }
   }

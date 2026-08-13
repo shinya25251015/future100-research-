@@ -1,0 +1,34 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_89303022FIM000088_8900_89303019AIM000005_8900": "clu_2b5f8138b1",
+    "https://usaspending.gov/award/CONT_AWD_36C10B22N0056EHRM_3600_36C10B18D5000_3600": "clu_8b520fd869"
+  },
+  "by_hash": {
+    "6b0152ade00e0d7960357a6196ecfae85484253853136cea8a5aece11247b087": "clu_2b5f8138b1",
+    "20486adfd652de44dd5cbd689986f6b563919e8cb0e058bc0d9d2e4e44ff0f28": "clu_8b520fd869"
+  },
+  "by_key": {
+    "u.s. department of the treasury::bpa order 34, consolidated support services/itil alignment issued under master bpa number 89303019aim000005::2022-09-01": "clu_2b5f8138b1",
+    "u.s. department of the treasury::ehrm interfaces::2022-09-01": "clu_8b520fd869"
+  },
+  "clusters": {
+    "clu_2b5f8138b1": {
+      "primary_event_id": "evt_20260813_6b0152ade0",
+      "event_ids": [
+        "evt_20260813_6b0152ade0"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_8b520fd869": {
+      "primary_event_id": "evt_20260813_20486adfd6",
+      "event_ids": [
+        "evt_20260813_20486adfd6"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

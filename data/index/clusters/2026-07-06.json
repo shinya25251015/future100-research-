@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://war.gov/News/Contracts/Contract/Article/4533905/contracts-for-july-6-2026": "clu_c29fa95022"
+  },
+  "by_hash": {
+    "70fecb11c6a44bea3d8e2084dbfd801440e4dd6f397388db6bd1b0a399d3d38b": "clu_c29fa95022"
+  },
+  "by_key": {
+    "u.s. department of war (旧 department of defense)::contracts for july 6, 2026::2026-07-06": "clu_c29fa95022"
+  },
+  "clusters": {
+    "clu_c29fa95022": {
+      "primary_event_id": "evt_20260813_70fecb11c6",
+      "event_ids": [
+        "evt_20260813_70fecb11c6"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
+      ]
+    }
+  }
+}

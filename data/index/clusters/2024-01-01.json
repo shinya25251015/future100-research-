@@ -1,0 +1,34 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_47QFSA22F0063_4732_47QTCK18D0031_4732": "clu_93065e8fff",
+    "https://usaspending.gov/award/CONT_AWD_75FCMC24C0005_7530_-NONE-_-NONE-": "clu_797d2b9301"
+  },
+  "by_hash": {
+    "8134906728624014b555afa6e27b7e14d95b6471c674354bf18950e0b52ffb1f": "clu_93065e8fff",
+    "5759741fb00051768e6d8c9b9c1e50d7739ba0930e099e419ed4dc43afecab07": "clu_797d2b9301"
+  },
+  "by_key": {
+    "u.s. department of the treasury::53rd wing operations and 350th spectrum warfare wing 53wg350sww technical support services::2024-01-01": "clu_93065e8fff",
+    "u.s. department of the treasury::jurisdiction j15 a/b mac::2024-01-01": "clu_797d2b9301"
+  },
+  "clusters": {
+    "clu_93065e8fff": {
+      "primary_event_id": "evt_20260813_8134906728",
+      "event_ids": [
+        "evt_20260813_8134906728"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_797d2b9301": {
+      "primary_event_id": "evt_20260813_5759741fb0",
+      "event_ids": [
+        "evt_20260813_5759741fb0"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

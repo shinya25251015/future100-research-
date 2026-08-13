@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_DEAC0908SR22470_8900_-NONE-_-NONE-": "clu_e9a9eb39d9"
+  },
+  "by_hash": {
+    "ed0c38dc6609a2994dae908db60225cf0e61bfb46254f7035d4ad7c430b18d0b": "clu_e9a9eb39d9"
+  },
+  "by_key": {
+    "u.s. department of the treasury::management and operating contract for the savannah river site.::2008-01-10": "clu_e9a9eb39d9"
+  },
+  "clusters": {
+    "clu_e9a9eb39d9": {
+      "primary_event_id": "evt_20260813_ed0c38dc66",
+      "event_ids": [
+        "evt_20260813_ed0c38dc66"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

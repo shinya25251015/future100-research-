@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_140D0423F0882_1406_HHSN316201200040W_7529": "clu_a629f178e0"
+  },
+  "by_hash": {
+    "a4e27710874f3a7d121976523ff647a599936a11476ddc5a64cb79645b6dda6a": "clu_a629f178e0"
+  },
+  "by_key": {
+    "u.s. department of the treasury::the purpose of this requirement for grants program solutions and it support services is to provide efficient and effective grant, financial, and contract management services, it solutions, and support to the grantsolutions and its partners.::2023-09-17": "clu_a629f178e0"
+  },
+  "clusters": {
+    "clu_a629f178e0": {
+      "primary_event_id": "evt_20260813_a4e2771087",
+      "event_ids": [
+        "evt_20260813_a4e2771087"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

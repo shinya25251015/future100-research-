@@ -1,21 +1,33 @@
 {
   "by_url": {
-    "https://federalreserve.gov/newsevents/pressreleases/other20260701a.htm": "clu_1d17046413"
+    "https://federalreserve.gov/newsevents/pressreleases/other20260701a.htm": "clu_211eb9080c",
+    "https://war.gov/News/Contracts/Contract/Article/4531882/contracts-for-july-1-2026": "clu_6f646794e6"
   },
   "by_hash": {
-    "663b890edd8fe13443efbb50a26158c9d032ed418307169c244913816f1c2b68": "clu_1d17046413"
+    "663b890edd8fe13443efbb50a26158c9d032ed418307169c244913816f1c2b68": "clu_211eb9080c",
+    "e29b154227c5524c9cf5cdc7a2193bd9db12bfbb4ceeba5a500839e26725d467": "clu_6f646794e6"
   },
   "by_key": {
-    "board of governors of the federal reserve system::federal reserve issues initial findings from its 2025 triennial payments study::2026-07-01": "clu_1d17046413"
+    "board of governors of the federal reserve system::federal reserve issues initial findings from its 2025 triennial payments study::2026-07-01": "clu_211eb9080c",
+    "u.s. department of war (旧 department of defense)::contracts for july 1, 2026::2026-07-01": "clu_6f646794e6"
   },
   "clusters": {
-    "clu_1d17046413": {
+    "clu_211eb9080c": {
       "primary_event_id": "evt_20260813_663b890edd",
       "event_ids": [
         "evt_20260813_663b890edd"
       ],
       "source_ids": [
         "src_us_federal_reserve"
+      ]
+    },
+    "clu_6f646794e6": {
+      "primary_event_id": "evt_20260813_e29b154227",
+      "event_ids": [
+        "evt_20260813_e29b154227"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
       ]
     }
   }

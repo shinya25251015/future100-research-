@@ -1,21 +1,33 @@
 {
   "by_url": {
-    "http://boj.or.jp/about/bcp/fso/fso260713a.pdf": "clu_723ee3d551"
+    "http://boj.or.jp/about/bcp/fso/fso260713a.pdf": "clu_4c8e9fafee",
+    "https://war.gov/News/Contracts/Contract/Article/4542809/contracts-for-july-13-2026": "clu_4bbab0b40d"
   },
   "by_hash": {
-    "98941703e4d23acfc99131ff0d7e5ef9d3f5ad597edd2a0f0fb2dcef35a519c3": "clu_723ee3d551"
+    "98941703e4d23acfc99131ff0d7e5ef9d3f5ad597edd2a0f0fb2dcef35a519c3": "clu_4c8e9fafee",
+    "7451eff133e1f873864269b971d2d3baf49b0e730131c3e1c0f8f36b7493335a": "clu_4bbab0b40d"
   },
   "by_key": {
-    "日本銀行::令和8年7月滋賀県甲賀市の土砂崩れに係る災害等に対する金融上の措置について(滋賀県)::2026-07-13": "clu_723ee3d551"
+    "日本銀行::令和8年7月滋賀県甲賀市の土砂崩れに係る災害等に対する金融上の措置について(滋賀県)::2026-07-13": "clu_4c8e9fafee",
+    "u.s. department of war (旧 department of defense)::contracts for july 13, 2026::2026-07-13": "clu_4bbab0b40d"
   },
   "clusters": {
-    "clu_723ee3d551": {
+    "clu_4c8e9fafee": {
       "primary_event_id": "evt_20260813_98941703e4",
       "event_ids": [
         "evt_20260813_98941703e4"
       ],
       "source_ids": [
         "src_jp_boj"
+      ]
+    },
+    "clu_4bbab0b40d": {
+      "primary_event_id": "evt_20260813_7451eff133",
+      "event_ids": [
+        "evt_20260813_7451eff133"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
       ]
     }
   }

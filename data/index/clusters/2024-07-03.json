@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_80TECH24CA002_8000_-NONE-_-NONE-": "clu_79e7f656eb"
+  },
+  "by_hash": {
+    "cc11126363f12e55a75fcdc10b24608a982e05f16e2841ac26559b6f022c6dd5": "clu_79e7f656eb"
+  },
+  "by_key": {
+    "u.s. department of the treasury::nasa consolidated application and platform services (ncaps)::2024-07-03": "clu_79e7f656eb"
+  },
+  "clusters": {
+    "clu_79e7f656eb": {
+      "primary_event_id": "evt_20260813_cc11126363",
+      "event_ids": [
+        "evt_20260813_cc11126363"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

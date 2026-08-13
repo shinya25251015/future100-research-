@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_89303125FEM400428_8900_89303323DEM000089_8900": "clu_67cbcb4628"
+  },
+  "by_hash": {
+    "e65113c4ada57b470c3d9d27f051083e8bc60571439794a1c938d7ce2a6a01d2": "clu_67cbcb4628"
+  },
+  "by_key": {
+    "u.s. department of the treasury::portsmouth (ports) decontamination & decommissioning (d&d) - task order 3 fiscal years 2026 through 2031::2025-09-19": "clu_67cbcb4628"
+  },
+  "clusters": {
+    "clu_67cbcb4628": {
+      "primary_event_id": "evt_20260813_e65113c4ad",
+      "event_ids": [
+        "evt_20260813_e65113c4ad"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

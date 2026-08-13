@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_NNC16JB01T_8000_NNC16CA11C_8000": "clu_6ef5878fd1"
+  },
+  "by_hash": {
+    "e953bf8021eaa058c35275fca52d9ab50af2269ab51877d84a7d7710a6b2559a": "clu_6ef5878fd1"
+  },
+  "by_key": {
+    "u.s. department of the treasury::igf::ot::igf - technical information, administrative, and logistics services (tials 2) to support the institutional needs of nasa's glenn research center. logistics task.::2015-10-01": "clu_6ef5878fd1"
+  },
+  "clusters": {
+    "clu_6ef5878fd1": {
+      "primary_event_id": "evt_20260813_e953bf8021",
+      "event_ids": [
+        "evt_20260813_e953bf8021"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

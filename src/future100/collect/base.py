@@ -5,6 +5,8 @@
 """
 from __future__ import annotations
 
+import os
+import re
 import urllib.error
 import urllib.request
 from dataclasses import dataclass, field
@@ -32,8 +34,54 @@ class CollectResult:
     error: str | None = None
 
 
-def http_get(url: str, *, timeout: int = DEFAULT_TIMEOUT) -> bytes:
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "*/*"})
+_ENV_REF = re.compile(r"\$\{([A-Z0-9_]+)\}")
+
+
+def resolve_user_agent(source: dict) -> str | None:
+    """ソース定義の User-Agent 内の ${ENV_VAR} を環境変数で埋める。
+
+    SEC EDGAR のように「連絡先アドレスを名乗ること」を利用条件にしている提供元がある。
+    偽のアドレスをリポジトリに置くわけにはいかないため、運用者が自分の連絡先を
+    環境変数で与える形にしている。未設定なら取得せず、対処法を添えて失敗させる。
+    """
+    template = source.get("user_agent")
+    if not template:
+        return None
+
+    missing: list[str] = []
+
+    def substitute(match: re.Match[str]) -> str:
+        value = os.environ.get(match.group(1), "")
+        if not value:
+            missing.append(match.group(1))
+        return value
+
+    resolved = _ENV_REF.sub(substitute, template)
+    if missing:
+        raise FetchError(
+            source["source_id"],
+            f"環境変数 {', '.join(missing)} が未設定です。"
+            f"このソースは User-Agent に連絡先を要求します（例: export {missing[0]}=you@example.com）",
+        )
+    return resolved
+
+
+def http_get(
+    url: str,
+    *,
+    timeout: int = DEFAULT_TIMEOUT,
+    user_agent: str | None = None,
+    body: bytes | None = None,
+) -> bytes:
+    """GET（body を渡した場合は JSON の POST）。
+
+    User-Agent を差し替えられるようにしてあるのは、SEC EDGAR のように
+    連絡先入りの UA を要求し、既定 UA では 403 を返す提供元があるため。
+    """
+    headers = {"User-Agent": user_agent or USER_AGENT, "Accept": "*/*"}
+    if body is not None:
+        headers["Content-Type"] = "application/json"
+    request = urllib.request.Request(url, headers=headers, data=body)
     try:
         with urllib.request.urlopen(request, timeout=timeout) as response:
             return response.read()

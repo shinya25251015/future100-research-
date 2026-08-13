@@ -1,30 +1,33 @@
 {
   "by_url": {
-    "http://boj.or.jp/statistics/dl/loan/yaku/yaku2606.pdf": "clu_e072468906",
-    "http://boj.or.jp/about/organization/policyboard/pb_geppo/pbgp2606.htm": "clu_f338f6d789",
-    "http://boj.or.jp/research/research_data/cpi/index.htm": "clu_d27182ff7b",
-    "https://spectrum.ieee.org/mariana-costa-women-in-tech": "clu_35defe0ae1",
-    "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson": "clu_579055db5f",
-    "https://spectrum.ieee.org/universal-gravitational-constant-nist-schlamminger": "clu_3d8abca6a5"
+    "http://boj.or.jp/statistics/dl/loan/yaku/yaku2606.pdf": "clu_c987a5f38a",
+    "http://boj.or.jp/about/organization/policyboard/pb_geppo/pbgp2606.htm": "clu_32b01ddfe3",
+    "http://boj.or.jp/research/research_data/cpi/index.htm": "clu_262e06e443",
+    "https://spectrum.ieee.org/mariana-costa-women-in-tech": "clu_19e5af867d",
+    "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson": "clu_a1307ffcef",
+    "https://spectrum.ieee.org/universal-gravitational-constant-nist-schlamminger": "clu_b32303fefe",
+    "https://war.gov/News/Contracts/Contract/Article/4557600/contracts-for-july-28-2026": "clu_b53dc9952b"
   },
   "by_hash": {
-    "af850b8c0f74b2665c8cd6ac9e7347b86e06d729da5ab2d93b74b1f001fcf9f7": "clu_e072468906",
-    "300aba43c2daf81edd881dbc549094aea44bbbc7227b8122409368a0d9e0d60e": "clu_f338f6d789",
-    "b9ae31448917f3561aab0b459a927f95833c0a4a58b474f66716688852a7c2cf": "clu_d27182ff7b",
-    "1ec351ae058b8bd53291b1429e86d39ee5b67a8c15f3faa31b1eded7034b0257": "clu_35defe0ae1",
-    "609f7797482e5e261539633993eef22e864d7ee2b589fe636d33342899e8b488": "clu_579055db5f",
-    "c990fa8c746cb662911c29c36e90c3fcacd44662183a0453d7a3dc39c8bd3c59": "clu_3d8abca6a5"
+    "af850b8c0f74b2665c8cd6ac9e7347b86e06d729da5ab2d93b74b1f001fcf9f7": "clu_c987a5f38a",
+    "300aba43c2daf81edd881dbc549094aea44bbbc7227b8122409368a0d9e0d60e": "clu_32b01ddfe3",
+    "b9ae31448917f3561aab0b459a927f95833c0a4a58b474f66716688852a7c2cf": "clu_262e06e443",
+    "1ec351ae058b8bd53291b1429e86d39ee5b67a8c15f3faa31b1eded7034b0257": "clu_19e5af867d",
+    "609f7797482e5e261539633993eef22e864d7ee2b589fe636d33342899e8b488": "clu_a1307ffcef",
+    "c990fa8c746cb662911c29c36e90c3fcacd44662183a0453d7a3dc39c8bd3c59": "clu_b32303fefe",
+    "36e2bf9f97d4f9b959bd3c98fe6a8b200261c491c93f5f5d95558469ef0af268": "clu_b53dc9952b"
   },
   "by_key": {
-    "日本銀行::貸出約定平均金利(6月)::2026-07-28": "clu_e072468906",
-    "日本銀行::日本銀行政策委員会月報(令和8年6月号)::2026-07-28": "clu_f338f6d789",
-    "日本銀行::消費者物価のコア指標::2026-07-28": "clu_d27182ff7b",
-    "ieee::laboratoria’s mariana costa empowers women in tech::2026-07-28": "clu_35defe0ae1",
-    "nvidia corporation::powerful compute so compact, it’s clutch — build ai in your hand with nvidia jetson::2026-07-28": "clu_579055db5f",
-    "ieee::why nist researchers spent 10 years measuring gravity::2026-07-28": "clu_3d8abca6a5"
+    "日本銀行::貸出約定平均金利(6月)::2026-07-28": "clu_c987a5f38a",
+    "日本銀行::日本銀行政策委員会月報(令和8年6月号)::2026-07-28": "clu_32b01ddfe3",
+    "日本銀行::消費者物価のコア指標::2026-07-28": "clu_262e06e443",
+    "ieee::laboratoria’s mariana costa empowers women in tech::2026-07-28": "clu_19e5af867d",
+    "nvidia corporation::powerful compute so compact, it’s clutch — build ai in your hand with nvidia jetson::2026-07-28": "clu_a1307ffcef",
+    "ieee::why nist researchers spent 10 years measuring gravity::2026-07-28": "clu_b32303fefe",
+    "u.s. department of war (旧 department of defense)::contracts for july 28, 2026::2026-07-28": "clu_b53dc9952b"
   },
   "clusters": {
-    "clu_e072468906": {
+    "clu_c987a5f38a": {
       "primary_event_id": "evt_20260813_af850b8c0f",
       "event_ids": [
         "evt_20260813_af850b8c0f"
@@ -33,7 +36,7 @@
         "src_jp_boj"
       ]
     },
-    "clu_f338f6d789": {
+    "clu_32b01ddfe3": {
       "primary_event_id": "evt_20260813_300aba43c2",
       "event_ids": [
         "evt_20260813_300aba43c2"
@@ -42,7 +45,7 @@
         "src_jp_boj"
       ]
     },
-    "clu_d27182ff7b": {
+    "clu_262e06e443": {
       "primary_event_id": "evt_20260813_b9ae314489",
       "event_ids": [
         "evt_20260813_b9ae314489"
@@ -51,7 +54,7 @@
         "src_jp_boj"
       ]
     },
-    "clu_35defe0ae1": {
+    "clu_19e5af867d": {
       "primary_event_id": "evt_20260813_1ec351ae05",
       "event_ids": [
         "evt_20260813_1ec351ae05"
@@ -60,7 +63,7 @@
         "src_ieee_spectrum"
       ]
     },
-    "clu_579055db5f": {
+    "clu_a1307ffcef": {
       "primary_event_id": "evt_20260813_609f779748",
       "event_ids": [
         "evt_20260813_609f779748"
@@ -69,13 +72,22 @@
         "src_nvidia_newsroom"
       ]
     },
-    "clu_3d8abca6a5": {
+    "clu_b32303fefe": {
       "primary_event_id": "evt_20260813_c990fa8c74",
       "event_ids": [
         "evt_20260813_c990fa8c74"
       ],
       "source_ids": [
         "src_ieee_spectrum"
+      ]
+    },
+    "clu_b53dc9952b": {
+      "primary_event_id": "evt_20260813_36e2bf9f97",
+      "event_ids": [
+        "evt_20260813_36e2bf9f97"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
       ]
     }
   }

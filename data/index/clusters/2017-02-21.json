@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_INR17PC00023_1425_-NONE-_-NONE-": "clu_e709145e5b"
+  },
+  "by_hash": {
+    "9876c7d6c729e3417972e5001ea6a139ee6bee90d60fce817e6310fd4d8a2ace": "clu_e709145e5b"
+  },
+  "by_key": {
+    "u.s. department of the treasury::pojoaque basin regional water system igf::ot::igf::2017-02-21": "clu_e709145e5b"
+  },
+  "clusters": {
+    "clu_e709145e5b": {
+      "primary_event_id": "evt_20260813_9876c7d6c7",
+      "event_ids": [
+        "evt_20260813_9876c7d6c7"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_91003126F0021_9100_91003123D0004_9100": "clu_c80f238e9b",
+    "https://usaspending.gov/award/CONT_AWD_91003126F0022_9100_91003123D0005_9100": "clu_22ecfc5b86"
+  },
+  "by_hash": {
+    "5996259a71db626d2d99797f38c16af6942bbccb4ed86f755ee3886f1ba52d9e": "clu_c80f238e9b",
+    "124160fba3e6f26a4db77228db3b9d0b73431f8cac28db8bd6122ecc8d273055": "clu_22ecfc5b86"
+  },
+  "by_key": {
+    "u.s. department of the treasury::operations and maintenance (o&m) task order for student loan servicing in accordance with the requirements of the usds contract. all work and deliverables provided by the usds servicer must be in accordance with the requirements of the contract f::2026-04-01": "clu_c80f238e9b"
+  },
+  "clusters": {
+    "clu_c80f238e9b": {
+      "primary_event_id": "evt_20260813_5996259a71",
+      "event_ids": [
+        "evt_20260813_5996259a71"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    },
+    "clu_22ecfc5b86": {
+      "primary_event_id": "evt_20260813_124160fba3",
+      "event_ids": [
+        "evt_20260813_124160fba3"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://usaspending.gov/award/CONT_AWD_05GA0A19F0018_0559_HHSN316201200004W_7529": "clu_cfea2b989e"
+  },
+  "by_hash": {
+    "37932889d00117010eaf4365f7c9638483b8af981e452717ccd493f667c7d2d9": "clu_cfea2b989e"
+  },
+  "by_key": {
+    "u.s. department of the treasury::ffp&t&m hybrid task order from nitaac with base period and five (5) optional periods with optional clins in support of the it operations, engineering and enhancement support services (oeess) for the gao ists program::2019-05-17": "clu_cfea2b989e"
+  },
+  "clusters": {
+    "clu_cfea2b989e": {
+      "primary_event_id": "evt_20260813_37932889d0",
+      "event_ids": [
+        "evt_20260813_37932889d0"
+      ],
+      "source_ids": [
+        "src_usaspending_awards"
+      ]
+    }
+  }
+}
