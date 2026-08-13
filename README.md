@@ -25,6 +25,7 @@ python3 scripts/daily.py                   # 収集 → 正規化 → シグナ�
 python3 scripts/init_structure.py          # ディレクトリ生成（冪等）
 python3 scripts/collect.py --dry-run       # 全ソースの到達性を確認
 python3 scripts/collect.py                 # data/raw/ にスナップショットを保存
+python3 scripts/collect.py --force         # poll_interval_minutes を無視して取り直す
 python3 scripts/normalize.py               # raw → data/events/（重複統合込み）
 python3 scripts/detect_signals.py          # 弱いシグナルの同時増加を集計 (§10)
 python3 scripts/analyze_sector.py --list   # セクターごとの根拠件数を確認 (§20-34)

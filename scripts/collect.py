@@ -27,6 +27,7 @@ def main() -> int:
     parser.add_argument("--tier", action="append", choices=["tier1", "tier2", "tier3", "tier4"])
     parser.add_argument("--dry-run", action="store_true", help="保存せず件数だけ報告する")
     parser.add_argument("--all", action="store_true", help="enabled=false のソースも対象にする")
+    parser.add_argument("--force", action="store_true", help="poll_interval_minutes を無視して取りに行く")
     args = parser.parse_args()
 
     sources = config.load_sources(enabled_only=not args.all, tiers=set(args.tier) if args.tier else None)
@@ -39,10 +40,20 @@ def main() -> int:
 
     started = timeutil.now_str()
     total_new = total_seen = 0
+    skipped = 0
     failures: list[tuple[str, str]] = []
+    # 取得間隔は source_id を明示したときと --force のときは見ない（手元で試すため）。
+    last_polls = storage.load_index("last_poll")
+    honor_interval = not args.source and not args.force
 
     for source in sources:
+        if honor_interval and not config.is_due(source, last_polls.get(source["source_id"]), now=started):
+            skipped += 1
+            continue
+
         result = collect.base.collect(source)
+        if not result.error and not args.dry_run:
+            last_polls[source["source_id"]] = started
         if result.error:
             failures.append((source["source_id"], result.error))
             print(f"  FAIL {source['source_id']}: {result.error}")
@@ -55,7 +66,13 @@ def main() -> int:
         count = len(result.documents) if args.dry_run else new
         print(f"  OK   {source['source_id']}: {count} {label} / {len(result.documents)} items")
 
-    print(f"\nstarted_at={started}  sources={len(sources)}  items={total_seen}  new_raw={total_new}  failed={len(failures)}")
+    if not args.dry_run:
+        storage.save_index("last_poll", last_polls)
+
+    print(
+        f"\nstarted_at={started}  sources={len(sources)}  items={total_seen}  "
+        f"new_raw={total_new}  skipped={skipped}  failed={len(failures)}"
+    )
     if failures:
         print("failed sources:", file=sys.stderr)
         for source_id, reason in failures:

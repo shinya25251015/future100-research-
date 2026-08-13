@@ -305,6 +305,27 @@ def test_registered_statistics_sources_are_renderable():
                         f"{source['source_id']}: 環境変数を要求するなら requires_credentials を立てる"
 
 
+def test_poll_interval_never_skips_a_daily_source():
+    """取得間隔は「少なくともこの頻度で」の意味に取る。
+
+    日次ジョブの起動時刻は数十分ずれる。間隔をそのまま締切にすると、23 時間 40 分で
+    起きた日に日次ソースを丸ごと落とす。落とした日は観測履歴に穴が開き、
+    baseline の充足がその日数だけ後ろにずれる (§10)。
+    """
+    daily = {"source_id": "src_daily", "poll_interval_minutes": 1440}
+    weekly = {"source_id": "src_weekly", "poll_interval_minutes": 10080}
+
+    now = "2026-08-14T21:40:00Z"
+    assert config.is_due(daily, None, now=now), "一度も取っていなければ必ず取る"
+    assert config.is_due(daily, "2026-08-13T22:00:00Z", now=now), "23 時間 40 分でも日次ソースは取る"
+    assert not config.is_due(daily, "2026-08-14T03:00:00Z", now=now), "同じ日に取り直しはしない"
+    assert not config.is_due(weekly, "2026-08-13T22:00:00Z", now=now), "週次ソースは翌日には取り直さない"
+    assert config.is_due(weekly, "2026-08-07T22:00:00Z", now=now), "週次ソースは 1 週間後に取る"
+
+    hourly = {"source_id": "src_hourly", "poll_interval_minutes": 360}
+    assert config.is_due(hourly, "2026-08-14T21:00:00Z", now=now), "1 日未満の間隔は日次サイクルでは常に満たされる"
+
+
 def main() -> int:
     failures = 0
     for name, func in sorted(globals().items()):

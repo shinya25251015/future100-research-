@@ -8,7 +8,7 @@ from __future__ import annotations
 from functools import lru_cache
 from pathlib import Path
 
-from . import storage
+from . import storage, timeutil
 
 SOURCES_FILE = storage.CONFIG_DIR / "sources.json"
 SECTORS_FILE = storage.CONFIG_DIR / "known_sectors.json"
@@ -23,6 +23,26 @@ def load_sources(*, enabled_only: bool = True, tiers: set[str] | None = None) ->
     if tiers:
         sources = [s for s in sources if s["tier"] in tiers]
     return sources
+
+
+def is_due(source: dict, last_poll: str | None, *, now: str | None = None) -> bool:
+    """このソースを今回取りに行くか。
+
+    poll_interval_minutes は「少なくともこの頻度で」の意味に取る。1 日以上の間隔は
+    経過時間ではなく日付の差で数える。日次ジョブの起動時刻は数十分から数時間ずれ、
+    手動実行が挟まることもあるため、経過時間で締め切ると「23 時間しか経っていない」
+    という理由で日次ソースを丸ごと落とす日が出る。落とした日は観測履歴に穴が開き、
+    baseline の充足がその日数ぶん後ろにずれる (§10)。
+
+    1 日未満の間隔は日次サイクルでは常に満たされるため、毎回取りに行く。
+    """
+    if not last_poll:
+        return True
+    interval_days = source.get("poll_interval_minutes", 1440) // 1440
+    if interval_days < 1:
+        return True
+    elapsed_days = (timeutil.day_of(now or timeutil.now_str()) - timeutil.day_of(last_poll)).days
+    return elapsed_days >= interval_days
 
 
 def get_source(source_id: str) -> dict:
