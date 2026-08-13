@@ -5,7 +5,7 @@
   "description": "Early Signal Detection の集計単位 (§10)。単独のシグナルではなく、複数種別の弱いシグナルが同一期間に同時増加していることを検出するためのウィンドウ集計。",
   "type": "object",
   "additionalProperties": false,
-  "required": ["window_id", "as_of", "window", "topic", "counts", "co_occurrence"],
+  "required": ["window_id", "as_of", "window", "topic", "counts", "co_occurrence", "coverage"],
   "properties": {
     "window_id": { "type": "string", "pattern": "^sig_[a-z0-9_]+_\\d{8}$" },
     "as_of": {
@@ -37,8 +37,7 @@
     },
     "counts": {
       "type": "array",
-      "minItems": 1,
-      "description": "シグナル種別ごとの件数。件数は is_cluster_primary=true のイベントのみを数える (§38)。",
+      "description": "シグナル種別ごとの件数。件数は is_cluster_primary=true のイベントのみを数える (§38)。該当シグナルが 1 件も無い期間は空配列（「観測されなかった」も記録として残す）。",
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -52,6 +51,34 @@
         }
       }
     },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["baseline_covered", "sources"],
+      "description": "観測網の被覆状況。収集を開始したばかりのソースは baseline 期間の件数が構造的に 0 になり、増加していないものが急増して見える。この誤検出を防ぐための検査であり、baseline_covered=false の window は threshold_met を立ててはならない (§10, §37)。",
+      "properties": {
+        "baseline_covered": {
+          "type": "boolean",
+          "description": "この topic に寄与する全ソースを baseline 期間の開始時点から観測できていたか"
+        },
+        "sources": {
+          "type": "array",
+          "description": "寄与ソースごとの観測開始時刻",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["source_id", "observation_start", "covers_baseline"],
+            "properties": {
+              "source_id": { "type": "string" },
+              "observation_start": { "$ref": "enums.schema.json#/$defs/timestamp" },
+              "covers_baseline": { "type": "boolean" }
+            }
+          }
+        },
+        "note": { "type": "string" }
+      }
+    },
+
     "co_occurrence": {
       "type": "object",
       "additionalProperties": false,

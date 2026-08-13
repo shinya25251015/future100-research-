@@ -20,10 +20,10 @@ python3 scripts/init_structure.py          # ディレクトリ生成（冪等�
 python3 scripts/collect.py --dry-run       # 全ソースの到達性を確認
 python3 scripts/collect.py                 # data/raw/ にスナップショットを保存
 python3 scripts/normalize.py               # raw → data/events/（重複統合込み）
+python3 scripts/detect_signals.py          # 弱いシグナルの同時増加を集計 (§10)
 python3 scripts/validate_data.py           # スキーマ + 仕様書不変条件の検査
 
-python3 tests/test_pipeline.py             # テスト（pytest があれば python3 -m pytest tests -q）
-python3 tests/test_schemas.py
+python3 -m pytest tests -q                 # テスト（pytest が無ければ各ファイルを直接実行）
 ```
 
 JSON Schema 検証まで行う場合のみ追加依存を入れる（未導入でも不変条件の検査は動く）:
@@ -48,6 +48,7 @@ src/future100/
   collect/  コレクタ（rss / atom / json_api）
   normalize.py  raw → Event
   dedup.py      同一ニュースの統合 (§38)
+  signals.py    Early Signal Detection (§10)
   timeutil.py   UTC 統一と Look-ahead Bias ガード (§36-37)
   invariants.py 仕様書の規律をコードで強制 (§17-19, §39, §44-46)
 scripts/    運用コマンド
@@ -63,3 +64,5 @@ backtest/   予測と実績の突き合わせ (§40-43)
 - **事実と推論を分離する。** `claims[].type` が `observed` か `inferred` か。推論には根拠が必須 (§17-19)。
 - **raw は不変。** 解釈が変わっても取得データは書き換えず、events を作り直す (§48-51)。
 - **迷ったら統合しない。** 重複統合の誤りは出来事を消す。取りこぼしは件数が増えるだけ (§38)。
+- **観測開始を「変化」と読まない。** 収集を始めたばかりのソースは過去期間の件数が構造的に 0 になり、
+  すべてが急増して見える。baseline 期間を観測できていない topic は判定を保留する (§10)。

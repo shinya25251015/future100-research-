@@ -70,6 +70,33 @@ def check_sector(profile: dict) -> list[str]:
     return problems
 
 
+def check_signal_window(window: dict) -> list[str]:
+    problems: list[str] = []
+    period = window.get("window", {})
+    as_of_day = window.get("as_of", "")[:10]
+
+    if period.get("end", "") > as_of_day:
+        problems.append(f"§37: window end {period.get('end')} extends past as_of {as_of_day}")
+    if period.get("baseline_end") and period["baseline_end"] >= period.get("start", ""):
+        problems.append("§10: baseline period must precede the window period")
+
+    coverage = window.get("coverage", {})
+    co_occurrence = window.get("co_occurrence", {})
+    if not coverage.get("baseline_covered", False) and co_occurrence.get("threshold_met"):
+        problems.append(
+            "§10: threshold_met set while the baseline period is not covered by observation; "
+            "a surge that starts when collection starts is not a signal"
+        )
+    if window.get("promotion", {}).get("promoted") and not co_occurrence.get("threshold_met"):
+        problems.append("§12: promoted without meeting the co-occurrence threshold")
+
+    for entry in window.get("counts", []):
+        if entry.get("baseline_count", 0) == 0 and "delta_ratio" in entry:
+            problems.append(f"§10: delta_ratio defined against a zero baseline ({entry.get('signal_type')})")
+
+    return problems
+
+
 def check_prediction(prediction: dict) -> list[str]:
     problems: list[str] = []
     if not prediction.get("falsifier"):
@@ -105,6 +132,7 @@ def check_daily_report(report: dict) -> list[str]:
 
 CHECKS = {
     "event": check_event,
+    "signal": check_signal_window,
     "sector": check_sector,
     "prediction": check_prediction,
     "daily_report": check_daily_report,

@@ -67,6 +67,7 @@ def main() -> int:
 
     events = [(e["event_id"], e) for e in storage.iter_events()]
     run("event", events)
+    run("signal", [(p.stem, storage.read_json(p)) for p in sorted(storage.SIGNALS_DIR.glob("sig_*.json"))])
     run("sector", [(p.stem, storage.read_json(p)) for p in sorted(storage.SECTORS_DIR.glob("sec_*.json"))])
     run("prediction", [(p.stem, storage.read_json(p)) for p in sorted((storage.DATA / "predictions").glob("prd_*.json"))])
     run("daily_report", [(p.stem, storage.read_json(p)) for p in sorted((storage.REPORTS_DIR / "daily").glob("rpt_*.json"))])

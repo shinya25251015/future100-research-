@@ -7,7 +7,7 @@ Phase の区切りは仕様書 §3 の分析フローに対応させている。
 |---|---|---|---|
 | 1 | 環境・ディレクトリ・データモデル | §48-57 | **完了** |
 | 2 | 情報収集（GLOBAL DATA の取り込み） | §4-7, §35-38, §48-51 | **骨格完了 / 拡張中** |
-| 3 | セクター分析（Early Signal → 構造評価） | §8-12, §20-34 | 未着手（設計のみ） |
+| 3 | セクター分析（Early Signal → 構造評価） | §8-12, §20-34 | **3-1 完了 / 3-2 未着手** |
 | 4 | サプライチェーン・ボトルネック・波及分析 | §13-19 | スキーマのみ |
 | 5 | 市場規模・シナリオ・スコア | §9, §39, §44-46 | スキーマのみ |
 | 6 | 日次 Global Sector Report 生成 | §47 | テンプレートのみ |
@@ -71,16 +71,32 @@ scripts/check_sources.py             全ソースの到達性を検査し、失�
 
 Phase 3 は「イベントの山」から「構造の評価」に変換する層で、2 段構えにする。
 
-### 3-1. Early Signal Detection (§10) — 集計だけで判定できる部分
+### 3-1. Early Signal Detection (§10) — 完了
 
 ```
-src/future100/signals.py
-    build_window(topic, start, end, as_of) -> SignalWindow
+src/future100/signals.py       build_window(topic, window, as_of) -> SignalWindow
+scripts/detect_signals.py      集計と data/signals/ への保存
 ```
 
-- `data/events/` を `as_of` で絞って読み、`signal_types` × 期間で件数を集計する。
-- 判定は件数の絶対値ではなく **同時増加**。過去同期間（baseline）比で複数の種別が同時に増えたか、
-  かつ「複数ソース・複数地域」で観測されたか（`co_occurrence`）を見る。単一ソースの連投で発火させない。
+- `data/events/` を `as_of` で絞り（`is_cluster_primary=true` のみ）、`signal_types` × 期間で集計する。
+  可視性は `observed_at`、期間の割り当ては `event_at`。「いつ起きたか」で数え「いつ知ったか」で絞る (§37)。
+- 判定は件数の絶対値ではなく **同時増加**。既定は直近 7 日を、その前 28 日を 7 日ぶんに割り戻した
+  baseline と比較し、2 種別以上が 2 ソース以上で増えたときだけ発火させる。
+- baseline が 0 のときは増加率を定義しない（0 除算を大きな数で誤魔化さない）。
+
+**観測開始による偽シグナルの遮断（実データで最初に踏んだ罠）**
+
+初回実行で「AI / 計算基盤: paper=338 対 baseline 0.25、score 93.3」という強烈なシグナルが出たが、
+これは arXiv を*その日に初めて取得した*ことによるもので、世界の変化ではない。
+収集開始直後はどのソースも baseline 期間の件数が構造的に 0 になり、**すべてが急増して見える**。
+
+対策として `coverage` を全 SignalWindow に持たせた。寄与ソースごとの観測開始時刻を記録し、
+baseline 期間の開始より後に観測を始めたソースが 1 つでもあれば `baseline_covered=false` とし、
+`threshold_met` を立てない。`invariants.check_signal_window()` がこの規律を強制する。
+baseline 期間ぶん（既定 28 日）収集を続ければ自動的に解消する。
+
+現状の実行結果は **0/16 発火・14 件が判定保留**。これが観測 1 日目の正しい答えである。
+
 - しきい値を超えた topic のうち、既知セクターに紐づかないものが §12 Emerging Sector 候補になる。
 - この層に LLM は要らない。**なぜ増えたか**を説明するのが次の層。
 
@@ -101,10 +117,12 @@ src/future100/sector_analysis.py
 
 ### Phase 3 の実装順
 
-1. `signals.py` + `scripts/detect_signals.py`（規則ベース、LLM 不要）
-2. `sector_analysis.py` の骨格 — 入力の組み立てと出力検証だけ先に作り、生成部分は差し替え可能にする
-3. 既知 16 セクター (§11) のプロファイル初版を作成し、`validate_data.py` を全件通す
-4. §12 Emerging Sector Discovery — signals の結果から新概念を起こす
+1. ~~`signals.py` + `scripts/detect_signals.py`（規則ベース、LLM 不要）~~ **完了**
+2. **日次収集の定常化** — Phase 3-2 に進む前にこれが要る。observation coverage が baseline に届くまで
+   （既定設定で 28 日）シグナル判定は保留され続けるため、まず毎日走らせる仕組みを作る。
+3. `sector_analysis.py` の骨格 — 入力の組み立てと出力検証だけ先に作り、生成部分は差し替え可能にする
+4. 既知 16 セクター (§11) のプロファイル初版を作成し、`validate_data.py` を全件通す
+5. §12 Emerging Sector Discovery — signals の結果から新概念を起こす
 
 ## 技術的負債・既知の制約
 
@@ -115,4 +133,5 @@ src/future100/sector_analysis.py
 | 分類が規則ベース | category はソース既定値、sector_link は方向未評価 | Phase 3 の評価精度に上限を作る |
 | 日本語トークン化 | 形態素解析なしの文字 2-gram | 精度は実用範囲だが、専門用語の切り出しは弱い |
 | 市場規模データなし | TAM/SAM/SOM の一次統計を未取得 | §9 の定量評価が Phase 5 まで空欄 |
+| 観測履歴が 1 日ぶん | baseline 期間の被覆が不足 | シグナル判定が全件保留中。日次収集を 28 日続ければ解消 |
 | 16 項目レポートの構成 | 要約版仕様書から §47 の 16 項目を再構成した | 完全版 Ver.4.0 の定義と突き合わせが必要 |
