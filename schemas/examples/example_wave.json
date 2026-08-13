@@ -1,0 +1,62 @@
+{
+  "chain_id": "wav_ai_compute_power",
+  "as_of": "2026-08-13T00:00:00Z",
+  "trigger": {
+    "description": "【EXAMPLE / スキーマ説明用】AI 計算需要の増加を起点とした連鎖。仕様書 §17-19 の例（AI → GPU → 電力 → 送電網 → 冷却）をそのままデータ構造に落としたもの。数値はダミー。",
+    "sector_id": "sec_ai_compute",
+    "event_ids": []
+  },
+  "links": [
+    {
+      "wave": 1,
+      "from": "AI 計算需要",
+      "to": "アクセラレータ出荷",
+      "to_sector_id": "sec_semiconductor",
+      "mechanism": "学習・推論の計算量増加が、そのままアクセラレータの調達数量に転写される。",
+      "claim_type": "observed",
+      "causal_confidence": "high",
+      "lag": { "months_min": 0, "months_max": 6, "basis": "受注から出荷までの標準リードタイム" },
+      "evidence": [],
+      "falsifier": "計算需要の指標が伸びる一方でアクセラレータ出荷が 2 四半期横ばいなら、この連結は成立していない。",
+      "monitoring_kpi_ids": []
+    },
+    {
+      "wave": 2,
+      "from": "アクセラレータ出荷",
+      "to": "データセンター電力需要",
+      "to_sector_id": "sec_power_grid",
+      "mechanism": "設置台数 × 消費電力が施設の契約電力を決めるため、出荷増は電力需要に物理的に直結する。",
+      "claim_type": "observed",
+      "causal_confidence": "high",
+      "lag": { "months_min": 6, "months_max": 18, "basis": "設置・稼働までの工期" },
+      "magnitude_transfer": 1.0,
+      "evidence": [],
+      "falsifier": "電力効率の改善が出荷増を相殺し、施設あたり契約電力が増えないこと。"
+    },
+    {
+      "wave": 3,
+      "from": "データセンター電力需要",
+      "to": "送配電設備投資",
+      "to_sector_id": "sec_power_grid",
+      "mechanism": "既存系統の余力を超える負荷は、変電・変圧器・接続工事の追加投資なしには接続できない。",
+      "claim_type": "inferred",
+      "causal_confidence": "medium",
+      "lag": { "months_min": 24, "months_max": 60, "basis": "系統設備の計画・認可・建設期間" },
+      "evidence": [],
+      "falsifier": "系統接続待ち容量が減少に転じ、かつ設備投資計画が上方修正されないこと。"
+    },
+    {
+      "wave": 3,
+      "from": "データセンター電力需要",
+      "to": "冷却・熱管理",
+      "to_sector_id": "sec_cooling",
+      "mechanism": "ラック当たり電力密度の上昇が空冷の限界を超え、液冷への置換を強制する。",
+      "claim_type": "inferred",
+      "causal_confidence": "medium",
+      "lag": { "months_min": 12, "months_max": 36, "basis": "施設設計サイクル" },
+      "evidence": [],
+      "falsifier": "新設施設のラック電力密度が空冷の実用上限に留まり続けること。"
+    }
+  ],
+  "schema_version": "1.0"
+}

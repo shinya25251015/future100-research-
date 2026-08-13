@@ -1,0 +1,21 @@
+{
+  "description": "§11 Known Sector Monitor の常時監視対象。ここに当てはまらない構造変化が §12 Emerging Sector Discovery の対象になる。keywords は Phase 2 の一次紐付け（rule-based）に使う暫定値で、精度は Phase 3 で見直す。",
+  "sectors": [
+    { "sector_id": "sec_ai_compute", "name": "AI / 計算基盤", "keywords": ["ai", "gpu", "accelerator", "llm", "data center", "生成ai", "データセンター", "推論"] },
+    { "sector_id": "sec_semiconductor", "name": "半導体", "keywords": ["semiconductor", "foundry", "wafer", "lithography", "euv", "半導体", "前工程", "後工程", "hbm"] },
+    { "sector_id": "sec_optical_networking", "name": "光通信", "keywords": ["optical", "transceiver", "silicon photonics", "光通信", "光トランシーバ"] },
+    { "sector_id": "sec_cpo", "name": "CPO (Co-Packaged Optics)", "keywords": ["co-packaged optics", "cpo", "co packaged"] },
+    { "sector_id": "sec_power_grid", "name": "電力・送配電", "keywords": ["grid", "transmission", "transformer", "substation", "電力", "送電", "変圧器", "系統"] },
+    { "sector_id": "sec_nuclear", "name": "原子力", "keywords": ["nuclear", "smr", "reactor", "原子力", "小型モジュール炉", "再稼働"] },
+    { "sector_id": "sec_fusion", "name": "核融合", "keywords": ["fusion", "tokamak", "stellarator", "核融合"] },
+    { "sector_id": "sec_defense", "name": "防衛", "keywords": ["defense", "defence", "munitions", "missile", "防衛", "装備品"] },
+    { "sector_id": "sec_space", "name": "宇宙", "keywords": ["space", "satellite", "launch vehicle", "宇宙", "衛星", "打ち上げ"] },
+    { "sector_id": "sec_quantum", "name": "量子", "keywords": ["quantum", "qubit", "量子", "量子コンピュータ"] },
+    { "sector_id": "sec_next_gen_battery", "name": "次世代電池", "keywords": ["battery", "solid-state", "sodium-ion", "電池", "全固体", "蓄電"] },
+    { "sector_id": "sec_robotics", "name": "ロボティクス", "keywords": ["robot", "humanoid", "automation", "ロボット", "自動化"] },
+    { "sector_id": "sec_cybersecurity", "name": "サイバーセキュリティ", "keywords": ["cybersecurity", "ransomware", "zero trust", "セキュリティ", "サイバー"] },
+    { "sector_id": "sec_healthcare", "name": "医療・ライフサイエンス", "keywords": ["biotech", "clinical", "drug", "医療", "創薬", "治験"] },
+    { "sector_id": "sec_cooling", "name": "冷却・熱管理", "keywords": ["cooling", "liquid cooling", "immersion", "thermal", "冷却", "液冷", "熱管理"] },
+    { "sector_id": "sec_critical_minerals", "name": "重要鉱物・資源", "keywords": ["rare earth", "critical mineral", "lithium", "copper", "gallium", "レアアース", "重要鉱物", "銅"] }
+  ]
+}

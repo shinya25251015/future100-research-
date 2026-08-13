@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://future100.local/schemas/prediction.schema.json",
+  "title": "Prediction",
+  "description": "§39-43 予測レコード。発行後は不変（訂正は新しい prediction_id を発行し supersedes で繋ぐ）。検証可能でない予測（測定方法・期限・棄却条件のいずれかを欠くもの）は保存しない。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["prediction_id", "issued_at", "subject", "statement", "resolution", "confidence", "falsifier"],
+  "properties": {
+    "prediction_id": { "type": "string", "pattern": "^prd_\\d{8}_[0-9a-f]{8}$" },
+    "issued_at": {
+      "$ref": "enums.schema.json#/$defs/timestamp",
+      "description": "発行時刻。この時刻より後に observed_at を持つ情報を根拠にしてはならない (§37)。"
+    },
+    "supersedes": { "type": "string", "description": "訂正元の prediction_id" },
+    "subject": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind"],
+      "properties": {
+        "kind": { "type": "string", "enum": ["sector", "bottleneck", "wave_link", "kpi", "market_size"] },
+        "sector_id": { "type": "string", "pattern": "^sec_[a-z0-9_]+$" },
+        "node_id": { "type": "string" },
+        "chain_id": { "type": "string" },
+        "kpi_id": { "type": "string" }
+      }
+    },
+    "statement": { "type": "string", "minLength": 1, "description": "一文で書かれた検証可能な主張" },
+    "scenario": { "$ref": "enums.schema.json#/$defs/scenario" },
+    "time_horizon": { "$ref": "enums.schema.json#/$defs/time_horizon" },
+    "resolution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["due_date", "metric", "criterion"],
+      "description": "何をもって的中／外れとするかを発行時点で固定する。",
+      "properties": {
+        "due_date": { "$ref": "enums.schema.json#/$defs/date" },
+        "metric": { "type": "string", "description": "測定対象の指標名" },
+        "unit": { "type": "string" },
+        "criterion": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["operator", "value"],
+          "properties": {
+            "operator": { "type": "string", "enum": [">=", ">", "<=", "<", "==", "between"] },
+            "value": { "type": "number" },
+            "value_upper": { "type": "number", "description": "operator=between のときの上限" }
+          }
+        },
+        "measurement_source_id": { "type": "string", "description": "実績を測るソース。発行時点で決めておく。" }
+      }
+    },
+    "confidence": { "$ref": "enums.schema.json#/$defs/confidence" },
+    "probability": { "type": "number", "minimum": 0, "maximum": 1 },
+    "falsifier": { "type": "string", "minLength": 1, "description": "どうなったら仮説を撤回するか (§39)" },
+    "basis": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "根拠の凍結。バックテスト時にこの集合のみで再現できることを確認する。",
+      "properties": {
+        "event_ids": { "type": "array", "items": { "type": "string" } },
+        "claim_ids": { "type": "array", "items": { "type": "string" } },
+        "sector_as_of": { "$ref": "enums.schema.json#/$defs/timestamp" },
+        "view_kind": { "$ref": "enums.schema.json#/$defs/view_kind" }
+      }
+    },
+    "schema_version": { "type": "string", "const": "1.0" }
+  }
+}

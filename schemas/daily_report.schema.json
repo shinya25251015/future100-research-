@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://future100.local/schemas/daily_report.schema.json",
+  "title": "DailyGlobalSectorReport",
+  "description": "§47 日次 Global Sector Report（16 項目）。銘柄推奨・銘柄ランキング・セクターランキングを出力してはならない (§44-46)。sections は 16 項目すべてを必ず含み、該当なしの日も『該当なし』と明記して省略しない。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["report_id", "report_date", "as_of", "sections"],
+  "properties": {
+    "report_id": { "type": "string", "pattern": "^rpt_\\d{8}$" },
+    "report_date": { "$ref": "enums.schema.json#/$defs/date" },
+    "as_of": {
+      "$ref": "enums.schema.json#/$defs/timestamp",
+      "description": "この時刻までに observed_at を持つ情報のみで構成する (§37)。"
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "events_ingested": { "type": "integer", "minimum": 0 },
+        "events_after_dedup": { "type": "integer", "minimum": 0 },
+        "sources_polled": { "type": "integer", "minimum": 0 },
+        "sources_failed": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 16,
+      "maxItems": 16,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["no", "key", "title", "body"],
+        "properties": {
+          "no": { "type": "integer", "minimum": 1, "maximum": 16 },
+          "key": {
+            "type": "string",
+            "enum": [
+              "executive_summary",
+              "policy_regulation",
+              "geopolitics",
+              "macro_economy",
+              "global_capex",
+              "technology_progress",
+              "early_signals",
+              "known_sector_monitor",
+              "emerging_sector_discovery",
+              "supply_demand",
+              "bottlenecks",
+              "supply_chain_map",
+              "wave_analysis",
+              "market_formation",
+              "consensus_vs_independent",
+              "kpi_and_forecast_review"
+            ]
+          },
+          "title": { "type": "string" },
+          "body": { "type": "string", "description": "該当なしの場合も『本日該当なし』と明記する。" },
+          "event_ids": { "type": "array", "items": { "type": "string" } },
+          "sector_ids": { "type": "array", "items": { "type": "string" } },
+          "confidence": { "$ref": "enums.schema.json#/$defs/confidence" }
+        }
+      }
+    },
+    "prohibited_output_check": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "§44-46 の禁止事項に対する自己検査結果。false のまま出力してはならない。",
+      "properties": {
+        "contains_ticker_recommendation": { "type": "boolean", "const": false },
+        "contains_ranking": { "type": "boolean", "const": false },
+        "checked_at": { "$ref": "enums.schema.json#/$defs/timestamp" }
+      }
+    },
+    "schema_version": { "type": "string", "const": "1.0" }
+  }
+}

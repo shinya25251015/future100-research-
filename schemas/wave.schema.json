@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://future100.local/schemas/wave.schema.json",
+  "title": "WaveChain",
+  "description": "§17-19 第二波・第三波の連鎖分析（例: AI → GPU → 電力 → 送電網 → 冷却）。各段は観察された事実か推論かを分離し、Causal Confidence を付与する。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["chain_id", "trigger", "as_of", "links"],
+  "properties": {
+    "chain_id": { "type": "string", "pattern": "^wav_[a-z0-9_]+$" },
+    "as_of": { "$ref": "enums.schema.json#/$defs/timestamp" },
+    "trigger": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["description"],
+      "description": "連鎖の起点。既に起きた構造変化であること。",
+      "properties": {
+        "description": { "type": "string" },
+        "sector_id": { "type": "string", "pattern": "^sec_[a-z0-9_]+$" },
+        "event_ids": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "links": {
+      "type": "array",
+      "minItems": 1,
+      "description": "波の各段。wave=1 が第一波（直接需要）、2 が第二波、3 が第三波。",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["wave", "from", "to", "mechanism", "claim_type", "causal_confidence"],
+        "properties": {
+          "wave": { "type": "integer", "minimum": 1, "maximum": 5 },
+          "from": { "type": "string", "description": "波及元（セクター名またはノード名）" },
+          "to": { "type": "string", "description": "波及先" },
+          "to_sector_id": { "type": "string", "pattern": "^sec_[a-z0-9_]+$" },
+          "mechanism": { "type": "string", "minLength": 1, "description": "なぜ波及するのかの物理的・経済的な機序" },
+          "claim_type": {
+            "$ref": "enums.schema.json#/$defs/claim_type",
+            "description": "observed=実績データで波及が確認済み, inferred=構造からの推論 (§17-19)"
+          },
+          "causal_confidence": {
+            "$ref": "enums.schema.json#/$defs/confidence",
+            "description": "因果の確からしさ。波が進むほど低下するのが自然で、無根拠に high を置かない。"
+          },
+          "lag": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "months_min": { "type": "number", "minimum": 0 },
+              "months_max": { "type": "number", "minimum": 0 },
+              "basis": { "type": "string", "description": "リードタイムの根拠（建設期間・設計サイクル等）" }
+            }
+          },
+          "magnitude_transfer": {
+            "type": "number",
+            "minimum": 0,
+            "description": "波及元の増分に対する波及先の増分比率（弾性）。推定値なら claim_type=inferred。"
+          },
+          "evidence": { "type": "array", "items": { "$ref": "enums.schema.json#/$defs/evidence_ref" } },
+          "falsifier": { "type": "string", "description": "この波及が起きていないと判定できる観測条件 (§39)" },
+          "monitoring_kpi_ids": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "schema_version": { "type": "string", "const": "1.0" }
+  }
+}

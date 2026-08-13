@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://future100.local/schemas/supply_chain.schema.json",
+  "title": "SupplyChainMap",
+  "description": "§16 川上から最終需要までの分解、§13 需給、§14-15 ボトルネックと収益回収主体。新規市場が形成される箇所（既存ノードの隙間）を明示する。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["map_id", "sector_id", "as_of", "nodes", "edges"],
+  "properties": {
+    "map_id": { "type": "string", "pattern": "^scm_[a-z0-9_]+$" },
+    "sector_id": { "type": "string", "pattern": "^sec_[a-z0-9_]+$" },
+    "as_of": { "$ref": "enums.schema.json#/$defs/timestamp" },
+    "nodes": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["node_id", "name", "tier_position"],
+        "properties": {
+          "node_id": { "type": "string", "pattern": "^nd_[a-z0-9_]+$" },
+          "name": { "type": "string" },
+          "tier_position": {
+            "type": "string",
+            "enum": ["raw_material", "processing", "component", "equipment", "subsystem", "integration", "infrastructure", "service", "end_demand"],
+            "description": "川上 (raw_material) から最終需要 (end_demand) までの位置"
+          },
+          "supply_demand": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "§13 需要急増時に最初に足りなくなるのはどこかを判定するための需給状態",
+            "properties": {
+              "utilization": { "type": "number", "minimum": 0, "maximum": 2, "description": "稼働率 (1.0 = 満稼働)" },
+              "lead_time_months": { "type": "number", "minimum": 0 },
+              "expansion_lead_time_months": { "type": "number", "minimum": 0, "description": "増産に要する期間。長いほどボトルネック化しやすい。" },
+              "geographic_concentration": { "$ref": "enums.schema.json#/$defs/level" },
+              "evidence": { "type": "array", "items": { "$ref": "enums.schema.json#/$defs/evidence_ref" } }
+            }
+          },
+          "bottleneck": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "§14-15",
+            "properties": {
+              "is_bottleneck": { "type": "boolean", "default": false },
+              "severity": { "$ref": "enums.schema.json#/$defs/level" },
+              "trigger_condition": { "type": "string", "description": "どの程度の需要増でボトルネック化するか" },
+              "pricing_power": { "$ref": "enums.schema.json#/$defs/level", "description": "不足時に価格を決められるか" },
+              "concentration": { "$ref": "enums.schema.json#/$defs/level", "description": "供給主体の寡占度" },
+              "monetizer_type": { "type": "string", "description": "利益を回収する主体の類型（装置メーカー / 素材 / ライセンサ 等）。個別銘柄名は書かない (§44-46)。" },
+              "confidence": { "$ref": "enums.schema.json#/$defs/confidence" },
+              "resolution_path": { "type": "string", "description": "解消経路（増設・代替・規格変更）と所要時間" }
+            }
+          },
+          "new_market": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "§16 このノード周辺に新市場が形成されるか",
+            "properties": {
+              "forms_new_market": { "type": "boolean", "default": false },
+              "description": { "type": "string" },
+              "estimated_timing": { "$ref": "enums.schema.json#/$defs/time_horizon" },
+              "confidence": { "$ref": "enums.schema.json#/$defs/confidence" }
+            }
+          }
+        }
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["from", "to"],
+        "properties": {
+          "from": { "type": "string", "pattern": "^nd_[a-z0-9_]+$" },
+          "to": { "type": "string", "pattern": "^nd_[a-z0-9_]+$" },
+          "flow": { "type": "string", "description": "流れるもの（材料・装置・電力・データ 等）" },
+          "substitutability": { "$ref": "enums.schema.json#/$defs/level" },
+          "confidence": { "$ref": "enums.schema.json#/$defs/confidence" }
+        }
+      }
+    },
+    "schema_version": { "type": "string", "const": "1.0" }
+  }
+}

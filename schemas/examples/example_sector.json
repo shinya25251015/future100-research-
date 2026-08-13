@@ -1,0 +1,126 @@
+{
+  "sector_id": "sec_power_grid",
+  "name": "電力・送配電",
+  "definition": "【EXAMPLE / スキーマ説明用のダミー。数値は実データではなく、分析結果として参照してはならない】発電設備そのものではなく、送配電網（変電設備・変圧器・高圧ケーブル・系統接続工事）を対象とする。発電事業・電力小売は含まない。",
+  "as_of": "2026-08-13T00:00:00Z",
+  "origin": "known_monitor",
+  "time_horizon": "mid",
+  "technology_stage": {
+    "stage": "mature",
+    "evidence": [
+      {
+        "source_id": "src_us_doe_news",
+        "reliability": "A",
+        "quote": "EXAMPLE: 技術自体は成熟。制約は技術ではなく製造能力とリードタイムにある。"
+      }
+    ],
+    "notes": "技術成熟度は mature だが、セクター成長フェーズは別軸で評価する (§8, §20-21)。"
+  },
+  "phase": {
+    "phase": "scaling",
+    "rationale": "EXAMPLE: 成熟産業だが、データセンター負荷の増加により設備更新需要が構造的に拡大する局面。新規参入ではなく既存能力の増設が主戦場。",
+    "evidence": [{ "source_id": "src_us_doe_news", "reliability": "A" }]
+  },
+  "growth": {
+    "probability": {
+      "value": 0.7,
+      "confidence": "medium",
+      "rationale": "EXAMPLE: 電力需要増は複数の独立した経路（データセンター・電化・製造回帰）から生じており、単一要因の撤回では消えない。"
+    },
+    "magnitude": {
+      "value": "medium",
+      "expected_multiple": 1.8,
+      "confidence": "low",
+      "rationale": "EXAMPLE: 規制下の資産であり価格転嫁に上限があるため、需要増がそのまま市場規模に転写されない。"
+    }
+  },
+  "market_size": {
+    "base_year": 2025,
+    "tam": { "amount": 0, "currency": "USD", "unit": "billion" },
+    "method": "EXAMPLE: 未推計。一次統計（各国系統運用者の設備投資計画）を積み上げてから記入する。",
+    "evidence": []
+  },
+  "scenarios": [
+    {
+      "scenario": "bear",
+      "narrative": "EXAMPLE: データセンター建設が電力制約で立地分散し、系統投資が既存余力の再配分で吸収される。",
+      "probability": 0.25,
+      "projections": [{ "year": 2030, "market_size": { "amount": 0, "currency": "USD", "unit": "billion" } }],
+      "falsifier": "主要系統運用者の設備投資計画が 2 期連続で上方修正された場合、このシナリオを棄却する。"
+    },
+    {
+      "scenario": "base",
+      "narrative": "EXAMPLE: 変圧器・高圧機器のリードタイムが高止まりし、増設は需要に数年遅れて進む。",
+      "probability": 0.5,
+      "projections": [{ "year": 2030, "market_size": { "amount": 0, "currency": "USD", "unit": "billion" }, "cagr": 0.08 }],
+      "falsifier": "主要機器のリードタイムが 12 か月未満に短縮した場合、供給制約前提が崩れるため棄却する。"
+    },
+    {
+      "scenario": "bull",
+      "narrative": "EXAMPLE: 系統接続待ちが政策課題化し、複数国で送電投資が前倒しされる。",
+      "probability": 0.25,
+      "projections": [{ "year": 2030, "market_size": { "amount": 0, "currency": "USD", "unit": "billion" }, "cagr": 0.15 }],
+      "falsifier": "2 年以内に主要国で送電投資の前倒し予算が成立しない場合、棄却する。"
+    }
+  ],
+  "structure": {
+    "entry_barrier": { "level": "high", "rationale": "EXAMPLE: 大型変圧器は認証・試験設備・熟練工が必要で、新規参入のリードタイムが長い。", "confidence": "medium" },
+    "pricing_power": { "level": "high", "rationale": "EXAMPLE: 供給が逼迫し、納期が価格より優先される局面では供給側に価格決定力が寄る。", "confidence": "medium" },
+    "policy_dependency": { "level": "high", "rationale": "EXAMPLE: 料金規制と系統計画の認可に依存し、政策変更が投資額を直接左右する。", "confidence": "high" },
+    "demand_autonomy": { "level": "medium", "rationale": "EXAMPLE: 補助金がなくても需要は消えないが、投資回収は規制料金に依存する。", "confidence": "medium" },
+    "capital_intensity": { "level": "very_high", "rationale": "EXAMPLE: 設備投資が先行し回収期間が長い。", "confidence": "high" },
+    "substitution_risk": { "level": "low", "rationale": "EXAMPLE: 送電網の代替手段は分散電源のみで、完全代替は成立しない。", "confidence": "medium" }
+  },
+  "views": {
+    "consensus": {
+      "summary": "EXAMPLE: 電力需要増の受益者は発電・IPP と語られることが多い。",
+      "evidence": []
+    },
+    "independent": {
+      "summary": "EXAMPLE: 制約は発電量ではなく系統接続と変圧器供給にあるため、不足が最初に顕在化するのは送配電機器側である。",
+      "divergence": "コンセンサスが発電容量に注目するのに対し、本システムはリードタイムの長い機器供給をボトルネックとみなす (§13-15)。",
+      "confidence": "medium",
+      "basis": []
+    }
+  },
+  "bottlenecks": [
+    {
+      "node_id": "nd_large_power_transformer",
+      "description": "EXAMPLE: 大型電力変圧器。増産に要する期間が需要増の立ち上がりより長い。",
+      "monetizer": "重電機器メーカーおよび電磁鋼板・銅線の素材供給者（類型。個別銘柄は挙げない）",
+      "confidence": "medium"
+    }
+  ],
+  "monitoring_kpis": [
+    {
+      "kpi_id": "kpi_transformer_lead_time",
+      "name": "大型変圧器の標準リードタイム",
+      "unit": "months",
+      "cadence": "quarterly",
+      "expected_direction": "up",
+      "threshold": 24,
+      "source_id": "src_us_doe_news"
+    },
+    {
+      "kpi_id": "kpi_interconnection_queue",
+      "name": "系統接続待ち容量",
+      "unit": "GW",
+      "cadence": "quarterly",
+      "expected_direction": "up",
+      "source_id": "src_us_doe_news"
+    }
+  ],
+  "future_sector_score": {
+    "total": 0,
+    "internal_only": true,
+    "components": {},
+    "rationale": "EXAMPLE: 未算出。算出後もセクター間の順位付けには使用しない (§44-46)。"
+  },
+  "evidence_summary": {
+    "event_ids": [],
+    "reliability_counts": { "A": 0, "B": 0, "C": 0, "D": 0 },
+    "newest_evidence_at": "2026-08-13T00:00:00Z"
+  },
+  "revision": { "version": 1, "change_reason": "スキーマ説明用の初期例" },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://future100.local/schemas/event.schema.json",
+  "title": "Event",
+  "description": "RawDocument から正規化された「世界で起きた 1 件の出来事」(§48-51)。同一ニュースは cluster_id で束ね、代表イベント 1 件のみを分析に流す (§38)。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "event_id",
+    "cluster_id",
+    "category",
+    "title",
+    "summary",
+    "observed_at",
+    "event_at",
+    "sources",
+    "claims"
+  ],
+  "properties": {
+    "event_id": { "type": "string", "pattern": "^evt_\\d{8}_[0-9a-f]{10}$" },
+    "cluster_id": {
+      "type": "string",
+      "pattern": "^clu_[0-9a-f]{10}$",
+      "description": "同一事象クラスタの ID。異なる媒体が報じた同じ出来事は同じ cluster_id を持つ (§38)。"
+    },
+    "is_cluster_primary": {
+      "type": "boolean",
+      "default": true,
+      "description": "クラスタの代表イベントか。false のイベントは集計・シグナル計数から除外する (§38)。"
+    },
+    "category": { "$ref": "enums.schema.json#/$defs/event_category" },
+    "title": { "type": "string", "minLength": 1 },
+    "summary": {
+      "type": "string",
+      "minLength": 1,
+      "description": "事実のみの要約。解釈・含意はここに書かず claims[].type=inferred に置く。"
+    },
+    "observed_at": {
+      "$ref": "enums.schema.json#/$defs/timestamp",
+      "description": "本システムが観測した時刻。分析時点 as_of より後の observed_at を参照してはならない (§37)。"
+    },
+    "published_at": { "$ref": "enums.schema.json#/$defs/timestamp" },
+    "event_at": {
+      "$ref": "enums.schema.json#/$defs/timestamp",
+      "description": "出来事そのものが起きた（または効力を持つ）時刻。"
+    },
+    "event_at_precision": {
+      "type": "string",
+      "enum": ["exact", "day", "month", "quarter", "year"],
+      "default": "day"
+    },
+    "regions": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^([A-Z]{2}|EU|GLOBAL)$" }
+    },
+    "actors": {
+      "type": "array",
+      "description": "主体（政府機関・企業・団体）。銘柄推奨には使わず、構造分析の主体特定にのみ使う (§1, §44-46)。",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "role"],
+        "properties": {
+          "name": { "type": "string" },
+          "kind": { "type": "string", "enum": ["government", "company", "institution", "alliance", "other"] },
+          "country": { "type": "string", "pattern": "^([A-Z]{2}|EU|GLOBAL)$" },
+          "role": { "type": "string", "enum": ["initiator", "target", "supplier", "customer", "regulator", "observer"] }
+        }
+      }
+    },
+    "quantities": {
+      "type": "array",
+      "description": "本文から抽出した数値。単位と根拠を欠いた数値は保存しない。",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["label", "value", "unit"],
+        "properties": {
+          "label": { "type": "string" },
+          "value": { "type": "number" },
+          "unit": { "type": "string", "description": "USD, JPY, GW, kt, units, %, ... " },
+          "scale": { "type": "string", "enum": ["one", "thousand", "million", "billion", "trillion"], "default": "one" },
+          "period": { "type": "string", "description": "対象期間 (例 FY2027, 2026-2030)" }
+        }
+      }
+    },
+    "signal_types": {
+      "type": "array",
+      "description": "このイベントが Early Signal として数えられる種別 (§10)。該当しなければ空配列。",
+      "items": { "$ref": "enums.schema.json#/$defs/signal_type" }
+    },
+    "sector_links": {
+      "type": "array",
+      "description": "関連セクター。この段階では「関連の有無」のみで、成長判断は行わない。",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["sector_id", "relation"],
+        "properties": {
+          "sector_id": { "type": "string", "pattern": "^sec_[a-z0-9_]+$" },
+          "relation": {
+            "type": "string",
+            "enum": ["demand_up", "demand_down", "supply_up", "supply_down", "cost_up", "cost_down", "regulatory", "neutral", "unclassified"],
+            "description": "unclassified = 関連は検出したが影響方向を未評価（Phase 2 の rule-based 紐付けの既定値）。neutral（影響なしと判断した）とは区別する。"
+          },
+          "confidence": { "$ref": "enums.schema.json#/$defs/confidence" }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "description": "このイベントを支える raw 文書。クラスタに複数媒体があればすべて列挙する。",
+      "items": { "$ref": "enums.schema.json#/$defs/evidence_ref" }
+    },
+    "max_reliability": {
+      "$ref": "enums.schema.json#/$defs/reliability",
+      "description": "sources のうち最良の信頼度。Tier 4 のみを根拠とするイベントを識別するために保持する。"
+    },
+    "claims": {
+      "type": "array",
+      "minItems": 1,
+      "description": "このイベントから導かれる主張。observed（文書に書いてある事実）と inferred（本システムの推論）を必ず分けて持つ (§17-19, §35-38)。",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["claim_id", "type", "statement", "confidence"],
+        "properties": {
+          "claim_id": { "type": "string" },
+          "type": { "$ref": "enums.schema.json#/$defs/claim_type" },
+          "statement": { "type": "string", "minLength": 1 },
+          "confidence": { "$ref": "enums.schema.json#/$defs/confidence" },
+          "basis": {
+            "type": "array",
+            "description": "inferred の場合に必須となる根拠。observed claim の claim_id、または evidence。",
+            "items": { "type": "string" }
+          },
+          "falsifier": {
+            "type": "string",
+            "description": "この主張が誤りだと判定できる観測条件 (§39)。inferred では強く推奨。"
+          }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "type": { "const": "inferred" } }, "required": ["type"] },
+            "then": { "required": ["basis"], "properties": { "basis": { "minItems": 1 } } }
+          }
+        ]
+      }
+    },
+    "dedup": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "重複判定の監査情報 (§38)",
+      "properties": {
+        "content_hash": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "event_key": { "type": "string", "description": "正規化キー（主体 + 動作 + 日付）" },
+        "duplicate_of": { "type": "string", "description": "代表イベントの event_id" },
+        "similarity": { "type": "number", "minimum": 0, "maximum": 1 },
+        "method": { "type": "string", "enum": ["canonical_url", "content_hash", "event_key", "token_similarity", "manual"] }
+      }
+    },
+    "schema_version": { "type": "string", "const": "1.0" }
+  }
+}

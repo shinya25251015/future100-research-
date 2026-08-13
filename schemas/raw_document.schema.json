@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://future100.local/schemas/raw_document.schema.json",
+  "title": "RawDocument",
+  "description": "取得した一次データの不変スナップショット (§48-51)。data/raw/ 配下に置き、一度書いたら更新しない。ここに Look-ahead Bias 防止の起点となる observed_at を記録する (§37)。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["raw_id", "source_id", "observed_at", "fetch", "content"],
+  "properties": {
+    "raw_id": {
+      "type": "string",
+      "pattern": "^raw_[0-9a-f]{16}$",
+      "description": "canonical_url の SHA-256 先頭 16 桁。同一 URL の再取得は同じ ID になる。"
+    },
+    "source_id": { "type": "string", "pattern": "^src_[a-z0-9_]+$" },
+    "observed_at": {
+      "$ref": "enums.schema.json#/$defs/timestamp",
+      "description": "本システムがこの文書を取得した時刻。バックテストはこの時刻でのみ可視性を判定する (§37)。"
+    },
+    "published_at": {
+      "$ref": "enums.schema.json#/$defs/timestamp",
+      "description": "発行元が公開した時刻。取得できない場合は省略し、推定値を入れない。"
+    },
+    "fetch": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "canonical_url", "method"],
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "canonical_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "追跡パラメータ等を除去した正規化 URL。重複判定の第一キー (§38)。"
+        },
+        "method": { "type": "string", "enum": ["rss", "atom", "http_get", "json_api", "manual"] },
+        "http_status": { "type": "integer" },
+        "etag": { "type": "string" },
+        "collector": { "type": "string", "description": "取得に使ったコレクタ名とバージョン (例 rss@1)" }
+      }
+    },
+    "content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "body", "content_hash"],
+      "properties": {
+        "title": { "type": "string" },
+        "body": { "type": "string", "description": "本文（プレーンテキスト）。取得できた範囲をそのまま保存する。" },
+        "language": { "type": "string", "pattern": "^[a-z]{2}$" },
+        "content_hash": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$",
+          "description": "正規化本文の SHA-256。完全一致重複の検出に使う (§38)。"
+        },
+        "attachments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["url"],
+            "properties": {
+              "url": { "type": "string", "format": "uri" },
+              "media_type": { "type": "string" },
+              "local_path": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "processing": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "後段の処理状態。raw 本体を書き換えず、この枝だけ更新する。",
+      "properties": {
+        "event_ids": { "type": "array", "items": { "type": "string" } },
+        "normalized_at": { "$ref": "enums.schema.json#/$defs/timestamp" },
+        "status": { "type": "string", "enum": ["pending", "normalized", "skipped", "failed"] },
+        "skip_reason": { "type": "string" }
+      }
+    }
+  }
+}

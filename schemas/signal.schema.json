@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://future100.local/schemas/signal.schema.json",
+  "title": "SignalWindow",
+  "description": "Early Signal Detection の集計単位 (§10)。単独のシグナルではなく、複数種別の弱いシグナルが同一期間に同時増加していることを検出するためのウィンドウ集計。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["window_id", "as_of", "window", "topic", "counts", "co_occurrence"],
+  "properties": {
+    "window_id": { "type": "string", "pattern": "^sig_[a-z0-9_]+_\\d{8}$" },
+    "as_of": {
+      "$ref": "enums.schema.json#/$defs/timestamp",
+      "description": "この集計を行った時刻。observed_at <= as_of のイベントのみを集計に含める (§37)。"
+    },
+    "window": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start", "end"],
+      "properties": {
+        "start": { "$ref": "enums.schema.json#/$defs/date" },
+        "end": { "$ref": "enums.schema.json#/$defs/date" },
+        "baseline_start": { "$ref": "enums.schema.json#/$defs/date", "description": "比較対象となる過去期間の開始" },
+        "baseline_end": { "$ref": "enums.schema.json#/$defs/date" }
+      }
+    },
+    "topic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label"],
+      "description": "既存セクターに紐づかない新概念でもよい (§12)。sector_id が無い状態が Emerging Sector 候補の初期形。",
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "keywords": { "type": "array", "items": { "type": "string" } },
+        "sector_id": { "type": "string", "pattern": "^sec_[a-z0-9_]+$" },
+        "is_new_concept": { "type": "boolean", "default": false }
+      }
+    },
+    "counts": {
+      "type": "array",
+      "minItems": 1,
+      "description": "シグナル種別ごとの件数。件数は is_cluster_primary=true のイベントのみを数える (§38)。",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["signal_type", "count", "baseline_count"],
+        "properties": {
+          "signal_type": { "$ref": "enums.schema.json#/$defs/signal_type" },
+          "count": { "type": "integer", "minimum": 0 },
+          "baseline_count": { "type": "number", "minimum": 0 },
+          "delta_ratio": { "type": "number", "description": "count / baseline_count - 1。baseline 0 のときは null。" },
+          "event_ids": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "co_occurrence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["distinct_signal_types", "distinct_sources", "score"],
+      "description": "同時増加の強さ。単一種別・単一ソースだけで上振れした場合を弾くための指標 (§10)。",
+      "properties": {
+        "distinct_signal_types": { "type": "integer", "minimum": 0 },
+        "distinct_sources": { "type": "integer", "minimum": 0 },
+        "distinct_regions": { "type": "integer", "minimum": 0 },
+        "score": { "type": "number", "minimum": 0, "maximum": 100, "description": "内部指標。ランキング用途には使わない (§44-46)。" },
+        "threshold_met": { "type": "boolean" }
+      }
+    },
+    "promotion": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Emerging Sector 候補への昇格判断 (§12)",
+      "properties": {
+        "promoted": { "type": "boolean", "default": false },
+        "promoted_sector_id": { "type": "string", "pattern": "^sec_[a-z0-9_]+$" },
+        "rationale": { "type": "string" },
+        "falsifier": { "type": "string", "description": "候補を取り下げる条件 (§39)" }
+      }
+    },
+    "schema_version": { "type": "string", "const": "1.0" }
+  }
+}

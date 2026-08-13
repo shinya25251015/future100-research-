@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://future100.local/schemas/backtest_result.schema.json",
+  "title": "BacktestResult",
+  "description": "§40-43 予測 → 実績 → 誤差 → 原因分析 → 改善のサイクルを 1 レコードで閉じる。外れた予測こそ残し、原因分類をモデル改善に接続する。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["result_id", "prediction_id", "evaluated_at", "outcome", "error_analysis"],
+  "properties": {
+    "result_id": { "type": "string", "pattern": "^bt_\\d{8}_[0-9a-f]{8}$" },
+    "prediction_id": { "type": "string" },
+    "evaluated_at": { "$ref": "enums.schema.json#/$defs/timestamp" },
+    "outcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["verdict", "actual"],
+      "properties": {
+        "verdict": {
+          "type": "string",
+          "enum": ["hit", "miss", "partial", "unresolvable", "pending"],
+          "description": "unresolvable = 測定ソースが消滅した等、判定不能。hit に丸めない。"
+        },
+        "actual": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["value", "measured_at"],
+          "properties": {
+            "value": { "type": ["number", "null"] },
+            "unit": { "type": "string" },
+            "measured_at": { "$ref": "enums.schema.json#/$defs/date" },
+            "evidence": { "type": "array", "items": { "$ref": "enums.schema.json#/$defs/evidence_ref" } }
+          }
+        },
+        "error": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "absolute": { "type": "number" },
+            "relative": { "type": "number", "description": "(actual - predicted) / predicted" },
+            "timing_months": { "type": "number", "description": "方向は当たったが時期がずれた月数。正=遅れ" }
+          }
+        }
+      }
+    },
+    "error_analysis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cause_category", "narrative"],
+      "description": "§43 なぜ外れたかの原因分析。カテゴリは改善アクションに直結させる。",
+      "properties": {
+        "cause_category": {
+          "type": "string",
+          "enum": [
+            "data_gap",
+            "source_reliability",
+            "timing_lag",
+            "causal_link_wrong",
+            "magnitude_overestimate",
+            "magnitude_underestimate",
+            "policy_reversal",
+            "substitution",
+            "demand_assumption",
+            "supply_response_faster",
+            "definition_mismatch",
+            "correct_as_predicted"
+          ]
+        },
+        "narrative": { "type": "string", "minLength": 1 },
+        "wrong_assumptions": { "type": "array", "items": { "type": "string" } },
+        "missed_signals": {
+          "type": "array",
+          "description": "発行時点で観測可能だったのに見落としたイベント。observed_at <= issued_at のもののみ列挙できる (§37)。",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "improvement": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "§43 モデル改善への接続。改善が未実施なら status=open のまま残す。",
+      "properties": {
+        "action": { "type": "string" },
+        "target": { "type": "string", "enum": ["source_registry", "signal_threshold", "causal_model", "scoring", "schema", "process"] },
+        "status": { "type": "string", "enum": ["open", "in_progress", "applied", "rejected"] },
+        "applied_at": { "$ref": "enums.schema.json#/$defs/timestamp" }
+      }
+    },
+    "schema_version": { "type": "string", "const": "1.0" }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "prediction_id": "prd_20260813_00000001",
+  "issued_at": "2026-08-13T00:00:00Z",
+  "subject": { "kind": "kpi", "sector_id": "sec_power_grid", "kpi_id": "kpi_transformer_lead_time" },
+  "statement": "【EXAMPLE / スキーマ説明用のダミー予測】大型電力変圧器の標準リードタイムは 2027-06-30 時点で 24 か月以上を維持する。",
+  "scenario": "base",
+  "time_horizon": "short",
+  "resolution": {
+    "due_date": "2027-06-30",
+    "metric": "大型電力変圧器の標準リードタイム",
+    "unit": "months",
+    "criterion": { "operator": ">=", "value": 24 },
+    "measurement_source_id": "src_us_doe_news"
+  },
+  "confidence": "medium",
+  "probability": 0.6,
+  "falsifier": "リードタイムが 18 か月を下回った時点で、供給制約を前提とした一連の仮説を撤回する。",
+  "basis": { "event_ids": [], "claim_ids": [], "sector_as_of": "2026-08-13T00:00:00Z", "view_kind": "independent" },
+  "schema_version": "1.0"
+}

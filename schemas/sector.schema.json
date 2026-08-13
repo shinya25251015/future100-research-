@@ -1,0 +1,290 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://future100.local/schemas/sector.schema.json",
+  "title": "SectorProfile",
+  "description": "Phase 3 のセクター分析結果 (§8-9, §11-12, §20-34, §39-46)。保有銘柄は一切参照せず、構造変化のみから評価する (§1)。individual ticker 欄を意図的に持たない。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["sector_id", "name", "as_of", "origin", "phase", "growth", "market_size", "scenarios", "views"],
+  "properties": {
+    "sector_id": { "type": "string", "pattern": "^sec_[a-z0-9_]+$" },
+    "name": { "type": "string", "minLength": 1 },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "definition": {
+      "type": "string",
+      "description": "このセクターの境界の定義。何を含み何を含まないかを明示する。"
+    },
+    "as_of": {
+      "$ref": "enums.schema.json#/$defs/timestamp",
+      "description": "この評価を行った時刻。参照した全イベントの observed_at はこれ以前でなければならない (§37)。"
+    },
+    "origin": {
+      "type": "string",
+      "enum": ["known_monitor", "emerging_discovery"],
+      "description": "known_monitor=§11 の常時監視対象, emerging_discovery=§12 で新規に概念化されたもの"
+    },
+    "time_horizon": { "$ref": "enums.schema.json#/$defs/time_horizon" },
+
+    "technology_stage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["stage", "evidence"],
+      "description": "§8 技術成熟度 8 段階",
+      "properties": {
+        "stage": { "$ref": "enums.schema.json#/$defs/technology_stage" },
+        "evidence": { "type": "array", "minItems": 1, "items": { "$ref": "enums.schema.json#/$defs/evidence_ref" } },
+        "notes": { "type": "string" }
+      }
+    },
+
+    "phase": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["phase", "rationale"],
+      "description": "§20-21 セクター成長フェーズ 6 段階。technology_stage とは別軸。",
+      "properties": {
+        "phase": { "$ref": "enums.schema.json#/$defs/sector_phase" },
+        "rationale": { "type": "string" },
+        "evidence": { "type": "array", "items": { "$ref": "enums.schema.json#/$defs/evidence_ref" } }
+      }
+    },
+
+    "growth": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["probability", "magnitude"],
+      "description": "§21 成長確率と拡大規模を必ず分離して評価する。合成スコアに畳み込まない。",
+      "properties": {
+        "probability": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["value", "confidence", "rationale"],
+          "properties": {
+            "value": { "type": "number", "minimum": 0, "maximum": 1, "description": "成長が起きる確率" },
+            "confidence": { "$ref": "enums.schema.json#/$defs/confidence" },
+            "rationale": { "type": "string" }
+          }
+        },
+        "magnitude": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["value", "confidence", "rationale"],
+          "properties": {
+            "value": { "$ref": "enums.schema.json#/$defs/level", "description": "成長した場合の市場拡大規模" },
+            "expected_multiple": { "type": "number", "minimum": 0, "description": "基準年比の市場規模倍率（base シナリオ）" },
+            "confidence": { "$ref": "enums.schema.json#/$defs/confidence" },
+            "rationale": { "type": "string" }
+          }
+        }
+      }
+    },
+
+    "market_size": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["base_year", "tam"],
+      "description": "§9 TAM / SAM / SOM",
+      "properties": {
+        "base_year": { "type": "integer", "minimum": 2000, "maximum": 2100 },
+        "tam": { "$ref": "enums.schema.json#/$defs/money" },
+        "sam": { "$ref": "enums.schema.json#/$defs/money" },
+        "som": { "$ref": "enums.schema.json#/$defs/money" },
+        "method": { "type": "string", "description": "推計方法（積み上げ / 類推 / 外部調査引用）" },
+        "evidence": { "type": "array", "items": { "$ref": "enums.schema.json#/$defs/evidence_ref" } }
+      }
+    },
+
+    "scenarios": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "description": "§9, §39。bear / base / bull を必ず 3 本すべて持ち、各シナリオに撤回条件を書く。",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["scenario", "narrative", "projections", "falsifier"],
+        "properties": {
+          "scenario": { "$ref": "enums.schema.json#/$defs/scenario" },
+          "narrative": { "type": "string", "minLength": 1 },
+          "probability": { "type": "number", "minimum": 0, "maximum": 1 },
+          "projections": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["year", "market_size"],
+              "properties": {
+                "year": { "type": "integer", "enum": [2030, 2035] },
+                "market_size": { "$ref": "enums.schema.json#/$defs/money" },
+                "cagr": { "type": "number", "description": "base_year からの年平均成長率 (0.25 = 25%/年)" }
+              }
+            }
+          },
+          "falsifier": {
+            "type": "string",
+            "minLength": 1,
+            "description": "このシナリオを棄却する観測条件 (§39)。「どうなったら仮説を撤回するか」を必ず書く。"
+          }
+        }
+      }
+    },
+
+    "structure": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "§22-32 の構造指標。各項目は値と根拠を対で持つ。",
+      "properties": {
+        "entry_barrier": { "$ref": "#/$defs/rated" },
+        "pricing_power": { "$ref": "#/$defs/rated" },
+        "substitution_risk": { "$ref": "#/$defs/rated" },
+        "technology_readiness": { "$ref": "#/$defs/rated" },
+        "capital_intensity": { "$ref": "#/$defs/rated" },
+        "resource_constraint": { "$ref": "#/$defs/rated" },
+        "geographic_concentration": { "$ref": "#/$defs/rated" },
+        "policy_dependency": { "$ref": "#/$defs/rated" },
+        "demand_autonomy": { "$ref": "#/$defs/rated" },
+        "energy_intensity": { "$ref": "#/$defs/rated" },
+        "social_tailwind": { "$ref": "#/$defs/rated" }
+      }
+    },
+
+    "views": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["consensus", "independent"],
+      "description": "§34 市場の一般的見解と本システムの独自見解を分離。independent は consensus との差分を明示する。",
+      "properties": {
+        "consensus": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["summary"],
+          "properties": {
+            "summary": { "type": "string" },
+            "evidence": { "type": "array", "items": { "$ref": "enums.schema.json#/$defs/evidence_ref" } }
+          }
+        },
+        "independent": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["summary", "divergence"],
+          "properties": {
+            "summary": { "type": "string" },
+            "divergence": { "type": "string", "description": "コンセンサスとどこで、なぜ異なるか" },
+            "confidence": { "$ref": "enums.schema.json#/$defs/confidence" },
+            "basis": { "type": "array", "items": { "type": "string" }, "description": "根拠となる event_id / claim_id" }
+          }
+        }
+      }
+    },
+
+    "bottlenecks": {
+      "type": "array",
+      "description": "§13-15。需要急増時に最初に不足するもの。詳細は supply_chain.schema.json 側に持つ。",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["node_id", "description"],
+        "properties": {
+          "node_id": { "type": "string" },
+          "description": { "type": "string" },
+          "monetizer": { "type": "string", "description": "その不足から利益を回収できる主体の類型 (§15)。個別銘柄の推奨は行わない。" },
+          "confidence": { "$ref": "enums.schema.json#/$defs/confidence" }
+        }
+      }
+    },
+
+    "monitoring_kpis": {
+      "type": "array",
+      "description": "§40 このセクターの仮説が正しいかを追跡する観測指標。次回更新時に必ず実測値を埋める。",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kpi_id", "name", "unit", "cadence", "expected_direction"],
+        "properties": {
+          "kpi_id": { "type": "string" },
+          "name": { "type": "string" },
+          "unit": { "type": "string" },
+          "cadence": { "type": "string", "enum": ["daily", "weekly", "monthly", "quarterly", "annual"] },
+          "expected_direction": { "type": "string", "enum": ["up", "down", "flat"] },
+          "threshold": { "type": "number", "description": "この値を超える/下回ると仮説の見直しが必要" },
+          "source_id": { "type": "string" },
+          "latest": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "value": { "type": "number" },
+              "as_of": { "$ref": "enums.schema.json#/$defs/date" },
+              "observed_at": { "$ref": "enums.schema.json#/$defs/timestamp" }
+            }
+          }
+        }
+      }
+    },
+
+    "future_sector_score": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["total", "internal_only", "components"],
+      "description": "§44-46 Future Sector Score は内部評価指標。セクター間の順位付けやランキング出力に使ってはならない。",
+      "properties": {
+        "total": { "type": "number", "minimum": 0, "maximum": 100 },
+        "internal_only": { "type": "boolean", "const": true },
+        "components": {
+          "type": "object",
+          "additionalProperties": { "type": "number" },
+          "description": "配点の内訳。合計との整合はスコアラ側で検証する。"
+        },
+        "rationale": { "type": "string" }
+      }
+    },
+
+    "evidence_summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "この評価が依拠したエビデンスの分布。Tier 3-4 偏重を検出するために保持する (§35-38)。",
+      "properties": {
+        "event_ids": { "type": "array", "items": { "type": "string" } },
+        "reliability_counts": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "A": { "type": "integer", "minimum": 0 },
+            "B": { "type": "integer", "minimum": 0 },
+            "C": { "type": "integer", "minimum": 0 },
+            "D": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "oldest_evidence_at": { "$ref": "enums.schema.json#/$defs/timestamp" },
+        "newest_evidence_at": { "$ref": "enums.schema.json#/$defs/timestamp" }
+      }
+    },
+
+    "revision": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "version": { "type": "integer", "minimum": 1 },
+        "previous_as_of": { "$ref": "enums.schema.json#/$defs/timestamp" },
+        "changed": { "type": "array", "items": { "type": "string" }, "description": "前回から変更したフィールドパス" },
+        "change_reason": { "type": "string" }
+      }
+    },
+
+    "schema_version": { "type": "string", "const": "1.0" }
+  },
+
+  "$defs": {
+    "rated": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "rationale"],
+      "properties": {
+        "level": { "$ref": "enums.schema.json#/$defs/level" },
+        "rationale": { "type": "string", "minLength": 1 },
+        "confidence": { "$ref": "enums.schema.json#/$defs/confidence" },
+        "evidence": { "type": "array", "items": { "$ref": "enums.schema.json#/$defs/evidence_ref" } }
+      }
+    }
+  }
+}

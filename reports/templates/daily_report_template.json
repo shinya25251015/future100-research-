@@ -1,0 +1,30 @@
+{
+  "report_id": "rpt_00000000",
+  "report_date": "2000-01-01",
+  "as_of": "2000-01-01T00:00:00Z",
+  "coverage": { "events_ingested": 0, "events_after_dedup": 0, "sources_polled": 0, "sources_failed": [] },
+  "sections": [
+    { "no": 1, "key": "executive_summary", "title": "本日の構造変化サマリ", "body": "本日該当なし" },
+    { "no": 2, "key": "policy_regulation", "title": "政策・規制 (§4)", "body": "本日該当なし" },
+    { "no": 3, "key": "geopolitics", "title": "地政学 (§5)", "body": "本日該当なし" },
+    { "no": 4, "key": "macro_economy", "title": "マクロ経済 (§6)", "body": "本日該当なし" },
+    { "no": 5, "key": "global_capex", "title": "世界の設備投資 (§7)", "body": "本日該当なし" },
+    { "no": 6, "key": "technology_progress", "title": "技術革新の進展 (§8)", "body": "本日該当なし" },
+    { "no": 7, "key": "early_signals", "title": "Early Signal Detection (§10)", "body": "本日該当なし" },
+    { "no": 8, "key": "known_sector_monitor", "title": "既知セクター監視 (§11)", "body": "本日該当なし" },
+    { "no": 9, "key": "emerging_sector_discovery", "title": "新規セクター探知 (§12)", "body": "本日該当なし" },
+    { "no": 10, "key": "supply_demand", "title": "需給分析 (§13)", "body": "本日該当なし" },
+    { "no": 11, "key": "bottlenecks", "title": "ボトルネックと収益回収構造 (§14-15)", "body": "本日該当なし" },
+    { "no": 12, "key": "supply_chain_map", "title": "サプライチェーン構造 (§16)", "body": "本日該当なし" },
+    { "no": 13, "key": "wave_analysis", "title": "第二波・第三波分析 (§17-19)", "body": "本日該当なし" },
+    { "no": 14, "key": "market_formation", "title": "市場形成と成長フェーズ (§9, §20-32)", "body": "本日該当なし" },
+    { "no": 15, "key": "consensus_vs_independent", "title": "コンセンサスと独自見解 (§34)", "body": "本日該当なし" },
+    { "no": 16, "key": "kpi_and_forecast_review", "title": "KPI 追跡と予測レビュー (§40-43)", "body": "本日該当なし" }
+  ],
+  "prohibited_output_check": {
+    "contains_ticker_recommendation": false,
+    "contains_ranking": false,
+    "checked_at": "2000-01-01T00:00:00Z"
+  },
+  "schema_version": "1.0"
+}

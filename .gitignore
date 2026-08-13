@@ -1,0 +1,16 @@
+# 収集データは再生成可能なため追跡しない（ディレクトリの README だけ残す）
+/data/**
+!/data/*/
+!/data/*/README.md
+# 生成物のみ無視する（README.md とテンプレートは追跡する）
+/backtest/*/bt_*.json
+/backtest/*/prd_*.json
+/reports/daily/rpt_*
+/reports/monthly/*.json
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store

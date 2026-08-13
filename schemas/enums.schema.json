@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://future100.local/schemas/enums.schema.json",
+  "title": "Shared enumerations",
+  "description": "仕様書で定義された分類軸の共通定義。各スキーマから $ref で参照する。",
+  "$defs": {
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "RFC 3339 / UTC (末尾 Z)。ローカル時刻の混在を禁じる (§36)。",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?Z$"
+    },
+    "date": { "type": "string", "format": "date", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low"],
+      "description": "Claim Confidence (§35-38) / Causal Confidence (§19)"
+    },
+    "reliability": {
+      "type": "string",
+      "enum": ["A", "B", "C", "D"],
+      "description": "Source Reliability (§35-38)"
+    },
+    "claim_type": {
+      "type": "string",
+      "enum": ["observed", "inferred"],
+      "description": "観察された事実と推論した因果関係を必ず分離する (§17-19)"
+    },
+
+    "event_category": {
+      "type": "string",
+      "enum": [
+        "policy_regulation",
+        "geopolitics",
+        "macro",
+        "capex",
+        "technology",
+        "supply_demand",
+        "resource",
+        "social_structure",
+        "corporate_action",
+        "standard",
+        "market_data"
+      ],
+      "description": "§4-13 に対応するイベント大分類"
+    },
+
+    "signal_type": {
+      "type": "string",
+      "enum": [
+        "government_budget",
+        "subsidy",
+        "procurement",
+        "export_control",
+        "patent",
+        "paper",
+        "vc_investment",
+        "job_posting",
+        "new_facility",
+        "new_standard",
+        "capex_guidance",
+        "supply_contract"
+      ],
+      "description": "Early Signal Detection が数える弱いシグナルの種別 (§10)"
+    },
+
+    "technology_stage": {
+      "type": "string",
+      "enum": [
+        "research",
+        "prototype",
+        "demonstration",
+        "pre_commercial",
+        "early_commercialization",
+        "early_growth",
+        "hyper_growth",
+        "mature"
+      ],
+      "description": "技術革新の 8 段階評価 (§8)"
+    },
+
+    "sector_phase": {
+      "type": "string",
+      "enum": ["emerging", "validation", "early_growth", "scaling", "maturing", "mature"],
+      "description": "セクター成長フェーズ 6 段階 (§20-21)。technology_stage とは独立に評価する。"
+    },
+
+    "time_horizon": {
+      "type": "string",
+      "enum": ["short", "mid", "long"],
+      "description": "short=1-3年, mid=3-5年, long=5-10年 (§33)"
+    },
+
+    "scenario": {
+      "type": "string",
+      "enum": ["bear", "base", "bull"],
+      "description": "§9, §39"
+    },
+
+    "level": {
+      "type": "string",
+      "enum": ["very_low", "low", "medium", "high", "very_high"],
+      "description": "§22-32 の構造指標に共通する 5 段階"
+    },
+
+    "view_kind": {
+      "type": "string",
+      "enum": ["consensus", "independent"],
+      "description": "市場の一般的見解と本システム独自の構造分析を分離する (§34)"
+    },
+
+    "money": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["amount", "currency"],
+      "properties": {
+        "amount": { "type": "number" },
+        "currency": { "type": "string", "pattern": "^[A-Z]{3}$" },
+        "unit": {
+          "type": "string",
+          "enum": ["one", "thousand", "million", "billion", "trillion"],
+          "default": "one"
+        }
+      }
+    },
+
+    "evidence_ref": {
+      "type": "object",
+      "description": "任意の分析値に紐づく根拠。エビデンスなしの数値を書けなくするための共通型 (§35-38)。",
+      "additionalProperties": false,
+      "required": ["source_id", "reliability"],
+      "properties": {
+        "source_id": { "type": "string" },
+        "event_id": { "type": "string" },
+        "raw_id": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "quote": { "type": "string", "maxLength": 1000 },
+        "reliability": { "$ref": "#/$defs/reliability" },
+        "observed_at": { "$ref": "#/$defs/timestamp" }
+      }
+    }
+  }
+}

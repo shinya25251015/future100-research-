@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://future100.local/schemas/source.schema.json",
+  "title": "Source",
+  "description": "情報ソースの登録簿エントリ (§48-51)。Tier と信頼度はソース単位で固定し、個々の主張の確信度 (claim_confidence) とは分離して管理する (§35-38)。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["source_id", "name", "tier", "reliability", "kind"],
+  "properties": {
+    "source_id": {
+      "type": "string",
+      "pattern": "^src_[a-z0-9_]+$",
+      "description": "安定した一意 ID。URL が変わっても変更しない。"
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "publisher": { "type": "string", "description": "発行主体（政府機関名・企業名など）" },
+    "country": {
+      "type": "string",
+      "description": "ISO 3166-1 alpha-2、または超国家主体 (EU / GLOBAL)",
+      "pattern": "^([A-Z]{2}|EU|GLOBAL)$"
+    },
+    "language": { "type": "string", "description": "ISO 639-1", "pattern": "^[a-z]{2}$" },
+    "tier": {
+      "type": "string",
+      "enum": ["tier1", "tier2", "tier3", "tier4"],
+      "description": "tier1=一次情報(政府文書/法令/IR/決算/特許/規格), tier2=専門メディア・業界統計, tier3=一般報道, tier4=SNS・匿名情報"
+    },
+    "reliability": {
+      "type": "string",
+      "enum": ["A", "B", "C", "D"],
+      "description": "A=一次情報で検証可能, B=編集責任のある二次情報, C=伝聞・要約, D=未検証・匿名"
+    },
+    "kind": {
+      "type": "string",
+      "enum": ["rss", "atom", "html", "json_api", "csv", "pdf", "manual"],
+      "description": "取得方式。Phase 2 のコレクタ選択に使う。"
+    },
+    "url": { "type": "string", "format": "uri" },
+    "endpoint": { "type": "string", "format": "uri", "description": "実際に取得する URL（url と異なる場合）" },
+    "categories": {
+      "type": "array",
+      "description": "このソースが主に扱う領域 (§4-13)",
+      "items": { "$ref": "enums.schema.json#/$defs/event_category" }
+    },
+    "mapping": {
+      "type": "object",
+      "description": "kind=json_api のときの項目対応。値はドット区切りパス、配列を渡すと最初に見つかった値（body は連結）を使う。",
+      "additionalProperties": false,
+      "properties": {
+        "items_path": { "type": "string" },
+        "url": { "type": ["string", "array"], "items": { "type": "string" } },
+        "title": { "type": ["string", "array"], "items": { "type": "string" } },
+        "body": { "type": ["string", "array"], "items": { "type": "string" } },
+        "published_at": { "type": "string" }
+      }
+    },
+    "timeout": { "type": "integer", "minimum": 5, "maximum": 300, "default": 30 },
+    "poll_interval_minutes": { "type": "integer", "minimum": 5, "default": 1440 },
+    "requires_credentials": { "type": "boolean", "default": false },
+    "enabled": { "type": "boolean", "default": true },
+    "notes": { "type": "string" }
+  }
+}

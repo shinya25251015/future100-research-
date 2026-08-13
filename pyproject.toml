@@ -1,0 +1,17 @@
+[project]
+name = "future100-research"
+version = "0.1.0"
+description = "Future100 Global Future Sector Intelligence System — 世界の構造変化から未来の成長セクターを発見する分析基盤"
+requires-python = ">=3.11"
+# 収集・正規化・不変条件検査は標準ライブラリのみで動く。
+dependencies = []
+
+[project.optional-dependencies]
+# JSON Schema 検証を有効にする場合のみ必要（未導入でも scripts/validate_data.py は不変条件を検査する）
+validate = ["jsonschema>=4.20", "referencing>=0.30"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
