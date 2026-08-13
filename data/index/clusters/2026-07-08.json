@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm": "clu_26ef26278d"
+  },
+  "by_hash": {
+    "d11485070d9c1f42d7094e3dbcf860b61b5291bf02654aacc089bad3239b6d9f": "clu_26ef26278d"
+  },
+  "by_key": {
+    "board of governors of the federal reserve system::minutes of the federal open market committee, june 16-17, 2026::2026-07-08": "clu_26ef26278d"
+  },
+  "clusters": {
+    "clu_26ef26278d": {
+      "primary_event_id": "evt_20260813_d11485070d",
+      "event_ids": [
+        "evt_20260813_d11485070d"
+      ],
+      "source_ids": [
+        "src_us_federal_reserve"
+      ]
+    }
+  }
+}

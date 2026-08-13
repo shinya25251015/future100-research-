@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://spectrum.ieee.org/ai-chip-design-matlab": "clu_7a2bdeb272"
+  },
+  "by_hash": {
+    "8418f7e1afd3c28eb9f0e3d47b82d6685f730d1863ea70474f204d6487eee640": "clu_7a2bdeb272"
+  },
+  "by_key": {
+    "ieee::how ai will change chip design::2022-02-08": "clu_7a2bdeb272"
+  },
+  "clusters": {
+    "clu_7a2bdeb272": {
+      "primary_event_id": "evt_20260813_8418f7e1af",
+      "event_ids": [
+        "evt_20260813_8418f7e1af"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    }
+  }
+}

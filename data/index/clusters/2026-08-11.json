@@ -1,0 +1,94 @@
+{
+  "by_url": {
+    "http://boj.or.jp/statistics/money/ms/ms2607.pdf": "clu_6fd4f98923",
+    "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1731": "clu_8d70c25e1b",
+    "https://blogs.nvidia.com/blog/800-vdc-power-architecture-ai-factory": "clu_eafef68fc9",
+    "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx": "clu_69c49e500f",
+    "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron": "clu_21c0350197",
+    "https://spectrum.ieee.org/stimulated-geologic-hydrogen": "clu_1ee6ba7dcb",
+    "https://spectrum.ieee.org/ieee-summit-bhutan-digital-transformation": "clu_63f6dc87c2"
+  },
+  "by_hash": {
+    "4ca527d298d7cdc85765029ed4acfc00ef692fc43e7ded1390f04cb76f3d99c9": "clu_6fd4f98923",
+    "5941efec5653fd61933f1d8e3036cb0e2f854202a58dc8e1eb616508064feb8a": "clu_8d70c25e1b",
+    "2f9cef8a0be313621c018330ef95441d7a0100b73ef30ac66d4eebfee45f3981": "clu_eafef68fc9",
+    "0f8418882215221ae998786cad7d3cf2d47397781ad023fa444b4f7c2a20c9db": "clu_69c49e500f",
+    "ea74681c054dda4f3fe6bc238b27928c6a6003ba50f0dadb4511ae1f8215a089": "clu_21c0350197",
+    "4975c9c60199301032f462f77e8c314ed5fa44fe391b9e2ac47a7e8206891d8b": "clu_1ee6ba7dcb",
+    "dbda650534a5b29f54cf949b9ec577fafe6a27e9fc9421151df866aba743900b": "clu_63f6dc87c2"
+  },
+  "by_key": {
+    "日本銀行::マネーストック(7月)::2026-08-11": "clu_6fd4f98923",
+    "european commission::daily news 11 / 08 / 2026::2026-08-11": "clu_8d70c25e1b",
+    "nvidia corporation::why scaling ai compute performance requires a new power architecture::2026-08-11": "clu_eafef68fc9",
+    "nvidia corporation::nvidia nemotron 3.5 lightning and nemo switchyard deliver faster, smarter, more efficient agentic ai::2026-08-11": "clu_69c49e500f",
+    "nvidia corporation::nvidia and local ai community fuel open source models and intelligent agents::2026-08-11": "clu_21c0350197",
+    "ieee::zap rocks. add water. get clean hydrogen::2026-08-11": "clu_1ee6ba7dcb",
+    "ieee::ieee engineering summit supports bhutan’s digital transformation::2026-08-11": "clu_63f6dc87c2"
+  },
+  "clusters": {
+    "clu_6fd4f98923": {
+      "primary_event_id": "evt_20260813_4ca527d298",
+      "event_ids": [
+        "evt_20260813_4ca527d298"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_8d70c25e1b": {
+      "primary_event_id": "evt_20260813_5941efec56",
+      "event_ids": [
+        "evt_20260813_5941efec56"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_eafef68fc9": {
+      "primary_event_id": "evt_20260813_2f9cef8a0b",
+      "event_ids": [
+        "evt_20260813_2f9cef8a0b"
+      ],
+      "source_ids": [
+        "src_nvidia_newsroom"
+      ]
+    },
+    "clu_69c49e500f": {
+      "primary_event_id": "evt_20260813_0f84188822",
+      "event_ids": [
+        "evt_20260813_0f84188822"
+      ],
+      "source_ids": [
+        "src_nvidia_newsroom"
+      ]
+    },
+    "clu_21c0350197": {
+      "primary_event_id": "evt_20260813_ea74681c05",
+      "event_ids": [
+        "evt_20260813_ea74681c05"
+      ],
+      "source_ids": [
+        "src_nvidia_newsroom"
+      ]
+    },
+    "clu_1ee6ba7dcb": {
+      "primary_event_id": "evt_20260813_4975c9c601",
+      "event_ids": [
+        "evt_20260813_4975c9c601"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    },
+    "clu_63f6dc87c2": {
+      "primary_event_id": "evt_20260813_dbda650534",
+      "event_ids": [
+        "evt_20260813_dbda650534"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    }
+  }
+}

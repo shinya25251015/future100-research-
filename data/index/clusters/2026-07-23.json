@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "http://boj.or.jp/research/research_data/reri/index.htm": "clu_3daeaa6073"
+  },
+  "by_hash": {
+    "6b1c63a1da0fb22dd724c959bc39f2cec0a8753bc97ea8ee17179188f3944a94": "clu_3daeaa6073"
+  },
+  "by_key": {
+    "日本銀行::実質輸出入の動向::2026-07-23": "clu_3daeaa6073"
+  },
+  "clusters": {
+    "clu_3daeaa6073": {
+      "primary_event_id": "evt_20260813_6b1c63a1da",
+      "event_ids": [
+        "evt_20260813_6b1c63a1da"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    }
+  }
+}

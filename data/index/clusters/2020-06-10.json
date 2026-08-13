@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://energy.gov/cmei/systems/solar-achievements-timeline": "clu_c39f2ab2c9"
+  },
+  "by_hash": {
+    "743c57c0f34db278f4ca93bfc858846ce717c5df5a855ab12460e755e625912b": "clu_c39f2ab2c9"
+  },
+  "by_key": {
+    "u.s. department of energy::solar achievements timeline::2020-06-10": "clu_c39f2ab2c9"
+  },
+  "clusters": {
+    "clu_c39f2ab2c9": {
+      "primary_event_id": "evt_20260813_743c57c0f3",
+      "event_ids": [
+        "evt_20260813_743c57c0f3"
+      ],
+      "source_ids": [
+        "src_us_doe_news"
+      ]
+    }
+  }
+}

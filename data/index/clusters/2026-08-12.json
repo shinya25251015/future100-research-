@@ -1,0 +1,94 @@
+{
+  "by_url": {
+    "http://boj.or.jp/research/wps_rev/wps_2026/wp26j10.htm": "clu_6c91404521",
+    "http://boj.or.jp/research/wps_rev/wps_2026/wp26j09.htm": "clu_b0a9457469",
+    "http://boj.or.jp/statistics/pi/cgpi_release/cgpi2607.pdf": "clu_584fb7075e",
+    "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1733": "clu_a3def21954",
+    "https://content.knowledgehub.wiley.com/the-2026-state-of-visual-and-physical-ai-a-survey-of-700-practitioners-on-data-models-and-production": "clu_afe9d51b90",
+    "https://blogs.nvidia.com/blog/nvidia-ai-factory-compute": "clu_5d5476b392",
+    "https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026": "clu_f2f4a7f73e"
+  },
+  "by_hash": {
+    "925a1ba880b489e12c341e01d1700880bb451d98dc4429948906394574f8e756": "clu_6c91404521",
+    "ee10bc853e9d20cd9b17090433a298f2ad39f08fdbb82d8db4d6b3463bb0e45b": "clu_b0a9457469",
+    "6255726d5ed30f80b8eada0549323efba7c0a4d61e33ddbe65e4dc74bdcca74c": "clu_584fb7075e",
+    "b2e78ad2368e1b50aacacfc21fb56f94d106cb0b28413e0f429a287d93596260": "clu_a3def21954",
+    "a524815119227111083e3c590e61c9894f2486231526fbd9c8d222f242e0e1e2": "clu_afe9d51b90",
+    "149519b61ad419d5067299fce7bac8d1cef1b89409a331282d1a081dff884e7d": "clu_5d5476b392",
+    "1edda5d776f3ebbd7aa35a40787116b8fc35ec5c17d740ce141960f09e783e51": "clu_f2f4a7f73e"
+  },
+  "by_key": {
+    "日本銀行::(論文)サプライチェーンを介した企業の支出行動の連関::2026-08-12": "clu_6c91404521",
+    "日本銀行::(論文)企業間取引データを用いたわが国製造業サプライチェーンの可視化::2026-08-12": "clu_b0a9457469",
+    "日本銀行::企業物価指数(7月)::2026-08-12": "clu_584fb7075e",
+    "european commission::daily news 12 / 08 / 2026::2026-08-12": "clu_a3def21954",
+    "ieee::inside the data bottleneck slowing visual and physical ai::2026-08-12": "clu_afe9d51b90",
+    "nvidia corporation::nvidia ai factory compute is becoming an investable asset class::2026-08-12": "clu_5d5476b392",
+    "nvidia corporation::nvidia ceo tops glassdoor’s 2026 list of best ceos::2026-08-12": "clu_f2f4a7f73e"
+  },
+  "clusters": {
+    "clu_6c91404521": {
+      "primary_event_id": "evt_20260813_925a1ba880",
+      "event_ids": [
+        "evt_20260813_925a1ba880"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_b0a9457469": {
+      "primary_event_id": "evt_20260813_ee10bc853e",
+      "event_ids": [
+        "evt_20260813_ee10bc853e"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_584fb7075e": {
+      "primary_event_id": "evt_20260813_6255726d5e",
+      "event_ids": [
+        "evt_20260813_6255726d5e"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_a3def21954": {
+      "primary_event_id": "evt_20260813_b2e78ad236",
+      "event_ids": [
+        "evt_20260813_b2e78ad236"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_afe9d51b90": {
+      "primary_event_id": "evt_20260813_a524815119",
+      "event_ids": [
+        "evt_20260813_a524815119"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    },
+    "clu_5d5476b392": {
+      "primary_event_id": "evt_20260813_149519b61a",
+      "event_ids": [
+        "evt_20260813_149519b61a"
+      ],
+      "source_ids": [
+        "src_nvidia_newsroom"
+      ]
+    },
+    "clu_f2f4a7f73e": {
+      "primary_event_id": "evt_20260813_1edda5d776",
+      "event_ids": [
+        "evt_20260813_1edda5d776"
+      ],
+      "source_ids": [
+        "src_nvidia_newsroom"
+      ]
+    }
+  }
+}

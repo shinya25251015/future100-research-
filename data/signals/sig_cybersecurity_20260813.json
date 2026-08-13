@@ -1,0 +1,67 @@
+{
+  "window_id": "sig_cybersecurity_20260813",
+  "as_of": "2026-08-13T23:59:59Z",
+  "window": {
+    "start": "2026-08-07",
+    "end": "2026-08-13",
+    "baseline_start": "2026-07-10",
+    "baseline_end": "2026-08-06"
+  },
+  "topic": {
+    "label": "サイバーセキュリティ",
+    "keywords": [
+      "cybersecurity",
+      "ransomware",
+      "zero trust",
+      "セキュリティ",
+      "サイバー"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_cybersecurity"
+  },
+  "counts": [
+    {
+      "signal_type": "new_standard",
+      "count": 1,
+      "baseline_count": 0.0,
+      "event_ids": [
+        "evt_20260813_98bf2d9620"
+      ]
+    },
+    {
+      "signal_type": "paper",
+      "count": 5,
+      "baseline_count": 0.0,
+      "event_ids": [
+        "evt_20260813_e539434d42",
+        "evt_20260813_a6b046b7dc",
+        "evt_20260813_98bf2d9620",
+        "evt_20260813_5052ab140e",
+        "evt_20260813_cba36ddceb"
+      ]
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-08-13T15:29:12Z",
+        "covers_baseline": false
+      }
+    ],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 1,
+    "distinct_regions": 1,
+    "score": 26.7,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}

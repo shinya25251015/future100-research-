@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://energy.gov/em/secretary-hazel-r-oleary-administration-january-1993-january-1997": "clu_4f37fe8e45"
+  },
+  "by_hash": {
+    "3fa1305d574acf745aa9b4301e6c56dbdeb538fb32b8ab51a773f2c4e3546756": "clu_4f37fe8e45"
+  },
+  "by_key": {
+    "u.s. department of energy::secretary hazel r. o'leary administration (january 1993-january 1997)::2018-02-01": "clu_4f37fe8e45"
+  },
+  "clusters": {
+    "clu_4f37fe8e45": {
+      "primary_event_id": "evt_20260813_3fa1305d57",
+      "event_ids": [
+        "evt_20260813_3fa1305d57"
+      ],
+      "source_ids": [
+        "src_us_doe_news"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://energy.gov/srs/savannah-river-site-history-1950-1989": "clu_f11b54287b"
+  },
+  "by_hash": {
+    "1a18ecfa78a204a5be95a5b5a0931979c13c2b1dd1dc234e88eeff85aadc81d3": "clu_f11b54287b"
+  },
+  "by_key": {
+    "u.s. department of energy::savannah river site history 1950-1989::2018-11-09": "clu_f11b54287b"
+  },
+  "clusters": {
+    "clu_f11b54287b": {
+      "primary_event_id": "evt_20260813_1a18ecfa78",
+      "event_ids": [
+        "evt_20260813_1a18ecfa78"
+      ],
+      "source_ids": [
+        "src_us_doe_news"
+      ]
+    }
+  }
+}

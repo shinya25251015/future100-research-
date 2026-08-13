@@ -1,0 +1,82 @@
+{
+  "by_url": {
+    "http://boj.or.jp/about/release_2026/rel260727a.htm": "clu_6a41537127",
+    "http://boj.or.jp/about/recruit/rec260727a.htm": "clu_51ab2383d6",
+    "https://blogs.nvidia.com/blog/open-secure-ai-alliance": "clu_d064fcd47b",
+    "https://content.knowledgehub.wiley.com/improving-the-capabilities-of-cognitive-radar-and-electronic-warfare-systems": "clu_e6c1258ed9",
+    "https://blogs.nvidia.com/blog/vera-cpu-eda": "clu_a779d3d93f",
+    "https://nvidianews.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership": "clu_76d7214dc6"
+  },
+  "by_hash": {
+    "e067a4bbd0dae41e40d27362fd1b76ab9b403409996bd0b5d348074b79f5f217": "clu_6a41537127",
+    "f6185f2c31f69fdb75fb1ef1dbc3a32b56ce5a833bbdc30f012d8c48b0cd647f": "clu_51ab2383d6",
+    "00e8beeb6877ca139b676daa4a54585af0a49095a244662a8115fd8d183ee80f": "clu_d064fcd47b",
+    "1b25c6cb4368748bac6f2023d4c68f7d56f860c4c99e1b2b57da24bb2d928924": "clu_e6c1258ed9",
+    "6e80bd35b027c401ea97642d293cc2f7d4d9286937aaa11ee70a2bec07848fff": "clu_a779d3d93f",
+    "15aabf6fd7bd7219fddb79e68cbcb7d69c4d7f29bb500ae68af8ce27df8a03c2": "clu_76d7214dc6"
+  },
+  "by_key": {
+    "日本銀行::(金研ニュースレター)2026年国際コンファランス::2026-07-27": "clu_6a41537127",
+    "日本銀行::日本銀行に関する学生向けのインターンシップ(総合コース向け)およびオープン・カンパニー(特定コース向け)への参加募集について::2026-07-27": "clu_51ab2383d6",
+    "nvidia corporation::industry leaders unite in open secure ai alliance for ai safety and security::2026-07-27": "clu_d064fcd47b",
+    "ieee::why ai-driven cognitive systems are redefining radar and electronic warfare::2026-07-27": "clu_e6c1258ed9",
+    "nvidia corporation::nvidia harnesses vera cpu to speed up design of next-generation cpus and gpus::2026-07-27": "clu_a779d3d93f",
+    "nvidia corporation::ilya sutskever’s safe superintelligence inc. and nvidia announce long-term strategic partnership::2026-07-27": "clu_76d7214dc6"
+  },
+  "clusters": {
+    "clu_6a41537127": {
+      "primary_event_id": "evt_20260813_e067a4bbd0",
+      "event_ids": [
+        "evt_20260813_e067a4bbd0"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_51ab2383d6": {
+      "primary_event_id": "evt_20260813_f6185f2c31",
+      "event_ids": [
+        "evt_20260813_f6185f2c31"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_d064fcd47b": {
+      "primary_event_id": "evt_20260813_00e8beeb68",
+      "event_ids": [
+        "evt_20260813_00e8beeb68"
+      ],
+      "source_ids": [
+        "src_nvidia_newsroom"
+      ]
+    },
+    "clu_e6c1258ed9": {
+      "primary_event_id": "evt_20260813_1b25c6cb43",
+      "event_ids": [
+        "evt_20260813_1b25c6cb43"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    },
+    "clu_a779d3d93f": {
+      "primary_event_id": "evt_20260813_6e80bd35b0",
+      "event_ids": [
+        "evt_20260813_6e80bd35b0"
+      ],
+      "source_ids": [
+        "src_nvidia_newsroom"
+      ]
+    },
+    "clu_76d7214dc6": {
+      "primary_event_id": "evt_20260813_15aabf6fd7",
+      "event_ids": [
+        "evt_20260813_15aabf6fd7"
+      ],
+      "source_ids": [
+        "src_nvidia_newsroom"
+      ]
+    }
+  }
+}

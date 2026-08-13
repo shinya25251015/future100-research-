@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://energy.gov/em/secretary-rick-perry-january-2017-december-2019": "clu_03f25f97b1"
+  },
+  "by_hash": {
+    "4db575eaf96b769d178148cd2f258899f7d3d0e2be90bf3851ddb3b8e53df7e0": "clu_03f25f97b1"
+  },
+  "by_key": {
+    "u.s. department of energy::secretary rick perry (january 2017-december 2019)::2018-04-19": "clu_03f25f97b1"
+  },
+  "clusters": {
+    "clu_03f25f97b1": {
+      "primary_event_id": "evt_20260813_4db575eaf9",
+      "event_ids": [
+        "evt_20260813_4db575eaf9"
+      ],
+      "source_ids": [
+        "src_us_doe_news"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "by_url": {
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1716": "clu_9403487891",
+    "https://spectrum.ieee.org/magnetophon-laugh-track": "clu_c12478ffc2"
+  },
+  "by_hash": {
+    "3e3b9140f22dd439bfc4aba9d0a745caa4486ca96ee96834afb93787458d152f": "clu_9403487891",
+    "1d1c7122399c1dc35d05489410391b6cafc114a04063a18fe9a1b0cbc29ed7a2": "clu_c12478ffc2"
+  },
+  "by_key": {
+    "european commission::entry into force or application of eu legislation: key milestones | 1 august – 15 september 2026::2026-08-02": "clu_9403487891",
+    "ieee::this hi-fi tape recorder changed radio forever::2026-08-02": "clu_c12478ffc2"
+  },
+  "clusters": {
+    "clu_9403487891": {
+      "primary_event_id": "evt_20260813_3e3b9140f2",
+      "event_ids": [
+        "evt_20260813_3e3b9140f2"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_c12478ffc2": {
+      "primary_event_id": "evt_20260813_1d1c712239",
+      "event_ids": [
+        "evt_20260813_1d1c712239"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "window_id": "sig_robotics_20260813",
+  "as_of": "2026-08-13T23:59:59Z",
+  "window": {
+    "start": "2026-08-07",
+    "end": "2026-08-13",
+    "baseline_start": "2026-07-10",
+    "baseline_end": "2026-08-06"
+  },
+  "topic": {
+    "label": "ロボティクス",
+    "keywords": [
+      "robot",
+      "humanoid",
+      "automation",
+      "ロボット",
+      "自動化"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_robotics"
+  },
+  "counts": [
+    {
+      "signal_type": "new_facility",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    },
+    {
+      "signal_type": "new_standard",
+      "count": 3,
+      "baseline_count": 0.25,
+      "event_ids": [
+        "evt_20260813_af41802ac9",
+        "evt_20260813_70625f70f4",
+        "evt_20260813_532783fe78"
+      ],
+      "delta_ratio": 11.0
+    },
+    {
+      "signal_type": "paper",
+      "count": 22,
+      "baseline_count": 0.0,
+      "event_ids": [
+        "evt_20260813_a623ff3c6b",
+        "evt_20260813_dcf143b8ab",
+        "evt_20260813_d78d0c6c6b",
+        "evt_20260813_9220572ddd",
+        "evt_20260813_519cba3a5f",
+        "evt_20260813_32da9cce02",
+        "evt_20260813_8d04c748f5",
+        "evt_20260813_eb5638fff8",
+        "evt_20260813_c8e2ca24e5",
+        "evt_20260813_c26c622b78",
+        "evt_20260813_221e302984",
+        "evt_20260813_19093f63a1",
+        "evt_20260813_fedf4f603c",
+        "evt_20260813_421410fe33",
+        "evt_20260813_af41802ac9",
+        "evt_20260813_70625f70f4",
+        "evt_20260813_6f77e81eec",
+        "evt_20260813_532783fe78",
+        "evt_20260813_15af6162ca",
+        "evt_20260813_32ca972bc6",
+        "evt_20260813_22b00e5952",
+        "evt_20260813_f71bf06b7f"
+      ]
+    },
+    {
+      "signal_type": "vc_investment",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-08-13T15:29:12Z",
+        "covers_baseline": false
+      },
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-08-13T15:29:12Z",
+        "covers_baseline": false
+      },
+      {
+        "source_id": "src_ieee_spectrum",
+        "observation_start": "2026-08-13T15:29:13Z",
+        "covers_baseline": false
+      }
+    ],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 2,
+    "distinct_sources": 3,
+    "distinct_regions": 1,
+    "score": 54.2,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}

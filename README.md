@@ -16,6 +16,12 @@
 Python 3.11 以上。収集・正規化・検査は標準ライブラリのみで動く。
 
 ```bash
+python3 scripts/daily.py                   # 収集 → 正規化 → シグナル集計 → 検査（日次サイクル）
+```
+
+個別に実行する場合:
+
+```bash
 python3 scripts/init_structure.py          # ディレクトリ生成（冪等）
 python3 scripts/collect.py --dry-run       # 全ソースの到達性を確認
 python3 scripts/collect.py                 # data/raw/ にスナップショットを保存
@@ -25,6 +31,10 @@ python3 scripts/validate_data.py           # スキーマ + 仕様書不変条�
 
 python3 -m pytest tests -q                 # テスト（pytest が無ければ各ファイルを直接実行）
 ```
+
+日次サイクルは `.github/workflows/daily.yml` で毎日 21:30 UTC（日本時間 06:30）に実行され、
+観測履歴を `data/` にコミットする。**観測履歴はこのシステムの資産**で、これが貯まらないと
+Early Signal Detection は baseline を作れず判定を保留し続ける (§10)。
 
 JSON Schema 検証まで行う場合のみ追加依存を入れる（未導入でも不変条件の検査は動く）:
 
@@ -52,7 +62,7 @@ src/future100/
   timeutil.py   UTC 統一と Look-ahead Bias ガード (§36-37)
   invariants.py 仕様書の規律をコードで強制 (§17-19, §39, §44-46)
 scripts/    運用コマンド
-data/       収集データ（git 管理外・再生成可能）
+data/       観測履歴（git 追跡下。raw は日×ソースの gzip JSONL、索引は発生日で分割）
 reports/    日次・月次レポート
 backtest/   予測と実績の突き合わせ (§40-43)
 ```

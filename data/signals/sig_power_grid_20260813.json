@@ -1,0 +1,98 @@
+{
+  "window_id": "sig_power_grid_20260813",
+  "as_of": "2026-08-13T23:59:59Z",
+  "window": {
+    "start": "2026-08-07",
+    "end": "2026-08-13",
+    "baseline_start": "2026-07-10",
+    "baseline_end": "2026-08-06"
+  },
+  "topic": {
+    "label": "電力・送配電",
+    "keywords": [
+      "grid",
+      "transmission",
+      "transformer",
+      "substation",
+      "電力",
+      "送電",
+      "変圧器",
+      "系統"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_power_grid"
+  },
+  "counts": [
+    {
+      "signal_type": "new_facility",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    },
+    {
+      "signal_type": "new_standard",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    },
+    {
+      "signal_type": "paper",
+      "count": 20,
+      "baseline_count": 0.0,
+      "event_ids": [
+        "evt_20260813_d29d8f3c5a",
+        "evt_20260813_3ab16da1b7",
+        "evt_20260813_0612cf6715",
+        "evt_20260813_e810cb021c",
+        "evt_20260813_a466e1751b",
+        "evt_20260813_5cea957ced",
+        "evt_20260813_887d7af721",
+        "evt_20260813_aa5aabe25a",
+        "evt_20260813_0a89109a52",
+        "evt_20260813_23106e38a6",
+        "evt_20260813_e9f1301872",
+        "evt_20260813_fedf4f603c",
+        "evt_20260813_dce4deca43",
+        "evt_20260813_3bd73782d5",
+        "evt_20260813_731175fdf2",
+        "evt_20260813_171b7114c6",
+        "evt_20260813_301e7783fa",
+        "evt_20260813_de0881d1c7",
+        "evt_20260813_597fe04439",
+        "evt_20260813_db7a0a43ec"
+      ]
+    },
+    {
+      "signal_type": "patent",
+      "count": 0,
+      "baseline_count": 0.5,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-08-13T15:29:12Z",
+        "covers_baseline": false
+      }
+    ],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 1,
+    "distinct_regions": 1,
+    "score": 26.7,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}

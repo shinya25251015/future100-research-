@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://federalreserve.gov/newsevents/pressreleases/bcreg20260707a.htm": "clu_e2a785c7f6"
+  },
+  "by_hash": {
+    "9babfb2bdedb59b220f815eb76fac83e385e73b5a8f94ac74f77d82fdb80c006": "clu_e2a785c7f6"
+  },
+  "by_key": {
+    "board of governors of the federal reserve system::federal reserve board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs::2026-07-07": "clu_e2a785c7f6"
+  },
+  "clusters": {
+    "clu_e2a785c7f6": {
+      "primary_event_id": "evt_20260813_9babfb2bde",
+      "event_ids": [
+        "evt_20260813_9babfb2bde"
+      ],
+      "source_ids": [
+        "src_us_federal_reserve"
+      ]
+    }
+  }
+}

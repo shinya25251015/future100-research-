@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://future100.local/schemas/raw_document.schema.json",
   "title": "RawDocument",
-  "description": "取得した一次データの不変スナップショット (§48-51)。data/raw/ 配下に置き、一度書いたら更新しない。ここに Look-ahead Bias 防止の起点となる observed_at を記録する (§37)。",
+  "description": "取得した一次データの不変スナップショット (§48-51)。data/raw/YYYY-MM-DD/<source_id>.jsonl.gz に追記のみで保存し、一度書いたレコードは更新しない。正規化の進捗などの可変な状態は data/index/ 側に置く。ここに Look-ahead Bias 防止の起点となる observed_at を記録する (§37)。",
   "type": "object",
   "additionalProperties": false,
   "required": ["raw_id", "source_id", "observed_at", "fetch", "content"],
@@ -64,17 +64,6 @@
             }
           }
         }
-      }
-    },
-    "processing": {
-      "type": "object",
-      "additionalProperties": false,
-      "description": "後段の処理状態。raw 本体を書き換えず、この枝だけ更新する。",
-      "properties": {
-        "event_ids": { "type": "array", "items": { "type": "string" } },
-        "normalized_at": { "$ref": "enums.schema.json#/$defs/timestamp" },
-        "status": { "type": "string", "enum": ["pending", "normalized", "skipped", "failed"] },
-        "skip_reason": { "type": "string" }
       }
     }
   }

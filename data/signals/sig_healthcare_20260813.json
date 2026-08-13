@@ -1,0 +1,80 @@
+{
+  "window_id": "sig_healthcare_20260813",
+  "as_of": "2026-08-13T23:59:59Z",
+  "window": {
+    "start": "2026-08-07",
+    "end": "2026-08-13",
+    "baseline_start": "2026-07-10",
+    "baseline_end": "2026-08-06"
+  },
+  "topic": {
+    "label": "医療・ライフサイエンス",
+    "keywords": [
+      "biotech",
+      "clinical",
+      "drug",
+      "医療",
+      "創薬",
+      "治験"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_healthcare"
+  },
+  "counts": [
+    {
+      "signal_type": "new_standard",
+      "count": 3,
+      "baseline_count": 0.0,
+      "event_ids": [
+        "evt_20260813_ff868e8ef9",
+        "evt_20260813_b404293b02",
+        "evt_20260813_f735de5225"
+      ]
+    },
+    {
+      "signal_type": "paper",
+      "count": 15,
+      "baseline_count": 0.0,
+      "event_ids": [
+        "evt_20260813_654e598662",
+        "evt_20260813_357a935775",
+        "evt_20260813_8af5c66c6b",
+        "evt_20260813_c8c169b4db",
+        "evt_20260813_ff868e8ef9",
+        "evt_20260813_dbdcc87337",
+        "evt_20260813_aa5aabe25a",
+        "evt_20260813_b404293b02",
+        "evt_20260813_ef73b2c401",
+        "evt_20260813_73f7ea666c",
+        "evt_20260813_f735de5225",
+        "evt_20260813_83dfbaa81e",
+        "evt_20260813_3a68e0c4f1",
+        "evt_20260813_07e94bc5e3",
+        "evt_20260813_db7a0a43ec"
+      ]
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-08-13T15:29:12Z",
+        "covers_baseline": false
+      }
+    ],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 2,
+    "distinct_sources": 1,
+    "distinct_regions": 1,
+    "score": 39.2,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,82 @@
+{
+  "by_url": {
+    "http://boj.or.jp/statistics/dl/loan/yaku/yaku2606.pdf": "clu_e072468906",
+    "http://boj.or.jp/about/organization/policyboard/pb_geppo/pbgp2606.htm": "clu_f338f6d789",
+    "http://boj.or.jp/research/research_data/cpi/index.htm": "clu_d27182ff7b",
+    "https://spectrum.ieee.org/mariana-costa-women-in-tech": "clu_35defe0ae1",
+    "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson": "clu_579055db5f",
+    "https://spectrum.ieee.org/universal-gravitational-constant-nist-schlamminger": "clu_3d8abca6a5"
+  },
+  "by_hash": {
+    "af850b8c0f74b2665c8cd6ac9e7347b86e06d729da5ab2d93b74b1f001fcf9f7": "clu_e072468906",
+    "300aba43c2daf81edd881dbc549094aea44bbbc7227b8122409368a0d9e0d60e": "clu_f338f6d789",
+    "b9ae31448917f3561aab0b459a927f95833c0a4a58b474f66716688852a7c2cf": "clu_d27182ff7b",
+    "1ec351ae058b8bd53291b1429e86d39ee5b67a8c15f3faa31b1eded7034b0257": "clu_35defe0ae1",
+    "609f7797482e5e261539633993eef22e864d7ee2b589fe636d33342899e8b488": "clu_579055db5f",
+    "c990fa8c746cb662911c29c36e90c3fcacd44662183a0453d7a3dc39c8bd3c59": "clu_3d8abca6a5"
+  },
+  "by_key": {
+    "日本銀行::貸出約定平均金利(6月)::2026-07-28": "clu_e072468906",
+    "日本銀行::日本銀行政策委員会月報(令和8年6月号)::2026-07-28": "clu_f338f6d789",
+    "日本銀行::消費者物価のコア指標::2026-07-28": "clu_d27182ff7b",
+    "ieee::laboratoria’s mariana costa empowers women in tech::2026-07-28": "clu_35defe0ae1",
+    "nvidia corporation::powerful compute so compact, it’s clutch — build ai in your hand with nvidia jetson::2026-07-28": "clu_579055db5f",
+    "ieee::why nist researchers spent 10 years measuring gravity::2026-07-28": "clu_3d8abca6a5"
+  },
+  "clusters": {
+    "clu_e072468906": {
+      "primary_event_id": "evt_20260813_af850b8c0f",
+      "event_ids": [
+        "evt_20260813_af850b8c0f"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_f338f6d789": {
+      "primary_event_id": "evt_20260813_300aba43c2",
+      "event_ids": [
+        "evt_20260813_300aba43c2"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_d27182ff7b": {
+      "primary_event_id": "evt_20260813_b9ae314489",
+      "event_ids": [
+        "evt_20260813_b9ae314489"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_35defe0ae1": {
+      "primary_event_id": "evt_20260813_1ec351ae05",
+      "event_ids": [
+        "evt_20260813_1ec351ae05"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    },
+    "clu_579055db5f": {
+      "primary_event_id": "evt_20260813_609f779748",
+      "event_ids": [
+        "evt_20260813_609f779748"
+      ],
+      "source_ids": [
+        "src_nvidia_newsroom"
+      ]
+    },
+    "clu_3d8abca6a5": {
+      "primary_event_id": "evt_20260813_c990fa8c74",
+      "event_ids": [
+        "evt_20260813_c990fa8c74"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    }
+  }
+}

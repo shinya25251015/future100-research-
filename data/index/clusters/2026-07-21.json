@@ -1,0 +1,46 @@
+{
+  "by_url": {
+    "http://boj.or.jp/statistics/bis/repo/index.htm": "clu_951db390c7",
+    "http://boj.or.jp/research/imes/mes/mes26.htm": "clu_7b6b70d105",
+    "https://spectrum.ieee.org/ai-agent-benchmark": "clu_8cc4f82b7d"
+  },
+  "by_hash": {
+    "75adfc25905c6e6d18f6489ec86242289f3bfb470e3f4caee0fd0450c44b49ac": "clu_951db390c7",
+    "aad054e9a5e18b7f4042accef4947ac80dd16aa3fd36fe6514b407398e7e02ab": "clu_7b6b70d105",
+    "005c6c3b90f55698a5d1a82be170915039ee4882d941cbed322db784d52f8604": "clu_8cc4f82b7d"
+  },
+  "by_key": {
+    "日本銀行::fsbレポ統計の日本分集計結果::2026-07-21": "clu_951db390c7",
+    "日本銀行::「金融研究」掲載論文(2026年収録分)::2026-07-21": "clu_7b6b70d105",
+    "ieee::why ai needs a “genie coefficient”::2026-07-21": "clu_8cc4f82b7d"
+  },
+  "clusters": {
+    "clu_951db390c7": {
+      "primary_event_id": "evt_20260813_75adfc2590",
+      "event_ids": [
+        "evt_20260813_75adfc2590"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_7b6b70d105": {
+      "primary_event_id": "evt_20260813_aad054e9a5",
+      "event_ids": [
+        "evt_20260813_aad054e9a5"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_8cc4f82b7d": {
+      "primary_event_id": "evt_20260813_005c6c3b90",
+      "event_ids": [
+        "evt_20260813_005c6c3b90"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    }
+  }
+}

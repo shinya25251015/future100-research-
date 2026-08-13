@@ -1,0 +1,58 @@
+{
+  "by_url": {
+    "http://boj.or.jp/paym/m-climate/mcli260722a.htm": "clu_169e3075e6",
+    "http://boj.or.jp/statistics/boj/other/mei/release/2026/mei260717.xlsx": "clu_af0e2733f4",
+    "http://boj.or.jp/statistics/boj/other/acmai/release/2026/ac260720.htm": "clu_f7897de554",
+    "https://spectrum.ieee.org/colossus-computer-ieee-milestone": "clu_64661bdc7f"
+  },
+  "by_hash": {
+    "4baf5b511ada335564c3f8bbdba0a8b762da8c2733e4cd8ebd2e741d000186e4": "clu_169e3075e6",
+    "120296d4393b36965f140edd63d0ac731c3a4d63d5149bc344d2fc79ec0b5f37": "clu_af0e2733f4",
+    "b51e9e20a854cc6ab114d86357bbf7b69fc523c55d9ab394da574978ee24fe45": "clu_f7897de554",
+    "3748258e0b0f6372e400c82bb5f12eae7c054e0c5dbad87363287a595030757a": "clu_64661bdc7f"
+  },
+  "by_key": {
+    "日本銀行::「気候変動関連の市場機能サーベイ」第5回説明会::2026-07-22": "clu_169e3075e6",
+    "日本銀行::日本銀行が保有する国債の銘柄別残高::2026-07-22": "clu_af0e2733f4",
+    "日本銀行::営業毎旬報告(7月20日現在)::2026-07-22": "clu_f7897de554",
+    "ieee::the computer that helped win world war ii::2026-07-22": "clu_64661bdc7f"
+  },
+  "clusters": {
+    "clu_169e3075e6": {
+      "primary_event_id": "evt_20260813_4baf5b511a",
+      "event_ids": [
+        "evt_20260813_4baf5b511a"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_af0e2733f4": {
+      "primary_event_id": "evt_20260813_120296d439",
+      "event_ids": [
+        "evt_20260813_120296d439"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_f7897de554": {
+      "primary_event_id": "evt_20260813_b51e9e20a8",
+      "event_ids": [
+        "evt_20260813_b51e9e20a8"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_64661bdc7f": {
+      "primary_event_id": "evt_20260813_3748258e0b",
+      "event_ids": [
+        "evt_20260813_3748258e0b"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    }
+  }
+}

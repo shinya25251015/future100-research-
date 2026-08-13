@@ -1,0 +1,52 @@
+{
+  "window_id": "sig_critical_minerals_20260813",
+  "as_of": "2026-08-13T23:59:59Z",
+  "window": {
+    "start": "2026-08-07",
+    "end": "2026-08-13",
+    "baseline_start": "2026-07-10",
+    "baseline_end": "2026-08-06"
+  },
+  "topic": {
+    "label": "重要鉱物・資源",
+    "keywords": [
+      "rare earth",
+      "critical mineral",
+      "lithium",
+      "copper",
+      "gallium",
+      "レアアース",
+      "重要鉱物",
+      "銅"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_critical_minerals"
+  },
+  "counts": [
+    {
+      "signal_type": "patent",
+      "count": 1,
+      "baseline_count": 0.0,
+      "event_ids": [
+        "evt_20260813_4975c9c601"
+      ]
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}

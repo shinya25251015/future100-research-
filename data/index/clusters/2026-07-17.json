@@ -1,0 +1,46 @@
+{
+  "by_url": {
+    "http://boj.or.jp/about/services/tame/tame_rate/kijun/kiju2608.htm": "clu_7c7405d3ab",
+    "http://boj.or.jp/about/services/tame/tame_rate/syorei/hou2608.htm": "clu_badcff9858",
+    "http://boj.or.jp/mopo/mpmdeci/mpr_2026/mpr260717a.pdf": "clu_710d1401fe"
+  },
+  "by_hash": {
+    "ac230415204ad3186385fe99b412b43f6ab9bf253f641d28f1462eb9e5ffd3c4": "clu_7c7405d3ab",
+    "ae66b43096ac1e6bdc2e7a1f46a0f54bdcb25f08cafeec742783b79cb9cfbbce": "clu_badcff9858",
+    "76f99a49cc2450c7f7ebbe0c856db1327b68f71da988ceaa674c3922e9588f54": "clu_710d1401fe"
+  },
+  "by_key": {
+    "日本銀行::基準外国為替相場及び裁定外国為替相場(8月分)::2026-07-17": "clu_7c7405d3ab",
+    "日本銀行::報告省令レート(8月分)::2026-07-17": "clu_badcff9858",
+    "日本銀行::気候変動対応を支援するための資金供給オペレーションの実施結果::2026-07-17": "clu_710d1401fe"
+  },
+  "clusters": {
+    "clu_7c7405d3ab": {
+      "primary_event_id": "evt_20260813_ac23041520",
+      "event_ids": [
+        "evt_20260813_ac23041520"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_badcff9858": {
+      "primary_event_id": "evt_20260813_ae66b43096",
+      "event_ids": [
+        "evt_20260813_ae66b43096"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_710d1401fe": {
+      "primary_event_id": "evt_20260813_76f99a49cc",
+      "event_ids": [
+        "evt_20260813_76f99a49cc"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    }
+  }
+}

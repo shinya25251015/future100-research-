@@ -1,0 +1,52 @@
+name: daily collection
+
+# 観測履歴を 1 日ぶんずつ積み、リポジトリにコミットする。
+# Early Signal Detection は baseline 期間（既定 28 日）ぶんの観測履歴が貯まるまで
+# 判定を保留し続けるため、まず毎日走り続けること自体が要件になる (§10)。
+
+on:
+  schedule:
+    # 毎日 21:30 UTC（日本時間 06:30）。00 分ちょうどは GitHub 側が混雑して遅延しやすい
+    - cron: "30 21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-collection
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install validation extras
+        run: pip install jsonschema referencing
+
+      - name: Run daily cycle
+        run: python3 scripts/daily.py
+
+      - name: Run tests
+        run: |
+          for f in tests/test_*.py; do python3 "$f" || exit 1; done
+
+      - name: Commit observation history
+        run: |
+          git config user.name "future100-bot"
+          git config user.email "noreply@github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "no new observations"
+            exit 0
+          fi
+          git commit -m "observations: $(date -u +%Y-%m-%d)"
+          # 同時刻に他の push があった場合に備えて rebase してから送る
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

@@ -1,0 +1,70 @@
+{
+  "by_url": {
+    "https://federalreserve.gov/newsevents/pressreleases/enforcement20260716a.htm": "clu_bd6ec00274",
+    "https://federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm": "clu_a3eef7a3a6",
+    "http://boj.or.jp/research/o_survey/ishiki2607.htm": "clu_961273e8be",
+    "http://boj.or.jp/statistics/boj/other/cabs/cabs.xlsx": "clu_79cbb96a84",
+    "http://boj.or.jp/statistics/dl/loan/loos/release/loos2607.pdf": "clu_1fe31ed28b"
+  },
+  "by_hash": {
+    "452a8c8ced67355a93588969dfd42bb6cccc7ab5bbe774b22632633c3e56c200": "clu_bd6ec00274",
+    "78f52390e60a69d29486abcaabcbe397552c9d09e5ed93adceadead6c7fa131a": "clu_a3eef7a3a6",
+    "c1687b7792997912c64d02c6041be7656a021e0b188227a6d38f217def4e4968": "clu_961273e8be",
+    "26d8cc68394945e9b552e50e97616df69d53af04d80f86fde7ba6936e0d1449e": "clu_79cbb96a84",
+    "e67e39a0a0964d94298ee081cdaf9df48758e3416a00d298bde2a23c301f56a4": "clu_1fe31ed28b"
+  },
+  "by_key": {
+    "board of governors of the federal reserve system::federal reserve board issues enforcement action with former chief lending officer of heritage state bank::2026-07-16": "clu_bd6ec00274",
+    "board of governors of the federal reserve system::agencies issue joint statement on handling of highly sensitive information during bank examinations::2026-07-16": "clu_a3eef7a3a6",
+    "日本銀行::「生活意識に関するアンケート調査」(第106回)の結果::2026-07-16": "clu_961273e8be",
+    "日本銀行::業態別の日銀当座預金残高(6月)::2026-07-16": "clu_79cbb96a84",
+    "日本銀行::主要銀行貸出動向アンケート調査(7月)::2026-07-16": "clu_1fe31ed28b"
+  },
+  "clusters": {
+    "clu_bd6ec00274": {
+      "primary_event_id": "evt_20260813_452a8c8ced",
+      "event_ids": [
+        "evt_20260813_452a8c8ced"
+      ],
+      "source_ids": [
+        "src_us_federal_reserve"
+      ]
+    },
+    "clu_a3eef7a3a6": {
+      "primary_event_id": "evt_20260813_78f52390e6",
+      "event_ids": [
+        "evt_20260813_78f52390e6"
+      ],
+      "source_ids": [
+        "src_us_federal_reserve"
+      ]
+    },
+    "clu_961273e8be": {
+      "primary_event_id": "evt_20260813_c1687b7792",
+      "event_ids": [
+        "evt_20260813_c1687b7792"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_79cbb96a84": {
+      "primary_event_id": "evt_20260813_26d8cc6839",
+      "event_ids": [
+        "evt_20260813_26d8cc6839"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_1fe31ed28b": {
+      "primary_event_id": "evt_20260813_e67e39a0a0",
+      "event_ids": [
+        "evt_20260813_e67e39a0a0"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    }
+  }
+}

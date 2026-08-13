@@ -1,0 +1,46 @@
+{
+  "by_url": {
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1730": "clu_6908b967e2",
+    "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1729": "clu_4fb1ccc228",
+    "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital": "clu_e4bf3994e0"
+  },
+  "by_hash": {
+    "f6af97a4cbc1027cc1b67ff7e6aaa60d99c8cba59cd1d9ac26269bc9ef25ce91": "clu_6908b967e2",
+    "e8ef7926ad30eaf76f198eb8fbd849079479a4b8f23615f2427fad9855d74c1f": "clu_4fb1ccc228",
+    "5e4d5545582d96dc8d775a81f2b25e2c176caaf3faee6d1fdd8957798ae518d5": "clu_e4bf3994e0"
+  },
+  "by_key": {
+    "european commission::commission greenlights poland's fifth payment request for €7.9 billion under nextgenerationeu::2026-08-10": "clu_6908b967e2",
+    "european commission::daily news 10 / 08 / 2026::2026-08-10": "clu_4fb1ccc228",
+    "nvidia corporation::nvidia partners with apollo, blackrock, blackstone, brookfield, goldman sachs and kkr to establish ai compute infrastructure financing platforms to mobilize over $500 billion of third-party capital::2026-08-10": "clu_e4bf3994e0"
+  },
+  "clusters": {
+    "clu_6908b967e2": {
+      "primary_event_id": "evt_20260813_f6af97a4cb",
+      "event_ids": [
+        "evt_20260813_f6af97a4cb"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_4fb1ccc228": {
+      "primary_event_id": "evt_20260813_e8ef7926ad",
+      "event_ids": [
+        "evt_20260813_e8ef7926ad"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_e4bf3994e0": {
+      "primary_event_id": "evt_20260813_5e4d554558",
+      "event_ids": [
+        "evt_20260813_5e4d554558"
+      ],
+      "source_ids": [
+        "src_nvidia_newsroom"
+      ]
+    }
+  }
+}

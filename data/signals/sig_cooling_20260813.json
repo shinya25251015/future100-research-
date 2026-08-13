@@ -1,0 +1,98 @@
+{
+  "window_id": "sig_cooling_20260813",
+  "as_of": "2026-08-13T23:59:59Z",
+  "window": {
+    "start": "2026-08-07",
+    "end": "2026-08-13",
+    "baseline_start": "2026-07-10",
+    "baseline_end": "2026-08-06"
+  },
+  "topic": {
+    "label": "冷却・熱管理",
+    "keywords": [
+      "cooling",
+      "liquid cooling",
+      "immersion",
+      "thermal",
+      "冷却",
+      "液冷",
+      "熱管理"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_cooling"
+  },
+  "counts": [
+    {
+      "signal_type": "new_standard",
+      "count": 1,
+      "baseline_count": 0.0,
+      "event_ids": [
+        "evt_20260813_54c476cef8"
+      ]
+    },
+    {
+      "signal_type": "paper",
+      "count": 13,
+      "baseline_count": 0.0,
+      "event_ids": [
+        "evt_20260813_d5dfdf6bee",
+        "evt_20260813_51240729ff",
+        "evt_20260813_b6a6a6b140",
+        "evt_20260813_eb6c79f06e",
+        "evt_20260813_54c476cef8",
+        "evt_20260813_889939af46",
+        "evt_20260813_fa185ce17e",
+        "evt_20260813_89a913c484",
+        "evt_20260813_32571c5cc7",
+        "evt_20260813_beb13320d1",
+        "evt_20260813_8c1a7306c7",
+        "evt_20260813_edb295df83",
+        "evt_20260813_1da35c242a"
+      ]
+    },
+    {
+      "signal_type": "patent",
+      "count": 1,
+      "baseline_count": 0.0,
+      "event_ids": [
+        "evt_20260813_4975c9c601"
+      ]
+    },
+    {
+      "signal_type": "vc_investment",
+      "count": 1,
+      "baseline_count": 0.0,
+      "event_ids": [
+        "evt_20260813_54c476cef8"
+      ]
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-08-13T15:29:12Z",
+        "covers_baseline": false
+      },
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-08-13T15:29:12Z",
+        "covers_baseline": false
+      }
+    ],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 2,
+    "distinct_regions": 1,
+    "score": 34.2,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}

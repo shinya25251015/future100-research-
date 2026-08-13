@@ -130,52 +130,66 @@ def rebuild() -> NormalizeStats:
     """
     for path in storage.EVENTS_DIR.glob("*.jsonl"):
         path.unlink()
-    (storage.INDEX_DIR / "clusters.json").unlink(missing_ok=True)
-    for path in storage.RAW_DIR.rglob("raw_*.json"):
-        document = storage.read_json(path)
-        document["processing"] = {"status": "pending", "event_ids": []}
-        storage.write_json(path, document)
+    storage.clear_partitioned_index("clusters")
+    storage.clear_normalized_index()
     return run()
 
 
 def run(*, limit: int | None = None) -> NormalizeStats:
-    """未処理の raw をすべて正規化して data/events/ に追記する。"""
+    """未処理の raw をすべて正規化して data/events/ に追記する。
+
+    処理済みかどうかは data/index/normalized/ で管理し、raw には触れない。
+    重複判定の索引は発生日ごとに分かれているため、発生日でまとめて処理する。
+    """
     stats = NormalizeStats()
-    index = dedup.ClusterIndex.load()
+    normalized = storage.load_normalized_index()
     sources = {s["source_id"]: s for s in config.load_sources(enabled_only=False)}
 
-    for path in sorted(storage.RAW_DIR.rglob("raw_*.json")):
-        if limit is not None and stats.processed >= limit:
+    pending: dict[str, list[dict]] = {}
+    for document in storage.iter_raw():
+        if document["raw_id"] in normalized:
+            continue
+        if limit is not None and sum(len(v) for v in pending.values()) >= limit:
             break
-        document = storage.read_json(path)
-        if document.get("processing", {}).get("status") != "pending":
-            continue
-        stats.processed += 1
+        event_at = document.get("published_at") or document["observed_at"]
+        pending.setdefault(event_at[:10], []).append(document)
 
-        source = sources.get(document["source_id"])
-        if source is None:
-            document.setdefault("processing", {}).update(
-                {"status": "skipped", "skip_reason": "source not in registry"}
-            )
-            storage.write_json(path, document)
-            stats.skipped += 1
-            continue
+    touched_days: dict[str, dict[str, dict]] = {}
 
-        event = normalize_document(document, source, index)
-        storage.append_event(event)
-        if event["is_cluster_primary"]:
-            stats.created += 1
-        else:
-            stats.duplicates += 1
+    for event_date in sorted(pending):
+        index = dedup.ClusterIndex.for_date(event_date)
+        for document in pending[event_date]:
+            stats.processed += 1
+            raw_id = document["raw_id"]
+            observed_day = document["observed_at"][:10]
+            partition = touched_days.setdefault(observed_day, storage.load_normalized_partition(observed_day))
 
-        document["processing"] = {
-            "status": "normalized",
-            "event_ids": [event["event_id"]],
-            "normalized_at": timeutil.now_str(),
-        }
-        storage.write_json(path, document)
+            source = sources.get(document["source_id"])
+            if source is None:
+                partition[raw_id] = {
+                    "status": "skipped",
+                    "skip_reason": "source not in registry",
+                    "normalized_at": timeutil.now_str(),
+                }
+                stats.skipped += 1
+                continue
 
-    index.save()
+            event = normalize_document(document, source, index)
+            storage.append_event(event)
+            if event["is_cluster_primary"]:
+                stats.created += 1
+            else:
+                stats.duplicates += 1
+
+            partition[raw_id] = {
+                "status": "normalized",
+                "event_ids": [event["event_id"]],
+                "normalized_at": timeutil.now_str(),
+            }
+        index.save()
+
+    for day, partition in touched_days.items():
+        storage.save_normalized_partition(day, partition)
     return stats
 
 

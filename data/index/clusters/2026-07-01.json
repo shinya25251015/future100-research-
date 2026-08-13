@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://federalreserve.gov/newsevents/pressreleases/other20260701a.htm": "clu_1d17046413"
+  },
+  "by_hash": {
+    "663b890edd8fe13443efbb50a26158c9d032ed418307169c244913816f1c2b68": "clu_1d17046413"
+  },
+  "by_key": {
+    "board of governors of the federal reserve system::federal reserve issues initial findings from its 2025 triennial payments study::2026-07-01": "clu_1d17046413"
+  },
+  "clusters": {
+    "clu_1d17046413": {
+      "primary_event_id": "evt_20260813_663b890edd",
+      "event_ids": [
+        "evt_20260813_663b890edd"
+      ],
+      "source_ids": [
+        "src_us_federal_reserve"
+      ]
+    }
+  }
+}

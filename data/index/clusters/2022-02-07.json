@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://spectrum.ieee.org/2d-hbn-qubit": "clu_4afd58d7d1"
+  },
+  "by_hash": {
+    "06098bc9be14e9ddfc876bcd04dd9e06b8f90d727b872bb90a77dcdd5b855f0b": "clu_4afd58d7d1"
+  },
+  "by_key": {
+    "ieee::atomically thin materials significantly shrink qubits::2022-02-07": "clu_4afd58d7d1"
+  },
+  "clusters": {
+    "clu_4afd58d7d1": {
+      "primary_event_id": "evt_20260813_06098bc9be",
+      "event_ids": [
+        "evt_20260813_06098bc9be"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    }
+  }
+}

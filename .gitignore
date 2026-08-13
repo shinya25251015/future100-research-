@@ -1,12 +1,9 @@
-# 収集データは再生成可能なため追跡しない（ディレクトリの README だけ残す）
-/data/**
-!/data/*/
-!/data/*/README.md
-# 生成物のみ無視する（README.md とテンプレートは追跡する）
-/backtest/*/bt_*.json
-/backtest/*/prd_*.json
-/reports/daily/rpt_*
-/reports/monthly/*.json
+# 観測履歴 (data/) は追跡する。これが本システムの資産で、
+# baseline が貯まらなければ Early Signal Detection は永久に判定を保留する (§10)。
+# 保存形式は git を意識して設計してある:
+#   - raw は日 × ソースの gzip JSONL（1 日 9 ファイル・約 400KB）
+#   - events は observed_at の日付ごとの JSONL（当日ぶんにのみ追記）
+#   - 索引は発生日で分割（過去ぶんを書き換えない）
 
 __pycache__/
 *.py[cod]

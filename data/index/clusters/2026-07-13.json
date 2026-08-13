@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "http://boj.or.jp/about/bcp/fso/fso260713a.pdf": "clu_723ee3d551"
+  },
+  "by_hash": {
+    "98941703e4d23acfc99131ff0d7e5ef9d3f5ad597edd2a0f0fb2dcef35a519c3": "clu_723ee3d551"
+  },
+  "by_key": {
+    "日本銀行::令和8年7月滋賀県甲賀市の土砂崩れに係る災害等に対する金融上の措置について(滋賀県)::2026-07-13": "clu_723ee3d551"
+  },
+  "clusters": {
+    "clu_723ee3d551": {
+      "primary_event_id": "evt_20260813_98941703e4",
+      "event_ids": [
+        "evt_20260813_98941703e4"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    }
+  }
+}

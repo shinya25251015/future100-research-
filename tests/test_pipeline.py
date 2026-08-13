@@ -72,7 +72,7 @@ def _assign(index, *, url, title, body, date, event_id, source_id="src_a"):
 
 
 def test_same_story_from_two_outlets_is_merged():
-    index = dedup.ClusterIndex()
+    index = dedup.ClusterIndex(day="2026-08-13")
     first = _assign(
         index,
         url="https://a.example/1",
@@ -96,20 +96,70 @@ def test_same_story_from_two_outlets_is_merged():
 
 
 def test_recurring_report_on_different_days_is_not_merged():
-    """定例発表は本文が酷似するが別の出来事。日付が違えば統合してはならない。"""
-    index = dedup.ClusterIndex()
+    """定例発表は本文が酷似するが別の出来事。発生日が違えば統合してはならない。"""
     body = "営業毎旬報告。当該旬末の営業状況を公表する。"
-    first = _assign(index, url="https://c.example/1", title="営業毎旬報告（7月10日現在）", body=body,
+    first = _assign(dedup.ClusterIndex(day="2026-07-11"), url="https://c.example/1",
+                    title="営業毎旬報告（7月10日現在）", body=body,
                     date="2026-07-11", event_id="evt_20260711_cccccccccc")
-    second = _assign(index, url="https://c.example/2", title="営業毎旬報告（7月20日現在）", body=body,
+    second = _assign(dedup.ClusterIndex(day="2026-07-21"), url="https://c.example/2",
+                     title="営業毎旬報告（7月20日現在）", body=body,
                      date="2026-07-21", event_id="evt_20260721_dddddddddd")
     assert first[0] != second[0]
     assert second[1] is True
 
 
+def test_identical_text_on_different_days_is_not_merged():
+    """定例公告は数か月後に一字一句同じ本文で再掲される。完全一致でも発生日が違えば別の出来事。
+
+    日付の分離は索引そのものが発生日ごとに分かれていることで担保される。
+    """
+    title, body = "日本銀行が保有する国債の銘柄別残高", "月次の保有残高を公表する。"
+    july = dedup.ClusterIndex(day="2026-07-14")
+    august = dedup.ClusterIndex(day="2026-08-13")
+    first = _assign(july, url="https://boj.example/mei260710.xlsx", title=title, body=body,
+                    date="2026-07-14", event_id="evt_20260714_eeeeeeeeee", source_id="src_boj")
+    second = _assign(august, url="https://boj.example/mei260810.xlsx", title=title, body=body,
+                     date="2026-08-13", event_id="evt_20260813_ffffffffff", source_id="src_boj")
+    assert first[0] != second[0], "同一本文でも発生日が違えば別クラスタ"
+    assert second[1] is True
+
+
+def test_identical_text_on_the_same_day_is_merged():
+    index = dedup.ClusterIndex(day="2026-08-13")
+    title, body = "Sunshine Act Meetings", "Notice of meeting."
+    first = _assign(index, url="https://fr.example/16519", title=title, body=body,
+                    date="2026-08-13", event_id="evt_20260813_7777777777", source_id="src_fr")
+    second = _assign(index, url="https://fr.example/16543", title=title, body=body,
+                     date="2026-08-13", event_id="evt_20260813_8888888888", source_id="src_fr")
+    assert first[0] == second[0]
+    assert second[1] is False
+    assert second[2]["method"] == "content_hash"
+
+
+def test_partition_rejects_an_event_from_another_day():
+    """取り違えて別日のイベントを入れると、日付で閉じている前提が壊れる。"""
+    index = dedup.ClusterIndex(day="2026-08-13")
+    try:
+        _assign(index, url="https://a.example/1", title="別の日の出来事", body="本文",
+                date="2026-07-01", event_id="evt_20260701_0000000001")
+    except ValueError:
+        return
+    raise AssertionError("mismatched event_date must be rejected")
+
+
+def test_index_does_not_persist_comparison_tokens():
+    """トークンを永続化すると索引が日々数 MB 増え、観測履歴をリポジトリに残せなくなる。"""
+    index = dedup.ClusterIndex(day="2026-08-13")
+    _assign(index, url="https://a.example/1", title="送電網の増強", body="変圧器の調達を進める。",
+            date="2026-08-13", event_id="evt_20260813_9999999999")
+    cluster = next(iter(index.clusters.values()))
+    assert "tokens" not in cluster
+    assert index._tokens, "比較用トークンは実行中のメモリには載っている"
+
+
 def test_boilerplate_from_same_source_is_not_merged():
     """官報系の公告は定型文が大半で別件でも文面が酷似する。同一ソース内では統合しない。"""
-    index = dedup.ClusterIndex()
+    index = dedup.ClusterIndex(day="2026-08-13")
     body = (
         "Agency Information Collection Activities; Submission to the Office of Management and Budget "
         "for Review and Approval; Comment Request; notice of submission."
@@ -172,6 +222,43 @@ def test_daily_report_template_satisfies_invariants():
 
     template = json.loads((ROOT / "reports/templates/daily_report_template.json").read_text(encoding="utf-8"))
     assert invariants.check_daily_report(template) == []
+
+
+# --- raw アーカイブ (§48-51) -----------------------------------------------
+
+def test_raw_archive_roundtrip_and_idempotency(tmp_root=None):
+    """raw は追記のみ。同じ raw_id を二度書かず、読み戻して同一内容になる。"""
+    import importlib
+    import os
+    import tempfile
+
+    with tempfile.TemporaryDirectory() as tmp:
+        os.environ["FUTURE100_ROOT"] = tmp
+        from future100 import storage as storage_module
+
+        storage = importlib.reload(storage_module)
+        docs = [
+            {
+                "raw_id": f"raw_{i:016x}",
+                "source_id": "src_a",
+                "observed_at": "2026-08-13T00:00:00Z",
+                "fetch": {"url": f"https://a.example/{i}", "canonical_url": f"https://a.example/{i}", "method": "rss"},
+                "content": {"title": f"t{i}", "body": "b", "content_hash": "0" * 64},
+            }
+            for i in range(3)
+        ]
+        assert storage.save_raw_batch(docs) == 3
+        assert storage.save_raw_batch(docs) == 0, "同じ raw_id は二度書かない"
+
+        loaded = list(storage.iter_raw())
+        assert [d["raw_id"] for d in loaded] == [d["raw_id"] for d in docs]
+        assert storage.rebuild_raw_index().keys() == {d["raw_id"] for d in docs}
+
+        archive = storage.raw_archive_path("src_a", "2026-08-13T00:00:00Z")
+        assert archive.exists() and archive.name.endswith(".jsonl.gz")
+
+    del os.environ["FUTURE100_ROOT"]
+    importlib.reload(storage_module)
 
 
 # --- コレクタ -------------------------------------------------------------

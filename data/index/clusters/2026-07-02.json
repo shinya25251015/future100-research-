@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://federalreserve.gov/newsevents/pressreleases/enforcement20260702a.htm": "clu_ede071a8f2"
+  },
+  "by_hash": {
+    "054611647dc31c3b450f5e60f1f592c7ba5c16161ceefa4f37afd2844130a7f0": "clu_ede071a8f2"
+  },
+  "by_key": {
+    "board of governors of the federal reserve system::federal reserve board issues enforcement action with small business bank and announces termination enforcement actions with bnp paribas s.a., bnp paribas usa, inc., bnp paribas securities corp., and community bankshares, inc.::2026-07-02": "clu_ede071a8f2"
+  },
+  "clusters": {
+    "clu_ede071a8f2": {
+      "primary_event_id": "evt_20260813_054611647d",
+      "event_ids": [
+        "evt_20260813_054611647d"
+      ],
+      "source_ids": [
+        "src_us_federal_reserve"
+      ]
+    }
+  }
+}

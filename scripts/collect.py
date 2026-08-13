@@ -48,13 +48,8 @@ def main() -> int:
             print(f"  FAIL {source['source_id']}: {result.error}")
             continue
 
-        new = 0
-        for document in result.documents:
-            total_seen += 1
-            if args.dry_run:
-                continue
-            if storage.save_raw(document) is not None:
-                new += 1
+        total_seen += len(result.documents)
+        new = 0 if args.dry_run else storage.save_raw_batch(result.documents)
         total_new += new
         label = "fetched" if args.dry_run else "new"
         count = len(result.documents) if args.dry_run else new

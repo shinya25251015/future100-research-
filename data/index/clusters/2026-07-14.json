@@ -1,0 +1,58 @@
+{
+  "by_url": {
+    "https://federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm": "clu_6bf56fd665",
+    "http://boj.or.jp/mopo/mpmsche_minu/record_2016/gjrk.htm": "clu_0d089c04d0",
+    "http://boj.or.jp/statistics/boj/other/acmai/release/2026/ac260710.htm": "clu_df1ce1c65b",
+    "http://boj.or.jp/statistics/boj/other/mei/release/2026/mei260710.xlsx": "clu_a9a49ebf9a"
+  },
+  "by_hash": {
+    "72c5f4a2f6a656431cc2dac16669e550e56e0b1d5f2ed371e8487c766f482239": "clu_6bf56fd665",
+    "77f5ac5cfebf0eb9486bf15b8c9c2acfc02ab89093b74c9cd94603fea6f0d345": "clu_0d089c04d0",
+    "06240b1c9392ecb1b1d87387b5185372fca3cf0925733700bb554445671e0961": "clu_df1ce1c65b",
+    "120296d4393b36965f140edd63d0ac731c3a4d63d5149bc344d2fc79ec0b5f37": "clu_a9a49ebf9a"
+  },
+  "by_key": {
+    "board of governors of the federal reserve system::minutes of the board's discount rate meetings on june 8 and june 17, 2026::2026-07-14": "clu_6bf56fd665",
+    "日本銀行::金融政策決定会合議事録等(2016年1月~6月開催分)::2026-07-14": "clu_0d089c04d0",
+    "日本銀行::営業毎旬報告(7月10日現在)::2026-07-14": "clu_df1ce1c65b",
+    "日本銀行::日本銀行が保有する国債の銘柄別残高::2026-07-14": "clu_a9a49ebf9a"
+  },
+  "clusters": {
+    "clu_6bf56fd665": {
+      "primary_event_id": "evt_20260813_72c5f4a2f6",
+      "event_ids": [
+        "evt_20260813_72c5f4a2f6"
+      ],
+      "source_ids": [
+        "src_us_federal_reserve"
+      ]
+    },
+    "clu_0d089c04d0": {
+      "primary_event_id": "evt_20260813_77f5ac5cfe",
+      "event_ids": [
+        "evt_20260813_77f5ac5cfe"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_df1ce1c65b": {
+      "primary_event_id": "evt_20260813_06240b1c93",
+      "event_ids": [
+        "evt_20260813_06240b1c93"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_a9a49ebf9a": {
+      "primary_event_id": "evt_20260813_120296d439",
+      "event_ids": [
+        "evt_20260813_120296d439"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    }
+  }
+}

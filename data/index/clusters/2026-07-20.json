@@ -1,0 +1,34 @@
+{
+  "by_url": {
+    "https://event.on24.com/wcc/r/5418459/287E3D5B99470D34C830D69A24B3B207": "clu_ba90560dd3",
+    "https://spectrum.ieee.org/ieee-program-girls-india-stem": "clu_8e24e3b152"
+  },
+  "by_hash": {
+    "9be9d14ebe61c17b0d15696c04e537387502756a3bd52c6b5a84d985127976d4": "clu_ba90560dd3",
+    "0c3eb63b7aff8746f68c7f46f74451ba5a4b32ebbf7e0526ef96d1e599641416": "clu_8e24e3b152"
+  },
+  "by_key": {
+    "ieee::sem-guided low-kv fib finishing for leading-edge semiconductor failure analysis::2026-07-20": "clu_ba90560dd3",
+    "ieee::ieee program helps girls in india see a future in stem::2026-07-20": "clu_8e24e3b152"
+  },
+  "clusters": {
+    "clu_ba90560dd3": {
+      "primary_event_id": "evt_20260813_9be9d14ebe",
+      "event_ids": [
+        "evt_20260813_9be9d14ebe"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    },
+    "clu_8e24e3b152": {
+      "primary_event_id": "evt_20260813_0c3eb63b7a",
+      "event_ids": [
+        "evt_20260813_0c3eb63b7a"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    }
+  }
+}

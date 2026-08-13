@@ -1,0 +1,34 @@
+{
+  "by_url": {
+    "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1723": "clu_18c588ea49",
+    "https://spectrum.ieee.org/ieee-course-ai-power-grids": "clu_bebf396a64"
+  },
+  "by_hash": {
+    "5dbcd54517dc2f4e0535278a7af8beec5da1a7cdf7b67422e660edfa65e99476": "clu_18c588ea49",
+    "fa7a37b8d476aa67f9b5d89538721a7e34237c9c8d71bf5d315e9defc1105869": "clu_bebf396a64"
+  },
+  "by_key": {
+    "european commission::daily news 05 / 08 / 2026::2026-08-05": "clu_18c588ea49",
+    "ieee::ieee course teaches how to use ai to modernize power grids::2026-08-05": "clu_bebf396a64"
+  },
+  "clusters": {
+    "clu_18c588ea49": {
+      "primary_event_id": "evt_20260813_5dbcd54517",
+      "event_ids": [
+        "evt_20260813_5dbcd54517"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_bebf396a64": {
+      "primary_event_id": "evt_20260813_fa7a37b8d4",
+      "event_ids": [
+        "evt_20260813_fa7a37b8d4"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    }
+  }
+}

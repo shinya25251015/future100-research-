@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://energy.gov/em/secretary-ernest-moniz-i-may-2013-july-2015": "clu_2ca709ee43"
+  },
+  "by_hash": {
+    "f0e0d7a0393d012f779286d6281fc617a0a09ac0efff4da5b30c12741d1f3cfe": "clu_2ca709ee43"
+  },
+  "by_key": {
+    "u.s. department of energy::secretary ernest moniz i (may 2013-july 2015)::2017-12-07": "clu_2ca709ee43"
+  },
+  "clusters": {
+    "clu_2ca709ee43": {
+      "primary_event_id": "evt_20260813_f0e0d7a039",
+      "event_ids": [
+        "evt_20260813_f0e0d7a039"
+      ],
+      "source_ids": [
+        "src_us_doe_news"
+      ]
+    }
+  }
+}

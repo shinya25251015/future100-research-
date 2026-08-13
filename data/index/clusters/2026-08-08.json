@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx": "clu_3cdb4322c3"
+  },
+  "by_hash": {
+    "b6426cf2e01fff32ef624cf4f0d46e7776ec09deda61d12a5ba7d62b6b2101fd": "clu_3cdb4322c3"
+  },
+  "by_key": {
+    "nvidia corporation::firebird launches cis region’s largest ai factory in armenia::2026-08-08": "clu_3cdb4322c3"
+  },
+  "clusters": {
+    "clu_3cdb4322c3": {
+      "primary_event_id": "evt_20260813_b6426cf2e0",
+      "event_ids": [
+        "evt_20260813_b6426cf2e0"
+      ],
+      "source_ids": [
+        "src_nvidia_newsroom"
+      ]
+    }
+  }
+}

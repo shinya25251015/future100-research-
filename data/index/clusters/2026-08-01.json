@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://spectrum.ieee.org/risk": "clu_6517f32a7a"
+  },
+  "by_hash": {
+    "0649549fe04be9068547f78a639403aa6b6cf31574303bbc4d72f9f769871f4a": "clu_6517f32a7a"
+  },
+  "by_key": {
+    "ieee::fridays with bob::2026-08-01": "clu_6517f32a7a"
+  },
+  "clusters": {
+    "clu_6517f32a7a": {
+      "primary_event_id": "evt_20260813_0649549fe0",
+      "event_ids": [
+        "evt_20260813_0649549fe0"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    }
+  }
+}

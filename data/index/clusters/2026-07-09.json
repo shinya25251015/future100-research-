@@ -1,0 +1,34 @@
+{
+  "by_url": {
+    "https://federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm": "clu_287236c794",
+    "https://federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm": "clu_5de0aa7688"
+  },
+  "by_hash": {
+    "0331c24ca1b05a5e4a487b5306a4544b3d5800f04fbd6bccbb0b8fcedec881bf": "clu_287236c794",
+    "d6af6e9068f824d0db86a759442cb978d785847f6cad9950dd98026108eac577": "clu_5de0aa7688"
+  },
+  "by_key": {
+    "board of governors of the federal reserve system::federal reserve board issues enforcement action with ts banking group, inc. and ts contrarian bancshares, inc.::2026-07-09": "clu_287236c794",
+    "board of governors of the federal reserve system::federal reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy::2026-07-09": "clu_5de0aa7688"
+  },
+  "clusters": {
+    "clu_287236c794": {
+      "primary_event_id": "evt_20260813_0331c24ca1",
+      "event_ids": [
+        "evt_20260813_0331c24ca1"
+      ],
+      "source_ids": [
+        "src_us_federal_reserve"
+      ]
+    },
+    "clu_5de0aa7688": {
+      "primary_event_id": "evt_20260813_d6af6e9068",
+      "event_ids": [
+        "evt_20260813_d6af6e9068"
+      ],
+      "source_ids": [
+        "src_us_federal_reserve"
+      ]
+    }
+  }
+}

@@ -75,7 +75,6 @@ def make_raw_document(
             **({"language": source["language"]} if source.get("language") else {}),
             "content_hash": textnorm.content_hash(title, body),
         },
-        "processing": {"status": "pending", "event_ids": []},
     }
 
 

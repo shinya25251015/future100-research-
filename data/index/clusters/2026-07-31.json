@@ -1,0 +1,154 @@
+{
+  "by_url": {
+    "https://federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm": "clu_ba6c76fbf7",
+    "https://federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm": "clu_5e3bb3315d",
+    "http://boj.or.jp/mopo/mpmdeci/mpr_2026/k260731a.pdf": "clu_800c5e1948",
+    "http://boj.or.jp/mopo/mpmdeci/mpr_2026/mpr260731b.pdf": "clu_115d8907e1",
+    "http://boj.or.jp/about/release/sousaidouga.htm": "clu_9566df7d8a",
+    "http://boj.or.jp/statistics/set/kess/release/2026/kess2606.pdf": "clu_8ff3930861",
+    "http://boj.or.jp/mopo/mpmsche_minu/m_ref/mref260731a.pdf": "clu_93de5ae24e",
+    "http://boj.or.jp/mopo/mpmdeci/mpr_2026/mpr260731a.pdf": "clu_ccb75b7a5d",
+    "http://boj.or.jp/mopo/outlook/gor2607a.pdf": "clu_f2db8f5673",
+    "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1715": "clu_dda9dc97ac",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1714": "clu_23d84ef08d",
+    "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1711": "clu_8b1d996dde"
+  },
+  "by_hash": {
+    "ec9b1568919694d22572fce56e3c81f60a3c0895436932d4c39376f9093e4757": "clu_ba6c76fbf7",
+    "2e7ff667c0ccbbb44514b0ad356da78e70bc865644cdb3d937aea69d2f72eb35": "clu_5e3bb3315d",
+    "45b604d172e7204ad0ad4a4fdd39dab0ed792d368a6e6247bb06b395bcea65d5": "clu_800c5e1948",
+    "976d4a2a481e1ce9af9a4bc2810fd76e4c6f1eced7e722049b7132ab4bbd74ce": "clu_115d8907e1",
+    "dd67381873e285991a35584847a70da43527c2b52f3bd0658070d4edacb79978": "clu_9566df7d8a",
+    "9ce1057fe61473c14f26f3e6d87f2d2993e601cedeca28577edcdaf034d08876": "clu_8ff3930861",
+    "9e316c111443919ab67718e137d845f7a3bf56d14cb3b7ceed7dfb896a00deb5": "clu_93de5ae24e",
+    "d0d817c8bdd453e2e018ed02386849be74c0650b8cd5f9045480cc0d5d2a383a": "clu_ccb75b7a5d",
+    "5b6a222f4522576d7cc8cb33c2676dd4b2ef07fffff8de47e851af77babb71f3": "clu_f2db8f5673",
+    "2453c00d8f0b39bfcf6b784fea16dff71b2d8364b440e8b4baa7f80cfca2d309": "clu_dda9dc97ac",
+    "23bdef736a50b1219202981e6a63b4c9a2281b643424fdcdc40648c02a5b4be5": "clu_23d84ef08d",
+    "16e3101d48055060c4c1f326d9e0f05b552394e6f8dd814e575c4b55fe117f6d": "clu_8b1d996dde"
+  },
+  "by_key": {
+    "board of governors of the federal reserve system::federal reserve board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"—bank executives, board members and major shareholders who could potentially influence a bank's lending decisions::2026-07-31": "clu_ba6c76fbf7",
+    "board of governors of the federal reserve system::federal reserve board requests comment on a proposal to modernize rules for mutual banking organizations::2026-07-31": "clu_5e3bb3315d",
+    "日本銀行::当面の金融政策運営について::2026-07-31": "clu_800c5e1948",
+    "日本銀行::長期国債買入れ(利回り・価格入札方式)の四半期予定(2026年7~9月)[日程更新]::2026-07-31": "clu_115d8907e1",
+    "日本銀行::総裁記者会見(7月31日)動画の配信開始::2026-07-31": "clu_9566df7d8a",
+    "日本銀行::決済動向(6月)::2026-07-31": "clu_8ff3930861",
+    "日本銀行::金融政策決定会合等の日程(2027年)::2026-07-31": "clu_93de5ae24e",
+    "日本銀行::米ドル資金供給オペレーションのオファー日程(2026年8月~12月)::2026-07-31": "clu_ccb75b7a5d",
+    "日本銀行::経済・物価情勢の展望(7月、基本的見解)::2026-07-31": "clu_f2db8f5673",
+    "european commission::daily news 31 / 07 / 2026::2026-07-31": "clu_dda9dc97ac",
+    "european commission::commission starts enforcing ai act rules and new transparency requirements on 2 august::2026-07-31": "clu_23d84ef08d",
+    "european commission::statement by president von der leyen, executive vice-president mînzatu, and commissioner lahbib ahead of european roma holocaust memorial day::2026-07-31": "clu_8b1d996dde"
+  },
+  "clusters": {
+    "clu_ba6c76fbf7": {
+      "primary_event_id": "evt_20260813_ec9b156891",
+      "event_ids": [
+        "evt_20260813_ec9b156891"
+      ],
+      "source_ids": [
+        "src_us_federal_reserve"
+      ]
+    },
+    "clu_5e3bb3315d": {
+      "primary_event_id": "evt_20260813_2e7ff667c0",
+      "event_ids": [
+        "evt_20260813_2e7ff667c0"
+      ],
+      "source_ids": [
+        "src_us_federal_reserve"
+      ]
+    },
+    "clu_800c5e1948": {
+      "primary_event_id": "evt_20260813_45b604d172",
+      "event_ids": [
+        "evt_20260813_45b604d172"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_115d8907e1": {
+      "primary_event_id": "evt_20260813_976d4a2a48",
+      "event_ids": [
+        "evt_20260813_976d4a2a48"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_9566df7d8a": {
+      "primary_event_id": "evt_20260813_dd67381873",
+      "event_ids": [
+        "evt_20260813_dd67381873"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_8ff3930861": {
+      "primary_event_id": "evt_20260813_9ce1057fe6",
+      "event_ids": [
+        "evt_20260813_9ce1057fe6"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_93de5ae24e": {
+      "primary_event_id": "evt_20260813_9e316c1114",
+      "event_ids": [
+        "evt_20260813_9e316c1114"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_ccb75b7a5d": {
+      "primary_event_id": "evt_20260813_d0d817c8bd",
+      "event_ids": [
+        "evt_20260813_d0d817c8bd"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_f2db8f5673": {
+      "primary_event_id": "evt_20260813_5b6a222f45",
+      "event_ids": [
+        "evt_20260813_5b6a222f45"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_dda9dc97ac": {
+      "primary_event_id": "evt_20260813_2453c00d8f",
+      "event_ids": [
+        "evt_20260813_2453c00d8f"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_23d84ef08d": {
+      "primary_event_id": "evt_20260813_23bdef736a",
+      "event_ids": [
+        "evt_20260813_23bdef736a"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_8b1d996dde": {
+      "primary_event_id": "evt_20260813_16e3101d48",
+      "event_ids": [
+        "evt_20260813_16e3101d48"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    }
+  }
+}

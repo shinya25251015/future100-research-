@@ -1,0 +1,76 @@
+{
+  "window_id": "sig_fusion_20260813",
+  "as_of": "2026-08-13T23:59:59Z",
+  "window": {
+    "start": "2026-08-07",
+    "end": "2026-08-13",
+    "baseline_start": "2026-07-10",
+    "baseline_end": "2026-08-06"
+  },
+  "topic": {
+    "label": "核融合",
+    "keywords": [
+      "fusion",
+      "tokamak",
+      "stellarator",
+      "核融合"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_fusion"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 18,
+      "baseline_count": 0.0,
+      "event_ids": [
+        "evt_20260813_b7d2e94fbe",
+        "evt_20260813_c5cff6505a",
+        "evt_20260813_f2515b7f11",
+        "evt_20260813_a466e1751b",
+        "evt_20260813_9fa39fb5da",
+        "evt_20260813_8af5c66c6b",
+        "evt_20260813_fbcfb3a508",
+        "evt_20260813_58e52320a3",
+        "evt_20260813_dbdcc87337",
+        "evt_20260813_c26c622b78",
+        "evt_20260813_e9f936b62c",
+        "evt_20260813_0a89109a52",
+        "evt_20260813_6544c71168",
+        "evt_20260813_2fa07faea2",
+        "evt_20260813_4062d8543b",
+        "evt_20260813_de0881d1c7",
+        "evt_20260813_512cd2827c",
+        "evt_20260813_597fe04439"
+      ]
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-08-13T15:29:12Z",
+        "covers_baseline": false
+      },
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-08-13T15:29:12Z",
+        "covers_baseline": false
+      }
+    ],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 2,
+    "distinct_regions": 1,
+    "score": 34.2,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}

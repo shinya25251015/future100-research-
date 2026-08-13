@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://federalreserve.gov/newsevents/pressreleases/enforcement20260625b.htm": "clu_baab9e9a53"
+  },
+  "by_hash": {
+    "c5f656788408c34749132da5dd6097d7efa3e4ef56d05ae589d09cf4e4ae2578": "clu_baab9e9a53"
+  },
+  "by_key": {
+    "board of governors of the federal reserve system::federal reserve board issues enforcement action with employee of bank of eufaula and s n b bancshares, inc.::2026-06-25": "clu_baab9e9a53"
+  },
+  "clusters": {
+    "clu_baab9e9a53": {
+      "primary_event_id": "evt_20260813_c5f6567884",
+      "event_ids": [
+        "evt_20260813_c5f6567884"
+      ],
+      "source_ids": [
+        "src_us_federal_reserve"
+      ]
+    }
+  }
+}
