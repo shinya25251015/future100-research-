@@ -97,6 +97,58 @@ def check_signal_window(window: dict) -> list[str]:
     return problems
 
 
+def check_wave(chain: dict) -> list[str]:
+    """波及連鎖の規律 (§17-19)。"""
+    problems: list[str] = []
+    ranks = {"low": 0, "medium": 1, "high": 2}
+    strongest_by_wave: dict[int, int] = {}
+
+    for index, link in enumerate(chain.get("links", [])):
+        where = f"links[{index}] (wave {link.get('wave')})"
+        if link.get("claim_type") == "inferred":
+            if not link.get("evidence"):
+                problems.append(f"§17-19: {where}: 推論した因果に根拠が無い")
+            if not link.get("falsifier"):
+                problems.append(f"§39: {where}: 推論した因果に撤回条件が無い")
+        if not link.get("mechanism"):
+            problems.append(f"§17-19: {where}: 波及の機序が書かれていない")
+
+        wave = link.get("wave", 1)
+        rank = ranks.get(link.get("causal_confidence", "low"), 0)
+        strongest_by_wave[wave] = max(strongest_by_wave.get(wave, rank), rank)
+
+    # 推論を重ねるほど確からしくなることはない。第 n 波が第 n-1 波より強い主張は弾く。
+    for wave in sorted(strongest_by_wave):
+        previous = strongest_by_wave.get(wave - 1)
+        if previous is not None and strongest_by_wave[wave] > previous:
+            problems.append(
+                f"§19: wave {wave} の causal_confidence が wave {wave - 1} を上回っている。"
+                "推論を重ねるほど確信度が上がることはない"
+            )
+    return problems
+
+
+def check_supply_chain(chain_map: dict) -> list[str]:
+    """サプライチェーンとボトルネックの規律 (§13-16)。"""
+    problems: list[str] = []
+    node_ids = {node["node_id"] for node in chain_map.get("nodes", [])}
+
+    for edge in chain_map.get("edges", []):
+        for side in ("from", "to"):
+            if edge.get(side) not in node_ids:
+                problems.append(f"§16: edge の {side} が存在しないノードを指している: {edge.get(side)}")
+
+    for node in chain_map.get("nodes", []):
+        bottleneck = node.get("bottleneck")
+        if not bottleneck or not bottleneck.get("is_bottleneck"):
+            continue
+        if not bottleneck.get("trigger_condition"):
+            problems.append(f"§14: {node['node_id']}: どの程度の需要増で不足するかが書かれていない")
+        if not bottleneck.get("monetizer_type"):
+            problems.append(f"§15: {node['node_id']}: 不足から利益を回収する主体の類型が書かれていない")
+    return problems
+
+
 def check_prediction(prediction: dict) -> list[str]:
     problems: list[str] = []
     if not prediction.get("falsifier"):
@@ -134,6 +186,8 @@ CHECKS = {
     "event": check_event,
     "signal": check_signal_window,
     "sector": check_sector,
+    "wave": check_wave,
+    "supply_chain": check_supply_chain,
     "prediction": check_prediction,
     "daily_report": check_daily_report,
 }

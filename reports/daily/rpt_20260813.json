@@ -73,19 +73,19 @@
       "no": 11,
       "key": "bottlenecks",
       "title": "ボトルネックと収益回収構造 (§14-15)",
-      "body": "Phase 4 が未実装のため、本項目は生成できない。推測では埋めない。"
+      "body": "本日該当なし（サプライチェーン分析がまだ作成されていない）"
     },
     {
       "no": 12,
       "key": "supply_chain_map",
       "title": "サプライチェーン構造 (§16)",
-      "body": "Phase 4 が未実装のため、本項目は生成できない。推測では埋めない。"
+      "body": "本日該当なし（サプライチェーン分析がまだ作成されていない）"
     },
     {
       "no": 13,
       "key": "wave_analysis",
       "title": "第二波・第三波分析 (§17-19)",
-      "body": "Phase 4 が未実装のため、本項目は生成できない。推測では埋めない。"
+      "body": "本日該当なし（波及連鎖がまだ作成されていない）"
     },
     {
       "no": 14,
@@ -109,7 +109,7 @@
   "prohibited_output_check": {
     "contains_ticker_recommendation": false,
     "contains_ranking": false,
-    "checked_at": "2026-08-13T22:24:29Z"
+    "checked_at": "2026-08-13T22:27:43Z"
   },
   "schema_version": "1.0"
 }

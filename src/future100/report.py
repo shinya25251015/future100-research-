@@ -208,11 +208,57 @@ def _sector_profiles_section(no: int, key: str, title: str, empty_note: str) -> 
     return build
 
 
-def _not_implemented(no: int, key: str, title: str, phase: str) -> Callable:
-    def build(today, primary, windows, report_date) -> dict:
-        return _section(no, key, title, f"{phase} が未実装のため、本項目は生成できない。推測では埋めない。")
+def _bottlenecks(today, primary, windows, report_date) -> dict:
+    maps = sorted((storage.DATA / "supply_chain").glob("scm_*.json"))
+    items = []
+    for path in maps:
+        chain_map = storage.read_json(path)
+        for node in chain_map["nodes"]:
+            bottleneck = node.get("bottleneck", {})
+            if not bottleneck.get("is_bottleneck"):
+                continue
+            items.append(
+                f"{chain_map['sector_id']} / {node['name']}: {bottleneck['trigger_condition']}"
+                f"（回収主体の類型: {bottleneck['monetizer_type']} / 解消: {bottleneck.get('resolution_path', '不明')}）"
+            )
+    if not items:
+        return _section(11, "bottlenecks", "ボトルネックと収益回収構造 (§14-15)",
+                        f"{_NONE}（サプライチェーン分析がまだ作成されていない）")
+    return _section(11, "bottlenecks", "ボトルネックと収益回収構造 (§14-15)",
+                    f"{len(items)} 件のボトルネックを特定済み。受益者は類型で示す (§44-46)。", items)
 
-    return build
+
+def _supply_chain_map(today, primary, windows, report_date) -> dict:
+    maps = sorted((storage.DATA / "supply_chain").glob("scm_*.json"))
+    if not maps:
+        return _section(12, "supply_chain_map", "サプライチェーン構造 (§16)",
+                        f"{_NONE}（サプライチェーン分析がまだ作成されていない）")
+    items = []
+    for path in maps:
+        chain_map = storage.read_json(path)
+        items.append(
+            f"{chain_map['sector_id']}: ノード {len(chain_map['nodes'])} / 接続 {len(chain_map['edges'])}"
+            f"（as_of {chain_map['as_of'][:10]}）"
+        )
+    return _section(12, "supply_chain_map", "サプライチェーン構造 (§16)",
+                    f"{len(maps)} セクターのサプライチェーンを分解済み。", items)
+
+
+def _wave_analysis(today, primary, windows, report_date) -> dict:
+    chains = sorted((storage.DATA / "waves").glob("wav_*.json"))
+    if not chains:
+        return _section(13, "wave_analysis", "第二波・第三波分析 (§17-19)",
+                        f"{_NONE}（波及連鎖がまだ作成されていない）")
+    items = []
+    for path in chains:
+        chain = storage.read_json(path)
+        for link in chain["links"]:
+            items.append(
+                f"[波{link['wave']}/{link['claim_type']}/確信度 {link['causal_confidence']}] "
+                f"{link['from']} → {link['to']}: {link['mechanism'][:60]}"
+            )
+    return _section(13, "wave_analysis", "第二波・第三波分析 (§17-19)",
+                    f"{len(chains)} 本の連鎖を追跡中。observed は観測済み、inferred は本システムの推論。", items)
 
 
 def _kpi_and_forecast_review(today, primary, windows, report_date) -> dict:
@@ -247,9 +293,9 @@ _SECTION_BUILDERS: list[Callable] = [
     _known_sector_monitor,
     _emerging_sector_discovery,
     _category_section(10, "supply_demand", "需給分析 (§13)", "supply_demand"),
-    _not_implemented(11, "bottlenecks", "ボトルネックと収益回収構造 (§14-15)", "Phase 4"),
-    _not_implemented(12, "supply_chain_map", "サプライチェーン構造 (§16)", "Phase 4"),
-    _not_implemented(13, "wave_analysis", "第二波・第三波分析 (§17-19)", "Phase 4"),
+    _bottlenecks,
+    _supply_chain_map,
+    _wave_analysis,
     _sector_profiles_section(14, "market_formation", "市場形成と成長フェーズ (§9, §20-32)",
                              f"{_NONE}（セクター評価がまだ作成されていない）"),
     _sector_profiles_section(15, "consensus_vs_independent", "コンセンサスと独自見解 (§34)",
