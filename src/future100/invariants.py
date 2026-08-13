@@ -67,6 +67,41 @@ def check_sector(profile: dict) -> list[str]:
     if as_of and newest and not timeutil.is_visible(newest, as_of):
         problems.append(f"§37: evidence observed at {newest} is newer than as_of {as_of}")
 
+    problems.extend(check_market_size(profile))
+    return problems
+
+
+def check_market_size(profile: dict) -> list[str]:
+    """市場規模の数値に対する規律 (§9, §35-38)。
+
+    Phase 5 の本体は一次統計の取得だが、数値を受け入れる側の規律は先に固定できる。
+    ここで防ぐのは「出所のない市場規模」と「シナリオ間で辻褄の合わない予測」の 2 つ。
+    未推計を 0 のまま置くのは正しい状態で、違反ではない。
+    """
+    problems: list[str] = []
+    market_size = profile.get("market_size", {})
+
+    # 出所のない数値を残さない。0（未推計）は根拠を要求しない。
+    for key in ("tam", "sam", "som"):
+        amount = market_size.get(key, {}).get("amount", 0)
+        if amount and not market_size.get("evidence"):
+            problems.append(f"§35-38: market_size.{key} に数値があるのに根拠が無い")
+
+    # 同じ年で bear <= base <= bull になっているか。順序が壊れた予測は読めない。
+    by_year: dict[int, dict[str, float]] = {}
+    for scenario in profile.get("scenarios", []):
+        for projection in scenario.get("projections", []):
+            amount = projection.get("market_size", {}).get("amount")
+            if amount:
+                by_year.setdefault(projection["year"], {})[scenario["scenario"]] = amount
+
+    for year, amounts in sorted(by_year.items()):
+        bear, base, bull = amounts.get("bear"), amounts.get("base"), amounts.get("bull")
+        if bear is not None and base is not None and bear > base:
+            problems.append(f"§9: {year} 年の bear ({bear}) が base ({base}) を上回っている")
+        if base is not None and bull is not None and base > bull:
+            problems.append(f"§9: {year} 年の base ({base}) が bull ({bull}) を上回っている")
+
     return problems
 
 

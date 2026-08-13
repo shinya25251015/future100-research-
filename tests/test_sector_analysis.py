@@ -173,6 +173,45 @@ def test_generated_profile_matches_the_schema():
     assert not errors, "; ".join(f"{'/'.join(str(p) for p in e.path)}: {e.message}" for e in errors[:3])
 
 
+def _profile_with(market_size=None, scenarios=None):
+    return {
+        "as_of": AS_OF,
+        "growth": {"probability": {}, "magnitude": {}},
+        "views": {"consensus": {}, "independent": {}},
+        "scenarios": scenarios or [{"scenario": s, "falsifier": "x"} for s in ("bear", "base", "bull")],
+        "market_size": market_size or {"base_year": 2026, "tam": {"amount": 0, "currency": "USD"}},
+    }
+
+
+def test_market_size_without_evidence_is_rejected():
+    """出所のない市場規模を残さない (§35-38)。未推計の 0 は違反ではない。"""
+    from future100 import invariants
+
+    assert invariants.check_market_size(_profile_with()) == [], "未推計 (0) は許される"
+
+    sourced = _profile_with({"base_year": 2026, "tam": {"amount": 120, "currency": "USD"},
+                             "evidence": [{"source_id": "src_a", "reliability": "A"}]})
+    assert invariants.check_market_size(sourced) == []
+
+    unsourced = _profile_with({"base_year": 2026, "tam": {"amount": 120, "currency": "USD"}})
+    assert any("§35-38" in p for p in invariants.check_market_size(unsourced))
+
+
+def test_scenario_projections_must_be_ordered():
+    """同じ年で bear <= base <= bull が壊れた予測は読めない (§9)。"""
+    from future100 import invariants
+
+    def projection(scenario, amount):
+        return {"scenario": scenario, "falsifier": "x",
+                "projections": [{"year": 2030, "market_size": {"amount": amount, "currency": "USD"}}]}
+
+    ordered = _profile_with(scenarios=[projection("bear", 80), projection("base", 100), projection("bull", 150)])
+    assert invariants.check_market_size(ordered) == []
+
+    broken = _profile_with(scenarios=[projection("bear", 200), projection("base", 100), projection("bull", 150)])
+    assert any("§9" in p for p in invariants.check_market_size(broken))
+
+
 def test_output_schemas_obey_structured_output_limits():
     """構造化出力は additionalProperties:false と全プロパティの required を要求し、
     数値範囲などの制約は使えない。スキーマ側で形を保証できないと、検証が後段に全部寄る。"""
