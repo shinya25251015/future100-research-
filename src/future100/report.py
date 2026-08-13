@@ -76,12 +76,13 @@ def build_daily_report(*, as_of: str | None = None, report_date: str | None = No
 
 # --- 節の組み立て ---------------------------------------------------------
 
-def _section(no: int, key: str, title: str, narrative: str, items: list[str] | None = None) -> dict:
+def _section(no: int, key: str, title: str, narrative: str, items: list[str] | None = None,
+             *, max_items: int = _MAX_ITEMS) -> dict:
     """1 節を作る。narrative は本システムが書いた文なので禁止事項を検査する。"""
     _guard(narrative, f"section {no} ({key})")
     body = narrative
     if items:
-        body += "\n" + "\n".join(f"- {item}" for item in items[:_MAX_ITEMS])
+        body += "\n" + "\n".join(f"- {item}" for item in items[:max_items])
     return {"no": no, "key": key, "title": title, "body": body}
 
 
@@ -98,13 +99,41 @@ def _lines(events: list[dict]) -> list[str]:
     ]
 
 
+def _latest_statistics(events: list[dict], limit: int = 8) -> list[str]:
+    """系列ごとの最新値。統計は同じ系列の複数期が同時に入るため、そのまま並べると
+    同じ名前の行で節が埋まる。系列あたり 1 行（最新期）に畳む。"""
+    latest: dict[tuple[str, str], dict] = {}
+    counts: dict[tuple[str, str], int] = {}
+    for event in events:
+        for quantity in event.get("quantities", []):
+            key = (quantity["label"], quantity["unit"])
+            counts[key] = counts.get(key, 0) + 1
+            if key not in latest or quantity.get("period", "") > latest[key].get("period", ""):
+                latest[key] = quantity
+    return [
+        f"統計 {label} = {latest[(label, unit)]['value']:,} {unit}"
+        f"（{latest[(label, unit)].get('period', '期間不明')}, 本日 {counts[(label, unit)]} 期ぶんを観測）"
+        for label, unit in sorted(latest)
+    ][:limit]
+
+
 def _category_section(no: int, key: str, title: str, category: str, note: str = "") -> Callable:
     def build(today, primary, windows, report_date) -> dict:
         rows = _by_category(today, category)
         if not rows:
             return _section(no, key, title, f"{_NONE}（本日の新規観測なし）")
-        narrative = f"本日 {len(rows)} 件を観測。{note}".strip()
-        return _section(no, key, title, narrative, _lines(rows))
+
+        statistics = [e for e in rows if e.get("quantities")]
+        reports = [e for e in rows if not e.get("quantities")]
+        narrative = f"本日 {len(rows)} 件を観測"
+        if statistics:
+            narrative += f"（うち一次統計のデータ点 {len(statistics)} 件）"
+        narrative = f"{narrative}。{note}".strip()
+        # 統計は系列ごとに 1 行。件数が多いという理由だけで報道を押し出さないよう、
+        # 統計の行数ぶんだけ節の上限を広げる。
+        stat_lines = _latest_statistics(statistics)
+        return _section(no, key, title, narrative, stat_lines + _lines(reports),
+                        max_items=_MAX_ITEMS + len(stat_lines))
 
     return build
 

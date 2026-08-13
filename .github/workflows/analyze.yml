@@ -1,0 +1,88 @@
+name: sector analysis
+
+# Phase 3-2（セクター構造評価）と Phase 4（波及・サプライチェーン）の生成を手動で走らせる。
+#
+# 日次サイクルと分けてあるのは、生成が「毎日回すもの」ではないため。
+# 構造評価は観測が積み上がってから見直す性質のもので、毎日呼ぶと費用だけが増え、
+# しかも生成のたびに結論が揺れて予測精度の測定 (§40-43) が濁る。
+#
+# 実行には ANTHROPIC_API_KEY をリポジトリの Secrets に設定する。
+# 未設定なら生成は行わず、その旨だけを出して終わる（偽の鍵で失敗を装わない）。
+
+on:
+  workflow_dispatch:
+    inputs:
+      sector:
+        description: "対象セクター (config/known_sectors.json の sector_id)"
+        required: true
+        default: sec_power_grid
+      stage:
+        description: "生成する分析"
+        required: true
+        default: sector
+        type: choice
+        options: [sector, chain, both]
+      effort:
+        description: "生成にかける手間"
+        required: false
+        default: high
+        type: choice
+        options: [low, medium, high, xhigh, max]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sector-analysis-${{ inputs.sector }}
+  cancel-in-progress: false
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install jsonschema referencing anthropic
+
+      - name: Check credentials
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "${ANTHROPIC_API_KEY}" ]; then
+            echo "ANTHROPIC_API_KEY が未設定のため生成は行わない。" >&2
+            echo "Settings > Secrets and variables > Actions に登録すると有効になる。" >&2
+            exit 1
+          fi
+
+      - name: Generate sector profile (§20-34)
+        if: inputs.stage == 'sector' || inputs.stage == 'both'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 scripts/analyze_sector.py --sector "${{ inputs.sector }}" --generate --effort "${{ inputs.effort }}"
+
+      - name: Generate chain analysis (§13-19)
+        if: inputs.stage == 'chain' || inputs.stage == 'both'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 scripts/analyze_chain.py --sector "${{ inputs.sector }}" --generate --effort "${{ inputs.effort }}"
+
+      - name: Validate generated documents
+        run: python3 scripts/validate_data.py
+
+      - name: Commit analysis
+        run: |
+          git config user.name "future100-bot"
+          git config user.email "noreply@github.com"
+          git add data/sectors/ data/waves/ data/supply_chain/
+          if git diff --cached --quiet; then
+            echo "no new analysis"
+            exit 0
+          fi
+          git commit -m "analysis: ${{ inputs.sector }} ($(date -u +%Y-%m-%d))"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

@@ -46,12 +46,27 @@ JSON Schema 検証まで行う場合のみ追加依存を入れる（未導入�
 pip install jsonschema referencing
 ```
 
-SEC EDGAR は利用条件として User-Agent に連絡先を要求する。設定しない場合、
-そのソースだけが失敗し他は通常どおり収集される（偽の連絡先は同梱していない）:
+## 資格情報
+
+偽の連絡先・偽の鍵はリポジトリに置いていない。未設定の項目は、それを要求するソース
+または生成処理だけが「未設定である」と明示して失敗し、他はそのまま動く。
+
+| 環境変数 | 何が有効になるか | 取得先 |
+| --- | --- | --- |
+| `FUTURE100_CONTACT_EMAIL` | SEC EDGAR Form D（資金調達シグナル, §10）。利用条件として User-Agent に連絡先を要求される | 自分の連絡先 |
+| `ANTHROPIC_API_KEY` | Phase 3-2 セクター構造評価 (§20-34) と Phase 4 波及・サプライチェーン (§13-19) の生成 | https://console.anthropic.com/ |
+| `FUTURE100_EIA_API_KEY` | 米国の電力需給統計（月次）。設定後 `config/sources.json` の `src_us_eia_electricity` を `enabled: true` にする | https://www.eia.gov/opendata/register.php （無償） |
+| `FUTURE100_BLS_API_KEY` | 米国の産業別雇用統計。キー無しでも取得できるが日次上限が共有 IP 単位で、実測では上限超過を HTTP 200 で返した | https://data.bls.gov/registrationEngine/ （無償） |
 
 ```bash
 export FUTURE100_CONTACT_EMAIL=you@example.com
+export ANTHROPIC_API_KEY=sk-ant-...
+python3 scripts/analyze_sector.py --sector sec_power_grid --generate
 ```
+
+GitHub Actions で動かす場合は同名の Secret を登録する。生成は日次サイクルに含めず、
+`.github/workflows/analyze.yml` を手動実行する（構造評価は毎日回すものではなく、
+毎日生成し直すと結論が揺れて予測精度の測定 (§40-43) が濁るため）。
 
 正規化規則（`config/signal_rules.json` / `config/known_sectors.json`）を変えたときは、
 raw を保ったまま作り直す:
@@ -66,7 +81,7 @@ python3 scripts/normalize.py --rebuild
 config/     情報ソース登録簿・監視セクター・シグナル判定規則
 schemas/    正準データモデル（JSON Schema）と説明用の例
 src/future100/
-  collect/  コレクタ（rss / atom / json_api）
+  collect/  コレクタ（rss / atom / json_api / json_series）
   normalize.py  raw → Event
   dedup.py      同一ニュースの統合 (§38)
   signals.py    Early Signal Detection (§10)
@@ -90,5 +105,7 @@ backtest/   予測と実績の突き合わせ (§40-43)
 - **事実と推論を分離する。** `claims[].type` が `observed` か `inferred` か。推論には根拠が必須 (§17-19)。
 - **raw は不変。** 解釈が変わっても取得データは書き換えず、events を作り直す (§48-51)。
 - **迷ったら統合しない。** 重複統合の誤りは出来事を消す。取りこぼしは件数が増えるだけ (§38)。
+- **統計は数値のまま取り込む。** 一次統計は 1 データ点 1 観測として、単位と対象期間を伴って
+  `quantities` に入る。本文に書いた数字を後から拾い直すと単位が失われ、市場規模の根拠に使えない (§9)。
 - **観測開始を「変化」と読まない。** 収集を始めたばかりのソースは過去期間の件数が構造的に 0 になり、
   すべてが急増して見える。baseline 期間を観測できていない topic は判定を保留する (§10)。

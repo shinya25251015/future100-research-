@@ -511,6 +511,271 @@
       "poll_interval_minutes": 720,
       "enabled": false,
       "notes": "フィード未提供。当面は src_us_federal_register 経由で捕捉し、Phase 2 後半で HTML コレクタを実装する (§4-5)。"
+    },
+    {
+      "source_id": "src_worldbank_indicators",
+      "name": "World Bank Open Data (構造指標)",
+      "publisher": "World Bank",
+      "country": "GLOBAL",
+      "language": "en",
+      "tier": "tier1",
+      "reliability": "A",
+      "kind": "json_series",
+      "url": "https://data.worldbank.org/",
+      "categories": [
+        "macro"
+      ],
+      "lookback_days": 2190,
+      "poll_interval_minutes": 10080,
+      "enabled": true,
+      "series_request": {
+        "format": "records",
+        "endpoint_template": "https://api.worldbank.org/v2/country/{geo}/indicator/{code}?format=json&per_page=400&date={start_year}:{end_year}",
+        "point_url_template": "https://data.worldbank.org/indicator/{code}?locations={geo}&period={period}",
+        "points_path": "1",
+        "period": "date",
+        "value": "value",
+        "label": "indicator.value",
+        "key_fields": {
+          "geo": "countryiso3code"
+        },
+        "note_fields": [
+          "obs_status"
+        ],
+        "updated_path": "0.lastupdated"
+      },
+      "series": [
+        {
+          "code": "NE.GDI.FTOT.CD",
+          "geo": "JP;US;DE;CN;KR;IN;TW",
+          "unit": "USD",
+          "label": "総固定資本形成"
+        },
+        {
+          "code": "NV.IND.MANF.CD",
+          "geo": "JP;US;DE;CN;KR;IN;TW",
+          "unit": "USD",
+          "label": "製造業付加価値"
+        },
+        {
+          "code": "GB.XPD.RSDV.GD.ZS",
+          "geo": "JP;US;DE;CN;KR;IN",
+          "unit": "%",
+          "label": "研究開発支出（対GDP比）"
+        },
+        {
+          "code": "IP.PAT.RESD",
+          "geo": "JP;US;DE;CN;KR;IN",
+          "unit": "件",
+          "label": "居住者による特許出願件数"
+        },
+        {
+          "code": "TX.VAL.TECH.CD",
+          "geo": "JP;US;DE;CN;KR;IN",
+          "unit": "USD",
+          "label": "ハイテク製品輸出額",
+          "sectors": [
+            "sec_semiconductor"
+          ]
+        }
+      ],
+      "notes": "年次の構造指標。設備投資・製造業規模・研究開発の水準を国際比較で押さえる (§6, §7)。更新は年 1-2 回のため週次で十分。"
+    },
+    {
+      "source_id": "src_eurostat_industry_energy",
+      "name": "Eurostat 生産・電力統計",
+      "publisher": "European Commission (Eurostat)",
+      "country": "EU",
+      "language": "en",
+      "tier": "tier1",
+      "reliability": "A",
+      "kind": "json_series",
+      "url": "https://ec.europa.eu/eurostat/data/database",
+      "categories": [
+        "supply_demand",
+        "macro"
+      ],
+      "poll_interval_minutes": 1440,
+      "enabled": true,
+      "series_request": {
+        "format": "jsonstat",
+        "endpoint_template": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/{dataset}?format=JSON&lang=EN&lastTimePeriod=13&{query}",
+        "point_url_template": "https://ec.europa.eu/eurostat/databrowser/view/{dataset}?keys={keys}&period={period}",
+        "period": "time",
+        "updated_path": "updated"
+      },
+      "series": [
+        {
+          "dataset": "nrg_cb_pem",
+          "query": "geo=EU27_2020&unit=GWH&siec=TOTAL",
+          "unit": "GWh",
+          "label": "EU 純発電量（月次）",
+          "sectors": [
+            "sec_power_grid",
+            "sec_ai_compute"
+          ]
+        },
+        {
+          "dataset": "sts_inpr_m",
+          "query": "geo=EU27_2020&unit=I21&s_adj=SCA&nace_r2=C26",
+          "unit": "指数(2021=100)",
+          "label": "EU 生産指数 コンピュータ・電子・光学製品",
+          "sectors": [
+            "sec_semiconductor",
+            "sec_optical_networking"
+          ]
+        },
+        {
+          "dataset": "sts_inpr_m",
+          "query": "geo=EU27_2020&unit=I21&s_adj=SCA&nace_r2=C27",
+          "unit": "指数(2021=100)",
+          "label": "EU 生産指数 電気機器",
+          "sectors": [
+            "sec_power_grid"
+          ]
+        },
+        {
+          "dataset": "sts_copr_m",
+          "query": "geo=EU27_2020&unit=I21&s_adj=SCA&nace_r2=F",
+          "unit": "指数(2021=100)",
+          "label": "EU 建設生産指数",
+          "sectors": [
+            "sec_power_grid",
+            "sec_ai_compute"
+          ]
+        }
+      ],
+      "notes": "月次の一次統計。電力供給量と、送配電・データセンタ需要の受け皿になる電気機器/電子部品の生産水準を追う (§13)。"
+    },
+    {
+      "source_id": "src_us_bls_industry",
+      "name": "BLS 産業別雇用統計",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "country": "US",
+      "language": "en",
+      "tier": "tier1",
+      "reliability": "A",
+      "kind": "json_series",
+      "url": "https://www.bls.gov/data/",
+      "categories": [
+        "macro",
+        "supply_demand"
+      ],
+      "poll_interval_minutes": 1440,
+      "requires_credentials": true,
+      "enabled": false,
+      "series_request": {
+        "format": "records",
+        "endpoint_template": "https://api.bls.gov/publicAPI/v2/timeseries/data/{code}?registrationkey=${FUTURE100_BLS_API_KEY}",
+        "point_url_template": "https://data.bls.gov/timeseries/{code}?period={period}",
+        "series_path": "Results.series",
+        "points_path": "data",
+        "period": [
+          "year",
+          "period"
+        ],
+        "value": "value",
+        "status_path": "status",
+        "status_ok": [
+          "REQUEST_SUCCEEDED"
+        ],
+        "note_fields": [
+          "footnotes.0.text"
+        ]
+      },
+      "series": [
+        {
+          "code": "CES3133400001",
+          "unit": "千人",
+          "label": "米国 半導体・電子部品製造業 雇用者数",
+          "sectors": [
+            "sec_semiconductor"
+          ]
+        },
+        {
+          "code": "CES3133500001",
+          "unit": "千人",
+          "label": "米国 電気機器・部品製造業 雇用者数",
+          "sectors": [
+            "sec_power_grid"
+          ]
+        },
+        {
+          "code": "CES2023700001",
+          "unit": "千人",
+          "label": "米国 重土木・インフラ建設 雇用者数",
+          "sectors": [
+            "sec_power_grid",
+            "sec_ai_compute"
+          ]
+        }
+      ],
+      "notes": "産業別雇用は設備投資と需要の先行指標になる。キー無しでも取得できるが日次上限が共有 IP 単位で、実測では上限超過を HTTP 200 で返した。FUTURE100_BLS_API_KEY（https://data.bls.gov/registrationEngine/ で無償発行）を設定して enabled=true にする。"
+    },
+    {
+      "source_id": "src_us_eia_electricity",
+      "name": "EIA 電力統計",
+      "publisher": "U.S. Energy Information Administration",
+      "country": "US",
+      "language": "en",
+      "tier": "tier1",
+      "reliability": "A",
+      "kind": "json_series",
+      "url": "https://www.eia.gov/opendata/",
+      "categories": [
+        "supply_demand",
+        "resource"
+      ],
+      "poll_interval_minutes": 1440,
+      "requires_credentials": true,
+      "enabled": false,
+      "series_request": {
+        "format": "records",
+        "endpoint_template": "https://api.eia.gov/v2/electricity/{route}/data/?api_key=${FUTURE100_EIA_API_KEY}&frequency=monthly&data[0]={metric}&start={start_year}-01&sort[0][column]=period&sort[0][direction]=desc&length=24",
+        "point_url_template": "https://www.eia.gov/opendata/browser/electricity/{route}?metric={metric}&period={period}",
+        "points_path": "response.data",
+        "period": "period",
+        "value": "value",
+        "unit_path": "value-units"
+      },
+      "series": [
+        {
+          "route": "electric-power-operational-data",
+          "metric": "generation",
+          "label": "米国 発電量（月次）",
+          "sectors": [
+            "sec_power_grid",
+            "sec_ai_compute"
+          ]
+        },
+        {
+          "route": "retail-sales",
+          "metric": "sales",
+          "label": "米国 電力小売販売量（月次）",
+          "sectors": [
+            "sec_power_grid",
+            "sec_ai_compute"
+          ]
+        }
+      ],
+      "notes": "米国の電力需給。AI データセンタ需要が系統に現れるかを直接見る (§13)。要 API キー: FUTURE100_EIA_API_KEY（https://www.eia.gov/opendata/register.php で無償発行）。設定後 enabled=true にする。"
+    },
+    {
+      "source_id": "src_entsoe_transparency",
+      "name": "ENTSO-E 送電系統透明性プラットフォーム",
+      "publisher": "ENTSO-E",
+      "country": "EU",
+      "language": "en",
+      "tier": "tier1",
+      "reliability": "A",
+      "kind": "manual",
+      "url": "https://transparency.entsoe.eu/",
+      "categories": [
+        "supply_demand"
+      ],
+      "requires_credentials": true,
+      "enabled": false,
+      "notes": "欧州の系統運用者（TSO）による負荷・発電・系統容量の一次データ。XML のみで JSON 提供が無く、無償のセキュリティトークン申請が要る。§13 のボトルネック検証に最も近い一次情報だが、XML コレクタと申請が済むまで無効。"
     }
   ]
 }

@@ -153,26 +153,33 @@ ANALYSIS_SCHEMA = {
 
 DEFAULT_WINDOW_DAYS = 90
 DEFAULT_MAX_EVENTS = 150
+DEFAULT_MAX_STATISTICS = 60
 _RELIABILITY_RANK = {"A": 0, "B": 1, "C": 2, "D": 3}
 
 
 @dataclass
 class EvidenceBundle:
-    """1 セクターぶんの評価入力。ここに入っているものだけが根拠として使える。"""
+    """1 セクターぶんの評価入力。ここに入っているものだけが根拠として使える。
+
+    統計 (statistics) を出来事 (events) と分けて持つ。統計は 1 回の取得で数十件の
+    データ点が同時に入るため、同じ列に混ぜると件数の多さだけで報道を押し出してしまう。
+    根拠として引ける範囲は両方（event_ids）で、扱いだけを分ける。
+    """
 
     sector_id: str
     label: str
     as_of: str
     window_start: str
     events: list[dict] = field(default_factory=list)
+    statistics: list[dict] = field(default_factory=list)
 
     @property
     def event_ids(self) -> set[str]:
-        return {event["event_id"] for event in self.events}
+        return {event["event_id"] for event in self.events + self.statistics}
 
     def reliability_counts(self) -> dict[str, int]:
         counts = {"A": 0, "B": 0, "C": 0, "D": 0}
-        for event in self.events:
+        for event in self.events + self.statistics:
             counts[event.get("max_reliability", "D")] += 1
         return counts
 
@@ -180,6 +187,7 @@ class EvidenceBundle:
         counts = self.reliability_counts()
         return (
             f"{self.sector_id} ({self.label}): {len(self.events)} events "
+            f"+ {len(self.statistics)} statistics "
             f"[A={counts['A']} B={counts['B']} C={counts['C']} D={counts['D']}] "
             f"{self.window_start}..{self.as_of[:10]}"
         )
@@ -191,6 +199,7 @@ def build_bundle(
     as_of: str | None = None,
     window_days: int = DEFAULT_WINDOW_DAYS,
     max_events: int = DEFAULT_MAX_EVENTS,
+    max_statistics: int = DEFAULT_MAX_STATISTICS,
     events: list[dict] | None = None,
 ) -> EvidenceBundle:
     """評価に使うイベントを集める。
@@ -229,13 +238,45 @@ def build_bundle(
     matched.sort(key=lambda e: e["event_at"], reverse=True)
     matched.sort(key=lambda e: _RELIABILITY_RANK.get(e.get("max_reliability", "D"), 9))
 
+    statistics = [event for event in matched if event.get("quantities")]
+    reports = [event for event in matched if not event.get("quantities")]
+
     return EvidenceBundle(
         sector_id=sector_id,
         label=sector["name"],
         as_of=as_of,
         window_start=start_str,
-        events=matched[:max_events],
+        events=reports[:max_events],
+        statistics=statistics[:max_statistics],
     )
+
+
+def _render_statistics(events: list[dict]) -> str:
+    """統計を系列ごとにまとめ、対象期間の順に並べる。
+
+    1 データ点 1 行のまま順不同で渡すと、同じ系列の値が散らばって推移が読めない。
+    水準ではなく推移が意味を持つのが統計なので、系列で束ねて期間順に並べる。
+    根拠として引けるように event_id は各行に残す (§35-38)。
+    """
+    groups: dict[tuple[str, str, str], list[tuple[str, str, float]]] = {}
+    for event in events:
+        for quantity in event.get("quantities", []):
+            scale = quantity.get("scale", "one")
+            key = (quantity["label"], quantity["unit"], "" if scale == "one" else scale)
+            groups.setdefault(key, []).append(
+                (quantity.get("period", ""), event["event_id"], quantity["value"])
+            )
+
+    blocks = []
+    for (label, unit, scale), points in sorted(groups.items()):
+        unit_caption = f"{scale} {unit}".strip()
+        lines = [f"### {label}（単位: {unit_caption}）"]
+        lines += [
+            f"- {period or '期間不明'}: {value:,} [{event_id}]"
+            for period, event_id, value in sorted(points)
+        ]
+        blocks.append("\n".join(lines))
+    return "\n\n".join(blocks)
 
 
 def render_prompt(bundle: EvidenceBundle, view_kind: str) -> str:
@@ -253,19 +294,26 @@ def render_prompt(bundle: EvidenceBundle, view_kind: str) -> str:
         for event in bundle.events
     ) or "- （該当期間に観測されたイベントは無い）"
 
+    statistics = _render_statistics(bundle.statistics) or "- （該当期間に取り込んだ統計は無い）"
+
     common = f"""あなたは産業構造の分析者である。対象セクター: {bundle.label} ({bundle.sector_id})
 分析時点: {bundle.as_of}
 観測期間: {bundle.window_start} 〜 {bundle.as_of[:10]}
 
 ## 守るべき規律
-- 下記の観測イベント以外を根拠にしてはならない。event_id は下記に実在するものだけを引く。
+- 下記の観測イベント・観測統計以外を根拠にしてはならない。event_id は下記に実在するものだけを引く。
 - 事実（イベントに書いてあること）と推論（あなたの判断）を混ぜない。推論には必ず basis を付ける。
 - 株式の銘柄・ティッカー・投資判断には一切言及しない。分析対象は産業構造であって銘柄ではない。
-- 数値を書くときは根拠のイベントを添える。根拠が無ければ数値を書かない。
+- 数値を書くときは根拠のイベントを添える。根拠が無ければ数値を書かない。市場規模を
+  推計する場合も、下記の統計から積み上げられる範囲を超えて数字を作らない。積み上げられ
+  ないなら 0 のままにし、推計しなかったことを method に書く。
 - 出力は JSON のみ。前後に説明文を付けない。
 
 ## 観測イベント
 {evidence}
+
+## 観測統計（一次統計。単位と対象期間つき）
+{statistics}
 """
 
     if view_kind == "consensus":

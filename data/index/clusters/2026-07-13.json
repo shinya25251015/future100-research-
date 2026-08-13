@@ -6,7 +6,134 @@
     "https://whitehouse.gov/presidential-actions/2026/07/modifying-the-grand-staircase-escalante-national-monument": "clu_5fa81ee000",
     "https://whitehouse.gov/presidential-actions/2026/07/modifying-the-bears-ears-national-monument": "clu_55d5802be6",
     "https://whitehouse.gov/presidential-actions/2026/07/regulatory-relief-for-certain-stationary-sources-to-promote-american-chemical-manufacturing-security-be40": "clu_5fff8c7731",
-    "https://whitehouse.gov/presidential-actions/2026/07/nominations-sent-to-the-senate-3fd0": "clu_fc76ffdb54"
+    "https://whitehouse.gov/presidential-actions/2026/07/nominations-sent-to-the-senate-3fd0": "clu_fc76ffdb54",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=KOR&period=2020": "clu_e8899468ab",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=USA&period=2022": "clu_2a3f5a4734",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=CHN&period=2020": "clu_19e23c454f",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=USA&period=2020": "clu_4c03d211cd",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=KOR&period=2020": "clu_75e3cd8b1c",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=IND&period=2020": "clu_bfc681b452",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=KOR&period=2025": "clu_cabb71abd0",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=IND&period=2025": "clu_93610a0299",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=KOR&period=2021": "clu_efd9e45a4d",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=KOR&period=2022": "clu_e4a315b381",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=DEU&period=2020": "clu_4f5517a548",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=IND&period=2021": "clu_ecbde14e2f",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=USA&period=2020": "clu_3024196a63",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=USA&period=2021": "clu_5eddf06036",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=JPN&period=2021": "clu_0af70bc667",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=KOR&period=2023": "clu_9a46b9f3cb",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=JPN&period=2020": "clu_f57cbdb951",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=DEU&period=2023": "clu_2e37f6e40f",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=CHN&period=2024": "clu_aaa3867245",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=DEU&period=2021": "clu_951200108a",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=CHN&period=2021": "clu_c3ceab9816",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=KOR&period=2021": "clu_791dcaf433",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=IND&period=2021": "clu_7628d1901c",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=USA&period=2023": "clu_eed31424c6",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=DEU&period=2021": "clu_fc4f045cc0",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=DEU&period=2020": "clu_e2f1666a4d",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=JPN&period=2023": "clu_c482084971",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=DEU&period=2022": "clu_2798221d97",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=CHN&period=2023": "clu_1fc7f81731",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=CHN&period=2023": "clu_ba71d8f365",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=DEU&period=2021": "clu_46b903dc19",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=KOR&period=2023": "clu_c49e2d9d4f",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=USA&period=2023": "clu_2820bd2757",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=USA&period=2024": "clu_2d60baf96b",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=JPN&period=2021": "clu_5932004b5d",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=KOR&period=2021": "clu_fd4e85ffad",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=KOR&period=2020": "clu_ae0d8d94cf",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=CHN&period=2020": "clu_0718a63f48",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=IND&period=2024": "clu_464efb986d",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=DEU&period=2024": "clu_908169f2b6",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=IND&period=2020": "clu_b3c882e01b",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=CHN&period=2021": "clu_7919fd559f",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=IND&period=2023": "clu_8b7b8d3360",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=JPN&period=2023": "clu_6e772190bf",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=IND&period=2022": "clu_3e6a56621a",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=USA&period=2022": "clu_8ea389033a",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=DEU&period=2023": "clu_315c1b1c94",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=IND&period=2024": "clu_2c8a35de08",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=IND&period=2024": "clu_559bd66508",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=JPN&period=2022": "clu_cc8bbc499b",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=CHN&period=2023": "clu_feb889668b",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=USA&period=2023": "clu_9c579d61c6",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=JPN&period=2022": "clu_40b7140f2a",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=CHN&period=2021": "clu_42ffeb39d3",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=KOR&period=2024": "clu_7d2a0455a9",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=KOR&period=2024": "clu_c816f0ad80",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=CHN&period=2024": "clu_ba8e146e97",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=CHN&period=2020": "clu_757380af6e",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=USA&period=2021": "clu_039feebb2e",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=JPN&period=2023": "clu_3771801179",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=KOR&period=2020": "clu_ec29b8d573",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=CHN&period=2022": "clu_1eb95d2ec7",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=CHN&period=2022": "clu_fe7fbb4224",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=USA&period=2020": "clu_22f912198d",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=KOR&period=2023": "clu_d0f35bde5f",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=JPN&period=2023": "clu_0dd1738a5b",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=JPN&period=2020": "clu_049c6e8f44",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=IND&period=2025": "clu_8a49d7e1aa",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=KOR&period=2022": "clu_d38e69c2e8",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=USA&period=2020": "clu_ec0a28299e",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=JPN&period=2024": "clu_3164c1aacb",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=KOR&period=2025": "clu_63add038b3",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=KOR&period=2021": "clu_708f61e9f8",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=JPN&period=2020": "clu_aa80a5d467",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=IND&period=2020": "clu_8c2a7577b9",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=USA&period=2021": "clu_69dbe5bd04",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=CHN&period=2020": "clu_efdf1443bb",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=IND&period=2020": "clu_2d2891c3d3",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=DEU&period=2020": "clu_ad5676bdf2",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=IND&period=2023": "clu_ca59a58e07",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=KOR&period=2021": "clu_1dfcf5247f",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=JPN&period=2021": "clu_47927ebd95",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=DEU&period=2025": "clu_b092904506",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=DEU&period=2022": "clu_cfc400a1c8",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=JPN&period=2021": "clu_6f856c0712",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=KOR&period=2022": "clu_bf13c52126",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=DEU&period=2020": "clu_d5c73b18bc",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=KOR&period=2022": "clu_9cc2072aad",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=JPN&period=2024": "clu_db9acbaa8b",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=CHN&period=2020": "clu_5641d5dd7f",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=JPN&period=2022": "clu_a082b9af6b",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=USA&period=2021": "clu_08b4335f36",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=JPN&period=2022": "clu_5aaeaff112",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=JPN&period=2021": "clu_4e96fe63ea",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=KOR&period=2024": "clu_d8fe682535",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=DEU&period=2021": "clu_04848aabfc",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=DEU&period=2021": "clu_a88302a663",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=DEU&period=2023": "clu_492455b352",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=IND&period=2022": "clu_8c6ccc113a",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=IND&period=2020": "clu_48b3af968c",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=DEU&period=2022": "clu_83d3c23400",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=DEU&period=2024": "clu_65ffed62f1",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=DEU&period=2020": "clu_141b1ea8fe",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=USA&period=2021": "clu_3e1a2bd72f",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=USA&period=2024": "clu_a9afce2df1",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=CHN&period=2022": "clu_82164498d4",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=CHN&period=2021": "clu_4695e33b9e",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=USA&period=2020": "clu_60f8135f65",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=DEU&period=2024": "clu_32f3ebaf74",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=DEU&period=2022": "clu_a49933c31e",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=USA&period=2022": "clu_6741758e7d",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=CHN&period=2024": "clu_331463de26",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=DEU&period=2023": "clu_bcbfaae316",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=JPN&period=2024": "clu_9ed0c6c8fc",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=IND&period=2023": "clu_5aea728cf2",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=KOR&period=2020": "clu_856feb458b",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=CHN&period=2023": "clu_bdd03d502e",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=JPN&period=2020": "clu_765b8cf114",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=IND&period=2021": "clu_0458882974",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=KOR&period=2023": "clu_aa46c0d244",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=JPN&period=2020": "clu_c468552f77",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=CHN&period=2025": "clu_a289cb363e",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=DEU&period=2025": "clu_ffdba118a7",
+    "https://data.worldbank.org/indicator/TX.VAL.TECH.CD?locations=IND&period=2021": "clu_3714e4795d",
+    "https://data.worldbank.org/indicator/NV.IND.MANF.CD?locations=IND&period=2022": "clu_f7c31f6cca",
+    "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=CHN&period=2021": "clu_be548d5baa",
+    "https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=CHN&period=2022": "clu_901a394f5c"
   },
   "by_hash": {
     "98941703e4d23acfc99131ff0d7e5ef9d3f5ad597edd2a0f0fb2dcef35a519c3": "clu_4c8e9fafee",
@@ -15,7 +142,134 @@
     "fb88060357b7dd689bc8c3ea629f6c7a39aa85b1178b5c9fc6159e941136509c": "clu_5fa81ee000",
     "f31c2889add1f7de65c8ffe03168de4308b3d48e8e3bd65f81ea40aa5446b9ff": "clu_55d5802be6",
     "bd2a1a61893830bbf7e98515320f204e0b9779090d88ac2ea586305385b45891": "clu_5fff8c7731",
-    "d79f4d1f94ee15ef3644c0414cf52212e5f155090189e478df39b8cff5d5c318": "clu_fc76ffdb54"
+    "d79f4d1f94ee15ef3644c0414cf52212e5f155090189e478df39b8cff5d5c318": "clu_fc76ffdb54",
+    "07e423630bbff839321ac7f6c3e3f5dccb57dce8b6faf0e4bcb648ae24d76e87": "clu_e8899468ab",
+    "d99b3f4349be49d11008ff79193fae22d23049e9090abc0bbaf5f9f0adcb6eca": "clu_2a3f5a4734",
+    "144a96bfe8602c0866ba073e3865c3354411d0f1ee27e362a28be1d691868341": "clu_19e23c454f",
+    "ed203703f0f12b13245877ce9be0bb64be96d6828b8a0791bdbd6485c02e5644": "clu_4c03d211cd",
+    "e59823c1828c37f94ea8c3349b04070caf48d7522523dc5aac2e57cde4ea0d4d": "clu_75e3cd8b1c",
+    "2c688fc1abc14f29826351f9bc895d727ef391551595e5f640ad5984e2fb92b6": "clu_bfc681b452",
+    "39542a79aeafcca9d5b66abea0d517376d30e4c947eab6b335ad9a9a80272ca2": "clu_cabb71abd0",
+    "d7dd956fe105a1957819919cde776dcd92b028227a448f593d46544b94f56cc1": "clu_93610a0299",
+    "096579484adddd5328c4d1800a953cb5155cd4b0c233126db1ad8ab11be4d661": "clu_efd9e45a4d",
+    "9aebbf897c6d5373b041a57624bedd3bdc883f9a39c9c400b1a170277bafcbc2": "clu_e4a315b381",
+    "dddfab25bda7173371f310ab853115b43ab0dc6d08aef7f211fe941f677f2471": "clu_4f5517a548",
+    "355f41601bffd431371f4b43c593a1d8307edb4f21de31350f657a36c3c618b3": "clu_ecbde14e2f",
+    "9f2c92d932fa36d2fe7d80bdd2bdc3ecd0131b3780b129040f2f8ba6c0c6f020": "clu_3024196a63",
+    "c7467e49e34028c0d50e3490b483636c25415304060222b9b4889d89fb93718a": "clu_5eddf06036",
+    "83e1f5123a3d2cc35d77ce74b80990bbf809d1f7acd757a3e2a73b31d33c423a": "clu_0af70bc667",
+    "356b15f448b56c6333f1eca03de7b7a0ad4a74946a7b75c774bcc7caf990be23": "clu_9a46b9f3cb",
+    "4924496ccdc9f20fc34cc1f2684385407858c47b2889bb9f2114e7898dde03ce": "clu_f57cbdb951",
+    "d288d74187781af8a3d5b972e525e3d56a86bf38344e5f305403ff5be45a5485": "clu_2e37f6e40f",
+    "081d450cb003d338a56b0c1830f55736200dfaa082000a74155e0424f966d2dd": "clu_aaa3867245",
+    "71ed9d4fa037e95565d9b5830e39f4d9ffbd5e135388d2d808dcf7793ea8ba78": "clu_951200108a",
+    "fffc8cab00e3053dec4ff89fcb9e53878e29825c8f126fc6893613d232e8cc19": "clu_c3ceab9816",
+    "18cb7ecba48b3bd44388f081bf49d58d56ebe6b4d0f282ef0a82e5eec5b0b24e": "clu_791dcaf433",
+    "d905498670fe1e3267d7db322e8ae3a4e1f3d1f16bee4a0d00fb80bf9cc39416": "clu_7628d1901c",
+    "5413c7865fd1690c0ed82a6ed6de5cf81b2547be05f457da9336c1e007884283": "clu_eed31424c6",
+    "88a16edad82372f19cebcf8d66212e0cfd80ea883e6bcdae2bb0f9ea72f7103f": "clu_fc4f045cc0",
+    "f8f1f6e07ffaac548c843712c8c62e016eb6a64b09b016ec9010fcfa2494301a": "clu_e2f1666a4d",
+    "89ab9434d998c00b68b314e55505eae5b3e783102ed1a4f91b13601d761e7cdb": "clu_c482084971",
+    "61c6742a3322a9584246e75c786f58128dd5c393d83948db509980169ee82dc6": "clu_2798221d97",
+    "16ed6b8d7dae236ba7c3942d5407a74a6d0afd76cd5c40e91e7f0f263c224182": "clu_1fc7f81731",
+    "63a3b1dd93381157772e2ea3fce867d80f0ccab2589019e0cb8902e13b3c1a55": "clu_ba71d8f365",
+    "11cbd6279d6b4c99d4913c48e3b6a86b633e0677c0abe8bb6efbbd5c66a9e681": "clu_46b903dc19",
+    "fdf8fdfc79be1ed00be63174b3cee88d63009ae762d8d266abbeb3dd6ce2e47f": "clu_c49e2d9d4f",
+    "ceb196307a41c290071e0852b2d2f0187e45d9f49bd3d348af63719c39f3e669": "clu_2820bd2757",
+    "371360b79b268704ec72747b06fb99655777a26e9e21627450037de66e4bced0": "clu_2d60baf96b",
+    "15159f4fff4d2fa2b33b15c2ce7766b51516f1b9689dd25bbdc0479a8afe38f7": "clu_5932004b5d",
+    "2971483d67c5480aecf085337739bdcb79d249f0b68ce91ee656e55ef9a854ef": "clu_fd4e85ffad",
+    "94c9ba3d53358c62928b1d709510f29640306d1b4a39695ff5d4f3a79c0a140c": "clu_ae0d8d94cf",
+    "81b5c615f119c6a9a80511a46cdb58b3b39c0b3941b00a794424031777628d89": "clu_0718a63f48",
+    "aad832ef4a489f1b395ddef6750dea18ac4126dd0a335774ec6d355650e58312": "clu_464efb986d",
+    "61925d45e066b9960bedc65c99dfdfa0e25aa9ed7bcf4881994bd4515268f193": "clu_908169f2b6",
+    "85eabe2b46f196e7ed9026b5a76e9e53b2aa47ea5b4797f05b3361543a34005e": "clu_b3c882e01b",
+    "f6ed6fe9b7bcd79ec1ea8ff4fe976242874abe231a8179f07fe1ada5b14d3918": "clu_7919fd559f",
+    "4ff5d6507845cd9d9595d6a2926f27c4b47cdc4d04c24f8af960528e38f98969": "clu_8b7b8d3360",
+    "7c8bf42640587b75c03c6b3029181ebf1aba0ae10c04a3eef8718c026a3736ee": "clu_6e772190bf",
+    "a5369afc1d005dbff63903bd003f7aaa8a940ae2d5d68bd32966a1a21fd3fd3d": "clu_3e6a56621a",
+    "f318c3b5ade7a80eddfccce0ba509cc115ca9dba4f94c5251793ee1caac97c61": "clu_8ea389033a",
+    "99bb9b1a301191a8e3808384c0f21588ec847e403b467ce82feb8ca9d428b230": "clu_315c1b1c94",
+    "eed63a4b64e01b5adb133d7011661887972a06dcd8fc3b6194c225450291c8ba": "clu_2c8a35de08",
+    "3081e2f11899379b90259214a011697c288d263c6e061e8a899d9d6e0bc8c322": "clu_559bd66508",
+    "5ecd3b985e84650df7dcdeb6038ca8f145038b04c95b8e9dd846c4b7249343b2": "clu_cc8bbc499b",
+    "5c0f84382213688c9de40d7d90c8ca159669961140e3e90fc760908af77daa45": "clu_feb889668b",
+    "e333165cb3597e63d081871f3056d1c7f8e189af31af428b6a645d80c442171e": "clu_9c579d61c6",
+    "4f517c49a14efa697c1a2f8525d7cec97a205465305906f4a913b0646b1c95d2": "clu_40b7140f2a",
+    "4c658b16b2287675dd32967a87ede872168dc8e84933490e78b404833e3877a2": "clu_42ffeb39d3",
+    "d2643a2c3e9af310740907611913b213737ba02749c44ce099bdbc3d8c2ba84c": "clu_7d2a0455a9",
+    "cec5129281e6e5eb836c01fc2a9b7051872815bd4daab4582d629b2b2033e71a": "clu_c816f0ad80",
+    "68fe882b6d17d8c6508e0e74c6ca7faa82a31d9b123a7011e3a93181807bcd1d": "clu_ba8e146e97",
+    "153032365f858fed86dfdcd339908bb9393b2bad95d44e9f9a40ee8bd376db81": "clu_757380af6e",
+    "01c8e68a3d221ea44a9cc3bbc3831e2dad2d555c86aa73fde3e781813e382834": "clu_039feebb2e",
+    "349352c2550bf64fc4ceb82041d26a2174c7ba29dd3996a68a436c21f357d2b5": "clu_3771801179",
+    "de763ab8498b57f96104dc1c41081b26ce53ad9bf45d1f09464a6a73a9f637af": "clu_ec29b8d573",
+    "9c3b4d7d4468428545dc1a27b936e52ee04a1d7cee5a66f0726467f67fbc1ca5": "clu_1eb95d2ec7",
+    "498f76d09d4a177e683f8566d0fd52b6883a15a69f33efdd31ce385d4df13e6b": "clu_fe7fbb4224",
+    "e0433ef8f2f71a9e6d059abeebc04c519c22923f76f1c041367e79e223be6366": "clu_22f912198d",
+    "1c236c5128e507eb2af2f013d0ca2dfdea2dc67d07248bd4cec92f0694d25af4": "clu_d0f35bde5f",
+    "78c771b27f484ff7539e91767217c85038a5b58eb4970823d6c49a49120d8190": "clu_0dd1738a5b",
+    "003bb4aa2a69230581338af92c2cfe26f6f3af9296cd38cdfda0c030ec90d866": "clu_049c6e8f44",
+    "5c93bb845eb6606b761acd539871e62ef91544a621a9e6b03f1fc2ffbfa61ed7": "clu_8a49d7e1aa",
+    "55f138cef63b7a77e3bdd7d9988f285bf4ed59072b87510818648c866b10ecdc": "clu_d38e69c2e8",
+    "9339a28a0472a4e69b8163eba28ef2d89ec8219df543e62028dd67929f503524": "clu_ec0a28299e",
+    "a8c48a0447e180688892d72ad2a4846ab4f69b1e50c998f9a67d7574d5e9f74e": "clu_3164c1aacb",
+    "aab2681306e7b7d873db6c58ec8f824f3037924e03399c853600a2a1a2d9fe0f": "clu_63add038b3",
+    "a775b1931be92a28b7b192a1e3ce022c0c67fc77290728af6177eca7cba63f16": "clu_708f61e9f8",
+    "93a373c102674e34bcf6a01389cb7b615cb8c97aa73969063eaf0f0f6d6acf61": "clu_aa80a5d467",
+    "fc09a846b6812388cee82015d10962fff0b3bce4b5e48d72c02ac2d092eab631": "clu_8c2a7577b9",
+    "9451c104b322edebc25c334cc034605a7a747d725cddbedfd2cfe10dbf105497": "clu_69dbe5bd04",
+    "8dcb5c3afd10e3cc56d224d327e4724cf3f6e104a8bee9bed65fcb36d54d1a22": "clu_efdf1443bb",
+    "586b8bea41a23ccaa4b89388c1630ff888d22a3d6648f3bf9ffe87214133039f": "clu_2d2891c3d3",
+    "c7c7392a3d377b770a6a71b3ada18798090e17fdd9c05dc90030fce2c96a7597": "clu_ad5676bdf2",
+    "d9ed9687f0c3252173a7778fd53b4187cfd3c68dff6437d85571f7bdb5911229": "clu_ca59a58e07",
+    "27786c859a8fc11d1e02d206edb688d24d10a236895d99e357abcb290b49b1d8": "clu_1dfcf5247f",
+    "c095c8175a5b177a17cb10c29f7bf9a3eb7d2c2d06b3df9967fe034bed6aedc7": "clu_47927ebd95",
+    "dbbce147f39b17a6d906e93359fb3f667d609a4a58f4342ec840ce31df689b3a": "clu_b092904506",
+    "edb71b018224594d20a904e9c9f3caaeca9651e37d70b5f1a733e3675d0ab44a": "clu_cfc400a1c8",
+    "5c433c50d3f63953c31b2dc7d3e40819c6c1feced9e4ae61ab979c9d6ce51160": "clu_6f856c0712",
+    "d8df93f0362e9ccf18ed1e106d76a26f710dbd69ca79aad622d5d8cd24d6ca6f": "clu_bf13c52126",
+    "bc85a4387077043410e1b930ff4a9327b7471826305cec3c8685dfd43a3ed90d": "clu_d5c73b18bc",
+    "86caad2af522256e766be9d3a1293f99d276f39baae19f0976c6df0fb8bc1bf5": "clu_9cc2072aad",
+    "f3522fec97ebc1466ebd333eb756c01b86eb88e9cea019a7cf70ff4c6d10d7a5": "clu_db9acbaa8b",
+    "bf547c4403bd7095e2b54715bd16a8733b78a3d22ee2e9a44e8dd54d67fe29c8": "clu_5641d5dd7f",
+    "ef1724e6cfc2d973c45e277b00826e8e8d3e0b02acdee382bfe4e3cb7c9eec58": "clu_a082b9af6b",
+    "68ebc20bfa6ac9142f904f335b8a707a175ade54932358b232466d7ed16ddfca": "clu_08b4335f36",
+    "6c16eda1684eb7896d34500f6f514465526fb7d252d47a302e8e7ef8afb2ef43": "clu_5aaeaff112",
+    "0632982ca7f51c3e754e4d9276e448ec067db4b82e681e737d61cc3f53531996": "clu_4e96fe63ea",
+    "ba0511bf4aa9f77c52066c4d924827a21cc374d06dd77a618909bfc31ca50d19": "clu_d8fe682535",
+    "a959e24be1ad3684dd4ba992095db54ff7b075f8a5af012d02a144e395db8327": "clu_04848aabfc",
+    "793792655203d53d09d1bd5d0fb509ece3f4eccc2711a45bed90ffbc1ab80848": "clu_a88302a663",
+    "8d163160561a8ab95b192e0f972d3854e81e2255249487bba419ce220b3f0691": "clu_492455b352",
+    "06beaf313d762870f355c7e7d1b85b9581da59fad77208a36b5daffc70796c05": "clu_8c6ccc113a",
+    "05d78851ebd18fc54d816b799e4f0ac581c7fc207e5d11486288b729a2abc5b3": "clu_48b3af968c",
+    "dbe8ae07db6e8f8a6d0748f2066b40ca8b56f6cb31296fa9102dae16bcceb993": "clu_83d3c23400",
+    "7e9e6429696922e14f1bc50200e4d92e279702a2cd6ac2c6d1f90725dfc7d731": "clu_65ffed62f1",
+    "e90cdc0cd371a55012c585d41afe0f336d4cf92d5dd16d9cef2ca5384f2abacf": "clu_141b1ea8fe",
+    "73e7c5a8c9457ec06aa39e9bc67d01d8d29d62c767f56b5f1638e7158bdbd4f5": "clu_3e1a2bd72f",
+    "e00500592653f8596ae29ed165c0e8644fcfb13530b1644e4285c98831cde226": "clu_a9afce2df1",
+    "af1fe01e3c6604d13889b88c8ad4e146b9a20b4f83c62eebdce55fdd3e50009d": "clu_82164498d4",
+    "f8ebcc9606a2d6dbf44ce1eab496ff4519e20519abe1135fc5d5613bcc553fff": "clu_4695e33b9e",
+    "1c89cc828c760b92404ff851662bbfb90a30bc4627d5351c6539b7f2f5d33a8a": "clu_60f8135f65",
+    "2a1e016744138958b335901b86782bbcd8a986421a12b7944c804bdb5319af07": "clu_32f3ebaf74",
+    "25c57f6bb344798614f0de1f064cdf40c23f1f7011cbd9484c20288e8deab5cf": "clu_a49933c31e",
+    "5f994734e25134629609dad0a5bf9592b45dd3b2cbea4af919b675cd5a0f3765": "clu_6741758e7d",
+    "bd0c80fb21f259226c9f2961b33b951f7114c58b293dc351c3e48b3e55588069": "clu_331463de26",
+    "f236db27a9212cc422519afecda6895c2dfe76f0519b29e1596aa86adfbeb561": "clu_bcbfaae316",
+    "1e1db3279806122df1e21a2a034a1924cc8a761ce2d85d401d218b08b324d5cc": "clu_9ed0c6c8fc",
+    "1a02a27eb7574f9205eff7ca8bfc66b40e7d203bd129dc8fe45ecc9967f33ca1": "clu_5aea728cf2",
+    "df7246096d7fef91d378d4149edd4af91d4d9826ae8bc6beea9ef24a9fe4c3fd": "clu_856feb458b",
+    "a4f75a20173585f3c33468da33205bd8a3dafef27b4c832051faee6633654755": "clu_bdd03d502e",
+    "80d82c081a898356826768f7d7cfba543e6d009b9595a068c3103a08576c57e9": "clu_765b8cf114",
+    "5933a69eff6ca71455c4aacc3f256b8cc432cc5d1ad2e2d985376572c07594ca": "clu_0458882974",
+    "37cb63d499bb4d3b2a28899064ad8a23b74cdf34724939b860e6c67dc90bed87": "clu_aa46c0d244",
+    "5d277651852ff23f304dd9a839b36baa9f6fcf917f5728d2bb4ad0acd2b1f2a1": "clu_c468552f77",
+    "690567431140a9699d7f4356b4f33fbf670a650a95f78215603df0bb81a83189": "clu_a289cb363e",
+    "9ebb2b08db779e674d4b2d09f8aac02edaf3daef220655be298d14bd48d58230": "clu_ffdba118a7",
+    "8f97a06c8a3c2064f3af23b13136caebb4cc165347e669b8eb95d51ea1612eb5": "clu_3714e4795d",
+    "3ffa1ace6416e9e8e2ace29bf098db364c6a9521688b957b318289d1dc96c66c": "clu_f7c31f6cca",
+    "6c02f47892f4a7d9a118db2b674b7529e0c84fea26d66b9e5bcac3a2745ad6d4": "clu_be548d5baa",
+    "74648edbeb439dc1629a40987e886b014898a7c8f77c420ae765a7bc0263a307": "clu_901a394f5c"
   },
   "by_key": {
     "日本銀行::令和8年7月滋賀県甲賀市の土砂崩れに係る災害等に対する金融上の措置について(滋賀県)::2026-07-13": "clu_4c8e9fafee",
@@ -24,7 +278,134 @@
     "the white house::modifying the grand staircase-escalante national monument::2026-07-13": "clu_5fa81ee000",
     "the white house::modifying the bears ears national monument::2026-07-13": "clu_55d5802be6",
     "the white house::regulatory relief for certain stationary sources to promote american chemical manufacturing security::2026-07-13": "clu_5fff8c7731",
-    "the white house::nominations sent to the senate::2026-07-13": "clu_fc76ffdb54"
+    "the white house::nominations sent to the senate::2026-07-13": "clu_fc76ffdb54",
+    "world bank::gross fixed capital formation (current us$)(kor) 2020: 541,375,256,319.382 usd::2026-07-13": "clu_e8899468ab",
+    "world bank::research and development expenditure (% of gdp)(usa) 2022: 3.487 %::2026-07-13": "clu_2a3f5a4734",
+    "world bank::manufacturing, value added (current us$)(chn) 2020: 3,836,229,773,009.29 usd::2026-07-13": "clu_19e23c454f",
+    "world bank::high-technology exports (current us$)(usa) 2020: 141,612,133,157 usd::2026-07-13": "clu_4c03d211cd",
+    "world bank::research and development expenditure (% of gdp)(kor) 2020: 4.521 %::2026-07-13": "clu_75e3cd8b1c",
+    "world bank::patent applications, residents(ind) 2020: 23,141 件::2026-07-13": "clu_bfc681b452",
+    "world bank::gross fixed capital formation (current us$)(kor) 2025: 530,442,590,296.478 usd::2026-07-13": "clu_cabb71abd0",
+    "world bank::manufacturing, value added (current us$)(ind) 2025: 532,923,979,711.023 usd::2026-07-13": "clu_93610a0299",
+    "world bank::patent applications, residents(kor) 2021: 186,245 件::2026-07-13": "clu_efd9e45a4d",
+    "world bank::manufacturing, value added (current us$)(kor) 2022: 476,790,575,820.194 usd::2026-07-13": "clu_e4a315b381",
+    "world bank::research and development expenditure (% of gdp)(deu) 2020: 3.09 %::2026-07-13": "clu_4f5517a548",
+    "world bank::patent applications, residents(ind) 2021: 26,267 件::2026-07-13": "clu_ecbde14e2f",
+    "world bank::patent applications, residents(usa) 2020: 269,586 件::2026-07-13": "clu_3024196a63",
+    "world bank::patent applications, residents(usa) 2021: 262,244 件::2026-07-13": "clu_5eddf06036",
+    "world bank::high-technology exports (current us$)(jpn) 2021: 116,695,460,286 usd::2026-07-13": "clu_0af70bc667",
+    "world bank::manufacturing, value added (current us$)(kor) 2023: 469,596,698,993.806 usd::2026-07-13": "clu_9a46b9f3cb",
+    "world bank::research and development expenditure (% of gdp)(jpn) 2020: 3.266 %::2026-07-13": "clu_f57cbdb951",
+    "world bank::high-technology exports (current us$)(deu) 2023: 260,043,024,452 usd::2026-07-13": "clu_2e37f6e40f",
+    "world bank::manufacturing, value added (current us$)(chn) 2024: 4,652,746,352,861.02 usd::2026-07-13": "clu_aaa3867245",
+    "world bank::research and development expenditure (% of gdp)(deu) 2021: 3.079 %::2026-07-13": "clu_951200108a",
+    "world bank::manufacturing, value added (current us$)(chn) 2021: 4,845,643,957,683.2 usd::2026-07-13": "clu_c3ceab9816",
+    "world bank::research and development expenditure (% of gdp)(kor) 2021: 4.597 %::2026-07-13": "clu_791dcaf433",
+    "world bank::gross fixed capital formation (current us$)(ind) 2021: 936,816,398,158.319 usd::2026-07-13": "clu_7628d1901c",
+    "world bank::gross fixed capital formation (current us$)(usa) 2023: 5,945,275,000,000 usd::2026-07-13": "clu_eed31424c6",
+    "world bank::manufacturing, value added (current us$)(deu) 2021: 808,884,377,244.173 usd::2026-07-13": "clu_fc4f045cc0",
+    "world bank::high-technology exports (current us$)(deu) 2020: 182,393,711,293 usd::2026-07-13": "clu_e2f1666a4d",
+    "world bank::research and development expenditure (% of gdp)(jpn) 2023: 3.441 %::2026-07-13": "clu_c482084971",
+    "world bank::gross fixed capital formation (current us$)(deu) 2022: 907,464,663,910.509 usd::2026-07-13": "clu_2798221d97",
+    "world bank::gross fixed capital formation (current us$)(chn) 2023: 7,391,169,506,259.04 usd::2026-07-13": "clu_1fc7f81731",
+    "world bank::high-technology exports (current us$)(chn) 2023: 825,045,389,470 usd::2026-07-13": "clu_ba71d8f365",
+    "world bank::high-technology exports (current us$)(deu) 2021: 211,942,359,477 usd::2026-07-13": "clu_46b903dc19",
+    "world bank::gross fixed capital formation (current us$)(kor) 2023: 580,134,835,763.453 usd::2026-07-13": "clu_c49e2d9d4f",
+    "world bank::high-technology exports (current us$)(usa) 2023: 208,514,376,770 usd::2026-07-13": "clu_2820bd2757",
+    "world bank::gross fixed capital formation (current us$)(usa) 2024: 6,255,077,000,000 usd::2026-07-13": "clu_2d60baf96b",
+    "world bank::patent applications, residents(jpn) 2021: 222,452 件::2026-07-13": "clu_5932004b5d",
+    "world bank::manufacturing, value added (current us$)(kor) 2021: 509,820,126,146.934 usd::2026-07-13": "clu_fd4e85ffad",
+    "world bank::manufacturing, value added (current us$)(kor) 2020: 448,230,305,410.866 usd::2026-07-13": "clu_ae0d8d94cf",
+    "world bank::gross fixed capital formation (current us$)(chn) 2020: 6,275,911,069,015.95 usd::2026-07-13": "clu_0718a63f48",
+    "world bank::high-technology exports (current us$)(ind) 2024: 54,140,883,629 usd::2026-07-13": "clu_464efb986d",
+    "world bank::high-technology exports (current us$)(deu) 2024: 246,637,611,895 usd::2026-07-13": "clu_908169f2b6",
+    "world bank::high-technology exports (current us$)(ind) 2020: 21,583,797,567 usd::2026-07-13": "clu_b3c882e01b",
+    "world bank::gross fixed capital formation (current us$)(chn) 2021: 7,526,788,365,592.98 usd::2026-07-13": "clu_7919fd559f",
+    "world bank::high-technology exports (current us$)(ind) 2023: 40,942,449,667 usd::2026-07-13": "clu_8b7b8d3360",
+    "world bank::manufacturing, value added (current us$)(jpn) 2023: 854,533,133,748.176 usd::2026-07-13": "clu_6e772190bf",
+    "world bank::gross fixed capital formation (current us$)(ind) 2022: 1,051,909,283,642 usd::2026-07-13": "clu_3e6a56621a",
+    "world bank::gross fixed capital formation (current us$)(usa) 2022: 5,557,765,000,000 usd::2026-07-13": "clu_8ea389033a",
+    "world bank::gross fixed capital formation (current us$)(deu) 2023: 966,808,774,354.919 usd::2026-07-13": "clu_315c1b1c94",
+    "world bank::manufacturing, value added (current us$)(ind) 2024: 494,141,553,765.715 usd::2026-07-13": "clu_2c8a35de08",
+    "world bank::gross fixed capital formation (current us$)(ind) 2024: 1,190,050,811,692.66 usd::2026-07-13": "clu_559bd66508",
+    "world bank::research and development expenditure (% of gdp)(jpn) 2022: 3.401 %::2026-07-13": "clu_cc8bbc499b",
+    "world bank::manufacturing, value added (current us$)(chn) 2023: 4,570,224,990,167.98 usd::2026-07-13": "clu_feb889668b",
+    "world bank::research and development expenditure (% of gdp)(usa) 2023: 3.447 %::2026-07-13": "clu_9c579d61c6",
+    "world bank::manufacturing, value added (current us$)(jpn) 2022: 837,275,718,336.755 usd::2026-07-13": "clu_40b7140f2a",
+    "world bank::high-technology exports (current us$)(chn) 2021: 936,394,581,135 usd::2026-07-13": "clu_42ffeb39d3",
+    "world bank::manufacturing, value added (current us$)(kor) 2024: 499,190,318,144.311 usd::2026-07-13": "clu_7d2a0455a9",
+    "world bank::high-technology exports (current us$)(kor) 2024: 216,203,069,107 usd::2026-07-13": "clu_c816f0ad80",
+    "world bank::high-technology exports (current us$)(chn) 2024: 856,764,726,389 usd::2026-07-13": "clu_ba8e146e97",
+    "world bank::high-technology exports (current us$)(chn) 2020: 757,483,821,706 usd::2026-07-13": "clu_757380af6e",
+    "world bank::research and development expenditure (% of gdp)(usa) 2021: 3.469 %::2026-07-13": "clu_039feebb2e",
+    "world bank::gross fixed capital formation (current us$)(jpn) 2023: 1,221,080,907,786.17 usd::2026-07-13": "clu_3771801179",
+    "world bank::patent applications, residents(kor) 2020: 180,477 件::2026-07-13": "clu_ec29b8d573",
+    "world bank::research and development expenditure (% of gdp)(chn) 2022: 2.494 %::2026-07-13": "clu_1eb95d2ec7",
+    "world bank::high-technology exports (current us$)(chn) 2022: 924,393,316,669 usd::2026-07-13": "clu_fe7fbb4224",
+    "world bank::research and development expenditure (% of gdp)(usa) 2020: 3.418 %::2026-07-13": "clu_22f912198d",
+    "world bank::research and development expenditure (% of gdp)(kor) 2023: 4.944 %::2026-07-13": "clu_d0f35bde5f",
+    "world bank::high-technology exports (current us$)(jpn) 2023: 102,601,446,852 usd::2026-07-13": "clu_0dd1738a5b",
+    "world bank::gross fixed capital formation (current us$)(jpn) 2020: 1,408,176,897,666.92 usd::2026-07-13": "clu_049c6e8f44",
+    "world bank::gross fixed capital formation (current us$)(ind) 2025: 1,253,246,368,503.29 usd::2026-07-13": "clu_8a49d7e1aa",
+    "world bank::high-technology exports (current us$)(kor) 2022: 209,651,189,631 usd::2026-07-13": "clu_d38e69c2e8",
+    "world bank::manufacturing, value added (current us$)(usa) 2020: 2,238,531,370,000 usd::2026-07-13": "clu_ec0a28299e",
+    "world bank::manufacturing, value added (current us$)(jpn) 2024: 788,452,296,563.8 usd::2026-07-13": "clu_3164c1aacb",
+    "world bank::manufacturing, value added (current us$)(kor) 2025: 513,523,784,647.99 usd::2026-07-13": "clu_63add038b3",
+    "world bank::high-technology exports (current us$)(kor) 2021: 203,986,068,635 usd::2026-07-13": "clu_708f61e9f8",
+    "world bank::high-technology exports (current us$)(jpn) 2020: 102,929,600,738 usd::2026-07-13": "clu_aa80a5d467",
+    "world bank::gross fixed capital formation (current us$)(ind) 2020: 730,885,041,606.85 usd::2026-07-13": "clu_8c2a7577b9",
+    "world bank::manufacturing, value added (current us$)(usa) 2021: 2,497,131,582,000 usd::2026-07-13": "clu_69dbe5bd04",
+    "world bank::patent applications, residents(chn) 2020: 1,344,817 件::2026-07-13": "clu_efdf1443bb",
+    "world bank::research and development expenditure (% of gdp)(ind) 2020: 0.646 %::2026-07-13": "clu_2d2891c3d3",
+    "world bank::patent applications, residents(deu) 2020: 42,260 件::2026-07-13": "clu_ad5676bdf2",
+    "world bank::manufacturing, value added (current us$)(ind) 2023: 466,070,154,072.719 usd::2026-07-13": "clu_ca59a58e07",
+    "world bank::gross fixed capital formation (current us$)(kor) 2021: 611,591,118,750.905 usd::2026-07-13": "clu_1dfcf5247f",
+    "world bank::research and development expenditure (% of gdp)(jpn) 2021: 3.274 %::2026-07-13": "clu_47927ebd95",
+    "world bank::manufacturing, value added (current us$)(deu) 2025: 889,626,684,095.685 usd::2026-07-13": "clu_b092904506",
+    "world bank::manufacturing, value added (current us$)(deu) 2022: 769,701,681,924.128 usd::2026-07-13": "clu_cfc400a1c8",
+    "world bank::gross fixed capital formation (current us$)(jpn) 2021: 1,415,072,268,380.39 usd::2026-07-13": "clu_6f856c0712",
+    "world bank::research and development expenditure (% of gdp)(kor) 2022: 4.848 %::2026-07-13": "clu_bf13c52126",
+    "world bank::gross fixed capital formation (current us$)(deu) 2020: 841,200,021,534.633 usd::2026-07-13": "clu_d5c73b18bc",
+    "world bank::gross fixed capital formation (current us$)(kor) 2022: 574,606,694,153.17 usd::2026-07-13": "clu_9cc2072aad",
+    "world bank::gross fixed capital formation (current us$)(jpn) 2024: 1,165,392,892,180.83 usd::2026-07-13": "clu_db9acbaa8b",
+    "world bank::research and development expenditure (% of gdp)(chn) 2020: 2.357 %::2026-07-13": "clu_5641d5dd7f",
+    "world bank::high-technology exports (current us$)(jpn) 2022: 113,492,876,284 usd::2026-07-13": "clu_a082b9af6b",
+    "world bank::gross fixed capital formation (current us$)(usa) 2021: 5,051,935,000,000 usd::2026-07-13": "clu_08b4335f36",
+    "world bank::gross fixed capital formation (current us$)(jpn) 2022: 1,238,079,104,773.54 usd::2026-07-13": "clu_5aaeaff112",
+    "world bank::manufacturing, value added (current us$)(jpn) 2021: 1,028,273,839,717.91 usd::2026-07-13": "clu_4e96fe63ea",
+    "world bank::gross fixed capital formation (current us$)(kor) 2024: 563,167,287,063.354 usd::2026-07-13": "clu_d8fe682535",
+    "world bank::gross fixed capital formation (current us$)(deu) 2021: 922,507,873,352.698 usd::2026-07-13": "clu_04848aabfc",
+    "world bank::patent applications, residents(deu) 2021: 39,822 件::2026-07-13": "clu_a88302a663",
+    "world bank::research and development expenditure (% of gdp)(deu) 2023: 3.154 %::2026-07-13": "clu_492455b352",
+    "world bank::high-technology exports (current us$)(ind) 2022: 35,784,973,166 usd::2026-07-13": "clu_8c6ccc113a",
+    "world bank::manufacturing, value added (current us$)(ind) 2020: 377,702,025,494.416 usd::2026-07-13": "clu_48b3af968c",
+    "world bank::research and development expenditure (% of gdp)(deu) 2022: 3.071 %::2026-07-13": "clu_83d3c23400",
+    "world bank::manufacturing, value added (current us$)(deu) 2024: 843,720,987,292.969 usd::2026-07-13": "clu_65ffed62f1",
+    "world bank::manufacturing, value added (current us$)(deu) 2020: 730,242,522,726.85 usd::2026-07-13": "clu_141b1ea8fe",
+    "world bank::high-technology exports (current us$)(usa) 2021: 169,281,833,346 usd::2026-07-13": "clu_3e1a2bd72f",
+    "world bank::high-technology exports (current us$)(usa) 2024: 232,906,639,404 usd::2026-07-13": "clu_a9afce2df1",
+    "world bank::manufacturing, value added (current us$)(chn) 2022: 4,758,818,184,166.08 usd::2026-07-13": "clu_82164498d4",
+    "world bank::patent applications, residents(chn) 2021: 1,426,644 件::2026-07-13": "clu_4695e33b9e",
+    "world bank::gross fixed capital formation (current us$)(usa) 2020: 4,612,845,000,000 usd::2026-07-13": "clu_60f8135f65",
+    "world bank::gross fixed capital formation (current us$)(deu) 2024: 958,687,111,161.719 usd::2026-07-13": "clu_32f3ebaf74",
+    "world bank::high-technology exports (current us$)(deu) 2022: 245,975,238,590 usd::2026-07-13": "clu_a49933c31e",
+    "world bank::high-technology exports (current us$)(usa) 2022: 191,876,058,536 usd::2026-07-13": "clu_6741758e7d",
+    "world bank::gross fixed capital formation (current us$)(chn) 2024: 7,426,675,490,111.76 usd::2026-07-13": "clu_331463de26",
+    "world bank::manufacturing, value added (current us$)(deu) 2023: 864,093,661,090.211 usd::2026-07-13": "clu_bcbfaae316",
+    "world bank::high-technology exports (current us$)(jpn) 2024: 102,451,366,263 usd::2026-07-13": "clu_9ed0c6c8fc",
+    "world bank::gross fixed capital formation (current us$)(ind) 2023: 1,116,775,131,527.77 usd::2026-07-13": "clu_5aea728cf2",
+    "world bank::high-technology exports (current us$)(kor) 2020: 163,074,029,188 usd::2026-07-13": "clu_856feb458b",
+    "world bank::research and development expenditure (% of gdp)(chn) 2023: 2.577 %::2026-07-13": "clu_bdd03d502e",
+    "world bank::patent applications, residents(jpn) 2020: 227,348 件::2026-07-13": "clu_765b8cf114",
+    "world bank::manufacturing, value added (current us$)(ind) 2021: 455,359,411,362.824 usd::2026-07-13": "clu_0458882974",
+    "world bank::high-technology exports (current us$)(kor) 2023: 164,678,173,896 usd::2026-07-13": "clu_aa46c0d244",
+    "world bank::manufacturing, value added (current us$)(jpn) 2020: 1,026,611,368,336.51 usd::2026-07-13": "clu_c468552f77",
+    "world bank::manufacturing, value added (current us$)(chn) 2025: 4,822,731,276,479.18 usd::2026-07-13": "clu_a289cb363e",
+    "world bank::gross fixed capital formation (current us$)(deu) 2025: 1,025,971,579,420 usd::2026-07-13": "clu_ffdba118a7",
+    "world bank::high-technology exports (current us$)(ind) 2021: 27,447,578,528 usd::2026-07-13": "clu_3714e4795d",
+    "world bank::manufacturing, value added (current us$)(ind) 2022: 433,305,207,840.131 usd::2026-07-13": "clu_f7c31f6cca",
+    "world bank::research and development expenditure (% of gdp)(chn) 2021: 2.382 %::2026-07-13": "clu_be548d5baa",
+    "world bank::gross fixed capital formation (current us$)(chn) 2022: 7,552,539,216,090.82 usd::2026-07-13": "clu_901a394f5c"
   },
   "clusters": {
     "clu_4c8e9fafee": {
@@ -88,6 +469,1149 @@
       ],
       "source_ids": [
         "src_us_presidential_actions"
+      ]
+    },
+    "clu_e8899468ab": {
+      "primary_event_id": "evt_20260813_07e423630b",
+      "event_ids": [
+        "evt_20260813_07e423630b"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_2a3f5a4734": {
+      "primary_event_id": "evt_20260813_d99b3f4349",
+      "event_ids": [
+        "evt_20260813_d99b3f4349"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_19e23c454f": {
+      "primary_event_id": "evt_20260813_144a96bfe8",
+      "event_ids": [
+        "evt_20260813_144a96bfe8"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_4c03d211cd": {
+      "primary_event_id": "evt_20260813_ed203703f0",
+      "event_ids": [
+        "evt_20260813_ed203703f0"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_75e3cd8b1c": {
+      "primary_event_id": "evt_20260813_e59823c182",
+      "event_ids": [
+        "evt_20260813_e59823c182"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_bfc681b452": {
+      "primary_event_id": "evt_20260813_2c688fc1ab",
+      "event_ids": [
+        "evt_20260813_2c688fc1ab"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_cabb71abd0": {
+      "primary_event_id": "evt_20260813_39542a79ae",
+      "event_ids": [
+        "evt_20260813_39542a79ae"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_93610a0299": {
+      "primary_event_id": "evt_20260813_d7dd956fe1",
+      "event_ids": [
+        "evt_20260813_d7dd956fe1"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_efd9e45a4d": {
+      "primary_event_id": "evt_20260813_096579484a",
+      "event_ids": [
+        "evt_20260813_096579484a"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_e4a315b381": {
+      "primary_event_id": "evt_20260813_9aebbf897c",
+      "event_ids": [
+        "evt_20260813_9aebbf897c"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_4f5517a548": {
+      "primary_event_id": "evt_20260813_dddfab25bd",
+      "event_ids": [
+        "evt_20260813_dddfab25bd"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_ecbde14e2f": {
+      "primary_event_id": "evt_20260813_355f41601b",
+      "event_ids": [
+        "evt_20260813_355f41601b"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_3024196a63": {
+      "primary_event_id": "evt_20260813_9f2c92d932",
+      "event_ids": [
+        "evt_20260813_9f2c92d932"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_5eddf06036": {
+      "primary_event_id": "evt_20260813_c7467e49e3",
+      "event_ids": [
+        "evt_20260813_c7467e49e3"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_0af70bc667": {
+      "primary_event_id": "evt_20260813_83e1f5123a",
+      "event_ids": [
+        "evt_20260813_83e1f5123a"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_9a46b9f3cb": {
+      "primary_event_id": "evt_20260813_356b15f448",
+      "event_ids": [
+        "evt_20260813_356b15f448"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_f57cbdb951": {
+      "primary_event_id": "evt_20260813_4924496ccd",
+      "event_ids": [
+        "evt_20260813_4924496ccd"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_2e37f6e40f": {
+      "primary_event_id": "evt_20260813_d288d74187",
+      "event_ids": [
+        "evt_20260813_d288d74187"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_aaa3867245": {
+      "primary_event_id": "evt_20260813_081d450cb0",
+      "event_ids": [
+        "evt_20260813_081d450cb0"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_951200108a": {
+      "primary_event_id": "evt_20260813_71ed9d4fa0",
+      "event_ids": [
+        "evt_20260813_71ed9d4fa0"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_c3ceab9816": {
+      "primary_event_id": "evt_20260813_fffc8cab00",
+      "event_ids": [
+        "evt_20260813_fffc8cab00"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_791dcaf433": {
+      "primary_event_id": "evt_20260813_18cb7ecba4",
+      "event_ids": [
+        "evt_20260813_18cb7ecba4"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_7628d1901c": {
+      "primary_event_id": "evt_20260813_d905498670",
+      "event_ids": [
+        "evt_20260813_d905498670"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_eed31424c6": {
+      "primary_event_id": "evt_20260813_5413c7865f",
+      "event_ids": [
+        "evt_20260813_5413c7865f"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_fc4f045cc0": {
+      "primary_event_id": "evt_20260813_88a16edad8",
+      "event_ids": [
+        "evt_20260813_88a16edad8"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_e2f1666a4d": {
+      "primary_event_id": "evt_20260813_f8f1f6e07f",
+      "event_ids": [
+        "evt_20260813_f8f1f6e07f"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_c482084971": {
+      "primary_event_id": "evt_20260813_89ab9434d9",
+      "event_ids": [
+        "evt_20260813_89ab9434d9"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_2798221d97": {
+      "primary_event_id": "evt_20260813_61c6742a33",
+      "event_ids": [
+        "evt_20260813_61c6742a33"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_1fc7f81731": {
+      "primary_event_id": "evt_20260813_16ed6b8d7d",
+      "event_ids": [
+        "evt_20260813_16ed6b8d7d"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_ba71d8f365": {
+      "primary_event_id": "evt_20260813_63a3b1dd93",
+      "event_ids": [
+        "evt_20260813_63a3b1dd93"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_46b903dc19": {
+      "primary_event_id": "evt_20260813_11cbd6279d",
+      "event_ids": [
+        "evt_20260813_11cbd6279d"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_c49e2d9d4f": {
+      "primary_event_id": "evt_20260813_fdf8fdfc79",
+      "event_ids": [
+        "evt_20260813_fdf8fdfc79"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_2820bd2757": {
+      "primary_event_id": "evt_20260813_ceb196307a",
+      "event_ids": [
+        "evt_20260813_ceb196307a"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_2d60baf96b": {
+      "primary_event_id": "evt_20260813_371360b79b",
+      "event_ids": [
+        "evt_20260813_371360b79b"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_5932004b5d": {
+      "primary_event_id": "evt_20260813_15159f4fff",
+      "event_ids": [
+        "evt_20260813_15159f4fff"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_fd4e85ffad": {
+      "primary_event_id": "evt_20260813_2971483d67",
+      "event_ids": [
+        "evt_20260813_2971483d67"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_ae0d8d94cf": {
+      "primary_event_id": "evt_20260813_94c9ba3d53",
+      "event_ids": [
+        "evt_20260813_94c9ba3d53"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_0718a63f48": {
+      "primary_event_id": "evt_20260813_81b5c615f1",
+      "event_ids": [
+        "evt_20260813_81b5c615f1"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_464efb986d": {
+      "primary_event_id": "evt_20260813_aad832ef4a",
+      "event_ids": [
+        "evt_20260813_aad832ef4a"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_908169f2b6": {
+      "primary_event_id": "evt_20260813_61925d45e0",
+      "event_ids": [
+        "evt_20260813_61925d45e0"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_b3c882e01b": {
+      "primary_event_id": "evt_20260813_85eabe2b46",
+      "event_ids": [
+        "evt_20260813_85eabe2b46"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_7919fd559f": {
+      "primary_event_id": "evt_20260813_f6ed6fe9b7",
+      "event_ids": [
+        "evt_20260813_f6ed6fe9b7"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_8b7b8d3360": {
+      "primary_event_id": "evt_20260813_4ff5d65078",
+      "event_ids": [
+        "evt_20260813_4ff5d65078"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_6e772190bf": {
+      "primary_event_id": "evt_20260813_7c8bf42640",
+      "event_ids": [
+        "evt_20260813_7c8bf42640"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_3e6a56621a": {
+      "primary_event_id": "evt_20260813_a5369afc1d",
+      "event_ids": [
+        "evt_20260813_a5369afc1d"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_8ea389033a": {
+      "primary_event_id": "evt_20260813_f318c3b5ad",
+      "event_ids": [
+        "evt_20260813_f318c3b5ad"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_315c1b1c94": {
+      "primary_event_id": "evt_20260813_99bb9b1a30",
+      "event_ids": [
+        "evt_20260813_99bb9b1a30"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_2c8a35de08": {
+      "primary_event_id": "evt_20260813_eed63a4b64",
+      "event_ids": [
+        "evt_20260813_eed63a4b64"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_559bd66508": {
+      "primary_event_id": "evt_20260813_3081e2f118",
+      "event_ids": [
+        "evt_20260813_3081e2f118"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_cc8bbc499b": {
+      "primary_event_id": "evt_20260813_5ecd3b985e",
+      "event_ids": [
+        "evt_20260813_5ecd3b985e"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_feb889668b": {
+      "primary_event_id": "evt_20260813_5c0f843822",
+      "event_ids": [
+        "evt_20260813_5c0f843822"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_9c579d61c6": {
+      "primary_event_id": "evt_20260813_e333165cb3",
+      "event_ids": [
+        "evt_20260813_e333165cb3"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_40b7140f2a": {
+      "primary_event_id": "evt_20260813_4f517c49a1",
+      "event_ids": [
+        "evt_20260813_4f517c49a1"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_42ffeb39d3": {
+      "primary_event_id": "evt_20260813_4c658b16b2",
+      "event_ids": [
+        "evt_20260813_4c658b16b2"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_7d2a0455a9": {
+      "primary_event_id": "evt_20260813_d2643a2c3e",
+      "event_ids": [
+        "evt_20260813_d2643a2c3e"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_c816f0ad80": {
+      "primary_event_id": "evt_20260813_cec5129281",
+      "event_ids": [
+        "evt_20260813_cec5129281"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_ba8e146e97": {
+      "primary_event_id": "evt_20260813_68fe882b6d",
+      "event_ids": [
+        "evt_20260813_68fe882b6d"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_757380af6e": {
+      "primary_event_id": "evt_20260813_153032365f",
+      "event_ids": [
+        "evt_20260813_153032365f"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_039feebb2e": {
+      "primary_event_id": "evt_20260813_01c8e68a3d",
+      "event_ids": [
+        "evt_20260813_01c8e68a3d"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_3771801179": {
+      "primary_event_id": "evt_20260813_349352c255",
+      "event_ids": [
+        "evt_20260813_349352c255"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_ec29b8d573": {
+      "primary_event_id": "evt_20260813_de763ab849",
+      "event_ids": [
+        "evt_20260813_de763ab849"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_1eb95d2ec7": {
+      "primary_event_id": "evt_20260813_9c3b4d7d44",
+      "event_ids": [
+        "evt_20260813_9c3b4d7d44"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_fe7fbb4224": {
+      "primary_event_id": "evt_20260813_498f76d09d",
+      "event_ids": [
+        "evt_20260813_498f76d09d"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_22f912198d": {
+      "primary_event_id": "evt_20260813_e0433ef8f2",
+      "event_ids": [
+        "evt_20260813_e0433ef8f2"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_d0f35bde5f": {
+      "primary_event_id": "evt_20260813_1c236c5128",
+      "event_ids": [
+        "evt_20260813_1c236c5128"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_0dd1738a5b": {
+      "primary_event_id": "evt_20260813_78c771b27f",
+      "event_ids": [
+        "evt_20260813_78c771b27f"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_049c6e8f44": {
+      "primary_event_id": "evt_20260813_003bb4aa2a",
+      "event_ids": [
+        "evt_20260813_003bb4aa2a"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_8a49d7e1aa": {
+      "primary_event_id": "evt_20260813_5c93bb845e",
+      "event_ids": [
+        "evt_20260813_5c93bb845e"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_d38e69c2e8": {
+      "primary_event_id": "evt_20260813_55f138cef6",
+      "event_ids": [
+        "evt_20260813_55f138cef6"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_ec0a28299e": {
+      "primary_event_id": "evt_20260813_9339a28a04",
+      "event_ids": [
+        "evt_20260813_9339a28a04"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_3164c1aacb": {
+      "primary_event_id": "evt_20260813_a8c48a0447",
+      "event_ids": [
+        "evt_20260813_a8c48a0447"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_63add038b3": {
+      "primary_event_id": "evt_20260813_aab2681306",
+      "event_ids": [
+        "evt_20260813_aab2681306"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_708f61e9f8": {
+      "primary_event_id": "evt_20260813_a775b1931b",
+      "event_ids": [
+        "evt_20260813_a775b1931b"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_aa80a5d467": {
+      "primary_event_id": "evt_20260813_93a373c102",
+      "event_ids": [
+        "evt_20260813_93a373c102"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_8c2a7577b9": {
+      "primary_event_id": "evt_20260813_fc09a846b6",
+      "event_ids": [
+        "evt_20260813_fc09a846b6"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_69dbe5bd04": {
+      "primary_event_id": "evt_20260813_9451c104b3",
+      "event_ids": [
+        "evt_20260813_9451c104b3"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_efdf1443bb": {
+      "primary_event_id": "evt_20260813_8dcb5c3afd",
+      "event_ids": [
+        "evt_20260813_8dcb5c3afd"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_2d2891c3d3": {
+      "primary_event_id": "evt_20260813_586b8bea41",
+      "event_ids": [
+        "evt_20260813_586b8bea41"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_ad5676bdf2": {
+      "primary_event_id": "evt_20260813_c7c7392a3d",
+      "event_ids": [
+        "evt_20260813_c7c7392a3d"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_ca59a58e07": {
+      "primary_event_id": "evt_20260813_d9ed9687f0",
+      "event_ids": [
+        "evt_20260813_d9ed9687f0"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_1dfcf5247f": {
+      "primary_event_id": "evt_20260813_27786c859a",
+      "event_ids": [
+        "evt_20260813_27786c859a"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_47927ebd95": {
+      "primary_event_id": "evt_20260813_c095c8175a",
+      "event_ids": [
+        "evt_20260813_c095c8175a"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_b092904506": {
+      "primary_event_id": "evt_20260813_dbbce147f3",
+      "event_ids": [
+        "evt_20260813_dbbce147f3"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_cfc400a1c8": {
+      "primary_event_id": "evt_20260813_edb71b0182",
+      "event_ids": [
+        "evt_20260813_edb71b0182"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_6f856c0712": {
+      "primary_event_id": "evt_20260813_5c433c50d3",
+      "event_ids": [
+        "evt_20260813_5c433c50d3"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_bf13c52126": {
+      "primary_event_id": "evt_20260813_d8df93f036",
+      "event_ids": [
+        "evt_20260813_d8df93f036"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_d5c73b18bc": {
+      "primary_event_id": "evt_20260813_bc85a43870",
+      "event_ids": [
+        "evt_20260813_bc85a43870"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_9cc2072aad": {
+      "primary_event_id": "evt_20260813_86caad2af5",
+      "event_ids": [
+        "evt_20260813_86caad2af5"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_db9acbaa8b": {
+      "primary_event_id": "evt_20260813_f3522fec97",
+      "event_ids": [
+        "evt_20260813_f3522fec97"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_5641d5dd7f": {
+      "primary_event_id": "evt_20260813_bf547c4403",
+      "event_ids": [
+        "evt_20260813_bf547c4403"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_a082b9af6b": {
+      "primary_event_id": "evt_20260813_ef1724e6cf",
+      "event_ids": [
+        "evt_20260813_ef1724e6cf"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_08b4335f36": {
+      "primary_event_id": "evt_20260813_68ebc20bfa",
+      "event_ids": [
+        "evt_20260813_68ebc20bfa"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_5aaeaff112": {
+      "primary_event_id": "evt_20260813_6c16eda168",
+      "event_ids": [
+        "evt_20260813_6c16eda168"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_4e96fe63ea": {
+      "primary_event_id": "evt_20260813_0632982ca7",
+      "event_ids": [
+        "evt_20260813_0632982ca7"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_d8fe682535": {
+      "primary_event_id": "evt_20260813_ba0511bf4a",
+      "event_ids": [
+        "evt_20260813_ba0511bf4a"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_04848aabfc": {
+      "primary_event_id": "evt_20260813_a959e24be1",
+      "event_ids": [
+        "evt_20260813_a959e24be1"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_a88302a663": {
+      "primary_event_id": "evt_20260813_7937926552",
+      "event_ids": [
+        "evt_20260813_7937926552"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_492455b352": {
+      "primary_event_id": "evt_20260813_8d16316056",
+      "event_ids": [
+        "evt_20260813_8d16316056"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_8c6ccc113a": {
+      "primary_event_id": "evt_20260813_06beaf313d",
+      "event_ids": [
+        "evt_20260813_06beaf313d"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_48b3af968c": {
+      "primary_event_id": "evt_20260813_05d78851eb",
+      "event_ids": [
+        "evt_20260813_05d78851eb"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_83d3c23400": {
+      "primary_event_id": "evt_20260813_dbe8ae07db",
+      "event_ids": [
+        "evt_20260813_dbe8ae07db"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_65ffed62f1": {
+      "primary_event_id": "evt_20260813_7e9e642969",
+      "event_ids": [
+        "evt_20260813_7e9e642969"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_141b1ea8fe": {
+      "primary_event_id": "evt_20260813_e90cdc0cd3",
+      "event_ids": [
+        "evt_20260813_e90cdc0cd3"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_3e1a2bd72f": {
+      "primary_event_id": "evt_20260813_73e7c5a8c9",
+      "event_ids": [
+        "evt_20260813_73e7c5a8c9"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_a9afce2df1": {
+      "primary_event_id": "evt_20260813_e005005926",
+      "event_ids": [
+        "evt_20260813_e005005926"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_82164498d4": {
+      "primary_event_id": "evt_20260813_af1fe01e3c",
+      "event_ids": [
+        "evt_20260813_af1fe01e3c"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_4695e33b9e": {
+      "primary_event_id": "evt_20260813_f8ebcc9606",
+      "event_ids": [
+        "evt_20260813_f8ebcc9606"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_60f8135f65": {
+      "primary_event_id": "evt_20260813_1c89cc828c",
+      "event_ids": [
+        "evt_20260813_1c89cc828c"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_32f3ebaf74": {
+      "primary_event_id": "evt_20260813_2a1e016744",
+      "event_ids": [
+        "evt_20260813_2a1e016744"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_a49933c31e": {
+      "primary_event_id": "evt_20260813_25c57f6bb3",
+      "event_ids": [
+        "evt_20260813_25c57f6bb3"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_6741758e7d": {
+      "primary_event_id": "evt_20260813_5f994734e2",
+      "event_ids": [
+        "evt_20260813_5f994734e2"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_331463de26": {
+      "primary_event_id": "evt_20260813_bd0c80fb21",
+      "event_ids": [
+        "evt_20260813_bd0c80fb21"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_bcbfaae316": {
+      "primary_event_id": "evt_20260813_f236db27a9",
+      "event_ids": [
+        "evt_20260813_f236db27a9"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_9ed0c6c8fc": {
+      "primary_event_id": "evt_20260813_1e1db32798",
+      "event_ids": [
+        "evt_20260813_1e1db32798"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_5aea728cf2": {
+      "primary_event_id": "evt_20260813_1a02a27eb7",
+      "event_ids": [
+        "evt_20260813_1a02a27eb7"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_856feb458b": {
+      "primary_event_id": "evt_20260813_df7246096d",
+      "event_ids": [
+        "evt_20260813_df7246096d"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_bdd03d502e": {
+      "primary_event_id": "evt_20260813_a4f75a2017",
+      "event_ids": [
+        "evt_20260813_a4f75a2017"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_765b8cf114": {
+      "primary_event_id": "evt_20260813_80d82c081a",
+      "event_ids": [
+        "evt_20260813_80d82c081a"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_0458882974": {
+      "primary_event_id": "evt_20260813_5933a69eff",
+      "event_ids": [
+        "evt_20260813_5933a69eff"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_aa46c0d244": {
+      "primary_event_id": "evt_20260813_37cb63d499",
+      "event_ids": [
+        "evt_20260813_37cb63d499"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_c468552f77": {
+      "primary_event_id": "evt_20260813_5d27765185",
+      "event_ids": [
+        "evt_20260813_5d27765185"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_a289cb363e": {
+      "primary_event_id": "evt_20260813_6905674311",
+      "event_ids": [
+        "evt_20260813_6905674311"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_ffdba118a7": {
+      "primary_event_id": "evt_20260813_9ebb2b08db",
+      "event_ids": [
+        "evt_20260813_9ebb2b08db"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_3714e4795d": {
+      "primary_event_id": "evt_20260813_8f97a06c8a",
+      "event_ids": [
+        "evt_20260813_8f97a06c8a"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_f7c31f6cca": {
+      "primary_event_id": "evt_20260813_3ffa1ace64",
+      "event_ids": [
+        "evt_20260813_3ffa1ace64"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_be548d5baa": {
+      "primary_event_id": "evt_20260813_6c02f47892",
+      "event_ids": [
+        "evt_20260813_6c02f47892"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_901a394f5c": {
+      "primary_event_id": "evt_20260813_74648edbeb",
+      "event_ids": [
+        "evt_20260813_74648edbeb"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
       ]
     }
   }

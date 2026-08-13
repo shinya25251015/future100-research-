@@ -5,14 +5,23 @@
   "description": "取得した一次データの不変スナップショット (§48-51)。data/raw/YYYY-MM-DD/<source_id>.jsonl.gz に追記のみで保存し、一度書いたレコードは更新しない。正規化の進捗などの可変な状態は data/index/ 側に置く。ここに Look-ahead Bias 防止の起点となる observed_at を記録する (§37)。",
   "type": "object",
   "additionalProperties": false,
-  "required": ["raw_id", "source_id", "observed_at", "fetch", "content"],
+  "required": [
+    "raw_id",
+    "source_id",
+    "observed_at",
+    "fetch",
+    "content"
+  ],
   "properties": {
     "raw_id": {
       "type": "string",
       "pattern": "^raw_[0-9a-f]{16}$",
       "description": "canonical_url の SHA-256 先頭 16 桁。同一 URL の再取得は同じ ID になる。"
     },
-    "source_id": { "type": "string", "pattern": "^src_[a-z0-9_]+$" },
+    "source_id": {
+      "type": "string",
+      "pattern": "^src_[a-z0-9_]+$"
+    },
     "observed_at": {
       "$ref": "enums.schema.json#/$defs/timestamp",
       "description": "本システムがこの文書を取得した時刻。バックテストはこの時刻でのみ可視性を判定する (§37)。"
@@ -24,28 +33,63 @@
     "fetch": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["url", "canonical_url", "method"],
+      "required": [
+        "url",
+        "canonical_url",
+        "method"
+      ],
       "properties": {
-        "url": { "type": "string", "format": "uri" },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
         "canonical_url": {
           "type": "string",
           "format": "uri",
           "description": "追跡パラメータ等を除去した正規化 URL。重複判定の第一キー (§38)。"
         },
-        "method": { "type": "string", "enum": ["rss", "atom", "http_get", "json_api", "manual"] },
-        "http_status": { "type": "integer" },
-        "etag": { "type": "string" },
-        "collector": { "type": "string", "description": "取得に使ったコレクタ名とバージョン (例 rss@1)" }
+        "method": {
+          "type": "string",
+          "enum": [
+            "rss",
+            "atom",
+            "http_get",
+            "json_api",
+            "manual"
+          ]
+        },
+        "http_status": {
+          "type": "integer"
+        },
+        "etag": {
+          "type": "string"
+        },
+        "collector": {
+          "type": "string",
+          "description": "取得に使ったコレクタ名とバージョン (例 rss@1)"
+        }
       }
     },
     "content": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["title", "body", "content_hash"],
+      "required": [
+        "title",
+        "body",
+        "content_hash"
+      ],
       "properties": {
-        "title": { "type": "string" },
-        "body": { "type": "string", "description": "本文（プレーンテキスト）。取得できた範囲をそのまま保存する。" },
-        "language": { "type": "string", "pattern": "^[a-z]{2}$" },
+        "title": {
+          "type": "string"
+        },
+        "body": {
+          "type": "string",
+          "description": "本文（プレーンテキスト）。取得できた範囲をそのまま保存する。"
+        },
+        "language": {
+          "type": "string",
+          "pattern": "^[a-z]{2}$"
+        },
         "content_hash": {
           "type": "string",
           "pattern": "^[0-9a-f]{64}$",
@@ -56,14 +100,71 @@
           "items": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["url"],
+            "required": [
+              "url"
+            ],
             "properties": {
-              "url": { "type": "string", "format": "uri" },
-              "media_type": { "type": "string" },
-              "local_path": { "type": "string" }
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "media_type": {
+                "type": "string"
+              },
+              "local_path": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "quantities": {
+          "type": "array",
+          "description": "統計 API から構造のまま取り込んだ数値 (§6, §9, §13)。本文に書いた数字を後から拾い直すと単位と期間が失われるため、取得時点で構造化して保存する。",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "label",
+              "value",
+              "unit"
+            ],
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "value": {
+                "type": "number"
+              },
+              "unit": {
+                "type": "string",
+                "description": "USD, JPY, GW, kt, units, %, ... "
+              },
+              "scale": {
+                "type": "string",
+                "enum": [
+                  "one",
+                  "thousand",
+                  "million",
+                  "billion",
+                  "trillion"
+                ],
+                "default": "one"
+              },
+              "period": {
+                "type": "string",
+                "description": "対象期間 (例 FY2027, 2026-2030)"
+              }
             }
           }
         }
+      }
+    },
+    "sector_ids": {
+      "type": "array",
+      "description": "ソース登録簿で宣言された対象セクター (§11)。文面からの推定ではなく設定値であり、統計系列のように本文にセクター名が現れない観測を後段の分析に届けるために使う。",
+      "items": {
+        "type": "string",
+        "pattern": "^sec_[a-z0-9_]+$"
       }
     }
   }

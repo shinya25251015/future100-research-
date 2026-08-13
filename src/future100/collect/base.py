@@ -37,17 +37,13 @@ class CollectResult:
 _ENV_REF = re.compile(r"\$\{([A-Z0-9_]+)\}")
 
 
-def resolve_user_agent(source: dict) -> str | None:
-    """ソース定義の User-Agent 内の ${ENV_VAR} を環境変数で埋める。
+def expand_env(template: str, *, origin: str, purpose: str) -> str:
+    """文字列中の ${ENV_VAR} を環境変数で埋める。未設定なら対処法を添えて失敗させる。
 
-    SEC EDGAR のように「連絡先アドレスを名乗ること」を利用条件にしている提供元がある。
-    偽のアドレスをリポジトリに置くわけにはいかないため、運用者が自分の連絡先を
-    環境変数で与える形にしている。未設定なら取得せず、対処法を添えて失敗させる。
+    連絡先アドレスや API キーをリポジトリに置くわけにはいかない。かといって
+    偽の値を埋めて 403 を「取得失敗」として片付けると、設定漏れが恒久的に隠れる。
+    未設定であることをそのまま失敗理由として表に出す。
     """
-    template = source.get("user_agent")
-    if not template:
-        return None
-
     missing: list[str] = []
 
     def substitute(match: re.Match[str]) -> str:
@@ -59,11 +55,24 @@ def resolve_user_agent(source: dict) -> str | None:
     resolved = _ENV_REF.sub(substitute, template)
     if missing:
         raise FetchError(
-            source["source_id"],
-            f"環境変数 {', '.join(missing)} が未設定です。"
-            f"このソースは User-Agent に連絡先を要求します（例: export {missing[0]}=you@example.com）",
+            origin,
+            f"環境変数 {', '.join(missing)} が未設定です（{purpose}）。"
+            f"例: export {missing[0]}=...",
         )
     return resolved
+
+
+def resolve_user_agent(source: dict) -> str | None:
+    """ソース定義の User-Agent 内の ${ENV_VAR} を環境変数で埋める。
+
+    SEC EDGAR のように「連絡先アドレスを名乗ること」を利用条件にしている提供元がある。
+    """
+    template = source.get("user_agent")
+    if not template:
+        return None
+    return expand_env(
+        template, origin=source["source_id"], purpose="このソースは User-Agent に連絡先を要求します"
+    )
 
 
 def http_get(
@@ -103,11 +112,18 @@ def make_raw_document(
     method: str,
     collector: str,
     observed_at: str | None = None,
+    identity: str | None = None,
+    quantities: list[dict] | None = None,
 ) -> dict:
-    """RawDocument を組み立てる。observed_at は取得時刻であり、published_at と混同しない (§37)。"""
+    """RawDocument を組み立てる。observed_at は取得時刻であり、published_at と混同しない (§37)。
+
+    identity は「同じ観測かどうか」を決める文字列で、既定は canonical_url。
+    統計のように同じ URL の値が改訂されうるものは、値まで含めた identity を渡して
+    改訂を別の観測として記録する（既定のままだと改訂が既取得として捨てられる）。
+    """
     canonical = textnorm.canonical_url(url)
     return {
-        "raw_id": ids.raw_id(canonical),
+        "raw_id": ids.raw_id(identity or canonical),
         "source_id": source["source_id"],
         "observed_at": observed_at or timeutil.now_str(),
         **({"published_at": published_at} if published_at else {}),
@@ -122,6 +138,7 @@ def make_raw_document(
             "body": body.strip(),
             **({"language": source["language"]} if source.get("language") else {}),
             "content_hash": textnorm.content_hash(title, body),
+            **({"quantities": quantities} if quantities else {}),
         },
     }
 

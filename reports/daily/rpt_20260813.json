@@ -1,11 +1,11 @@
 {
   "report_id": "rpt_20260813",
   "report_date": "2026-08-13",
-  "as_of": "2026-08-13T23:59:59Z",
+  "as_of": "2026-08-13T22:50:20Z",
   "coverage": {
-    "events_ingested": 934,
-    "events_after_dedup": 934,
-    "sources_polled": 18,
+    "events_ingested": 1110,
+    "events_after_dedup": 1110,
+    "sources_polled": 20,
     "sources_failed": []
   },
   "sections": [
@@ -13,7 +13,7 @@
       "no": 1,
       "key": "executive_summary",
       "title": "本日の構造変化サマリ",
-      "body": "本日の観測は 934 件。内訳（分類別）: technology 418 / policy_regulation 350 / corporate_action 90 / macro 74 / standard 2。シグナル種別: paper 363 / procurement 230 / patent 6 / export_control 3 / government_budget 2 / new_standard 2。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 16 件）。件数は観測量であって重要度ではない。"
+      "body": "本日の観測は 1110 件。内訳（分類別）: technology 418 / policy_regulation 350 / macro 201 / corporate_action 90 / supply_demand 49 / standard 2。シグナル種別: paper 363 / procurement 230 / patent 6 / export_control 3 / government_budget 2 / new_standard 2。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 16 件）。件数は観測量であって重要度ではない。"
     },
     {
       "no": 2,
@@ -31,7 +31,7 @@
       "no": 4,
       "key": "macro_economy",
       "title": "マクロ経済 (§6)",
-      "body": "本日 74 件を観測。\n- [A] 2026-08-13 Federal Reserve Board issues enforcement action with former employee of Regions Bank (evt_20260813_5a86e63890)\n- [A] 2026-08-13 日本銀行が保有する国債の銘柄別残高 (evt_20260813_120296d439)\n- [A] 2026-08-13 フェイルの発生状況（7月） (evt_20260813_74a279f644)\n- [A] 2026-08-13 営業毎旬報告（8月10日現在） (evt_20260813_ba42d27dbc)\n- [A] 2026-08-12 企業物価指数（7月） (evt_20260813_6255726d5e)\n- [A] 2026-08-11 マネーストック（7月） (evt_20260813_4ca527d298)\n- [A] 2026-08-09 金融政策決定会合における主な意見（7月30、31日開催分） (evt_20260813_596780454c)\n- [A] 2026-08-09 貸出・預金動向（7月） (evt_20260813_b0ba79b9e4)"
+      "body": "本日 201 件を観測（うち一次統計のデータ点 127 件）。\n- 統計 Gross fixed capital formation (current US$)（CHN） = 7,426,675,490,111.76 USD（2024, 本日 5 期ぶんを観測）\n- 統計 Gross fixed capital formation (current US$)（DEU） = 1,025,971,579,420.0 USD（2025, 本日 6 期ぶんを観測）\n- 統計 Gross fixed capital formation (current US$)（IND） = 1,253,246,368,503.29 USD（2025, 本日 6 期ぶんを観測）\n- 統計 Gross fixed capital formation (current US$)（JPN） = 1,165,392,892,180.83 USD（2024, 本日 5 期ぶんを観測）\n- 統計 Gross fixed capital formation (current US$)（KOR） = 530,442,590,296.478 USD（2025, 本日 6 期ぶんを観測）\n- 統計 Gross fixed capital formation (current US$)（USA） = 6,255,077,000,000.0 USD（2024, 本日 5 期ぶんを観測）\n- 統計 High-technology exports (current US$)（CHN） = 856,764,726,389.0 USD（2024, 本日 5 期ぶんを観測）\n- 統計 High-technology exports (current US$)（DEU） = 246,637,611,895.0 USD（2024, 本日 5 期ぶんを観測）\n- [A] 2026-08-13 Federal Reserve Board issues enforcement action with former employee of Regions Bank (evt_20260813_5a86e63890)\n- [A] 2026-08-13 日本銀行が保有する国債の銘柄別残高 (evt_20260813_120296d439)\n- [A] 2026-08-13 フェイルの発生状況（7月） (evt_20260813_74a279f644)\n- [A] 2026-08-13 営業毎旬報告（8月10日現在） (evt_20260813_ba42d27dbc)\n- [A] 2026-08-12 企業物価指数（7月） (evt_20260813_6255726d5e)\n- [A] 2026-08-11 マネーストック（7月） (evt_20260813_4ca527d298)\n- [A] 2026-08-09 金融政策決定会合における主な意見（7月30、31日開催分） (evt_20260813_596780454c)\n- [A] 2026-08-09 貸出・預金動向（7月） (evt_20260813_b0ba79b9e4)"
     },
     {
       "no": 5,
@@ -55,7 +55,7 @@
       "no": 8,
       "key": "known_sector_monitor",
       "title": "既知セクター監視 (§11)",
-      "body": "常時監視 16 セクターの本日の観測件数。掲載順は設定ファイルの登録順であり、優劣や順位ではない (§44-46)。\n- AI / 計算基盤 (sec_ai_compute): 本日 114 件\n- 半導体 (sec_semiconductor): 本日 21 件\n- 光通信 (sec_optical_networking): 本日 1 件\n- CPO (Co-Packaged Optics) (sec_cpo): 本日 0 件\n- 電力・送配電 (sec_power_grid): 本日 3 件\n- 原子力 (sec_nuclear): 本日 0 件\n- 核融合 (sec_fusion): 本日 0 件\n- 防衛 (sec_defense): 本日 4 件"
+      "body": "常時監視 16 セクターの本日の観測件数。掲載順は設定ファイルの登録順であり、優劣や順位ではない (§44-46)。\n- AI / 計算基盤 (sec_ai_compute): 本日 137 件\n- 半導体 (sec_semiconductor): 本日 64 件\n- 光通信 (sec_optical_networking): 本日 14 件\n- CPO (Co-Packaged Optics) (sec_cpo): 本日 0 件\n- 電力・送配電 (sec_power_grid): 本日 39 件\n- 原子力 (sec_nuclear): 本日 0 件\n- 核融合 (sec_fusion): 本日 0 件\n- 防衛 (sec_defense): 本日 4 件"
     },
     {
       "no": 9,
@@ -67,7 +67,7 @@
       "no": 10,
       "key": "supply_demand",
       "title": "需給分析 (§13)",
-      "body": "本日該当なし（本日の新規観測なし）"
+      "body": "本日 49 件を観測（うち一次統計のデータ点 49 件）。\n- 統計 Net electricity generation by type of fuel - monthly data（Total, European Union - 27 countries (from 2020)） = 212,801.047 GWh（2026-04, 本日 11 期ぶんを観測）\n- 統計 Production in construction - monthly data（Production (volume), Construction, Seasonally and calendar adjusted data, European Union - 27 countries (from 2020)） = 105.4 指数(2021=100)（2026-05, 本日 12 期ぶんを観測）\n- 統計 Production in industry - monthly data（Production (volume), Manufacture of computer, electronic and optical products, Seasonally and calendar adjusted data, European Union - 27 countries (from 2020)） = 99.2 指数(2021=100)（2026-06, 本日 13 期ぶんを観測）\n- 統計 Production in industry - monthly data（Production (volume), Manufacture of electrical equipment, Seasonally and calendar adjusted data, European Union - 27 countries (from 2020)） = 100.8 指数(2021=100)（2026-06, 本日 13 期ぶんを観測）"
     },
     {
       "no": 11,
@@ -109,7 +109,7 @@
   "prohibited_output_check": {
     "contains_ticker_recommendation": false,
     "contains_ranking": false,
-    "checked_at": "2026-08-13T22:27:43Z"
+    "checked_at": "2026-08-13T22:50:20Z"
   },
   "schema_version": "1.0"
 }

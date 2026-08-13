@@ -1,8 +1,8 @@
 name: daily collection
 
 # 観測履歴を 1 日ぶんずつ積み、リポジトリにコミットする。
-# Early Signal Detection は baseline 期間（既定 28 日）ぶんの観測履歴が貯まるまで
-# 判定を保留し続けるため、まず毎日走り続けること自体が要件になる (§10)。
+# Early Signal Detection は「直近 7 日 + その前の baseline 28 日 = 35 日」ぶんの観測履歴が
+# 貯まるまで判定を保留し続けるため、まず毎日走り続けること自体が要件になる (§10)。
 
 on:
   schedule:

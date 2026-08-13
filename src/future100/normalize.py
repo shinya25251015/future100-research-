@@ -59,7 +59,7 @@ def normalize_document(document: dict, source: dict, index: dedup.ClusterIndex) 
     )
 
     reliability = source["reliability"]
-    signal_types = detect_signal_types(text, source)
+    signal_types = detect_signal_types(text, source, keywords=source["kind"] != "json_series")
     event = {
         "event_id": event_id,
         "cluster_id": cluster_id,
@@ -80,7 +80,7 @@ def normalize_document(document: dict, source: dict, index: dedup.ClusterIndex) 
             }
         ],
         "signal_types": signal_types,
-        "sector_links": detect_sector_links(text),
+        "sector_links": detect_sector_links(text, declared=document.get("sector_ids")),
         "sources": [
             {
                 "source_id": source["source_id"],
@@ -104,6 +104,10 @@ def normalize_document(document: dict, source: dict, index: dedup.ClusterIndex) 
     }
     if published_at:
         event["published_at"] = published_at
+    # 統計コレクタが構造のまま取り込んだ数値はそのまま持ち上げる。
+    # 本文から数字を拾い直すと単位と対象期間が失われ、市場規模の根拠に使えない (§9, §35-38)。
+    if document["content"].get("quantities"):
+        event["quantities"] = document["content"]["quantities"]
     return event
 
 
@@ -134,14 +138,18 @@ def _compiled_rules() -> tuple[tuple[str, re.Pattern[str]], ...]:
     return tuple(compiled)
 
 
-def detect_signal_types(text: str, source: dict | None = None) -> list[str]:
+def detect_signal_types(text: str, source: dict | None = None, *, keywords: bool = True) -> list[str]:
     """キーワード規則で判定した種別と、ソース単位で自明な種別の和集合 (§10)。
 
     Form D の届出はすべて資金調達、契約公告はすべて調達というように、
     ソースの性質だけで決まる種別がある。本文にその語が現れなくても数える。
+
+    keywords=False は統計時系列用。弱いシグナルとは「1 件の出来事が起きたこと」であり、
+    集計値はその出来事ではない。「特許出願件数」という系列名にキーワード判定をかけると、
+    1 本の年次統計を取り込んだだけで特許シグナルが 12 件立ち上がる（実測）。
     """
     norm = textnorm.normalize_text(text)
-    hits = {signal_type for signal_type, pattern in _compiled_rules() if pattern.search(norm)}
+    hits = {signal_type for signal_type, pattern in _compiled_rules() if pattern.search(norm)} if keywords else set()
     if source:
         hits.update(source.get("default_signal_types", []))
     return sorted(hits)
@@ -156,13 +164,21 @@ def _sector_patterns() -> tuple[tuple[str, re.Pattern[str]], ...]:
     )
 
 
-def detect_sector_links(text: str) -> list[dict]:
-    """既知セクターへの一次紐付け。方向は付けず、Phase 3 の評価に委ねる。"""
+def detect_sector_links(text: str, *, declared: list[str] | None = None) -> list[dict]:
+    """既知セクターへの一次紐付け。方向は付けず、Phase 3 の評価に委ねる。
+
+    declared はソース登録簿で宣言された対象セクター。統計の系列名にはセクター名が
+    現れないため（"Production in industry, C27" が送配電に効くことは文面から読めない）、
+    キーワード判定だけでは統計が分析側に届かない。
+    """
     norm = textnorm.normalize_text(text)
+    matched = [sector_id for sector_id, pattern in _sector_patterns() if pattern.search(norm)]
+    for sector_id in declared or []:
+        if sector_id not in matched:
+            matched.append(sector_id)
     return [
         {"sector_id": sector_id, "relation": "unclassified", "confidence": "low"}
-        for sector_id, pattern in _sector_patterns()
-        if pattern.search(norm)
+        for sector_id in matched
     ]
 
 
