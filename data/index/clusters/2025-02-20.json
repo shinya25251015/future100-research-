@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://linkedin.com/posts/satyanadella_introducing-azure-ai-foundry-labs-a-hub-activity-7298071158258614273-TIiL": "clu_40167b6674"
+  },
+  "by_hash": {
+    "d6d81b96e4654c4453b63a6aa9544b1f3eb58fb7794d31dcdf64aa2792ae75b0": "clu_40167b6674"
+  },
+  "by_key": {
+    "microsoft corporation::we’re taking our latest ai research breakthroughs and putting them in the hands of devs everywhere, with azure ai foundry labs.::2025-02-20": "clu_40167b6674"
+  },
+  "clusters": {
+    "clu_40167b6674": {
+      "primary_event_id": "evt_20260813_d6d81b96e4",
+      "event_ids": [
+        "evt_20260813_d6d81b96e4"
+      ],
+      "source_ids": [
+        "src_microsoft_news"
+      ]
+    }
+  }
+}

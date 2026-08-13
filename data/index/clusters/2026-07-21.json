@@ -3,19 +3,31 @@
     "http://boj.or.jp/statistics/bis/repo/index.htm": "clu_a38edddbc7",
     "http://boj.or.jp/research/imes/mes/mes26.htm": "clu_5300035e93",
     "https://spectrum.ieee.org/ai-agent-benchmark": "clu_b5be8add30",
-    "https://war.gov/News/Contracts/Contract/Article/4551533/contracts-for-july-21-2026": "clu_d7b2b447ae"
+    "https://war.gov/News/Contracts/Contract/Article/4551533/contracts-for-july-21-2026": "clu_d7b2b447ae",
+    "https://whitehouse.gov/presidential-actions/2026/07/nominations-sent-to-the-senate-60e9": "clu_76ebaf907e",
+    "https://newsroom.intel.com/manufacturing/intel-and-fortinet-collaborate-to-advance-cybersecurity-innovation-and-strengthen-global-supply-chain-resilience": "clu_74d38aa1d5",
+    "https://news.samsung.com/global/samsung-launches-health-assistant-beta-first-fully-integrated-ai-powered-personal-health-assistant": "clu_b1027ffbc9",
+    "https://news.samsung.com/global/introducing-samsung-galaxy-card": "clu_60c68b69fb"
   },
   "by_hash": {
     "75adfc25905c6e6d18f6489ec86242289f3bfb470e3f4caee0fd0450c44b49ac": "clu_a38edddbc7",
     "aad054e9a5e18b7f4042accef4947ac80dd16aa3fd36fe6514b407398e7e02ab": "clu_5300035e93",
     "005c6c3b90f55698a5d1a82be170915039ee4882d941cbed322db784d52f8604": "clu_b5be8add30",
-    "4fbc8d4ea20967d07fc32da998d867fa43a54d6ece66f7dc6a8ce2ee13cce101": "clu_d7b2b447ae"
+    "4fbc8d4ea20967d07fc32da998d867fa43a54d6ece66f7dc6a8ce2ee13cce101": "clu_d7b2b447ae",
+    "c8d75ff2783f33e9f585a4c56da5609d7220cb38b2187163affb40d179ec3f58": "clu_76ebaf907e",
+    "180339e9364866e43f7295d12206fcdc95606e7daea744abaf8fecffec05ed78": "clu_74d38aa1d5",
+    "aca3547565e7d67eaacd53b8e7382375d637326538e34bb39754301c78fb184d": "clu_b1027ffbc9",
+    "c516c7f1ceb9f1c7ab6dc957c8a214b1781b7312015ea2e82b2619e72ddb755e": "clu_60c68b69fb"
   },
   "by_key": {
     "日本銀行::fsbレポ統計の日本分集計結果::2026-07-21": "clu_a38edddbc7",
     "日本銀行::「金融研究」掲載論文(2026年収録分)::2026-07-21": "clu_5300035e93",
     "ieee::why ai needs a “genie coefficient”::2026-07-21": "clu_b5be8add30",
-    "u.s. department of war (旧 department of defense)::contracts for july 21, 2026::2026-07-21": "clu_d7b2b447ae"
+    "u.s. department of war (旧 department of defense)::contracts for july 21, 2026::2026-07-21": "clu_d7b2b447ae",
+    "the white house::nominations sent to the senate::2026-07-21": "clu_76ebaf907e",
+    "intel corporation::intel and fortinet collaborate to advance cybersecurity innovation and strengthen global supply chain resilience::2026-07-21": "clu_74d38aa1d5",
+    "samsung electronics::samsung launches health assistant beta, first fully integrated ai-powered personal health assistant::2026-07-21": "clu_b1027ffbc9",
+    "samsung electronics::introducing samsung galaxy card::2026-07-21": "clu_60c68b69fb"
   },
   "clusters": {
     "clu_a38edddbc7": {
@@ -52,6 +64,42 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_76ebaf907e": {
+      "primary_event_id": "evt_20260813_c8d75ff278",
+      "event_ids": [
+        "evt_20260813_c8d75ff278"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_74d38aa1d5": {
+      "primary_event_id": "evt_20260813_180339e936",
+      "event_ids": [
+        "evt_20260813_180339e936"
+      ],
+      "source_ids": [
+        "src_intel_newsroom"
+      ]
+    },
+    "clu_b1027ffbc9": {
+      "primary_event_id": "evt_20260813_aca3547565",
+      "event_ids": [
+        "evt_20260813_aca3547565"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_60c68b69fb": {
+      "primary_event_id": "evt_20260813_c516c7f1ce",
+      "event_ids": [
+        "evt_20260813_c516c7f1ce"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://news.microsoft.com/2025/03/03/microsoft-dragon-copilot-provides-the-healthcare-industrys-first-unified-voice-ai-assistant-that-enables-clinicians-to-streamline-clinical-documentation-surface-information-and-automate-task": "clu_7214a606fc"
+  },
+  "by_hash": {
+    "d75404b4c51a2c03880cded3898462190d3faaa22848a5142f2e853012afa6eb": "clu_7214a606fc"
+  },
+  "by_key": {
+    "microsoft corporation::microsoft dragon copilot provides the healthcare industry’s first unified voice ai assistant that enables clinicians to streamline clinical documentation, surface information and automate tasks::2025-03-03": "clu_7214a606fc"
+  },
+  "clusters": {
+    "clu_7214a606fc": {
+      "primary_event_id": "evt_20260813_d75404b4c5",
+      "event_ids": [
+        "evt_20260813_d75404b4c5"
+      ],
+      "source_ids": [
+        "src_microsoft_news"
+      ]
+    }
+  }
+}

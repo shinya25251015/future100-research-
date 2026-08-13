@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://news.microsoft.com/2025/03/11/microsoft-announces-quarterly-dividend-25": "clu_a87301eaa2"
+  },
+  "by_hash": {
+    "d95f3d2f27f8d756dcb7af2daf7893e3a5c949269effb74a1907db6def25c644": "clu_a87301eaa2"
+  },
+  "by_key": {
+    "microsoft corporation::microsoft announces quarterly dividend::2025-03-11": "clu_a87301eaa2"
+  },
+  "clusters": {
+    "clu_a87301eaa2": {
+      "primary_event_id": "evt_20260813_d95f3d2f27",
+      "event_ids": [
+        "evt_20260813_d95f3d2f27"
+      ],
+      "source_ids": [
+        "src_microsoft_news"
+      ]
+    }
+  }
+}

@@ -2,17 +2,23 @@
   "by_url": {
     "https://federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm": "clu_9c0932aba0",
     "https://federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm": "clu_8227421e87",
-    "https://war.gov/News/Contracts/Contract/Article/4539526/contracts-for-july-9-2026": "clu_3bd2618fb7"
+    "https://war.gov/News/Contracts/Contract/Article/4539526/contracts-for-july-9-2026": "clu_3bd2618fb7",
+    "https://whitehouse.gov/presidential-actions/2026/07/adjusting-imports-of-commercial-aircraft-jet-engines-and-aircraft-and-engine-parts-into-the-united-states": "clu_c1ee80daaf",
+    "https://news.samsung.com/global/samsung-advances-ai-powered-personalized-learning-at-istelive-2026": "clu_1cc80c968d"
   },
   "by_hash": {
     "0331c24ca1b05a5e4a487b5306a4544b3d5800f04fbd6bccbb0b8fcedec881bf": "clu_9c0932aba0",
     "d6af6e9068f824d0db86a759442cb978d785847f6cad9950dd98026108eac577": "clu_8227421e87",
-    "78eec6738907c9b905590c52abe3fc2180cb1e0ae42174529c7cf11d5de9c73c": "clu_3bd2618fb7"
+    "78eec6738907c9b905590c52abe3fc2180cb1e0ae42174529c7cf11d5de9c73c": "clu_3bd2618fb7",
+    "8332c657c4e25fab9f3164a2fb9e325c1b4f638fd3ca1e946db25f8c1921a112": "clu_c1ee80daaf",
+    "cfe8e877c6f296b22987cec90fbc619094478f8d2b2249057e1bf7bc078d4029": "clu_1cc80c968d"
   },
   "by_key": {
     "board of governors of the federal reserve system::federal reserve board issues enforcement action with ts banking group, inc. and ts contrarian bancshares, inc.::2026-07-09": "clu_9c0932aba0",
     "board of governors of the federal reserve system::federal reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy::2026-07-09": "clu_8227421e87",
-    "u.s. department of war (旧 department of defense)::contracts for july 9, 2026::2026-07-09": "clu_3bd2618fb7"
+    "u.s. department of war (旧 department of defense)::contracts for july 9, 2026::2026-07-09": "clu_3bd2618fb7",
+    "the white house::adjusting imports of commercial aircraft, jet engines, and aircraft and engine parts into the united states::2026-07-09": "clu_c1ee80daaf",
+    "samsung electronics::samsung advances ai-powered, personalized learning at istelive 2026::2026-07-09": "clu_1cc80c968d"
   },
   "clusters": {
     "clu_9c0932aba0": {
@@ -40,6 +46,24 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_c1ee80daaf": {
+      "primary_event_id": "evt_20260813_8332c657c4",
+      "event_ids": [
+        "evt_20260813_8332c657c4"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_1cc80c968d": {
+      "primary_event_id": "evt_20260813_cfe8e877c6",
+      "event_ids": [
+        "evt_20260813_cfe8e877c6"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

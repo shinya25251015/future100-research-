@@ -1,12 +1,15 @@
 {
   "by_url": {
-    "https://spectrum.ieee.org/poem-martian-rover": "clu_976d7e91f9"
+    "https://spectrum.ieee.org/poem-martian-rover": "clu_976d7e91f9",
+    "https://news.samsung.com/global/samsung-electronics-and-broadcom-expand-strategic-collaboration-across-memory-and-foundry-technologies": "clu_a350316c57"
   },
   "by_hash": {
-    "1682bd32da7cfef211c4a0d7af34bc4879c416756aa079d867553bd93e72f8bb": "clu_976d7e91f9"
+    "1682bd32da7cfef211c4a0d7af34bc4879c416756aa079d867553bd93e72f8bb": "clu_976d7e91f9",
+    "9ad074bb9325cb66969660a4be901e4c7267d56168c51a71c6abeef27aec6a7c": "clu_a350316c57"
   },
   "by_key": {
-    "ieee::poetry for engineers: a martian rover sends a postcard home::2026-07-25": "clu_976d7e91f9"
+    "ieee::poetry for engineers: a martian rover sends a postcard home::2026-07-25": "clu_976d7e91f9",
+    "samsung electronics::samsung electronics and broadcom expand strategic collaboration across memory and foundry technologies::2026-07-25": "clu_a350316c57"
   },
   "clusters": {
     "clu_976d7e91f9": {
@@ -16,6 +19,15 @@
       ],
       "source_ids": [
         "src_ieee_spectrum"
+      ]
+    },
+    "clu_a350316c57": {
+      "primary_event_id": "evt_20260813_9ad074bb93",
+      "event_ids": [
+        "evt_20260813_9ad074bb93"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

@@ -1,15 +1,30 @@
 {
   "by_url": {
     "http://boj.or.jp/about/bcp/fso/fso260713a.pdf": "clu_4c8e9fafee",
-    "https://war.gov/News/Contracts/Contract/Article/4542809/contracts-for-july-13-2026": "clu_4bbab0b40d"
+    "https://war.gov/News/Contracts/Contract/Article/4542809/contracts-for-july-13-2026": "clu_4bbab0b40d",
+    "https://whitehouse.gov/presidential-actions/2026/07/death-of-senator-lindsey-graham": "clu_8d732c4552",
+    "https://whitehouse.gov/presidential-actions/2026/07/modifying-the-grand-staircase-escalante-national-monument": "clu_5fa81ee000",
+    "https://whitehouse.gov/presidential-actions/2026/07/modifying-the-bears-ears-national-monument": "clu_55d5802be6",
+    "https://whitehouse.gov/presidential-actions/2026/07/regulatory-relief-for-certain-stationary-sources-to-promote-american-chemical-manufacturing-security-be40": "clu_5fff8c7731",
+    "https://whitehouse.gov/presidential-actions/2026/07/nominations-sent-to-the-senate-3fd0": "clu_fc76ffdb54"
   },
   "by_hash": {
     "98941703e4d23acfc99131ff0d7e5ef9d3f5ad597edd2a0f0fb2dcef35a519c3": "clu_4c8e9fafee",
-    "7451eff133e1f873864269b971d2d3baf49b0e730131c3e1c0f8f36b7493335a": "clu_4bbab0b40d"
+    "7451eff133e1f873864269b971d2d3baf49b0e730131c3e1c0f8f36b7493335a": "clu_4bbab0b40d",
+    "40b93faf6d5e5841e5a720232711d37ff54c1ed352d0c0ed0d190934f3e96065": "clu_8d732c4552",
+    "fb88060357b7dd689bc8c3ea629f6c7a39aa85b1178b5c9fc6159e941136509c": "clu_5fa81ee000",
+    "f31c2889add1f7de65c8ffe03168de4308b3d48e8e3bd65f81ea40aa5446b9ff": "clu_55d5802be6",
+    "bd2a1a61893830bbf7e98515320f204e0b9779090d88ac2ea586305385b45891": "clu_5fff8c7731",
+    "d79f4d1f94ee15ef3644c0414cf52212e5f155090189e478df39b8cff5d5c318": "clu_fc76ffdb54"
   },
   "by_key": {
     "日本銀行::令和8年7月滋賀県甲賀市の土砂崩れに係る災害等に対する金融上の措置について(滋賀県)::2026-07-13": "clu_4c8e9fafee",
-    "u.s. department of war (旧 department of defense)::contracts for july 13, 2026::2026-07-13": "clu_4bbab0b40d"
+    "u.s. department of war (旧 department of defense)::contracts for july 13, 2026::2026-07-13": "clu_4bbab0b40d",
+    "the white house::death of senator lindsey graham::2026-07-13": "clu_8d732c4552",
+    "the white house::modifying the grand staircase-escalante national monument::2026-07-13": "clu_5fa81ee000",
+    "the white house::modifying the bears ears national monument::2026-07-13": "clu_55d5802be6",
+    "the white house::regulatory relief for certain stationary sources to promote american chemical manufacturing security::2026-07-13": "clu_5fff8c7731",
+    "the white house::nominations sent to the senate::2026-07-13": "clu_fc76ffdb54"
   },
   "clusters": {
     "clu_4c8e9fafee": {
@@ -28,6 +43,51 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_8d732c4552": {
+      "primary_event_id": "evt_20260813_40b93faf6d",
+      "event_ids": [
+        "evt_20260813_40b93faf6d"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_5fa81ee000": {
+      "primary_event_id": "evt_20260813_fb88060357",
+      "event_ids": [
+        "evt_20260813_fb88060357"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_55d5802be6": {
+      "primary_event_id": "evt_20260813_f31c2889ad",
+      "event_ids": [
+        "evt_20260813_f31c2889ad"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_5fff8c7731": {
+      "primary_event_id": "evt_20260813_bd2a1a6189",
+      "event_ids": [
+        "evt_20260813_bd2a1a6189"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_fc76ffdb54": {
+      "primary_event_id": "evt_20260813_d79f4d1f94",
+      "event_ids": [
+        "evt_20260813_d79f4d1f94"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
       ]
     }
   }

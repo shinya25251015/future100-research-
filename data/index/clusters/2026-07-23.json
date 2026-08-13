@@ -1,15 +1,30 @@
 {
   "by_url": {
     "http://boj.or.jp/research/research_data/reri/index.htm": "clu_f8b17ef1f0",
-    "https://war.gov/News/Contracts/Contract/Article/4554053/contracts-for-july-23-2026": "clu_d612e268d2"
+    "https://war.gov/News/Contracts/Contract/Article/4554053/contracts-for-july-23-2026": "clu_d612e268d2",
+    "https://whitehouse.gov/presidential-actions/2026/07/actions-by-the-united-states-in-the-investigations-under-section-301-of-the-trade-act-of-1974-of-the-acts-policies-and-practices-of-60-economies-related-to-the-failure-of-each-economy-to-impose-and": "clu_69451105d6",
+    "https://newsroom.intel.com/corporate/intel-reports-second-quarter-2026-financial-results": "clu_4a2fce110e",
+    "https://news.samsung.com/global/galaxy-unpacked-july-2026-samsung-and-partners-envision-a-connected-care-future-from-first-signal-to-lasting-change": "clu_d4131cf8a2",
+    "https://news.samsung.com/global/samsung-opens-the-fold-inn-to-showcase-its-latest-galaxy-z-series-in-london": "clu_91c8603569",
+    "https://news.samsung.com/global/infographic-galaxy-unpacked-july-2026-highlights-from-galaxy-unpacked": "clu_d7ef849ecd"
   },
   "by_hash": {
     "6b1c63a1da0fb22dd724c959bc39f2cec0a8753bc97ea8ee17179188f3944a94": "clu_f8b17ef1f0",
-    "1d4466db60f196e7c19266d74f38ecc109ecb15ba897d1fe909b88ae94fc7f0f": "clu_d612e268d2"
+    "1d4466db60f196e7c19266d74f38ecc109ecb15ba897d1fe909b88ae94fc7f0f": "clu_d612e268d2",
+    "907c1de25f4880278288d100421b4c49a2c2be158c10ee096be2c785c60f0ff8": "clu_69451105d6",
+    "62c9e48f22398d274980d75baeea59d2b159ac5387af3b7cd270f3dd5bd94811": "clu_4a2fce110e",
+    "f8db9947a2d29f4b6bfec1e0b8110064d495de586bc953ae9b98eb12984b2fc4": "clu_d4131cf8a2",
+    "b00bbf9119c1ac18642ae319bfbc9c5e4b754ad5477b9c3ff12915a81cf28003": "clu_91c8603569",
+    "fc08e20083e88ff787017467d4f4a1fe2072dd80c3b7434630b0985aad9f0488": "clu_d7ef849ecd"
   },
   "by_key": {
     "日本銀行::実質輸出入の動向::2026-07-23": "clu_f8b17ef1f0",
-    "u.s. department of war (旧 department of defense)::contracts for july 23, 2026::2026-07-23": "clu_d612e268d2"
+    "u.s. department of war (旧 department of defense)::contracts for july 23, 2026::2026-07-23": "clu_d612e268d2",
+    "the white house::actions by the united states in the investigations under section 301 of the trade act of 1974 of the acts, policies, and practices of 60 economies related to the failure of each economy to impose and effectively enforce a prohibition on the importation of goods produced with forced labor::2026-07-23": "clu_69451105d6",
+    "intel corporation::intel reports second-quarter 2026 financial results::2026-07-23": "clu_4a2fce110e",
+    "samsung electronics::[galaxy unpacked july 2026] samsung and partners envision a connected care future — from first signal to lasting change::2026-07-23": "clu_d4131cf8a2",
+    "samsung electronics::samsung opens the fold inn to showcase its latest galaxy z series in london::2026-07-23": "clu_91c8603569",
+    "samsung electronics::[infographic] [galaxy unpacked july 2026] highlights from galaxy unpacked::2026-07-23": "clu_d7ef849ecd"
   },
   "clusters": {
     "clu_f8b17ef1f0": {
@@ -28,6 +43,51 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_69451105d6": {
+      "primary_event_id": "evt_20260813_907c1de25f",
+      "event_ids": [
+        "evt_20260813_907c1de25f"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_4a2fce110e": {
+      "primary_event_id": "evt_20260813_62c9e48f22",
+      "event_ids": [
+        "evt_20260813_62c9e48f22"
+      ],
+      "source_ids": [
+        "src_intel_newsroom"
+      ]
+    },
+    "clu_d4131cf8a2": {
+      "primary_event_id": "evt_20260813_f8db9947a2",
+      "event_ids": [
+        "evt_20260813_f8db9947a2"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_91c8603569": {
+      "primary_event_id": "evt_20260813_b00bbf9119",
+      "event_ids": [
+        "evt_20260813_b00bbf9119"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_d7ef849ecd": {
+      "primary_event_id": "evt_20260813_fc08e20083",
+      "event_ids": [
+        "evt_20260813_fc08e20083"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

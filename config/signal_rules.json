@@ -1,17 +1,136 @@
 {
   "description": "§10 Early Signal Detection の一次判定規則。タイトル+本文の正規化テキストに対する部分一致で signal_type を付与する。ここでの判定は「候補の抽出」であり、成長判断ではない。誤検出は Phase 3 の評価側で落とす。",
   "rules": [
-    { "signal_type": "government_budget", "any": ["budget request", "appropriation", "予算案", "概算要求", "補正予算"] },
-    { "signal_type": "subsidy", "any": ["subsidy", "grant award", "funding opportunity", "補助金", "助成", "交付決定"] },
-    { "signal_type": "procurement", "any": ["procurement", "contract award", "solicitation", "調達", "入札", "契約締結"] },
-    { "signal_type": "export_control", "any": ["export control", "entity list", "sanction", "tariff", "輸出管理", "禁輸", "制裁", "関税"] },
-    { "signal_type": "patent", "any": ["patent", "特許"] },
-    { "signal_type": "paper", "any": ["arxiv", "we present", "we propose", "論文"] },
-    { "signal_type": "vc_investment", "any": ["series a", "series b", "series c", "seed round", "raised $", "資金調達", "シリーズ"] },
-    { "signal_type": "job_posting", "any": ["now hiring", "job opening", "求人", "採用募集"] },
-    { "signal_type": "new_facility", "any": ["new plant", "new fab", "groundbreaking", "construction of", "新工場", "着工", "増設", "生産能力"] },
-    { "signal_type": "new_standard", "any": ["standard", "specification released", "consortium", "規格", "標準化"] },
-    { "signal_type": "capex_guidance", "any": ["capital expenditure", "capex", "investment plan", "設備投資", "投資計画"] },
-    { "signal_type": "supply_contract", "any": ["supply agreement", "offtake", "long-term contract", "供給契約", "長期契約"] }
+    {
+      "signal_type": "government_budget",
+      "any": [
+        "budget request",
+        "appropriation",
+        "予算案",
+        "概算要求",
+        "補正予算"
+      ]
+    },
+    {
+      "signal_type": "subsidy",
+      "any": [
+        "subsidy",
+        "grant award",
+        "funding opportunity",
+        "補助金",
+        "助成",
+        "交付決定"
+      ]
+    },
+    {
+      "signal_type": "procurement",
+      "any": [
+        "procurement",
+        "contract award",
+        "solicitation",
+        "調達",
+        "入札",
+        "契約締結"
+      ]
+    },
+    {
+      "signal_type": "export_control",
+      "any": [
+        "export control",
+        "entity list",
+        "sanction",
+        "tariff",
+        "additional duties",
+        "輸出管理",
+        "禁輸",
+        "制裁",
+        "関税"
+      ]
+    },
+    {
+      "signal_type": "patent",
+      "any": [
+        "patent",
+        "特許"
+      ]
+    },
+    {
+      "signal_type": "paper",
+      "any": [
+        "arxiv",
+        "we present",
+        "we propose",
+        "論文"
+      ]
+    },
+    {
+      "signal_type": "vc_investment",
+      "any": [
+        "series a",
+        "series b",
+        "series c",
+        "seed round",
+        "raised $",
+        "資金調達",
+        "シリーズ"
+      ]
+    },
+    {
+      "signal_type": "job_posting",
+      "any": [
+        "now hiring",
+        "job opening",
+        "求人",
+        "採用募集"
+      ]
+    },
+    {
+      "signal_type": "new_facility",
+      "any": [
+        "new plant",
+        "new fab",
+        "groundbreaking",
+        "construction of",
+        "新工場",
+        "着工",
+        "増設",
+        "生産能力"
+      ]
+    },
+    {
+      "signal_type": "new_standard",
+      "any": [
+        "standard",
+        "specification released",
+        "consortium",
+        "規格",
+        "標準化"
+      ]
+    },
+    {
+      "signal_type": "capex_guidance",
+      "any": [
+        "capital expenditure",
+        "capex",
+        "investment plan",
+        "will invest",
+        "to invest $",
+        "investment of $",
+        "設備投資",
+        "投資計画",
+        "億円を投じ",
+        "兆円を投じ"
+      ]
+    },
+    {
+      "signal_type": "supply_contract",
+      "any": [
+        "supply agreement",
+        "offtake",
+        "long-term contract",
+        "供給契約",
+        "長期契約"
+      ]
+    }
   ]
 }

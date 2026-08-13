@@ -14,7 +14,11 @@
     "https://nasa.gov/news-release/nasa-astronaut-mike-fincke-leaves-nasa-career-includes-4-spaceflights": "clu_3d901e4607",
     "https://science.nasa.gov/image-article/apod/apod-2026-august-12-perseids-over-a-little-planet": "clu_b5dc009ce1",
     "https://nasa.gov/centers-and-facilities/kennedy/pursuing-a-dream-of-working-for-nasa": "clu_11634e7693",
-    "https://war.gov/News/Contracts/Contract/Article/4572212/contracts-for-aug-12-2026": "clu_692b143676"
+    "https://war.gov/News/Contracts/Contract/Article/4572212/contracts-for-aug-12-2026": "clu_692b143676",
+    "https://whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime": "clu_614512aa18",
+    "https://whitehouse.gov/presidential-actions/2026/08/national-substance-use-primary-prevention-month-2026": "clu_116a85e976",
+    "https://news.samsung.com/global/video-samsung-ams-transforms-shared-classroom-displays-into-personalized-workspaces-for-teachers": "clu_912a7fa61f",
+    "https://news.samsung.com/global/video-samsung-brings-chopins-nocturne-to-galaxy-as-new-one-ui-9-ringtone": "clu_ac0658853b"
   },
   "by_hash": {
     "925a1ba880b489e12c341e01d1700880bb451d98dc4429948906394574f8e756": "clu_448e5dca64",
@@ -31,7 +35,11 @@
     "7c602d3ed474cab0f53a92d1ce83e9e822d1d34eed3b513dff0b02e32cddb308": "clu_3d901e4607",
     "806071bf4e780bdc2d318b301a36272f38ac743a569a5cd648c0bb244dd6eb8d": "clu_b5dc009ce1",
     "668878e16ecab48b2764268e43fb368a25a3b16cb3f8a75ed4b654048d9e85b8": "clu_11634e7693",
-    "932a9b27dc74acf7a896c6a42ee57f1228ac0e100233f853d6c02e9bd5e36cea": "clu_692b143676"
+    "932a9b27dc74acf7a896c6a42ee57f1228ac0e100233f853d6c02e9bd5e36cea": "clu_692b143676",
+    "f627dfe6f5970892411a2fc90892ecf65e04fe582ec3756ea92d883c5cd2385d": "clu_614512aa18",
+    "6851080463c57f43953d3544e130053eaea51c32b3fec7b8949cf1f37c044516": "clu_116a85e976",
+    "83bb43d9f2c9058c78932d6bbf339e7cac2d93c8289286ce928d2b06feedfb1e": "clu_912a7fa61f",
+    "5318686216401f01d11b1439e35e47b2c31f8234f031c6b895d0511ef01d9777": "clu_ac0658853b"
   },
   "by_key": {
     "日本銀行::(論文)サプライチェーンを介した企業の支出行動の連関::2026-08-12": "clu_448e5dca64",
@@ -48,7 +56,11 @@
     "nasa::nasa astronaut mike fincke leaves nasa, career includes 4 spaceflights::2026-08-12": "clu_3d901e4607",
     "nasa::apod: 2026 august 12 – perseids over a little planet::2026-08-12": "clu_b5dc009ce1",
     "nasa::pursuing a dream of working for nasa::2026-08-12": "clu_11634e7693",
-    "u.s. department of war (旧 department of defense)::contracts for aug. 12, 2026::2026-08-12": "clu_692b143676"
+    "u.s. department of war (旧 department of defense)::contracts for aug. 12, 2026::2026-08-12": "clu_692b143676",
+    "the white house::expanding capabilities to combat transnational cyber-enabled crime::2026-08-12": "clu_614512aa18",
+    "the white house::national substance use primary prevention month, 2026::2026-08-12": "clu_116a85e976",
+    "samsung electronics::[video] samsung ams transforms shared classroom displays into personalized workspaces for teachers::2026-08-12": "clu_912a7fa61f",
+    "samsung electronics::[video] samsung brings chopin’s nocturne to galaxy as new one ui 9 ringtone::2026-08-12": "clu_ac0658853b"
   },
   "clusters": {
     "clu_448e5dca64": {
@@ -184,6 +196,42 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_614512aa18": {
+      "primary_event_id": "evt_20260813_f627dfe6f5",
+      "event_ids": [
+        "evt_20260813_f627dfe6f5"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_116a85e976": {
+      "primary_event_id": "evt_20260813_6851080463",
+      "event_ids": [
+        "evt_20260813_6851080463"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_912a7fa61f": {
+      "primary_event_id": "evt_20260813_83bb43d9f2",
+      "event_ids": [
+        "evt_20260813_83bb43d9f2"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_ac0658853b": {
+      "primary_event_id": "evt_20260813_5318686216",
+      "event_ids": [
+        "evt_20260813_5318686216"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

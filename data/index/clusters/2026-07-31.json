@@ -12,7 +12,10 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1715": "clu_2bcc7bbedd",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1714": "clu_0b11c54df8",
     "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1711": "clu_385a3af8de",
-    "https://war.gov/News/Contracts/Contract/Article/4561887/contracts-for-july-31-2026": "clu_98ac7dab6d"
+    "https://war.gov/News/Contracts/Contract/Article/4561887/contracts-for-july-31-2026": "clu_98ac7dab6d",
+    "https://whitehouse.gov/presidential-actions/2026/07/to-facilitate-positive-adjustment-to-competition-from-imports-of-quartz-surface-products": "clu_d8271d0cc6",
+    "https://news.samsung.com/global/video-unfolding-new-experiences-with-the-galaxy-z-series": "clu_1f06137f36",
+    "https://news.samsung.com/global/interview-galaxy-unpacked-july-2026-intelligent-eyewear-the-first-step-toward-the-next-mobile-ai-interface": "clu_993fdb894d"
   },
   "by_hash": {
     "ec9b1568919694d22572fce56e3c81f60a3c0895436932d4c39376f9093e4757": "clu_182f4f2b85",
@@ -27,7 +30,10 @@
     "2453c00d8f0b39bfcf6b784fea16dff71b2d8364b440e8b4baa7f80cfca2d309": "clu_2bcc7bbedd",
     "23bdef736a50b1219202981e6a63b4c9a2281b643424fdcdc40648c02a5b4be5": "clu_0b11c54df8",
     "16e3101d48055060c4c1f326d9e0f05b552394e6f8dd814e575c4b55fe117f6d": "clu_385a3af8de",
-    "61105d9d74b940b69458b624f72919dd9d47eadb7e309b160bf8177815f2d2a9": "clu_98ac7dab6d"
+    "61105d9d74b940b69458b624f72919dd9d47eadb7e309b160bf8177815f2d2a9": "clu_98ac7dab6d",
+    "7fa68d857046946ec6b819d312a13808510a3e456b2d2d5f48c0b1ee8d6f3018": "clu_d8271d0cc6",
+    "d9a5583098271a512860f5af6701925502fd56f732220920b9a5284219d88dba": "clu_1f06137f36",
+    "c5aa37b27ff84777f392915a401730106d8cb11839b946e993657e90b2c79b8c": "clu_993fdb894d"
   },
   "by_key": {
     "board of governors of the federal reserve system::federal reserve board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"—bank executives, board members and major shareholders who could potentially influence a bank's lending decisions::2026-07-31": "clu_182f4f2b85",
@@ -42,7 +48,10 @@
     "european commission::daily news 31 / 07 / 2026::2026-07-31": "clu_2bcc7bbedd",
     "european commission::commission starts enforcing ai act rules and new transparency requirements on 2 august::2026-07-31": "clu_0b11c54df8",
     "european commission::statement by president von der leyen, executive vice-president mînzatu, and commissioner lahbib ahead of european roma holocaust memorial day::2026-07-31": "clu_385a3af8de",
-    "u.s. department of war (旧 department of defense)::contracts for july 31, 2026::2026-07-31": "clu_98ac7dab6d"
+    "u.s. department of war (旧 department of defense)::contracts for july 31, 2026::2026-07-31": "clu_98ac7dab6d",
+    "the white house::to facilitate positive adjustment to competition from imports of quartz surface products::2026-07-31": "clu_d8271d0cc6",
+    "samsung electronics::[video] unfolding new experiences with the galaxy z series::2026-07-31": "clu_1f06137f36",
+    "samsung electronics::[interview] [galaxy unpacked july 2026] intelligent eyewear: the first step toward the next mobile ai interface::2026-07-31": "clu_993fdb894d"
   },
   "clusters": {
     "clu_182f4f2b85": {
@@ -160,6 +169,33 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_d8271d0cc6": {
+      "primary_event_id": "evt_20260813_7fa68d8570",
+      "event_ids": [
+        "evt_20260813_7fa68d8570"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_1f06137f36": {
+      "primary_event_id": "evt_20260813_d9a5583098",
+      "event_ids": [
+        "evt_20260813_d9a5583098"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_993fdb894d": {
+      "primary_event_id": "evt_20260813_c5aa37b27f",
+      "event_ids": [
+        "evt_20260813_c5aa37b27f"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

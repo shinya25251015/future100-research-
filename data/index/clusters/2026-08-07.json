@@ -6,7 +6,12 @@
     "https://spectrum.ieee.org/v2x-technology-5g-open-ran": "clu_d8cc3a7312",
     "https://spectrum.ieee.org/navigating-pivot-tech-expert-leader": "clu_92ce87f4ed",
     "https://usaspending.gov/award/CONT_AWD_7571MN26C00029_7571_-NONE-_-NONE-": "clu_fe74c9acb4",
-    "https://war.gov/News/Contracts/Contract/Article/4566629/contracts-for-aug-7-2026": "clu_bac739f94d"
+    "https://war.gov/News/Contracts/Contract/Article/4566629/contracts-for-aug-7-2026": "clu_bac739f94d",
+    "https://whitehouse.gov/presidential-actions/2026/08/nominations-sent-to-the-senate-e61c": "clu_063daceabd",
+    "https://newsroom.intel.com/corporate/intel-announces-leadership-appointment-to-strengthen-customer-engagement-and-accelerate-growth": "clu_9e774a3d32",
+    "https://news.samsung.com/global/infographic-galaxy-unpacked-july-2026-samsung-members-stars-share-their-favorite-features-of-the-new-galaxy-devices": "clu_089fb3916c",
+    "https://news.samsung.com/global/interview-from-stage-to-screen-samsung-tv-plus-and-eclipsa-audio-usher-in-a-new-era-of-home-entertainment": "clu_ee394d7509",
+    "https://news.samsung.com/global/video-smarter-fitness-and-everyday-wellness-with-new-galaxy-watch": "clu_f5b439ab83"
   },
   "by_hash": {
     "1344859c6bccd36f08add5f42a792b6c344de06d23acdae6ac3f3799bdcd92a1": "clu_07ca9b89f6",
@@ -15,7 +20,12 @@
     "ae49db937399662ec3bc801fcf323980a2cdfc730351c75f4d2cc63e3eb78361": "clu_d8cc3a7312",
     "caf5e563bd7e6298304423012900275f5e9cf4402e1f4f50110cfe4592c437b2": "clu_92ce87f4ed",
     "80dab7e28aa3eebdcd578677f4e0cd8fe07e15dc5f279f804fc1c4fc77637a06": "clu_fe74c9acb4",
-    "7b7227b7c0ce8da4846025a749ca56a6b0f670f23004986e3f3d16d256c8b621": "clu_bac739f94d"
+    "7b7227b7c0ce8da4846025a749ca56a6b0f670f23004986e3f3d16d256c8b621": "clu_bac739f94d",
+    "bddc7221d88b7b2aba3839f87cd7173a411716f54099f453344be043293e7b7d": "clu_063daceabd",
+    "b9d6050dc84adea52e75269dd859fab876ed9cbaf0e17a000547b6005298d229": "clu_9e774a3d32",
+    "a65bb553d96cdc5ee570dfddd26a50c9db6e37c791ce10e05d41a6be8af3b52b": "clu_089fb3916c",
+    "e04b981894e9f19c0a41a5788e709456dfd67815daea3564d01c85ac2621b9e5": "clu_ee394d7509",
+    "cce3d7b10c33a78af89e7012024a985fac3aa2a43afb122fca27b860384a8d7c": "clu_f5b439ab83"
   },
   "by_key": {
     "日本銀行::消費活動指数::2026-08-07": "clu_07ca9b89f6",
@@ -24,7 +34,12 @@
     "ieee::cars communicating badly is an already-solved problem::2026-08-07": "clu_d8cc3a7312",
     "ieee::navigating the pivot from tech expert to organizational leader::2026-08-07": "clu_92ce87f4ed",
     "u.s. department of the treasury::legal services bridge 2.0::2026-08-07": "clu_fe74c9acb4",
-    "u.s. department of war (旧 department of defense)::contracts for aug. 7, 2026::2026-08-07": "clu_bac739f94d"
+    "u.s. department of war (旧 department of defense)::contracts for aug. 7, 2026::2026-08-07": "clu_bac739f94d",
+    "the white house::nominations sent to the senate::2026-08-07": "clu_063daceabd",
+    "intel corporation::intel announces leadership appointment to strengthen customer engagement and accelerate growth::2026-08-07": "clu_9e774a3d32",
+    "samsung electronics::[infographic] [galaxy unpacked july 2026] samsung members stars share their favorite features of the new galaxy devices::2026-08-07": "clu_089fb3916c",
+    "samsung electronics::[interview] from stage to screen: samsung tv plus and eclipsa audio usher in a new era of home entertainment::2026-08-07": "clu_ee394d7509",
+    "samsung electronics::[video] smarter fitness and everyday wellness with new galaxy watch::2026-08-07": "clu_f5b439ab83"
   },
   "clusters": {
     "clu_07ca9b89f6": {
@@ -88,6 +103,51 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_063daceabd": {
+      "primary_event_id": "evt_20260813_bddc7221d8",
+      "event_ids": [
+        "evt_20260813_bddc7221d8"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_9e774a3d32": {
+      "primary_event_id": "evt_20260813_b9d6050dc8",
+      "event_ids": [
+        "evt_20260813_b9d6050dc8"
+      ],
+      "source_ids": [
+        "src_intel_newsroom"
+      ]
+    },
+    "clu_089fb3916c": {
+      "primary_event_id": "evt_20260813_a65bb553d9",
+      "event_ids": [
+        "evt_20260813_a65bb553d9"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_ee394d7509": {
+      "primary_event_id": "evt_20260813_e04b981894",
+      "event_ids": [
+        "evt_20260813_e04b981894"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_f5b439ab83": {
+      "primary_event_id": "evt_20260813_cce3d7b10c",
+      "event_ids": [
+        "evt_20260813_cce3d7b10c"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

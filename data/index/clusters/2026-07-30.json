@@ -13,7 +13,11 @@
     "https://spectrum.ieee.org/indigenous-fiber-network": "clu_eb4655f232",
     "https://spectrum.ieee.org/dark-matter": "clu_2ecc33ed52",
     "https://blogs.nvidia.com/blog/geforce-now-thursday-back-to-school-2026": "clu_46706b572e",
-    "https://war.gov/News/Contracts/Contract/Article/4560267/contracts-for-july-30-2026": "clu_37f2c6f6d2"
+    "https://war.gov/News/Contracts/Contract/Article/4560267/contracts-for-july-30-2026": "clu_37f2c6f6d2",
+    "https://whitehouse.gov/presidential-actions/2026/07/presidential-permit-authorizing-cameron-county-texas-to-own-operate-and-maintain-the-brownsville-and-matamoros-bridge-in-brownsville-texas": "clu_84dc64bb7d",
+    "https://whitehouse.gov/presidential-actions/2026/07/presidential-determination-pursuant-to-section-101-of-the-defense-production-act-of-1950-as-amended-on-recoverable-critical-minerals-and-materials": "clu_ded4d9b03b",
+    "https://news.samsung.com/global/interview-galaxy-unpacked-july-2026-inside-the-engineering-behind-the-latest-galaxy-z-series": "clu_ba9b0c9b8b",
+    "https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results": "clu_97740440a7"
   },
   "by_hash": {
     "7e25a9eae46d7f8bed6546204b23d0fe57f4dc68708632fb1b85c3218abf55b7": "clu_08e3f987ce",
@@ -29,7 +33,11 @@
     "6edc1aa3b74162227b434feee5ef82488f3ded9f2710734eb19edd9a4f9254f5": "clu_eb4655f232",
     "445ee9ee96ef0ce6342cca5a40572b2fa7b254281ea8ad9d9bd84b05782d295a": "clu_2ecc33ed52",
     "cc2a6d6e90640c706195bb243ba88234b5153b7f0067c3b595f739b8a3475ffa": "clu_46706b572e",
-    "8ac71d82dede30137381ed02a050f4d7386a34a345805d63c2275b4ee42f1340": "clu_37f2c6f6d2"
+    "8ac71d82dede30137381ed02a050f4d7386a34a345805d63c2275b4ee42f1340": "clu_37f2c6f6d2",
+    "6c3cca1afbfce8f3ea64c183f50b5bc9a77777c6f7c6d6920bb52e12ffc2d523": "clu_84dc64bb7d",
+    "6a7af15f6842b9faab8f164bd669575417d911682652801bf93e2c0d319f8f69": "clu_ded4d9b03b",
+    "107fb34016d9c87a7ae5c748771181fd84c419153c20f2d83bb3b01107976970": "clu_ba9b0c9b8b",
+    "553ce8e03bf711f15032ec764b1cbea147fbbeb264d3d3f30325bab8a248df70": "clu_97740440a7"
   },
   "by_key": {
     "board of governors of the federal reserve system::federal reserve board issues enforcement action with iuka bancshares, inc. and the iuka state bank::2026-07-30": "clu_08e3f987ce",
@@ -45,7 +53,11 @@
     "ieee::a remote indigenous community built one of canada’s fastest fiber networks::2026-07-30": "clu_eb4655f232",
     "ieee::detect dark matter’s mark from your backyard::2026-07-30": "clu_2ecc33ed52",
     "nvidia corporation::best in class: stream pc games and study on the same laptop with geforce now::2026-07-30": "clu_46706b572e",
-    "u.s. department of war (旧 department of defense)::contracts for july 30, 2026::2026-07-30": "clu_37f2c6f6d2"
+    "u.s. department of war (旧 department of defense)::contracts for july 30, 2026::2026-07-30": "clu_37f2c6f6d2",
+    "the white house::presidential permit: authorizing cameron county, texas, to own, operate, and maintain the brownsville and matamoros bridge in brownsville, texas::2026-07-30": "clu_84dc64bb7d",
+    "the white house::presidential determination pursuant to section 101 of the defense production act of 1950, as amended, on recoverable critical minerals and materials::2026-07-30": "clu_ded4d9b03b",
+    "samsung electronics::[interview] [galaxy unpacked july 2026] inside the engineering behind the latest galaxy z series::2026-07-30": "clu_ba9b0c9b8b",
+    "samsung electronics::samsung electronics announces second quarter 2026 results::2026-07-30": "clu_97740440a7"
   },
   "clusters": {
     "clu_08e3f987ce": {
@@ -172,6 +184,42 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_84dc64bb7d": {
+      "primary_event_id": "evt_20260813_6c3cca1afb",
+      "event_ids": [
+        "evt_20260813_6c3cca1afb"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_ded4d9b03b": {
+      "primary_event_id": "evt_20260813_6a7af15f68",
+      "event_ids": [
+        "evt_20260813_6a7af15f68"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_ba9b0c9b8b": {
+      "primary_event_id": "evt_20260813_107fb34016",
+      "event_ids": [
+        "evt_20260813_107fb34016"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_97740440a7": {
+      "primary_event_id": "evt_20260813_553ce8e03b",
+      "event_ids": [
+        "evt_20260813_553ce8e03b"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://linkedin.com/posts/satyanadella_afantasticexample-of-ais-impact-on-agriculture-activity-7299602990728982528-86hu": "clu_fec53b15fa"
+  },
+  "by_hash": {
+    "44aa1cf12064fcb0fffbc997104dfa58b6456ca2f2e605641cc47805e210bc44": "clu_fec53b15fa"
+  },
+  "by_key": {
+    "microsoft corporation::a fantastic example of ai’s impact on agriculture. learn more here.::2025-02-23": "clu_fec53b15fa"
+  },
+  "clusters": {
+    "clu_fec53b15fa": {
+      "primary_event_id": "evt_20260813_44aa1cf120",
+      "event_ids": [
+        "evt_20260813_44aa1cf120"
+      ],
+      "source_ids": [
+        "src_microsoft_news"
+      ]
+    }
+  }
+}

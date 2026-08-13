@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://news.samsung.com/global/samsung-electronics-releases-2026-sustainability-report-expanding-water-replenishment-efforts": "clu_c008b4d33d"
+  },
+  "by_hash": {
+    "cc64fe6c83c15e9267723160cbe1f9b0cfed88a9c1b8f72ff473b318e8881b8e": "clu_c008b4d33d"
+  },
+  "by_key": {
+    "samsung electronics::samsung electronics releases 2026 sustainability report, expanding water replenishment efforts::2026-06-26": "clu_c008b4d33d"
+  },
+  "clusters": {
+    "clu_c008b4d33d": {
+      "primary_event_id": "evt_20260813_cc64fe6c83",
+      "event_ids": [
+        "evt_20260813_cc64fe6c83"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    }
+  }
+}

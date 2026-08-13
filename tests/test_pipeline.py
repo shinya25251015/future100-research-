@@ -349,6 +349,20 @@ def test_naive_timestamp_keeps_only_the_date():
     assert json_api._published({"t": ""}, "t") is None
 
 
+def test_keyword_rules_respect_word_boundaries():
+    """部分一致では "series a" が "series and" に当たる。実測で新製品記事が
+    資金調達シグナルとして数えられていた (§10)。"""
+    from future100 import normalize
+
+    assert normalize.detect_signal_types("Unfolding New Experiences With the Galaxy Z Series and More") == []
+    assert normalize.detect_signal_types("Acme raises $40M in Series A funding") == ["vc_investment"]
+    # 単語 1 つの規則は語尾変化にも当てる
+    assert normalize.detect_signal_types("The company was awarded 3 patents") == ["patent"]
+    assert normalize.detect_signal_types("Intel will invest $20 billion in new fabs") == ["capex_guidance"]
+    # 日本語は語境界の概念が無いのでそのまま部分一致
+    assert normalize.detect_signal_types("経済産業省は補助金の交付を決定した") == ["subsidy"]
+
+
 def test_source_level_signal_types_are_applied():
     """Form D は定義上すべて資金調達、契約公告は定義上すべて調達 (§10)。"""
     from future100 import normalize

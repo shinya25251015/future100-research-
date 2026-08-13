@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://news.microsoft.com/source/2025/05/06/microsoft-and-ffa-help-students-use-smart-sensors-and-ai-to-learn-about-the-future-of-farming": "clu_b8fcd22212"
+  },
+  "by_hash": {
+    "1a7121f5892e67319bc8d0a787e6ee4cf750f58951611e340388fb6548f9457f": "clu_b8fcd22212"
+  },
+  "by_key": {
+    "microsoft corporation::microsoft and ffa help students use smart sensors and ai to learn about the future of farming and technology::2025-05-07": "clu_b8fcd22212"
+  },
+  "clusters": {
+    "clu_b8fcd22212": {
+      "primary_event_id": "evt_20260813_1a7121f589",
+      "event_ids": [
+        "evt_20260813_1a7121f589"
+      ],
+      "source_ids": [
+        "src_microsoft_news"
+      ]
+    }
+  }
+}

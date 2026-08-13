@@ -1,12 +1,15 @@
 {
   "by_url": {
-    "https://war.gov/News/Contracts/Contract/Article/4546541/contracts-for-july-15-2026": "clu_b756ffe7a5"
+    "https://war.gov/News/Contracts/Contract/Article/4546541/contracts-for-july-15-2026": "clu_b756ffe7a5",
+    "https://news.samsung.com/global/samsung-introduces-flex-titanium-technology-to-advance-foldable-displays": "clu_9ddb2284c4"
   },
   "by_hash": {
-    "fef861716b92f20d23f1821d9d7ca9650b84fa26aa91f0376c4d68434b1770a9": "clu_b756ffe7a5"
+    "fef861716b92f20d23f1821d9d7ca9650b84fa26aa91f0376c4d68434b1770a9": "clu_b756ffe7a5",
+    "0b07f546c735b0081a20225a98f426a375896feb4777ed6244cb619e142564d5": "clu_9ddb2284c4"
   },
   "by_key": {
-    "u.s. department of war (旧 department of defense)::contracts for july 15, 2026::2026-07-15": "clu_b756ffe7a5"
+    "u.s. department of war (旧 department of defense)::contracts for july 15, 2026::2026-07-15": "clu_b756ffe7a5",
+    "samsung electronics::samsung introduces flex titanium technology to advance foldable displays::2026-07-15": "clu_9ddb2284c4"
   },
   "clusters": {
     "clu_b756ffe7a5": {
@@ -16,6 +19,15 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_9ddb2284c4": {
+      "primary_event_id": "evt_20260813_0b07f546c7",
+      "event_ids": [
+        "evt_20260813_0b07f546c7"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

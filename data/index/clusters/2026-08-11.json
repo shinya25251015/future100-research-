@@ -105,7 +105,11 @@
     "https://usaspending.gov/award/CONT_AWD_36C24825P0028_3600_-NONE-_-NONE-": "clu_72ec1b801e",
     "https://usaspending.gov/award/CONT_AWD_15M10226PA47S0615_1544_-NONE-_-NONE-": "clu_aa046d4c31",
     "https://usaspending.gov/award/CONT_AWD_15JA0525F00000120_1501_15JA0524D00000103_1501": "clu_90e5dc6ae9",
-    "https://war.gov/News/Contracts/Contract/Article/4568855/contracts-for-aug-11-2026": "clu_73a49d70d5"
+    "https://war.gov/News/Contracts/Contract/Article/4568855/contracts-for-aug-11-2026": "clu_73a49d70d5",
+    "https://newsroom.intel.com/corporate/intel-announces-upsize-and-pricing-of-20-billion-common-stock-offering": "clu_b678d6d851",
+    "https://news.samsung.com/global/samsungs-2026-tv-and-audio-lineup-earns-praise-for-picture-sound-and-gaming": "clu_3223303786",
+    "https://news.samsung.com/global/samsungs-hearing-aid-feature-on-galaxy-buds-cleared-by-fda": "clu_a0de32ef78",
+    "https://news.samsung.com/global/samsung-to-showcase-latest-gaming-innovations-at-gamescom-2026": "clu_b94bd82fa2"
   },
   "by_hash": {
     "4ca527d298d7cdc85765029ed4acfc00ef692fc43e7ded1390f04cb76f3d99c9": "clu_5b71ae2cfb",
@@ -213,7 +217,11 @@
     "99ccaf311d2f5620ef4b34117c5be1a4629919123bc3f3876e3f9d16013afaf2": "clu_72ec1b801e",
     "2fb93b29563bc6a7bd6b90074c8951d61603dac526477798cde5c02e78e06c9d": "clu_aa046d4c31",
     "83e16760eaef57dbde2a7de12fb5372ef30c91eb06e7b75acea3663a2428ea63": "clu_90e5dc6ae9",
-    "86263b33f333e5643dae9a34e2c74aa28bc19c7a4ba58c0897a5009252bd969e": "clu_73a49d70d5"
+    "86263b33f333e5643dae9a34e2c74aa28bc19c7a4ba58c0897a5009252bd969e": "clu_73a49d70d5",
+    "2604c7e1b35ae64d37b980f2c1f15c5b3e2e889152e1269b738b705089686981": "clu_b678d6d851",
+    "4fdf9022322b2471b4547ece8e2c80aba201abb91d740ec6efce961037e7bd18": "clu_3223303786",
+    "8b4ac8ef10860f02fc9a38b25650525b787a0aec196f838762e3e7006dd21412": "clu_a0de32ef78",
+    "789220bb35f274dce03b37832b892cc3a7cbb06b1cc357a28f025299828bd46f": "clu_b94bd82fa2"
   },
   "by_key": {
     "日本銀行::マネーストック(7月)::2026-08-11": "clu_5b71ae2cfb",
@@ -299,7 +307,11 @@
     "u.s. department of the treasury::caretaker services for uscg facilities located on st paul island, alaska.::2026-08-11": "clu_09883c946e",
     "u.s. department of the treasury::medical gas cylinders::2026-08-11": "clu_72ec1b801e",
     "u.s. department of the treasury::grand jury and deposition court reporting services::2026-08-11": "clu_90e5dc6ae9",
-    "u.s. department of war (旧 department of defense)::contracts for aug. 11, 2026::2026-08-11": "clu_73a49d70d5"
+    "u.s. department of war (旧 department of defense)::contracts for aug. 11, 2026::2026-08-11": "clu_73a49d70d5",
+    "intel corporation::intel announces upsize and pricing of $20 billion common stock offering::2026-08-11": "clu_b678d6d851",
+    "samsung electronics::samsung’s 2026 tv and audio lineup earns praise for picture, sound and gaming::2026-08-11": "clu_3223303786",
+    "samsung electronics::samsung’s hearing aid feature on galaxy buds cleared by fda::2026-08-11": "clu_a0de32ef78",
+    "samsung electronics::samsung to showcase latest gaming innovations at gamescom 2026::2026-08-11": "clu_b94bd82fa2"
   },
   "clusters": {
     "clu_5b71ae2cfb": {
@@ -1254,6 +1266,42 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_b678d6d851": {
+      "primary_event_id": "evt_20260813_2604c7e1b3",
+      "event_ids": [
+        "evt_20260813_2604c7e1b3"
+      ],
+      "source_ids": [
+        "src_intel_newsroom"
+      ]
+    },
+    "clu_3223303786": {
+      "primary_event_id": "evt_20260813_4fdf902232",
+      "event_ids": [
+        "evt_20260813_4fdf902232"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_a0de32ef78": {
+      "primary_event_id": "evt_20260813_8b4ac8ef10",
+      "event_ids": [
+        "evt_20260813_8b4ac8ef10"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_b94bd82fa2": {
+      "primary_event_id": "evt_20260813_789220bb35",
+      "event_ids": [
+        "evt_20260813_789220bb35"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

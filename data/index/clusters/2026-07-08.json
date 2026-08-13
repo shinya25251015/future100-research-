@@ -1,15 +1,27 @@
 {
   "by_url": {
     "https://federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm": "clu_80bb0475a7",
-    "https://war.gov/News/Contracts/Contract/Article/4538357/contracts-for-july-8-2026": "clu_35b89b59aa"
+    "https://war.gov/News/Contracts/Contract/Article/4538357/contracts-for-july-8-2026": "clu_35b89b59aa",
+    "https://news.samsung.com/global/samsung-launches-new-bespoke-ai-washer-dryer-that-cuts-energy-use-while-delivering-smarter-fabric-care": "clu_44c0cc0825",
+    "https://news.samsung.com/global/invitation-galaxy-unpacked-july-2026-a-new-shape-unfolds": "clu_dfc7bc8d74",
+    "https://news.samsung.com/global/ai-doesnt-need-to-outthink-you-it-needs-to-understand-you": "clu_4f8aa8916e",
+    "https://news.samsung.com/global/samsung-begins-mass-production-of-pm1763-ssd-optimized-for-next-generation-ai-infrastructure": "clu_daaf3e4622"
   },
   "by_hash": {
     "d11485070d9c1f42d7094e3dbcf860b61b5291bf02654aacc089bad3239b6d9f": "clu_80bb0475a7",
-    "5543bcae899c7a604a8b21079a4c8a3c487699522f38383a936efbf190e2cdad": "clu_35b89b59aa"
+    "5543bcae899c7a604a8b21079a4c8a3c487699522f38383a936efbf190e2cdad": "clu_35b89b59aa",
+    "2cea86d2202b8af41348638b459611521af81f2f3ec27c0b16e84358f1d8a979": "clu_44c0cc0825",
+    "201d43560c9260a04fe713c7054113e6ee43b50353f4d0f8d03f1411216bf00b": "clu_dfc7bc8d74",
+    "759d0b728e71e0af3ec1a02a8fd9ad8c07929e70a0555bd6d80ee2ddb34814f2": "clu_4f8aa8916e",
+    "b85bd52edf0d686fea36e1afb28a33d45c984cb2a02756525c1444e25016d019": "clu_daaf3e4622"
   },
   "by_key": {
     "board of governors of the federal reserve system::minutes of the federal open market committee, june 16-17, 2026::2026-07-08": "clu_80bb0475a7",
-    "u.s. department of war (旧 department of defense)::contracts for july 8, 2026::2026-07-08": "clu_35b89b59aa"
+    "u.s. department of war (旧 department of defense)::contracts for july 8, 2026::2026-07-08": "clu_35b89b59aa",
+    "samsung electronics::samsung launches new bespoke ai washer dryer that cuts energy use while delivering smarter fabric care::2026-07-08": "clu_44c0cc0825",
+    "samsung electronics::[invitation] galaxy unpacked july 2026: a new shape unfolds::2026-07-08": "clu_dfc7bc8d74",
+    "samsung electronics::[editorial] ai doesn’t need to outthink you. it needs to understand you::2026-07-08": "clu_4f8aa8916e",
+    "samsung electronics::samsung begins mass production of pm1763 ssd optimized for next-generation ai infrastructure::2026-07-08": "clu_daaf3e4622"
   },
   "clusters": {
     "clu_80bb0475a7": {
@@ -28,6 +40,42 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_44c0cc0825": {
+      "primary_event_id": "evt_20260813_2cea86d220",
+      "event_ids": [
+        "evt_20260813_2cea86d220"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_dfc7bc8d74": {
+      "primary_event_id": "evt_20260813_201d43560c",
+      "event_ids": [
+        "evt_20260813_201d43560c"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_4f8aa8916e": {
+      "primary_event_id": "evt_20260813_759d0b728e",
+      "event_ids": [
+        "evt_20260813_759d0b728e"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_daaf3e4622": {
+      "primary_event_id": "evt_20260813_b85bd52edf",
+      "event_ids": [
+        "evt_20260813_b85bd52edf"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

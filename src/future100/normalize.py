@@ -12,7 +12,9 @@ claims には必ず observed（文書に書いてあること）だけを置き�
 """
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass
+from functools import lru_cache
 
 from . import config, dedup, ids, storage, textnorm, timeutil
 
@@ -104,6 +106,33 @@ def normalize_document(document: dict, source: dict, index: dedup.ClusterIndex) 
     return event
 
 
+@lru_cache(maxsize=1)
+def _compiled_rules() -> tuple[tuple[str, re.Pattern[str]], ...]:
+    """キーワード規則を語境界つきの正規表現に変換する。
+
+    単純な部分一致では "series a" が "series **a**nd" に当たるなど、英語の
+    キーワードが無関係な文に一致してしまう（実測で Samsung の新製品記事が
+    資金調達シグナルとして数えられていた）。
+
+      - 複数語のフレーズ … 前後とも語境界を要求する
+      - 単語 1 つ         … 先頭のみ語境界（patent が patents にも当たるように）
+      - 日本語            … 語境界の概念が無いのでそのまま部分一致
+    """
+    compiled = []
+    for rule in config.load_signal_rules():
+        parts = []
+        for keyword in rule["any"]:
+            escaped = re.escape(keyword)
+            if not re.search(r"[a-z]", keyword):
+                parts.append(escaped)
+            elif " " in keyword.strip():
+                parts.append(rf"\b{escaped}\b")
+            else:
+                parts.append(rf"\b{escaped}")
+        compiled.append((rule["signal_type"], re.compile("|".join(parts))))
+    return tuple(compiled)
+
+
 def detect_signal_types(text: str, source: dict | None = None) -> list[str]:
     """キーワード規則で判定した種別と、ソース単位で自明な種別の和集合 (§10)。
 
@@ -111,7 +140,7 @@ def detect_signal_types(text: str, source: dict | None = None) -> list[str]:
     ソースの性質だけで決まる種別がある。本文にその語が現れなくても数える。
     """
     norm = textnorm.normalize_text(text)
-    hits = {rule["signal_type"] for rule in config.load_signal_rules() if any(k in norm for k in rule["any"])}
+    hits = {signal_type for signal_type, pattern in _compiled_rules() if pattern.search(norm)}
     if source:
         hits.update(source.get("default_signal_types", []))
     return sorted(hits)

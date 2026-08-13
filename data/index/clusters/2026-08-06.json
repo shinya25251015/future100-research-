@@ -9,7 +9,13 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1726": "clu_c4703e9acc",
     "https://blogs.nvidia.com/blog/open-world-models-physical-ai": "clu_5b83c79f50",
     "https://blogs.nvidia.com/blog/geforce-now-thursday-august-2026-games-list": "clu_48c0e4bf34",
-    "https://war.gov/News/Contracts/Contract/Article/4565715/contracts-for-aug-6-2026": "clu_0b5b649e3e"
+    "https://war.gov/News/Contracts/Contract/Article/4565715/contracts-for-aug-6-2026": "clu_0b5b649e3e",
+    "https://whitehouse.gov/presidential-actions/2026/08/continuing-to-protect-the-meaning-and-value-of-american-citizenship": "clu_e750c8c0a1",
+    "https://whitehouse.gov/presidential-actions/2026/08/ending-birth-tourism": "clu_641b69d496",
+    "https://whitehouse.gov/presidential-actions/2026/08/adjusting-imports-of-polysilicon-and-its-derivatives-into-the-united-states": "clu_652bfeb1ee",
+    "https://whitehouse.gov/presidential-actions/2026/08/national-purple-heart-day-2026": "clu_a394a86747",
+    "https://newsroom.intel.com/corporate/creating-pathways-to-semiconductor-careers-intel-launches-sepp": "clu_c6bf418bb9",
+    "https://news.samsung.com/global/samsung-officially-launches-galaxy-z-fold8-ultra-fold8-flip8-watch-ultra2-and-watch9": "clu_97f33028ca"
   },
   "by_hash": {
     "19c5525a21764fe77a5f79e5f9e09e1720d1465436cae736d39a61b74fd408eb": "clu_aa7deab234",
@@ -21,7 +27,13 @@
     "d0fee55065af7d0a1af2a6ecf16ffc90c483a589a1a68b4c22a5c8d08feed500": "clu_c4703e9acc",
     "8fddc697d966b7e55c1ea5f1ccf548e7c0ce51c5730ed0859d4e7e89586af5ea": "clu_5b83c79f50",
     "435fb45f5607148630c9ba0b38cc392e8eac1562736916467caaea7619e42373": "clu_48c0e4bf34",
-    "ce28cf5928bfd3787ea61679d4e8c5ec974076195ff7fbd7f247ff1684163b30": "clu_0b5b649e3e"
+    "ce28cf5928bfd3787ea61679d4e8c5ec974076195ff7fbd7f247ff1684163b30": "clu_0b5b649e3e",
+    "3e125b6e177ca99790bd183ccadee948198a511be8f040983aaf4080cde7abae": "clu_e750c8c0a1",
+    "0d4b54470bd66bd85b635b4010c746126431344b66fff55fbe74305512c2c84e": "clu_641b69d496",
+    "24a5f5cfe7d0fa126c42566e0e7897a9b52042a8c784a513669a228f010e9f9a": "clu_652bfeb1ee",
+    "64f9cd7af61d3e460004aba730479f4916f4068043c0c4e5fc0120ea24db7afb": "clu_a394a86747",
+    "8f4394bad9c2e676cd044c580ce03f84a58278278fce837b8d410fdef92e9934": "clu_c6bf418bb9",
+    "684fd475a350e988f5b830111701853bc4f7a6df87617e14346923bfc2dfd313": "clu_97f33028ca"
   },
   "by_key": {
     "日本銀行::オペレーション(7月)::2026-08-06": "clu_aa7deab234",
@@ -33,7 +45,13 @@
     "european commission::commission accelerates iris2 deployment with enhanced security and expanded satellites network::2026-08-06": "clu_c4703e9acc",
     "nvidia corporation::into the omniverse: how open world models push the frontier of physical ai::2026-08-06": "clu_5b83c79f50",
     "nvidia corporation::geforce now shakes up august with 26 new games::2026-08-06": "clu_48c0e4bf34",
-    "u.s. department of war (旧 department of defense)::contracts for aug. 6, 2026::2026-08-06": "clu_0b5b649e3e"
+    "u.s. department of war (旧 department of defense)::contracts for aug. 6, 2026::2026-08-06": "clu_0b5b649e3e",
+    "the white house::continuing to protect the meaning and value of american citizenship::2026-08-06": "clu_e750c8c0a1",
+    "the white house::ending birth tourism::2026-08-06": "clu_641b69d496",
+    "the white house::adjusting imports of polysilicon and its derivatives into the united states::2026-08-06": "clu_652bfeb1ee",
+    "the white house::national purple heart day, 2026::2026-08-06": "clu_a394a86747",
+    "intel corporation::creating pathways to semiconductor careers: intel launches sepp::2026-08-06": "clu_c6bf418bb9",
+    "samsung electronics::samsung officially launches galaxy z fold8 ultra, fold8, flip8, watch ultra2 and watch9::2026-08-06": "clu_97f33028ca"
   },
   "clusters": {
     "clu_aa7deab234": {
@@ -124,6 +142,60 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_e750c8c0a1": {
+      "primary_event_id": "evt_20260813_3e125b6e17",
+      "event_ids": [
+        "evt_20260813_3e125b6e17"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_641b69d496": {
+      "primary_event_id": "evt_20260813_0d4b54470b",
+      "event_ids": [
+        "evt_20260813_0d4b54470b"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_652bfeb1ee": {
+      "primary_event_id": "evt_20260813_24a5f5cfe7",
+      "event_ids": [
+        "evt_20260813_24a5f5cfe7"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_a394a86747": {
+      "primary_event_id": "evt_20260813_64f9cd7af6",
+      "event_ids": [
+        "evt_20260813_64f9cd7af6"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_c6bf418bb9": {
+      "primary_event_id": "evt_20260813_8f4394bad9",
+      "event_ids": [
+        "evt_20260813_8f4394bad9"
+      ],
+      "source_ids": [
+        "src_intel_newsroom"
+      ]
+    },
+    "clu_97f33028ca": {
+      "primary_event_id": "evt_20260813_684fd475a3",
+      "event_ids": [
+        "evt_20260813_684fd475a3"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

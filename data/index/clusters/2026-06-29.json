@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://news.samsung.com/global/samsung-introduces-new-education-tools-for-interactive-displays-at-istelive-26": "clu_de186141f7"
+  },
+  "by_hash": {
+    "d6afdaf26866d1ee83aae6ee2b91617f7b73a88ba3c5cf79b19b5349061b8de2": "clu_de186141f7"
+  },
+  "by_key": {
+    "samsung electronics::samsung introduces new education tools for interactive displays at istelive 26::2026-06-29": "clu_de186141f7"
+  },
+  "clusters": {
+    "clu_de186141f7": {
+      "primary_event_id": "evt_20260813_d6afdaf268",
+      "event_ids": [
+        "evt_20260813_d6afdaf268"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    }
+  }
+}

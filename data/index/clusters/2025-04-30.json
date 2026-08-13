@@ -1,0 +1,34 @@
+{
+  "by_url": {
+    "https://news.microsoft.com/2025/04/30/microsoft-cloud-and-ai-strength-drives-third-quarter-results": "clu_b30f108ae7",
+    "https://news.microsoft.com/2025/04/30/microsoft-earnings-press-release-available-on-investor-relations-website-26": "clu_bce90da279"
+  },
+  "by_hash": {
+    "d0dec59a31ea8fcde97b43722a90cf6bfc85b226a28d9a0688c66e7782a4d101": "clu_b30f108ae7",
+    "ece20e41e086fc7d41f49a87a878980aac8c19802d4a5e63c33ee896755e8270": "clu_bce90da279"
+  },
+  "by_key": {
+    "microsoft corporation::microsoft cloud and ai strength drives third quarter results::2025-04-30": "clu_b30f108ae7",
+    "microsoft corporation::microsoft earnings press release available on investor relations website::2025-04-30": "clu_bce90da279"
+  },
+  "clusters": {
+    "clu_b30f108ae7": {
+      "primary_event_id": "evt_20260813_d0dec59a31",
+      "event_ids": [
+        "evt_20260813_d0dec59a31"
+      ],
+      "source_ids": [
+        "src_microsoft_news"
+      ]
+    },
+    "clu_bce90da279": {
+      "primary_event_id": "evt_20260813_ece20e41e0",
+      "event_ids": [
+        "evt_20260813_ece20e41e0"
+      ],
+      "source_ids": [
+        "src_microsoft_news"
+      ]
+    }
+  }
+}

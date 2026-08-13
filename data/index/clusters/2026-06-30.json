@@ -1,12 +1,15 @@
 {
   "by_url": {
-    "https://federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm": "clu_68b35711aa"
+    "https://federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm": "clu_68b35711aa",
+    "https://news.samsung.com/global/samsung-and-kddi-successfully-complete-ai-powered-network-optimization-trial-on-commercial-5g-standalone-network-in-japan": "clu_08f0c4ff38"
   },
   "by_hash": {
-    "8ded233b53881c52e6b43888a7105244978238c034e23a669bd4f46961ee0515": "clu_68b35711aa"
+    "8ded233b53881c52e6b43888a7105244978238c034e23a669bd4f46961ee0515": "clu_68b35711aa",
+    "890df24a2818da66de91370bbe8a6f075aee30c4fdd4883ef1a85c66be3a1ad4": "clu_08f0c4ff38"
   },
   "by_key": {
-    "board of governors of the federal reserve system::agencies release list of distressed or underserved nonmetropolitan middle-income geographies::2026-06-30": "clu_68b35711aa"
+    "board of governors of the federal reserve system::agencies release list of distressed or underserved nonmetropolitan middle-income geographies::2026-06-30": "clu_68b35711aa",
+    "samsung electronics::samsung and kddi successfully complete ai-powered network optimization trial on commercial 5g standalone network in japan::2026-06-30": "clu_08f0c4ff38"
   },
   "clusters": {
     "clu_68b35711aa": {
@@ -16,6 +19,15 @@
       ],
       "source_ids": [
         "src_us_federal_reserve"
+      ]
+    },
+    "clu_08f0c4ff38": {
+      "primary_event_id": "evt_20260813_890df24a28",
+      "event_ids": [
+        "evt_20260813_890df24a28"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

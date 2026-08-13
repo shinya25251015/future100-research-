@@ -1,12 +1,15 @@
 {
   "by_url": {
-    "https://war.gov/News/Contracts/Contract/Article/4540411/contracts-for-july-10-2026": "clu_9623c31c07"
+    "https://war.gov/News/Contracts/Contract/Article/4540411/contracts-for-july-10-2026": "clu_9623c31c07",
+    "https://news.samsung.com/global/infographic-where-culture-meets-innovation-galaxy-unpackeds-journey-through-global-cities": "clu_7db160a787"
   },
   "by_hash": {
-    "06a7fe4315ac5dc1a5f1a007ed11b6951c23f480a92faf5dd916d380901311e7": "clu_9623c31c07"
+    "06a7fe4315ac5dc1a5f1a007ed11b6951c23f480a92faf5dd916d380901311e7": "clu_9623c31c07",
+    "e590d7430a9ce1dbc0c3d503a1cb0f6aa761e79a292504d4374027549799f13f": "clu_7db160a787"
   },
   "by_key": {
-    "u.s. department of war (旧 department of defense)::contracts for july 10, 2026::2026-07-10": "clu_9623c31c07"
+    "u.s. department of war (旧 department of defense)::contracts for july 10, 2026::2026-07-10": "clu_9623c31c07",
+    "samsung electronics::[infographic] where culture meets innovation: galaxy unpacked’s journey through global cities::2026-07-10": "clu_7db160a787"
   },
   "clusters": {
     "clu_9623c31c07": {
@@ -16,6 +19,15 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_7db160a787": {
+      "primary_event_id": "evt_20260813_e590d7430a",
+      "event_ids": [
+        "evt_20260813_e590d7430a"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

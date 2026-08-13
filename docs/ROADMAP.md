@@ -44,26 +44,32 @@ scripts/validate_data.py  スキーマ検証 + 仕様書不変条件の検査
 
 ### 残作業（優先順）
 
-1. **ソース網羅の拡張 (§48-51)** — 14 ソース登録・12 稼働。§10 のシグナル種別ごとの充足状況:
+1. **ソース網羅の拡張 (§48-51)** — 24 ソース登録・18 稼働。§10 のシグナル種別ごとの充足状況:
 
    | シグナル種別 | 状況 |
    |---|---|
    | paper | arXiv 2 分野。分野追加は容易 |
-   | procurement | USAspending（金額付き）+ 米国防契約公告。**229 件/日** |
-   | export_control / subsidy / government_budget | Federal Register 経由。日本・EU 分が薄い |
-   | new_standard | IEEE Spectrum 等から間接的。規格団体の直接取り込みが未実装 |
+   | procurement | USAspending（金額付き）+ 米国防契約公告。229 件/日 |
+   | export_control | 大統領令 + Federal Register。関税・輸出規制の起点を押さえている |
+   | subsidy / government_budget | Federal Register 経由。日本・EU 分が薄い |
+   | capex_guidance | NVIDIA / Intel / Samsung / Microsoft の広報 (§7)。TSMC は 403 |
+   | new_standard | IEEE Spectrum・企業広報から間接的。規格団体の直接取り込みが未実装 |
    | vc_investment | SEC Form D。`FUTURE100_CONTACT_EMAIL` の設定が必要 |
    | patent | **未取得**。PatentsView v1・data.uspto.gov とも API キー必須（旧 api.patentsview.org は廃止） |
    | job_posting | **未取得**。無償で使える公開 API が見当たらない |
-   | new_facility / capex_guidance / supply_contract | 企業 IR からの取り込みが未実装 |
+   | new_facility / supply_contract | 企業広報から拾えるが、決算・IR 資料の直接取り込みが未実装 |
 
    残る課題は次の 3 点。
-   - **日本の政策一次情報** — 経産省・特許庁とも実行環境から HTTP 403（同じ遮断パターン）。
-     国内 IP からの実行が必要。官報 (kanpo.go.jp) は 200 が返るがフィードが無く HTML コレクタ待ち。
+   - **日本の政策一次情報** — 経産省・特許庁・外務省とも実行環境から HTTP 403（同じ遮断パターン）。
+     国内 IP からの実行が必要。官報 (kanpo.go.jp) は 200 が返るが、日付ベースの画面遷移が必要で
+     汎用の HTML コレクタでは取れない。
    - **特許** — API キーを取得すれば `src_uspto_patents` を有効化できる状態にしてある。
-   - **企業 IR / 中国・EU 規制当局** — `json_api` の mapping で大半は追加できる。
-2. **HTML コレクタ** — フィードも API も無い一次情報源（BIS のプレスリリース等）。
-   `src/future100/collect/html.py` に CSS セレクタ指定型で実装し、`kind: "html"` を登録する。
+   - **企業 IR / 決算 / 中国・EU 規制当局** — `json_api` の mapping で大半は追加できる。
+     TSMC は 403 のため台湾証券取引所の公開情報 (MOPS) 経由を検討する。
+2. **HTML コレクタ** — `src/future100/collect/html.py` に実装し `kind: "html"` を登録する。
+   ただし現時点で確認できた対象が無く、着手は保留している。BIS は実行環境から接続タイムアウト、
+   官報は日付ベースの画面遷移が必要で汎用コレクタでは取れない。
+   対象が確定してから作る（動かす当てのないコレクタを先に作らない）。
 3. **重複統合の精度 (§38)** — 判定は「同一 URL」だけが同一ソース内でも有効で、
    本文一致・表題一致・文面類似はすべて**別ソース間でのみ**適用する。
    一次情報源（契約公告・官報・規則公示）は同じ発行元が同じ日に同じ表題・同じ定型文で
@@ -77,7 +83,9 @@ scripts/validate_data.py  スキーマ検証 + 仕様書不変条件の検査
      対策は固定長フィンガープリント（MinHash 等）の永続化。
    - 同一実行内の比較が全クラスタ総当たり O(n²)。1 日ぶんなら問題ないが、
      大量の過去データを一括投入するときは転置インデックスが要る。
-4. **カテゴリ分類の精度** — 現在は「ソース定義の既定カテゴリ」。1 ソースが複数領域を出す場合に粗い。
+4. **カテゴリ分類とシグナル判定の精度** — category は「ソース定義の既定値」で、1 ソースが
+   複数領域を出す場合に粗い。シグナル判定のキーワードも粗く、`new_standard` の "standard" のように
+   一般語に当たる規則が残っている（語境界は実装済みで、"series a" が "series and" に当たる問題は解消）。
    本文からの分類（規則 → LLM）に置き換える。ここで初めて LLM を使う。
 5. **収集の定期実行** — cron / GitHub Actions で日次実行し、失敗ソースを検知する。
 

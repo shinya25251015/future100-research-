@@ -3,19 +3,28 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1730": "clu_72efa5eeeb",
     "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1729": "clu_7f065f99f3",
     "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital": "clu_cff0996339",
-    "https://war.gov/News/Contracts/Contract/Article/4567805/contracts-for-aug-10-2026": "clu_0bde091d3a"
+    "https://war.gov/News/Contracts/Contract/Article/4567805/contracts-for-aug-10-2026": "clu_0bde091d3a",
+    "https://whitehouse.gov/presidential-actions/2026/08/delivering-gold-standard-childhood-vaccine-recommendations-for-americans": "clu_e221c7f16a",
+    "https://newsroom.intel.com/client-computing/intel-gamer-days-2026-kicking-off-with-aaa-gaming-bundle-partnerships": "clu_e08042cce0",
+    "https://newsroom.intel.com/corporate/intel-announces-proposed-15-billion-common-stock-offering": "clu_ef6ce50836"
   },
   "by_hash": {
     "f6af97a4cbc1027cc1b67ff7e6aaa60d99c8cba59cd1d9ac26269bc9ef25ce91": "clu_72efa5eeeb",
     "e8ef7926ad30eaf76f198eb8fbd849079479a4b8f23615f2427fad9855d74c1f": "clu_7f065f99f3",
     "5e4d5545582d96dc8d775a81f2b25e2c176caaf3faee6d1fdd8957798ae518d5": "clu_cff0996339",
-    "82266564339ed4cac80ece04fa6e9348684def29a50984c153a830074f7b65e4": "clu_0bde091d3a"
+    "82266564339ed4cac80ece04fa6e9348684def29a50984c153a830074f7b65e4": "clu_0bde091d3a",
+    "04bf0fccab3432f87013d381389575ee9991f4e4004426caa100f2fdaacb20a9": "clu_e221c7f16a",
+    "455eeb84d27bbd699ad7ecd10d14a5ccde8975143f4b18012ae8183bcaedfb48": "clu_e08042cce0",
+    "e8d92575e6fff55cdb84697188a89b263c5192e252716c13d9cc230505a715ed": "clu_ef6ce50836"
   },
   "by_key": {
     "european commission::commission greenlights poland's fifth payment request for €7.9 billion under nextgenerationeu::2026-08-10": "clu_72efa5eeeb",
     "european commission::daily news 10 / 08 / 2026::2026-08-10": "clu_7f065f99f3",
     "nvidia corporation::nvidia partners with apollo, blackrock, blackstone, brookfield, goldman sachs and kkr to establish ai compute infrastructure financing platforms to mobilize over $500 billion of third-party capital::2026-08-10": "clu_cff0996339",
-    "u.s. department of war (旧 department of defense)::contracts for aug. 10, 2026::2026-08-10": "clu_0bde091d3a"
+    "u.s. department of war (旧 department of defense)::contracts for aug. 10, 2026::2026-08-10": "clu_0bde091d3a",
+    "the white house::delivering gold standard childhood vaccine recommendations for americans::2026-08-10": "clu_e221c7f16a",
+    "intel corporation::intel gamer days 2026 kicking off with aaa gaming bundle & partnerships::2026-08-10": "clu_e08042cce0",
+    "intel corporation::intel announces proposed $15 billion common stock offering::2026-08-10": "clu_ef6ce50836"
   },
   "clusters": {
     "clu_72efa5eeeb": {
@@ -52,6 +61,33 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_e221c7f16a": {
+      "primary_event_id": "evt_20260813_04bf0fccab",
+      "event_ids": [
+        "evt_20260813_04bf0fccab"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_e08042cce0": {
+      "primary_event_id": "evt_20260813_455eeb84d2",
+      "event_ids": [
+        "evt_20260813_455eeb84d2"
+      ],
+      "source_ids": [
+        "src_intel_newsroom"
+      ]
+    },
+    "clu_ef6ce50836": {
+      "primary_event_id": "evt_20260813_e8d92575e6",
+      "event_ids": [
+        "evt_20260813_e8d92575e6"
+      ],
+      "source_ids": [
+        "src_intel_newsroom"
       ]
     }
   }

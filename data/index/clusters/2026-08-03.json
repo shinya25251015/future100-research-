@@ -9,7 +9,9 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1717": "clu_38d6f4dc57",
     "https://spectrum.ieee.org/ieee-milestone-digital-medical-records": "clu_22c5272e0f",
     "https://spectrum.ieee.org/electronics-corrosion-multiphysics-simulation": "clu_2b02a582f1",
-    "https://war.gov/News/Contracts/Contract/Article/4562834/contracts-for-aug-3-2026": "clu_f4eabec1cf"
+    "https://war.gov/News/Contracts/Contract/Article/4562834/contracts-for-aug-3-2026": "clu_f4eabec1cf",
+    "https://whitehouse.gov/presidential-actions/2026/08/establishing-the-presidents-military-spouse-commission-af64": "clu_bee323d4ed",
+    "https://news.samsung.com/global/interview-galaxy-unpacked-july-2026-inside-the-design-behind-the-latest-galaxy-z-series-and-galaxy-watch": "clu_93b3d73c03"
   },
   "by_hash": {
     "e73df944159a8dc5965b1d6f915733ad39f44675f30e724c98dae19442eb5642": "clu_57939b3e29",
@@ -21,7 +23,9 @@
     "06dd931ac66155f3b80ccb41cb343ed4986d0a0c8c9778fa243788045dbcd6d1": "clu_38d6f4dc57",
     "87f1773b35b1e2951261e95f8a4e1272b09d795aa40eb46d495d4cdfafae8d0e": "clu_22c5272e0f",
     "da38ca4606b5c28db27c7dd96042992b6a6c586e1b2deddf47aa974333d60beb": "clu_2b02a582f1",
-    "3f283d9e0261505b18696adbff9eb5e4d116c27e131c08b3e44b67bd5b4c1fdb": "clu_f4eabec1cf"
+    "3f283d9e0261505b18696adbff9eb5e4d116c27e131c08b3e44b67bd5b4c1fdb": "clu_f4eabec1cf",
+    "00d0be57fb5051872eaf7e876783a648dc0b1d66d485811dda46002b4206df49": "clu_bee323d4ed",
+    "3968df8fc1355510315aa356933a3ac2eb497c6463fe58acad2fa19b86145d81": "clu_93b3d73c03"
   },
   "by_key": {
     "日本銀行::【記者会見】植田総裁(7月31日分)::2026-08-03": "clu_57939b3e29",
@@ -33,7 +37,9 @@
     "european commission::daily news 03 / 08 / 2026::2026-08-03": "clu_38d6f4dc57",
     "ieee::the system that turned paper charts into digital medical records::2026-08-03": "clu_22c5272e0f",
     "ieee::identifying the root cause of electronics failures with simulation apps::2026-08-03": "clu_2b02a582f1",
-    "u.s. department of war (旧 department of defense)::contracts for aug. 3, 2026::2026-08-03": "clu_f4eabec1cf"
+    "u.s. department of war (旧 department of defense)::contracts for aug. 3, 2026::2026-08-03": "clu_f4eabec1cf",
+    "the white house::establishing the president’s military spouse commission::2026-08-03": "clu_bee323d4ed",
+    "samsung electronics::[interview] [galaxy unpacked july 2026] inside the design behind the latest galaxy z series and galaxy watch::2026-08-03": "clu_93b3d73c03"
   },
   "clusters": {
     "clu_57939b3e29": {
@@ -124,6 +130,24 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_bee323d4ed": {
+      "primary_event_id": "evt_20260813_00d0be57fb",
+      "event_ids": [
+        "evt_20260813_00d0be57fb"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_93b3d73c03": {
+      "primary_event_id": "evt_20260813_3968df8fc1",
+      "event_ids": [
+        "evt_20260813_3968df8fc1"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

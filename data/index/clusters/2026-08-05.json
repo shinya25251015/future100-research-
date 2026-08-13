@@ -2,17 +2,20 @@
   "by_url": {
     "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1723": "clu_da8bbb511f",
     "https://spectrum.ieee.org/ieee-course-ai-power-grids": "clu_fd5c4fbc87",
-    "https://war.gov/News/Contracts/Contract/Article/4564890/contracts-for-aug-5-2026": "clu_dc5b890d44"
+    "https://war.gov/News/Contracts/Contract/Article/4564890/contracts-for-aug-5-2026": "clu_dc5b890d44",
+    "https://news.samsung.com/global/samsung-unveils-next-gen-3d-memory-vision-at-fms-2026-charting-the-future-of-ai-infrastructure": "clu_e0a6ee0e68"
   },
   "by_hash": {
     "5dbcd54517dc2f4e0535278a7af8beec5da1a7cdf7b67422e660edfa65e99476": "clu_da8bbb511f",
     "fa7a37b8d476aa67f9b5d89538721a7e34237c9c8d71bf5d315e9defc1105869": "clu_fd5c4fbc87",
-    "34b32a7df35a2c2249bb838f832c66e6548c8e8ae99d8a3c02e457452cdc9b29": "clu_dc5b890d44"
+    "34b32a7df35a2c2249bb838f832c66e6548c8e8ae99d8a3c02e457452cdc9b29": "clu_dc5b890d44",
+    "d129e1a51219c70207628f8eaed5ecaa9334f65b8cf3be5194046fdb56d8fc3a": "clu_e0a6ee0e68"
   },
   "by_key": {
     "european commission::daily news 05 / 08 / 2026::2026-08-05": "clu_da8bbb511f",
     "ieee::ieee course teaches how to use ai to modernize power grids::2026-08-05": "clu_fd5c4fbc87",
-    "u.s. department of war (旧 department of defense)::contracts for aug. 5, 2026::2026-08-05": "clu_dc5b890d44"
+    "u.s. department of war (旧 department of defense)::contracts for aug. 5, 2026::2026-08-05": "clu_dc5b890d44",
+    "samsung electronics::samsung unveils next-gen 3d-memory vision at fms 2026, charting the future of ai infrastructure::2026-08-05": "clu_e0a6ee0e68"
   },
   "clusters": {
     "clu_da8bbb511f": {
@@ -40,6 +43,15 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_e0a6ee0e68": {
+      "primary_event_id": "evt_20260813_d129e1a512",
+      "event_ids": [
+        "evt_20260813_d129e1a512"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

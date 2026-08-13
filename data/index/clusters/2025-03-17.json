@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://news.microsoft.com/2025/03/17/microsoft-responds-to-trc-capitals-mini-tender-offer": "clu_3cf5fcc6ef"
+  },
+  "by_hash": {
+    "cf48bec4d209393e3468c175b9442845d9b1b7996b4cd1e9803230b2778eced4": "clu_3cf5fcc6ef"
+  },
+  "by_key": {
+    "microsoft corporation::microsoft responds to trc capital’s “mini-tender” offer::2025-03-17": "clu_3cf5fcc6ef"
+  },
+  "clusters": {
+    "clu_3cf5fcc6ef": {
+      "primary_event_id": "evt_20260813_cf48bec4d2",
+      "event_ids": [
+        "evt_20260813_cf48bec4d2"
+      ],
+      "source_ids": [
+        "src_microsoft_news"
+      ]
+    }
+  }
+}

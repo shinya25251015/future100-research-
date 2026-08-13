@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://news.microsoft.com/2025/04/09/microsoft-announces-quarterly-earnings-release-date-63": "clu_65cdfe6f3b"
+  },
+  "by_hash": {
+    "7d0c907c142ac511ab898051e6034298ae7b9907324ddc9f64db941c282f97b7": "clu_65cdfe6f3b"
+  },
+  "by_key": {
+    "microsoft corporation::microsoft announces quarterly earnings release date::2025-04-09": "clu_65cdfe6f3b"
+  },
+  "clusters": {
+    "clu_65cdfe6f3b": {
+      "primary_event_id": "evt_20260813_7d0c907c14",
+      "event_ids": [
+        "evt_20260813_7d0c907c14"
+      ],
+      "source_ids": [
+        "src_microsoft_news"
+      ]
+    }
+  }
+}

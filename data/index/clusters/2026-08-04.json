@@ -20,7 +20,8 @@
     "https://content.knowledgehub.wiley.com/the-2026-rd-benchmark-report-waste-ai-and-the-race-to-market": "clu_c0ee18aab6",
     "https://blogs.nvidia.com/blog/ai-storage-fms": "clu_7a298e5444",
     "https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions": "clu_bab244ce66",
-    "https://war.gov/News/Contracts/Contract/Article/4563655/contracts-for-aug-4-2026": "clu_45157eff6c"
+    "https://war.gov/News/Contracts/Contract/Article/4563655/contracts-for-aug-4-2026": "clu_45157eff6c",
+    "https://news.samsung.com/global/samsung-launches-worlds-first-hdr10-advanced-streaming-experience-on-prime-video": "clu_b7c93f4560"
   },
   "by_hash": {
     "5ad5b61e5be98ea634f3574f453e03b408d073de85baa0f78dd6319efaa8d72c": "clu_f9edc2b148",
@@ -43,7 +44,8 @@
     "e990473d8896bab6826ab5051e80cf278759a8754af6228d6643c98d318814bd": "clu_c0ee18aab6",
     "c02a0b32a37c13e66dc3ca6235ebe1cdeefdb0242e6e84f093523635f4d46752": "clu_7a298e5444",
     "9db4a15dde36915a88f3686694a5948a55411c1bf8439cfcf33fde7dc818f5c1": "clu_bab244ce66",
-    "d30d5cc70565745c55ec98373318eb181a3e0098787465f23dd18dc3f41ed370": "clu_45157eff6c"
+    "d30d5cc70565745c55ec98373318eb181a3e0098787465f23dd18dc3f41ed370": "clu_45157eff6c",
+    "16f2aca026ef5129789a299bfe89fc4e4c50a8bccf55b4d6e1a36327da788918": "clu_b7c93f4560"
   },
   "by_key": {
     "board of governors of the federal reserve system::federal reserve board announces approval of the application by banco santander, s.a. and santander holdings usa, inc.::2026-08-04": "clu_f9edc2b148",
@@ -66,7 +68,8 @@
     "ieee::why r&d waste persists despite widespread ai adoption::2026-08-04": "clu_c0ee18aab6",
     "nvidia corporation::as ai increases demands on memory, storage steps up::2026-08-04": "clu_7a298e5444",
     "nvidia corporation::ai leaders propose safe guidelines for cybersecurity transparency::2026-08-04": "clu_bab244ce66",
-    "u.s. department of war (旧 department of defense)::contracts for aug. 4, 2026::2026-08-04": "clu_45157eff6c"
+    "u.s. department of war (旧 department of defense)::contracts for aug. 4, 2026::2026-08-04": "clu_45157eff6c",
+    "samsung electronics::samsung launches world’s first hdr10+ advanced streaming experience on prime video::2026-08-04": "clu_b7c93f4560"
   },
   "clusters": {
     "clu_f9edc2b148": {
@@ -256,6 +259,15 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_b7c93f4560": {
+      "primary_event_id": "evt_20260813_16f2aca026",
+      "event_ids": [
+        "evt_20260813_16f2aca026"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

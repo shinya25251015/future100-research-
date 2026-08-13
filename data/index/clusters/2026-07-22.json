@@ -4,21 +4,36 @@
     "http://boj.or.jp/statistics/boj/other/mei/release/2026/mei260717.xlsx": "clu_e621fda9da",
     "http://boj.or.jp/statistics/boj/other/acmai/release/2026/ac260720.htm": "clu_713eb70ab2",
     "https://spectrum.ieee.org/colossus-computer-ieee-milestone": "clu_3900c777cc",
-    "https://war.gov/News/Contracts/Contract/Article/4552684/contracts-for-july-22-2026": "clu_ca4af3a9b2"
+    "https://war.gov/News/Contracts/Contract/Article/4552684/contracts-for-july-22-2026": "clu_ca4af3a9b2",
+    "https://news.samsung.com/global/samsung-galaxy-z-fold8-ultra-fold8-and-flip8foldables-perfected-for-every-way-of-living": "clu_9772f7b79a",
+    "https://news.samsung.com/global/galaxy-unpacked-july-2026-a-first-look-at-galaxy-z-fold8-ultra-galaxy-z-fold8-and-galaxy-z-flip8": "clu_e18a75c959",
+    "https://news.samsung.com/global/galaxy-unpacked-july-2026-a-first-look-at-galaxy-watch-ultra2-and-galaxy-watch9": "clu_2dd83fffe9",
+    "https://news.samsung.com/global/samsung-brings-galaxy-ecosystem-into-everyday-eyewear": "clu_4236451f68",
+    "https://news.samsung.com/global/samsung-galaxy-watch-ultra2-and-watch9-your-health-companion-on-the-wrist": "clu_dc90b5a95e"
   },
   "by_hash": {
     "4baf5b511ada335564c3f8bbdba0a8b762da8c2733e4cd8ebd2e741d000186e4": "clu_8c1541c126",
     "120296d4393b36965f140edd63d0ac731c3a4d63d5149bc344d2fc79ec0b5f37": "clu_e621fda9da",
     "b51e9e20a854cc6ab114d86357bbf7b69fc523c55d9ab394da574978ee24fe45": "clu_713eb70ab2",
     "3748258e0b0f6372e400c82bb5f12eae7c054e0c5dbad87363287a595030757a": "clu_3900c777cc",
-    "d00369cff995eb9b4be6d2cfeed796ce46120adceda420196c382dd9a2acea60": "clu_ca4af3a9b2"
+    "d00369cff995eb9b4be6d2cfeed796ce46120adceda420196c382dd9a2acea60": "clu_ca4af3a9b2",
+    "afec6d6cdca84ee49f664ebfdfe898f9e9908e41415140b5bada70080f8797d0": "clu_9772f7b79a",
+    "984666e315fb2ef079bb4da606b259bd0255984a12a9f6f9505921a91daac182": "clu_e18a75c959",
+    "3be27f1ee3b9646c482ebffc50c56cf07f4f1373c657509b9a3938dc5e8606b6": "clu_2dd83fffe9",
+    "7a86926a55b32342ca947525ec98185ce650dd331a11c36cf9a5710f12b33949": "clu_4236451f68",
+    "b57e76cb06d65c80de58788a4bd74dbac98138771ec89a46feed7e45954bbffe": "clu_dc90b5a95e"
   },
   "by_key": {
     "日本銀行::「気候変動関連の市場機能サーベイ」第5回説明会::2026-07-22": "clu_8c1541c126",
     "日本銀行::日本銀行が保有する国債の銘柄別残高::2026-07-22": "clu_e621fda9da",
     "日本銀行::営業毎旬報告(7月20日現在)::2026-07-22": "clu_713eb70ab2",
     "ieee::the computer that helped win world war ii::2026-07-22": "clu_3900c777cc",
-    "u.s. department of war (旧 department of defense)::contracts for july 22, 2026::2026-07-22": "clu_ca4af3a9b2"
+    "u.s. department of war (旧 department of defense)::contracts for july 22, 2026::2026-07-22": "clu_ca4af3a9b2",
+    "samsung electronics::samsung galaxy z fold8 ultra, fold8 and flip8: foldables, perfected for every way of living::2026-07-22": "clu_9772f7b79a",
+    "samsung electronics::[galaxy unpacked july 2026] a first look at galaxy z fold8 ultra, galaxy z fold8 and galaxy z flip8::2026-07-22": "clu_e18a75c959",
+    "samsung electronics::[galaxy unpacked july 2026] a first look at galaxy watch ultra2 and galaxy watch9::2026-07-22": "clu_2dd83fffe9",
+    "samsung electronics::samsung brings galaxy ecosystem into everyday eyewear::2026-07-22": "clu_4236451f68",
+    "samsung electronics::samsung galaxy watch ultra2 and watch9: your health companion on the wrist::2026-07-22": "clu_dc90b5a95e"
   },
   "clusters": {
     "clu_8c1541c126": {
@@ -64,6 +79,51 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_9772f7b79a": {
+      "primary_event_id": "evt_20260813_afec6d6cdc",
+      "event_ids": [
+        "evt_20260813_afec6d6cdc"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_e18a75c959": {
+      "primary_event_id": "evt_20260813_984666e315",
+      "event_ids": [
+        "evt_20260813_984666e315"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_2dd83fffe9": {
+      "primary_event_id": "evt_20260813_3be27f1ee3",
+      "event_ids": [
+        "evt_20260813_3be27f1ee3"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_4236451f68": {
+      "primary_event_id": "evt_20260813_7a86926a55",
+      "event_ids": [
+        "evt_20260813_7a86926a55"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_dc90b5a95e": {
+      "primary_event_id": "evt_20260813_b57e76cb06",
+      "event_ids": [
+        "evt_20260813_b57e76cb06"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

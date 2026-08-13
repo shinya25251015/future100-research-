@@ -6,7 +6,8 @@
     "https://spectrum.ieee.org/mariana-costa-women-in-tech": "clu_19e5af867d",
     "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson": "clu_a1307ffcef",
     "https://spectrum.ieee.org/universal-gravitational-constant-nist-schlamminger": "clu_b32303fefe",
-    "https://war.gov/News/Contracts/Contract/Article/4557600/contracts-for-july-28-2026": "clu_b53dc9952b"
+    "https://war.gov/News/Contracts/Contract/Article/4557600/contracts-for-july-28-2026": "clu_b53dc9952b",
+    "https://newsroom.intel.com/intel-foundry/intel-completes-ramp-c-program-accelerating-momentum-for-secure-enclave": "clu_8728210e43"
   },
   "by_hash": {
     "af850b8c0f74b2665c8cd6ac9e7347b86e06d729da5ab2d93b74b1f001fcf9f7": "clu_c987a5f38a",
@@ -15,7 +16,8 @@
     "1ec351ae058b8bd53291b1429e86d39ee5b67a8c15f3faa31b1eded7034b0257": "clu_19e5af867d",
     "609f7797482e5e261539633993eef22e864d7ee2b589fe636d33342899e8b488": "clu_a1307ffcef",
     "c990fa8c746cb662911c29c36e90c3fcacd44662183a0453d7a3dc39c8bd3c59": "clu_b32303fefe",
-    "36e2bf9f97d4f9b959bd3c98fe6a8b200261c491c93f5f5d95558469ef0af268": "clu_b53dc9952b"
+    "36e2bf9f97d4f9b959bd3c98fe6a8b200261c491c93f5f5d95558469ef0af268": "clu_b53dc9952b",
+    "e81ffe9132ec3f6c80ad61177912448d4e7f9f3958c849b9e063a167d9a7b152": "clu_8728210e43"
   },
   "by_key": {
     "日本銀行::貸出約定平均金利(6月)::2026-07-28": "clu_c987a5f38a",
@@ -24,7 +26,8 @@
     "ieee::laboratoria’s mariana costa empowers women in tech::2026-07-28": "clu_19e5af867d",
     "nvidia corporation::powerful compute so compact, it’s clutch — build ai in your hand with nvidia jetson::2026-07-28": "clu_a1307ffcef",
     "ieee::why nist researchers spent 10 years measuring gravity::2026-07-28": "clu_b32303fefe",
-    "u.s. department of war (旧 department of defense)::contracts for july 28, 2026::2026-07-28": "clu_b53dc9952b"
+    "u.s. department of war (旧 department of defense)::contracts for july 28, 2026::2026-07-28": "clu_b53dc9952b",
+    "intel corporation::intel completes ramp-c program, accelerating momentum for secure enclave::2026-07-28": "clu_8728210e43"
   },
   "clusters": {
     "clu_c987a5f38a": {
@@ -88,6 +91,15 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_8728210e43": {
+      "primary_event_id": "evt_20260813_e81ffe9132",
+      "event_ids": [
+        "evt_20260813_e81ffe9132"
+      ],
+      "source_ids": [
+        "src_intel_newsroom"
       ]
     }
   }

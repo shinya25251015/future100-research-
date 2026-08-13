@@ -2,17 +2,23 @@
   "by_url": {
     "http://boj.or.jp/research/brp/fsr/fsrb260724.htm": "clu_0218e5a0c4",
     "https://spectrum.ieee.org/ieee-president-ray-liu-award": "clu_849cb7a90d",
-    "https://war.gov/News/Contracts/Contract/Article/4555477/contracts-for-july-24-2026": "clu_c734f0a5b1"
+    "https://war.gov/News/Contracts/Contract/Article/4555477/contracts-for-july-24-2026": "clu_c734f0a5b1",
+    "https://whitehouse.gov/presidential-actions/2026/07/restoring-trust-in-the-smithsonian-institution-e061": "clu_e13ecc8229",
+    "https://newsroom.intel.com/new-technologies/intel-and-lens-technology-collaborate-to-enable-advanced-semiconductor-packaging-for-the-ai-era": "clu_dcd7a94baa"
   },
   "by_hash": {
     "69dd1ff7cbaf74d427751e5405538b4bb06585e56a90bdc9af663fa64fc8f55a": "clu_0218e5a0c4",
     "1ce4c34349e7635e57b5285895e0c46cad5f0ce77d3b6753eaa3b6975c498552": "clu_849cb7a90d",
-    "b0e7311d8d7a6ec5c875064c7c66419f008ffd25a322fb947f5cf1ee62a56476": "clu_c734f0a5b1"
+    "b0e7311d8d7a6ec5c875064c7c66419f008ffd25a322fb947f5cf1ee62a56476": "clu_c734f0a5b1",
+    "5c41646f3e284682d6068354782ef4a7d1f8aa96553d97994559b50fbe8adf2b": "clu_e13ecc8229",
+    "ca388dcce8f78bd2ac43b66f127535dd0d4526dbc02ba20d184a3489926aa39b": "clu_dcd7a94baa"
   },
   "by_key": {
     "日本銀行::金融システムレポート別冊「2025年度の銀行・信用金庫決算」::2026-07-24": "clu_0218e5a0c4",
     "ieee::2022 ieee president k.j. ray liu honored for his leadership::2026-07-24": "clu_849cb7a90d",
-    "u.s. department of war (旧 department of defense)::contracts for july 24, 2026::2026-07-24": "clu_c734f0a5b1"
+    "u.s. department of war (旧 department of defense)::contracts for july 24, 2026::2026-07-24": "clu_c734f0a5b1",
+    "the white house::restoring trust in the smithsonian institution::2026-07-24": "clu_e13ecc8229",
+    "intel corporation::intel and lens technology collaborate to enable advanced semiconductor packaging for the ai era::2026-07-24": "clu_dcd7a94baa"
   },
   "clusters": {
     "clu_0218e5a0c4": {
@@ -40,6 +46,24 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_e13ecc8229": {
+      "primary_event_id": "evt_20260813_5c41646f3e",
+      "event_ids": [
+        "evt_20260813_5c41646f3e"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_dcd7a94baa": {
+      "primary_event_id": "evt_20260813_ca388dcce8",
+      "event_ids": [
+        "evt_20260813_ca388dcce8"
+      ],
+      "source_ids": [
+        "src_intel_newsroom"
       ]
     }
   }
