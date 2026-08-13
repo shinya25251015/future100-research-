@@ -38,14 +38,19 @@ def main() -> int:
     parser.add_argument("--window-days", type=int, default=7)
     args = parser.parse_args()
 
-    as_of = args.as_of or timeutil.now_str()
-    print(f"future100 daily cycle  as_of={as_of}")
+    print("future100 daily cycle")
 
     if not args.skip_collect:
         # 収集の失敗は当日の観測を減らすだけで、後続の処理は続ける
         step("1/5 collect", ["scripts/collect.py"])
     else:
         print("\n=== 1/5 collect (skipped) ===")
+
+    # as_of は「どこまで観測できているか」の線であり、収集が終わって初めて確定する。
+    # 収集前の時刻を使うと、いま取得したばかりの観測が as_of より後になり、
+    # 検査が §37（未来情報の混入）違反として弾く。
+    as_of = args.as_of or timeutil.now_str()
+    print(f"\nas_of={as_of}")
 
     if step("2/5 normalize", ["scripts/normalize.py"]) != 0:
         print("normalize failed", file=sys.stderr)

@@ -46,6 +46,18 @@ def test_naive_datetime_is_rejected():
     raise AssertionError("naive datetime must be rejected")
 
 
+def test_daily_cycle_fixes_as_of_after_collection():
+    """as_of は「どこまで観測できているか」の線なので、収集が終わってから決める。
+
+    収集前に決めると、いま取得したばかりの観測が as_of より後になり、検査が
+    §37 違反として弾く（実際に CI の初回実行がこれで落ちた）。
+    """
+    source = (ROOT / "scripts/daily.py").read_text(encoding="utf-8")
+    collect_at = source.index('"1/5 collect"')
+    as_of_at = source.index("as_of = args.as_of or timeutil.now_str()")
+    assert as_of_at > collect_at, "as_of の確定は収集ステップより後でなければならない"
+
+
 def test_look_ahead_guard():
     assert timeutil.is_visible("2026-08-01T00:00:00Z", "2026-08-13T00:00:00Z")
     assert not timeutil.is_visible("2026-08-14T00:00:00Z", "2026-08-13T00:00:00Z")

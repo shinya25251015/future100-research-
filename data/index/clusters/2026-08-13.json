@@ -417,7 +417,12 @@
     "https://science.nasa.gov/image-article/apod-2026-august-13-total-solar-eclipse-over-spain": "clu_e3897f2bad",
     "https://nasa.gov/image-article/perseids-meteor-shower-2": "clu_a4e7216a74",
     "https://news.samsung.com/global/samsung-tv-plus-to-live-stream-kcon-la-2026-for-global-k-pop-fans-at-home": "clu_72ae4b1069",
-    "https://news.samsung.com/global/galaxy-unpacked-july-2026-one-city-three-perspectives-capturing-london-with-galaxy-z-fold8-ultra-galaxy-z-fold8-and-galaxy-z-flip8": "clu_5fd8dcea01"
+    "https://news.samsung.com/global/galaxy-unpacked-july-2026-one-city-three-perspectives-capturing-london-with-galaxy-z-fold8-ultra-galaxy-z-fold8-and-galaxy-z-flip8": "clu_5fd8dcea01",
+    "https://whitehouse.gov/presidential-actions/2026/08/rebuilding-the-united-states-navy-and-americas-shipbuilding-industrial-base": "clu_a1c5746971",
+    "https://whitehouse.gov/presidential-actions/2026/08/adjusting-imports-of-unmanned-aircraft-systems-and-unmanned-aircraft-systems-components-into-the-united-states": "clu_dc7879b082",
+    "https://war.gov/News/Contracts/Contract/Article/4573283/contracts-for-aug-13-2026": "clu_32665d0919",
+    "https://nasa.gov/centers-and-facilities/goddard/for-west-virginia-engineer-home-is-where-the-heart-is-and-nasa-too": "clu_183e7f7f0b",
+    "https://nasa.gov/image-article/nasas-737-reveals-new-paint": "clu_273c77f82b"
   },
   "by_hash": {
     "5a86e638903cd1f44946e898f161c00008eb035508da484241f0a01646cc1b24": "clu_2040d6910f",
@@ -836,7 +841,12 @@
     "75fb607d233ad760f0cc0fcbcebc8608ef1b9d60ab2a2cc3e892ba2eeb4e5a2c": "clu_e3897f2bad",
     "972f8acb1676e6e2ea580b3d2a31cbe71f32d396db528a8beb9eb043d06353f0": "clu_a4e7216a74",
     "9e7cc7a12967a9af529cd2e72ea8acd476b986be3cfd475986f7fc4c70e82289": "clu_72ae4b1069",
-    "96da080f16ee80a851f01f99facda199b1b11bd0520217fa200637d81aeda492": "clu_5fd8dcea01"
+    "96da080f16ee80a851f01f99facda199b1b11bd0520217fa200637d81aeda492": "clu_5fd8dcea01",
+    "a75a25a0687806bdd79c11f5d04b9b939fa68d1a4c8c2e2fbff458a724150b6b": "clu_a1c5746971",
+    "c3af08bc17c7a4d02c5402c348ffb8869b5bd30f8f51ef972134638c4422b6a0": "clu_dc7879b082",
+    "21e9c5ee49da726e537a883886b76eb1aeb7ec57311cf2ca714357bc2bc76547": "clu_32665d0919",
+    "ec7dd782583b96edcc4f9a430593b86cb18de38601216754a786cd8ac3a93940": "clu_183e7f7f0b",
+    "b4bf6aedd32c88ca0b689ec0ad8ebd5b9500d25e112c7d94a4bfdd474ad6d310": "clu_273c77f82b"
   },
   "by_key": {
     "board of governors of the federal reserve system::federal reserve board issues enforcement action with former employee of regions bank::2026-08-13": "clu_2040d6910f",
@@ -1253,7 +1263,12 @@
     "nasa::apod: 2026 august 13 – total solar eclipse over spain::2026-08-13": "clu_e3897f2bad",
     "nasa::perseids meteor shower::2026-08-13": "clu_a4e7216a74",
     "samsung electronics::samsung tv plus to live-stream kcon la 2026 for global k-pop fans at home::2026-08-13": "clu_72ae4b1069",
-    "samsung electronics::[galaxy unpacked july 2026] one city, three perspectives: capturing london with galaxy z fold8 ultra, galaxy z fold8, and galaxy z flip8::2026-08-13": "clu_5fd8dcea01"
+    "samsung electronics::[galaxy unpacked july 2026] one city, three perspectives: capturing london with galaxy z fold8 ultra, galaxy z fold8, and galaxy z flip8::2026-08-13": "clu_5fd8dcea01",
+    "the white house::rebuilding the united states navy and america’s shipbuilding industrial base::2026-08-13": "clu_a1c5746971",
+    "the white house::adjusting imports of unmanned aircraft systems and unmanned aircraft systems components into the united states::2026-08-13": "clu_dc7879b082",
+    "u.s. department of war (旧 department of defense)::contracts for aug. 13, 2026::2026-08-13": "clu_32665d0919",
+    "nasa::for west virginia engineer, home is where the heart is... and nasa, too::2026-08-13": "clu_183e7f7f0b",
+    "nasa::nasa’s 737 reveals new paint::2026-08-13": "clu_273c77f82b"
   },
   "clusters": {
     "clu_2040d6910f": {
@@ -5007,6 +5022,51 @@
       ],
       "source_ids": [
         "src_samsung_newsroom"
+      ]
+    },
+    "clu_a1c5746971": {
+      "primary_event_id": "evt_20260813_a75a25a068",
+      "event_ids": [
+        "evt_20260813_a75a25a068"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_dc7879b082": {
+      "primary_event_id": "evt_20260813_c3af08bc17",
+      "event_ids": [
+        "evt_20260813_c3af08bc17"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_32665d0919": {
+      "primary_event_id": "evt_20260813_21e9c5ee49",
+      "event_ids": [
+        "evt_20260813_21e9c5ee49"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
+      ]
+    },
+    "clu_183e7f7f0b": {
+      "primary_event_id": "evt_20260813_ec7dd78258",
+      "event_ids": [
+        "evt_20260813_ec7dd78258"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_273c77f82b": {
+      "primary_event_id": "evt_20260813_b4bf6aedd3",
+      "event_ids": [
+        "evt_20260813_b4bf6aedd3"
+      ],
+      "source_ids": [
+        "src_nasa_news"
       ]
     }
   }

@@ -1,10 +1,10 @@
 {
   "report_id": "rpt_20260813",
   "report_date": "2026-08-13",
-  "as_of": "2026-08-13T23:59:59Z",
+  "as_of": "2026-08-13T22:07:44Z",
   "coverage": {
-    "events_ingested": 929,
-    "events_after_dedup": 929,
+    "events_ingested": 934,
+    "events_after_dedup": 934,
     "sources_polled": 18,
     "sources_failed": []
   },
@@ -13,13 +13,13 @@
       "no": 1,
       "key": "executive_summary",
       "title": "本日の構造変化サマリ",
-      "body": "本日の観測は 929 件。内訳（分類別）: technology 416 / policy_regulation 347 / corporate_action 90 / macro 74 / standard 2。シグナル種別: paper 363 / procurement 229 / patent 6 / export_control 3 / government_budget 2 / new_standard 2。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 16 件）。件数は観測量であって重要度ではない。"
+      "body": "本日の観測は 934 件。内訳（分類別）: technology 418 / policy_regulation 350 / corporate_action 90 / macro 74 / standard 2。シグナル種別: paper 363 / procurement 230 / patent 6 / export_control 3 / government_budget 2 / new_standard 2。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 16 件）。件数は観測量であって重要度ではない。"
     },
     {
       "no": 2,
       "key": "policy_regulation",
       "title": "政策・規制 (§4)",
-      "body": "本日 347 件を観測。\n- [A] 2026-08-13 Daily News 13 / 08 / 2026 (evt_20260813_2b53c0acbe)\n- [A] 2026-08-13 Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company (evt_20260813_0ad467aaa1)\n- [A] 2026-08-13 Toyota Motor North America, Inc., Grant of Petition for Decision of Inconsequential Noncompliance (evt_20260813_551e8ff2d1)\n- [A] 2026-08-13 Establishment of Class E Airspace; Havana, IL (evt_20260813_4d40946208)\n- [A] 2026-08-13 Records Schedules; Availability and Request for Comments (evt_20260813_3f6c5adb07)\n- [A] 2026-08-13 Taking and Importing Marine Mammals; Taking Marine Mammals Incidental to Geophysical Surveys Related to Oil and Gas Activities in the Gulf of America (evt_20260813_75c4312e3d)\n- [A] 2026-08-13 Agency Information Collection Activities: Information Collection Renewal; Comment Request; Conversions From Mutual to Stock Form (evt_20260813_57fb076325)\n- [A] 2026-08-13 Government-Owned Inventions; Availability for Licensing (evt_20260813_2450acf2ae)"
+      "body": "本日 350 件を観測。\n- [A] 2026-08-13 Adjusting Imports of Unmanned Aircraft Systems and Unmanned Aircraft Systems Components into the United States (evt_20260813_c3af08bc17)\n- [A] 2026-08-13 Rebuilding the United States Navy and America’s Shipbuilding Industrial Base (evt_20260813_a75a25a068)\n- [A] 2026-08-13 Contracts for Aug. 13, 2026 (evt_20260813_21e9c5ee49)\n- [A] 2026-08-13 Daily News 13 / 08 / 2026 (evt_20260813_2b53c0acbe)\n- [A] 2026-08-13 Change in Bank Control Notices; Acquisitions of Shares of a Bank or Bank Holding Company (evt_20260813_0ad467aaa1)\n- [A] 2026-08-13 Toyota Motor North America, Inc., Grant of Petition for Decision of Inconsequential Noncompliance (evt_20260813_551e8ff2d1)\n- [A] 2026-08-13 Establishment of Class E Airspace; Havana, IL (evt_20260813_4d40946208)\n- [A] 2026-08-13 Records Schedules; Availability and Request for Comments (evt_20260813_3f6c5adb07)"
     },
     {
       "no": 3,
@@ -43,7 +43,7 @@
       "no": 6,
       "key": "technology_progress",
       "title": "技術革新の進展 (§8)",
-      "body": "本日 416 件を観測。\n- [B] 2026-08-13 Bring a Product Manager Mindset to Your Next Engineering Job (evt_20260813_f71bf06b7f)\n- [B] 2026-08-13 Nanoscale Imaging of Strain-Controlled Altermagnetic Domains in {\\alpha}-MnTe (evt_20260813_f750a720cb)\n- [B] 2026-08-13 RecSys Factory: Bounding LLM Agent Autonomy to Decision Points in the Industrial Recommender Lifecycle (evt_20260813_82dd4944fb)\n- [B] 2026-08-13 A Modular Agentic Framework for Synthetically Constrained Multi-Objective Hit-to-Lead Optimization (evt_20260813_654e598662)\n- [B] 2026-08-13 The Sleeping Agent: What Gist-Based Context Compression Loses and Why (evt_20260813_6873c2280f)\n- [B] 2026-08-13 Continual Learning in Transition (evt_20260813_7abcec2339)\n- [B] 2026-08-13 Domain-Aware Lightweight Spectral-Grouped Convolutions for Hyperspectral Fish Freshness Classification (evt_20260813_d29d8f3c5a)\n- [B] 2026-08-13 Making AI-Generated Feedback Matter: From Provision to Student Enactment (evt_20260813_2519002824)"
+      "body": "本日 418 件を観測。\n- [B] 2026-08-13 Bring a Product Manager Mindset to Your Next Engineering Job (evt_20260813_f71bf06b7f)\n- [B] 2026-08-13 Nanoscale Imaging of Strain-Controlled Altermagnetic Domains in {\\alpha}-MnTe (evt_20260813_f750a720cb)\n- [B] 2026-08-13 RecSys Factory: Bounding LLM Agent Autonomy to Decision Points in the Industrial Recommender Lifecycle (evt_20260813_82dd4944fb)\n- [B] 2026-08-13 A Modular Agentic Framework for Synthetically Constrained Multi-Objective Hit-to-Lead Optimization (evt_20260813_654e598662)\n- [B] 2026-08-13 The Sleeping Agent: What Gist-Based Context Compression Loses and Why (evt_20260813_6873c2280f)\n- [B] 2026-08-13 Continual Learning in Transition (evt_20260813_7abcec2339)\n- [B] 2026-08-13 Domain-Aware Lightweight Spectral-Grouped Convolutions for Hyperspectral Fish Freshness Classification (evt_20260813_d29d8f3c5a)\n- [B] 2026-08-13 Making AI-Generated Feedback Matter: From Provision to Student Enactment (evt_20260813_2519002824)"
     },
     {
       "no": 7,
@@ -109,7 +109,7 @@
   "prohibited_output_check": {
     "contains_ticker_recommendation": false,
     "contains_ranking": false,
-    "checked_at": "2026-08-13T21:30:41Z"
+    "checked_at": "2026-08-13T22:07:45Z"
   },
   "schema_version": "1.0"
 }
