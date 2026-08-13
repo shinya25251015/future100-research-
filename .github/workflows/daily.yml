@@ -46,12 +46,15 @@ jobs:
         run: |
           git config user.name "future100-bot"
           git config user.email "noreply@github.com"
-          git add data/
+          # 日次サイクルが書き出すのは data/（観測履歴）と reports/（日次レポート）の両方。
+          # 片方だけ add すると作業ツリーが汚れたままになり、後続の rebase が止まる。
+          git add data/ reports/
           if git diff --cached --quiet; then
             echo "no new observations"
             exit 0
           fi
           git commit -m "observations: $(date -u +%Y-%m-%d)"
-          # 同時刻に他の push があった場合に備えて rebase してから送る
-          git pull --rebase origin "${GITHUB_REF_NAME}"
+          # 同時刻に他の push があった場合に備えて rebase してから送る。
+          # --autostash は取りこぼした未追跡・未ステージの変更で止まらないための保険。
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
