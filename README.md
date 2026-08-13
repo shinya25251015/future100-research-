@@ -28,6 +28,7 @@ python3 scripts/collect.py                 # data/raw/ にスナップショッ�
 python3 scripts/normalize.py               # raw → data/events/（重複統合込み）
 python3 scripts/detect_signals.py          # 弱いシグナルの同時増加を集計 (§10)
 python3 scripts/analyze_sector.py --list   # セクターごとの根拠件数を確認 (§20-34)
+python3 scripts/build_report.py            # 日次レポート 16 項目を生成 (§47)
 python3 scripts/validate_data.py           # スキーマ + 仕様書不変条件の検査
 
 python3 -m pytest tests -q                 # テスト（pytest が無ければ各ファイルを直接実行）

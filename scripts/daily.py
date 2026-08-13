@@ -43,20 +43,24 @@ def main() -> int:
 
     if not args.skip_collect:
         # 収集の失敗は当日の観測を減らすだけで、後続の処理は続ける
-        step("1/4 collect", ["scripts/collect.py"])
+        step("1/5 collect", ["scripts/collect.py"])
     else:
-        print("\n=== 1/4 collect (skipped) ===")
+        print("\n=== 1/5 collect (skipped) ===")
 
-    if step("2/4 normalize", ["scripts/normalize.py"]) != 0:
+    if step("2/5 normalize", ["scripts/normalize.py"]) != 0:
         print("normalize failed", file=sys.stderr)
         return 1
 
-    if step("3/4 detect signals", ["scripts/detect_signals.py", "--as-of", as_of,
+    if step("3/5 detect signals", ["scripts/detect_signals.py", "--as-of", as_of,
                                    "--window-days", str(args.window_days)]) != 0:
         print("signal detection failed", file=sys.stderr)
         return 1
 
-    code = step("4/4 validate", ["scripts/validate_data.py", "--as-of", as_of])
+    if step("4/5 build report", ["scripts/build_report.py", "--as-of", as_of]) != 0:
+        print("report generation failed", file=sys.stderr)
+        return 1
+
+    code = step("5/5 validate", ["scripts/validate_data.py", "--as-of", as_of])
     print(f"\ndaily cycle finished with exit code {code}")
     return code
 

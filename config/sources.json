@@ -13,7 +13,10 @@
       "kind": "rss",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases.htm",
       "endpoint": "https://www.federalreserve.gov/feeds/press_all.xml",
-      "categories": ["macro", "policy_regulation"],
+      "categories": [
+        "macro",
+        "policy_regulation"
+      ],
       "poll_interval_minutes": 360,
       "enabled": true
     },
@@ -32,10 +35,15 @@
         "items_path": "results",
         "url": "html_url",
         "title": "title",
-        "body": ["abstract", "action"],
+        "body": [
+          "abstract",
+          "action"
+        ],
         "published_at": "publication_date"
       },
-      "categories": ["policy_regulation"],
+      "categories": [
+        "policy_regulation"
+      ],
       "poll_interval_minutes": 720,
       "enabled": true,
       "notes": "輸出規制・補助金・関税の一次情報。BIS/DOE/DOD の規則もここに載る (§4)。RSS 版は bot 対策ページに転送されるため公式 JSON API を使う。"
@@ -51,7 +59,11 @@
       "kind": "atom",
       "url": "https://www.meti.go.jp/",
       "endpoint": "https://www.meti.go.jp/ml_index_release_atom.xml",
-      "categories": ["policy_regulation", "capex", "technology"],
+      "categories": [
+        "policy_regulation",
+        "capex",
+        "technology"
+      ],
       "poll_interval_minutes": 360,
       "enabled": false,
       "notes": "GX・半導体・蓄電池・防衛産業政策の一次情報 (§4)。実行環境から HTTP 403（アクセス元制限）。国内 IP からの実行、または e-Gov / 官報経由の代替経路が必要。Phase 2 の必須課題。"
@@ -67,7 +79,9 @@
       "kind": "rss",
       "url": "https://www.boj.or.jp/",
       "endpoint": "https://www.boj.or.jp/rss/whatsnew.xml",
-      "categories": ["macro"],
+      "categories": [
+        "macro"
+      ],
       "poll_interval_minutes": 360,
       "enabled": true
     },
@@ -82,7 +96,10 @@
       "kind": "rss",
       "url": "https://ec.europa.eu/commission/presscorner/",
       "endpoint": "https://ec.europa.eu/commission/presscorner/api/rss?language=en&pagesize=30",
-      "categories": ["policy_regulation", "geopolitics"],
+      "categories": [
+        "policy_regulation",
+        "geopolitics"
+      ],
       "poll_interval_minutes": 720,
       "enabled": true
     },
@@ -97,7 +114,11 @@
       "kind": "rss",
       "url": "https://www.iea.org/news",
       "endpoint": "https://www.iea.org/rss/news",
-      "categories": ["macro", "resource", "policy_regulation"],
+      "categories": [
+        "macro",
+        "resource",
+        "policy_regulation"
+      ],
       "poll_interval_minutes": 1440,
       "enabled": false,
       "notes": "電力・エネルギー需給の一次統計への入口 (§6, §13)。実行環境から HTTP 403（bot 対策）。代替として IEA の統計 CSV 直リンク経由を Phase 2 後半で検討する。"
@@ -113,7 +134,9 @@
       "kind": "rss",
       "url": "https://arxiv.org/list/cs.AI/recent",
       "endpoint": "https://rss.arxiv.org/rss/cs.AI",
-      "categories": ["technology"],
+      "categories": [
+        "technology"
+      ],
       "poll_interval_minutes": 1440,
       "enabled": true,
       "notes": "論文数は Early Signal の一種。件数の急増を signal_type=paper として数える (§10)。"
@@ -129,7 +152,10 @@
       "kind": "rss",
       "url": "https://arxiv.org/list/cond-mat.mtrl-sci/recent",
       "endpoint": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
-      "categories": ["technology", "resource"],
+      "categories": [
+        "technology",
+        "resource"
+      ],
       "poll_interval_minutes": 1440,
       "enabled": true
     },
@@ -144,7 +170,11 @@
       "kind": "rss",
       "url": "https://nvidianews.nvidia.com/",
       "endpoint": "https://nvidianews.nvidia.com/releases.xml",
-      "categories": ["capex", "technology", "corporate_action"],
+      "categories": [
+        "corporate_action",
+        "capex",
+        "technology"
+      ],
       "poll_interval_minutes": 720,
       "enabled": true,
       "notes": "Capex 起点の連鎖分析の入口。個別銘柄評価には使わない (§1, §7)。"
@@ -160,7 +190,9 @@
       "kind": "rss",
       "url": "https://spectrum.ieee.org/",
       "endpoint": "https://spectrum.ieee.org/feeds/feed.rss",
-      "categories": ["technology"],
+      "categories": [
+        "technology"
+      ],
       "poll_interval_minutes": 1440,
       "enabled": true
     },
@@ -175,7 +207,11 @@
       "kind": "rss",
       "url": "https://www.energy.gov/articles",
       "endpoint": "https://www.energy.gov/rss.xml",
-      "categories": ["policy_regulation", "technology", "capex"],
+      "categories": [
+        "policy_regulation",
+        "technology",
+        "capex"
+      ],
       "poll_interval_minutes": 720,
       "enabled": true
     },
@@ -190,7 +226,10 @@
       "kind": "rss",
       "url": "https://www.whitehouse.gov/presidential-actions/",
       "endpoint": "https://www.whitehouse.gov/presidential-actions/feed/",
-      "categories": ["policy_regulation", "geopolitics"],
+      "categories": [
+        "policy_regulation",
+        "geopolitics"
+      ],
       "poll_interval_minutes": 360,
       "enabled": true,
       "notes": "関税・輸出規制・非常事態宣言などの起点 (§4-5)。Federal Register より早く出る。"
@@ -206,7 +245,11 @@
       "kind": "rss",
       "url": "https://newsroom.intel.com/",
       "endpoint": "https://newsroom.intel.com/feed",
-      "categories": ["capex", "technology", "corporate_action"],
+      "categories": [
+        "corporate_action",
+        "capex",
+        "technology"
+      ],
       "poll_interval_minutes": 720,
       "enabled": true,
       "notes": "§7 Capex 追跡。工場投資の発表から「次に何が不足するか」を辿る。個別銘柄評価には使わない (§1)。"
@@ -222,7 +265,11 @@
       "kind": "rss",
       "url": "https://news.samsung.com/global/",
       "endpoint": "https://news.samsung.com/global/feed",
-      "categories": ["capex", "technology", "corporate_action"],
+      "categories": [
+        "corporate_action",
+        "capex",
+        "technology"
+      ],
       "poll_interval_minutes": 720,
       "enabled": true,
       "notes": "§7 Capex 追跡。半導体・電池・ディスプレイの設備投資。"
@@ -238,7 +285,11 @@
       "kind": "rss",
       "url": "https://news.microsoft.com/",
       "endpoint": "https://news.microsoft.com/feed/",
-      "categories": ["capex", "technology", "corporate_action"],
+      "categories": [
+        "corporate_action",
+        "capex",
+        "technology"
+      ],
       "poll_interval_minutes": 720,
       "enabled": true,
       "notes": "§7 Capex 追跡。データセンター投資は電力・冷却・送配電への連鎖の起点になる (§17-19)。"
@@ -254,7 +305,11 @@
       "kind": "rss",
       "url": "https://pr.tsmc.com/",
       "endpoint": "https://pr.tsmc.com/rss/news",
-      "categories": ["capex", "technology"],
+      "categories": [
+        "corporate_action",
+        "capex",
+        "technology"
+      ],
       "poll_interval_minutes": 720,
       "enabled": false,
       "notes": "§7 が名指しする Capex 追跡先だが実行環境から HTTP 403。台湾証券取引所の公開情報 (MOPS) 経由を検討する。"
@@ -271,8 +326,12 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=D",
       "endpoint": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=D&output=atom&count=100",
       "user_agent": "future100-research ${FUTURE100_CONTACT_EMAIL}",
-      "categories": ["corporate_action"],
-      "default_signal_types": ["vc_investment"],
+      "categories": [
+        "corporate_action"
+      ],
+      "default_signal_types": [
+        "vc_investment"
+      ],
       "poll_interval_minutes": 720,
       "enabled": true,
       "notes": "§10 の VC 投資シグナルの一次情報。Form D は未公開企業の証券発行届出で、資金調達の発生そのものを示す。既定 UA では 403 になるため連絡先入りの UA を指定している。"
@@ -288,8 +347,13 @@
       "kind": "rss",
       "url": "https://www.war.gov/News/Contracts/",
       "endpoint": "https://www.war.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=400&Site=945&max=30",
-      "categories": ["policy_regulation", "capex"],
-      "default_signal_types": ["procurement"],
+      "categories": [
+        "policy_regulation",
+        "capex"
+      ],
+      "default_signal_types": [
+        "procurement"
+      ],
       "poll_interval_minutes": 720,
       "enabled": true,
       "notes": "§10 の調達シグナル。日次の契約公告そのもの (ContentType=400)。ContentType=9 は一般のプレスリリースで契約以外も混じるため使わない。defense.gov からの転送先 war.gov を直接指定している。"
@@ -309,10 +373,27 @@
       "lookback_days": 7,
       "body": {
         "filters": {
-          "award_type_codes": ["A", "B", "C", "D"],
-          "time_period": [{ "start_date": "{{start_date}}", "end_date": "{{end_date}}" }]
+          "award_type_codes": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "time_period": [
+            {
+              "start_date": "{{start_date}}",
+              "end_date": "{{end_date}}"
+            }
+          ]
         },
-        "fields": ["Award ID", "Recipient Name", "Award Amount", "Description", "Awarding Agency", "Last Modified Date"],
+        "fields": [
+          "Award ID",
+          "Recipient Name",
+          "Award Amount",
+          "Description",
+          "Awarding Agency",
+          "Last Modified Date"
+        ],
         "limit": 100,
         "sort": "Last Modified Date",
         "order": "desc"
@@ -321,11 +402,20 @@
         "items_path": "results",
         "url_template": "https://www.usaspending.gov/award/{generated_internal_id}",
         "title": "Description",
-        "body": ["Recipient Name", "Awarding Agency", "Award ID"],
+        "body": [
+          "Recipient Name",
+          "Awarding Agency",
+          "Award ID"
+        ],
         "published_at": "Last Modified Date"
       },
-      "categories": ["capex", "policy_regulation"],
-      "default_signal_types": ["procurement"],
+      "categories": [
+        "capex",
+        "policy_regulation"
+      ],
+      "default_signal_types": [
+        "procurement"
+      ],
       "poll_interval_minutes": 1440,
       "enabled": true,
       "notes": "§10 の調達シグナルを金額付きで取得する。政府の需要がどの分野に向いたかを直接示す一次データ。Start Date は契約の履行開始日で数十年前になることがあるため、直近の動きを表す Last Modified Date を発生時刻に使う。"
@@ -341,7 +431,10 @@
       "kind": "rss",
       "url": "https://www.nasa.gov/news/",
       "endpoint": "https://www.nasa.gov/news-release/feed/",
-      "categories": ["technology", "capex"],
+      "categories": [
+        "technology",
+        "capex"
+      ],
       "poll_interval_minutes": 1440,
       "enabled": true
     },
@@ -356,7 +449,10 @@
       "kind": "rss",
       "url": "https://www.esa.int/",
       "endpoint": "https://www.esa.int/rssfeed/Our_Activities/Space_Transportation",
-      "categories": ["technology", "capex"],
+      "categories": [
+        "technology",
+        "capex"
+      ],
       "poll_interval_minutes": 1440,
       "enabled": true
     },
@@ -370,8 +466,12 @@
       "reliability": "A",
       "kind": "json_api",
       "url": "https://data.uspto.gov/",
-      "categories": ["technology"],
-      "default_signal_types": ["patent"],
+      "categories": [
+        "technology"
+      ],
+      "default_signal_types": [
+        "patent"
+      ],
       "poll_interval_minutes": 1440,
       "enabled": false,
       "notes": "§10 の特許シグナル。2026 年時点で PatentsView v1・data.uspto.gov とも API キーが必須（旧 api.patentsview.org は廃止）。キーを取得したら endpoint と mapping を設定して有効化する。特許は Early Signal の中核なので Phase 2 の重要課題。"
@@ -386,7 +486,10 @@
       "reliability": "A",
       "kind": "html",
       "url": "https://www.jpo.go.jp/news/index.html",
-      "categories": ["policy_regulation", "technology"],
+      "categories": [
+        "policy_regulation",
+        "technology"
+      ],
       "poll_interval_minutes": 1440,
       "enabled": false,
       "notes": "実行環境から HTTP 403。経産省・特許庁とも同じ遮断パターンで、日本の政府系サイトはアクセス元を制限している可能性が高い。国内 IP からの実行が必要。"
@@ -401,7 +504,10 @@
       "reliability": "A",
       "kind": "html",
       "url": "https://www.bis.gov/press-release",
-      "categories": ["policy_regulation", "geopolitics"],
+      "categories": [
+        "policy_regulation",
+        "geopolitics"
+      ],
       "poll_interval_minutes": 720,
       "enabled": false,
       "notes": "フィード未提供。当面は src_us_federal_register 経由で捕捉し、Phase 2 後半で HTML コレクタを実装する (§4-5)。"

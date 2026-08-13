@@ -22,16 +22,6 @@
   },
   "counts": [
     {
-      "signal_type": "new_standard",
-      "count": 3,
-      "baseline_count": 0.0,
-      "event_ids": [
-        "evt_20260813_af41802ac9",
-        "evt_20260813_70625f70f4",
-        "evt_20260813_532783fe78"
-      ]
-    },
-    {
       "signal_type": "paper",
       "count": 16,
       "baseline_count": 0.0,
@@ -77,10 +67,10 @@
     "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
   },
   "co_occurrence": {
-    "distinct_signal_types": 2,
+    "distinct_signal_types": 1,
     "distinct_sources": 3,
     "distinct_regions": 1,
-    "score": 54.2,
+    "score": 41.7,
     "threshold_met": false
   },
   "promotion": {

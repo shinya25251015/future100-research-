@@ -59,11 +59,12 @@ def normalize_document(document: dict, source: dict, index: dedup.ClusterIndex) 
     )
 
     reliability = source["reliability"]
+    signal_types = detect_signal_types(text, source)
     event = {
         "event_id": event_id,
         "cluster_id": cluster_id,
         "is_cluster_primary": is_primary,
-        "category": _category(source),
+        "category": _category(source, signal_types),
         "title": title,
         "summary": _summarize(body or title),
         "observed_at": observed_at,
@@ -78,7 +79,7 @@ def normalize_document(document: dict, source: dict, index: dedup.ClusterIndex) 
                 "role": "initiator",
             }
         ],
-        "signal_types": detect_signal_types(text, source),
+        "signal_types": signal_types,
         "sector_links": detect_sector_links(text),
         "sources": [
             {
@@ -236,7 +237,26 @@ def run(*, limit: int | None = None) -> NormalizeStats:
     return stats
 
 
-def _category(source: dict) -> str:
+# シグナル種別から導けるカテゴリ。上にあるものを優先する。
+# 1 ソースが複数領域を出すため（企業広報は新製品も設備投資も同じフィードに流す）、
+# ソース単位の既定値だけでは「§7 世界の設備投資」に新製品ニュースが並ぶ。
+_SIGNAL_TO_CATEGORY = (
+    # 論文・特許は、本文にどんな語が出てこようとまず論文・特許である。
+    # これを後ろに置くと、要旨に "construction of" を含む論文が設備投資に分類される。
+    (("patent", "paper"), "technology"),
+    (("capex_guidance", "new_facility"), "capex"),
+    (("export_control", "procurement", "subsidy", "government_budget"), "policy_regulation"),
+    (("supply_contract",), "supply_demand"),
+    (("new_standard",), "standard"),
+    (("vc_investment",), "corporate_action"),
+)
+
+
+def _category(source: dict, signal_types: list[str] | None = None) -> str:
+    """イベントの分類。シグナルから導ければそれを優先し、無ければソースの既定値。"""
+    for types, category in _SIGNAL_TO_CATEGORY:
+        if any(t in (signal_types or ()) for t in types):
+            return category
     categories = source.get("categories") or []
     return categories[0] if categories else "market_data"
 

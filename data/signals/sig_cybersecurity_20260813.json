@@ -22,14 +22,6 @@
   },
   "counts": [
     {
-      "signal_type": "new_standard",
-      "count": 1,
-      "baseline_count": 0.0,
-      "event_ids": [
-        "evt_20260813_98bf2d9620"
-      ]
-    },
-    {
       "signal_type": "paper",
       "count": 5,
       "baseline_count": 0.0,

@@ -25,16 +25,9 @@
   },
   "counts": [
     {
-      "signal_type": "new_facility",
-      "count": 0,
-      "baseline_count": 0.25,
-      "event_ids": [],
-      "delta_ratio": -1.0
-    },
-    {
       "signal_type": "new_standard",
       "count": 0,
-      "baseline_count": 0.5,
+      "baseline_count": 0.25,
       "event_ids": [],
       "delta_ratio": -1.0
     },

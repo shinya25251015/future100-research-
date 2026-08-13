@@ -21,16 +21,7 @@
     "is_new_concept": false,
     "sector_id": "sec_healthcare"
   },
-  "counts": [
-    {
-      "signal_type": "new_standard",
-      "count": 1,
-      "baseline_count": 0.0,
-      "event_ids": [
-        "evt_20260813_04bf0fccab"
-      ]
-    }
-  ],
+  "counts": [],
   "coverage": {
     "baseline_covered": false,
     "sources": [],

@@ -89,19 +89,25 @@
       "any": [
         "new plant",
         "new fab",
-        "groundbreaking",
-        "construction of",
+        "new factory",
+        "plant construction",
+        "fab construction",
+        "production capacity expansion",
         "新工場",
+        "工場建設",
         "着工",
-        "増設",
-        "生産能力"
+        "量産開始",
+        "生産能力を増強"
       ]
     },
     {
       "signal_type": "new_standard",
       "any": [
-        "standard",
+        "technical standard",
+        "industry standard",
+        "standard released",
         "specification released",
+        "standards body",
         "consortium",
         "規格",
         "標準化"
