@@ -9,6 +9,7 @@ from __future__ import annotations
 import hashlib
 import re
 import unicodedata
+from functools import lru_cache
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 # 内容に影響しない追跡パラメータ。canonical URL から除去する。
@@ -107,6 +108,29 @@ def similarity(a: set[str], b: set[str]) -> float:
     if smaller < MIN_TOKENS_FOR_CONTAINMENT:
         return inter / len(a | b)
     return inter / smaller
+
+
+@lru_cache(maxsize=64)
+def keyword_pattern(keywords: tuple[str, ...]) -> re.Pattern[str] | None:
+    """キーワード群を語境界つきの正規表現にまとめる。
+
+    単純な部分一致だと英語のキーワードが無関係な文に当たる。実測では
+    "transformer"（電力の変圧器）が機械学習の Transformer 論文に、
+    "space"（宇宙）が "latent space" に当たり、あるセクターの根拠の大半が
+    無関係な論文で埋まっていた。
+
+      - 英字を含む語 … 前後に語境界を要求し、末尾の複数形 (s / es) だけ許す
+                       （"ai" が "aim" に当たらず、"patents" は "patent" に当たる）
+      - 日本語       … 語境界の概念が無いのでそのまま部分一致
+    """
+    parts = []
+    for keyword in keywords:
+        escaped = re.escape(normalize_text(keyword))
+        if re.search(r"[a-z]", keyword.lower()):
+            parts.append(rf"\b{escaped}(?:e?s)?\b")
+        else:
+            parts.append(escaped)
+    return re.compile("|".join(parts)) if parts else None
 
 
 def short_hash(*parts: str, length: int = 10) -> str:

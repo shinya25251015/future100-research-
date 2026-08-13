@@ -11,43 +11,33 @@
     "label": "ロボティクス",
     "keywords": [
       "robot",
+      "robotic",
       "humanoid",
-      "automation",
+      "factory automation",
       "ロボット",
-      "自動化"
+      "産業用ロボット"
     ],
     "is_new_concept": false,
     "sector_id": "sec_robotics"
   },
   "counts": [
     {
-      "signal_type": "new_facility",
-      "count": 0,
-      "baseline_count": 0.25,
-      "event_ids": [],
-      "delta_ratio": -1.0
-    },
-    {
       "signal_type": "new_standard",
       "count": 3,
-      "baseline_count": 0.25,
+      "baseline_count": 0.0,
       "event_ids": [
         "evt_20260813_af41802ac9",
         "evt_20260813_70625f70f4",
         "evt_20260813_532783fe78"
-      ],
-      "delta_ratio": 11.0
+      ]
     },
     {
       "signal_type": "paper",
-      "count": 22,
+      "count": 16,
       "baseline_count": 0.0,
       "event_ids": [
-        "evt_20260813_a623ff3c6b",
-        "evt_20260813_dcf143b8ab",
         "evt_20260813_d78d0c6c6b",
         "evt_20260813_9220572ddd",
-        "evt_20260813_519cba3a5f",
         "evt_20260813_32da9cce02",
         "evt_20260813_8d04c748f5",
         "evt_20260813_eb5638fff8",
@@ -56,13 +46,10 @@
         "evt_20260813_221e302984",
         "evt_20260813_19093f63a1",
         "evt_20260813_fedf4f603c",
-        "evt_20260813_421410fe33",
         "evt_20260813_af41802ac9",
         "evt_20260813_70625f70f4",
-        "evt_20260813_6f77e81eec",
         "evt_20260813_532783fe78",
         "evt_20260813_15af6162ca",
-        "evt_20260813_32ca972bc6",
         "evt_20260813_22b00e5952",
         "evt_20260813_f71bf06b7f"
       ]

@@ -15,10 +15,12 @@
       "wafer",
       "lithography",
       "euv",
+      "hbm",
+      "chip fab",
       "半導体",
       "前工程",
       "後工程",
-      "hbm"
+      "露光装置"
     ],
     "is_new_concept": false,
     "sector_id": "sec_semiconductor"

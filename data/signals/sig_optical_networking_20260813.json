@@ -10,59 +10,28 @@
   "topic": {
     "label": "光通信",
     "keywords": [
-      "optical",
-      "transceiver",
+      "optical transceiver",
+      "optical network",
       "silicon photonics",
+      "optical interconnect",
       "光通信",
-      "光トランシーバ"
+      "光トランシーバ",
+      "光ファイバ"
     ],
     "is_new_concept": false,
     "sector_id": "sec_optical_networking"
   },
-  "counts": [
-    {
-      "signal_type": "paper",
-      "count": 14,
-      "baseline_count": 0.0,
-      "event_ids": [
-        "evt_20260813_11dd24ebc5",
-        "evt_20260813_a84c710632",
-        "evt_20260813_3239ab887d",
-        "evt_20260813_7f127d8293",
-        "evt_20260813_f3a5f57968",
-        "evt_20260813_eb5638fff8",
-        "evt_20260813_7577b0591f",
-        "evt_20260813_89a913c484",
-        "evt_20260813_29fedffdd8",
-        "evt_20260813_48500e8704",
-        "evt_20260813_8c1a7306c7",
-        "evt_20260813_4062d8543b",
-        "evt_20260813_edb295df83",
-        "evt_20260813_6dbe44b17e"
-      ]
-    }
-  ],
+  "counts": [],
   "coverage": {
     "baseline_covered": false,
-    "sources": [
-      {
-        "source_id": "src_arxiv_cs_ai",
-        "observation_start": "2026-08-13T15:29:12Z",
-        "covers_baseline": false
-      },
-      {
-        "source_id": "src_arxiv_materials",
-        "observation_start": "2026-08-13T15:29:12Z",
-        "covers_baseline": false
-      }
-    ],
+    "sources": [],
     "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
   },
   "co_occurrence": {
-    "distinct_signal_types": 1,
-    "distinct_sources": 2,
-    "distinct_regions": 1,
-    "score": 34.2,
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
     "threshold_met": false
   },
   "promotion": {

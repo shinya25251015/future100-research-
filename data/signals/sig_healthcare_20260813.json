@@ -10,10 +10,11 @@
   "topic": {
     "label": "医療・ライフサイエンス",
     "keywords": [
-      "biotech",
-      "clinical",
-      "drug",
-      "医療",
+      "clinical trial",
+      "drug development",
+      "biotechnology",
+      "vaccine",
+      "医薬品",
       "創薬",
       "治験"
     ],
@@ -23,67 +24,23 @@
   "counts": [
     {
       "signal_type": "new_standard",
-      "count": 3,
+      "count": 1,
       "baseline_count": 0.0,
       "event_ids": [
-        "evt_20260813_ff868e8ef9",
-        "evt_20260813_b404293b02",
-        "evt_20260813_f735de5225"
-      ]
-    },
-    {
-      "signal_type": "paper",
-      "count": 15,
-      "baseline_count": 0.0,
-      "event_ids": [
-        "evt_20260813_654e598662",
-        "evt_20260813_357a935775",
-        "evt_20260813_8af5c66c6b",
-        "evt_20260813_c8c169b4db",
-        "evt_20260813_ff868e8ef9",
-        "evt_20260813_dbdcc87337",
-        "evt_20260813_aa5aabe25a",
-        "evt_20260813_b404293b02",
-        "evt_20260813_ef73b2c401",
-        "evt_20260813_73f7ea666c",
-        "evt_20260813_f735de5225",
-        "evt_20260813_83dfbaa81e",
-        "evt_20260813_3a68e0c4f1",
-        "evt_20260813_07e94bc5e3",
-        "evt_20260813_db7a0a43ec"
-      ]
-    },
-    {
-      "signal_type": "procurement",
-      "count": 2,
-      "baseline_count": 0.0,
-      "event_ids": [
-        "evt_20260813_2a54233b3e",
-        "evt_20260813_6c5a19dff5"
+        "evt_20260813_04bf0fccab"
       ]
     }
   ],
   "coverage": {
     "baseline_covered": false,
-    "sources": [
-      {
-        "source_id": "src_arxiv_cs_ai",
-        "observation_start": "2026-08-13T15:29:12Z",
-        "covers_baseline": false
-      },
-      {
-        "source_id": "src_usaspending_awards",
-        "observation_start": "2026-08-13T16:08:40Z",
-        "covers_baseline": false
-      }
-    ],
+    "sources": [],
     "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
   },
   "co_occurrence": {
-    "distinct_signal_types": 3,
-    "distinct_sources": 2,
-    "distinct_regions": 2,
-    "score": 65.8,
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
     "threshold_met": false
   },
   "promotion": {

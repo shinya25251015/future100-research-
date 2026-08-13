@@ -146,16 +146,23 @@ def detect_signal_types(text: str, source: dict | None = None) -> list[str]:
     return sorted(hits)
 
 
+@lru_cache(maxsize=1)
+def _sector_patterns() -> tuple[tuple[str, re.Pattern[str]], ...]:
+    return tuple(
+        (sector["sector_id"], pattern)
+        for sector in config.load_known_sectors()
+        if (pattern := textnorm.keyword_pattern(tuple(sector["keywords"]))) is not None
+    )
+
+
 def detect_sector_links(text: str) -> list[dict]:
     """既知セクターへの一次紐付け。方向は付けず、Phase 3 の評価に委ねる。"""
     norm = textnorm.normalize_text(text)
-    links = []
-    for sector in config.load_known_sectors():
-        if any(keyword in norm for keyword in sector["keywords"]):
-            links.append(
-                {"sector_id": sector["sector_id"], "relation": "unclassified", "confidence": "low"}
-            )
-    return links
+    return [
+        {"sector_id": sector_id, "relation": "unclassified", "confidence": "low"}
+        for sector_id, pattern in _sector_patterns()
+        if pattern.search(norm)
+    ]
 
 
 def rebuild() -> NormalizeStats:

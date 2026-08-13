@@ -12,26 +12,18 @@
     "keywords": [
       "rare earth",
       "critical mineral",
-      "lithium",
-      "copper",
+      "lithium supply",
       "gallium",
+      "germanium",
+      "copper supply",
       "レアアース",
       "重要鉱物",
-      "銅"
+      "資源確保"
     ],
     "is_new_concept": false,
     "sector_id": "sec_critical_minerals"
   },
-  "counts": [
-    {
-      "signal_type": "patent",
-      "count": 1,
-      "baseline_count": 0.0,
-      "event_ids": [
-        "evt_20260813_4975c9c601"
-      ]
-    }
-  ],
+  "counts": [],
   "coverage": {
     "baseline_covered": false,
     "sources": [],

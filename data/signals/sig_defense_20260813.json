@@ -10,43 +10,30 @@
   "topic": {
     "label": "防衛",
     "keywords": [
-      "defense",
-      "defence",
+      "defense contract",
+      "defense department",
+      "defence ministry",
       "munitions",
       "missile",
-      "防衛",
+      "warship",
+      "防衛省",
+      "防衛装備",
       "装備品"
     ],
     "is_new_concept": false,
     "sector_id": "sec_defense"
   },
-  "counts": [
-    {
-      "signal_type": "paper",
-      "count": 2,
-      "baseline_count": 0.0,
-      "event_ids": [
-        "evt_20260813_047b962b39",
-        "evt_20260813_cba36ddceb"
-      ]
-    }
-  ],
+  "counts": [],
   "coverage": {
     "baseline_covered": false,
-    "sources": [
-      {
-        "source_id": "src_arxiv_cs_ai",
-        "observation_start": "2026-08-13T15:29:12Z",
-        "covers_baseline": false
-      }
-    ],
+    "sources": [],
     "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
   },
   "co_occurrence": {
-    "distinct_signal_types": 1,
-    "distinct_sources": 1,
-    "distinct_regions": 1,
-    "score": 26.7,
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
     "threshold_met": false
   },
   "promotion": {

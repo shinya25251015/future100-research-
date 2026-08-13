@@ -11,22 +11,13 @@
     "label": "CPO (Co-Packaged Optics)",
     "keywords": [
       "co-packaged optics",
-      "cpo",
-      "co packaged"
+      "co packaged optics",
+      "cpo"
     ],
     "is_new_concept": false,
     "sector_id": "sec_cpo"
   },
-  "counts": [
-    {
-      "signal_type": "paper",
-      "count": 1,
-      "baseline_count": 0.0,
-      "event_ids": [
-        "evt_20260813_34718c3d85"
-      ]
-    }
-  ],
+  "counts": [],
   "coverage": {
     "baseline_covered": false,
     "sources": [],

@@ -66,10 +66,11 @@ class Topic:
         """セクター紐付け、またはキーワード一致で対象とみなす。"""
         if self.sector_id and any(link["sector_id"] == self.sector_id for link in event.get("sector_links", [])):
             return True
-        if not self.keywords:
+        pattern = textnorm.keyword_pattern(tuple(self.keywords))
+        if pattern is None:
             return False
         haystack = textnorm.normalize_text(f"{event['title']}\n{event.get('summary', '')}")
-        return any(keyword in haystack for keyword in self.keywords)
+        return bool(pattern.search(haystack))
 
 
 @dataclass
