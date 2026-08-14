@@ -1,6 +1,6 @@
 {
   "window_id": "sig_robotics_20260814",
-  "as_of": "2026-08-14T10:27:27Z",
+  "as_of": "2026-08-14T10:50:22Z",
   "window": {
     "start": "2026-08-08",
     "end": "2026-08-14",
@@ -23,8 +23,8 @@
   "counts": [
     {
       "signal_type": "paper",
-      "count": 27,
-      "baseline_count": 21.5,
+      "count": 44,
+      "baseline_count": 47.0,
       "event_ids": [
         "evt_20260813_d78d0c6c6b",
         "evt_20260813_9220572ddd",
@@ -44,45 +44,55 @@
         "evt_20260813_f71bf06b7f",
         "evt_20260814_b594eee055",
         "evt_20260814_38ba4e8891",
+        "evt_20260814_3e74b2c782",
         "evt_20260814_0343821a5c",
+        "evt_20260814_13e7e6a316",
         "evt_20260814_c865b9b21f",
+        "evt_20260814_c88ec87d1c",
+        "evt_20260814_02cdc3e70e",
         "evt_20260814_cad61b61d5",
+        "evt_20260814_acc501e682",
         "evt_20260814_24e0c6f159",
+        "evt_20260814_0ca8190181",
+        "evt_20260814_9a50ce20cb",
+        "evt_20260814_18f1cb2172",
+        "evt_20260814_b411ee9948",
         "evt_20260814_35d8f103ba",
+        "evt_20260814_0dc8752a89",
+        "evt_20260814_b778249fa4",
+        "evt_20260814_bf8b5bc529",
         "evt_20260814_b0602d67ff",
+        "evt_20260814_81b515344a",
+        "evt_20260814_7dfcf416ae",
         "evt_20260814_7ad8b3d272",
         "evt_20260814_95e3b9a7f1",
-        "evt_20260814_6ce13eb3d9"
+        "evt_20260814_c4d8c93cac",
+        "evt_20260814_e8596ba403",
+        "evt_20260814_6ce13eb3d9",
+        "evt_20260814_ec4370c62b"
       ],
-      "delta_ratio": 0.256
+      "delta_ratio": -0.064
+    },
+    {
+      "signal_type": "procurement",
+      "count": 1,
+      "baseline_count": 0.25,
+      "event_ids": [
+        "evt_20260814_9b7ba61e46"
+      ],
+      "delta_ratio": 3.0
     }
   ],
   "coverage": {
     "baseline_covered": false,
-    "sources": [
-      {
-        "source_id": "src_arxiv_cs_ai",
-        "observation_start": "2026-07-11T00:00:00Z",
-        "covers_baseline": true
-      },
-      {
-        "source_id": "src_arxiv_materials",
-        "observation_start": "2026-07-11T00:00:00Z",
-        "covers_baseline": true
-      },
-      {
-        "source_id": "src_ieee_spectrum",
-        "observation_start": "2026-08-13T15:29:13Z",
-        "covers_baseline": false
-      }
-    ],
+    "sources": [],
     "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
   },
   "co_occurrence": {
-    "distinct_signal_types": 1,
-    "distinct_sources": 3,
-    "distinct_regions": 1,
-    "score": 41.7,
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
     "threshold_met": false
   },
   "promotion": {

@@ -1,6 +1,6 @@
 {
   "window_id": "sig_healthcare_20260814",
-  "as_of": "2026-08-14T10:27:27Z",
+  "as_of": "2026-08-14T10:50:22Z",
   "window": {
     "start": "2026-08-08",
     "end": "2026-08-14",
@@ -25,47 +25,36 @@
     {
       "signal_type": "paper",
       "count": 1,
-      "baseline_count": 1.25,
+      "baseline_count": 3.0,
       "event_ids": [
         "evt_20260814_ee02752f3b"
       ],
-      "delta_ratio": -0.2
+      "delta_ratio": -0.667
     },
     {
       "signal_type": "procurement",
-      "count": 2,
+      "count": 1,
       "baseline_count": 0.0,
       "event_ids": [
-        "evt_20260814_e0acf7df76",
         "evt_20260814_d95616391f"
       ]
     }
   ],
   "coverage": {
-    "baseline_covered": true,
-    "sources": [
-      {
-        "source_id": "src_us_federal_register",
-        "observation_start": "2026-07-11T00:00:00Z",
-        "covers_baseline": true
-      },
-      {
-        "source_id": "src_usaspending_awards",
-        "observation_start": "2026-07-11T00:00:00Z",
-        "covers_baseline": true
-      }
-    ]
+    "baseline_covered": false,
+    "sources": [],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
   },
   "co_occurrence": {
-    "distinct_signal_types": 1,
-    "distinct_sources": 2,
-    "distinct_regions": 1,
-    "score": 34.2,
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
     "threshold_met": false
   },
   "promotion": {
     "promoted": false,
-    "rationale": "同時増加のしきい値を満たさない。"
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
   },
   "schema_version": "1.0"
 }

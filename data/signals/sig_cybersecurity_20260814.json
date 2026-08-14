@@ -1,6 +1,6 @@
 {
   "window_id": "sig_cybersecurity_20260814",
-  "as_of": "2026-08-14T10:27:27Z",
+  "as_of": "2026-08-14T10:50:22Z",
   "window": {
     "start": "2026-08-08",
     "end": "2026-08-14",
@@ -23,8 +23,8 @@
   "counts": [
     {
       "signal_type": "paper",
-      "count": 8,
-      "baseline_count": 2.5,
+      "count": 11,
+      "baseline_count": 6.5,
       "event_ids": [
         "evt_20260813_e539434d42",
         "evt_20260813_a6b046b7dc",
@@ -32,10 +32,22 @@
         "evt_20260813_5052ab140e",
         "evt_20260813_cba36ddceb",
         "evt_20260814_7109c61407",
+        "evt_20260814_5e9079d80e",
+        "evt_20260814_dd26a85641",
         "evt_20260814_a714d0170c",
-        "evt_20260814_2a5621aad8"
+        "evt_20260814_2a5621aad8",
+        "evt_20260814_109844ec86"
       ],
-      "delta_ratio": 2.2
+      "delta_ratio": 0.692
+    },
+    {
+      "signal_type": "procurement",
+      "count": 1,
+      "baseline_count": 0.25,
+      "event_ids": [
+        "evt_20260814_864306d4a8"
+      ],
+      "delta_ratio": 3.0
     }
   ],
   "coverage": {

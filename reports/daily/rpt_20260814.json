@@ -1,10 +1,10 @@
 {
   "report_id": "rpt_20260814",
   "report_date": "2026-08-14",
-  "as_of": "2026-08-14T10:27:55Z",
+  "as_of": "2026-08-14T10:50:35Z",
   "coverage": {
-    "events_ingested": 8611,
-    "events_after_dedup": 8611,
+    "events_ingested": 11750,
+    "events_after_dedup": 11749,
     "sources_polled": 20,
     "sources_failed": []
   },
@@ -13,13 +13,13 @@
       "no": 1,
       "key": "executive_summary",
       "title": "本日の構造変化サマリ",
-      "body": "本日の観測は 8611 件。内訳（分類別）: technology 5916 / policy_regulation 2664 / standard 31。シグナル種別: paper 2228 / procurement 195 / export_control 63 / patent 31 / new_standard 31 / government_budget 9 / subsidy 7。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 10 件）。件数は観測量であって重要度ではない。"
+      "body": "本日の観測は 11749 件。内訳（分類別）: technology 5928 / policy_regulation 5792 / standard 29。シグナル種別: paper 5899 / procurement 3334 / export_control 63 / patent 32 / new_standard 31 / government_budget 10 / subsidy 7。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 11 件）。件数は観測量であって重要度ではない。"
     },
     {
       "no": 2,
       "key": "policy_regulation",
       "title": "政策・規制 (§4)",
-      "body": "本日 2664 件を観測。\n- [B] 2026-08-08 Guixu: Valuation-Driven Data Discovery for Autonomous AI Agents with On-Chain Attestation (evt_20260814_26e81f4c1e)\n- [B] 2026-08-05 The ethics of artificial intelligence in the life sciences: Universality, cultural diversity and an architecture of care (evt_20260814_43997d82c8)\n- [B] 2026-07-30 Scaling, Lock-In, and Proxy Compliance: A Political Economy of Responsible AI (evt_20260814_778dc34c96)\n- [B] 2026-07-29 When LLM Agents Negotiate: Private Information and Dynamic Bargaining in Supply Chains (evt_20260814_2ba1fe06c8)\n- [B] 2026-07-20 When Does Machine Learning Beat Value Sorting? A Three-Dataset Diagnostic of Exposure-Weighted Shipment Prioritization (evt_20260814_46624f807b)\n- [B] 2026-07-19 A Phased Development Framework Enabling Islanded Operation of Sustainable AI Data Centers With Onsite Grid-Following and Grid-Forming Energy Architectures (evt_20260814_0443b43004)\n- [B] 2026-07-17 Signal-based Model Access Risk Analysis for AI System Operations Security (evt_20260814_878bdcff20)\n- [B] 2026-07-12 Constraint-Aware Hierarchical Search for Regulation-Driven Fine-Grained Classification (evt_20260814_a5ef46742c)"
+      "body": "本日 5792 件を観測。\n- [A] 2026-08-14 Combined Notice of Filings (evt_20260814_8573873297)\n- [A] 2026-08-14 Agency Information Collection Activities; State Processes for Designating Areas Unsuitable for Surface Coal Mining Operations (evt_20260814_0be021adb5)\n- [A] 2026-08-14 Certain Polyvinylidene Flouride Resins; Notice of Request for Submissions on the Public Interest (evt_20260814_5422dc675d)\n- [A] 2026-08-14 Submission for Office of Management and Budget Review; Administration for Children and Families Generic for Information Collections Related to Gatherings (evt_20260814_3226e65392)\n- [A] 2026-08-14 Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammals Incidental to Ferry Berth Construction in Tongass Narrows in Ketchikan, Alaska (evt_20260814_473521c4bb)\n- [A] 2026-08-14 Atlantic Highly Migratory Species; Revisions to Fishing Gear Regulations (evt_20260814_7c6c04d054)\n- [A] 2026-08-14 Department Regulatory and Deregulatory Agenda; Summary (evt_20260814_755bcf4e08)\n- [A] 2026-08-14 Notice of Proposed Administrative Settlement Agreement and Order on Consent for De Minimins Contributors (evt_20260814_76abae9886)"
     },
     {
       "no": 3,
@@ -43,19 +43,19 @@
       "no": 6,
       "key": "technology_progress",
       "title": "技術革新の進展 (§8)",
-      "body": "本日 5916 件を観測。\n- [B] 2026-08-13 AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design (evt_20260814_ae977f5698)\n- [B] 2026-08-13 OmniScientist: An Omni-Modal Omni-Discipline AI Scientist (evt_20260814_b834015875)\n- [B] 2026-08-13 HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark (evt_20260814_c4d8c93cac)\n- [B] 2026-08-13 All-optical switching of nonlinear structured light in crystal-engineered van der Waals materials (evt_20260814_03e2195511)\n- [B] 2026-08-13 QuoteBench: How Matched Scores Can Hide Command-Path Failures (evt_20260814_a2c44267a7)\n- [B] 2026-08-13 LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure (evt_20260814_01911b913b)\n- [B] 2026-08-13 Insight into SRF cavity performance from simulations of Nb's surface oxide dissolution and diffusion (evt_20260814_27e08e61a3)\n- [B] 2026-08-13 Vero: Can AI Agents Build Formally Verified Software Repositories? (evt_20260814_b29b814b38)"
+      "body": "本日 5928 件を観測。\n- [B] 2026-08-13 AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design (evt_20260814_ae977f5698)\n- [B] 2026-08-13 OmniScientist: An Omni-Modal Omni-Discipline AI Scientist (evt_20260814_b834015875)\n- [B] 2026-08-13 HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark (evt_20260814_c4d8c93cac)\n- [B] 2026-08-13 All-optical switching of nonlinear structured light in crystal-engineered van der Waals materials (evt_20260814_03e2195511)\n- [B] 2026-08-13 QuoteBench: How Matched Scores Can Hide Command-Path Failures (evt_20260814_a2c44267a7)\n- [B] 2026-08-13 LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure (evt_20260814_01911b913b)\n- [B] 2026-08-13 Insight into SRF cavity performance from simulations of Nb's surface oxide dissolution and diffusion (evt_20260814_27e08e61a3)\n- [B] 2026-08-13 Vero: Can AI Agents Build Formally Verified Software Repositories? (evt_20260814_b29b814b38)"
     },
     {
       "no": 7,
       "key": "early_signals",
       "title": "Early Signal Detection (§10)",
-      "body": "しきい値を満たした topic はなし。うち 10 件は観測期間が baseline に届かず判定を保留している（取り込み開始による見かけの急増をシグナルとして扱わないため）。"
+      "body": "しきい値を満たした topic はなし。うち 11 件は観測期間が baseline に届かず判定を保留している（取り込み開始による見かけの急増をシグナルとして扱わないため）。"
     },
     {
       "no": 8,
       "key": "known_sector_monitor",
       "title": "既知セクター監視 (§11)",
-      "body": "常時監視 16 セクターの本日の観測件数。掲載順は設定ファイルの登録順であり、優劣や順位ではない (§44-46)。\n- AI / 計算基盤 (sec_ai_compute): 本日 1713 件\n- 半導体 (sec_semiconductor): 本日 121 件\n- 光通信 (sec_optical_networking): 本日 1 件\n- CPO (Co-Packaged Optics) (sec_cpo): 本日 2 件\n- 電力・送配電 (sec_power_grid): 本日 11 件\n- 原子力 (sec_nuclear): 本日 7 件\n- 核融合 (sec_fusion): 本日 9 件\n- 防衛 (sec_defense): 本日 5 件"
+      "body": "常時監視 16 セクターの本日の観測件数。掲載順は設定ファイルの登録順であり、優劣や順位ではない (§44-46)。\n- AI / 計算基盤 (sec_ai_compute): 本日 1714 件\n- 半導体 (sec_semiconductor): 本日 121 件\n- 光通信 (sec_optical_networking): 本日 1 件\n- CPO (Co-Packaged Optics) (sec_cpo): 本日 2 件\n- 電力・送配電 (sec_power_grid): 本日 12 件\n- 原子力 (sec_nuclear): 本日 7 件\n- 核融合 (sec_fusion): 本日 9 件\n- 防衛 (sec_defense): 本日 6 件"
     },
     {
       "no": 9,
@@ -109,7 +109,7 @@
   "prohibited_output_check": {
     "contains_ticker_recommendation": false,
     "contains_ranking": false,
-    "checked_at": "2026-08-14T10:27:55Z"
+    "checked_at": "2026-08-14T10:50:36Z"
   },
   "schema_version": "1.0"
 }

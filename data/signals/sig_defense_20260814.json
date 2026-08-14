@@ -1,6 +1,6 @@
 {
   "window_id": "sig_defense_20260814",
-  "as_of": "2026-08-14T10:27:27Z",
+  "as_of": "2026-08-14T10:50:22Z",
   "window": {
     "start": "2026-08-08",
     "end": "2026-08-14",
@@ -23,7 +23,15 @@
     "is_new_concept": false,
     "sector_id": "sec_defense"
   },
-  "counts": [],
+  "counts": [
+    {
+      "signal_type": "procurement",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    }
+  ],
   "coverage": {
     "baseline_covered": false,
     "sources": [],

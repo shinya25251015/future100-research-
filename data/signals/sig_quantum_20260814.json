@@ -1,6 +1,6 @@
 {
   "window_id": "sig_quantum_20260814",
-  "as_of": "2026-08-14T10:27:27Z",
+  "as_of": "2026-08-14T10:50:22Z",
   "window": {
     "start": "2026-08-08",
     "end": "2026-08-14",
@@ -23,16 +23,23 @@
   "counts": [
     {
       "signal_type": "paper",
-      "count": 5,
-      "baseline_count": 2.25,
+      "count": 12,
+      "baseline_count": 6.25,
       "event_ids": [
         "evt_20260813_e1b7f23ad4",
         "evt_20260813_7f127d8293",
         "evt_20260813_e2ab035017",
         "evt_20260813_c9e9a95b14",
-        "evt_20260814_d10c0fef42"
+        "evt_20260814_bc2ec755df",
+        "evt_20260814_c262bebecc",
+        "evt_20260814_dd392c9ab6",
+        "evt_20260814_f1d178e64a",
+        "evt_20260814_19d0bca138",
+        "evt_20260814_d10c0fef42",
+        "evt_20260814_0864feb323",
+        "evt_20260814_5c86217f15"
       ],
-      "delta_ratio": 1.222
+      "delta_ratio": 0.92
     },
     {
       "signal_type": "patent",
@@ -49,14 +56,19 @@
         "source_id": "src_arxiv_cs_ai",
         "observation_start": "2026-07-11T00:00:00Z",
         "covers_baseline": true
+      },
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
       }
     ]
   },
   "co_occurrence": {
     "distinct_signal_types": 1,
-    "distinct_sources": 1,
+    "distinct_sources": 2,
     "distinct_regions": 1,
-    "score": 26.7,
+    "score": 34.2,
     "threshold_met": false
   },
   "promotion": {

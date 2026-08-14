@@ -145,13 +145,16 @@
       ],
       "poll_interval_minutes": 1440,
       "enabled": true,
-      "notes": "論文数は Early Signal の一種。件数の急増を signal_type=paper として数える (§10)。",
+      "notes": "論文数は Early Signal の一種。件数の急増を signal_type=paper として数える (§10)。キーワード判定では要旨の言い回し次第で 4 割しか拾えなかったため、ソースの性質（arXiv の項目は定義上すべて論文）で全件に付与する。",
       "backfill": {
         "kind": "atom",
         "chunk_days": 1,
         "delay_seconds": 3,
         "endpoint_template": "http://export.arxiv.org/api/query?search_query=cat:cs.AI+AND+submittedDate:[{start_compact}0000+TO+{end_compact}2359]&max_results=400&sortBy=submittedDate&sortOrder=descending"
-      }
+      },
+      "default_signal_types": [
+        "paper"
+      ]
     },
     {
       "source_id": "src_arxiv_materials",
@@ -175,7 +178,11 @@
         "chunk_days": 1,
         "delay_seconds": 3,
         "endpoint_template": "http://export.arxiv.org/api/query?search_query=cat:cond-mat.mtrl-sci+AND+submittedDate:[{start_compact}0000+TO+{end_compact}2359]&max_results=400&sortBy=submittedDate&sortOrder=descending"
-      }
+      },
+      "default_signal_types": [
+        "paper"
+      ],
+      "notes": "論文数は Early Signal の一種。件数の急増を signal_type=paper として数える (§10)。キーワード判定では要旨の言い回し次第で 4 割しか拾えなかったため、ソースの性質（arXiv の項目は定義上すべて論文）で全件に付与する。"
     },
     {
       "source_id": "src_nvidia_newsroom",
@@ -388,7 +395,7 @@
       "http_method": "POST",
       "url": "https://www.usaspending.gov/",
       "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
-      "lookback_days": 7,
+      "lookback_days": 1,
       "body": {
         "filters": {
           "award_type_codes": [
@@ -400,7 +407,8 @@
           "time_period": [
             {
               "start_date": "{{start_date}}",
-              "end_date": "{{end_date}}"
+              "end_date": "{{end_date}}",
+              "date_type": "date_signed"
             }
           ]
         },
@@ -410,7 +418,8 @@
           "Award Amount",
           "Description",
           "Awarding Agency",
-          "Last Modified Date"
+          "Last Modified Date",
+          "Base Obligation Date"
         ],
         "limit": 100,
         "sort": "Last Modified Date",
@@ -425,7 +434,7 @@
           "Awarding Agency",
           "Award ID"
         ],
-        "published_at": "Last Modified Date"
+        "published_at": "Base Obligation Date"
       },
       "categories": [
         "capex",
@@ -436,7 +445,7 @@
       ],
       "poll_interval_minutes": 1440,
       "enabled": true,
-      "notes": "§10 の調達シグナルを金額付きで取得する。政府の需要がどの分野に向いたかを直接示す一次データ。Start Date は契約の履行開始日で数十年前になることがあるため、直近の動きを表す Last Modified Date を発生時刻に使う。 1 回の応答が上位 100 件に限られるため、過去分は 1 日ずつ取る（7 日まとめて取ると日次収集より粗い件数になり、baseline が過小になる）。",
+      "notes": "§10 の調達シグナルを金額付きで取得する。政府の需要がどの分野に向いたかを直接示す一次データ。契約が結ばれた日 (date_signed) で絞り、その日を発生時刻に使う。Last Modified Date は記録の更新時刻で、20 年前に始まった契約の修正がそのまま古い日付で返ることがあり、発生時刻には使えない。1 回の応答が上位 100 件に限られるため、過去分は 1 日ずつ取る。 日次収集も 1 日窓にしてある（7 日窓のままだと 1 週間ぶんを 100 件に圧縮して取ることになり、過去分と件数の粒度が揃わない）。",
       "backfill": {
         "chunk_days": 1,
         "delay_seconds": 1

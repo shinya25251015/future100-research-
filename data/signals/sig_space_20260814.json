@@ -1,6 +1,6 @@
 {
   "window_id": "sig_space_20260814",
-  "as_of": "2026-08-14T10:27:27Z",
+  "as_of": "2026-08-14T10:50:22Z",
   "window": {
     "start": "2026-08-08",
     "end": "2026-08-14",
@@ -33,22 +33,26 @@
     },
     {
       "signal_type": "paper",
-      "count": 3,
-      "baseline_count": 2.5,
+      "count": 8,
+      "baseline_count": 5.5,
       "event_ids": [
         "evt_20260813_58e52320a3",
         "evt_20260813_262cafad5b",
-        "evt_20260814_3a07ce4cd1"
+        "evt_20260814_1bb7d9e0f4",
+        "evt_20260814_8b6b63cce7",
+        "evt_20260814_b2c3c76a6f",
+        "evt_20260814_1558ba8fb1",
+        "evt_20260814_3a07ce4cd1",
+        "evt_20260814_6b632bf3f0"
       ],
-      "delta_ratio": 0.2
+      "delta_ratio": 0.455
     },
     {
       "signal_type": "procurement",
-      "count": 1,
-      "baseline_count": 0.0,
-      "event_ids": [
-        "evt_20260814_b5dc73631c"
-      ]
+      "count": 0,
+      "baseline_count": 2.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
     }
   ],
   "coverage": {

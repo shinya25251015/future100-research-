@@ -1,6 +1,6 @@
 {
   "window_id": "sig_critical_minerals_20260814",
-  "as_of": "2026-08-14T10:27:27Z",
+  "as_of": "2026-08-14T10:50:22Z",
   "window": {
     "start": "2026-08-08",
     "end": "2026-08-14",
@@ -34,7 +34,7 @@
     {
       "signal_type": "paper",
       "count": 0,
-      "baseline_count": 0.5,
+      "baseline_count": 3.0,
       "event_ids": [],
       "delta_ratio": -1.0
     }
