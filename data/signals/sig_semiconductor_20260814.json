@@ -1,6 +1,6 @@
 {
   "window_id": "sig_semiconductor_20260814",
-  "as_of": "2026-08-14T10:50:22Z",
+  "as_of": "2026-08-14T21:51:04Z",
   "window": {
     "start": "2026-08-08",
     "end": "2026-08-14",
@@ -35,14 +35,16 @@
     },
     {
       "signal_type": "new_standard",
-      "count": 0,
+      "count": 1,
       "baseline_count": 0.25,
-      "event_ids": [],
-      "delta_ratio": -1.0
+      "event_ids": [
+        "evt_20260814_2cb1a6c1b4"
+      ],
+      "delta_ratio": 3.0
     },
     {
       "signal_type": "paper",
-      "count": 31,
+      "count": 37,
       "baseline_count": 22.75,
       "event_ids": [
         "evt_20260813_b6a6a6b140",
@@ -75,16 +77,24 @@
         "evt_20260814_9ad592d977",
         "evt_20260814_27591120fe",
         "evt_20260814_254c0474ed",
-        "evt_20260814_47f7de047e"
+        "evt_20260814_47f7de047e",
+        "evt_20260814_93742b9783",
+        "evt_20260814_74b4836f54",
+        "evt_20260814_ec7f4be91b",
+        "evt_20260814_49dce1d5b5",
+        "evt_20260814_4e97371984",
+        "evt_20260814_f355091b25"
       ],
-      "delta_ratio": 0.363
+      "delta_ratio": 0.626
     },
     {
       "signal_type": "patent",
-      "count": 0,
+      "count": 1,
       "baseline_count": 0.5,
-      "event_ids": [],
-      "delta_ratio": -1.0
+      "event_ids": [
+        "evt_20260814_2cb1a6c1b4"
+      ],
+      "delta_ratio": 1.0
     }
   ],
   "coverage": {

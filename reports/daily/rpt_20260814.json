@@ -1,10 +1,10 @@
 {
   "report_id": "rpt_20260814",
   "report_date": "2026-08-14",
-  "as_of": "2026-08-14T10:50:35Z",
+  "as_of": "2026-08-14T21:51:04Z",
   "coverage": {
-    "events_ingested": 11750,
-    "events_after_dedup": 11749,
+    "events_ingested": 11806,
+    "events_after_dedup": 11805,
     "sources_polled": 20,
     "sources_failed": []
   },
@@ -13,13 +13,13 @@
       "no": 1,
       "key": "executive_summary",
       "title": "本日の構造変化サマリ",
-      "body": "本日の観測は 11749 件。内訳（分類別）: technology 5928 / policy_regulation 5792 / standard 29。シグナル種別: paper 5899 / procurement 3334 / export_control 63 / patent 32 / new_standard 31 / government_budget 10 / subsidy 7。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 11 件）。件数は観測量であって重要度ではない。"
+      "body": "本日の観測は 11805 件。内訳（分類別）: technology 5978 / policy_regulation 5793 / standard 29 / macro 3 / corporate_action 2。シグナル種別: paper 5940 / procurement 3334 / export_control 63 / patent 33 / new_standard 32 / government_budget 10 / subsidy 7。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 11 件）。件数は観測量であって重要度ではない。"
     },
     {
       "no": 2,
       "key": "policy_regulation",
       "title": "政策・規制 (§4)",
-      "body": "本日 5792 件を観測。\n- [A] 2026-08-14 Combined Notice of Filings (evt_20260814_8573873297)\n- [A] 2026-08-14 Agency Information Collection Activities; State Processes for Designating Areas Unsuitable for Surface Coal Mining Operations (evt_20260814_0be021adb5)\n- [A] 2026-08-14 Certain Polyvinylidene Flouride Resins; Notice of Request for Submissions on the Public Interest (evt_20260814_5422dc675d)\n- [A] 2026-08-14 Submission for Office of Management and Budget Review; Administration for Children and Families Generic for Information Collections Related to Gatherings (evt_20260814_3226e65392)\n- [A] 2026-08-14 Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammals Incidental to Ferry Berth Construction in Tongass Narrows in Ketchikan, Alaska (evt_20260814_473521c4bb)\n- [A] 2026-08-14 Atlantic Highly Migratory Species; Revisions to Fishing Gear Regulations (evt_20260814_7c6c04d054)\n- [A] 2026-08-14 Department Regulatory and Deregulatory Agenda; Summary (evt_20260814_755bcf4e08)\n- [A] 2026-08-14 Notice of Proposed Administrative Settlement Agreement and Order on Consent for De Minimins Contributors (evt_20260814_76abae9886)"
+      "body": "本日 5793 件を観測。\n- [A] 2026-08-14 Daily News 14 / 08 / 2026 (evt_20260814_16159f57ab)\n- [A] 2026-08-14 Combined Notice of Filings (evt_20260814_8573873297)\n- [A] 2026-08-14 Agency Information Collection Activities; State Processes for Designating Areas Unsuitable for Surface Coal Mining Operations (evt_20260814_0be021adb5)\n- [A] 2026-08-14 Certain Polyvinylidene Flouride Resins; Notice of Request for Submissions on the Public Interest (evt_20260814_5422dc675d)\n- [A] 2026-08-14 Submission for Office of Management and Budget Review; Administration for Children and Families Generic for Information Collections Related to Gatherings (evt_20260814_3226e65392)\n- [A] 2026-08-14 Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammals Incidental to Ferry Berth Construction in Tongass Narrows in Ketchikan, Alaska (evt_20260814_473521c4bb)\n- [A] 2026-08-14 Atlantic Highly Migratory Species; Revisions to Fishing Gear Regulations (evt_20260814_7c6c04d054)\n- [A] 2026-08-14 Department Regulatory and Deregulatory Agenda; Summary (evt_20260814_755bcf4e08)"
     },
     {
       "no": 3,
@@ -31,7 +31,7 @@
       "no": 4,
       "key": "macro_economy",
       "title": "マクロ経済 (§6)",
-      "body": "本日該当なし（本日の新規観測なし）"
+      "body": "本日 3 件を観測。\n- [A] 2026-08-14 令和8年8月13日からの大雨に伴う災害等に対する金融上の措置について（千葉県） (evt_20260814_3c61e7c637)\n- [A] 2026-08-14 被災地金融機関を支援するための資金供給オペレーションの実施結果 (evt_20260814_3872e94bd3)\n- [A] 2026-08-14 （リサーチラボ）生産性向上が賃金上昇に反映されなかったのはなぜか：わが国のデフレ期からの教訓 (evt_20260814_01674332e8)"
     },
     {
       "no": 5,
@@ -43,7 +43,7 @@
       "no": 6,
       "key": "technology_progress",
       "title": "技術革新の進展 (§8)",
-      "body": "本日 5928 件を観測。\n- [B] 2026-08-13 AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design (evt_20260814_ae977f5698)\n- [B] 2026-08-13 OmniScientist: An Omni-Modal Omni-Discipline AI Scientist (evt_20260814_b834015875)\n- [B] 2026-08-13 HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark (evt_20260814_c4d8c93cac)\n- [B] 2026-08-13 All-optical switching of nonlinear structured light in crystal-engineered van der Waals materials (evt_20260814_03e2195511)\n- [B] 2026-08-13 QuoteBench: How Matched Scores Can Hide Command-Path Failures (evt_20260814_a2c44267a7)\n- [B] 2026-08-13 LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure (evt_20260814_01911b913b)\n- [B] 2026-08-13 Insight into SRF cavity performance from simulations of Nb's surface oxide dissolution and diffusion (evt_20260814_27e08e61a3)\n- [B] 2026-08-13 Vero: Can AI Agents Build Formally Verified Software Repositories? (evt_20260814_b29b814b38)"
+      "body": "本日 5978 件を観測。\n- [B] 2026-08-14 Digital Signal Processing Pioneer Bede Liu Dies At 91 (evt_20260814_2cb1a6c1b4)\n- [B] 2026-08-14 Predict Antenna Coupling on Electrically Large Platforms Before Building Hardware (evt_20260814_99adaa9bb5)\n- [B] 2026-08-14 A Unified Description of Electron-Phonon Coupling and Ion Migration in Metal Halide Perovskites (evt_20260814_93742b9783)\n- [B] 2026-08-14 Electronic excitation of ultrafast collective amorphous-amorphous transitions in glassy phase-change material (evt_20260814_251299f8de)\n- [B] 2026-08-14 Sub-angstrom many-body localization driven by phononic flat bands in real quantum materials (evt_20260814_a253311ad9)\n- [B] 2026-08-14 Elastic properties of cubic silicon carbide with Si vacancies (evt_20260814_667f776a9b)\n- [B] 2026-08-14 Deformation-Potential-Driven Photostriction in Layered Ferroelectrics (evt_20260814_75d5b4c702)\n- [B] 2026-08-14 Comparison of mechanical properties of Ag/W1-xTixB2.5 and pure silver coatings deposited by PLD/HIPIMS method (evt_20260814_ab91c04c88)"
     },
     {
       "no": 7,
@@ -55,7 +55,7 @@
       "no": 8,
       "key": "known_sector_monitor",
       "title": "既知セクター監視 (§11)",
-      "body": "常時監視 16 セクターの本日の観測件数。掲載順は設定ファイルの登録順であり、優劣や順位ではない (§44-46)。\n- AI / 計算基盤 (sec_ai_compute): 本日 1714 件\n- 半導体 (sec_semiconductor): 本日 121 件\n- 光通信 (sec_optical_networking): 本日 1 件\n- CPO (Co-Packaged Optics) (sec_cpo): 本日 2 件\n- 電力・送配電 (sec_power_grid): 本日 12 件\n- 原子力 (sec_nuclear): 本日 7 件\n- 核融合 (sec_fusion): 本日 9 件\n- 防衛 (sec_defense): 本日 6 件"
+      "body": "常時監視 16 セクターの本日の観測件数。掲載順は設定ファイルの登録順であり、優劣や順位ではない (§44-46)。\n- AI / 計算基盤 (sec_ai_compute): 本日 1716 件\n- 半導体 (sec_semiconductor): 本日 128 件\n- 光通信 (sec_optical_networking): 本日 1 件\n- CPO (Co-Packaged Optics) (sec_cpo): 本日 2 件\n- 電力・送配電 (sec_power_grid): 本日 12 件\n- 原子力 (sec_nuclear): 本日 7 件\n- 核融合 (sec_fusion): 本日 10 件\n- 防衛 (sec_defense): 本日 6 件"
     },
     {
       "no": 9,
@@ -109,7 +109,7 @@
   "prohibited_output_check": {
     "contains_ticker_recommendation": false,
     "contains_ranking": false,
-    "checked_at": "2026-08-14T10:50:36Z"
+    "checked_at": "2026-08-14T21:51:18Z"
   },
   "schema_version": "1.0"
 }

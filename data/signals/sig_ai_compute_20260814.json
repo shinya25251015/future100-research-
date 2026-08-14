@@ -1,6 +1,6 @@
 {
   "window_id": "sig_ai_compute_20260814",
-  "as_of": "2026-08-14T10:50:22Z",
+  "as_of": "2026-08-14T21:51:04Z",
   "window": {
     "start": "2026-08-08",
     "end": "2026-08-14",
@@ -42,7 +42,7 @@
     },
     {
       "signal_type": "paper",
-      "count": 425,
+      "count": 427,
       "baseline_count": 348.0,
       "event_ids": [
         "evt_20260813_82dd4944fb",
@@ -469,9 +469,11 @@
         "evt_20260814_e2c148d03b",
         "evt_20260814_bc4574f484",
         "evt_20260814_9bd0625543",
-        "evt_20260814_46ab1b17e9"
+        "evt_20260814_46ab1b17e9",
+        "evt_20260814_cf77da2611",
+        "evt_20260814_063682746d"
       ],
-      "delta_ratio": 0.221
+      "delta_ratio": 0.227
     },
     {
       "signal_type": "patent",
