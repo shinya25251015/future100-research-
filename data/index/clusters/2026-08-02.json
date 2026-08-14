@@ -1,15 +1,423 @@
 {
   "by_url": {
     "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1716": "clu_988da4962d",
-    "https://spectrum.ieee.org/magnetophon-laugh-track": "clu_3a376f6718"
+    "https://spectrum.ieee.org/magnetophon-laugh-track": "clu_3a376f6718",
+    "https://arxiv.org/abs/2608.01400v1": "clu_a5d81adc09",
+    "https://arxiv.org/abs/2608.01183v1": "clu_a1c3cab032",
+    "https://arxiv.org/abs/2608.01414v1": "clu_d9998e316c",
+    "https://arxiv.org/abs/2608.01024v1": "clu_b56b02a0d6",
+    "https://arxiv.org/abs/2608.01005v1": "clu_751e814aa1",
+    "https://arxiv.org/abs/2608.01285v1": "clu_9f8f43b5f9",
+    "https://arxiv.org/abs/2608.06402v1": "clu_154d6cdfab",
+    "https://arxiv.org/abs/2608.01320v1": "clu_e1a31b7888",
+    "https://arxiv.org/abs/2608.00929v1": "clu_29742b5771",
+    "https://arxiv.org/abs/2608.01095v1": "clu_76eb6eebb4",
+    "https://arxiv.org/abs/2608.01284v1": "clu_37bc8ceea8",
+    "https://arxiv.org/abs/2608.01008v1": "clu_7cedbc4801",
+    "https://arxiv.org/abs/2608.00939v1": "clu_d550926b5a",
+    "https://arxiv.org/abs/2608.01470v1": "clu_ec2ba3f83c",
+    "https://arxiv.org/abs/2608.01055v1": "clu_c97b96bdc1",
+    "https://arxiv.org/abs/2608.01193v1": "clu_92a4a537c1",
+    "https://arxiv.org/abs/2608.01021v1": "clu_57be8cf35c",
+    "https://arxiv.org/abs/2608.01343v1": "clu_f95187014b",
+    "https://arxiv.org/abs/2608.07557v1": "clu_6def384b25",
+    "https://arxiv.org/abs/2608.01133v1": "clu_7083139b07",
+    "https://arxiv.org/abs/2608.01418v1": "clu_648a45d858",
+    "https://arxiv.org/abs/2608.01402v1": "clu_f9bf20a798",
+    "https://arxiv.org/abs/2608.01271v1": "clu_f2f530424f",
+    "https://arxiv.org/abs/2608.01042v1": "clu_7d96f2fa2a",
+    "https://arxiv.org/abs/2608.01352v1": "clu_228f69afc5",
+    "https://arxiv.org/abs/2608.01366v2": "clu_ec25842047",
+    "https://arxiv.org/abs/2608.02672v1": "clu_40e098be4e",
+    "https://arxiv.org/abs/2608.01341v1": "clu_7fe965c854",
+    "https://arxiv.org/abs/2608.01319v1": "clu_70477df19b",
+    "https://arxiv.org/abs/2608.00974v1": "clu_3d2d557177",
+    "https://arxiv.org/abs/2608.01023v1": "clu_1c031ae5e3",
+    "https://arxiv.org/abs/2608.01175v1": "clu_02c0fe7f46",
+    "https://arxiv.org/abs/2608.01367v1": "clu_70e0811c93",
+    "https://arxiv.org/abs/2608.01128v1": "clu_50e77aa2b2",
+    "https://arxiv.org/abs/2608.01056v1": "clu_8012fbdddd",
+    "https://arxiv.org/abs/2608.01326v1": "clu_e8d5238828",
+    "https://arxiv.org/abs/2608.01462v1": "clu_7d91c0f846",
+    "https://arxiv.org/abs/2608.01178v1": "clu_3b44af5fe3",
+    "https://arxiv.org/abs/2608.01181v1": "clu_f067936f07",
+    "https://arxiv.org/abs/2608.01035v2": "clu_637e3242ed",
+    "https://arxiv.org/abs/2608.00967v1": "clu_375a9c0327",
+    "https://arxiv.org/abs/2608.01344v2": "clu_f04dd5cffb",
+    "https://arxiv.org/abs/2608.04032v1": "clu_6913a4cb8b",
+    "https://arxiv.org/abs/2608.01046v1": "clu_1d9175af78",
+    "https://arxiv.org/abs/2608.01507v1": "clu_5fe073f7c4",
+    "https://arxiv.org/abs/2608.02673v2": "clu_c79478be29",
+    "https://arxiv.org/abs/2608.01075v1": "clu_aa7673a4a4",
+    "https://arxiv.org/abs/2608.01112v1": "clu_71cc863c5f",
+    "https://arxiv.org/abs/2608.01205v1": "clu_58d0bd2236",
+    "https://arxiv.org/abs/2608.00991v1": "clu_3589ad1f53",
+    "https://arxiv.org/abs/2608.01223v1": "clu_c879387063",
+    "https://arxiv.org/abs/2608.01001v1": "clu_ace469017d",
+    "https://arxiv.org/abs/2608.00962v1": "clu_463302a9f0",
+    "https://arxiv.org/abs/2608.01252v1": "clu_1af141e75d",
+    "https://arxiv.org/abs/2608.01480v1": "clu_b8d66f3841",
+    "https://arxiv.org/abs/2608.01436v1": "clu_e918612561",
+    "https://arxiv.org/abs/2608.01468v1": "clu_fe0bf2942a",
+    "https://arxiv.org/abs/2608.01015v1": "clu_b99c7dd3ba",
+    "https://arxiv.org/abs/2608.01197v1": "clu_b26bfc62ef",
+    "https://arxiv.org/abs/2608.02668v1": "clu_6e9ac14f36",
+    "https://arxiv.org/abs/2608.01298v1": "clu_7d10fa4421",
+    "https://arxiv.org/abs/2608.01043v2": "clu_36d3d39628",
+    "https://arxiv.org/abs/2608.01033v1": "clu_17dbdd6e10",
+    "https://arxiv.org/abs/2608.00937v1": "clu_86b520ee39",
+    "https://arxiv.org/abs/2608.01149v1": "clu_f83a9cfe34",
+    "https://arxiv.org/abs/2608.02670v1": "clu_607f43150a",
+    "https://arxiv.org/abs/2608.01012v1": "clu_32982aa996",
+    "https://arxiv.org/abs/2608.11244v1": "clu_094fb39a85",
+    "https://arxiv.org/abs/2608.00981v1": "clu_728ff2b5d9",
+    "https://arxiv.org/abs/2608.01233v1": "clu_78d70689fe",
+    "https://arxiv.org/abs/2608.02679v1": "clu_a49cbdaec0",
+    "https://arxiv.org/abs/2608.01428v1": "clu_25abcf989a",
+    "https://arxiv.org/abs/2608.01269v2": "clu_0a50b486c3",
+    "https://arxiv.org/abs/2608.01028v1": "clu_cabd9e622d",
+    "https://arxiv.org/abs/2608.11245v1": "clu_93e70357b4",
+    "https://arxiv.org/abs/2608.01423v1": "clu_d0ed0d142b",
+    "https://arxiv.org/abs/2608.01078v1": "clu_5855865e91",
+    "https://arxiv.org/abs/2608.01049v1": "clu_1401cb3ce4",
+    "https://arxiv.org/abs/2608.01521v1": "clu_8bf93b8bb7",
+    "https://arxiv.org/abs/2608.00979v1": "clu_a87cc0a6a6",
+    "https://arxiv.org/abs/2608.01432v2": "clu_6592d57f2f",
+    "https://arxiv.org/abs/2608.01207v2": "clu_f809617bde",
+    "https://arxiv.org/abs/2608.01260v1": "clu_8b55ba3deb",
+    "https://arxiv.org/abs/2608.01431v1": "clu_41cad7da1b",
+    "https://arxiv.org/abs/2608.12391v1": "clu_883b732373",
+    "https://arxiv.org/abs/2608.01014v1": "clu_a6bd663dd2",
+    "https://arxiv.org/abs/2608.00985v1": "clu_d0f7125bd5",
+    "https://arxiv.org/abs/2608.01388v1": "clu_7a40e6913b",
+    "https://arxiv.org/abs/2608.07556v2": "clu_3c72d01e4e",
+    "https://arxiv.org/abs/2608.01437v1": "clu_5b5a259fad",
+    "https://arxiv.org/abs/2608.01543v1": "clu_6b4d104815",
+    "https://arxiv.org/abs/2608.01369v1": "clu_5e92ced9b1",
+    "https://arxiv.org/abs/2608.00961v2": "clu_086a3e6cf7",
+    "https://arxiv.org/abs/2608.02669v1": "clu_fa5ce7b7db",
+    "https://arxiv.org/abs/2608.01000v1": "clu_a2329f56a9",
+    "https://arxiv.org/abs/2608.01004v1": "clu_e7bbd892b7",
+    "https://arxiv.org/abs/2608.01434v1": "clu_27f39dad21",
+    "https://arxiv.org/abs/2608.00924v1": "clu_9571b5a99e",
+    "https://arxiv.org/abs/2608.01463v2": "clu_8f4f44ff1e",
+    "https://arxiv.org/abs/2608.01389v1": "clu_b6d5b54f80",
+    "https://arxiv.org/abs/2608.01092v1": "clu_125a062b26",
+    "https://arxiv.org/abs/2608.00965v1": "clu_9810181e1b",
+    "https://arxiv.org/abs/2608.01430v1": "clu_6e968ea853",
+    "https://arxiv.org/abs/2608.01377v1": "clu_ce3005b647",
+    "https://arxiv.org/abs/2608.01506v2": "clu_5a19294b2b",
+    "https://arxiv.org/abs/2608.01164v1": "clu_815e2c70c1",
+    "https://arxiv.org/abs/2608.00969v1": "clu_efe3724dcd",
+    "https://arxiv.org/abs/2608.01324v1": "clu_2fcab5edd6",
+    "https://arxiv.org/abs/2608.02674v1": "clu_06ed25b2e9",
+    "https://arxiv.org/abs/2608.01522v1": "clu_05bb60051b",
+    "https://arxiv.org/abs/2608.00946v1": "clu_97e1733955",
+    "https://arxiv.org/abs/2608.01050v1": "clu_33b5bb0ba9",
+    "https://arxiv.org/abs/2608.01464v1": "clu_9d4ba4e34e",
+    "https://arxiv.org/abs/2608.01361v1": "clu_2aeef6750d",
+    "https://arxiv.org/abs/2608.01234v1": "clu_87443fa0d4",
+    "https://arxiv.org/abs/2608.01301v3": "clu_c9174c46a8",
+    "https://arxiv.org/abs/2608.01328v1": "clu_b586fc22be",
+    "https://arxiv.org/abs/2608.00978v1": "clu_3fdff5a306",
+    "https://arxiv.org/abs/2608.02677v1": "clu_028ca454d1",
+    "https://arxiv.org/abs/2608.01283v1": "clu_54d9c83bc3",
+    "https://arxiv.org/abs/2608.01318v1": "clu_c063135494",
+    "https://arxiv.org/abs/2608.01106v1": "clu_c59dbaaf69",
+    "https://arxiv.org/abs/2608.02678v1": "clu_723376a831",
+    "https://arxiv.org/abs/2608.01395v1": "clu_2ec6025036",
+    "https://arxiv.org/abs/2608.01017v1": "clu_5531f51f53",
+    "https://arxiv.org/abs/2608.01266v2": "clu_ff06489b7e",
+    "https://arxiv.org/abs/2608.01213v1": "clu_37f584b3e3",
+    "https://arxiv.org/abs/2608.01295v1": "clu_1e35f4e2e0",
+    "https://arxiv.org/abs/2608.01235v1": "clu_2fffb2d40e",
+    "https://arxiv.org/abs/2608.01062v1": "clu_9797b12724",
+    "https://arxiv.org/abs/2608.01312v1": "clu_608540bdd2",
+    "https://arxiv.org/abs/2608.01478v1": "clu_88c567b5bd",
+    "https://arxiv.org/abs/2608.01501v1": "clu_177a8d50b1",
+    "https://arxiv.org/abs/2608.01210v1": "clu_1fe70ab8a4",
+    "https://arxiv.org/abs/2608.00948v1": "clu_a99c195f20",
+    "https://arxiv.org/abs/2608.01244v1": "clu_4303025bbc"
   },
   "by_hash": {
     "3e3b9140f22dd439bfc4aba9d0a745caa4486ca96ee96834afb93787458d152f": "clu_988da4962d",
-    "1d1c7122399c1dc35d05489410391b6cafc114a04063a18fe9a1b0cbc29ed7a2": "clu_3a376f6718"
+    "1d1c7122399c1dc35d05489410391b6cafc114a04063a18fe9a1b0cbc29ed7a2": "clu_3a376f6718",
+    "7ad4a8938e410b6f76a5b42ca9fa37d66d6eb91b772dd1c2fbcb9a1866853069": "clu_a5d81adc09",
+    "16b28032ab3b6bc47217a3ee7eb70ed87404010e37ddd4e2847b3b8eb7fbedc3": "clu_a1c3cab032",
+    "88210955c9f2a3b778c5d592aa02b22563329a11f7f14bf5425dd54982b4a9c8": "clu_d9998e316c",
+    "fb53b42435df1c640dbce3b1dccdac965240866c860b22cae83e8fca20b3e3ac": "clu_b56b02a0d6",
+    "0498d8333a7a7ff19c6b3e0673c7d005426add24e6b880770b7d25b82d5642da": "clu_751e814aa1",
+    "4bef825b536c7c1c6992b3163ea7393b9824530ccee0444e8b164cb19198daaf": "clu_9f8f43b5f9",
+    "adf84978cec56ec1ca14a460988d6e4e0a5124c5e4920704efd9b2bba3ffe0b4": "clu_154d6cdfab",
+    "3d27867014a0c74c4b7aa83864f15c90dc2ec5b58d5fb94e180c8db961be8a84": "clu_e1a31b7888",
+    "7a9b6b5b560c95e5c707020b869825ed31a8ea9a27ed4fc8b54a2bb8da298c9c": "clu_29742b5771",
+    "b4668bdc8aab45f749ccbdc62502fe0eef8f81ec5ac8c731e31679f4264f82fc": "clu_76eb6eebb4",
+    "91947afc0fc86be7134757921081fc73d20e0efb60d544837ceb48636af88b9c": "clu_37bc8ceea8",
+    "f5d985813f04706c9ea008bf128e3cc91d1d5d044e583867cbbf832256217b2f": "clu_7cedbc4801",
+    "4da7c4ed64c40a306e80f929b7f1b4cb2fcf216176bfb22238d5ee50d93df74f": "clu_d550926b5a",
+    "d675093e45a738668ef6aef71098ed62933b85847d234869456c652799118ee5": "clu_ec2ba3f83c",
+    "dec232e796084bd96d6c2c4f130a8a9fa89e1da9c9b2b71fa67f30919cd0b330": "clu_c97b96bdc1",
+    "4c7f7c2b1f7a1be6e0bbfaf9a42a74b3a7e918cf0964e3682a7e7cb9e819bf15": "clu_92a4a537c1",
+    "ed800e39679cd255f20f461437e18cd85e17c6718236b73917e71be19d9fd3b0": "clu_57be8cf35c",
+    "998d6bc7a52b461145bebbe3e9ed156c4ad94ddfda597e72a8a1442af51630fc": "clu_f95187014b",
+    "3d36149ec5eafe0e3efc674de7d05aa96d65afa016e6fc52bd33c63793297daf": "clu_6def384b25",
+    "919aa16994e7fe8e351e004b2ba646a7da316d54cb45fea636c5e1ae637adde7": "clu_7083139b07",
+    "9a6833986e35255cbca83032a6275122f1c4f5ef9d9b3817902bc5c08444deb5": "clu_648a45d858",
+    "b4aa6599f964a78e2da68296f4ffb85d917ac2269f0bfb22b68707abb8d5042a": "clu_f9bf20a798",
+    "8a5133066dc17fb3a951a351435b2670db98ee38657d0c1c7a373623079133b6": "clu_f2f530424f",
+    "8fb71cdbc7720f85bb8429a6034481351e27ed9f43a354fc3d6d025619f7abbe": "clu_7d96f2fa2a",
+    "da7fecde2b3231d2fbbe1ef5bc1157a451d852c47d8c8acbd78f529d789d8077": "clu_228f69afc5",
+    "ea231764881ad98ecaef3c9ed1450dd4e9802d5d66d595592f012fef9006f3bb": "clu_ec25842047",
+    "a5d9e3caeadbb8a3618b782d383af63afebbb517d4fbe930baea8fc6ec43ce41": "clu_40e098be4e",
+    "9830ba346df48acb5d46714880ada4fb217c3dd523c124a53e81045263ff6b6e": "clu_7fe965c854",
+    "63ca659c92ce57622d295958fc12de9f03741b9a437c610e3fb2611a46662405": "clu_70477df19b",
+    "ef430aee2e1ca4c7c6d81a9f73aaf0c0853be68ce4be902b8fd5750bdac01ca9": "clu_3d2d557177",
+    "f80318f6543ca231c218c68b8165fd97966cb875c8f7fa785587afd3ed253eec": "clu_1c031ae5e3",
+    "4523a106d908f2a944e215a65ee528a4f7c2067bac53074faf8593d36ad2e6ab": "clu_02c0fe7f46",
+    "3a4d1440f29885d4c1270ce9ec68218b1a37d8ccd7affa3283a2032095d67390": "clu_70e0811c93",
+    "8a03fca5112de063472f09e8b0ff063c416a6032b9936798bf4014d5a9a35e44": "clu_50e77aa2b2",
+    "f059f0d9ff2199d1762536e05552ae297f63c9afee119bab842e27b028ecb2fc": "clu_8012fbdddd",
+    "003c7083d1f8599e32938751dd85fc0b15ace6fee99e168b0184f9ef34b34118": "clu_e8d5238828",
+    "4eaf0e94d9f98c0f95331bc9bd18e6a46623100f80a2b3f09abe2a5549089cbc": "clu_7d91c0f846",
+    "080bd19c11be0fb84f857b05a62885fa9d3d0e6a685f6c152d4908ebca57c3d0": "clu_3b44af5fe3",
+    "86e631d2dc5062be575eb8e0c1b03547d564b195670a7e5f0c34ccd86f15f28e": "clu_f067936f07",
+    "c796e020f6c269386bfd6d8f63d0519fee971f2d7898a5426525859a791ca68e": "clu_637e3242ed",
+    "27a2446a9f24ec17cadeaa8bc532155927c24bf796bfcf7cffc4bfa34ab51b71": "clu_375a9c0327",
+    "dbb1435467667dcf8f1dce2bb36c0f156f1dcc2e80892e8f153b400c9f57db5a": "clu_f04dd5cffb",
+    "556cdf25e8cc299aab55145cba4e141e4e4e0397c3cc5305b957e931cbb4b1fc": "clu_6913a4cb8b",
+    "5f94a97e853738c171aeacfd7ad31d4c9d1f641e7620ca7c0ea55d404f29d1e5": "clu_1d9175af78",
+    "2658b036a1a5dda184eded9e8d37eebfa9bd284c2fa25ae65c6787b5aa990ac2": "clu_5fe073f7c4",
+    "3e33ee0330f5197ca8eb80264898892b64e17bbf2dcf27cbfe065599689dffc6": "clu_c79478be29",
+    "8e516c07861cdf0e477690c4b8f90ff6642e3139f12f7ba39907fc9638cbd0dd": "clu_aa7673a4a4",
+    "85d754a40f37a7a8a74ac197cabb834e94cdad85726a71b0beab56600f47bd75": "clu_71cc863c5f",
+    "5453231f3dc40f73872afe19d760ba1dfc777ad40cfa0982ff5127fc15b660f1": "clu_58d0bd2236",
+    "24e4311fa03a16318673a487e1bbe67938e36d8cb52c389a08e6b7cfe0aa85ec": "clu_3589ad1f53",
+    "145b399095171fdd733cd217df9a38746f34d7f75219db87516039982df4c392": "clu_c879387063",
+    "e12005a9992c0b4e76f6de38392dd3c42644a23e174b9a8d3c1af6cb14773b4c": "clu_ace469017d",
+    "656bc8d4887ba764d53bf1ca92e98caf610dd1465fc836051bc59dbd24aeb9e4": "clu_463302a9f0",
+    "d3eec934d7f3070bd372d657eb8a6fbd64d28b4a7dfdb8896a47266a839693d0": "clu_1af141e75d",
+    "93373f402f3b0f58f5d8c2d8b4e73e79ac9b14cca8ec03b896c0b5ebc7ad730d": "clu_b8d66f3841",
+    "3fcb54b8d9d96a8375c41d5272947baac30c0bf8f554bcba1a3ba07ae7fc9bb3": "clu_e918612561",
+    "d9a437974f85095b1e2c93983400259e648848d5700d0c12c667e2aad4a59069": "clu_fe0bf2942a",
+    "327e4299b2b12c782b18c59812bcb820fc6132982ef8a06a8661fe13984967ea": "clu_b99c7dd3ba",
+    "2d6a8dfd508d44fd1112112d71627f59fb60437e607ef59997434d142d542703": "clu_b26bfc62ef",
+    "47b5e3d575fbdcc4c58d28d44d6dd2bd0c553eac8bd61e30a42816ea625b7655": "clu_6e9ac14f36",
+    "13e6faa42d7c55273499a61826d3a4c6f0464c3a5e3501d96b908e06ad4d6bb4": "clu_7d10fa4421",
+    "33844da2a336614147da21d10ba1dc6666bcf3231b2f8d7c6fca3accbb224a17": "clu_36d3d39628",
+    "aec35cd34ba1b460e588ea0a1f3b5dc23ab9dac5359a9e589ce1f2abcbab976c": "clu_17dbdd6e10",
+    "b783051f5d84baf17138ee90bb3a9009a2aaf0a1319a17c315cc20a9cb1d4e3e": "clu_86b520ee39",
+    "e3d631c8db42a8e0c5352ff8714c9ec122069921fb0fe972715a47787020ce46": "clu_f83a9cfe34",
+    "ba4abd615acaebdcdf75e8aa7501f43acc0a6ee909ad2caf7f66b0388a471ae4": "clu_607f43150a",
+    "985ac4d910a42be900a3fb60c0819b56884bc95368e1748a945ab2a703682937": "clu_32982aa996",
+    "578d8ffcaf5983a150b920ae5e51280491bc332dccab3e46b8af9f7e3e6f7899": "clu_094fb39a85",
+    "e40d49e47f275115c01a12b9b79035a83e62d2fe364443fd3af18dc4122d4119": "clu_728ff2b5d9",
+    "92a64a21150ba1652e504cba38221771e5220a13676e161a27b09cfd9b8999fc": "clu_78d70689fe",
+    "bdced433e60b3497b1ce32a474865d15ad280f2df73be0e90886a279cd33f603": "clu_a49cbdaec0",
+    "81797d444bdf38eb197a88d48c9412a811a7eb5294cdb17ca7a776b9d5a343c8": "clu_25abcf989a",
+    "40f94906b53e0e14daf45beb0be256c775db92482a8a4a9eb261c2a6f68f00e2": "clu_0a50b486c3",
+    "86667f32ffbafec50a1d442b6ef5bfc63f947189eedec56600e111eda9c03827": "clu_cabd9e622d",
+    "e3d2b1b19f500c423e62492c4a98b3f66d41c389c7c9f2ccbc51225e3b5d6d6b": "clu_93e70357b4",
+    "d03d047b60c8e1c32927581dfd327012d6a536cb844fb2491c0bf33c72fa2c62": "clu_d0ed0d142b",
+    "4d63a3e05a23717172cd31cac478f16ab7d0e4478bea89f61be7b37fb08bfff9": "clu_5855865e91",
+    "9b3cf9e7213ea9495067fab7832c7b1ad92b533c47f0a70e93694c42732e6c5d": "clu_1401cb3ce4",
+    "68ccb2552cd06a9b51f4d8f9ff92747a4cb7b1b0524f34dedfd33d2c5e3ac831": "clu_8bf93b8bb7",
+    "22ff9f77393d3a9123e277aef8c06481bc2f12b109afba98aee324b9cebdd846": "clu_a87cc0a6a6",
+    "7a898b90d46e35f7edf464e5eb1cd60e75a81b2e158fc01e7584fcc12d137c96": "clu_6592d57f2f",
+    "146a4e90a8d31b0ade77c8ca4f795e104302916b7e97ca60827a653998c4b091": "clu_f809617bde",
+    "b9d83722402af85d0fa4523e269043d1a40292b5377a49a2191c0cda0dd6688f": "clu_8b55ba3deb",
+    "a111a0fa2076920f9616567f9a2b6852c2c1275fd401d6241a6df52603b4e9ec": "clu_41cad7da1b",
+    "50e36ae5b7c61e8d796eec55664b6940b2b86a4eadbfec0583478647e001ba85": "clu_883b732373",
+    "3e5dd685f8dcee349ca029fecd8f761c5611b189189ae43f93bbcfb484a8b6e6": "clu_a6bd663dd2",
+    "72f6553ec4f45df30a6530b6003510d9c3c4e8686a9c1cc7cbbd079b535c658d": "clu_d0f7125bd5",
+    "0bb383bdb10974a002ae837daefa1fee03dc5d1ab69b3ed22cd32ba689647520": "clu_7a40e6913b",
+    "936ea6b9a421d0ac021724fb0349d535fc7e663808414c758262bb723ba9bc1e": "clu_3c72d01e4e",
+    "9215d71b79b066dae191ecfb539b9dd0f1a81153ecc3195fb9a6d30dd4182d06": "clu_5b5a259fad",
+    "40fa82622321a2d35283f0541027d2d84fc52019b294021dc359da69dbbe491d": "clu_6b4d104815",
+    "532003e50e40f94c05a728de895395180824b0f9b3986c9f10922e2802d8ae01": "clu_5e92ced9b1",
+    "9d94f747fd841bafe99f727948cb0894ea5f3ed3ced99662f4e34374ef5de2d3": "clu_086a3e6cf7",
+    "949bc99a23a99412d93f4ad176bc5915a3b39cf49d1540a1195c91deb1fe70d9": "clu_fa5ce7b7db",
+    "51c6c5b2c9009842644f2a924b278ea1e34c1be91ff87010b3c1eac7e54bb77d": "clu_a2329f56a9",
+    "b37400b565629319db3e017ec75ffdddf9d8d9fee2fed06e3e5fa4bcc7c6d471": "clu_e7bbd892b7",
+    "02aa6091816dce4940838ba96ad32edd3fe45a6701c1e66518ccff4cc90a688a": "clu_27f39dad21",
+    "d7e48dfd195d5bbf73ac432df51cac7c60f59343082ef95163263908d1e6c9a5": "clu_9571b5a99e",
+    "bb3839af5d8c7105dc6dae9861bd7de650e7c1bb064e9c0cbd459f1eb40298c5": "clu_8f4f44ff1e",
+    "0b19b21b92673ae84475234f1117e7584cfe5de2498b697ba8e7b400cad37746": "clu_b6d5b54f80",
+    "872783252391947ff92ae69f263aaf1091a284ff4bba1377f12972d2395a4527": "clu_125a062b26",
+    "805ba9ab14eb1bf63834596d80e6656e975e3d0216c4a158c24d3806653690bb": "clu_9810181e1b",
+    "d2d906ce4bd4680c5d92a2d9937ea63c96f6bfbe3202154efe2fc9d9598242fa": "clu_6e968ea853",
+    "87eec586a00b50c257ba3b06f37ac760da1e2a090810e429b87b1a313022ab7a": "clu_ce3005b647",
+    "f0694a21c79d020ff1df961857ed11fd00cf00f09127e9383b52a900f5e5ed35": "clu_5a19294b2b",
+    "a942e8843da1f174027a09d86a3b96aab03e076e10b7a7e95aded14d67e9c38a": "clu_815e2c70c1",
+    "730c03f9985d6d93436b5b19d37f2359142a373739604a1e74975978240120a0": "clu_efe3724dcd",
+    "b1dee7583f2021725acfeda6d3212e00ca3868332b1af294333987b80ca575ae": "clu_2fcab5edd6",
+    "f0b0353eb19f9bc61a0ab00a1795a8e1d815f88d5072eccfab6f47e6bc2581b0": "clu_06ed25b2e9",
+    "4fd89c68d382a53b6d8e8448e02d8c487e407d4eef24782d6234cbde3a8be4ad": "clu_05bb60051b",
+    "9d53388acd8c77af83a8c7b5fb3cd6b7aa3cf5b21d58a504b3aed21659dd5519": "clu_97e1733955",
+    "4be22e761d1342985b046b690b40f61f87375cf3a0d489a40225eebd55096cc1": "clu_33b5bb0ba9",
+    "901bc5cacd6da209fe03b2c5ed498d90cdb117314014ece45cf6ae456a0087da": "clu_9d4ba4e34e",
+    "972d1e4a0489740a072684b7965bbc0b856a187b9311c58004fbbe3721c8404e": "clu_2aeef6750d",
+    "b5ac346598b4370d8732f04e4d4aaad66ed2a45815a1ca4f5de4cbbd00f919fa": "clu_87443fa0d4",
+    "43df6474d38cf04bcac8bca01cbef8c11dfdebafabb794ffd73230f2e96d3904": "clu_c9174c46a8",
+    "05d0fa9b228456cc703c464b5a9105912ba76f22d97cbfb38c5d120f5260b89f": "clu_b586fc22be",
+    "e2b0583ccb0dc15e4e07eba3537bc6a2220d3ec4dc844eceef2cc8d5385efb00": "clu_3fdff5a306",
+    "fece40c8eace7603067313fbe1975b7d865a01be923c82a499f8ee9be0f230b8": "clu_028ca454d1",
+    "62cbb4f02a670168271b558d137a59cc79d5c761e6680ed2dbc2e9de5889986c": "clu_54d9c83bc3",
+    "0bee86496cf266f2b04da71aa3859e16a182b92fe9653d8400977ba9be871c20": "clu_c063135494",
+    "0490d37c65c71f8ebd54d3cbec19b2e952d35d933828a7300199f60435e4d144": "clu_c59dbaaf69",
+    "8c9129f63afda27292d6654593b0aefe4577767750e9c0ad386bdb3539dd2999": "clu_723376a831",
+    "a5c171c2b41ecd77e4492118a703cc8afe8f25e021d23d95a067af7a381b11e3": "clu_2ec6025036",
+    "f3eb81e112d85a71109a7cf452ef132ba2b31b31cd61f6585ff7336b3745e70e": "clu_5531f51f53",
+    "0d9d11e48ee6e5827535834bb2ec7bb91fb13528115ad49ac0e29b56c6e8ea93": "clu_ff06489b7e",
+    "f603a1f938a9e1c406786d101732e8800c2a9f616420e197bd75181b56ebe862": "clu_37f584b3e3",
+    "c573a65cd3947cf257c9bbcd9b356e797e3cc29a4c832d8fc29073e50fb81a47": "clu_1e35f4e2e0",
+    "85102428f46a80c7e408030cb50839cf004a8d9f06457a7159c1c23b7a9ad7b7": "clu_2fffb2d40e",
+    "cc4e2aa271e192534acdddc6eb1cd54125929391228f8995e02d742fa14acb88": "clu_9797b12724",
+    "f223badb5b9dd020ca673c70dcec710e9a353227390fcb5fee58ec6679cc42e7": "clu_608540bdd2",
+    "3e7356301cc86c902e370919541cb768af2ef0c6ceef57a473b9b251a687e076": "clu_88c567b5bd",
+    "59aa0fb475200cd13777b9d7f953e41dd88faaab28aad4426dc0180dc4222aa6": "clu_177a8d50b1",
+    "cecc0cddd51f21527eca7ed1aaac2fd3ca9dddd80e6af12b30da84f9842c97c0": "clu_1fe70ab8a4",
+    "fc8da798e8e50b4cee4541195bc105a37cd19ab45d0dbf5a0435d1f72f0bfd16": "clu_a99c195f20",
+    "7cf7bb925a4d746708e2d802e6da9e1a64389068f81d22e58a942141f831f93e": "clu_4303025bbc"
   },
   "by_key": {
     "european commission::entry into force or application of eu legislation: key milestones | 1 august – 15 september 2026::2026-08-02": "clu_988da4962d",
-    "ieee::this hi-fi tape recorder changed radio forever::2026-08-02": "clu_3a376f6718"
+    "ieee::this hi-fi tape recorder changed radio forever::2026-08-02": "clu_3a376f6718",
+    "arxiv::tabdpt-turbo: efficient in-context learning for tabular prediction::2026-08-02": "clu_a5d81adc09",
+    "arxiv::co-evolution of social reward and punishment under institutional interventions::2026-08-02": "clu_a1c3cab032",
+    "arxiv::no single neuron of failure: distributed safety alignment against white-box attacks::2026-08-02": "clu_d9998e316c",
+    "arxiv::stress-relief annealing: polynomial-time simulation-free layout optimization for automated warehouses::2026-08-02": "clu_b56b02a0d6",
+    "arxiv::hierarchical solomonoff induction: an unbounded machine learning model::2026-08-02": "clu_751e814aa1",
+    "arxiv::stop when memory suffices: evidence-conditioned progressive execution for llm agents::2026-08-02": "clu_9f8f43b5f9",
+    "arxiv::interpretable unsupervised community detection with llm-symbolized structured processes::2026-08-02": "clu_154d6cdfab",
+    "arxiv::dense language generation made simple: deterministic, randomized, and multi-order algorithms::2026-08-02": "clu_e1a31b7888",
+    "arxiv::modeling social dynamics with an llm-enabled agent based network-dynamic (land) model::2026-08-02": "clu_29742b5771",
+    "arxiv::fl-oa: a byzantine-robust federated learning framework with outsourced auditing for intelligent devices::2026-08-02": "clu_76eb6eebb4",
+    "arxiv::training ngpt::2026-08-02": "clu_37bc8ceea8",
+    "arxiv::toward fine-grained forgetting:attribute unlearning for multimodal large language models::2026-08-02": "clu_7cedbc4801",
+    "arxiv::temperature-driven inversion and nonlinear dynamics in chatgpt-like ais::2026-08-02": "clu_d550926b5a",
+    "arxiv::vger: voxel-guided global event ranking for event cloud attribution::2026-08-02": "clu_ec2ba3f83c",
+    "arxiv::credit the right box: marginal contribution assignment for structured visual perception::2026-08-02": "clu_c97b96bdc1",
+    "arxiv::humans are more diverse: frontier llms show extreme policies in idealised ai development races::2026-08-02": "clu_92a4a537c1",
+    "arxiv::can humans dream of electric sheep? human-written samples for fine-grained vision-and-language hallucination benchmarking::2026-08-02": "clu_57be8cf35c",
+    "arxiv::devit: low-power vision transformer acceleration using delta computation::2026-08-02": "clu_f95187014b",
+    "arxiv::aerodpo: unleashing lightweight uav navigation with high-fidelity perception and automated preference optimization::2026-08-02": "clu_6def384b25",
+    "arxiv::policy optimality measurement for multi-vehicle decision-making: from extrinsic indicators to intrinsic quality::2026-08-02": "clu_7083139b07",
+    "arxiv::reusing rollouts under policy lag: prefix-normalized policy optimization for llm reinforcement learning::2026-08-02": "clu_648a45d858",
+    "arxiv::demystifying when and why vlas fail in contact-rich tasks and how to fix them::2026-08-02": "clu_f9bf20a798",
+    "arxiv::rethinking video token compression with a global codebook: learning once, compressing everywhere::2026-08-02": "clu_f2f530424f",
+    "arxiv::what could the agent see at 19:05? generating temporal enterprise scenarios from real research and replaying them to evaluate agents::2026-08-02": "clu_7d96f2fa2a",
+    "arxiv::spatiotemporal proximal causal inference under hidden confounding and interference::2026-08-02": "clu_228f69afc5",
+    "arxiv::asking questions the right way: a multi-agent conversational system for prompt formulation in complex task resolution::2026-08-02": "clu_ec25842047",
+    "arxiv::security-first evaluation of text-to-terraform: benchmarking llms and slms for secure iac generation::2026-08-02": "clu_40e098be4e",
+    "arxiv::402pilot: an x402 decision layer for autonomous agent micropayments::2026-08-02": "clu_7fe965c854",
+    "arxiv::cognitive demand steering for adaptive meta-reasoning in large language models::2026-08-02": "clu_70477df19b",
+    "arxiv::search-grt: guided retrieval training of search agents to optimize for complex question answering::2026-08-02": "clu_3d2d557177",
+    "arxiv::caliber: cross-architecture extraction-cost control for score-returning apis::2026-08-02": "clu_1c031ae5e3",
+    "arxiv::the graph language: how knowledge graphs speak to large language models::2026-08-02": "clu_02c0fe7f46",
+    "arxiv::imprecise belief fusion improves multi-agent social learning::2026-08-02": "clu_70e0811c93",
+    "arxiv::ma-head-net: adaptive rule-guided multi-agent drl for aoi minimization in uav-assisted emergency networks::2026-08-02": "clu_50e77aa2b2",
+    "arxiv::control under compression: reliability frontiers for tool-using agents::2026-08-02": "clu_8012fbdddd",
+    "arxiv::context compaction theory::2026-08-02": "clu_e8d5238828",
+    "arxiv::loud or silent? a reusable framework for per-modality failure analysis in multimodal clinical ai::2026-08-02": "clu_7d91c0f846",
+    "arxiv::dynactivegs: active gaussian splatting for dynamic scene reconstruction::2026-08-02": "clu_3b44af5fe3",
+    "arxiv::talking to digital twins: selective disclosure and belief measurement in financial social media::2026-08-02": "clu_f067936f07",
+    "arxiv::wam-diff2: hierarchical ar-to-diffusion distillation for highly efficient autonomous driving vla::2026-08-02": "clu_637e3242ed",
+    "arxiv::trajwiki: source-grounded memory trajectories for long-horizon dialogue agents::2026-08-02": "clu_375a9c0327",
+    "arxiv::agentic stage-one stellarator optimization: autonomous multi-objective search for finite-beta equilibria::2026-08-02": "clu_f04dd5cffb",
+    "arxiv::edatracer: an agentic framework for large-scale eda artifact analysis::2026-08-02": "clu_6913a4cb8b",
+    "arxiv::deberta-sentinel: toward transparent and trustworthy detection of ai-generated text::2026-08-02": "clu_1d9175af78",
+    "arxiv::deep agentic search for repository-level code question answering: an empirical study::2026-08-02": "clu_5fe073f7c4",
+    "arxiv::dots.tts.edit: precisely controlled speech editing with a continuous autoregressive model::2026-08-02": "clu_c79478be29",
+    "arxiv::role-decoupled attention residuals: separating matching and content retrieval across depth::2026-08-02": "clu_aa7673a4a4",
+    "arxiv::fighting fire with fire: on the feasibility of protecting exercises against ai cheating::2026-08-02": "clu_71cc863c5f",
+    "arxiv::rebrac-v2: the return of the king::2026-08-02": "clu_58d0bd2236",
+    "arxiv::schedbench: a benchmark for evaluating llm constraint faithfulness in natural-language combinatorial scheduling::2026-08-02": "clu_3589ad1f53",
+    "arxiv::perspectives on tsallis statistics for artificial intelligence::2026-08-02": "clu_c879387063",
+    "arxiv::from ai technical debt to agentic technical debt: a systematic mapping of root causes and manifestations in agentic ai systems::2026-08-02": "clu_ace469017d",
+    "arxiv::pmmc: prospective multimodal memory compilation for long-term lvlm agents::2026-08-02": "clu_463302a9f0",
+    "arxiv::adahat: adaptive hard attention to the task in task-incremental learning::2026-08-02": "clu_1af141e75d",
+    "arxiv::sweet little lies: strategic deception in ai emotional support chatbots::2026-08-02": "clu_b8d66f3841",
+    "arxiv::same violence, different answer: how ai responds to coercive control against women across languages::2026-08-02": "clu_e918612561",
+    "arxiv::retrieval augmented biomedical question answering with weak question recovery and neural reranking for bioasq task 14b::2026-08-02": "clu_fe0bf2942a",
+    "arxiv::king: embodiment-aware kinematic graph neural network for unified motion representation of legged and wheeled robots::2026-08-02": "clu_b99c7dd3ba",
+    "arxiv::reputation-driven cooperation in lattice-based decentralized federated learning through evolutionary game theory::2026-08-02": "clu_b26bfc62ef",
+    "arxiv::sphere retraction normalizations::2026-08-02": "clu_6e9ac14f36",
+    "arxiv::udt: reconciling u-nets and diffusion transformers with data-adaptive token reduction::2026-08-02": "clu_7d10fa4421",
+    "arxiv::decoy images amplify caption-mediated defenses against encoded jailbreaks::2026-08-02": "clu_36d3d39628",
+    "arxiv::callscreenbench: benchmarking on-device models as phone secretaries::2026-08-02": "clu_17dbdd6e10",
+    "arxiv::neuro-symbolic participation governance for verifiable ai agents in open digital twin ecosystems::2026-08-02": "clu_86b520ee39",
+    "arxiv::path-bench: path-dependent evaluation of lifelong agents::2026-08-02": "clu_f83a9cfe34",
+    "arxiv::permission denied: policy-graded evaluation of coding agents in hardened environments::2026-08-02": "clu_607f43150a",
+    "arxiv::medups: towards diagnostic assistance in uncommon medical cases with large language models::2026-08-02": "clu_32982aa996",
+    "arxiv::best-kag: enhancing question answering of building engineering standards with multimodal knowledge graph modeling and large language model::2026-08-02": "clu_094fb39a85",
+    "arxiv::auditing discovery claims: a two-sided criterion for agentic science, with the negative side decidable::2026-08-02": "clu_728ff2b5d9",
+    "arxiv::ct-prepagent: bounded policy and controlled execution for adaptive ct data preparation::2026-08-02": "clu_78d70689fe",
+    "arxiv::ai sandbox: technical report::2026-08-02": "clu_a49cbdaec0",
+    "arxiv::when replanning becomes the bottleneck: budgeted replanning for embodied agents::2026-08-02": "clu_25abcf989a",
+    "arxiv::ace-graphrag: agentic context engineering for hierarchical graphrag::2026-08-02": "clu_0a50b486c3",
+    "arxiv::vlaguard: a framework for evaluating and mitigating physical attention hijacking in vision-language-action robots within wireless sensor networks::2026-08-02": "clu_cabd9e622d",
+    "arxiv::towards sustainable learning in online education: a reinforcement learning approach::2026-08-02": "clu_93e70357b4",
+    "arxiv::scoring rules! statistical and strategic alignment for text evaluation metrics::2026-08-02": "clu_d0ed0d142b",
+    "arxiv::attend to your own thoughts: breaking the barrier for post-training quantization of reasoning llms through the lens of 1.58-bit quantization::2026-08-02": "clu_5855865e91",
+    "arxiv::factorjepa: factorizing monolithic futures into layout-agent-interaction channels for crowded and chaotic global south urban worlds::2026-08-02": "clu_1401cb3ce4",
+    "arxiv::minegrad: gradient inversion attacks on lora fine-tuning::2026-08-02": "clu_8bf93b8bb7",
+    "arxiv::passing coarse marginal checks can be cheap: persona mixtures and imprecise treatment-response estimates in an llm persona panel::2026-08-02": "clu_a87cc0a6a6",
+    "arxiv::a new theory of value for post-agi economics::2026-08-02": "clu_6592d57f2f",
+    "arxiv::it's the decoding format, not the perturbation: auditing consistency-based selection for vision-language test-time scaling::2026-08-02": "clu_f809617bde",
+    "arxiv::auditing semantic gains in sequential recommendation: a lightweight recovery test::2026-08-02": "clu_8b55ba3deb",
+    "arxiv::polymergpt: multi-property optimization with a decoder-based gpt model for generative polymer design::2026-08-02": "clu_41cad7da1b",
+    "arxiv::unified multi-dimensional benchmark for complex graph reasoning in large language models::2026-08-02": "clu_883b732373",
+    "arxiv::cloud-scpo: hidden-state geometry for semi-supervised preference optimization in llm reasoning::2026-08-02": "clu_a6bd663dd2",
+    "arxiv::beyond gene reconstruction: learning cell representations through complementary transcriptomic views::2026-08-02": "clu_d0f7125bd5",
+    "arxiv::why formal monitors fail: attack distribution entropy as a coverage bound for ltl-based llm agent safety::2026-08-02": "clu_7a40e6913b",
+    "arxiv::masdrift: benchmarking authorization preservation across multi-agent architectures::2026-08-02": "clu_3c72d01e4e",
+    "arxiv::beyond routing saturation: a long-horizon class-incremental perspective on expert routing in multimodal continual instruction tuning::2026-08-02": "clu_5b5a259fad",
+    "arxiv::v-mem: modality-routed retrieval for long-term multimodal agentic memory::2026-08-02": "clu_6b4d104815",
+    "arxiv::crafts: collaborative role-adaptive fine-tuning of llm agents for chemical process simulation::2026-08-02": "clu_5e92ced9b1",
+    "arxiv::the epistemic politics of ai anthropomorphism::2026-08-02": "clu_086a3e6cf7",
+    "arxiv::vulnerabilities, secrets and misconfiguration in the highest-exposure docker hub images::2026-08-02": "clu_fa5ce7b7db",
+    "arxiv::judging is not enumerating: silent omissions in llm-authored acceptable sets::2026-08-02": "clu_a2329f56a9",
+    "arxiv::who belongs in the eval set? a capability-taxonomy-driven pipeline for curating regression eval sets in agent-extensibility platforms::2026-08-02": "clu_e7bbd892b7",
+    "arxiv::statistical mechanics of learning on product wasserstein manifolds::2026-08-02": "clu_27f39dad21",
+    "arxiv::refactorassist: agentic refinement for reliable code refactoring::2026-08-02": "clu_9571b5a99e",
+    "arxiv::where reasoning diverges: localized multi-agent debate for multi-hop question answering::2026-08-02": "clu_8f4f44ff1e",
+    "arxiv::kovre: training an efficient embedding model for korean visual document retrieval::2026-08-02": "clu_b6d5b54f80",
+    "arxiv::inter-residue geometry attention for antibody-specific epitope prediction::2026-08-02": "clu_125a062b26",
+    "arxiv::an ai approach to verified production cryptographic libraries::2026-08-02": "clu_9810181e1b",
+    "arxiv::mrafnd: multimodal retrieval-augmented framework for zero-shot fake news detection::2026-08-02": "clu_6e968ea853",
+    "arxiv::craftalign: feature-grounded evaluation and revision guidance for ai stories::2026-08-02": "clu_ce3005b647",
+    "arxiv::rapid embodiment adaptation for quadrupedal locomotion::2026-08-02": "clu_5a19294b2b",
+    "arxiv::hybrid lagrangian-eulerian model for lagrangian fluid simulation::2026-08-02": "clu_815e2c70c1",
+    "arxiv::progress: coverage-guided rl to train search-augmented llm agent::2026-08-02": "clu_efe3724dcd",
+    "arxiv::g-react: graph-guided deep search via structure-state co-evolution::2026-08-02": "clu_2fcab5edd6",
+    "arxiv::moving the safety barrier: dynamic routing adaptive alignment against white-box attacks::2026-08-02": "clu_06ed25b2e9",
+    "arxiv::question begets question: self-evolving curriculum for reinforcement fine-tuning on competition mathematics::2026-08-02": "clu_05bb60051b",
+    "arxiv::grare: grasp candidate re-ranking for frozen 6-dof grasp detectors::2026-08-02": "clu_97e1733955",
+    "arxiv::don't offer what can't be done: deterministic executability gating for llm skill selection at scale::2026-08-02": "clu_33b5bb0ba9",
+    "arxiv::computing with agentic oracles::2026-08-02": "clu_9d4ba4e34e",
+    "arxiv::high-stakes decisions with language models: insights from emergency triage::2026-08-02": "clu_2aeef6750d",
+    "arxiv::learning what to remember and what to internalize in llm self-evolution via adaptive memory-parameter coordination::2026-08-02": "clu_87443fa0d4",
+    "arxiv::ranking image fusion the way humans do: a learned pairwise preference measure for infrared-visible fusion assessment::2026-08-02": "clu_c9174c46a8",
+    "arxiv::longchart vqa: a comprehensive benchmark for mllms with complex multi-chart reasoning::2026-08-02": "clu_b586fc22be",
+    "arxiv::one-sided quantile coupling for flow matching::2026-08-02": "clu_3fdff5a306",
+    "arxiv::when policies change probabilities: modular decision-making for llm code review::2026-08-02": "clu_028ca454d1",
+    "arxiv::riemannian attention mechanisms for transformers: a theoretical framework and architecture design::2026-08-02": "clu_54d9c83bc3",
+    "arxiv::sheaf-theoretic signal processing on graphs: spectral theory, filtering, and sampling::2026-08-02": "clu_c063135494",
+    "arxiv::sg-layout: structured scene graph-guided layout generation with llms::2026-08-02": "clu_c59dbaaf69",
+    "arxiv::denialrag: single-document rag poisoning via embedded parametric denial::2026-08-02": "clu_723376a831",
+    "arxiv::language equality has a price: a systematic investigation of multi-turn llm performance for eu-24+::2026-08-02": "clu_2ec6025036",
+    "arxiv::why llms give in: conversational factors and reasoning behind medical sycophancy::2026-08-02": "clu_5531f51f53",
+    "arxiv::why ammoniated lithium borohydrides liquefy and resolidify?::2026-08-02": "clu_ff06489b7e",
+    "arxiv::suppressed plasmon excitations, enhanced damping and static screening in kek-y strained $α-\\mathcal{t}_3$ model::2026-08-02": "clu_37f584b3e3",
+    "arxiv::electron-like high-temperature superconductivity induced by compressive strain in la2prni2o7 thin films::2026-08-02": "clu_1e35f4e2e0",
+    "arxiv::twist-induced magnetic topological phase transition in stacked altermagnetic cro::2026-08-02": "clu_2fffb2d40e",
+    "arxiv::magnetic circular dichroism of thz modes and selection rules of raman-active optical phonons in the polar altermagnet candidate \\ce{mn2mo3o8}::2026-08-02": "clu_9797b12724",
+    "arxiv::all-electric topological phase transitions in proximity-coupled bilayer mnbi2te4 heterostructures::2026-08-02": "clu_608540bdd2",
+    "arxiv::surface adsorbates suppress low-frequency noise for shallow nitrogen-vacancy centers::2026-08-02": "clu_88c567b5bd",
+    "arxiv::performance of tkatchenko-scheffler dispersion method with updated van der waals radii: importance for alkali-containing systems::2026-08-02": "clu_177a8d50b1",
+    "arxiv::ebsd and subtle crystallographic differences - a study of resolving interlayer spacings in nb-ni and nb-co mu-phases::2026-08-02": "clu_1fe70ab8a4",
+    "arxiv::spin-chirality-driven nonrelativistic edelstein effects in two-dimensional antiferromagnets::2026-08-02": "clu_a99c195f20",
+    "arxiv::pressure-induced self-doping and fermi surface reconstruction in uas2::2026-08-02": "clu_4303025bbc"
   },
   "clusters": {
     "clu_988da4962d": {
@@ -28,6 +436,1230 @@
       ],
       "source_ids": [
         "src_ieee_spectrum"
+      ]
+    },
+    "clu_a5d81adc09": {
+      "primary_event_id": "evt_20260814_7ad4a8938e",
+      "event_ids": [
+        "evt_20260814_7ad4a8938e"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_a1c3cab032": {
+      "primary_event_id": "evt_20260814_16b28032ab",
+      "event_ids": [
+        "evt_20260814_16b28032ab"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_d9998e316c": {
+      "primary_event_id": "evt_20260814_88210955c9",
+      "event_ids": [
+        "evt_20260814_88210955c9"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_b56b02a0d6": {
+      "primary_event_id": "evt_20260814_fb53b42435",
+      "event_ids": [
+        "evt_20260814_fb53b42435"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_751e814aa1": {
+      "primary_event_id": "evt_20260814_0498d8333a",
+      "event_ids": [
+        "evt_20260814_0498d8333a"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_9f8f43b5f9": {
+      "primary_event_id": "evt_20260814_4bef825b53",
+      "event_ids": [
+        "evt_20260814_4bef825b53"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_154d6cdfab": {
+      "primary_event_id": "evt_20260814_adf84978ce",
+      "event_ids": [
+        "evt_20260814_adf84978ce"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_e1a31b7888": {
+      "primary_event_id": "evt_20260814_3d27867014",
+      "event_ids": [
+        "evt_20260814_3d27867014"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_29742b5771": {
+      "primary_event_id": "evt_20260814_7a9b6b5b56",
+      "event_ids": [
+        "evt_20260814_7a9b6b5b56"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_76eb6eebb4": {
+      "primary_event_id": "evt_20260814_b4668bdc8a",
+      "event_ids": [
+        "evt_20260814_b4668bdc8a"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_37bc8ceea8": {
+      "primary_event_id": "evt_20260814_91947afc0f",
+      "event_ids": [
+        "evt_20260814_91947afc0f"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_7cedbc4801": {
+      "primary_event_id": "evt_20260814_f5d985813f",
+      "event_ids": [
+        "evt_20260814_f5d985813f"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_d550926b5a": {
+      "primary_event_id": "evt_20260814_4da7c4ed64",
+      "event_ids": [
+        "evt_20260814_4da7c4ed64"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_ec2ba3f83c": {
+      "primary_event_id": "evt_20260814_d675093e45",
+      "event_ids": [
+        "evt_20260814_d675093e45"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_c97b96bdc1": {
+      "primary_event_id": "evt_20260814_dec232e796",
+      "event_ids": [
+        "evt_20260814_dec232e796"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_92a4a537c1": {
+      "primary_event_id": "evt_20260814_4c7f7c2b1f",
+      "event_ids": [
+        "evt_20260814_4c7f7c2b1f"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_57be8cf35c": {
+      "primary_event_id": "evt_20260814_ed800e3967",
+      "event_ids": [
+        "evt_20260814_ed800e3967"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_f95187014b": {
+      "primary_event_id": "evt_20260814_998d6bc7a5",
+      "event_ids": [
+        "evt_20260814_998d6bc7a5"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_6def384b25": {
+      "primary_event_id": "evt_20260814_3d36149ec5",
+      "event_ids": [
+        "evt_20260814_3d36149ec5"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_7083139b07": {
+      "primary_event_id": "evt_20260814_919aa16994",
+      "event_ids": [
+        "evt_20260814_919aa16994"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_648a45d858": {
+      "primary_event_id": "evt_20260814_9a6833986e",
+      "event_ids": [
+        "evt_20260814_9a6833986e"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_f9bf20a798": {
+      "primary_event_id": "evt_20260814_b4aa6599f9",
+      "event_ids": [
+        "evt_20260814_b4aa6599f9"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_f2f530424f": {
+      "primary_event_id": "evt_20260814_8a5133066d",
+      "event_ids": [
+        "evt_20260814_8a5133066d"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_7d96f2fa2a": {
+      "primary_event_id": "evt_20260814_8fb71cdbc7",
+      "event_ids": [
+        "evt_20260814_8fb71cdbc7"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_228f69afc5": {
+      "primary_event_id": "evt_20260814_da7fecde2b",
+      "event_ids": [
+        "evt_20260814_da7fecde2b"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_ec25842047": {
+      "primary_event_id": "evt_20260814_ea23176488",
+      "event_ids": [
+        "evt_20260814_ea23176488"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_40e098be4e": {
+      "primary_event_id": "evt_20260814_a5d9e3caea",
+      "event_ids": [
+        "evt_20260814_a5d9e3caea"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_7fe965c854": {
+      "primary_event_id": "evt_20260814_9830ba346d",
+      "event_ids": [
+        "evt_20260814_9830ba346d"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_70477df19b": {
+      "primary_event_id": "evt_20260814_63ca659c92",
+      "event_ids": [
+        "evt_20260814_63ca659c92"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_3d2d557177": {
+      "primary_event_id": "evt_20260814_ef430aee2e",
+      "event_ids": [
+        "evt_20260814_ef430aee2e"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_1c031ae5e3": {
+      "primary_event_id": "evt_20260814_f80318f654",
+      "event_ids": [
+        "evt_20260814_f80318f654"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_02c0fe7f46": {
+      "primary_event_id": "evt_20260814_4523a106d9",
+      "event_ids": [
+        "evt_20260814_4523a106d9"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_70e0811c93": {
+      "primary_event_id": "evt_20260814_3a4d1440f2",
+      "event_ids": [
+        "evt_20260814_3a4d1440f2"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_50e77aa2b2": {
+      "primary_event_id": "evt_20260814_8a03fca511",
+      "event_ids": [
+        "evt_20260814_8a03fca511"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_8012fbdddd": {
+      "primary_event_id": "evt_20260814_f059f0d9ff",
+      "event_ids": [
+        "evt_20260814_f059f0d9ff"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_e8d5238828": {
+      "primary_event_id": "evt_20260814_003c7083d1",
+      "event_ids": [
+        "evt_20260814_003c7083d1"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_7d91c0f846": {
+      "primary_event_id": "evt_20260814_4eaf0e94d9",
+      "event_ids": [
+        "evt_20260814_4eaf0e94d9"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_3b44af5fe3": {
+      "primary_event_id": "evt_20260814_080bd19c11",
+      "event_ids": [
+        "evt_20260814_080bd19c11"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_f067936f07": {
+      "primary_event_id": "evt_20260814_86e631d2dc",
+      "event_ids": [
+        "evt_20260814_86e631d2dc"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_637e3242ed": {
+      "primary_event_id": "evt_20260814_c796e020f6",
+      "event_ids": [
+        "evt_20260814_c796e020f6"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_375a9c0327": {
+      "primary_event_id": "evt_20260814_27a2446a9f",
+      "event_ids": [
+        "evt_20260814_27a2446a9f"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_f04dd5cffb": {
+      "primary_event_id": "evt_20260814_dbb1435467",
+      "event_ids": [
+        "evt_20260814_dbb1435467"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_6913a4cb8b": {
+      "primary_event_id": "evt_20260814_556cdf25e8",
+      "event_ids": [
+        "evt_20260814_556cdf25e8"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_1d9175af78": {
+      "primary_event_id": "evt_20260814_5f94a97e85",
+      "event_ids": [
+        "evt_20260814_5f94a97e85"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_5fe073f7c4": {
+      "primary_event_id": "evt_20260814_2658b036a1",
+      "event_ids": [
+        "evt_20260814_2658b036a1"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_c79478be29": {
+      "primary_event_id": "evt_20260814_3e33ee0330",
+      "event_ids": [
+        "evt_20260814_3e33ee0330"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_aa7673a4a4": {
+      "primary_event_id": "evt_20260814_8e516c0786",
+      "event_ids": [
+        "evt_20260814_8e516c0786"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_71cc863c5f": {
+      "primary_event_id": "evt_20260814_85d754a40f",
+      "event_ids": [
+        "evt_20260814_85d754a40f"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_58d0bd2236": {
+      "primary_event_id": "evt_20260814_5453231f3d",
+      "event_ids": [
+        "evt_20260814_5453231f3d"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_3589ad1f53": {
+      "primary_event_id": "evt_20260814_24e4311fa0",
+      "event_ids": [
+        "evt_20260814_24e4311fa0"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_c879387063": {
+      "primary_event_id": "evt_20260814_145b399095",
+      "event_ids": [
+        "evt_20260814_145b399095"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_ace469017d": {
+      "primary_event_id": "evt_20260814_e12005a999",
+      "event_ids": [
+        "evt_20260814_e12005a999"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_463302a9f0": {
+      "primary_event_id": "evt_20260814_656bc8d488",
+      "event_ids": [
+        "evt_20260814_656bc8d488"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_1af141e75d": {
+      "primary_event_id": "evt_20260814_d3eec934d7",
+      "event_ids": [
+        "evt_20260814_d3eec934d7"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_b8d66f3841": {
+      "primary_event_id": "evt_20260814_93373f402f",
+      "event_ids": [
+        "evt_20260814_93373f402f"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_e918612561": {
+      "primary_event_id": "evt_20260814_3fcb54b8d9",
+      "event_ids": [
+        "evt_20260814_3fcb54b8d9"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_fe0bf2942a": {
+      "primary_event_id": "evt_20260814_d9a437974f",
+      "event_ids": [
+        "evt_20260814_d9a437974f"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_b99c7dd3ba": {
+      "primary_event_id": "evt_20260814_327e4299b2",
+      "event_ids": [
+        "evt_20260814_327e4299b2"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_b26bfc62ef": {
+      "primary_event_id": "evt_20260814_2d6a8dfd50",
+      "event_ids": [
+        "evt_20260814_2d6a8dfd50"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_6e9ac14f36": {
+      "primary_event_id": "evt_20260814_47b5e3d575",
+      "event_ids": [
+        "evt_20260814_47b5e3d575"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_7d10fa4421": {
+      "primary_event_id": "evt_20260814_13e6faa42d",
+      "event_ids": [
+        "evt_20260814_13e6faa42d"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_36d3d39628": {
+      "primary_event_id": "evt_20260814_33844da2a3",
+      "event_ids": [
+        "evt_20260814_33844da2a3"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_17dbdd6e10": {
+      "primary_event_id": "evt_20260814_aec35cd34b",
+      "event_ids": [
+        "evt_20260814_aec35cd34b"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_86b520ee39": {
+      "primary_event_id": "evt_20260814_b783051f5d",
+      "event_ids": [
+        "evt_20260814_b783051f5d"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_f83a9cfe34": {
+      "primary_event_id": "evt_20260814_e3d631c8db",
+      "event_ids": [
+        "evt_20260814_e3d631c8db"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_607f43150a": {
+      "primary_event_id": "evt_20260814_ba4abd615a",
+      "event_ids": [
+        "evt_20260814_ba4abd615a"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_32982aa996": {
+      "primary_event_id": "evt_20260814_985ac4d910",
+      "event_ids": [
+        "evt_20260814_985ac4d910"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_094fb39a85": {
+      "primary_event_id": "evt_20260814_578d8ffcaf",
+      "event_ids": [
+        "evt_20260814_578d8ffcaf"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_728ff2b5d9": {
+      "primary_event_id": "evt_20260814_e40d49e47f",
+      "event_ids": [
+        "evt_20260814_e40d49e47f"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_78d70689fe": {
+      "primary_event_id": "evt_20260814_92a64a2115",
+      "event_ids": [
+        "evt_20260814_92a64a2115"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_a49cbdaec0": {
+      "primary_event_id": "evt_20260814_bdced433e6",
+      "event_ids": [
+        "evt_20260814_bdced433e6"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_25abcf989a": {
+      "primary_event_id": "evt_20260814_81797d444b",
+      "event_ids": [
+        "evt_20260814_81797d444b"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_0a50b486c3": {
+      "primary_event_id": "evt_20260814_40f94906b5",
+      "event_ids": [
+        "evt_20260814_40f94906b5"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_cabd9e622d": {
+      "primary_event_id": "evt_20260814_86667f32ff",
+      "event_ids": [
+        "evt_20260814_86667f32ff"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_93e70357b4": {
+      "primary_event_id": "evt_20260814_e3d2b1b19f",
+      "event_ids": [
+        "evt_20260814_e3d2b1b19f"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_d0ed0d142b": {
+      "primary_event_id": "evt_20260814_d03d047b60",
+      "event_ids": [
+        "evt_20260814_d03d047b60"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_5855865e91": {
+      "primary_event_id": "evt_20260814_4d63a3e05a",
+      "event_ids": [
+        "evt_20260814_4d63a3e05a"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_1401cb3ce4": {
+      "primary_event_id": "evt_20260814_9b3cf9e721",
+      "event_ids": [
+        "evt_20260814_9b3cf9e721"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_8bf93b8bb7": {
+      "primary_event_id": "evt_20260814_68ccb2552c",
+      "event_ids": [
+        "evt_20260814_68ccb2552c"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_a87cc0a6a6": {
+      "primary_event_id": "evt_20260814_22ff9f7739",
+      "event_ids": [
+        "evt_20260814_22ff9f7739"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_6592d57f2f": {
+      "primary_event_id": "evt_20260814_7a898b90d4",
+      "event_ids": [
+        "evt_20260814_7a898b90d4"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_f809617bde": {
+      "primary_event_id": "evt_20260814_146a4e90a8",
+      "event_ids": [
+        "evt_20260814_146a4e90a8"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_8b55ba3deb": {
+      "primary_event_id": "evt_20260814_b9d8372240",
+      "event_ids": [
+        "evt_20260814_b9d8372240"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_41cad7da1b": {
+      "primary_event_id": "evt_20260814_a111a0fa20",
+      "event_ids": [
+        "evt_20260814_a111a0fa20"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_883b732373": {
+      "primary_event_id": "evt_20260814_50e36ae5b7",
+      "event_ids": [
+        "evt_20260814_50e36ae5b7"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_a6bd663dd2": {
+      "primary_event_id": "evt_20260814_3e5dd685f8",
+      "event_ids": [
+        "evt_20260814_3e5dd685f8"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_d0f7125bd5": {
+      "primary_event_id": "evt_20260814_72f6553ec4",
+      "event_ids": [
+        "evt_20260814_72f6553ec4"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_7a40e6913b": {
+      "primary_event_id": "evt_20260814_0bb383bdb1",
+      "event_ids": [
+        "evt_20260814_0bb383bdb1"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_3c72d01e4e": {
+      "primary_event_id": "evt_20260814_936ea6b9a4",
+      "event_ids": [
+        "evt_20260814_936ea6b9a4"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_5b5a259fad": {
+      "primary_event_id": "evt_20260814_9215d71b79",
+      "event_ids": [
+        "evt_20260814_9215d71b79"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_6b4d104815": {
+      "primary_event_id": "evt_20260814_40fa826223",
+      "event_ids": [
+        "evt_20260814_40fa826223"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_5e92ced9b1": {
+      "primary_event_id": "evt_20260814_532003e50e",
+      "event_ids": [
+        "evt_20260814_532003e50e"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_086a3e6cf7": {
+      "primary_event_id": "evt_20260814_9d94f747fd",
+      "event_ids": [
+        "evt_20260814_9d94f747fd"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_fa5ce7b7db": {
+      "primary_event_id": "evt_20260814_949bc99a23",
+      "event_ids": [
+        "evt_20260814_949bc99a23"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_a2329f56a9": {
+      "primary_event_id": "evt_20260814_51c6c5b2c9",
+      "event_ids": [
+        "evt_20260814_51c6c5b2c9"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_e7bbd892b7": {
+      "primary_event_id": "evt_20260814_b37400b565",
+      "event_ids": [
+        "evt_20260814_b37400b565"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_27f39dad21": {
+      "primary_event_id": "evt_20260814_02aa609181",
+      "event_ids": [
+        "evt_20260814_02aa609181"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_9571b5a99e": {
+      "primary_event_id": "evt_20260814_d7e48dfd19",
+      "event_ids": [
+        "evt_20260814_d7e48dfd19"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_8f4f44ff1e": {
+      "primary_event_id": "evt_20260814_bb3839af5d",
+      "event_ids": [
+        "evt_20260814_bb3839af5d"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_b6d5b54f80": {
+      "primary_event_id": "evt_20260814_0b19b21b92",
+      "event_ids": [
+        "evt_20260814_0b19b21b92"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_125a062b26": {
+      "primary_event_id": "evt_20260814_8727832523",
+      "event_ids": [
+        "evt_20260814_8727832523"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_9810181e1b": {
+      "primary_event_id": "evt_20260814_805ba9ab14",
+      "event_ids": [
+        "evt_20260814_805ba9ab14"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_6e968ea853": {
+      "primary_event_id": "evt_20260814_d2d906ce4b",
+      "event_ids": [
+        "evt_20260814_d2d906ce4b"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_ce3005b647": {
+      "primary_event_id": "evt_20260814_87eec586a0",
+      "event_ids": [
+        "evt_20260814_87eec586a0"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_5a19294b2b": {
+      "primary_event_id": "evt_20260814_f0694a21c7",
+      "event_ids": [
+        "evt_20260814_f0694a21c7"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_815e2c70c1": {
+      "primary_event_id": "evt_20260814_a942e8843d",
+      "event_ids": [
+        "evt_20260814_a942e8843d"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_efe3724dcd": {
+      "primary_event_id": "evt_20260814_730c03f998",
+      "event_ids": [
+        "evt_20260814_730c03f998"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_2fcab5edd6": {
+      "primary_event_id": "evt_20260814_b1dee7583f",
+      "event_ids": [
+        "evt_20260814_b1dee7583f"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_06ed25b2e9": {
+      "primary_event_id": "evt_20260814_f0b0353eb1",
+      "event_ids": [
+        "evt_20260814_f0b0353eb1"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_05bb60051b": {
+      "primary_event_id": "evt_20260814_4fd89c68d3",
+      "event_ids": [
+        "evt_20260814_4fd89c68d3"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_97e1733955": {
+      "primary_event_id": "evt_20260814_9d53388acd",
+      "event_ids": [
+        "evt_20260814_9d53388acd"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_33b5bb0ba9": {
+      "primary_event_id": "evt_20260814_4be22e761d",
+      "event_ids": [
+        "evt_20260814_4be22e761d"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_9d4ba4e34e": {
+      "primary_event_id": "evt_20260814_901bc5cacd",
+      "event_ids": [
+        "evt_20260814_901bc5cacd"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_2aeef6750d": {
+      "primary_event_id": "evt_20260814_972d1e4a04",
+      "event_ids": [
+        "evt_20260814_972d1e4a04"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_87443fa0d4": {
+      "primary_event_id": "evt_20260814_b5ac346598",
+      "event_ids": [
+        "evt_20260814_b5ac346598"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_c9174c46a8": {
+      "primary_event_id": "evt_20260814_43df6474d3",
+      "event_ids": [
+        "evt_20260814_43df6474d3"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_b586fc22be": {
+      "primary_event_id": "evt_20260814_05d0fa9b22",
+      "event_ids": [
+        "evt_20260814_05d0fa9b22"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_3fdff5a306": {
+      "primary_event_id": "evt_20260814_e2b0583ccb",
+      "event_ids": [
+        "evt_20260814_e2b0583ccb"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_028ca454d1": {
+      "primary_event_id": "evt_20260814_fece40c8ea",
+      "event_ids": [
+        "evt_20260814_fece40c8ea"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_54d9c83bc3": {
+      "primary_event_id": "evt_20260814_62cbb4f02a",
+      "event_ids": [
+        "evt_20260814_62cbb4f02a"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_c063135494": {
+      "primary_event_id": "evt_20260814_0bee86496c",
+      "event_ids": [
+        "evt_20260814_0bee86496c"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_c59dbaaf69": {
+      "primary_event_id": "evt_20260814_0490d37c65",
+      "event_ids": [
+        "evt_20260814_0490d37c65"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_723376a831": {
+      "primary_event_id": "evt_20260814_8c9129f63a",
+      "event_ids": [
+        "evt_20260814_8c9129f63a"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_2ec6025036": {
+      "primary_event_id": "evt_20260814_a5c171c2b4",
+      "event_ids": [
+        "evt_20260814_a5c171c2b4"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_5531f51f53": {
+      "primary_event_id": "evt_20260814_f3eb81e112",
+      "event_ids": [
+        "evt_20260814_f3eb81e112"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_ff06489b7e": {
+      "primary_event_id": "evt_20260814_0d9d11e48e",
+      "event_ids": [
+        "evt_20260814_0d9d11e48e"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_37f584b3e3": {
+      "primary_event_id": "evt_20260814_f603a1f938",
+      "event_ids": [
+        "evt_20260814_f603a1f938"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_1e35f4e2e0": {
+      "primary_event_id": "evt_20260814_c573a65cd3",
+      "event_ids": [
+        "evt_20260814_c573a65cd3"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_2fffb2d40e": {
+      "primary_event_id": "evt_20260814_85102428f4",
+      "event_ids": [
+        "evt_20260814_85102428f4"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_9797b12724": {
+      "primary_event_id": "evt_20260814_cc4e2aa271",
+      "event_ids": [
+        "evt_20260814_cc4e2aa271"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_608540bdd2": {
+      "primary_event_id": "evt_20260814_f223badb5b",
+      "event_ids": [
+        "evt_20260814_f223badb5b"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_88c567b5bd": {
+      "primary_event_id": "evt_20260814_3e7356301c",
+      "event_ids": [
+        "evt_20260814_3e7356301c"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_177a8d50b1": {
+      "primary_event_id": "evt_20260814_59aa0fb475",
+      "event_ids": [
+        "evt_20260814_59aa0fb475"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_1fe70ab8a4": {
+      "primary_event_id": "evt_20260814_cecc0cddd5",
+      "event_ids": [
+        "evt_20260814_cecc0cddd5"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_a99c195f20": {
+      "primary_event_id": "evt_20260814_fc8da798e8",
+      "event_ids": [
+        "evt_20260814_fc8da798e8"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_4303025bbc": {
+      "primary_event_id": "evt_20260814_7cf7bb925a",
+      "event_ids": [
+        "evt_20260814_7cf7bb925a"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
       ]
     }
   }

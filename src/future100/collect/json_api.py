@@ -75,6 +75,13 @@ def _request_body(source: dict) -> bytes | None:
     if body is None:
         raise base.FetchError(source["source_id"], "http_method=POST requires a body")
 
+    # 過去分の取り込みは対象期間を明示して渡す（遡及日数では任意の過去区間を指せない）
+    date_range = source.get("date_range")
+    if date_range:
+        rendered = json.dumps(body, ensure_ascii=False)
+        rendered = rendered.replace("{{start_date}}", date_range["start"]).replace("{{end_date}}", date_range["end"])
+        return rendered.encode("utf-8")
+
     end = timeutil.now().date()
     start = end - timedelta(days=source.get("lookback_days", 7))
     rendered = json.dumps(body, ensure_ascii=False)

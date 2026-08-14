@@ -27,11 +27,22 @@ class FetchError(Exception):
         self.reason = reason
 
 
+class EmptyPayload(FetchError):
+    """取得はできたが 1 件も入っていなかった。
+
+    日次収集では異常（フィードは常に何か載っている）だが、期間を指定した取得では
+    正常な答えでありうる（arXiv は土日に投稿の announce が無い）。呼び出し側が
+    区別できるように型で分けておく。ここを混同すると、過去分の取り込みが最初の
+    週末で打ち切られる。
+    """
+
+
 @dataclass
 class CollectResult:
     source_id: str
     documents: list[dict] = field(default_factory=list)
     error: str | None = None
+    empty: bool = False
 
 
 _ENV_REF = re.compile(r"\$\{([A-Z0-9_]+)\}")
@@ -166,6 +177,8 @@ def collect(source: dict) -> CollectResult:
     try:
         collector = get_collector(source["kind"])
         return CollectResult(source["source_id"], list(collector(source)))
+    except EmptyPayload as exc:
+        return CollectResult(source["source_id"], [], error=exc.reason, empty=True)
     except FetchError as exc:
         return CollectResult(source["source_id"], [], error=exc.reason)
     except KeyError as exc:

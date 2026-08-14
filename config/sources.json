@@ -46,7 +46,13 @@
       ],
       "poll_interval_minutes": 720,
       "enabled": true,
-      "notes": "輸出規制・補助金・関税の一次情報。BIS/DOE/DOD の規則もここに載る (§4)。RSS 版は bot 対策ページに転送されるため公式 JSON API を使う。"
+      "notes": "輸出規制・補助金・関税の一次情報。BIS/DOE/DOD の規則もここに載る (§4)。RSS 版は bot 対策ページに転送されるため公式 JSON API を使う。",
+      "backfill": {
+        "kind": "json_api",
+        "chunk_days": 7,
+        "delay_seconds": 1,
+        "endpoint_template": "https://www.federalregister.gov/api/v1/documents.json?conditions[publication_date][gte]={start_date}&conditions[publication_date][lte]={end_date}&per_page=1000&order=newest&fields[]=title&fields[]=abstract&fields[]=action&fields[]=html_url&fields[]=publication_date"
+      }
     },
     {
       "source_id": "src_jp_meti",
@@ -139,7 +145,13 @@
       ],
       "poll_interval_minutes": 1440,
       "enabled": true,
-      "notes": "論文数は Early Signal の一種。件数の急増を signal_type=paper として数える (§10)。"
+      "notes": "論文数は Early Signal の一種。件数の急増を signal_type=paper として数える (§10)。",
+      "backfill": {
+        "kind": "atom",
+        "chunk_days": 1,
+        "delay_seconds": 3,
+        "endpoint_template": "http://export.arxiv.org/api/query?search_query=cat:cs.AI+AND+submittedDate:[{start_compact}0000+TO+{end_compact}2359]&max_results=400&sortBy=submittedDate&sortOrder=descending"
+      }
     },
     {
       "source_id": "src_arxiv_materials",
@@ -157,7 +169,13 @@
         "resource"
       ],
       "poll_interval_minutes": 1440,
-      "enabled": true
+      "enabled": true,
+      "backfill": {
+        "kind": "atom",
+        "chunk_days": 1,
+        "delay_seconds": 3,
+        "endpoint_template": "http://export.arxiv.org/api/query?search_query=cat:cond-mat.mtrl-sci+AND+submittedDate:[{start_compact}0000+TO+{end_compact}2359]&max_results=400&sortBy=submittedDate&sortOrder=descending"
+      }
     },
     {
       "source_id": "src_nvidia_newsroom",
@@ -334,7 +352,7 @@
       ],
       "poll_interval_minutes": 720,
       "enabled": true,
-      "notes": "§10 の VC 投資シグナルの一次情報。Form D は未公開企業の証券発行届出で、資金調達の発生そのものを示す。既定 UA では 403 になるため連絡先入りの UA を指定している。"
+      "notes": "§10 の VC 投資シグナルの一次情報。Form D は未公開企業の証券発行届出で、資金調達の発生そのものを示す。既定 UA では 403 になるため連絡先入りの UA を指定している。 過去分は browse-edgar の getcurrent では遡れず（現在の届出しか返さない）、full-index の取り込みが要るため未対応。"
     },
     {
       "source_id": "src_us_defense_contracts",
@@ -418,7 +436,11 @@
       ],
       "poll_interval_minutes": 1440,
       "enabled": true,
-      "notes": "§10 の調達シグナルを金額付きで取得する。政府の需要がどの分野に向いたかを直接示す一次データ。Start Date は契約の履行開始日で数十年前になることがあるため、直近の動きを表す Last Modified Date を発生時刻に使う。"
+      "notes": "§10 の調達シグナルを金額付きで取得する。政府の需要がどの分野に向いたかを直接示す一次データ。Start Date は契約の履行開始日で数十年前になることがあるため、直近の動きを表す Last Modified Date を発生時刻に使う。 1 回の応答が上位 100 件に限られるため、過去分は 1 日ずつ取る（7 日まとめて取ると日次収集より粗い件数になり、baseline が過小になる）。",
+      "backfill": {
+        "chunk_days": 1,
+        "delay_seconds": 1
+      }
     },
     {
       "source_id": "src_nasa_news",

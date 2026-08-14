@@ -26,6 +26,7 @@ python3 scripts/init_structure.py          # ディレクトリ生成（冪等�
 python3 scripts/collect.py --dry-run       # 全ソースの到達性を確認
 python3 scripts/collect.py                 # data/raw/ にスナップショットを保存
 python3 scripts/collect.py --force         # poll_interval_minutes を無視して取り直す
+python3 scripts/backfill.py --days 35      # 日付範囲で取れるソースの過去分を取り込む (§10)
 python3 scripts/normalize.py               # raw → data/events/（重複統合込み）
 python3 scripts/detect_signals.py          # 弱いシグナルの同時増加を集計 (§10)
 python3 scripts/analyze_sector.py --list   # セクターごとの根拠件数を確認 (§20-34)
@@ -40,6 +41,16 @@ python3 -m pytest tests -q                 # テスト（pytest が無ければ�
 日次サイクルは `.github/workflows/daily.yml` で毎日 21:30 UTC（日本時間 06:30）に実行され、
 観測履歴を `data/` にコミットする。**観測履歴はこのシステムの資産**で、これが貯まらないと
 Early Signal Detection は baseline を作れず判定を保留し続ける (§10)。
+
+日付範囲を受け付ける API（arXiv・Federal Register・USAspending・統計）は、過去分を
+`scripts/backfill.py` で先に取り込める。RSS しか出していないソース（企業広報・中央銀行・
+専門メディア）は原理的に遡れないため、そのソースが寄与する topic の判定は日次収集が
+baseline 期間に届くまで保留される。取り込めた範囲は `data/index/backfill.json` に
+実行結果として記録し、シグナル判定の観測被覆に反映する。
+
+過去分を取り込んでも `observed_at` は取り込んだ時刻のままで、発行日には書き換えない。
+そのため今日より前の `as_of` で再生したときこの過去分は見えない（過去時点の再現を
+壊さないため, §37）。
 
 JSON Schema 検証まで行う場合のみ追加依存を入れる（未導入でも不変条件の検査は動く）:
 

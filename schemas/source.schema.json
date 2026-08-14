@@ -306,6 +306,40 @@
           }
         }
       }
+    },
+    "backfill": {
+      "type": "object",
+      "description": "過去分の取り込み設定 (§10)。日付範囲を受け付ける API にだけ書ける。RSS しか出していないソースは原理的に遡れないため、この項目を持たない。",
+      "additionalProperties": false,
+      "required": [
+        "chunk_days"
+      ],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "rss",
+            "atom",
+            "json_api"
+          ],
+          "description": "過去分取得に使うコレクタ。通常時と別方式のことがある（arXiv は RSS が最新のみ、検索 API は Atom）。省略時はソースの kind。"
+        },
+        "endpoint_template": {
+          "type": "string",
+          "description": "{start_date} / {end_date}（YYYY-MM-DD）と {start_compact} / {end_compact}（YYYYMMDD）を埋める。POST 本文を使うソースでは省略できる。"
+        },
+        "chunk_days": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "1 回の要求で取る日数。1 日あたりの件数が上限に近いほど小さくする。"
+        },
+        "delay_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "default": 3,
+          "description": "区間ごとの待機秒数。arXiv は 3 秒間隔を求めている。"
+        }
+      }
     }
   }
 }

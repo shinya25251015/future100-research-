@@ -1,0 +1,67 @@
+{
+  "window_id": "sig_quantum_20260814",
+  "as_of": "2026-08-14T10:27:27Z",
+  "window": {
+    "start": "2026-08-08",
+    "end": "2026-08-14",
+    "baseline_start": "2026-07-11",
+    "baseline_end": "2026-08-07"
+  },
+  "topic": {
+    "label": "量子",
+    "keywords": [
+      "quantum computing",
+      "quantum computer",
+      "qubit",
+      "quantum processor",
+      "量子コンピュータ",
+      "量子計算"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_quantum"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 5,
+      "baseline_count": 2.25,
+      "event_ids": [
+        "evt_20260813_e1b7f23ad4",
+        "evt_20260813_7f127d8293",
+        "evt_20260813_e2ab035017",
+        "evt_20260813_c9e9a95b14",
+        "evt_20260814_d10c0fef42"
+      ],
+      "delta_ratio": 1.222
+    },
+    {
+      "signal_type": "patent",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 1,
+    "distinct_regions": 1,
+    "score": 26.7,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}

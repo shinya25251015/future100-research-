@@ -107,11 +107,15 @@ class _Bucket:
     regions: set[str] = field(default_factory=set)
 
 
-def observation_coverage(events: list[dict]) -> dict[str, str]:
-    """ソースごとの観測開始時刻（そのソースを最初に見た observed_at）。
+def observation_coverage(events: list[dict], backfills: dict[str, dict] | None = None) -> dict[str, str]:
+    """ソースごとに「いつ以降を漏れなく観測できているか」。
 
     収集を始めたばかりのソースは baseline 期間の件数が構造的に 0 になるため、
     「増えていないもの」が急増して見える。その誤検出を防ぐために必要 (§10)。
+
+    過去分を取り込んだソースは、その範囲まで遡れる。ただし広げるのは、取り込んだ範囲が
+    日次収集の開始時点まで途切れずに繋がっているときだけ。間に穴があれば baseline は
+    やはり過小で、比較は成立しない。
     """
     starts: dict[str, str] = {}
     for event in events:
@@ -120,14 +124,28 @@ def observation_coverage(events: list[dict]) -> dict[str, str]:
             source_id = source["source_id"]
             if source_id not in starts or observed_at < starts[source_id]:
                 starts[source_id] = observed_at
+
+    for source_id, span in (backfills or {}).items():
+        live_start = starts.get(source_id)
+        if live_start is None:
+            continue
+        # 取り込んだ範囲の終端が日次収集の開始日に接していなければ、その間が欠測になる
+        if span["to"] < f"{timeutil.day_of(live_start) - timedelta(days=1):%Y-%m-%d}":
+            continue
+        starts[source_id] = min(live_start, f"{span['from']}T00:00:00Z")
     return starts
 
 
-def build_window(topic: Topic, window: Window, *, as_of: str, events: list[dict] | None = None) -> dict:
+def build_window(topic: Topic, window: Window, *, as_of: str, events: list[dict] | None = None,
+                 backfills: dict[str, dict] | None = None) -> dict:
     """1 topic ぶんの SignalWindow を組み立てる（signal.schema.json 準拠）。"""
     if events is None:
         events = list(storage.iter_events(as_of=as_of, primary_only=True))
-    coverage_starts = observation_coverage(events)
+    if backfills is None:
+        from . import backfill  # noqa: PLC0415  (循環 import を避けるため呼び出し時に読む)
+
+        backfills = backfill.load_spans()
+    coverage_starts = observation_coverage(events, backfills)
 
     buckets: dict[str, _Bucket] = {}
     for event in events:

@@ -39,7 +39,7 @@ def collect_feed(source: dict) -> Iterator[dict]:
     observed_at = timeutil.now_str()
     entries = root.findall(".//item") or root.findall(".//atom:entry", _NS)
     if not entries:
-        raise base.FetchError(source["source_id"], "feed contained no items")
+        raise base.EmptyPayload(source["source_id"], "feed contained no items")
 
     for entry in entries:
         parsed = _parse_entry(entry)

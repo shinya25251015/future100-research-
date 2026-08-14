@@ -1,15 +1,792 @@
 {
   "by_url": {
     "https://war.gov/News/Contracts/Contract/Article/4546541/contracts-for-july-15-2026": "clu_b756ffe7a5",
-    "https://news.samsung.com/global/samsung-introduces-flex-titanium-technology-to-advance-foldable-displays": "clu_9ddb2284c4"
+    "https://news.samsung.com/global/samsung-introduces-flex-titanium-technology-to-advance-foldable-displays": "clu_9ddb2284c4",
+    "https://federalregister.gov/documents/2026/07/15/2026-14235/environmental-management-site-specific-advisory-board-hanford": "clu_80521a2be4",
+    "https://federalregister.gov/documents/2026/07/15/2026-14179/notice-of-inventory-completion-indiana-university-bloomington-in": "clu_3db1f2f45c",
+    "https://federalregister.gov/documents/2026/07/15/2026-14246/notice-of-formal-determination-on-records-release": "clu_fb3a262898",
+    "https://federalregister.gov/documents/2026/07/15/2026-14249/churchill-asset-management-llc": "clu_7816ecd1d8",
+    "https://federalregister.gov/documents/2026/07/15/2026-14261/approval-of-source-specific-air-quality-implementation-plan-new-york-castleton-power-llc": "clu_82e6e921cf",
+    "https://federalregister.gov/documents/2026/07/15/2026-14214/presidential-declaration-of-a-major-disaster-for-public-assistance-only-for-the-state-of-michigan": "clu_a1c5a7626c",
+    "https://federalregister.gov/documents/2026/07/15/2026-14226/sunshine-act-meeting-notice": "clu_7da4d43b4e",
+    "https://federalregister.gov/documents/2026/07/15/2026-14177/notice-of-intended-repatriation-university-of-california-berkeley-berkeley-ca": "clu_fd8e80e0fe",
+    "https://federalregister.gov/documents/2026/07/15/2026-14204/lake-ontario-national-marine-sanctuary-delay-of-effective-date": "clu_1b0319b978",
+    "https://federalregister.gov/documents/2026/07/15/2026-14260/air-plan-approval-missouri-control-of-nox-emissions-from-large-stationary-internal-combustion": "clu_e44255063b",
+    "https://federalregister.gov/documents/2026/07/15/2026-14188/agency-information-collection-activities-comment-request-americorps-vista-criminal-history": "clu_07f1207114",
+    "https://federalregister.gov/documents/2026/07/15/2026-14217/presidential-declaration-of-a-major-disaster-for-the-state-of-michigan": "clu_8097578f9b",
+    "https://federalregister.gov/documents/2026/07/15/2026-14199/self-regulatory-organizations-nasdaq-texas-llc-notice-of-filing-of-amendment-no-1-and-order-granting": "clu_e1842b0fc2",
+    "https://federalregister.gov/documents/2026/07/15/2026-14180/notice-of-intended-disposition-us-department-of-the-interior-bureau-of-reclamation-upper-colorado": "clu_8b09aeb312",
+    "https://federalregister.gov/documents/2026/07/15/2026-14164/notice-of-intended-repatriation-ball-state-university-muncie-in": "clu_93890f6dd7",
+    "https://federalregister.gov/documents/2026/07/15/2026-14210/presidential-declaration-of-a-major-disaster-for-the-state-of-louisiana": "clu_f668abd9e5",
+    "https://federalregister.gov/documents/2026/07/15/2026-14240/references-to-electronic-filing-systems-in-rules-of-practice-in-filings-pursuant-to-the-protocol": "clu_de773364c6",
+    "https://federalregister.gov/documents/2026/07/15/2026-14190/agency-information-collection-activities-requests-for-comments-clearance-of-a-new-approval-of": "clu_03b5a541be",
+    "https://federalregister.gov/documents/2026/07/15/2026-14185/notice-of-intended-repatriation-franklin-pierce-university-rindge-nh": "clu_b2f594d328",
+    "https://federalregister.gov/documents/2026/07/15/2026-14206/certificates-of-alternative-compliance-for-the-coast-guard-heartland-district": "clu_68908e44c3",
+    "https://federalregister.gov/documents/2026/07/15/2026-14238/airworthiness-directives-bell-textron-canada-limited-helicopters": "clu_e73fdd25e7",
+    "https://federalregister.gov/documents/2026/07/15/2026-14186/notice-of-intended-repatriation-franklin-pierce-university-rindge-nh": "clu_b2f594d328",
+    "https://federalregister.gov/documents/2026/07/15/2026-14176/notice-of-intended-repatriation-san-diego-state-university-san-diego-ca": "clu_993f92ca4c",
+    "https://federalregister.gov/documents/2026/07/15/2026-14173/notice-of-inventory-completion-university-of-tennessee-department-of-anthropology-knoxville-tn": "clu_4cabe3d827",
+    "https://federalregister.gov/documents/2026/07/15/2026-14198/order-under-section-36-of-the-securities-exchange-act-of-1934-the-exchange-act-and-rule-6h-1d": "clu_3ede6b4edf",
+    "https://federalregister.gov/documents/2026/07/15/2026-14197/state-of-ohio-acquisition-and-operation-exemption-in-ashtabula-and-trumbull-counties-ohio": "clu_d0dcd4cfaf",
+    "https://federalregister.gov/documents/2026/07/15/2026-14224/safety-zone-cuyahoga-river-cleveland-oh": "clu_3ceff26343",
+    "https://federalregister.gov/documents/2026/07/15/2026-14223/certain-energy-drinks-and-labeling-and-packaging-thereof-notice-of-a-commission-determination-not-to": "clu_4f1613bac2",
+    "https://federalregister.gov/documents/2026/07/15/2026-14208/reforming-and-modernizing-the-nrcs-radiation-protection-framework": "clu_caedfd6124",
+    "https://federalregister.gov/documents/2026/07/15/2026-14237/ambient-air-monitoring-reference-and-equivalent-methods-designation-of-one-new-reference-method-and": "clu_23cc8916cf",
+    "https://federalregister.gov/documents/2026/07/15/2026-14228/new-postal-products": "clu_4debde87bf",
+    "https://federalregister.gov/documents/2026/07/15/2026-14209/notice-of-submission-of-proposed-information-collection-to-omb": "clu_ed6d188e72",
+    "https://federalregister.gov/documents/2026/07/15/2026-14334/adjusting-imports-of-commercial-aircraft-jet-engines-and-aircraft-and-engine-parts-into-the-united": "clu_0cc15451aa",
+    "https://federalregister.gov/documents/2026/07/15/2026-14220/administrative-declaration-of-a-disaster-for-the-state-of-illinois": "clu_a03b8be5b8",
+    "https://federalregister.gov/documents/2026/07/15/2026-14172/notice-of-intended-repatriation-denver-museum-of-nature-and-science-denver-co": "clu_c8ce423fed",
+    "https://federalregister.gov/documents/2026/07/15/2026-14244/montana-regulatory-program": "clu_c7635b5fbc",
+    "https://federalregister.gov/documents/2026/07/15/2026-14163/notice-of-intended-repatriation-california-department-of-forestry-and-fire-protection-sacramento-ca": "clu_6d1c7c3ad8",
+    "https://federalregister.gov/documents/2026/07/15/2026-14174/notice-of-inventory-completion-peabody-museum-of-archaeology-and-ethnology-harvard-university": "clu_a52464b924",
+    "https://federalregister.gov/documents/2026/07/15/2026-14230/combined-notice-of-filings-1": "clu_6a2a877b53",
+    "https://federalregister.gov/documents/2026/07/15/2026-14194/submission-for-omb-review-comment-request": "clu_9f3713a6f1",
+    "https://federalregister.gov/documents/2026/07/15/2026-14242/national-institute-on-minority-health-and-health-disparities-notice-of-partially-closed-meeting": "clu_55bc3973ef",
+    "https://federalregister.gov/documents/2026/07/15/2026-14247/notice-of-ofac-sanctions-action": "clu_60851b87b4",
+    "https://federalregister.gov/documents/2026/07/15/2026-14192/notice-of-receipt-of-complaint-solicitation-of-comments-relating-to-the-public-interest": "clu_67a6215fc2",
+    "https://federalregister.gov/documents/2026/07/15/2026-14213/gulf-south-pipeline-company-llc-notice-of-application-and-establishing-intervention-deadline": "clu_cd540d2e6a",
+    "https://federalregister.gov/documents/2026/07/15/2026-14211/notice-of-lodging-of-proposed-consent-decree-under-the-clean-water-act": "clu_7607842a22",
+    "https://federalregister.gov/documents/2026/07/15/2026-14219/presidential-declaration-of-a-major-disaster-for-public-assistance-only-for-the-state-of-mississippi": "clu_9ba51fb168",
+    "https://federalregister.gov/documents/2026/07/15/2026-14231/combined-notice-of-filings": "clu_e1a77172aa",
+    "https://federalregister.gov/documents/2026/07/15/2026-14239/electronic-filing-systems-for-filings-pursuant-to-the-protocol-relating-to-the-madrid-agreement": "clu_c9b691e3bd",
+    "https://federalregister.gov/documents/2026/07/15/2026-14169/notice-of-intended-repatriation-placer-county-museums-division-auburn-ca": "clu_6394056e78",
+    "https://federalregister.gov/documents/2026/07/15/2026-14165/notice-of-intended-repatriation-university-of-california-berkeley-berkeley-ca": "clu_70243f544a",
+    "https://federalregister.gov/documents/2026/07/15/2026-14212/columbia-gas-transmission-llc-notice-of-availability-of-the-environmental-assessment-for-the": "clu_83a5f78a97",
+    "https://federalregister.gov/documents/2026/07/15/2026-14187/request-for-information-rfi-inviting-comments-and-suggestions-on-topic-areas-for-the-nidcr-strategic": "clu_0f976a08f9",
+    "https://federalregister.gov/documents/2026/07/15/2026-14241/center-for-scientific-review-notice-of-closed-meetings": "clu_cc4626d0ca",
+    "https://federalregister.gov/documents/2026/07/15/2026-14178/notice-of-intended-disposition-us-department-of-the-interior-bureau-of-land-management-uncompahgre": "clu_5d76e26358",
+    "https://federalregister.gov/documents/2026/07/15/2026-14171/notice-of-inventory-completion-university-of-tennessee-department-of-anthropology-knoxville-tn": "clu_4cabe3d827",
+    "https://federalregister.gov/documents/2026/07/15/2026-14162/notice-of-intended-repatriation-bernice-pauahi-bishop-museum-honolulu-hi": "clu_fb4a68a623",
+    "https://federalregister.gov/documents/2026/07/15/2026-14189/meetings-of-the-presidential-advisory-council-on-combating-antibiotic-resistant-bacteria": "clu_fd97ca6bcd",
+    "https://federalregister.gov/documents/2026/07/15/2026-14227/notice-of-receipt-of-complaint-solicitation-of-comments-relating-to-the-public-interest": "clu_86e2acf2aa",
+    "https://federalregister.gov/documents/2026/07/15/2026-14184/notice-of-intended-repatriation-franklin-pierce-university-rindge-nh": "clu_945f27fe93",
+    "https://federalregister.gov/documents/2026/07/15/2026-14282/air-plan-approval-wisconsin-source-specific-air-quality-implementation-plan-oak-creek-power-plant": "clu_394fda1c6f",
+    "https://federalregister.gov/documents/2026/07/15/2026-14191/product-change-priority-mail-and-usps-ground-advantage-negotiated-service-agreements-priority-mail": "clu_5c14a4e66a",
+    "https://federalregister.gov/documents/2026/07/15/2026-14248/establishment-of-class-e-airspace-crown-point-in": "clu_13213ec4b7",
+    "https://federalregister.gov/documents/2026/07/15/2026-14234/certain-glow-fish-tape-systems-safety-helmet-systems-and-components-thereof-notice-of-request-for": "clu_e89871b9f3",
+    "https://federalregister.gov/documents/2026/07/15/2026-14229/submission-for-omb-review-comment-request": "clu_6f3164e228",
+    "https://federalregister.gov/documents/2026/07/15/2026-14181/notice-of-inventory-completion-university-of-michigan-ann-arbor-mi": "clu_9d412f6fe1",
+    "https://federalregister.gov/documents/2026/07/15/2026-14166/notice-of-inventory-completion-skidmore-college-saratoga-springs-ny": "clu_41162832a5",
+    "https://federalregister.gov/documents/2026/07/15/2026-14221/agency-information-collection-activity-request-for-retroactive-induction-for-a-period-previously": "clu_eafa198529",
+    "https://federalregister.gov/documents/2026/07/15/2026-14250/agency-information-collection-activities-proposed-ecollection-ecomments-requested-extension-of-a": "clu_8b3b783fc1",
+    "https://federalregister.gov/documents/2026/07/15/2026-14201/self-regulatory-organizations-cboe-exchange-inc-notice-of-filing-of-a-proposed-rule-change-to-amend": "clu_65b25acbcc",
+    "https://federalregister.gov/documents/2026/07/15/2026-14207/safety-zones-recurring-events-in-captain-of-the-port-duluth-zone": "clu_e40b309112",
+    "https://federalregister.gov/documents/2026/07/15/2026-14200/self-regulatory-organizations-box-exchange-llc-notice-of-filing-and-immediate-effectiveness-of-a": "clu_863031d7ee",
+    "https://federalregister.gov/documents/2026/07/15/2026-14168/notice-of-inventory-completion-university-of-wisconsin-oshkosh-oshkosh-wi": "clu_e053038870",
+    "https://federalregister.gov/documents/2026/07/15/2026-14167/notice-of-intended-repatriation-skidmore-college-saratoga-springs-ny": "clu_4d195c05ed",
+    "https://federalregister.gov/documents/2026/07/15/2026-14175/notice-of-intended-repatriation-museum-of-art-rhode-island-school-of-design-providence-ri": "clu_1e4285d233",
+    "https://federalregister.gov/documents/2026/07/15/2026-14222/plexus-fund-vii-a-lp-notice-seeking-exemption-under-section-312-of-the-small-business-investment-act": "clu_45284ae96d",
+    "https://federalregister.gov/documents/2026/07/15/2026-14203/self-regulatory-organizations-cboe-edgx-exchange-inc-notice-of-filing-and-immediate-effectiveness-of": "clu_acd6516c6d",
+    "https://federalregister.gov/documents/2026/07/15/2026-14215/presidential-declaration-of-a-major-disaster-for-public-assistance-only-for-the-state-of-wisconsin": "clu_38de0f3fcb",
+    "https://federalregister.gov/documents/2026/07/15/2026-14236/civil-monetary-penalties-inflation-adjustments-for-2026": "clu_56863bf6fc",
+    "https://federalregister.gov/documents/2026/07/15/2026-14232/change-in-bank-control-notices-acquisitions-of-shares-of-a-bank-or-bank-holding-company": "clu_7bc7061c91",
+    "https://federalregister.gov/documents/2026/07/15/2026-14202/self-regulatory-organizations-memx-llc-notice-of-filing-and-immediate-effectiveness-of-a-proposed": "clu_96af3f23b3",
+    "https://federalregister.gov/documents/2026/07/15/2026-14170/notice-of-intended-repatriation-los-rios-community-college-district-sacramento-ca": "clu_7b7bbd8146",
+    "https://federalregister.gov/documents/2026/07/15/2026-14182/notice-of-intended-repatriation-field-museum-chicago-il": "clu_5541b9041f",
+    "https://federalregister.gov/documents/2026/07/15/2026-14218/presidential-declaration-amendment-of-a-major-disaster-for-public-assistance-only-for-the": "clu_4d16200aaa",
+    "https://federalregister.gov/documents/2026/07/15/2026-14243/notice-of-public-meetings-of-the-maryland-advisory-committee-to-the-us-commission-on-civil-rights": "clu_9668bddc27",
+    "https://federalregister.gov/documents/2026/07/15/2026-14216/notice-of-request-to-renew-an-approved-information-collection-salmonella-initiative-program": "clu_722af7af0a",
+    "https://federalregister.gov/documents/2026/07/15/2026-14281/airworthiness-directives-rolls-royce-deutschland-ltd-and-co-kg-engines": "clu_1fbf631b02",
+    "https://federalregister.gov/documents/2026/07/15/2026-14196/proposed-collection-comment-request": "clu_417be73059",
+    "https://federalregister.gov/documents/2026/07/15/2026-14183/notice-of-intended-repatriation-university-of-northern-colorado-greeley-co": "clu_52537843b2",
+    "https://federalregister.gov/documents/2026/07/15/2026-14205/amendment-of-class-d-airspace-and-removal-of-class-e4-airspace-over-nashua-nh": "clu_ce53f83c3c",
+    "https://federalregister.gov/documents/2026/07/15/2026-14225/submission-for-office-of-management-and-budget-review-office-of-refugee-resettlement-unaccompanied": "clu_e42d677cce",
+    "https://federalregister.gov/documents/2026/07/15/2026-14245/montana-regulatory-program": "clu_dea7a538d7",
+    "https://arxiv.org/abs/2607.14431v1": "clu_d0dc014946",
+    "https://arxiv.org/abs/2607.13425v1": "clu_e068f1d1b1",
+    "https://arxiv.org/abs/2607.13679v1": "clu_c7a244b3f4",
+    "https://arxiv.org/abs/2607.13621v1": "clu_f2f790e505",
+    "https://arxiv.org/abs/2607.14167v1": "clu_427f8d4cb5",
+    "https://arxiv.org/abs/2607.14271v1": "clu_e4b4d1bb88",
+    "https://arxiv.org/abs/2607.14233v1": "clu_cf1b1a70e7",
+    "https://arxiv.org/abs/2607.14353v1": "clu_63f65a9cdb",
+    "https://arxiv.org/abs/2607.14240v1": "clu_c3794750a4",
+    "https://arxiv.org/abs/2607.13562v1": "clu_d3c03582f4",
+    "https://arxiv.org/abs/2607.13431v1": "clu_052f609c26",
+    "https://arxiv.org/abs/2607.13712v1": "clu_294dee2565",
+    "https://arxiv.org/abs/2607.13921v2": "clu_53cc7a2229",
+    "https://arxiv.org/abs/2607.13612v1": "clu_42a1f688e6",
+    "https://arxiv.org/abs/2607.13452v1": "clu_62162f3745",
+    "https://arxiv.org/abs/2607.14303v1": "clu_801fdb9456",
+    "https://arxiv.org/abs/2607.14345v3": "clu_f8e0b43636",
+    "https://arxiv.org/abs/2607.13579v1": "clu_461d5a1767",
+    "https://arxiv.org/abs/2607.13573v1": "clu_fb408e5432",
+    "https://arxiv.org/abs/2607.14427v1": "clu_a6df0784e5",
+    "https://arxiv.org/abs/2607.13558v1": "clu_efdd18b428",
+    "https://arxiv.org/abs/2607.13421v1": "clu_eee41973ee",
+    "https://arxiv.org/abs/2607.13689v1": "clu_f36ef53398",
+    "https://arxiv.org/abs/2607.13569v2": "clu_0862689545",
+    "https://arxiv.org/abs/2607.13566v1": "clu_67025ac145",
+    "https://arxiv.org/abs/2607.14182v1": "clu_c2b05beb45",
+    "https://arxiv.org/abs/2607.14256v1": "clu_aebc3d67de",
+    "https://arxiv.org/abs/2607.14041v1": "clu_06efd0cff7",
+    "https://arxiv.org/abs/2607.13763v2": "clu_afe869b870",
+    "https://arxiv.org/abs/2607.14018v1": "clu_0d57d2cb22",
+    "https://arxiv.org/abs/2607.20553v1": "clu_78a423efaf",
+    "https://arxiv.org/abs/2608.00029v1": "clu_6356a44dc3",
+    "https://arxiv.org/abs/2607.14186v6": "clu_191c7327f9",
+    "https://arxiv.org/abs/2607.14416v1": "clu_4198f51c0b",
+    "https://arxiv.org/abs/2607.14328v1": "clu_c927def63d",
+    "https://arxiv.org/abs/2607.13453v1": "clu_5644d1806c",
+    "https://arxiv.org/abs/2607.14398v1": "clu_301712a960",
+    "https://arxiv.org/abs/2607.13402v1": "clu_8f02b7e407",
+    "https://arxiv.org/abs/2607.14044v1": "clu_1438130d36",
+    "https://arxiv.org/abs/2607.14391v1": "clu_d7b78c705d",
+    "https://arxiv.org/abs/2607.14341v1": "clu_9dbf4b88c9",
+    "https://arxiv.org/abs/2607.13693v1": "clu_e6d80f5e4a",
+    "https://arxiv.org/abs/2607.13655v1": "clu_5766e1a191",
+    "https://arxiv.org/abs/2607.13597v2": "clu_f9f84926a9",
+    "https://arxiv.org/abs/2607.14037v2": "clu_542ce7539a",
+    "https://arxiv.org/abs/2607.14246v1": "clu_f776b9b226",
+    "https://arxiv.org/abs/2607.13408v2": "clu_34fd7381eb",
+    "https://arxiv.org/abs/2607.14424v1": "clu_a7e3bdcb61",
+    "https://arxiv.org/abs/2607.13591v1": "clu_9f2ce97dab",
+    "https://arxiv.org/abs/2607.14046v1": "clu_a03fe1c214",
+    "https://arxiv.org/abs/2607.14309v1": "clu_c31257eeb5",
+    "https://arxiv.org/abs/2607.14187v1": "clu_855161d900",
+    "https://arxiv.org/abs/2607.13998v1": "clu_6f8dd26e6b",
+    "https://arxiv.org/abs/2607.14172v1": "clu_70bbbeec0c",
+    "https://arxiv.org/abs/2607.14390v1": "clu_278b9c3d4f",
+    "https://arxiv.org/abs/2607.16317v1": "clu_b453869ff3",
+    "https://arxiv.org/abs/2607.14169v2": "clu_5b3ec3fb17",
+    "https://arxiv.org/abs/2607.13548v1": "clu_afa025b464",
+    "https://arxiv.org/abs/2607.14236v1": "clu_2e12acdc23",
+    "https://arxiv.org/abs/2607.13596v1": "clu_cfc4da105a",
+    "https://arxiv.org/abs/2607.13716v1": "clu_626d78a1c7",
+    "https://arxiv.org/abs/2607.13718v2": "clu_5567674bca",
+    "https://arxiv.org/abs/2607.13347v2": "clu_a17dbfbfa9",
+    "https://arxiv.org/abs/2607.13801v1": "clu_8aaa1cf919",
+    "https://arxiv.org/abs/2607.13608v1": "clu_ec67f00f56",
+    "https://arxiv.org/abs/2607.16322v1": "clu_24217cb622",
+    "https://arxiv.org/abs/2607.14178v2": "clu_6482d13480",
+    "https://arxiv.org/abs/2607.13883v1": "clu_daf955d343",
+    "https://arxiv.org/abs/2607.14386v1": "clu_d340247e66",
+    "https://arxiv.org/abs/2607.13587v1": "clu_512d5b5f08",
+    "https://arxiv.org/abs/2607.14321v1": "clu_8989ba9f7c",
+    "https://arxiv.org/abs/2607.13796v1": "clu_eae2d5d455",
+    "https://arxiv.org/abs/2607.14338v1": "clu_eed828a543",
+    "https://arxiv.org/abs/2607.13571v1": "clu_965034ac73",
+    "https://arxiv.org/abs/2607.13418v2": "clu_499e46ef49",
+    "https://arxiv.org/abs/2607.13618v1": "clu_04882688e5",
+    "https://arxiv.org/abs/2607.13346v1": "clu_f2d8ed35cf",
+    "https://arxiv.org/abs/2607.13624v1": "clu_3a3d83f43e",
+    "https://arxiv.org/abs/2607.14285v1": "clu_6db3c6a22e",
+    "https://arxiv.org/abs/2607.13918v1": "clu_b19c4c6cc5",
+    "https://arxiv.org/abs/2607.15314v2": "clu_cbc7b0c5cb",
+    "https://arxiv.org/abs/2607.14197v1": "clu_315aa2510a",
+    "https://arxiv.org/abs/2607.13555v1": "clu_b93220f5aa",
+    "https://arxiv.org/abs/2607.14349v1": "clu_ef00da8d73",
+    "https://arxiv.org/abs/2607.14004v1": "clu_459dbc9728",
+    "https://arxiv.org/abs/2608.00030v1": "clu_148a0eb657",
+    "https://arxiv.org/abs/2607.14393v1": "clu_2e37ff1751",
+    "https://arxiv.org/abs/2607.13639v1": "clu_3d25eae1aa",
+    "https://arxiv.org/abs/2607.13643v1": "clu_1fd291eb87",
+    "https://arxiv.org/abs/2607.14340v1": "clu_f8b9798563",
+    "https://arxiv.org/abs/2607.14396v1": "clu_2b4249bf74",
+    "https://arxiv.org/abs/2607.14407v3": "clu_27c9c3a658",
+    "https://arxiv.org/abs/2607.14301v1": "clu_4c0f8ee3ad",
+    "https://arxiv.org/abs/2607.14336v1": "clu_9f090f4d0d",
+    "https://arxiv.org/abs/2607.14315v1": "clu_a86dbbf0de",
+    "https://arxiv.org/abs/2607.14180v1": "clu_2300b4f8d4",
+    "https://arxiv.org/abs/2607.14408v1": "clu_97f8a5119f",
+    "https://arxiv.org/abs/2607.13884v2": "clu_e6ea92a401",
+    "https://arxiv.org/abs/2607.13839v2": "clu_84a2b4d042",
+    "https://arxiv.org/abs/2607.14203v1": "clu_64f607401c",
+    "https://arxiv.org/abs/2607.13511v1": "clu_7228808e9e",
+    "https://arxiv.org/abs/2607.14006v1": "clu_c95b71e959",
+    "https://arxiv.org/abs/2607.13565v1": "clu_72dfaa7c3b",
+    "https://arxiv.org/abs/2607.13491v2": "clu_54e9ff6463",
+    "https://arxiv.org/abs/2607.13646v1": "clu_dcc10ea14c",
+    "https://arxiv.org/abs/2607.13738v5": "clu_63c1a9a2b8",
+    "https://arxiv.org/abs/2608.07525v1": "clu_b84aaa770d",
+    "https://arxiv.org/abs/2607.13469v1": "clu_5069f8622b",
+    "https://arxiv.org/abs/2607.14275v1": "clu_223292a14d",
+    "https://arxiv.org/abs/2607.14024v1": "clu_ea04c0027b",
+    "https://arxiv.org/abs/2607.13940v1": "clu_fa846e6195",
+    "https://arxiv.org/abs/2607.13393v2": "clu_70258dc428",
+    "https://arxiv.org/abs/2607.14228v1": "clu_7f5f0b3d4c",
+    "https://arxiv.org/abs/2607.13837v1": "clu_98e4cda667",
+    "https://arxiv.org/abs/2607.13451v1": "clu_dc69d223a4",
+    "https://arxiv.org/abs/2607.13454v2": "clu_3818aa6a5b",
+    "https://arxiv.org/abs/2607.13344v1": "clu_32052ff6a9",
+    "https://arxiv.org/abs/2607.13647v1": "clu_72602f691d",
+    "https://arxiv.org/abs/2607.20551v1": "clu_baee8a52d0",
+    "https://arxiv.org/abs/2607.13899v1": "clu_12823da0ee",
+    "https://arxiv.org/abs/2607.13413v1": "clu_68ed3f4413",
+    "https://arxiv.org/abs/2607.14049v1": "clu_9272111e20",
+    "https://arxiv.org/abs/2607.14387v1": "clu_5e91211e67",
+    "https://arxiv.org/abs/2607.14185v1": "clu_dd8665db45",
+    "https://arxiv.org/abs/2607.13594v1": "clu_3a992ef1f8",
+    "https://arxiv.org/abs/2607.13396v1": "clu_5d2349b68e",
+    "https://arxiv.org/abs/2607.13826v1": "clu_4a3947c390",
+    "https://arxiv.org/abs/2607.13560v1": "clu_7ee60e4c22",
+    "https://arxiv.org/abs/2607.13770v1": "clu_6a3ac8537c",
+    "https://arxiv.org/abs/2607.13465v1": "clu_ed2a70fd4f",
+    "https://arxiv.org/abs/2607.14252v1": "clu_39418a1d8b",
+    "https://arxiv.org/abs/2607.13705v3": "clu_f21f331ac1",
+    "https://arxiv.org/abs/2607.13370v1": "clu_c457b5694c",
+    "https://arxiv.org/abs/2607.14399v1": "clu_b0c0f952cb",
+    "https://arxiv.org/abs/2607.14306v2": "clu_153c9ce692",
+    "https://arxiv.org/abs/2607.13978v1": "clu_f13148b707",
+    "https://arxiv.org/abs/2607.14327v1": "clu_e51a0b4bf8",
+    "https://arxiv.org/abs/2607.13881v1": "clu_4a8791200f",
+    "https://arxiv.org/abs/2607.14165v1": "clu_ff76f3e05d",
+    "https://arxiv.org/abs/2607.20554v1": "clu_21da83c480",
+    "https://arxiv.org/abs/2607.13501v2": "clu_02e9d5e69c",
+    "https://arxiv.org/abs/2607.14025v1": "clu_d734c7ba2a",
+    "https://arxiv.org/abs/2607.14069v1": "clu_bc05dcbe50",
+    "https://arxiv.org/abs/2607.14232v1": "clu_4b98bad5ae",
+    "https://arxiv.org/abs/2607.13734v1": "clu_b9805327c1",
+    "https://arxiv.org/abs/2607.13949v1": "clu_0ecdeff8fc",
+    "https://arxiv.org/abs/2607.13851v1": "clu_4c91a9b3cd",
+    "https://arxiv.org/abs/2607.13419v1": "clu_4c54212f80",
+    "https://arxiv.org/abs/2607.14083v1": "clu_66d6d404b4",
+    "https://arxiv.org/abs/2607.14029v1": "clu_775b945080",
+    "https://arxiv.org/abs/2607.13529v1": "clu_d13334959b",
+    "https://arxiv.org/abs/2607.13657v1": "clu_522b572435",
+    "https://arxiv.org/abs/2607.13848v1": "clu_1bae24c851",
+    "https://arxiv.org/abs/2607.14031v1": "clu_4af4ed53f7",
+    "https://arxiv.org/abs/2607.13542v1": "clu_ad563d05c3",
+    "https://arxiv.org/abs/2607.13836v1": "clu_d2fcdd98af",
+    "https://arxiv.org/abs/2607.13400v1": "clu_1520fe9104",
+    "https://arxiv.org/abs/2607.13863v1": "clu_b70cc93d50",
+    "https://arxiv.org/abs/2607.13896v1": "clu_7894e7246f",
+    "https://arxiv.org/abs/2607.13559v2": "clu_877e041008",
+    "https://arxiv.org/abs/2607.13846v1": "clu_05d39d7153",
+    "https://arxiv.org/abs/2607.13985v1": "clu_e863372be3",
+    "https://arxiv.org/abs/2607.13632v1": "clu_badcdfe4f0",
+    "https://arxiv.org/abs/2607.13575v1": "clu_e8c5a58a14",
+    "https://arxiv.org/abs/2607.13893v1": "clu_36d406216e",
+    "https://arxiv.org/abs/2607.14011v1": "clu_27c518e6ee",
+    "https://arxiv.org/abs/2607.13979v1": "clu_03f5c5e86c",
+    "https://arxiv.org/abs/2607.13688v1": "clu_3320ecb86a",
+    "https://arxiv.org/abs/2607.13364v1": "clu_d9a8d060fc",
+    "https://arxiv.org/abs/2607.13467v1": "clu_ac367779a1",
+    "https://arxiv.org/abs/2607.13779v1": "clu_f5b26111ba"
   },
   "by_hash": {
     "fef861716b92f20d23f1821d9d7ca9650b84fa26aa91f0376c4d68434b1770a9": "clu_b756ffe7a5",
-    "0b07f546c735b0081a20225a98f426a375896feb4777ed6244cb619e142564d5": "clu_9ddb2284c4"
+    "0b07f546c735b0081a20225a98f426a375896feb4777ed6244cb619e142564d5": "clu_9ddb2284c4",
+    "5a6fa2b9d52473a3e3ff8bfb3a7c4c3cd7612426e54484d7e8488b1bd23216be": "clu_80521a2be4",
+    "3ecaa05725266cf8a66ec9b93662a7b02fb56a0c0f188e1fcaafcad17f04a370": "clu_3db1f2f45c",
+    "db4a0082db23919bdb0f230f5e6db7fa4ef913dac744fb4930d26e20925d9f38": "clu_fb3a262898",
+    "55a6e6276e558bb84e6b2195b8b7c49d3679b75422148e5d6cdfe5af9f5581bf": "clu_7816ecd1d8",
+    "17530998d236f25fdb414deb462024b650ae90b0ebecbc9161df90a0e4a78be8": "clu_82e6e921cf",
+    "a6af7d92149ff6fadda603c720a7aca1d750cc1289705b5b8fdcc7dae53e61c0": "clu_a1c5a7626c",
+    "2fe0865557cee36bdb7d694127e0cd8ae72c507b58d8d9afc5452af6afe68895": "clu_7da4d43b4e",
+    "d7b0ebb09d416cae39481bed4e82e403adb9591fa3fe06a8a154d87889dea2fe": "clu_fd8e80e0fe",
+    "5e05cd6d811bba51612182c27cd0bae4db0d1c5f930c2bbe1824d3ba3ac57626": "clu_1b0319b978",
+    "969e8b1c7102af6ca735484e07f209818b2b2e69bd93759927d590b08fff3b4b": "clu_e44255063b",
+    "734cd4ac2777feb4f2e0afddab86a915cd8b40cae1477565732201a887986c73": "clu_07f1207114",
+    "25d0bb95e678afd9df41bfe28fe5114617ff8566722bafbb8ef94ba8e6cd5fbb": "clu_8097578f9b",
+    "84a5565f6d85c8f6cf3b8fd99476277b0e4bb110df87a7f1a2d65babcd91e5ef": "clu_e1842b0fc2",
+    "4b23afe77203d7ac569bf8c2ba8d9c98ca422356dbbbc5df7a05b25c96edc381": "clu_8b09aeb312",
+    "5025a60613e4e152195d8e3c9ca9da654c52a858ecec016889a59bb3690c21b0": "clu_93890f6dd7",
+    "d3efb39fd6be10638695f9cd0860c913b85b9b74f9c6511de578d52c3828a962": "clu_f668abd9e5",
+    "146466a8db4178dc52bd3e8f7f0cf42a71d7621a6000565e0b9f919fe24f9527": "clu_de773364c6",
+    "7429a7069a017ace6c530739614fa0d11a629d7b8373ad4b475b96a4a426ea26": "clu_03b5a541be",
+    "1a4ad4bcd77f76580c14635d7e76ddeae7fa1609d69f4fe03e394632bc1a93a7": "clu_b2f594d328",
+    "dcb72532e973168b0884e998ab2b9628b78da19d8cb6c56624685e27d09dc94f": "clu_68908e44c3",
+    "ffb516650cc2935ec10edc454571ebe497719e8fc8ea7b304244d93b4fd1303b": "clu_e73fdd25e7",
+    "c7da509d58c36f13836761d9d2d7279ebb6c513b3f52dc6fe99bb16cb8ccbc93": "clu_993f92ca4c",
+    "a9ef9853cf8223d6c796f8fe8dfefe26d54f52b4ba214719fdcd523bcb0554bf": "clu_4cabe3d827",
+    "82f735c1eed6b2dca0aa1a58150f883969f64cfe6cdcd6d5a55d22aeb5847d17": "clu_3ede6b4edf",
+    "0148860ee5ecb8ce33768876d11871c90b8fe8b0c2fbe6631ecd6327105523a3": "clu_d0dcd4cfaf",
+    "eee9bbd2708443143475e230a03095c08e71fdc175aa70245166252236d377ab": "clu_3ceff26343",
+    "2ae415f5493c03d620f5a2b0d657294e2d15bad24abde2ad21e7badc5813c337": "clu_4f1613bac2",
+    "88701fb7e1ea981a2fc3f7d286feaba71b6896036738407136694d9168ae667f": "clu_caedfd6124",
+    "c732c6562e4ba7ced80304829b8ea623935b8a1f3d45ac53dd6c328585227081": "clu_23cc8916cf",
+    "5c7e4e591919a5e1d5a362009d4780ed67c1edef0fa0025243cc9712097d0094": "clu_4debde87bf",
+    "edf042a4dc1eda6885e2ca03edf1c3aa8956d70c2141d19c11becaeb362be240": "clu_ed6d188e72",
+    "d0241d84dd416a8cb4a13918a8ddeac3773a4a81c07f011d892afd4a342b75c9": "clu_0cc15451aa",
+    "81e396bdb73cf3c8d12804ea5cb150dc9b311e0864a8d7a01a6d41fe4a002cdf": "clu_a03b8be5b8",
+    "e367c5431420603fe0142445e6dbb8510c62590ee60d56476f3b165db678b190": "clu_c8ce423fed",
+    "4510b7c4aaceba89191bc70658815cdf6d68abdf625bc00a8f7a7ecb451392bd": "clu_c7635b5fbc",
+    "0a0f49d8e19e8237db9bd5b457d732a898ea9660c61c7662b8e368ec7549f5fd": "clu_6d1c7c3ad8",
+    "937bffbc83078fcac1c4eeac9500b64de4e4bb264b76e64523f376db6213cfe8": "clu_a52464b924",
+    "ccb47deea0aca17b73f253def71f31d9874109775fa0209eb4f112dfcb3a4bbd": "clu_6a2a877b53",
+    "aa5498c34d72e40b7ab828a9a64c00e19ed468399ffe3318805022d47b4a5ade": "clu_9f3713a6f1",
+    "8e7b717de97dcde896f320bb7741ae94e1d3fcb4da9562691fcb26138a96d1f1": "clu_55bc3973ef",
+    "31feb5a943ce841f3b71a0992588702e9b3fcf85fb6ef5a60d84b7c85dbdb075": "clu_60851b87b4",
+    "dea255ba5c15f4b8960eea4e44d1d2a923be2b27fc81679351570500760ed379": "clu_67a6215fc2",
+    "f9d60eeb2f590b08daf3e16bd70ddc787b64cd104498ddd7b120e95471293635": "clu_cd540d2e6a",
+    "1f421d59cbebf7e6217617b98de409d6051d3468bf3a538a8ecc2195723595f1": "clu_7607842a22",
+    "af5518fdb61386c45b062d207683bbf7d91147fab7f5311e94d0c6315c55ca7d": "clu_9ba51fb168",
+    "8573873297d6084c62f19da89454e3423fa6fe2874466549898348c63a655f03": "clu_e1a77172aa",
+    "14dcc7b0ed5c626db50ca5f9934def2e10b697ca211110d1a16477c2f350262e": "clu_c9b691e3bd",
+    "b0d04425d1714728b0df6161b1dba7e3ef833aea5b6bf3a75a29e71833a2ba00": "clu_6394056e78",
+    "8e9017886ff90db0d43d63b30d0049f9a3c5710a711b57433ae02a94ac42c2ba": "clu_70243f544a",
+    "adcfbed5d62a4be590a0d56e341b9cd7a2d2f076d50b9dec1a7702a41fb319c0": "clu_83a5f78a97",
+    "2792f63f0cc67bcafb38617cba11200a729b41d3ab9a0f959acb6f46e5fb7ef4": "clu_0f976a08f9",
+    "7ca47f9de09720e5fe21e3d1f860279c6976e80832d886811b61e0e781ded9f9": "clu_cc4626d0ca",
+    "a915969d65cb7b3782cf96beefdf018ff540633316b31792cab99d63b4d2c444": "clu_5d76e26358",
+    "de89eade4d1db10a74039b70feeaba26a14e47fcf774403857045a46c2815855": "clu_fb4a68a623",
+    "26578acccf0c0b02442d55e219f3dd1e1fcaf01ea34a0c1b366743af4c11ff86": "clu_fd97ca6bcd",
+    "a73012bf220f1670c7618f0e768ef69928c78bbc253d9fb89506f1012bf45fd2": "clu_86e2acf2aa",
+    "95a12e849c5ebf26188cc7544cf40b70d171d33bc40d3d730743d9cd733416a5": "clu_945f27fe93",
+    "59ca2fb4aae66e456ac90649fb7c742918172db108236d7a5afb0e50888daa22": "clu_394fda1c6f",
+    "2030e66dc27ca6345905107bd4ec050875f8f85395081d7e6fc3aaac46a2f5a0": "clu_5c14a4e66a",
+    "e40e4c97f83d166670174b214face2517818f32871003e07108168ca5bfb1ac3": "clu_13213ec4b7",
+    "5ead3a3546f97e773b65ceef9b6b28ce5b3a4d713f5d885f895ccfc96f285e0a": "clu_e89871b9f3",
+    "4b5eab3fe73e2c1126c31774d2ddf7d410cf3d9023fa78b36cad76d6b7a10b43": "clu_6f3164e228",
+    "28ec1128eb22679a93906a4bb62e63b6a9851946d2c2bdfc3ef1e64f6f66d01b": "clu_9d412f6fe1",
+    "2a19d6b41727252b105594287f697d604fd6edffb313473c7afb5302e927a2bd": "clu_41162832a5",
+    "cc5078f456883bcca1d7d1689687c39ffe7a5104f904be4614d960db7c42d140": "clu_eafa198529",
+    "489bbd56e2edb23fe9622edf31a4afc85f4a7232c4209f4820574e8ef18bdf9e": "clu_8b3b783fc1",
+    "0b0913d7d71a57e5742c8ec55eca3d8e02f9014157d0b770e29886940081ab50": "clu_65b25acbcc",
+    "ef55565f67366fb08c70a6f24478f8336ba95b7876e7d75bb2a958131280d3ce": "clu_e40b309112",
+    "7f0875e5e892d2f1eff1e8691a775e72ac3f833dd98d3d3794cc4d50cd0a11a1": "clu_863031d7ee",
+    "f680d626f4d34d0482b35b14f708f945bd3a524cc4d7862b2210e8b914f5a15a": "clu_e053038870",
+    "06b235a4bf66cbf75ac08521a04e9dc2c443d7464f2f3d5336a9486f51c39941": "clu_4d195c05ed",
+    "0764a979567c9d3cbdfcfb0b9155382152a733ca3f0db330592914a568713963": "clu_1e4285d233",
+    "dfbcba80a2687b13bc41b52225f0674a57ebc3f4350814271c010ddc72f9d346": "clu_45284ae96d",
+    "97a6d9edde0d54624bf47110dbdc6e16450a86d4a24f2ea699c0fa17a755ac0c": "clu_acd6516c6d",
+    "76d766e4b521a1897806f50c309ae1aa80ebf782e8b0f333cbb2484bb4d6ee60": "clu_38de0f3fcb",
+    "600d55d2e59753398db8d2daddd4b3d07309bdcd1c4bc904cad051e5d616f97e": "clu_56863bf6fc",
+    "0ad467aaa15555c474217e67165f7b9c41ca51aa78769eaf1a0a332499656bbe": "clu_7bc7061c91",
+    "a9dde07c0fc2f544132230a7e76585f361393ad580fb0044de0960743d31099b": "clu_96af3f23b3",
+    "f9c2a02dc8963b88830671a41397f24749b9d1b9dfdb6db325a7f9f00da02267": "clu_7b7bbd8146",
+    "5db00149c08e22c9c65a9c066f0b32b9a0d7503a62a5d70053e2b3621104cf16": "clu_5541b9041f",
+    "8fc2b70f1bd4ed865d8ff73411a1b68307dab1ab5b4087f90d08c46e52491252": "clu_4d16200aaa",
+    "a2944368ddfcc9840965026d964d5cdf84ed0046c7bc896091586378a6e0ece5": "clu_9668bddc27",
+    "4d35a1dea098e5cefcef5408da766486c1ab984faf6fdbb09f7cab6db55d06a5": "clu_722af7af0a",
+    "410a54280c6d3385d4053f35cc454685afd2b63e961afba432b1a30730a780b2": "clu_1fbf631b02",
+    "7124e4dd42435b24084d2abc86fc5a16be24a498230b3661bf891aa8f6e05472": "clu_417be73059",
+    "fdcc1db352e141484b21c798f25434419b63523d7578862c1e0c228d2376a462": "clu_52537843b2",
+    "23e777c4271bc49eac720a342e4347155eae1e4ad65f3355e84c8803a07d0082": "clu_ce53f83c3c",
+    "2d45129e1291ffbc65c141b7c0e22be6d920c78a64a9f875dc759bd146ccd5d7": "clu_e42d677cce",
+    "8687ac953ab390f5f85f12af5160610eacb5e9296c15ca2d7833cb53f39e43a5": "clu_dea7a538d7",
+    "4002754beb1cdb8a431e97d218aff7020786ef779f6794ff52df16f2a131f3f9": "clu_d0dc014946",
+    "231c4b793c9969e9fc4147c4c061a3d4da945dbc3a6f2eb5cb08955af51ca675": "clu_e068f1d1b1",
+    "d262063f65f2437fd50adc5f7763a4eae50fd4160a18813b63bfb9073813e61a": "clu_c7a244b3f4",
+    "34bded130a9ed6a8e9ef99d39a985867ab709d603a164e56cad27d90f05d4cdb": "clu_f2f790e505",
+    "e78b324f5762630853cf3a3cae5ea63fd53c8542da6f0016e2c9b8e9a5e3a365": "clu_427f8d4cb5",
+    "4250a9da8c67305429d2312fa7d29bcba12c4578ae6fc7c64a14c086ac6a7a7b": "clu_e4b4d1bb88",
+    "3e8e93f160b2d6b57254dde09306b05a177bffabc5086503af5c7fc101de8fa8": "clu_cf1b1a70e7",
+    "5e01d4f810a18ea084fe919e733d0b6369b5811139508a35ece76b9f2c485652": "clu_63f65a9cdb",
+    "eb78e54af43d50b95f644a71eb49d43bd80a374f368641b5456600238ed55c1a": "clu_c3794750a4",
+    "5293af9f27009a9c673354a0db02fbd98b2270e6edcc95c986696d5b58148482": "clu_d3c03582f4",
+    "d4447b8cf946bcf949fd0fc195fc4e9b6a91555ef052c698cc0deb4dd39f96bb": "clu_052f609c26",
+    "25571d67d8b98bae00e58f70582fbf842fed1a856c5e49f183f2f4125c095150": "clu_294dee2565",
+    "d7a4ddc4b3514af688f9a076f2ec1c38416af3dcbb5e79ff1348eb2b5640a747": "clu_53cc7a2229",
+    "76c5b019014ecae55f7fd6cfcada883a2f3d9d466be67882d5da7bfbaf043370": "clu_42a1f688e6",
+    "7d831b02a98bce5ac4502e2ccbd9a3112f59a16c5566127c33bda4bd0441bd0f": "clu_62162f3745",
+    "d7ef4e316338052d9c96a99a054785ff56a94eec4e4d0c4d6b830c2c3eea4d40": "clu_801fdb9456",
+    "5e23eee76ac50779582ec51ea6082ee839409146229e34c7ec1bddf4ef5f1e89": "clu_f8e0b43636",
+    "6b455f32bd6bfbf09d52e49534eb89f5ee3f7e46e9d13a91b7fe0683ab37d819": "clu_461d5a1767",
+    "c655055e79dc6f80c958826a00402a5b5cbe45aaabbc4ce105bc2f75efa7ae16": "clu_fb408e5432",
+    "01de2e539a5012afaae88ed0497296710c76f785bc68fc8f15e3b8c4a8cd6ad6": "clu_a6df0784e5",
+    "9fb7f83fd0e2ed25493d35e9e86d5282f0bef085b69c82c632307f98521b2911": "clu_efdd18b428",
+    "5f81c44a07419a7cbf5426edd333ec4b041a84ab3a19aaf856dc3cb4bed22553": "clu_eee41973ee",
+    "41acda7b111920ad16d38248cb1dcedef258ba0c769f82fbbc97e63a54f17e3b": "clu_f36ef53398",
+    "6a3a34942683a6551ec5aad92d76b2589ee6bc230e14d0f22cf248fc4a95f899": "clu_0862689545",
+    "1c28dd0e848d533973a6ee7eb20d3e5514f2fffdc485cbb8b576863cd022e39b": "clu_67025ac145",
+    "6561eaffe64c2105933d178f733138824bbba6b1a3939280d442350424af540f": "clu_c2b05beb45",
+    "809163a91aa9917c26bca91720ac242b9bd7a06dcd86fe2ac51b815dc9d5b090": "clu_aebc3d67de",
+    "5211f3367779e1423562561f0c5b24c16602765fbd36452b4718c8489b31845d": "clu_06efd0cff7",
+    "481b8fa3a374d4307f6468fbe5be7a69b005dcd1c691273bb01db2a6655a1f50": "clu_afe869b870",
+    "b8cc705bf9623df9cfda62595326397c0ad745c4d8e6c949651118549b2abd96": "clu_0d57d2cb22",
+    "d528fba8168b6f70a4352e38aa239cf45633a453b9700a11b6f7bed902cb7ec3": "clu_78a423efaf",
+    "b3e19c91eee7e1615ec3905e75fec74c1d13288a0291d9d6a0facc4c341b6b2c": "clu_6356a44dc3",
+    "16d07686e8563b41439ea640f022202fa67c7cb1063b186baf0eb744c4c3a9ed": "clu_191c7327f9",
+    "6bd41f8acb3408639e21b35784b381c19f3f7e677ec2720d6a98190bd2e4b1aa": "clu_4198f51c0b",
+    "2881594a96048b5f26ce0d9cfd9bd1b45d90e1a5ad24fe838ae91099f2e12f54": "clu_c927def63d",
+    "c5def0802b14bb9c7ed8aae00fbc7bb13340f18746d904d06177e6f443f91627": "clu_5644d1806c",
+    "fdea5b278843f3e33595e36384973b7cf1e8d0fe525b4994b52a413389927ec8": "clu_301712a960",
+    "60fba329a8b1a226beb5f8b98f82af2d3b834225d2c01ce2d19e00cdec6aec20": "clu_8f02b7e407",
+    "76cd5cf97bbd552985a33d1be11f6ffd8266a8540cd6ad725cf8cfe6f2db9209": "clu_1438130d36",
+    "0936291cde259291affc5f9d39aa6ccfbc28625040941913de2b75a5efb5b5bb": "clu_d7b78c705d",
+    "5b59b2939fd6d5688ce8203c5c166d79c57dd9efd1a26642c1067755a4184d02": "clu_9dbf4b88c9",
+    "6712dd1e8ab7b9eefec7246f2fa2595f1ea74d58ea600a265e9e60083b7a9d96": "clu_e6d80f5e4a",
+    "f854a8fdbb71e69863bd051e6a5dd085a50290f04467928ecd59ca9167e40d5f": "clu_5766e1a191",
+    "985ae465bc27509f6b863ac59c6625e119ce558654b3c6e2373b0d7fd65aae43": "clu_f9f84926a9",
+    "fd67f82b58f3e4ee94503455c96e8f55f9dd620ceaaebc973213f7e95718ac96": "clu_542ce7539a",
+    "da257290e4a00f65be7c963fc944000fab2ca1ed6efb7d62ed62e203e6675a20": "clu_f776b9b226",
+    "707ef25b25bf055e595b5590d549fae1381a25ded51839e027c86044b95b73bd": "clu_34fd7381eb",
+    "89914a908dd7026722db1273dd2d25a4f9faee9ab5c59d5a6678b7af35b25ec1": "clu_a7e3bdcb61",
+    "9ecd04d786db6bc08a890a74e1cd7342a4c01b47cecc62fcedaf517c6139ea01": "clu_9f2ce97dab",
+    "641c5796000c025e2279c32371ea22eb9185b76fef6cc30f153dff07e364348e": "clu_a03fe1c214",
+    "23b8691ffc0454a6b992f7c8fe88657e2af9dde7223e581c55bb5f7eba67196c": "clu_c31257eeb5",
+    "5cbf084cd4b0b831cae3becf9d30dd4d13104f9663cf779f62c770a089056604": "clu_855161d900",
+    "2eb9b3d04b1c55be0c2540149f882d4b2a9bbde45588cef521240e877bdc8f36": "clu_6f8dd26e6b",
+    "8e8c8418756e2fb7d2d762bda1945109f247133c96b8690d2fe76ddf14147338": "clu_70bbbeec0c",
+    "4df41d3e92c2a5281a5f9238ad0cb24ff2260b5c2eb57f6f2138ec449bc80437": "clu_278b9c3d4f",
+    "4abf7dafabdb7de1be0411dd9bda11ed9e8c160e2164a7914add858cda685fae": "clu_b453869ff3",
+    "4b15d698cf40dcbd9bb1cc3af92997c24eedca09f43f98a7506c8b0957fe901f": "clu_5b3ec3fb17",
+    "dc13e27a9ea7c1a7847408e6ee85cf6786302dd15fe626a57d0ab57a3c32a015": "clu_afa025b464",
+    "d0ad915bc777ced1610fa131021531cda506d7c3809896daf44be14933181f56": "clu_2e12acdc23",
+    "441a323fe591ebfc47b3e30a0e94257d070c4879db7fc8911b92f6abb8cd2664": "clu_cfc4da105a",
+    "71fe0d4221098e41a6301f7007a75d7fb48763e1618076a2896a202f08cb0224": "clu_626d78a1c7",
+    "8be34750b1ab5a9c7175e9922f2948acc8a1725524234a70ad9d35f7d4a973c0": "clu_5567674bca",
+    "b00a10e9ec64687c7e9d9528c1157bcb8ca567d0197cea9693553498eae1cbd1": "clu_a17dbfbfa9",
+    "b712b17a59f11c84362d5360ee7e6456c4bb284209d793469f87c996b7db8ae5": "clu_8aaa1cf919",
+    "11c7a3cd1dbbd111c33ccbbaeeb562382b4d83a1eee4bafdb0647ec4c32e213f": "clu_ec67f00f56",
+    "c7527a51ca2ad473f266f405692629785d1442bdad606c6659bca82bba08aac4": "clu_24217cb622",
+    "38e9506bec745cbb156eaadf6333826a0e4665dc4f7ba261604536c02e9b4ffd": "clu_6482d13480",
+    "03725c12656dc6cad4b217d047c666a37b39f15fbd13318cea61431c0cbbb3c8": "clu_daf955d343",
+    "aec1af7cd90aa5e1808333f778a79e7e689fbbeb460a60ae53232cd1a3f16cd6": "clu_d340247e66",
+    "922e132de70237ad98f68301a877e2ba2ce177b9d6c24b4f200e3b44f41b345b": "clu_512d5b5f08",
+    "6e27efa308d7834ea40ac8fc7a80656c831ca1fff4bf2f76bb360a273985e00a": "clu_8989ba9f7c",
+    "015eff9986028f11854aec726e75a9e003849cc215b26c8d6862a81aa2b7c293": "clu_eae2d5d455",
+    "d5d705e2107bacef5ce69049fc81869babed94d1f237f3dbe9c1f9fc6259f44f": "clu_eed828a543",
+    "b2be5fc8335a5955439d5b87109fe91c69acdf3a4747bde3541f8619a6c67024": "clu_965034ac73",
+    "9ef7c2d9969684cff18b44394b785bdd8ce2a582190a00c4af457ef844e04f34": "clu_499e46ef49",
+    "729a0015406007f7f252d1464ea0a1e2692130b61a11070504acac978663e1fd": "clu_04882688e5",
+    "3b9fd3fa1e99a1c01c95121d50b92b6da72c372bb35f11f760386ce9126a08a8": "clu_f2d8ed35cf",
+    "45657c75c0d316c236f13622a07eede79a7ec1f5e2c5c05a1260c91bb52c1035": "clu_3a3d83f43e",
+    "b354bb94a3506926e9af053f88ab8ca64796eb4c46ce39c710f6779be76cd5f4": "clu_6db3c6a22e",
+    "35131f50bdae69af9ea7886eb91462a829442c2c8e9f749ae2a508f460698980": "clu_b19c4c6cc5",
+    "f70429f03d3497427c193c076a1df7154e6742191407d2c5adb989196e8fc04e": "clu_cbc7b0c5cb",
+    "dedc97d6c0779fd89f7b8af7666a90f2b4177447b1c2066b07c84f31ae68f1e5": "clu_315aa2510a",
+    "618256916e0de53cbd138c524099c5e80730a5e3e2fca529958e9e94f3e9244a": "clu_b93220f5aa",
+    "6235a16445e57a6f25c32d2d0c744fd0a7c3dd52d54196fd9cffd86b1eed0b6d": "clu_ef00da8d73",
+    "e1fb0a0aa6cce5d97ebd938d6e3a683a080f04ee0fa1c9338290671042563a20": "clu_459dbc9728",
+    "688e54e4e4ea80f98c4232d0ec143ad398dff73936e7a119e167e110c84e92d9": "clu_148a0eb657",
+    "bf4b46966113db5e01777dd0ff6e7122be71dff051c5eaa57734c4617fcfc884": "clu_2e37ff1751",
+    "b988c0c02cd5c7e5ce4db8dd8a22aaa06e5509417ae78d3b8f29f4b0669ab45a": "clu_3d25eae1aa",
+    "f75ab0aeb5365be7ba365c010d65017f907515c25c7e7c151cd606380a063658": "clu_1fd291eb87",
+    "7c0c4c46db473591bf614e36868a7faa85d7a43ced3bb04b628b39e653d8f7aa": "clu_f8b9798563",
+    "7059bde1253254e722e1779e890b7048fe165bbd672d358708f8e79876e556fd": "clu_2b4249bf74",
+    "bd27553ad2405697c28fc678d54191022869c1be22c74f7cc8e68ebf9d068454": "clu_27c9c3a658",
+    "339e61f156d62e9033ffcb0d367bf10c5deb1f584d1a7759ea06826efc885d54": "clu_4c0f8ee3ad",
+    "d2bc544f61c0be038067799d52d4c9658d643e307e33082cd34e1520c68b0406": "clu_9f090f4d0d",
+    "a24e7782de8c7854f50c9251476b2e442d937a42db0ec0e6c9ecb9253a4f2eb7": "clu_a86dbbf0de",
+    "a1aa68523894a6443c91957d6407681682cbac9155a889a887369105149a4478": "clu_2300b4f8d4",
+    "e8b03cf848dd394d2679e7174d91ec25accd82ea0f2c66c5c9377e054c4c16dd": "clu_97f8a5119f",
+    "c6f9c6dc59019dbff325c2b18176504aae2f354fd3fab74d8c3058760a09d7e4": "clu_e6ea92a401",
+    "dea6fdc37c5087aace63d5a21575a409a0ba2ecc8b2105a229945de9f57ceb1d": "clu_84a2b4d042",
+    "0c670debeafab3b51e71c94e3a484f6100d718f9f62c4068908d1a33df03fa2b": "clu_64f607401c",
+    "d903778df2909f0efe9afd102dc27eb4f17a1fbdb3d5c439e3efb7a2cdd94a92": "clu_7228808e9e",
+    "b3b4de4d2a69dea62192da2d3577ee35fbbc83abea68a7da83ab237874b20f30": "clu_c95b71e959",
+    "a8e67b81c8e47db58d55aa9b9df260455e617c685d654a04345875a9bb3aaf77": "clu_72dfaa7c3b",
+    "9ace3b11c0000760de37d26be53a2712c0de6768731435a4c252377423674d74": "clu_54e9ff6463",
+    "84b39b85534e4bce229a5341253d8c7b15b2d137246ebcbbf57dd5040541b5f9": "clu_dcc10ea14c",
+    "383adaa3413b80099e3d398e80bab4a078ce405530eced1f0c478c5536f961b9": "clu_63c1a9a2b8",
+    "50aef63a958df75ea8aa2ae0346174b9529dc2f2e4bc16c47afeda914def7563": "clu_b84aaa770d",
+    "edca254d3c434591dda3ed85515c95d5ceb4630e4cb324c7b056cd2b73857123": "clu_5069f8622b",
+    "546559202132823ad377cfb62e7e475bfd73bb9b7e093da5fdb5e8b10280f7ec": "clu_223292a14d",
+    "bc4e5aa477400572ca93a044d2212de4b2d8b87b172f6f0394964032a0604da0": "clu_ea04c0027b",
+    "7f8b814255512da22561f0904d6f76c854b5e6e1a833a9ee86f74e7149d0e2d7": "clu_fa846e6195",
+    "4658087140a6a0bac0564d33138069dbed2a7513ec1437fe0119ef8c739b46c9": "clu_70258dc428",
+    "951660b6b5dfbd73009a986116b44ec92370ea9d5038d202dea88f04f23a2bf6": "clu_7f5f0b3d4c",
+    "f5444155236711d6d49cb3c11b77aea28ebd1138061d956636cc05eb1c2c17e7": "clu_98e4cda667",
+    "bda99f275938e254fcd2750e2b68eafd3265edcfd50aed9195444101c2c3864b": "clu_dc69d223a4",
+    "3c69f065e019d5b761d05c648123091bc1a89cf7e35f85bc50ff766022ea9458": "clu_3818aa6a5b",
+    "1516cac18bc490c8a4fdc438ee46468dc3783bdf5de919a6420322ad71e76fe2": "clu_32052ff6a9",
+    "8b31eb708f7a59d4f3311e2ca4acc612428510fcdb83947632668232b517cf5f": "clu_72602f691d",
+    "61159e77609c97817569ea2ba90b8c53c8f0391b2bea0e12c7a8c96cdaaa8d2c": "clu_baee8a52d0",
+    "148a09a5a096ae3160d4d290be6bd16478e681d95304a923a63d7b8ad53d4ff3": "clu_12823da0ee",
+    "524c8582b870582ca8095b3272c436cd95f363f3117bcbddb3d7dbb658ec2127": "clu_68ed3f4413",
+    "4b3503a77e24c2b5a792477094203838f794e8755c86ce006674f827b1af152c": "clu_9272111e20",
+    "ba71b3272ff03e97f1637268c47f05c3b0f8eca83ba415f7e3bc1734bf8f744a": "clu_5e91211e67",
+    "0f7fcdec066c0822e8f6fcaaf1811233e5bdb8862252baaf1d4cc0524dd2e3e2": "clu_dd8665db45",
+    "5c1b827c56cb8f710d2b70c253b241871b916c7cb3b4f07a86694bb04a459b40": "clu_3a992ef1f8",
+    "064a5838b0709ff40db29723fd5bc0979a7d2b11f2534df7dd0a3cd7093b46d6": "clu_5d2349b68e",
+    "42efbc720d75ac93c946302f44bc749e59bfe7554645071d10cb9d6b3e4d39a1": "clu_4a3947c390",
+    "f436271c785f5715c71483bfeca5813009dd035adcbbf730f195b239b8a04f74": "clu_7ee60e4c22",
+    "aa3ba47b50e74a23bfa12347b6d9b671396f42b9ca98d7da26182c2d3b4a3813": "clu_6a3ac8537c",
+    "a2e1d7a34012d4c43b0b444b4e70da96031fff52cf74a2dc6231011fda557c1f": "clu_ed2a70fd4f",
+    "85946c062e4520adff86279831c1bcf786ddfc1d49f14abddc24199afff17d3e": "clu_39418a1d8b",
+    "a0b8f0ad277e2c74dfa497a3d3e57a79af8c318c2da11cc94fe03bc30646a2ac": "clu_f21f331ac1",
+    "bfe1f95b4fb2c778cd602fa1b54fe732914aad4d2c3d90fd87d1669cbca48c54": "clu_c457b5694c",
+    "535ce326acdceb245f7d9e9f8180bc415ecf131dd92c36a52add2200e3760029": "clu_b0c0f952cb",
+    "1a6c77076a22e260d49fd68cea3c15b57eeacfab889bc21ddfd63daafae100d9": "clu_153c9ce692",
+    "ea79b93be45597e7c315afbd1874497ab028a1d78dc212adbf97f58162d55b64": "clu_f13148b707",
+    "bbfa06a8e35c2059f019ca773ba4a9e6f2b83b7b343e8138ab77e4cb9ebaf26a": "clu_e51a0b4bf8",
+    "6f06e738eb5408744632e77f79bfc4bea0a21b864fded8dff8762e2b08d041c3": "clu_4a8791200f",
+    "b290a3ce34585457095e7672f58ae6beddaa77a74dc6856b0110d94a38840d0c": "clu_ff76f3e05d",
+    "cf84ae20698bce3b19e7f3d016450608376256bdbd0d70fdab78fb28b04f9d12": "clu_21da83c480",
+    "d878256d483e601651079f8a1b65aec54a3d50e081cf130dc3055004212c90ba": "clu_02e9d5e69c",
+    "ddaa4df896de154b4424d3e59838df6dbe529b2ab49bc2c9dafd478d896bd74c": "clu_d734c7ba2a",
+    "28cb0c9dbd577702dd8412557bf02b2df75213ed0b67f4ac2c89cced7d238d8f": "clu_bc05dcbe50",
+    "a4163be34897e3b0bc7856648e8fff07c24562a8436da0bd867567dec4cc6571": "clu_4b98bad5ae",
+    "2e6797f20368a7e2280f875f353835af016562d7e77df64d24006fff48e3e08f": "clu_b9805327c1",
+    "9f8e67aa8031fdba73ee120e27b80a5b9b6f5f3d94fa2ab5c477e8b010e3dcdf": "clu_0ecdeff8fc",
+    "eaf8f5a7b9d17257310549215d673be4600a6716a3c5473196060dc3d29026e5": "clu_4c91a9b3cd",
+    "87156d8088f5f6998eb0393a6c5d1a246783931111c859da3d005c26ea6d1817": "clu_4c54212f80",
+    "b0516b6439f83e2f1aa3d2aaf1d87f91f89bce11cd57064e3e69f1631abc5bee": "clu_66d6d404b4",
+    "e5a5af47b82a9e2c81c908910ad1c9135bb5a06b540d83cdad8d8e131b74d67e": "clu_775b945080",
+    "74825c010079a809391816fc352def259d4dae8b6140c795816af78f991fc3b0": "clu_d13334959b",
+    "57165fd10da1144734debb8b652e91ac5601db267654a0dc1745e631649e88d6": "clu_522b572435",
+    "263d5c184504e0d60d6965e76e684f1b890e8add7182f1cb5be5232218a7bb68": "clu_1bae24c851",
+    "070f5cc8d1acc7b8ca4ff63c7e1cbbf9158ffb4284a092bba07b441d509d6851": "clu_4af4ed53f7",
+    "3bfd3e269adbfd9d430ea4fb1c3d5b23ac4d184c29c7485b7bb2504045c6d22a": "clu_ad563d05c3",
+    "14baff11382af9b6af8f68ae11c95a9768c55a2a101171e8a6666e06b6fe53e9": "clu_d2fcdd98af",
+    "0261b33685a73fd03b289e9bb104db80bc86edc73828eb9d8f92da1151cc60cd": "clu_1520fe9104",
+    "3a68016eee39e2413cdf8a9d43e4dac61d3db6bdc58d64728bf8497ecbc98b44": "clu_b70cc93d50",
+    "ca9fba4d9490e0209569897aa5d2b9387ce8e765e0ebcc7ff2e9c6c95d09084e": "clu_7894e7246f",
+    "424062fa21a0de744fdd7ba9fdf3061fe4fb0d0b020ef8117da7d62007e6d85b": "clu_877e041008",
+    "8fd51b8d167dccbffaaa848c3f9922fed80e0eaf0931b8422b21fc6999e84a27": "clu_05d39d7153",
+    "8e51b6a0170d55178978e7776d24d9e61703836f7f9a06ee6550e96fe15ef17b": "clu_e863372be3",
+    "c57371ed02da8824ce6b3f989efb033cd00a2c237a09fff31aceb989f3c13333": "clu_badcdfe4f0",
+    "57ec37b089fbdaf18f6b862ea9b9db3e3a67e6599e0827fb4769731c6ad01942": "clu_e8c5a58a14",
+    "81a9f5fa01980c5ddeccae7937095c088bd5a63c56d5cbbcbccdf39dbbc7ffef": "clu_36d406216e",
+    "461ff4b06216403b9c8d49f8bf4a70dc7f7830f864fb565f21b7be488f0d2c98": "clu_27c518e6ee",
+    "0c80df9c17a3dc9b7edd86dbfa8cb3730635fea46a20946966ae72bee388dd77": "clu_03f5c5e86c",
+    "e30a690a779085bde185ad17ff7faa9c0a0bbf974245bf54a1b98c2018eb7c87": "clu_3320ecb86a",
+    "4ccf027e7648f497a2f45743263771d023d51aba608ccf109fbcf549146d0c4f": "clu_d9a8d060fc",
+    "bb744f2c5c9b0d5928ced57d70e46245358cb85386fc3fd8d8580da9ce5140ef": "clu_ac367779a1",
+    "4a02f34197dd16f5a99ee5f00f48417472b50bee855dd487decbe8f35f377360": "clu_f5b26111ba"
   },
   "by_key": {
     "u.s. department of war (旧 department of defense)::contracts for july 15, 2026::2026-07-15": "clu_b756ffe7a5",
-    "samsung electronics::samsung introduces flex titanium technology to advance foldable displays::2026-07-15": "clu_9ddb2284c4"
+    "samsung electronics::samsung introduces flex titanium technology to advance foldable displays::2026-07-15": "clu_9ddb2284c4",
+    "office of the federal register::environmental management site-specific advisory board, hanford::2026-07-15": "clu_80521a2be4",
+    "office of the federal register::notice of inventory completion: indiana university, bloomington, in::2026-07-15": "clu_3db1f2f45c",
+    "office of the federal register::notice of formal determination on records release::2026-07-15": "clu_fb3a262898",
+    "office of the federal register::churchill asset management llc::2026-07-15": "clu_7816ecd1d8",
+    "office of the federal register::approval of source-specific air quality implementation plan; new york; castleton power, llc::2026-07-15": "clu_82e6e921cf",
+    "office of the federal register::presidential declaration of a major disaster for public assistance only for the state of michigan::2026-07-15": "clu_a1c5a7626c",
+    "office of the federal register::sunshine act meeting notice::2026-07-15": "clu_7da4d43b4e",
+    "office of the federal register::notice of intended repatriation: university of california, berkeley, berkeley, ca::2026-07-15": "clu_fd8e80e0fe",
+    "office of the federal register::lake ontario national marine sanctuary; delay of effective date::2026-07-15": "clu_1b0319b978",
+    "office of the federal register::air plan approval; missouri; control of nox emissions from large stationary internal combustion engines::2026-07-15": "clu_e44255063b",
+    "office of the federal register::agency information collection activities; comment request; americorps vista criminal history acknowledgement form::2026-07-15": "clu_07f1207114",
+    "office of the federal register::presidential declaration of a major disaster for the state of michigan::2026-07-15": "clu_8097578f9b",
+    "office of the federal register::self-regulatory organizations; nasdaq texas, llc; notice of filing of amendment no. 1 and order granting accelerated approval of a proposed rule change, as modified by amendment no. 1, to establish a package of complimentary services::2026-07-15": "clu_e1842b0fc2",
+    "office of the federal register::notice of intended disposition: u.s. department of the interior, bureau of reclamation, upper colorado basin region, salt lake city, ut::2026-07-15": "clu_8b09aeb312",
+    "office of the federal register::notice of intended repatriation: ball state university, muncie, in::2026-07-15": "clu_93890f6dd7",
+    "office of the federal register::presidential declaration of a major disaster for the state of louisiana::2026-07-15": "clu_f668abd9e5",
+    "office of the federal register::references to electronic filing systems in rules of practice in filings pursuant to the protocol relating to the madrid agreement concerning the international registration of marks::2026-07-15": "clu_de773364c6",
+    "office of the federal register::agency information collection activities: requests for comments; clearance of a new approval of information collection: passenger evacuation experience survey::2026-07-15": "clu_03b5a541be",
+    "office of the federal register::notice of intended repatriation: franklin pierce university, rindge, nh::2026-07-15": "clu_b2f594d328",
+    "office of the federal register::certificates of alternative compliance for the coast guard heartland district::2026-07-15": "clu_68908e44c3",
+    "office of the federal register::airworthiness directives; bell textron canada limited helicopters::2026-07-15": "clu_e73fdd25e7",
+    "office of the federal register::notice of intended repatriation: san diego state university, san diego, ca::2026-07-15": "clu_993f92ca4c",
+    "office of the federal register::notice of inventory completion: university of tennessee, department of anthropology, knoxville, tn::2026-07-15": "clu_4cabe3d827",
+    "office of the federal register::order under section 36 of the securities exchange act of 1934 (the “exchange act”) and rule 6h-1(d) thereunder granting conditional exemptive relief to the chicago mercantile exchange inc. from the opening price settlement requirements of rule 6h-1(b) under the exchange act for certain cash-settled security futures::2026-07-15": "clu_3ede6b4edf",
+    "office of the federal register::state of ohio-acquisition and operation exemption-in ashtabula and trumbull counties, ohio::2026-07-15": "clu_d0dcd4cfaf",
+    "office of the federal register::safety zone; cuyahoga river, cleveland, oh::2026-07-15": "clu_3ceff26343",
+    "office of the federal register::certain energy drinks and labeling and packaging thereof; notice of a commission determination not to review an initial determination amending the complaint and notice of investigation::2026-07-15": "clu_4f1613bac2",
+    "office of the federal register::reforming and modernizing the nrc's radiation protection framework::2026-07-15": "clu_caedfd6124",
+    "office of the federal register::ambient air monitoring reference and equivalent methods; designation of one new reference method and three new equivalent methods::2026-07-15": "clu_23cc8916cf",
+    "office of the federal register::new postal products::2026-07-15": "clu_4debde87bf",
+    "office of the federal register::notice of submission of proposed information collection to omb::2026-07-15": "clu_ed6d188e72",
+    "office of the federal register::adjusting imports of commercial aircraft, jet engines, and aircraft and engine parts into the united states::2026-07-15": "clu_0cc15451aa",
+    "office of the federal register::administrative declaration of a disaster for the state of illinois::2026-07-15": "clu_a03b8be5b8",
+    "office of the federal register::notice of intended repatriation: denver museum of nature & science, denver, co::2026-07-15": "clu_c8ce423fed",
+    "office of the federal register::montana regulatory program::2026-07-15": "clu_c7635b5fbc",
+    "office of the federal register::notice of intended repatriation: california department of forestry and fire protection, sacramento, ca::2026-07-15": "clu_6d1c7c3ad8",
+    "office of the federal register::notice of inventory completion: peabody museum of archaeology and ethnology, harvard university, cambridge, ma::2026-07-15": "clu_a52464b924",
+    "office of the federal register::combined notice of filings #1::2026-07-15": "clu_6a2a877b53",
+    "office of the federal register::submission for omb review; comment request::2026-07-15": "clu_9f3713a6f1",
+    "office of the federal register::national institute on minority health and health disparities; notice of partially closed meeting::2026-07-15": "clu_55bc3973ef",
+    "office of the federal register::notice of ofac sanctions action::2026-07-15": "clu_60851b87b4",
+    "office of the federal register::notice of receipt of complaint; solicitation of comments relating to the public interest::2026-07-15": "clu_67a6215fc2",
+    "office of the federal register::gulf south pipeline company, llc; notice of application and establishing intervention deadline::2026-07-15": "clu_cd540d2e6a",
+    "office of the federal register::notice of lodging of proposed consent decree under the clean water act::2026-07-15": "clu_7607842a22",
+    "office of the federal register::presidential declaration of a major disaster for public assistance only for the state of mississippi::2026-07-15": "clu_9ba51fb168",
+    "office of the federal register::combined notice of filings::2026-07-15": "clu_e1a77172aa",
+    "office of the federal register::electronic filing systems for filings pursuant to the protocol relating to the madrid agreement concerning the international registration of marks::2026-07-15": "clu_c9b691e3bd",
+    "office of the federal register::notice of intended repatriation: placer county museums division, auburn, ca::2026-07-15": "clu_6394056e78",
+    "office of the federal register::columbia gas transmission, llc; notice of availability of the environmental assessment for the proposed hunt storage field abandonment::2026-07-15": "clu_83a5f78a97",
+    "office of the federal register::request for information (rfi): inviting comments and suggestions on topic areas for the nidcr strategic plan for fiscal years 2027-2031::2026-07-15": "clu_0f976a08f9",
+    "office of the federal register::center for scientific review; notice of closed meetings::2026-07-15": "clu_cc4626d0ca",
+    "office of the federal register::notice of intended disposition: u.s. department of the interior, bureau of land management, uncompahgre field office, montrose, co::2026-07-15": "clu_5d76e26358",
+    "office of the federal register::notice of intended repatriation: bernice pauahi bishop museum, honolulu, hi::2026-07-15": "clu_fb4a68a623",
+    "office of the federal register::meetings of the presidential advisory council on combating antibiotic-resistant bacteria::2026-07-15": "clu_fd97ca6bcd",
+    "office of the federal register::air plan approval; wisconsin; source-specific air quality implementation plan; oak creek power plant::2026-07-15": "clu_394fda1c6f",
+    "office of the federal register::product change-priority mail, and usps ground advantage negotiated service agreements; priority mail express::2026-07-15": "clu_5c14a4e66a",
+    "office of the federal register::establishment of class e airspace; crown point, in::2026-07-15": "clu_13213ec4b7",
+    "office of the federal register::certain glow fish tape systems, safety helmet systems, and components thereof; notice of request for submissions on the public interest::2026-07-15": "clu_e89871b9f3",
+    "office of the federal register::notice of inventory completion: university of michigan, ann arbor, mi::2026-07-15": "clu_9d412f6fe1",
+    "office of the federal register::notice of inventory completion: skidmore college, saratoga springs, ny::2026-07-15": "clu_41162832a5",
+    "office of the federal register::agency information collection activity: request for retroactive induction for a period previously completed under chapter 33::2026-07-15": "clu_eafa198529",
+    "office of the federal register::[agency information collection activities; proposed ecollection, ecomments requested; extension of a previously approved collection; titlelaw enforcement public contact data collection::2026-07-15": "clu_8b3b783fc1",
+    "office of the federal register::self-regulatory organizations; cboe exchange, inc.; notice of filing of a proposed rule change to amend its rules to permit the listing of binary options overlying key performance indicators (“kpis”) reported by certain issuers of stock (“binary kpi options”)::2026-07-15": "clu_65b25acbcc",
+    "office of the federal register::safety zones; recurring events in captain of the port duluth zone::2026-07-15": "clu_e40b309112",
+    "office of the federal register::self-regulatory organizations; box exchange llc; notice of filing and immediate effectiveness of a proposed rule change to amend the fee schedule for trading on the box options market llc facility to establish the orf rate under the new methodology for assessment and collection of the orf::2026-07-15": "clu_863031d7ee",
+    "office of the federal register::notice of inventory completion: university of wisconsin oshkosh, oshkosh, wi::2026-07-15": "clu_e053038870",
+    "office of the federal register::notice of intended repatriation: skidmore college, saratoga springs, ny::2026-07-15": "clu_4d195c05ed",
+    "office of the federal register::notice of intended repatriation: museum of art, rhode island school of design, providence, ri::2026-07-15": "clu_1e4285d233",
+    "office of the federal register::plexus fund vii-a, l.p.: notice seeking exemption under section 312 of the small business investment act, conflicts of interest::2026-07-15": "clu_45284ae96d",
+    "office of the federal register::self-regulatory organizations; cboe edgx exchange, inc.; notice of filing and immediate effectiveness of a proposed rule change to amend the definition of professional to require monthly reviews of orders::2026-07-15": "clu_acd6516c6d",
+    "office of the federal register::presidential declaration of a major disaster for public assistance only for the state of wisconsin::2026-07-15": "clu_38de0f3fcb",
+    "office of the federal register::civil monetary penalties inflation adjustments for 2026::2026-07-15": "clu_56863bf6fc",
+    "office of the federal register::change in bank control notices; acquisitions of shares of a bank or bank holding company::2026-07-15": "clu_7bc7061c91",
+    "office of the federal register::self-regulatory organizations; memx llc; notice of filing and immediate effectiveness of a proposed rule change to amend the review of professional orders::2026-07-15": "clu_96af3f23b3",
+    "office of the federal register::notice of intended repatriation: los rios community college district, sacramento, ca::2026-07-15": "clu_7b7bbd8146",
+    "office of the federal register::notice of intended repatriation: field museum, chicago, il::2026-07-15": "clu_5541b9041f",
+    "office of the federal register::presidential declaration amendment of a major disaster for public assistance only for the commonwealth of kentucky::2026-07-15": "clu_4d16200aaa",
+    "office of the federal register::notice of public meetings of the maryland advisory committee to the u.s. commission on civil rights::2026-07-15": "clu_9668bddc27",
+    "office of the federal register::notice of request to renew an approved information collection: salmonella initiative program::2026-07-15": "clu_722af7af0a",
+    "office of the federal register::airworthiness directives; rolls-royce deutschland ltd & co kg engines::2026-07-15": "clu_1fbf631b02",
+    "office of the federal register::proposed collection; comment request::2026-07-15": "clu_417be73059",
+    "office of the federal register::notice of intended repatriation: university of northern colorado, greeley, co::2026-07-15": "clu_52537843b2",
+    "office of the federal register::amendment of class d airspace and removal of class e4 airspace over nashua, nh::2026-07-15": "clu_ce53f83c3c",
+    "office of the federal register::submission for office of management and budget review; office of refugee resettlement unaccompanied refugee minors program application and withdrawal of unaccompanied refugee minors program application or declination of unaccompanied refugee minors program placement forms::2026-07-15": "clu_e42d677cce",
+    "arxiv::smarter and cheaper at once: byte-exact kv-cache grafting turns a frozen small model into a verified-knowledge flywheel::2026-07-15": "clu_d0dc014946",
+    "arxiv::data-efficient adaptation of llms via attention head reweighting::2026-07-15": "clu_e068f1d1b1",
+    "arxiv::when bots join the team: bot adoption and the institutional fabric of open-source software projects::2026-07-15": "clu_c7a244b3f4",
+    "arxiv::uesf-bench: benchmarking and probing for unified embodied seeking and following::2026-07-15": "clu_f2f790e505",
+    "arxiv::structured feedback improves repair in an llm agent loop::2026-07-15": "clu_427f8d4cb5",
+    "arxiv::local additive feature attribution: a mathematical taxonomy and reporting checklist::2026-07-15": "clu_e4b4d1bb88",
+    "arxiv::ligo-pinn: learned initialization via gated optimization to alleviate convergence failures in physics informed neural networks::2026-07-15": "clu_cf1b1a70e7",
+    "arxiv::unsafe at any auc: unlearned lessons from sociotechnical disasters for responsible ai::2026-07-15": "clu_63f65a9cdb",
+    "arxiv::align ai to dynamic human-ai workflows::2026-07-15": "clu_c3794750a4",
+    "arxiv::ai advice suppresses people's willingness to say \"i don't know\", even when the advice is wrong and accuracy is incentivized::2026-07-15": "clu_d3c03582f4",
+    "arxiv::discrete diffusion models: a unified framework from tokenization to generation::2026-07-15": "clu_052f609c26",
+    "arxiv::groc-po: grounded context preference optimization for truthful multimodal llms::2026-07-15": "clu_294dee2565",
+    "arxiv::generative compilation: on-the-fly compiler feedback as ai generates code::2026-07-15": "clu_53cc7a2229",
+    "arxiv::the sigreg objective as variational free energy: a theoretical active-inference account of jepa world models::2026-07-15": "clu_42a1f688e6",
+    "arxiv::symbiosis-inspired knowledge distillation for incremental object detection::2026-07-15": "clu_62162f3745",
+    "arxiv::assessing ai in introductory physics problem solving::2026-07-15": "clu_801fdb9456",
+    "arxiv::value leakage: an llm's answers are silently shaped by its own values::2026-07-15": "clu_f8e0b43636",
+    "arxiv::agile perceptive multi-skill locomotion for quadrupedal robots in the wild::2026-07-15": "clu_461d5a1767",
+    "arxiv::immnet: hybrid fusion of model-based and data-driven approaches for maneuvering target tracking::2026-07-15": "clu_fb408e5432",
+    "arxiv::per-token fixed-point convergence in depth-recurrent transformers::2026-07-15": "clu_a6df0784e5",
+    "arxiv::multi-agent collaborative reasoning with tool-augmented evidence for urban region profiling::2026-07-15": "clu_efdd18b428",
+    "arxiv::scanfocus: a coarse-to-fine framework for spatio-temporal video grounding::2026-07-15": "clu_eee41973ee",
+    "arxiv::barnamala: parameter-efficient handwritten devanagari recognition at benchmark saturation::2026-07-15": "clu_f36ef53398",
+    "arxiv::ghr-vlm: making zero-shot transit video analytics realizable with grounded hybrid reasoning::2026-07-15": "clu_0862689545",
+    "arxiv::spectral-informed neural networks outperform spectral methods in high-dimensional pdes::2026-07-15": "clu_67025ac145",
+    "arxiv::semantic audio-driven understanding for dynamic humanoid whole body control::2026-07-15": "clu_c2b05beb45",
+    "arxiv::automatic hard example synthesis with multi-level agentic data curation::2026-07-15": "clu_aebc3d67de",
+    "arxiv::multi-expert routing for multi-domain low-resource ocr: a manchu case study::2026-07-15": "clu_06efd0cff7",
+    "arxiv::mxgps: multiplex graph transformers for a power grid foundation model::2026-07-15": "clu_afe869b870",
+    "arxiv::transforming rank: how architecture navigates the spectral pathologies of depth::2026-07-15": "clu_0d57d2cb22",
+    "arxiv::cmi-mem: toward generalizable long-term memory management via cmi-augmented reinforcement learning::2026-07-15": "clu_78a423efaf",
+    "arxiv::nova: an end-to-end mlir compiler for deep learning::2026-07-15": "clu_6356a44dc3",
+    "arxiv::nexforge: scaling agent capabilities through requirement-driven task synthesis for llms::2026-07-15": "clu_191c7327f9",
+    "arxiv::causalgraphx: a counterfactual graph neural network framework for explainable systemic risk assessment::2026-07-15": "clu_4198f51c0b",
+    "arxiv::vipsam: visual prompting medical image segmentation using segment anything model::2026-07-15": "clu_c927def63d",
+    "arxiv::adversarial prompting framework for ai safety assessment::2026-07-15": "clu_5644d1806c",
+    "arxiv::integration matters: rollout-based training for constrained diffusion models::2026-07-15": "clu_301712a960",
+    "arxiv::price of fairness in bandits: a tight minimax characterization::2026-07-15": "clu_8f02b7e407",
+    "arxiv::ai-accelerated end-to-end framework for rapid professional upskilling::2026-07-15": "clu_1438130d36",
+    "arxiv::a comparative analysis of machine learning models for long and short-term forecasting of the egyptian stock market: a focus on egx30::2026-07-15": "clu_d7b78c705d",
+    "arxiv::beyond visual grasping: benchmarking complex grasping from detection to execution::2026-07-15": "clu_9dbf4b88c9",
+    "arxiv::social simulations: from agent-based modeling to digital twins::2026-07-15": "clu_e6d80f5e4a",
+    "arxiv::explaining reinforcement learning agents via inductive logic programming::2026-07-15": "clu_5766e1a191",
+    "arxiv::semantic anchoring for robotic action representations::2026-07-15": "clu_f9f84926a9",
+    "arxiv::early adoption of agentic coding tools by github projects::2026-07-15": "clu_542ce7539a",
+    "arxiv::the steering budget: examples beat knobs::2026-07-15": "clu_f776b9b226",
+    "arxiv::improving text-to-audio instruction following via fine-grained feedback from audio-aware large language models::2026-07-15": "clu_34fd7381eb",
+    "arxiv::conflow: constraints-guided learning with flow matching for motion generation::2026-07-15": "clu_a7e3bdcb61",
+    "arxiv::memory as a controlled process: learned adaptive memory management for llm agents::2026-07-15": "clu_9f2ce97dab",
+    "arxiv::earthquaker-ai: a retrieval-augmented generation framework with rubric-based assessment for primary school earthquake education::2026-07-15": "clu_a03fe1c214",
+    "arxiv::traccia: an opentelemetry-based governance platform for ai systems::2026-07-15": "clu_c31257eeb5",
+    "arxiv::rxbrain: embodied cognition foundation model with joint language-visual reasoning and imagination::2026-07-15": "clu_855161d900",
+    "arxiv::the dynamic verifiable multi-agent human agentic loyalty loop (dvm-hall) model and the net human-agent score (nhas) in autonomous commerce::2026-07-15": "clu_6f8dd26e6b",
+    "arxiv::the cost and network limits of space-based ai compute::2026-07-15": "clu_70bbbeec0c",
+    "arxiv::why git is the memory solution for the agentic development lifecycle::2026-07-15": "clu_278b9c3d4f",
+    "arxiv::monte carlo dropout uncertainty and entropy-thresholded selective prediction for architecture-agnostic brain tumor mri triage::2026-07-15": "clu_b453869ff3",
+    "arxiv::when a verified world model still loses: play-adequacy vs prediction-accuracy in llm-synthesized code world models::2026-07-15": "clu_5b3ec3fb17",
+    "arxiv::how far can root cause analysis go on real-world telemetry data?::2026-07-15": "clu_afa025b464",
+    "arxiv::never too late for force: accelerating vla post-training with reactive force injection::2026-07-15": "clu_2e12acdc23",
+    "arxiv::protective capacity hallucination: when large language models claim nonexistent capabilities::2026-07-15": "clu_cfc4da105a",
+    "arxiv::cava: canonical action verification and attestation for runtime governance of agentic ai systems::2026-07-15": "clu_626d78a1c7",
+    "arxiv::how agents ask for permission: user permissions for ai agents, from interfaces to enforcement::2026-07-15": "clu_5567674bca",
+    "arxiv::llm-as-a-judge scores are unreliable optimization signals in closed-loop table recognition::2026-07-15": "clu_a17dbfbfa9",
+    "arxiv::traffic-aware randomized smoothing for llm-based network intrusion detection::2026-07-15": "clu_8aaa1cf919",
+    "arxiv::automatic ordinary differential equations discovery for biological systems using large language model powered agentic system::2026-07-15": "clu_ec67f00f56",
+    "arxiv::gmot: gated motion-aware tokenization for fine-grained micro-gesture video reasoning with multimodal llms::2026-07-15": "clu_24217cb622",
+    "arxiv::reasflow: assisting reasoning-centric scientific discovery in applied mathematics via a knowledge-based multi-agent system::2026-07-15": "clu_6482d13480",
+    "arxiv::verifying formulas for interventional distributions::2026-07-15": "clu_daf955d343",
+    "arxiv::cipher: a decoupled exploration-selection framework for test-time scaling of data science agents::2026-07-15": "clu_d340247e66",
+    "arxiv::from prediction to collaboration: interactive symbolic music analysis::2026-07-15": "clu_512d5b5f08",
+    "arxiv::accounting for hysteresis and eddy currents in finite element simulations of ferromagnetic laminated cores using a recurrent neural network::2026-07-15": "clu_8989ba9f7c",
+    "arxiv::cas i: a geometric coding theorem::2026-07-15": "clu_eae2d5d455",
+    "arxiv::beyond scalar losses: calibrating segmentation models via gradient vector field surgery::2026-07-15": "clu_eed828a543",
+    "arxiv::cover first, disagree softly: rethinking mismatch-first active learning for frame-level audio classification::2026-07-15": "clu_965034ac73",
+    "arxiv::can we steer the black-box? towards controllability-centric evaluation of recommender systems with collaborative agents::2026-07-15": "clu_499e46ef49",
+    "arxiv::stocktake: measuring the gap between perception and action in llm agents with a fair oracle::2026-07-15": "clu_04882688e5",
+    "arxiv::the refusal residue: when probes catch alignment faking and when they don't::2026-07-15": "clu_f2d8ed35cf",
+    "arxiv::from language to navigation goals: a vision-language approach for semantic navigation of mobile robots using rgb-d perception::2026-07-15": "clu_3a3d83f43e",
+    "arxiv::toolalignbench: investigating alignment conflicts in tool-calling enabled llms::2026-07-15": "clu_6db3c6a22e",
+    "arxiv::partially correlated verifier cascades in llm harnesses: concave log-odds, polynomial reliability, and blind-spot ceilings::2026-07-15": "clu_b19c4c6cc5",
+    "arxiv::cura 1t: specialized model for agentic healthcare::2026-07-15": "clu_cbc7b0c5cb",
+    "arxiv::how artificial intelligence llm engines shape the global conflict information environment::2026-07-15": "clu_315aa2510a",
+    "arxiv::greedy volume maximization of gradient embeddings for long-tailed frame-level bioacoustic active learning::2026-07-15": "clu_b93220f5aa",
+    "arxiv::habib_taz at semeval-2026 task 11: disentangling formal logic from content via synthetic training and multi-objective optimization::2026-07-15": "clu_ef00da8d73",
+    "arxiv::do agent optimizers compound? a continual-learning evaluation on terminal-bench 2.0::2026-07-15": "clu_459dbc9728",
+    "arxiv::slms as multi-agent routers: a progressive sft and reinforcement learning approach::2026-07-15": "clu_148a0eb657",
+    "arxiv::an offline approach to fnirs-guided reinforcement learning for robot behavior::2026-07-15": "clu_2e37ff1751",
+    "arxiv::ovisocr2 technical report::2026-07-15": "clu_3d25eae1aa",
+    "arxiv::consensus as privileged context for label-free self-distillation::2026-07-15": "clu_1fd291eb87",
+    "arxiv::the prover is the judge: verified security software from ai coding agents in ada/spark::2026-07-15": "clu_f8b9798563",
+    "arxiv::catalogagent: a supervisor-mediated self-learning system enabling context engineering for genai models::2026-07-15": "clu_2b4249bf74",
+    "arxiv::decision making needs uncertainty quantification [lecture notes]::2026-07-15": "clu_27c9c3a658",
+    "arxiv::measuring how students rely on generative ai in academic writing: development and multi-source validation of the generative ai reliance types scale (genai-rts)::2026-07-15": "clu_4c0f8ee3ad",
+    "arxiv::copy-on-write scoring: application-specific agent evaluations::2026-07-15": "clu_9f090f4d0d",
+    "arxiv::towards a unified multidimensional explainability metric: evaluating trustworthiness in ai models::2026-07-15": "clu_a86dbbf0de",
+    "arxiv::renew: towards learning world models and repairing model exploitation from preferences::2026-07-15": "clu_2300b4f8d4",
+    "arxiv::reward-free evolving agents via pairwise validator::2026-07-15": "clu_97f8a5119f",
+    "arxiv::experience memory graph: one-shot error correction for agents::2026-07-15": "clu_e6ea92a401",
+    "arxiv::ai-augmented human resource management? insights from german companies::2026-07-15": "clu_84a2b4d042",
+    "arxiv::instant nurec: feed-forward 3d gaussian reconstruction for driving scene simulation::2026-07-15": "clu_64f607401c",
+    "arxiv::externd: expanded-rank ternary decomposition ternary llm ptq with accuracy approaching any quantization level::2026-07-15": "clu_7228808e9e",
+    "arxiv::rethinking penetration testing for ai-enabled systems: from resource compromise to behavioral objective violation::2026-07-15": "clu_c95b71e959",
+    "arxiv::uts at eloquent 2026 voight-kampff: structural shifts in ai writing bypass state-of-the-art detectors::2026-07-15": "clu_72dfaa7c3b",
+    "arxiv::deeploop: depth scaling for looped transformers::2026-07-15": "clu_54e9ff6463",
+    "arxiv::human4k: a large-scale 4k multi-view mocap dataset for whole-body 3d human reconstruction::2026-07-15": "clu_dcc10ea14c",
+    "arxiv::ablation-corrected evaluation of attribution maps in echocardiographic ejection-fraction models::2026-07-15": "clu_63c1a9a2b8",
+    "arxiv::unified hallucination fuzzing for multimodal large language models::2026-07-15": "clu_b84aaa770d",
+    "arxiv::explainable artificial intelligence for anomaly detection in banking transactions: an internal audit perspective::2026-07-15": "clu_5069f8622b",
+    "arxiv::ai agents do not fail alone:the context fails first::2026-07-15": "clu_223292a14d",
+    "arxiv::improving wind and solar power prediction with efficient wrapper-based feature selection: an empirical study::2026-07-15": "clu_ea04c0027b",
+    "arxiv::a self-evolving agent for longitudinal personal health management::2026-07-15": "clu_fa846e6195",
+    "arxiv::the café in amsterdam: when the incumbent becomes the oracle::2026-07-15": "clu_70258dc428",
+    "arxiv::seese3: emergence of 3d space in vision features::2026-07-15": "clu_7f5f0b3d4c",
+    "arxiv::nodeimport: imbalanced node classification with node importance assessment::2026-07-15": "clu_98e4cda667",
+    "arxiv::learning physics-guided residual dynamics for deformable object simulation::2026-07-15": "clu_dc69d223a4",
+    "arxiv::geoanchor: collaborative reasoning via latent decomposition for 3d spatial understanding::2026-07-15": "clu_3818aa6a5b",
+    "arxiv::ezsmt version 3, matured::2026-07-15": "clu_32052ff6a9",
+    "arxiv::beyond color geometry: evaluating human-like color representations in vision models::2026-07-15": "clu_72602f691d",
+    "arxiv::sencos-gem: senet-calibrated and law-of-cosines-constrained geometry-enhanced molecular representation for property prediction::2026-07-15": "clu_baee8a52d0",
+    "arxiv::aimo interpretability challenge::2026-07-15": "clu_12823da0ee",
+    "arxiv::is the statistical advantage worth the cost? an empirical comparison of kans and mlps for structured data classification::2026-07-15": "clu_68ed3f4413",
+    "arxiv::deep interaction: an efficient human-ai interaction method for large reasoning models::2026-07-15": "clu_9272111e20",
+    "arxiv::chat2scenic: an iterative rag-based framework for scenario generation in autonomous driving::2026-07-15": "clu_5e91211e67",
+    "arxiv::closed-loop knowledge dynamics: an operational framework for saturation and escape::2026-07-15": "clu_dd8665db45",
+    "arxiv::safety sentry: context-aware human intervention via execute-ask-refuse routing::2026-07-15": "clu_3a992ef1f8",
+    "arxiv::set-shifting behavioral test for harnessed agents::2026-07-15": "clu_5d2349b68e",
+    "arxiv::multimodal assessment of pancreatic cancer resectability using deep learning::2026-07-15": "clu_4a3947c390",
+    "arxiv::grounded world models in biological organisms and future embodied ai::2026-07-15": "clu_7ee60e4c22",
+    "arxiv::kaleido: algorithm-hardware co-design for video diffusion transformers by exploiting latent space correlations::2026-07-15": "clu_6a3ac8537c",
+    "arxiv::devicesworld: benchmarking cross-device agents in heterogeneous environments::2026-07-15": "clu_ed2a70fd4f",
+    "arxiv::memora: embodied action memory from egocentric videos for reasoning and planning::2026-07-15": "clu_39418a1d8b",
+    "arxiv::agentcompass: a unified evaluation infrastructure for agent capabilities::2026-07-15": "clu_f21f331ac1",
+    "arxiv::learning engagement assistant (lea): cross-course scalability and classroom evaluation of an agentic ai tutoring system::2026-07-15": "clu_c457b5694c",
+    "arxiv::instrument effects in language-model honesty evaluation: an auditable single-system demonstration::2026-07-15": "clu_b0c0f952cb",
+    "arxiv::tracing llm behavior to the training data with empirical next-token distributions::2026-07-15": "clu_153c9ce692",
+    "arxiv::music-to-dance generation via atomic movements::2026-07-15": "clu_f13148b707",
+    "arxiv::prem: learning what to preserve and when to refresh for context compression::2026-07-15": "clu_e51a0b4bf8",
+    "arxiv::unleashing multimodal large language models for training-free hoi detection in the wild::2026-07-15": "clu_4a8791200f",
+    "arxiv::towards reliable ai-assisted analog design: template-constrained llm agents for sar adc generation::2026-07-15": "clu_ff76f3e05d",
+    "arxiv::ai-driven multi-hop relay selection for smart urban nr-v2x networks via learning-to-optimize graph neural networks::2026-07-15": "clu_21da83c480",
+    "arxiv::lotapo: leave-one-turn attribution for self-generated process rewards in multi-turn search reasoning::2026-07-15": "clu_02e9d5e69c",
+    "arxiv::the west code for large-scale excited-state materials simulations::2026-07-15": "clu_d734c7ba2a",
+    "arxiv::orbital hybridization induces giant cubic rashba effect at cu/wo$_{3}$ interface::2026-07-15": "clu_bc05dcbe50",
+    "arxiv::phonons in low-dimensional confined systems: emergent non-reciprocity in 1d::2026-07-15": "clu_4b98bad5ae",
+    "arxiv::microscopic constitutive theory of stress overshoot, yielding, and strain hardening in amorphous materials::2026-07-15": "clu_b9805327c1",
+    "arxiv::dolomite mineral-inspired equilateral triangular-lattice magnets for quantum magnetism::2026-07-15": "clu_0ecdeff8fc",
+    "arxiv::electron beam radiolysis-assisted growth of rutile tio2 thin films::2026-07-15": "clu_4c91a9b3cd",
+    "arxiv::resistivity in dilute cu-3d alloys governed by disorder-induced band broadening::2026-07-15": "clu_4c54212f80",
+    "arxiv::cluster-configurational study of g-center in silicon::2026-07-15": "clu_66d6d404b4",
+    "arxiv::unified terahertz framework for magnetic and lattice responses reveals an elusive ordering transition in gd$_2$ru$_2$o$_7$::2026-07-15": "clu_775b945080",
+    "arxiv::hybridization-controlled re-entrant electronic phase switching and moire-confined states in twisted bilayer ptte2::2026-07-15": "clu_d13334959b",
+    "arxiv::role of small-radius and high-electronegativity a-site dopants in enhancing proton transport and stability of perovskite electrolytes::2026-07-15": "clu_522b572435",
+    "arxiv::temperature-driven sodium-ion dynamical-to-static crossover in the zig-zag ordered phase of na$_{0.5}$coo$_2$::2026-07-15": "clu_1bae24c851",
+    "arxiv::electric field controlled spin transport in a topological insulator interfaced with a ferroelectric antiferromagnet::2026-07-15": "clu_4af4ed53f7",
+    "arxiv::imprinting topology on thermal light::2026-07-15": "clu_ad563d05c3",
+    "arxiv::a showcase of using the partial-structure r1 to assemble small-molecule crystal structures::2026-07-15": "clu_d2fcdd98af",
+    "arxiv::dirac topology, anomalous hall response, and giant magnetoresistance in carrier-compensated altermagnetic semimetal nis::2026-07-15": "clu_1520fe9104",
+    "arxiv::ultrafast altermagnetophononics::2026-07-15": "clu_b70cc93d50",
+    "arxiv::chemical short-range order controls deformation pathways in a complex concentrated alloy::2026-07-15": "clu_7894e7246f",
+    "arxiv::emergent induction in magnetic weyl semimetals::2026-07-15": "clu_877e041008",
+    "arxiv::first-principles study of structural and electronic properties of mn-doped cu2nixy4 (x=sn, ge, si; y=s, se) chalcogenide semiconductors::2026-07-15": "clu_05d39d7153",
+    "arxiv::magneto-optical hologram lens with microsecond focal switching in magnetic garnet::2026-07-15": "clu_e863372be3",
+    "arxiv::research progress in high-pressure tuning of layered magnetic materials::2026-07-15": "clu_badcdfe4f0",
+    "arxiv::rotation topological states: theory and material realization::2026-07-15": "clu_e8c5a58a14",
+    "arxiv::revealing the mos2 growth mechanism in chemical vapor deposition: real-time imaging and statistical analysis::2026-07-15": "clu_36d406216e",
+    "arxiv::thermodynamic and electrical transport properties of the half-heusler plumbide tbaupb::2026-07-15": "clu_27c518e6ee",
+    "arxiv::using superpixels for interpretable feature reduction in large 2d diffraction datasets::2026-07-15": "clu_03f5c5e86c",
+    "arxiv::microstructure-conditioned surrogate models for graded multiscale optimization of mycelium composites::2026-07-15": "clu_3320ecb86a",
+    "arxiv::direct imaging of temperature evolution of polar nanoregions and chemically ordered regions in pmn relaxor: evidence for polar phase percolation::2026-07-15": "clu_d9a8d060fc",
+    "arxiv::physics-informed residual deep learning for constitutive modeling of hot deformation and dynamic recrystallization in a mo-rich $α+β$ titanium alloy::2026-07-15": "clu_ac367779a1",
+    "arxiv::mapping recrystallization trajectories in gaas using latent space diffraction analysis::2026-07-15": "clu_f5b26111ba"
   },
   "clusters": {
     "clu_b756ffe7a5": {
@@ -28,6 +805,2346 @@
       ],
       "source_ids": [
         "src_samsung_newsroom"
+      ]
+    },
+    "clu_80521a2be4": {
+      "primary_event_id": "evt_20260814_5a6fa2b9d5",
+      "event_ids": [
+        "evt_20260814_5a6fa2b9d5"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_3db1f2f45c": {
+      "primary_event_id": "evt_20260814_3ecaa05725",
+      "event_ids": [
+        "evt_20260814_3ecaa05725"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_fb3a262898": {
+      "primary_event_id": "evt_20260814_db4a0082db",
+      "event_ids": [
+        "evt_20260814_db4a0082db"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_7816ecd1d8": {
+      "primary_event_id": "evt_20260814_55a6e6276e",
+      "event_ids": [
+        "evt_20260814_55a6e6276e"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_82e6e921cf": {
+      "primary_event_id": "evt_20260814_17530998d2",
+      "event_ids": [
+        "evt_20260814_17530998d2"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_a1c5a7626c": {
+      "primary_event_id": "evt_20260814_a6af7d9214",
+      "event_ids": [
+        "evt_20260814_a6af7d9214"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_7da4d43b4e": {
+      "primary_event_id": "evt_20260814_2fe0865557",
+      "event_ids": [
+        "evt_20260814_2fe0865557"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_fd8e80e0fe": {
+      "primary_event_id": "evt_20260814_d7b0ebb09d",
+      "event_ids": [
+        "evt_20260814_d7b0ebb09d"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_1b0319b978": {
+      "primary_event_id": "evt_20260814_5e05cd6d81",
+      "event_ids": [
+        "evt_20260814_5e05cd6d81"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_e44255063b": {
+      "primary_event_id": "evt_20260814_969e8b1c71",
+      "event_ids": [
+        "evt_20260814_969e8b1c71"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_07f1207114": {
+      "primary_event_id": "evt_20260814_734cd4ac27",
+      "event_ids": [
+        "evt_20260814_734cd4ac27"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_8097578f9b": {
+      "primary_event_id": "evt_20260814_25d0bb95e6",
+      "event_ids": [
+        "evt_20260814_25d0bb95e6"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_e1842b0fc2": {
+      "primary_event_id": "evt_20260814_84a5565f6d",
+      "event_ids": [
+        "evt_20260814_84a5565f6d"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_8b09aeb312": {
+      "primary_event_id": "evt_20260814_4b23afe772",
+      "event_ids": [
+        "evt_20260814_4b23afe772"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_93890f6dd7": {
+      "primary_event_id": "evt_20260814_5025a60613",
+      "event_ids": [
+        "evt_20260814_5025a60613"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_f668abd9e5": {
+      "primary_event_id": "evt_20260814_d3efb39fd6",
+      "event_ids": [
+        "evt_20260814_d3efb39fd6"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_de773364c6": {
+      "primary_event_id": "evt_20260814_146466a8db",
+      "event_ids": [
+        "evt_20260814_146466a8db"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_03b5a541be": {
+      "primary_event_id": "evt_20260814_7429a7069a",
+      "event_ids": [
+        "evt_20260814_7429a7069a"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_b2f594d328": {
+      "primary_event_id": "evt_20260814_1a4ad4bcd7",
+      "event_ids": [
+        "evt_20260814_1a4ad4bcd7"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_68908e44c3": {
+      "primary_event_id": "evt_20260814_dcb72532e9",
+      "event_ids": [
+        "evt_20260814_dcb72532e9"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_e73fdd25e7": {
+      "primary_event_id": "evt_20260814_ffb516650c",
+      "event_ids": [
+        "evt_20260814_ffb516650c"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_993f92ca4c": {
+      "primary_event_id": "evt_20260814_c7da509d58",
+      "event_ids": [
+        "evt_20260814_c7da509d58"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_4cabe3d827": {
+      "primary_event_id": "evt_20260814_a9ef9853cf",
+      "event_ids": [
+        "evt_20260814_a9ef9853cf"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_3ede6b4edf": {
+      "primary_event_id": "evt_20260814_82f735c1ee",
+      "event_ids": [
+        "evt_20260814_82f735c1ee"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_d0dcd4cfaf": {
+      "primary_event_id": "evt_20260814_0148860ee5",
+      "event_ids": [
+        "evt_20260814_0148860ee5"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_3ceff26343": {
+      "primary_event_id": "evt_20260814_eee9bbd270",
+      "event_ids": [
+        "evt_20260814_eee9bbd270"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_4f1613bac2": {
+      "primary_event_id": "evt_20260814_2ae415f549",
+      "event_ids": [
+        "evt_20260814_2ae415f549"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_caedfd6124": {
+      "primary_event_id": "evt_20260814_88701fb7e1",
+      "event_ids": [
+        "evt_20260814_88701fb7e1"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_23cc8916cf": {
+      "primary_event_id": "evt_20260814_c732c6562e",
+      "event_ids": [
+        "evt_20260814_c732c6562e"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_4debde87bf": {
+      "primary_event_id": "evt_20260814_5c7e4e5919",
+      "event_ids": [
+        "evt_20260814_5c7e4e5919"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_ed6d188e72": {
+      "primary_event_id": "evt_20260814_edf042a4dc",
+      "event_ids": [
+        "evt_20260814_edf042a4dc"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_0cc15451aa": {
+      "primary_event_id": "evt_20260814_d0241d84dd",
+      "event_ids": [
+        "evt_20260814_d0241d84dd"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_a03b8be5b8": {
+      "primary_event_id": "evt_20260814_81e396bdb7",
+      "event_ids": [
+        "evt_20260814_81e396bdb7"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_c8ce423fed": {
+      "primary_event_id": "evt_20260814_e367c54314",
+      "event_ids": [
+        "evt_20260814_e367c54314"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_c7635b5fbc": {
+      "primary_event_id": "evt_20260814_4510b7c4aa",
+      "event_ids": [
+        "evt_20260814_4510b7c4aa"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_6d1c7c3ad8": {
+      "primary_event_id": "evt_20260814_0a0f49d8e1",
+      "event_ids": [
+        "evt_20260814_0a0f49d8e1"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_a52464b924": {
+      "primary_event_id": "evt_20260814_937bffbc83",
+      "event_ids": [
+        "evt_20260814_937bffbc83"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_6a2a877b53": {
+      "primary_event_id": "evt_20260814_ccb47deea0",
+      "event_ids": [
+        "evt_20260814_ccb47deea0"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_9f3713a6f1": {
+      "primary_event_id": "evt_20260814_aa5498c34d",
+      "event_ids": [
+        "evt_20260814_aa5498c34d"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_55bc3973ef": {
+      "primary_event_id": "evt_20260814_8e7b717de9",
+      "event_ids": [
+        "evt_20260814_8e7b717de9"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_60851b87b4": {
+      "primary_event_id": "evt_20260814_31feb5a943",
+      "event_ids": [
+        "evt_20260814_31feb5a943"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_67a6215fc2": {
+      "primary_event_id": "evt_20260814_dea255ba5c",
+      "event_ids": [
+        "evt_20260814_dea255ba5c"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_cd540d2e6a": {
+      "primary_event_id": "evt_20260814_f9d60eeb2f",
+      "event_ids": [
+        "evt_20260814_f9d60eeb2f"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_7607842a22": {
+      "primary_event_id": "evt_20260814_1f421d59cb",
+      "event_ids": [
+        "evt_20260814_1f421d59cb"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_9ba51fb168": {
+      "primary_event_id": "evt_20260814_af5518fdb6",
+      "event_ids": [
+        "evt_20260814_af5518fdb6"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_e1a77172aa": {
+      "primary_event_id": "evt_20260814_8573873297",
+      "event_ids": [
+        "evt_20260814_8573873297"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_c9b691e3bd": {
+      "primary_event_id": "evt_20260814_14dcc7b0ed",
+      "event_ids": [
+        "evt_20260814_14dcc7b0ed"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_6394056e78": {
+      "primary_event_id": "evt_20260814_b0d04425d1",
+      "event_ids": [
+        "evt_20260814_b0d04425d1"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_70243f544a": {
+      "primary_event_id": "evt_20260814_8e9017886f",
+      "event_ids": [
+        "evt_20260814_8e9017886f"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_83a5f78a97": {
+      "primary_event_id": "evt_20260814_adcfbed5d6",
+      "event_ids": [
+        "evt_20260814_adcfbed5d6"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_0f976a08f9": {
+      "primary_event_id": "evt_20260814_2792f63f0c",
+      "event_ids": [
+        "evt_20260814_2792f63f0c"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_cc4626d0ca": {
+      "primary_event_id": "evt_20260814_7ca47f9de0",
+      "event_ids": [
+        "evt_20260814_7ca47f9de0"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_5d76e26358": {
+      "primary_event_id": "evt_20260814_a915969d65",
+      "event_ids": [
+        "evt_20260814_a915969d65"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_fb4a68a623": {
+      "primary_event_id": "evt_20260814_de89eade4d",
+      "event_ids": [
+        "evt_20260814_de89eade4d"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_fd97ca6bcd": {
+      "primary_event_id": "evt_20260814_26578acccf",
+      "event_ids": [
+        "evt_20260814_26578acccf"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_86e2acf2aa": {
+      "primary_event_id": "evt_20260814_a73012bf22",
+      "event_ids": [
+        "evt_20260814_a73012bf22"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_945f27fe93": {
+      "primary_event_id": "evt_20260814_95a12e849c",
+      "event_ids": [
+        "evt_20260814_95a12e849c"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_394fda1c6f": {
+      "primary_event_id": "evt_20260814_59ca2fb4aa",
+      "event_ids": [
+        "evt_20260814_59ca2fb4aa"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_5c14a4e66a": {
+      "primary_event_id": "evt_20260814_2030e66dc2",
+      "event_ids": [
+        "evt_20260814_2030e66dc2"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_13213ec4b7": {
+      "primary_event_id": "evt_20260814_e40e4c97f8",
+      "event_ids": [
+        "evt_20260814_e40e4c97f8"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_e89871b9f3": {
+      "primary_event_id": "evt_20260814_5ead3a3546",
+      "event_ids": [
+        "evt_20260814_5ead3a3546"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_6f3164e228": {
+      "primary_event_id": "evt_20260814_4b5eab3fe7",
+      "event_ids": [
+        "evt_20260814_4b5eab3fe7"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_9d412f6fe1": {
+      "primary_event_id": "evt_20260814_28ec1128eb",
+      "event_ids": [
+        "evt_20260814_28ec1128eb"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_41162832a5": {
+      "primary_event_id": "evt_20260814_2a19d6b417",
+      "event_ids": [
+        "evt_20260814_2a19d6b417"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_eafa198529": {
+      "primary_event_id": "evt_20260814_cc5078f456",
+      "event_ids": [
+        "evt_20260814_cc5078f456"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_8b3b783fc1": {
+      "primary_event_id": "evt_20260814_489bbd56e2",
+      "event_ids": [
+        "evt_20260814_489bbd56e2"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_65b25acbcc": {
+      "primary_event_id": "evt_20260814_0b0913d7d7",
+      "event_ids": [
+        "evt_20260814_0b0913d7d7"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_e40b309112": {
+      "primary_event_id": "evt_20260814_ef55565f67",
+      "event_ids": [
+        "evt_20260814_ef55565f67"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_863031d7ee": {
+      "primary_event_id": "evt_20260814_7f0875e5e8",
+      "event_ids": [
+        "evt_20260814_7f0875e5e8"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_e053038870": {
+      "primary_event_id": "evt_20260814_f680d626f4",
+      "event_ids": [
+        "evt_20260814_f680d626f4"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_4d195c05ed": {
+      "primary_event_id": "evt_20260814_06b235a4bf",
+      "event_ids": [
+        "evt_20260814_06b235a4bf"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_1e4285d233": {
+      "primary_event_id": "evt_20260814_0764a97956",
+      "event_ids": [
+        "evt_20260814_0764a97956"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_45284ae96d": {
+      "primary_event_id": "evt_20260814_dfbcba80a2",
+      "event_ids": [
+        "evt_20260814_dfbcba80a2"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_acd6516c6d": {
+      "primary_event_id": "evt_20260814_97a6d9edde",
+      "event_ids": [
+        "evt_20260814_97a6d9edde"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_38de0f3fcb": {
+      "primary_event_id": "evt_20260814_76d766e4b5",
+      "event_ids": [
+        "evt_20260814_76d766e4b5"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_56863bf6fc": {
+      "primary_event_id": "evt_20260814_600d55d2e5",
+      "event_ids": [
+        "evt_20260814_600d55d2e5"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_7bc7061c91": {
+      "primary_event_id": "evt_20260814_0ad467aaa1",
+      "event_ids": [
+        "evt_20260814_0ad467aaa1"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_96af3f23b3": {
+      "primary_event_id": "evt_20260814_a9dde07c0f",
+      "event_ids": [
+        "evt_20260814_a9dde07c0f"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_7b7bbd8146": {
+      "primary_event_id": "evt_20260814_f9c2a02dc8",
+      "event_ids": [
+        "evt_20260814_f9c2a02dc8"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_5541b9041f": {
+      "primary_event_id": "evt_20260814_5db00149c0",
+      "event_ids": [
+        "evt_20260814_5db00149c0"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_4d16200aaa": {
+      "primary_event_id": "evt_20260814_8fc2b70f1b",
+      "event_ids": [
+        "evt_20260814_8fc2b70f1b"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_9668bddc27": {
+      "primary_event_id": "evt_20260814_a2944368dd",
+      "event_ids": [
+        "evt_20260814_a2944368dd"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_722af7af0a": {
+      "primary_event_id": "evt_20260814_4d35a1dea0",
+      "event_ids": [
+        "evt_20260814_4d35a1dea0"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_1fbf631b02": {
+      "primary_event_id": "evt_20260814_410a54280c",
+      "event_ids": [
+        "evt_20260814_410a54280c"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_417be73059": {
+      "primary_event_id": "evt_20260814_7124e4dd42",
+      "event_ids": [
+        "evt_20260814_7124e4dd42"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_52537843b2": {
+      "primary_event_id": "evt_20260814_fdcc1db352",
+      "event_ids": [
+        "evt_20260814_fdcc1db352"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_ce53f83c3c": {
+      "primary_event_id": "evt_20260814_23e777c427",
+      "event_ids": [
+        "evt_20260814_23e777c427"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_e42d677cce": {
+      "primary_event_id": "evt_20260814_2d45129e12",
+      "event_ids": [
+        "evt_20260814_2d45129e12"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_dea7a538d7": {
+      "primary_event_id": "evt_20260814_8687ac953a",
+      "event_ids": [
+        "evt_20260814_8687ac953a"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_d0dc014946": {
+      "primary_event_id": "evt_20260814_4002754beb",
+      "event_ids": [
+        "evt_20260814_4002754beb"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_e068f1d1b1": {
+      "primary_event_id": "evt_20260814_231c4b793c",
+      "event_ids": [
+        "evt_20260814_231c4b793c"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_c7a244b3f4": {
+      "primary_event_id": "evt_20260814_d262063f65",
+      "event_ids": [
+        "evt_20260814_d262063f65"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_f2f790e505": {
+      "primary_event_id": "evt_20260814_34bded130a",
+      "event_ids": [
+        "evt_20260814_34bded130a"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_427f8d4cb5": {
+      "primary_event_id": "evt_20260814_e78b324f57",
+      "event_ids": [
+        "evt_20260814_e78b324f57"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_e4b4d1bb88": {
+      "primary_event_id": "evt_20260814_4250a9da8c",
+      "event_ids": [
+        "evt_20260814_4250a9da8c"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_cf1b1a70e7": {
+      "primary_event_id": "evt_20260814_3e8e93f160",
+      "event_ids": [
+        "evt_20260814_3e8e93f160"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_63f65a9cdb": {
+      "primary_event_id": "evt_20260814_5e01d4f810",
+      "event_ids": [
+        "evt_20260814_5e01d4f810"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_c3794750a4": {
+      "primary_event_id": "evt_20260814_eb78e54af4",
+      "event_ids": [
+        "evt_20260814_eb78e54af4"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_d3c03582f4": {
+      "primary_event_id": "evt_20260814_5293af9f27",
+      "event_ids": [
+        "evt_20260814_5293af9f27"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_052f609c26": {
+      "primary_event_id": "evt_20260814_d4447b8cf9",
+      "event_ids": [
+        "evt_20260814_d4447b8cf9"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_294dee2565": {
+      "primary_event_id": "evt_20260814_25571d67d8",
+      "event_ids": [
+        "evt_20260814_25571d67d8"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_53cc7a2229": {
+      "primary_event_id": "evt_20260814_d7a4ddc4b3",
+      "event_ids": [
+        "evt_20260814_d7a4ddc4b3"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_42a1f688e6": {
+      "primary_event_id": "evt_20260814_76c5b01901",
+      "event_ids": [
+        "evt_20260814_76c5b01901"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_62162f3745": {
+      "primary_event_id": "evt_20260814_7d831b02a9",
+      "event_ids": [
+        "evt_20260814_7d831b02a9"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_801fdb9456": {
+      "primary_event_id": "evt_20260814_d7ef4e3163",
+      "event_ids": [
+        "evt_20260814_d7ef4e3163"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_f8e0b43636": {
+      "primary_event_id": "evt_20260814_5e23eee76a",
+      "event_ids": [
+        "evt_20260814_5e23eee76a"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_461d5a1767": {
+      "primary_event_id": "evt_20260814_6b455f32bd",
+      "event_ids": [
+        "evt_20260814_6b455f32bd"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_fb408e5432": {
+      "primary_event_id": "evt_20260814_c655055e79",
+      "event_ids": [
+        "evt_20260814_c655055e79"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_a6df0784e5": {
+      "primary_event_id": "evt_20260814_01de2e539a",
+      "event_ids": [
+        "evt_20260814_01de2e539a"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_efdd18b428": {
+      "primary_event_id": "evt_20260814_9fb7f83fd0",
+      "event_ids": [
+        "evt_20260814_9fb7f83fd0"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_eee41973ee": {
+      "primary_event_id": "evt_20260814_5f81c44a07",
+      "event_ids": [
+        "evt_20260814_5f81c44a07"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_f36ef53398": {
+      "primary_event_id": "evt_20260814_41acda7b11",
+      "event_ids": [
+        "evt_20260814_41acda7b11"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_0862689545": {
+      "primary_event_id": "evt_20260814_6a3a349426",
+      "event_ids": [
+        "evt_20260814_6a3a349426"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_67025ac145": {
+      "primary_event_id": "evt_20260814_1c28dd0e84",
+      "event_ids": [
+        "evt_20260814_1c28dd0e84"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_c2b05beb45": {
+      "primary_event_id": "evt_20260814_6561eaffe6",
+      "event_ids": [
+        "evt_20260814_6561eaffe6"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_aebc3d67de": {
+      "primary_event_id": "evt_20260814_809163a91a",
+      "event_ids": [
+        "evt_20260814_809163a91a"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_06efd0cff7": {
+      "primary_event_id": "evt_20260814_5211f33677",
+      "event_ids": [
+        "evt_20260814_5211f33677"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_afe869b870": {
+      "primary_event_id": "evt_20260814_481b8fa3a3",
+      "event_ids": [
+        "evt_20260814_481b8fa3a3"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_0d57d2cb22": {
+      "primary_event_id": "evt_20260814_b8cc705bf9",
+      "event_ids": [
+        "evt_20260814_b8cc705bf9"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_78a423efaf": {
+      "primary_event_id": "evt_20260814_d528fba816",
+      "event_ids": [
+        "evt_20260814_d528fba816"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_6356a44dc3": {
+      "primary_event_id": "evt_20260814_b3e19c91ee",
+      "event_ids": [
+        "evt_20260814_b3e19c91ee"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_191c7327f9": {
+      "primary_event_id": "evt_20260814_16d07686e8",
+      "event_ids": [
+        "evt_20260814_16d07686e8"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_4198f51c0b": {
+      "primary_event_id": "evt_20260814_6bd41f8acb",
+      "event_ids": [
+        "evt_20260814_6bd41f8acb"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_c927def63d": {
+      "primary_event_id": "evt_20260814_2881594a96",
+      "event_ids": [
+        "evt_20260814_2881594a96"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_5644d1806c": {
+      "primary_event_id": "evt_20260814_c5def0802b",
+      "event_ids": [
+        "evt_20260814_c5def0802b"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_301712a960": {
+      "primary_event_id": "evt_20260814_fdea5b2788",
+      "event_ids": [
+        "evt_20260814_fdea5b2788"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_8f02b7e407": {
+      "primary_event_id": "evt_20260814_60fba329a8",
+      "event_ids": [
+        "evt_20260814_60fba329a8"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_1438130d36": {
+      "primary_event_id": "evt_20260814_76cd5cf97b",
+      "event_ids": [
+        "evt_20260814_76cd5cf97b"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_d7b78c705d": {
+      "primary_event_id": "evt_20260814_0936291cde",
+      "event_ids": [
+        "evt_20260814_0936291cde"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_9dbf4b88c9": {
+      "primary_event_id": "evt_20260814_5b59b2939f",
+      "event_ids": [
+        "evt_20260814_5b59b2939f"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_e6d80f5e4a": {
+      "primary_event_id": "evt_20260814_6712dd1e8a",
+      "event_ids": [
+        "evt_20260814_6712dd1e8a"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_5766e1a191": {
+      "primary_event_id": "evt_20260814_f854a8fdbb",
+      "event_ids": [
+        "evt_20260814_f854a8fdbb"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_f9f84926a9": {
+      "primary_event_id": "evt_20260814_985ae465bc",
+      "event_ids": [
+        "evt_20260814_985ae465bc"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_542ce7539a": {
+      "primary_event_id": "evt_20260814_fd67f82b58",
+      "event_ids": [
+        "evt_20260814_fd67f82b58"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_f776b9b226": {
+      "primary_event_id": "evt_20260814_da257290e4",
+      "event_ids": [
+        "evt_20260814_da257290e4"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_34fd7381eb": {
+      "primary_event_id": "evt_20260814_707ef25b25",
+      "event_ids": [
+        "evt_20260814_707ef25b25"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_a7e3bdcb61": {
+      "primary_event_id": "evt_20260814_89914a908d",
+      "event_ids": [
+        "evt_20260814_89914a908d"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_9f2ce97dab": {
+      "primary_event_id": "evt_20260814_9ecd04d786",
+      "event_ids": [
+        "evt_20260814_9ecd04d786"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_a03fe1c214": {
+      "primary_event_id": "evt_20260814_641c579600",
+      "event_ids": [
+        "evt_20260814_641c579600"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_c31257eeb5": {
+      "primary_event_id": "evt_20260814_23b8691ffc",
+      "event_ids": [
+        "evt_20260814_23b8691ffc"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_855161d900": {
+      "primary_event_id": "evt_20260814_5cbf084cd4",
+      "event_ids": [
+        "evt_20260814_5cbf084cd4"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_6f8dd26e6b": {
+      "primary_event_id": "evt_20260814_2eb9b3d04b",
+      "event_ids": [
+        "evt_20260814_2eb9b3d04b"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_70bbbeec0c": {
+      "primary_event_id": "evt_20260814_8e8c841875",
+      "event_ids": [
+        "evt_20260814_8e8c841875"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_278b9c3d4f": {
+      "primary_event_id": "evt_20260814_4df41d3e92",
+      "event_ids": [
+        "evt_20260814_4df41d3e92"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_b453869ff3": {
+      "primary_event_id": "evt_20260814_4abf7dafab",
+      "event_ids": [
+        "evt_20260814_4abf7dafab"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_5b3ec3fb17": {
+      "primary_event_id": "evt_20260814_4b15d698cf",
+      "event_ids": [
+        "evt_20260814_4b15d698cf"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_afa025b464": {
+      "primary_event_id": "evt_20260814_dc13e27a9e",
+      "event_ids": [
+        "evt_20260814_dc13e27a9e"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_2e12acdc23": {
+      "primary_event_id": "evt_20260814_d0ad915bc7",
+      "event_ids": [
+        "evt_20260814_d0ad915bc7"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_cfc4da105a": {
+      "primary_event_id": "evt_20260814_441a323fe5",
+      "event_ids": [
+        "evt_20260814_441a323fe5"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_626d78a1c7": {
+      "primary_event_id": "evt_20260814_71fe0d4221",
+      "event_ids": [
+        "evt_20260814_71fe0d4221"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_5567674bca": {
+      "primary_event_id": "evt_20260814_8be34750b1",
+      "event_ids": [
+        "evt_20260814_8be34750b1"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_a17dbfbfa9": {
+      "primary_event_id": "evt_20260814_b00a10e9ec",
+      "event_ids": [
+        "evt_20260814_b00a10e9ec"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_8aaa1cf919": {
+      "primary_event_id": "evt_20260814_b712b17a59",
+      "event_ids": [
+        "evt_20260814_b712b17a59"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_ec67f00f56": {
+      "primary_event_id": "evt_20260814_11c7a3cd1d",
+      "event_ids": [
+        "evt_20260814_11c7a3cd1d"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_24217cb622": {
+      "primary_event_id": "evt_20260814_c7527a51ca",
+      "event_ids": [
+        "evt_20260814_c7527a51ca"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_6482d13480": {
+      "primary_event_id": "evt_20260814_38e9506bec",
+      "event_ids": [
+        "evt_20260814_38e9506bec"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_daf955d343": {
+      "primary_event_id": "evt_20260814_03725c1265",
+      "event_ids": [
+        "evt_20260814_03725c1265"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_d340247e66": {
+      "primary_event_id": "evt_20260814_aec1af7cd9",
+      "event_ids": [
+        "evt_20260814_aec1af7cd9"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_512d5b5f08": {
+      "primary_event_id": "evt_20260814_922e132de7",
+      "event_ids": [
+        "evt_20260814_922e132de7"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_8989ba9f7c": {
+      "primary_event_id": "evt_20260814_6e27efa308",
+      "event_ids": [
+        "evt_20260814_6e27efa308"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_eae2d5d455": {
+      "primary_event_id": "evt_20260814_015eff9986",
+      "event_ids": [
+        "evt_20260814_015eff9986"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_eed828a543": {
+      "primary_event_id": "evt_20260814_d5d705e210",
+      "event_ids": [
+        "evt_20260814_d5d705e210"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_965034ac73": {
+      "primary_event_id": "evt_20260814_b2be5fc833",
+      "event_ids": [
+        "evt_20260814_b2be5fc833"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_499e46ef49": {
+      "primary_event_id": "evt_20260814_9ef7c2d996",
+      "event_ids": [
+        "evt_20260814_9ef7c2d996"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_04882688e5": {
+      "primary_event_id": "evt_20260814_729a001540",
+      "event_ids": [
+        "evt_20260814_729a001540"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_f2d8ed35cf": {
+      "primary_event_id": "evt_20260814_3b9fd3fa1e",
+      "event_ids": [
+        "evt_20260814_3b9fd3fa1e"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_3a3d83f43e": {
+      "primary_event_id": "evt_20260814_45657c75c0",
+      "event_ids": [
+        "evt_20260814_45657c75c0"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_6db3c6a22e": {
+      "primary_event_id": "evt_20260814_b354bb94a3",
+      "event_ids": [
+        "evt_20260814_b354bb94a3"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_b19c4c6cc5": {
+      "primary_event_id": "evt_20260814_35131f50bd",
+      "event_ids": [
+        "evt_20260814_35131f50bd"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_cbc7b0c5cb": {
+      "primary_event_id": "evt_20260814_f70429f03d",
+      "event_ids": [
+        "evt_20260814_f70429f03d"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_315aa2510a": {
+      "primary_event_id": "evt_20260814_dedc97d6c0",
+      "event_ids": [
+        "evt_20260814_dedc97d6c0"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_b93220f5aa": {
+      "primary_event_id": "evt_20260814_618256916e",
+      "event_ids": [
+        "evt_20260814_618256916e"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_ef00da8d73": {
+      "primary_event_id": "evt_20260814_6235a16445",
+      "event_ids": [
+        "evt_20260814_6235a16445"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_459dbc9728": {
+      "primary_event_id": "evt_20260814_e1fb0a0aa6",
+      "event_ids": [
+        "evt_20260814_e1fb0a0aa6"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_148a0eb657": {
+      "primary_event_id": "evt_20260814_688e54e4e4",
+      "event_ids": [
+        "evt_20260814_688e54e4e4"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_2e37ff1751": {
+      "primary_event_id": "evt_20260814_bf4b469661",
+      "event_ids": [
+        "evt_20260814_bf4b469661"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_3d25eae1aa": {
+      "primary_event_id": "evt_20260814_b988c0c02c",
+      "event_ids": [
+        "evt_20260814_b988c0c02c"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_1fd291eb87": {
+      "primary_event_id": "evt_20260814_f75ab0aeb5",
+      "event_ids": [
+        "evt_20260814_f75ab0aeb5"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_f8b9798563": {
+      "primary_event_id": "evt_20260814_7c0c4c46db",
+      "event_ids": [
+        "evt_20260814_7c0c4c46db"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_2b4249bf74": {
+      "primary_event_id": "evt_20260814_7059bde125",
+      "event_ids": [
+        "evt_20260814_7059bde125"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_27c9c3a658": {
+      "primary_event_id": "evt_20260814_bd27553ad2",
+      "event_ids": [
+        "evt_20260814_bd27553ad2"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_4c0f8ee3ad": {
+      "primary_event_id": "evt_20260814_339e61f156",
+      "event_ids": [
+        "evt_20260814_339e61f156"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_9f090f4d0d": {
+      "primary_event_id": "evt_20260814_d2bc544f61",
+      "event_ids": [
+        "evt_20260814_d2bc544f61"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_a86dbbf0de": {
+      "primary_event_id": "evt_20260814_a24e7782de",
+      "event_ids": [
+        "evt_20260814_a24e7782de"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_2300b4f8d4": {
+      "primary_event_id": "evt_20260814_a1aa685238",
+      "event_ids": [
+        "evt_20260814_a1aa685238"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_97f8a5119f": {
+      "primary_event_id": "evt_20260814_e8b03cf848",
+      "event_ids": [
+        "evt_20260814_e8b03cf848"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_e6ea92a401": {
+      "primary_event_id": "evt_20260814_c6f9c6dc59",
+      "event_ids": [
+        "evt_20260814_c6f9c6dc59"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_84a2b4d042": {
+      "primary_event_id": "evt_20260814_dea6fdc37c",
+      "event_ids": [
+        "evt_20260814_dea6fdc37c"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_64f607401c": {
+      "primary_event_id": "evt_20260814_0c670debea",
+      "event_ids": [
+        "evt_20260814_0c670debea"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_7228808e9e": {
+      "primary_event_id": "evt_20260814_d903778df2",
+      "event_ids": [
+        "evt_20260814_d903778df2"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_c95b71e959": {
+      "primary_event_id": "evt_20260814_b3b4de4d2a",
+      "event_ids": [
+        "evt_20260814_b3b4de4d2a"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_72dfaa7c3b": {
+      "primary_event_id": "evt_20260814_a8e67b81c8",
+      "event_ids": [
+        "evt_20260814_a8e67b81c8"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_54e9ff6463": {
+      "primary_event_id": "evt_20260814_9ace3b11c0",
+      "event_ids": [
+        "evt_20260814_9ace3b11c0"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_dcc10ea14c": {
+      "primary_event_id": "evt_20260814_84b39b8553",
+      "event_ids": [
+        "evt_20260814_84b39b8553"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_63c1a9a2b8": {
+      "primary_event_id": "evt_20260814_383adaa341",
+      "event_ids": [
+        "evt_20260814_383adaa341"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_b84aaa770d": {
+      "primary_event_id": "evt_20260814_50aef63a95",
+      "event_ids": [
+        "evt_20260814_50aef63a95"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_5069f8622b": {
+      "primary_event_id": "evt_20260814_edca254d3c",
+      "event_ids": [
+        "evt_20260814_edca254d3c"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_223292a14d": {
+      "primary_event_id": "evt_20260814_5465592021",
+      "event_ids": [
+        "evt_20260814_5465592021"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_ea04c0027b": {
+      "primary_event_id": "evt_20260814_bc4e5aa477",
+      "event_ids": [
+        "evt_20260814_bc4e5aa477"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_fa846e6195": {
+      "primary_event_id": "evt_20260814_7f8b814255",
+      "event_ids": [
+        "evt_20260814_7f8b814255"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_70258dc428": {
+      "primary_event_id": "evt_20260814_4658087140",
+      "event_ids": [
+        "evt_20260814_4658087140"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_7f5f0b3d4c": {
+      "primary_event_id": "evt_20260814_951660b6b5",
+      "event_ids": [
+        "evt_20260814_951660b6b5"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_98e4cda667": {
+      "primary_event_id": "evt_20260814_f544415523",
+      "event_ids": [
+        "evt_20260814_f544415523"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_dc69d223a4": {
+      "primary_event_id": "evt_20260814_bda99f2759",
+      "event_ids": [
+        "evt_20260814_bda99f2759"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_3818aa6a5b": {
+      "primary_event_id": "evt_20260814_3c69f065e0",
+      "event_ids": [
+        "evt_20260814_3c69f065e0"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_32052ff6a9": {
+      "primary_event_id": "evt_20260814_1516cac18b",
+      "event_ids": [
+        "evt_20260814_1516cac18b"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_72602f691d": {
+      "primary_event_id": "evt_20260814_8b31eb708f",
+      "event_ids": [
+        "evt_20260814_8b31eb708f"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_baee8a52d0": {
+      "primary_event_id": "evt_20260814_61159e7760",
+      "event_ids": [
+        "evt_20260814_61159e7760"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_12823da0ee": {
+      "primary_event_id": "evt_20260814_148a09a5a0",
+      "event_ids": [
+        "evt_20260814_148a09a5a0"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_68ed3f4413": {
+      "primary_event_id": "evt_20260814_524c8582b8",
+      "event_ids": [
+        "evt_20260814_524c8582b8"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_9272111e20": {
+      "primary_event_id": "evt_20260814_4b3503a77e",
+      "event_ids": [
+        "evt_20260814_4b3503a77e"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_5e91211e67": {
+      "primary_event_id": "evt_20260814_ba71b3272f",
+      "event_ids": [
+        "evt_20260814_ba71b3272f"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_dd8665db45": {
+      "primary_event_id": "evt_20260814_0f7fcdec06",
+      "event_ids": [
+        "evt_20260814_0f7fcdec06"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_3a992ef1f8": {
+      "primary_event_id": "evt_20260814_5c1b827c56",
+      "event_ids": [
+        "evt_20260814_5c1b827c56"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_5d2349b68e": {
+      "primary_event_id": "evt_20260814_064a5838b0",
+      "event_ids": [
+        "evt_20260814_064a5838b0"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_4a3947c390": {
+      "primary_event_id": "evt_20260814_42efbc720d",
+      "event_ids": [
+        "evt_20260814_42efbc720d"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_7ee60e4c22": {
+      "primary_event_id": "evt_20260814_f436271c78",
+      "event_ids": [
+        "evt_20260814_f436271c78"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_6a3ac8537c": {
+      "primary_event_id": "evt_20260814_aa3ba47b50",
+      "event_ids": [
+        "evt_20260814_aa3ba47b50"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_ed2a70fd4f": {
+      "primary_event_id": "evt_20260814_a2e1d7a340",
+      "event_ids": [
+        "evt_20260814_a2e1d7a340"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_39418a1d8b": {
+      "primary_event_id": "evt_20260814_85946c062e",
+      "event_ids": [
+        "evt_20260814_85946c062e"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_f21f331ac1": {
+      "primary_event_id": "evt_20260814_a0b8f0ad27",
+      "event_ids": [
+        "evt_20260814_a0b8f0ad27"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_c457b5694c": {
+      "primary_event_id": "evt_20260814_bfe1f95b4f",
+      "event_ids": [
+        "evt_20260814_bfe1f95b4f"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_b0c0f952cb": {
+      "primary_event_id": "evt_20260814_535ce326ac",
+      "event_ids": [
+        "evt_20260814_535ce326ac"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_153c9ce692": {
+      "primary_event_id": "evt_20260814_1a6c77076a",
+      "event_ids": [
+        "evt_20260814_1a6c77076a"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_f13148b707": {
+      "primary_event_id": "evt_20260814_ea79b93be4",
+      "event_ids": [
+        "evt_20260814_ea79b93be4"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_e51a0b4bf8": {
+      "primary_event_id": "evt_20260814_bbfa06a8e3",
+      "event_ids": [
+        "evt_20260814_bbfa06a8e3"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_4a8791200f": {
+      "primary_event_id": "evt_20260814_6f06e738eb",
+      "event_ids": [
+        "evt_20260814_6f06e738eb"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_ff76f3e05d": {
+      "primary_event_id": "evt_20260814_b290a3ce34",
+      "event_ids": [
+        "evt_20260814_b290a3ce34"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_21da83c480": {
+      "primary_event_id": "evt_20260814_cf84ae2069",
+      "event_ids": [
+        "evt_20260814_cf84ae2069"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_02e9d5e69c": {
+      "primary_event_id": "evt_20260814_d878256d48",
+      "event_ids": [
+        "evt_20260814_d878256d48"
+      ],
+      "source_ids": [
+        "src_arxiv_cs_ai"
+      ]
+    },
+    "clu_d734c7ba2a": {
+      "primary_event_id": "evt_20260814_ddaa4df896",
+      "event_ids": [
+        "evt_20260814_ddaa4df896"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_bc05dcbe50": {
+      "primary_event_id": "evt_20260814_28cb0c9dbd",
+      "event_ids": [
+        "evt_20260814_28cb0c9dbd"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_4b98bad5ae": {
+      "primary_event_id": "evt_20260814_a4163be348",
+      "event_ids": [
+        "evt_20260814_a4163be348"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_b9805327c1": {
+      "primary_event_id": "evt_20260814_2e6797f203",
+      "event_ids": [
+        "evt_20260814_2e6797f203"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_0ecdeff8fc": {
+      "primary_event_id": "evt_20260814_9f8e67aa80",
+      "event_ids": [
+        "evt_20260814_9f8e67aa80"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_4c91a9b3cd": {
+      "primary_event_id": "evt_20260814_eaf8f5a7b9",
+      "event_ids": [
+        "evt_20260814_eaf8f5a7b9"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_4c54212f80": {
+      "primary_event_id": "evt_20260814_87156d8088",
+      "event_ids": [
+        "evt_20260814_87156d8088"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_66d6d404b4": {
+      "primary_event_id": "evt_20260814_b0516b6439",
+      "event_ids": [
+        "evt_20260814_b0516b6439"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_775b945080": {
+      "primary_event_id": "evt_20260814_e5a5af47b8",
+      "event_ids": [
+        "evt_20260814_e5a5af47b8"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_d13334959b": {
+      "primary_event_id": "evt_20260814_74825c0100",
+      "event_ids": [
+        "evt_20260814_74825c0100"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_522b572435": {
+      "primary_event_id": "evt_20260814_57165fd10d",
+      "event_ids": [
+        "evt_20260814_57165fd10d"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_1bae24c851": {
+      "primary_event_id": "evt_20260814_263d5c1845",
+      "event_ids": [
+        "evt_20260814_263d5c1845"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_4af4ed53f7": {
+      "primary_event_id": "evt_20260814_070f5cc8d1",
+      "event_ids": [
+        "evt_20260814_070f5cc8d1"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_ad563d05c3": {
+      "primary_event_id": "evt_20260814_3bfd3e269a",
+      "event_ids": [
+        "evt_20260814_3bfd3e269a"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_d2fcdd98af": {
+      "primary_event_id": "evt_20260814_14baff1138",
+      "event_ids": [
+        "evt_20260814_14baff1138"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_1520fe9104": {
+      "primary_event_id": "evt_20260814_0261b33685",
+      "event_ids": [
+        "evt_20260814_0261b33685"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_b70cc93d50": {
+      "primary_event_id": "evt_20260814_3a68016eee",
+      "event_ids": [
+        "evt_20260814_3a68016eee"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_7894e7246f": {
+      "primary_event_id": "evt_20260814_ca9fba4d94",
+      "event_ids": [
+        "evt_20260814_ca9fba4d94"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_877e041008": {
+      "primary_event_id": "evt_20260814_424062fa21",
+      "event_ids": [
+        "evt_20260814_424062fa21"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_05d39d7153": {
+      "primary_event_id": "evt_20260814_8fd51b8d16",
+      "event_ids": [
+        "evt_20260814_8fd51b8d16"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_e863372be3": {
+      "primary_event_id": "evt_20260814_8e51b6a017",
+      "event_ids": [
+        "evt_20260814_8e51b6a017"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_badcdfe4f0": {
+      "primary_event_id": "evt_20260814_c57371ed02",
+      "event_ids": [
+        "evt_20260814_c57371ed02"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_e8c5a58a14": {
+      "primary_event_id": "evt_20260814_57ec37b089",
+      "event_ids": [
+        "evt_20260814_57ec37b089"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_36d406216e": {
+      "primary_event_id": "evt_20260814_81a9f5fa01",
+      "event_ids": [
+        "evt_20260814_81a9f5fa01"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_27c518e6ee": {
+      "primary_event_id": "evt_20260814_461ff4b062",
+      "event_ids": [
+        "evt_20260814_461ff4b062"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_03f5c5e86c": {
+      "primary_event_id": "evt_20260814_0c80df9c17",
+      "event_ids": [
+        "evt_20260814_0c80df9c17"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_3320ecb86a": {
+      "primary_event_id": "evt_20260814_e30a690a77",
+      "event_ids": [
+        "evt_20260814_e30a690a77"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_d9a8d060fc": {
+      "primary_event_id": "evt_20260814_4ccf027e76",
+      "event_ids": [
+        "evt_20260814_4ccf027e76"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_ac367779a1": {
+      "primary_event_id": "evt_20260814_bb744f2c5c",
+      "event_ids": [
+        "evt_20260814_bb744f2c5c"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
+      ]
+    },
+    "clu_f5b26111ba": {
+      "primary_event_id": "evt_20260814_4a02f34197",
+      "event_ids": [
+        "evt_20260814_4a02f34197"
+      ],
+      "source_ids": [
+        "src_arxiv_materials"
       ]
     }
   }
