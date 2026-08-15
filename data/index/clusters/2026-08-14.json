@@ -180,7 +180,8 @@
     "https://science.nasa.gov/get-involved/citizen-science/volunteer-develops-machine-learning-tool-to-identify-rare-clouds": "clu_97aa2c6e5f",
     "https://science.nasa.gov/earth/earth-observatory/a-sunflowers-view-of-totality": "clu_e911c5bac8",
     "https://nasa.gov/news-release/nasa-announces-max-power-americas-newest-aerospace-expo-airshow": "clu_a799225462",
-    "https://nasa.gov/image-article/total-solar-eclipse-in-sunflower-field": "clu_0b2509378d"
+    "https://nasa.gov/image-article/total-solar-eclipse-in-sunflower-field": "clu_0b2509378d",
+    "https://war.gov/News/Contracts/Contract/Article/4574365/contracts-for-aug-14-2026": "clu_b6953728aa"
   },
   "by_hash": {
     "8573873297d6084c62f19da89454e3423fa6fe2874466549898348c63a655f03": "clu_e1a77172aa",
@@ -361,7 +362,8 @@
     "85366795161e73e4dc1e9915a6e76808230d1ded21d73937fd8e556d41c574be": "clu_97aa2c6e5f",
     "c223d25bd21582ae4f769d343b7f95f2f9f527a1369c5d6978a2bbc3916b536e": "clu_e911c5bac8",
     "70b0b476ab3ede480c3d3d492256a108ddc22c152e69bc75569be748b92ed384": "clu_a799225462",
-    "eb0af9cbaa1753674f5497654826656421c5dabd4b9ed6bf8052bb0b6eb22428": "clu_0b2509378d"
+    "eb0af9cbaa1753674f5497654826656421c5dabd4b9ed6bf8052bb0b6eb22428": "clu_0b2509378d",
+    "c1a05cea1a09a7ed4f0bb65ec9a3486112bdc0cf068c2b21c35bb177b39ba791": "clu_b6953728aa"
   },
   "by_key": {
     "office of the federal register::combined notice of filings::2026-08-14": "clu_e1a77172aa",
@@ -527,7 +529,8 @@
     "nasa::volunteer develops machine-learning tool to identify rare clouds::2026-08-14": "clu_97aa2c6e5f",
     "nasa::a sunflower’s view of totality::2026-08-14": "clu_e911c5bac8",
     "nasa::nasa announces max power: america’s newest aerospace expo, airshow::2026-08-14": "clu_a799225462",
-    "nasa::total solar eclipse in sunflower field::2026-08-14": "clu_0b2509378d"
+    "nasa::total solar eclipse in sunflower field::2026-08-14": "clu_0b2509378d",
+    "u.s. department of war (旧 department of defense)::contracts for aug. 14, 2026::2026-08-14": "clu_b6953728aa"
   },
   "clusters": {
     "clu_e1a77172aa": {
@@ -2139,6 +2142,15 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_b6953728aa": {
+      "primary_event_id": "evt_20260815_c1a05cea1a",
+      "event_ids": [
+        "evt_20260815_c1a05cea1a"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
       ]
     }
   }

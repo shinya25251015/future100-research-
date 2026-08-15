@@ -1,0 +1,65 @@
+{
+  "window_id": "sig_power_grid_20260815",
+  "as_of": "2026-08-15T21:47:35Z",
+  "window": {
+    "start": "2026-08-09",
+    "end": "2026-08-15",
+    "baseline_start": "2026-07-12",
+    "baseline_end": "2026-08-08"
+  },
+  "topic": {
+    "label": "電力・送配電",
+    "keywords": [
+      "power grid",
+      "electric grid",
+      "electrical grid",
+      "power transformer",
+      "transmission line",
+      "substation",
+      "grid interconnection",
+      "grid operator",
+      "送電網",
+      "送配電",
+      "変電所",
+      "変圧器",
+      "系統連系"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_power_grid"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 1,
+      "baseline_count": 1.0,
+      "event_ids": [
+        "evt_20260813_887d7af721"
+      ],
+      "delta_ratio": 0.0
+    },
+    {
+      "signal_type": "procurement",
+      "count": 0,
+      "baseline_count": 0.5,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}

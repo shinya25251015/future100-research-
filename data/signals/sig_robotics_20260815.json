@@ -1,0 +1,105 @@
+{
+  "window_id": "sig_robotics_20260815",
+  "as_of": "2026-08-15T21:47:35Z",
+  "window": {
+    "start": "2026-08-09",
+    "end": "2026-08-15",
+    "baseline_start": "2026-07-12",
+    "baseline_end": "2026-08-08"
+  },
+  "topic": {
+    "label": "ロボティクス",
+    "keywords": [
+      "robot",
+      "robotic",
+      "humanoid",
+      "factory automation",
+      "ロボット",
+      "産業用ロボット"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_robotics"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 46,
+      "baseline_count": 47.25,
+      "event_ids": [
+        "evt_20260813_d78d0c6c6b",
+        "evt_20260813_9220572ddd",
+        "evt_20260813_32da9cce02",
+        "evt_20260813_8d04c748f5",
+        "evt_20260813_eb5638fff8",
+        "evt_20260813_c8e2ca24e5",
+        "evt_20260813_c26c622b78",
+        "evt_20260813_221e302984",
+        "evt_20260813_19093f63a1",
+        "evt_20260813_fedf4f603c",
+        "evt_20260813_af41802ac9",
+        "evt_20260813_70625f70f4",
+        "evt_20260813_532783fe78",
+        "evt_20260813_15af6162ca",
+        "evt_20260813_22b00e5952",
+        "evt_20260813_f71bf06b7f",
+        "evt_20260814_c865b9b21f",
+        "evt_20260814_c88ec87d1c",
+        "evt_20260814_02cdc3e70e",
+        "evt_20260814_cad61b61d5",
+        "evt_20260814_acc501e682",
+        "evt_20260814_24e0c6f159",
+        "evt_20260814_0ca8190181",
+        "evt_20260814_9a50ce20cb",
+        "evt_20260814_18f1cb2172",
+        "evt_20260814_b411ee9948",
+        "evt_20260814_35d8f103ba",
+        "evt_20260814_0dc8752a89",
+        "evt_20260814_b778249fa4",
+        "evt_20260814_bf8b5bc529",
+        "evt_20260814_b0602d67ff",
+        "evt_20260814_81b515344a",
+        "evt_20260814_7dfcf416ae",
+        "evt_20260814_7ad8b3d272",
+        "evt_20260814_95e3b9a7f1",
+        "evt_20260814_c4d8c93cac",
+        "evt_20260814_e8596ba403",
+        "evt_20260814_6ce13eb3d9",
+        "evt_20260814_ec4370c62b",
+        "evt_20260815_cfeb062b53",
+        "evt_20260815_df3177841c",
+        "evt_20260815_2a952ce3db",
+        "evt_20260815_aef0619dbc",
+        "evt_20260815_07498b532f",
+        "evt_20260815_97d95c89d1",
+        "evt_20260815_f14e8b3749"
+      ],
+      "delta_ratio": -0.026
+    },
+    {
+      "signal_type": "procurement",
+      "count": 1,
+      "baseline_count": 0.25,
+      "event_ids": [
+        "evt_20260814_9b7ba61e46"
+      ],
+      "delta_ratio": 3.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "window_id": "sig_fusion_20260815",
+  "as_of": "2026-08-15T21:47:35Z",
+  "window": {
+    "start": "2026-08-09",
+    "end": "2026-08-15",
+    "baseline_start": "2026-07-12",
+    "baseline_end": "2026-08-08"
+  },
+  "topic": {
+    "label": "核融合",
+    "keywords": [
+      "nuclear fusion",
+      "fusion energy",
+      "fusion reactor",
+      "tokamak",
+      "stellarator",
+      "核融合"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_fusion"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 2,
+      "baseline_count": 2.0,
+      "event_ids": [
+        "evt_20260814_17e68a8773",
+        "evt_20260814_0579d165a7"
+      ],
+      "delta_ratio": 0.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}

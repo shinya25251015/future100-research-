@@ -1,0 +1,115 @@
+{
+  "report_id": "rpt_20260815",
+  "report_date": "2026-08-15",
+  "as_of": "2026-08-15T21:47:35Z",
+  "coverage": {
+    "events_ingested": 343,
+    "events_after_dedup": 343,
+    "sources_polled": 20,
+    "sources_failed": []
+  },
+  "sections": [
+    {
+      "no": 1,
+      "key": "executive_summary",
+      "title": "本日の構造変化サマリ",
+      "body": "本日の観測は 343 件。内訳（分類別）: technology 293 / policy_regulation 50。シグナル種別: paper 291 / procurement 3 / patent 1 / export_control 1。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 10 件）。件数は観測量であって重要度ではない。"
+    },
+    {
+      "no": 2,
+      "key": "policy_regulation",
+      "title": "政策・規制 (§4)",
+      "body": "本日 50 件を観測。\n- [A] 2026-08-17 Extension of a Currently Approved Information Collection: Authorization Agreement for Preauthorized Payment (SF 5510) (evt_20260815_0a413689dc)\n- [A] 2026-08-17 National Substance Use Primary Prevention Month, 2026 (evt_20260815_aff0c08649)\n- [A] 2026-08-17 Gastroenterology-Urology Devices; Reclassification of Diagnostic Endoscopic Light Source Systems To Be Renamed Cystoscopic Systems Intended as an Aid for Detection of Bladder Cancer (evt_20260815_43e9f17a9f)\n- [A] 2026-08-17 Pesticide Product Registration; Receipt of Applications for New Uses (May 2026) (evt_20260815_90183c1264)\n- [A] 2026-08-17 Notice of Receipt of Complaint; Solicitation of Comments Relating to the Public Interest (evt_20260815_e6594fe5c0)\n- [A] 2026-08-17 Combined Notice of Filings (evt_20260815_8573873297)\n- [A] 2026-08-17 Notice of Final Federal Agency Actions on Proposed Highway in Tennessee (evt_20260815_60ae17ba2f)\n- [A] 2026-08-17 Withdrawal of the Announcement of the Intent To Award a Single-Source Cooperative Agreement to Burke Law Group, PLLC in Houston, Texas (evt_20260815_ddd9bead34)"
+    },
+    {
+      "no": 3,
+      "key": "geopolitics",
+      "title": "地政学 (§5)",
+      "body": "本日該当なし（本日の新規観測なし）"
+    },
+    {
+      "no": 4,
+      "key": "macro_economy",
+      "title": "マクロ経済 (§6)",
+      "body": "本日該当なし（本日の新規観測なし）"
+    },
+    {
+      "no": 5,
+      "key": "global_capex",
+      "title": "世界の設備投資 (§7)",
+      "body": "本日該当なし（本日の新規観測なし）"
+    },
+    {
+      "no": 6,
+      "key": "technology_progress",
+      "title": "技術革新の進展 (§8)",
+      "body": "本日 293 件を観測。\n- [B] 2026-08-15 Correct Is Not Governed: Provenance Integrity in Agentic Workflows (evt_20260815_48392648a7)\n- [B] 2026-08-15 CAS: A Causal Attribution Score for Local and Global Explainable Artificial Intelligence (evt_20260815_b1f85f03a2)\n- [B] 2026-08-15 Residual Modeling for High-Fidelity Learned Compression of Scientific Data (evt_20260815_d9a3611b1b)\n- [B] 2026-08-15 Sovereign by necessity? Frontier AI export controls, cyber security, and the limits of national AI capability (evt_20260815_e8625ad591)\n- [B] 2026-08-15 QuoteBench: How Matched Scores Can Hide Command-Path Failures (evt_20260815_a462d61040)\n- [B] 2026-08-15 Auditable agentic AI for evidence-grounded thyroid ultrasound diagnosis and reporting (evt_20260815_6ed32dfc04)\n- [B] 2026-08-15 Foundations of MT-PDCL: Measure-Theoretic Probabilistic Definite Clause Logic (evt_20260815_d8c6f242ca)\n- [B] 2026-08-15 The Role of Natural Language Understanding in Multimodal Video-Based Dengue Diagnosis (evt_20260815_1a79229a56)"
+    },
+    {
+      "no": 7,
+      "key": "early_signals",
+      "title": "Early Signal Detection (§10)",
+      "body": "しきい値を満たした topic はなし。うち 10 件は観測期間が baseline に届かず判定を保留している（取り込み開始による見かけの急増をシグナルとして扱わないため）。"
+    },
+    {
+      "no": 8,
+      "key": "known_sector_monitor",
+      "title": "既知セクター監視 (§11)",
+      "body": "常時監視 16 セクターの本日の観測件数。掲載順は設定ファイルの登録順であり、優劣や順位ではない (§44-46)。\n- AI / 計算基盤 (sec_ai_compute): 本日 111 件\n- 半導体 (sec_semiconductor): 本日 2 件\n- 光通信 (sec_optical_networking): 本日 0 件\n- CPO (Co-Packaged Optics) (sec_cpo): 本日 0 件\n- 電力・送配電 (sec_power_grid): 本日 0 件\n- 原子力 (sec_nuclear): 本日 0 件\n- 核融合 (sec_fusion): 本日 0 件\n- 防衛 (sec_defense): 本日 0 件"
+    },
+    {
+      "no": 9,
+      "key": "emerging_sector_discovery",
+      "title": "新規セクター探知 (§12)",
+      "body": "本日該当なし（既知セクターに属さない同時増加は検出されていない）"
+    },
+    {
+      "no": 10,
+      "key": "supply_demand",
+      "title": "需給分析 (§13)",
+      "body": "本日該当なし（本日の新規観測なし）"
+    },
+    {
+      "no": 11,
+      "key": "bottlenecks",
+      "title": "ボトルネックと収益回収構造 (§14-15)",
+      "body": "本日該当なし（サプライチェーン分析がまだ作成されていない）"
+    },
+    {
+      "no": 12,
+      "key": "supply_chain_map",
+      "title": "サプライチェーン構造 (§16)",
+      "body": "本日該当なし（サプライチェーン分析がまだ作成されていない）"
+    },
+    {
+      "no": 13,
+      "key": "wave_analysis",
+      "title": "第二波・第三波分析 (§17-19)",
+      "body": "本日該当なし（波及連鎖がまだ作成されていない）"
+    },
+    {
+      "no": 14,
+      "key": "market_formation",
+      "title": "市場形成と成長フェーズ (§9, §20-32)",
+      "body": "本日該当なし（セクター評価がまだ作成されていない）"
+    },
+    {
+      "no": 15,
+      "key": "consensus_vs_independent",
+      "title": "コンセンサスと独自見解 (§34)",
+      "body": "本日該当なし（セクター評価がまだ作成されていない）"
+    },
+    {
+      "no": 16,
+      "key": "kpi_and_forecast_review",
+      "title": "KPI 追跡と予測レビュー (§40-43)",
+      "body": "本日該当なし（追跡対象の予測がまだ無い）"
+    }
+  ],
+  "prohibited_output_check": {
+    "contains_ticker_recommendation": false,
+    "contains_ranking": false,
+    "checked_at": "2026-08-15T21:47:47Z"
+  },
+  "schema_version": "1.0"
+}
