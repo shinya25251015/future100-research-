@@ -1,0 +1,86 @@
+{
+  "window_id": "sig_space_20260816",
+  "as_of": "2026-08-16T15:02:26Z",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16",
+    "baseline_start": "2026-07-13",
+    "baseline_end": "2026-08-09"
+  },
+  "topic": {
+    "label": "宇宙",
+    "keywords": [
+      "spacecraft",
+      "satellite",
+      "launch vehicle",
+      "space agency",
+      "space station",
+      "orbital launch",
+      "宇宙開発",
+      "人工衛星",
+      "打ち上げ"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_space"
+  },
+  "counts": [
+    {
+      "signal_type": "new_standard",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    },
+    {
+      "signal_type": "paper",
+      "count": 9,
+      "baseline_count": 5.25,
+      "event_ids": [
+        "evt_20260813_58e52320a3",
+        "evt_20260813_262cafad5b",
+        "evt_20260814_1bb7d9e0f4",
+        "evt_20260814_8b6b63cce7",
+        "evt_20260814_b2c3c76a6f",
+        "evt_20260814_1558ba8fb1",
+        "evt_20260814_3a07ce4cd1",
+        "evt_20260814_6b632bf3f0",
+        "evt_20260815_b3dd05f3a6"
+      ],
+      "delta_ratio": 0.714
+    },
+    {
+      "signal_type": "procurement",
+      "count": 0,
+      "baseline_count": 2.0,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      },
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 2,
+    "distinct_regions": 1,
+    "score": 34.2,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}

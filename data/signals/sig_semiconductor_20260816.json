@@ -1,0 +1,127 @@
+{
+  "window_id": "sig_semiconductor_20260816",
+  "as_of": "2026-08-16T15:02:26Z",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16",
+    "baseline_start": "2026-07-13",
+    "baseline_end": "2026-08-09"
+  },
+  "topic": {
+    "label": "半導体",
+    "keywords": [
+      "semiconductor",
+      "foundry",
+      "wafer",
+      "lithography",
+      "euv",
+      "hbm",
+      "chip fab",
+      "半導体",
+      "前工程",
+      "後工程",
+      "露光装置"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_semiconductor"
+  },
+  "counts": [
+    {
+      "signal_type": "export_control",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    },
+    {
+      "signal_type": "new_standard",
+      "count": 1,
+      "baseline_count": 0.25,
+      "event_ids": [
+        "evt_20260814_2cb1a6c1b4"
+      ],
+      "delta_ratio": 3.0
+    },
+    {
+      "signal_type": "paper",
+      "count": 37,
+      "baseline_count": 23.25,
+      "event_ids": [
+        "evt_20260813_b6a6a6b140",
+        "evt_20260813_ff83305725",
+        "evt_20260813_29687cc98e",
+        "evt_20260813_f3a5f57968",
+        "evt_20260813_262cafad5b",
+        "evt_20260813_f37aaea593",
+        "evt_20260814_c5e3b20857",
+        "evt_20260814_e2bc936fb2",
+        "evt_20260814_b9b42fa575",
+        "evt_20260814_47090707d7",
+        "evt_20260814_6092ddc7db",
+        "evt_20260814_e5c90ef710",
+        "evt_20260814_377d7da8f3",
+        "evt_20260814_cff24b06f3",
+        "evt_20260814_4647910543",
+        "evt_20260814_ff8fb31744",
+        "evt_20260814_8224adab15",
+        "evt_20260814_f5a145479c",
+        "evt_20260814_a89079d450",
+        "evt_20260814_660b9fefd3",
+        "evt_20260814_f47ce31482",
+        "evt_20260814_7f096f93de",
+        "evt_20260814_3a07ce4cd1",
+        "evt_20260814_fbfd380d5e",
+        "evt_20260814_faf19359bd",
+        "evt_20260814_9ad592d977",
+        "evt_20260814_27591120fe",
+        "evt_20260814_254c0474ed",
+        "evt_20260814_47f7de047e",
+        "evt_20260814_93742b9783",
+        "evt_20260814_74b4836f54",
+        "evt_20260814_ec7f4be91b",
+        "evt_20260814_49dce1d5b5",
+        "evt_20260814_4e97371984",
+        "evt_20260814_f355091b25",
+        "evt_20260815_4884b8bafe",
+        "evt_20260815_07baedaef1"
+      ],
+      "delta_ratio": 0.591
+    },
+    {
+      "signal_type": "patent",
+      "count": 1,
+      "baseline_count": 0.5,
+      "event_ids": [
+        "evt_20260814_2cb1a6c1b4"
+      ],
+      "delta_ratio": 1.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      },
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 2,
+    "distinct_regions": 1,
+    "score": 34.2,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}

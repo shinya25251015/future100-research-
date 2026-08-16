@@ -246,9 +246,34 @@ def build_bundle(
         label=sector["name"],
         as_of=as_of,
         window_start=start_str,
-        events=reports[:max_events],
+        events=_diversify(reports, max_events),
         statistics=statistics[:max_statistics],
     )
+
+
+def _diversify(events: list[dict], limit: int, *, per_source_per_day: int = 4) -> list[dict]:
+    """1 つのソースの当たり日で上限を埋めてしまわないように選ぶ。
+
+    信頼度順・新しい順にそのまま上限まで取ると、1 日に 200 本流れる論文フィードが
+    枠を全部使い、他のソースも他の日も評価に届かなくなる（実測で 150 件中 146 件が
+    同じ日の arXiv だった）。まずソース×日ごとの本数を絞って全期間・全ソースに枠を
+    行き渡らせ、余った枠を元の順序で埋める。
+
+    件数の多さは観測量であって重要度ではない。件数そのものは §10 の集計層が数えており、
+    構造評価の入力で重複して効かせる必要はない。
+    """
+    if len(events) <= limit:
+        return events
+
+    taken: list[dict] = []
+    overflow: list[dict] = []
+    seen: dict[tuple[str, str], int] = {}
+    for event in events:
+        key = (event["sources"][0]["source_id"], event["event_at"][:10])
+        seen[key] = seen.get(key, 0) + 1
+        (taken if seen[key] <= per_source_per_day else overflow).append(event)
+
+    return (taken + overflow)[:limit]
 
 
 def _render_statistics(events: list[dict]) -> str:

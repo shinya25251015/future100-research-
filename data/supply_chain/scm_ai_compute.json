@@ -1,0 +1,114 @@
+{
+  "map_id": "scm_ai_compute",
+  "sector_id": "sec_ai_compute",
+  "as_of": "2026-08-16T15:08:00Z",
+  "nodes": [
+    {
+      "node_id": "nd_8df9f664f4ed",
+      "name": "電力供給（系統接続・自前電源）",
+      "tier_position": "infrastructure",
+      "bottleneck": {
+        "is_bottleneck": true,
+        "trigger_condition": "1 拠点あたりの受電要求が既存の接続契約容量を超えた時点。系統側の増強は年単位で、事業者の投資判断だけでは短縮できない。",
+        "pricing_power": "high",
+        "concentration": "high",
+        "monetizer_type": "系統運用者および発電事業者。加えて、敷地内電源を供給する重電機器の製造者と、その据付・運転を担う事業者。",
+        "resolution_path": "系統増強は数年。自前電源による島運転は年単位だが系統増強より短い。観測期間中に段階的な移行枠組みが論じられている。",
+        "confidence": "medium"
+      }
+    },
+    {
+      "node_id": "nd_a53611c71891",
+      "name": "受変電・電力変換設備",
+      "tier_position": "equipment",
+      "bottleneck": {
+        "is_bottleneck": true,
+        "trigger_condition": "演算密度の上昇でラックあたり電力が既存の配電構成の上限を超えた時点。電力アーキテクチャの刷新が要ると一次発信が述べている水準。",
+        "pricing_power": "high",
+        "concentration": "high",
+        "monetizer_type": "重電機器の製造者と、その素材（電磁鋼板・銅）の供給者。設計変更が起きるほど既存の設計資産を持つ側に有利になる。",
+        "resolution_path": "製造能力の増設に数年。設計変更を伴う場合は認証期間が加わる。",
+        "confidence": "medium"
+      }
+    },
+    {
+      "node_id": "nd_6bb1f0a9e188",
+      "name": "冷却・熱管理",
+      "tier_position": "subsystem"
+    },
+    {
+      "node_id": "nd_43e333ff4040",
+      "name": "加速器（演算チップ）",
+      "tier_position": "component"
+    },
+    {
+      "node_id": "nd_30c956b1a092",
+      "name": "推論配信基盤（サービング・スケジューリング）",
+      "tier_position": "service"
+    },
+    {
+      "node_id": "nd_7e1e15e629bb",
+      "name": "検証・監査基盤",
+      "tier_position": "service",
+      "bottleneck": {
+        "is_bottleneck": true,
+        "trigger_condition": "自律的に判断を挟む構成が業務に入る段階。出力の妥当性を事後に確かめられないと本番投入が止まるため、需要増がそのまま検証工数の不足として現れる。",
+        "pricing_power": "medium",
+        "concentration": "low",
+        "monetizer_type": "評価・監査の手法と基盤を提供する事業者、および認証・保証を担う第三者機関。標準が定まるほど、標準を握る側に集中しやすい。",
+        "resolution_path": "手法の標準化と自動化により短縮しうるが、観測期間中は手法が乱立しており収束の兆候は見えない。",
+        "confidence": "low"
+      }
+    },
+    {
+      "node_id": "nd_beed1c1a19dd",
+      "name": "最終需要（業務適用）",
+      "tier_position": "end_demand"
+    }
+  ],
+  "edges": [
+    {
+      "from": "nd_8df9f664f4ed",
+      "to": "nd_a53611c71891",
+      "flow": "電力",
+      "substitutability": "low",
+      "confidence": "medium"
+    },
+    {
+      "from": "nd_a53611c71891",
+      "to": "nd_43e333ff4040",
+      "flow": "電力（変換後）",
+      "substitutability": "low",
+      "confidence": "medium"
+    },
+    {
+      "from": "nd_6bb1f0a9e188",
+      "to": "nd_43e333ff4040",
+      "flow": "排熱処理",
+      "substitutability": "medium",
+      "confidence": "low"
+    },
+    {
+      "from": "nd_43e333ff4040",
+      "to": "nd_30c956b1a092",
+      "flow": "演算能力",
+      "substitutability": "low",
+      "confidence": "medium"
+    },
+    {
+      "from": "nd_30c956b1a092",
+      "to": "nd_7e1e15e629bb",
+      "flow": "出力と実行履歴",
+      "substitutability": "medium",
+      "confidence": "low"
+    },
+    {
+      "from": "nd_7e1e15e629bb",
+      "to": "nd_beed1c1a19dd",
+      "flow": "検証済みの出力",
+      "substitutability": "medium",
+      "confidence": "low"
+    }
+  ],
+  "schema_version": "1.0"
+}

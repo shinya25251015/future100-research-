@@ -1,0 +1,115 @@
+{
+  "chain_id": "wav_ai_compute",
+  "as_of": "2026-08-16T15:08:00Z",
+  "trigger": {
+    "description": "AI 計算需要の拡大。観測期間中、加速器ベンダは次世代チップの設計自体に自社の計算資源を投入する段階に入ったと発信しており (evt_20260813_6e80bd35b0)、計算需要が自己増殖的に増える構造が一次発信として現れている。",
+    "sector_id": "sec_ai_compute"
+  },
+  "links": [
+    {
+      "wave": 1,
+      "from": "AI 計算需要の拡大",
+      "to": "データセンタの電力アーキテクチャ更新",
+      "mechanism": "演算密度を上げると、同じ床面積により多くの電力を届け、より多くの熱を捨てる必要が生じる。既存の配電・受変電構成では届けられる電力量が上限に達するため、性能の拡大は電力供給側の作り替えを強制する。この機序は一次発信そのものが述べている。",
+      "claim_type": "observed",
+      "causal_confidence": "medium",
+      "falsifier": "演算あたり消費電力の低減が電力供給の増強を不要にする水準に達し、電力アーキテクチャの刷新を求める発信が 2 四半期にわたり観測されなくなったら、この連鎖は成り立たない。",
+      "evidence": [
+        {
+          "source_id": "derived",
+          "event_id": "evt_20260813_2f9cef8a0b",
+          "reliability": "B"
+        },
+        {
+          "source_id": "derived",
+          "event_id": "evt_20260813_6e80bd35b0",
+          "reliability": "B"
+        }
+      ]
+    },
+    {
+      "wave": 2,
+      "from": "データセンタの電力アーキテクチャ更新",
+      "to": "系統接続に依存しない自前電源・受変電設備への投資",
+      "mechanism": "系統からの受電量は接続契約と系統側の設備増強に律速され、事業者の意思だけでは増やせない。接続待ちが立地と稼働開始の制約になると、事業者は自前電源による島運転や、系統形成能力を持つ電源を敷地内に持つ方向へ投資を振り替える。観測期間中に、AI データセンタを段階的に島運転へ移す枠組みが論じられている。",
+      "claim_type": "inferred",
+      "causal_confidence": "medium",
+      "falsifier": "系統接続の待機期間が短縮し、自前電源・島運転を主題とする研究や事業発表が減少に転じたら、この波及は撤回する。",
+      "evidence": [
+        {
+          "source_id": "derived",
+          "event_id": "evt_20260814_0443b43004",
+          "reliability": "B"
+        },
+        {
+          "source_id": "derived",
+          "event_id": "evt_20260813_2f9cef8a0b",
+          "reliability": "B"
+        }
+      ]
+    },
+    {
+      "wave": 2,
+      "from": "AI 計算需要の拡大",
+      "to": "推論配信基盤（サービング・スケジューリング）の再設計",
+      "mechanism": "電力と設備が短期に増えない一方で要求は増えるため、同じ資源でより多くの要求を捌く方向に技術投資が向かう。観測期間中に、記憶領域の削減 (evt_20260814_d789d2f069)、配信基盤そのものの再構成 (evt_20260814_7fdf405989)、通信処理のオフロード (evt_20260814_9c59d0d899) が並行して現れており、単一の工夫ではなく層をまたいだ再設計として立ち上がっている。",
+      "claim_type": "inferred",
+      "causal_confidence": "medium",
+      "falsifier": "推論効率化を主題とする研究の比率が 2 四半期続けて低下したら、資源制約が技術投資の向きを決めているという読みは成り立たない。",
+      "evidence": [
+        {
+          "source_id": "derived",
+          "event_id": "evt_20260814_d789d2f069",
+          "reliability": "B"
+        },
+        {
+          "source_id": "derived",
+          "event_id": "evt_20260814_7fdf405989",
+          "reliability": "B"
+        },
+        {
+          "source_id": "derived",
+          "event_id": "evt_20260814_9c59d0d899",
+          "reliability": "B"
+        },
+        {
+          "source_id": "derived",
+          "event_id": "evt_20260814_632fdb7895",
+          "reliability": "B"
+        }
+      ]
+    },
+    {
+      "wave": 3,
+      "from": "推論配信基盤（サービング・スケジューリング）の再設計",
+      "to": "検証・監査の工数が導入の律速に移る",
+      "mechanism": "配信基盤が自律的に判断を挟む構成（エージェント）へ移るほど、出力が正しいかを事後に確かめる手立てが要る。観測した根拠 150 件のうち約 3 割が評価・監査・認証を主題としており、動かす技術より確かめる技術に研究資源が向かっている。ただし研究の分布が実運用の詰まりを示すという結び付けは、本システムの観測では直接には裏づけられていない。",
+      "claim_type": "inferred",
+      "causal_confidence": "low",
+      "falsifier": "評価・監査を主題とする研究の比率が低下し、同時にエージェント構成の実運用導入報告が増えたら、検証が律速だという見立ては撤回する。",
+      "evidence": [
+        {
+          "source_id": "derived",
+          "event_id": "evt_20260814_3481669e00",
+          "reliability": "B"
+        },
+        {
+          "source_id": "derived",
+          "event_id": "evt_20260814_4c7571659d",
+          "reliability": "B"
+        },
+        {
+          "source_id": "derived",
+          "event_id": "evt_20260815_2dc6a343ae",
+          "reliability": "B"
+        },
+        {
+          "source_id": "derived",
+          "event_id": "evt_20260814_6d81b234a9",
+          "reliability": "B"
+        }
+      ]
+    }
+  ],
+  "schema_version": "1.0"
+}

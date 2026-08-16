@@ -25,6 +25,7 @@ def main() -> int:
     parser.add_argument("--kind", choices=["wave", "supply_chain", "both"], default="both")
     parser.add_argument("--show-prompt", action="store_true")
     parser.add_argument("--generate", action="store_true", help="Claude API で生成する（要 ANTHROPIC_API_KEY）")
+    parser.add_argument("--replay", help="保存済み生成結果 {\"wave\": {...}, \"supply_chain\": {...}} を読み直して検証・保存する")
     parser.add_argument("--effort", default="high", choices=["low", "medium", "high", "xhigh", "max"])
     args = parser.parse_args()
 
@@ -43,14 +44,20 @@ def main() -> int:
             print(f"\n{'=' * 30} prompt: {kind} {'=' * 30}")
             print(chain_analysis.render_prompt(bundle, kind))
 
-    if not args.generate:
+    if not (args.generate or args.replay):
         print("\n--generate で連鎖分析を生成する（要 ANTHROPIC_API_KEY）。")
+        print("--replay で、別の場所で生成した結果を検証して取り込む（API を呼ばない）。")
         return 0
 
     from future100 import generators  # noqa: PLC0415
 
     try:
-        generator = generators.anthropic_generator(effort=args.effort)
+        generator = (
+            generators.replay_generator(args.replay, keys=("wave", "supply_chain"),
+                                        marker="波及連鎖を分析せよ", first_key="wave")
+            if args.replay
+            else generators.anthropic_generator(effort=args.effort)
+        )
     except generators.GeneratorUnavailable as exc:
         print(f"\n生成器を用意できない: {exc}", file=sys.stderr)
         return 1

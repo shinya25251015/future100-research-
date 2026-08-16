@@ -84,19 +84,35 @@ def anthropic_generator(*, model: str = MODEL, effort: str = DEFAULT_EFFORT, max
     return generate
 
 
-def replay_generator(path: str):
-    """保存済みの生成結果を読み直す生成器（再現・デバッグ用）。
+def replay_generator(path: str, *, keys: tuple[str, str] = ("consensus", "independent"),
+                     marker: str = "一般に語られている見方", first_key: str = "consensus"):
+    """保存済みの生成結果を読み直す生成器。
 
-    ファイルは {"consensus": {...}, "independent": {...}} の形。
-    同じ入力に対する検証を、API を再度呼ばずに何度でも走らせられる。
+    ファイルは呼び出し 1 回ぶんの応答をキーに割り当てた形にする。
+
+      セクター評価: {"consensus": {…CONSENSUS_SCHEMA…},
+                     "independent": {…ANALYSIS_SCHEMA 全体…}}
+      連鎖分析:     {"wave": {…WAVE_SCHEMA…}, "supply_chain": {…SUPPLY_CHAIN_SCHEMA…}}
+
+    2 番目のキーが持つのは「2 回目の呼び出しの応答全体」であって、独自見解の部分だけ
+    ではない。ANALYSIS_SCHEMA は independent / phase / growth / scenarios を含むので、
+    "independent" キーの中にもう一段 "independent" が入る形になる。
+
+    用途は 2 つある。1 つは再現・デバッグ。もう 1 つは、API 以外の場所で生成した
+    結果を取り込むこと。検査（根拠の実在・撤回条件・銘柄への言及）は生成元に関係なく
+    同じように走るので、取り込み経路が変わっても出力の規律は変わらない。
+
+    marker はプロンプトに現れる語で、どちらの依頼かを見分けるために使う。
     """
     with open(path, encoding="utf-8") as handle:
         saved = json.load(handle)
 
+    missing = [key for key in keys if key not in saved]
+    if missing:
+        raise GeneratorUnavailable(f"保存済み生成結果に {', '.join(missing)} が無い: {path}")
+
     def generate(prompt: str, schema: dict[str, Any]) -> str:
-        key = "consensus" if "一般に語られている見方" in prompt else "independent"
-        if key not in saved:
-            raise KeyError(f"保存済み生成結果に {key} が無い: {path}")
+        key = first_key if marker in prompt else next(k for k in keys if k != first_key)
         return json.dumps(saved[key], ensure_ascii=False)
 
     return generate

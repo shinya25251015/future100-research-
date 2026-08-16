@@ -80,6 +80,27 @@ GitHub Actions で動かす場合は同名の Secret を登録する。生成は
 `.github/workflows/analyze.yml` を手動実行する（構造評価は毎日回すものではなく、
 毎日生成し直すと結論が揺れて予測精度の測定 (§40-43) が濁るため）。
 
+### API キーを使わずに分析を生成する
+
+`ANTHROPIC_API_KEY` は API の従量課金が発生する。課金せずに済ませるなら、生成だけを
+別の場所（Claude Code セッションや claude.ai）で行い、結果を `--replay` で取り込む。
+**検査（根拠の実在・撤回条件の有無・銘柄への言及・波が進むほど確信度が上がっていないか）
+は生成元に関係なく同じように走る**ので、取り込み経路が変わっても出力の規律は変わらない。
+
+```bash
+# 1. プロンプトを出す（分析時点を固定する。根拠の集合がずれると id が合わなくなる）
+AS_OF=$(python3 -c "import sys;sys.path.insert(0,'src');from future100 import timeutil;print(timeutil.now_str())")
+python3 scripts/analyze_sector.py --sector sec_ai_compute --as-of "$AS_OF" --show-prompt
+
+# 2. 応答を JSON で保存する
+#    {"consensus": {…}, "independent": {…ANALYSIS_SCHEMA 全体…}}
+# 3. 検証して保存（API を呼ばない）
+python3 scripts/analyze_sector.py --sector sec_ai_compute --as-of "$AS_OF" --replay out.json
+
+# 連鎖分析も同じ。{"wave": {…}, "supply_chain": {…}}
+python3 scripts/analyze_chain.py --sector sec_ai_compute --as-of "$AS_OF" --replay chain.json
+```
+
 正規化規則（`config/signal_rules.json` / `config/known_sectors.json`）を変えたときは、
 raw を保ったまま作り直す:
 
