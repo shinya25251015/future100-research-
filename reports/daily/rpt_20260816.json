@@ -1,7 +1,7 @@
 {
   "report_id": "rpt_20260816",
   "report_date": "2026-08-16",
-  "as_of": "2026-08-16T15:12:54Z",
+  "as_of": "2026-08-16T21:47:11Z",
   "coverage": {
     "events_ingested": 1,
     "events_after_dedup": 1,
@@ -109,7 +109,7 @@
   "prohibited_output_check": {
     "contains_ticker_recommendation": false,
     "contains_ranking": false,
-    "checked_at": "2026-08-16T15:12:54Z"
+    "checked_at": "2026-08-16T21:47:23Z"
   },
   "schema_version": "1.0"
 }
