@@ -1,0 +1,46 @@
+{
+  "window_id": "sig_cpo_20260818",
+  "as_of": "2026-08-18T21:49:29Z",
+  "window": {
+    "start": "2026-08-12",
+    "end": "2026-08-18",
+    "baseline_start": "2026-07-15",
+    "baseline_end": "2026-08-11"
+  },
+  "topic": {
+    "label": "CPO (Co-Packaged Optics)",
+    "keywords": [
+      "co-packaged optics",
+      "co packaged optics",
+      "cpo"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_cpo"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}
