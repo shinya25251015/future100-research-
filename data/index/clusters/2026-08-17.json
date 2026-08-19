@@ -357,7 +357,9 @@
     "https://science.nasa.gov/learning-resources/science-activation/next-generation-of-planetary-scientists-learn-public-engagement-skills": "clu_e7dbaa0914",
     "https://nasa.gov/missions/maia/nasa-mission-studies-air-pollution-over-ethiopia": "clu_5cd48bd689",
     "https://nasa.gov/centers-and-facilities/johnson/nasa-challenge-tests-wheel-designs-for-moon-base-mobility": "clu_d2c9498dda",
-    "https://science.nasa.gov/blog/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary": "clu_f1b3fd1fc9"
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary": "clu_f1b3fd1fc9",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_24_6565": "clu_f2cfb6b7bd",
+    "https://war.gov/News/Contracts/Contract/Article/4575681/contracts-for-aug-17-2026": "clu_26aa88a60b"
   },
   "by_hash": {
     "0a413689dc99815134ad3f69e63a224af2891ea2b3b2147449b05ff5ef8bc6c0": "clu_8966bf2525",
@@ -717,7 +719,9 @@
     "f494e66739af5a3d4d1a137a06254b35d324fa5fc6397aceffe094d64af7bd93": "clu_e7dbaa0914",
     "1d96733165aad14de4a6e1e44a592cde370cfb1677c1a4c2534e56da779d11ec": "clu_5cd48bd689",
     "e505f69c4026da9a235259b1da509b8b56b53eea9c2f5abba3b3d3769deba375": "clu_d2c9498dda",
-    "cdfb03f351a91997fedeee4471b319f44a73ab5a30e6b0608637f5fe5e01e411": "clu_f1b3fd1fc9"
+    "cdfb03f351a91997fedeee4471b319f44a73ab5a30e6b0608637f5fe5e01e411": "clu_f1b3fd1fc9",
+    "a40eefd93859df721c83f31f6807f0791c1e16927520b36241e7e41b1fe49c12": "clu_f2cfb6b7bd",
+    "852abee0c5f07ec9e1665d0b015418112f769a65f4d3d88b4918ef8395b7e497": "clu_26aa88a60b"
   },
   "by_key": {
     "office of the federal register::extension of a currently approved information collection: authorization agreement for preauthorized payment (sf 5510)::2026-08-17": "clu_8966bf2525",
@@ -1077,7 +1081,9 @@
     "nasa::next generation of planetary scientists learn public engagement skills::2026-08-17": "clu_e7dbaa0914",
     "nasa::nasa mission studies air pollution over ethiopia::2026-08-17": "clu_5cd48bd689",
     "nasa::nasa challenge tests wheel designs for moon base mobility::2026-08-17": "clu_d2c9498dda",
-    "nasa::curiosity blog, sols 4975-4981: happy 14th landing anniversary::2026-08-17": "clu_f1b3fd1fc9"
+    "nasa::curiosity blog, sols 4975-4981: happy 14th landing anniversary::2026-08-17": "clu_f1b3fd1fc9",
+    "european commission::solidarity with ukraine::2026-08-17": "clu_f2cfb6b7bd",
+    "u.s. department of war (旧 department of defense)::contracts for aug. 17, 2026::2026-08-17": "clu_26aa88a60b"
   },
   "clusters": {
     "clu_8966bf2525": {
@@ -4300,6 +4306,24 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_f2cfb6b7bd": {
+      "primary_event_id": "evt_20260819_a40eefd938",
+      "event_ids": [
+        "evt_20260819_a40eefd938"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_26aa88a60b": {
+      "primary_event_id": "evt_20260819_852abee0c5",
+      "event_ids": [
+        "evt_20260819_852abee0c5"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
       ]
     }
   }

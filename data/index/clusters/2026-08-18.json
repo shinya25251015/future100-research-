@@ -770,7 +770,8 @@
     "https://science.nasa.gov/earth/earth-observatory/lala-batters-hawaii": "clu_ae36cf6894",
     "https://nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure": "clu_48616a22ae",
     "https://science.nasa.gov/solar-system/moon/nasas-lro-images-falcon-9-crater-on-moon-learns-new-details": "clu_198519c596",
-    "https://nasa.gov/image-article/nasas-b777-gets-new-coat-of-paint": "clu_5bc78b6f0e"
+    "https://nasa.gov/image-article/nasas-b777-gets-new-coat-of-paint": "clu_5bc78b6f0e",
+    "https://war.gov/News/Contracts/Contract/Article/4576619/contracts-for-aug-18-2026": "clu_e61a91bcab"
   },
   "by_hash": {
     "69831edf12644567fc815ce02a2865afd36e207870de9244b8dc53826ae74f94": "clu_166b1fed5d",
@@ -1541,7 +1542,8 @@
     "4e0e74729bcce8dc8d4cca27699ba900bd752ea4112b5626dc6be0d6c120c0b8": "clu_ae36cf6894",
     "588a7ae0aa6e3917d52f143e81abf491ab32b11a77c0e6b2be9fa5365b276be0": "clu_48616a22ae",
     "877b6f82e844eb3b1abdd3d7e32c1a4f7c05d7db45f4fb3e18ee433042d5242d": "clu_198519c596",
-    "c0af21818b3bcd37305e5e32ba009a9d5cacc7d889622761bf5a985797f8c3fe": "clu_5bc78b6f0e"
+    "c0af21818b3bcd37305e5e32ba009a9d5cacc7d889622761bf5a985797f8c3fe": "clu_5bc78b6f0e",
+    "28b3fd6bd793fbbc344ae109b7042d5007064448ab9f19d7fdfbc57e123cfaa5": "clu_e61a91bcab"
   },
   "by_key": {
     "office of the federal register::determining whether to submit an anda or a 505(b)(2) application; draft guidance for industry; availability::2026-08-18": "clu_166b1fed5d",
@@ -2312,7 +2314,8 @@
     "nasa::lala batters hawaii::2026-08-18": "clu_ae36cf6894",
     "nasa::nasa student aviation challenge focuses on nation’s infrastructure::2026-08-18": "clu_48616a22ae",
     "nasa::nasa’s lro images falcon 9 crater on moon, learns new details::2026-08-18": "clu_198519c596",
-    "nasa::nasa’s b777 gets new coat of paint::2026-08-18": "clu_5bc78b6f0e"
+    "nasa::nasa’s b777 gets new coat of paint::2026-08-18": "clu_5bc78b6f0e",
+    "u.s. department of war (旧 department of defense)::contracts for aug. 18, 2026::2026-08-18": "clu_e61a91bcab"
   },
   "clusters": {
     "clu_166b1fed5d": {
@@ -9227,6 +9230,15 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_e61a91bcab": {
+      "primary_event_id": "evt_20260819_28b3fd6bd7",
+      "event_ids": [
+        "evt_20260819_28b3fd6bd7"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
       ]
     }
   }
