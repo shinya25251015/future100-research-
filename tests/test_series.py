@@ -293,7 +293,13 @@ def test_registered_statistics_sources_are_renderable():
                 template = spec.get(key)
                 if not template:
                     continue
+                # テンプレートに入るのは 系列定義 ∪ データ点の区分 ∪ {period, keys}
                 fields = dict(entry)
+                for name in (spec.get("key_fields") or {}):
+                    fields.setdefault(name, "K")
+                for name in (entry.get("fields") or {}):
+                    fields.setdefault(name, "K")
+                fields.setdefault("tenor", "K")
                 fields.setdefault("period", "2026-01")
                 fields.setdefault("keys", "K")
                 # 環境変数を要求するソースは、鍵が無いことだけを理由に失敗するのが正しい
@@ -303,6 +309,56 @@ def test_registered_statistics_sources_are_renderable():
                     assert "環境変数" in exc.reason, f"{source['source_id']}.{key}: {exc.reason}"
                     assert source.get("requires_credentials"), \
                         f"{source['source_id']}: 環境変数を要求するなら requires_credentials を立てる"
+
+
+def test_odata_xml_splits_one_row_into_named_series():
+    """1 つの entry が全期間の値を持つ形式（米財務省の利回り曲線）。
+
+    期間ごとに要求を分けると同じ数百 KB を期間の数だけ取り直すことになるので、
+    1 回の取得から名前つきで複数系列を切り出せること。
+    """
+    source = {
+        "source_id": "src_test_odata", "name": "テスト", "tier": "tier1", "reliability": "A",
+        "kind": "json_series",
+        "series_request": {
+            "format": "odata_xml",
+            "endpoint_template": "https://example.org/xml?year={end_year}",
+            "point_url_template": "https://example.org/rates?tenor={keys}&period={period}",
+            "period": "NEW_DATE",
+        },
+        "series": [{"label": "米国債利回り", "unit": "%",
+                    "fields": {"10年": "BC_10YEAR", "30年": "BC_30YEAR"}}],
+    }
+    xml = """<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+  <entry><content><m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+    <d:NEW_DATE>2026-08-19T00:00:00</d:NEW_DATE>
+    <d:BC_10YEAR>4.65</d:BC_10YEAR>
+    <d:BC_30YEAR>5.19</d:BC_30YEAR>
+  </m:properties></content></entry>
+</feed>"""
+
+    original = base.http_get
+    base.http_get = lambda url, **kwargs: xml.encode("utf-8")
+    try:
+        documents = list(json_series.collect_series(source))
+    finally:
+        base.http_get = original
+
+    assert len(documents) == 2, "1 行から 2 系列を切り出す"
+    values = {d["content"]["quantities"][0]["label"]: d["content"]["quantities"][0] for d in documents}
+    assert values["米国債利回り 10年"]["value"] == 4.65
+    assert values["米国債利回り 30年"]["value"] == 5.19
+    assert values["米国債利回り 30年"]["period"] == "2026-08-19", "日時は日付まで丸める"
+    assert len({d["fetch"]["canonical_url"] for d in documents}) == 2, "系列ごとに別の観測になる"
+
+
+def test_datetime_periods_are_truncated_to_the_day():
+    """入札日 2026-08-19T00:00:00 の 00:00 は「その日」以上の情報を持たない。
+    残すと同じ日が別の期間として並ぶ。"""
+    assert json_series._period({"d": "2026-08-19T00:00:00"}, "d") == "2026-08-19"
+    assert json_series._period({"y": "2026", "p": "M07"}, ["y", "p"]) == "2026-M07", "月次の表記は壊さない"
 
 
 def test_poll_interval_never_skips_a_daily_source():

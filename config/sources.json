@@ -807,6 +807,191 @@
       "requires_credentials": true,
       "enabled": false,
       "notes": "欧州の系統運用者（TSO）による負荷・発電・系統容量の一次データ。XML のみで JSON 提供が無く、無償のセキュリティトークン申請が要る。§13 のボトルネック検証に最も近い一次情報だが、XML コレクタと申請が済むまで無効。"
+    },
+    {
+      "source_id": "src_us_treasury_yield_curve",
+      "name": "米財務省 利回り曲線（日次）",
+      "publisher": "U.S. Department of the Treasury",
+      "country": "US",
+      "language": "en",
+      "tier": "tier1",
+      "reliability": "A",
+      "kind": "json_series",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/",
+      "categories": [
+        "macro"
+      ],
+      "poll_interval_minutes": 1440,
+      "enabled": true,
+      "series_request": {
+        "format": "odata_xml",
+        "endpoint_template": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value={end_year}",
+        "point_url_template": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/?data=daily_treasury_yield_curve&tenor={keys}&period={period}",
+        "period": "NEW_DATE"
+      },
+      "series": [
+        {
+          "label": "米国債利回り",
+          "unit": "%",
+          "sectors": [
+            "sec_ai_compute"
+          ],
+          "fields": {
+            "3か月": "BC_3MONTH",
+            "2年": "BC_2YEAR",
+            "5年": "BC_5YEAR",
+            "10年": "BC_10YEAR",
+            "20年": "BC_20YEAR",
+            "30年": "BC_30YEAR"
+          }
+        }
+      ],
+      "notes": "§6 マクロ経済の基準系列。長短スプレッド（10年-30年）はターム・プレミアムの動きを直接映す。1 回の取得で全期間ぶんを取り、期間ごとに要求を分けない。sectors は資本コストの経路で全セクターに効くが、紐付けを広げると根拠が薄まるため計算基盤のみに絞ってある。"
+    },
+    {
+      "source_id": "src_us_treasury_auctions",
+      "name": "米国債入札結果",
+      "publisher": "U.S. Department of the Treasury (TreasuryDirect)",
+      "country": "US",
+      "language": "en",
+      "tier": "tier1",
+      "reliability": "A",
+      "kind": "json_series",
+      "url": "https://www.treasurydirect.gov/auctions/announcements-data-results/",
+      "categories": [
+        "macro"
+      ],
+      "poll_interval_minutes": 1440,
+      "enabled": true,
+      "series_request": {
+        "format": "records",
+        "endpoint_template": "https://www.treasurydirect.gov/TA_WS/securities/auctioned?format=json&days=30",
+        "point_url_template": "https://www.treasurydirect.gov/auctions/announcements-data-results/?cusip={cusip}&metric={metric}&period={period}",
+        "period": "auctionDate",
+        "key_fields": {
+          "cusip": "cusip",
+          "term": "securityTerm",
+          "kind": "securityType"
+        },
+        "label_fields": [
+          "term",
+          "kind"
+        ]
+      },
+      "series": [
+        {
+          "value": "bidToCoverRatio",
+          "label": "米国債入札 応札倍率",
+          "unit": "倍",
+          "metric": "bid_to_cover"
+        },
+        {
+          "value": "highYield",
+          "label": "米国債入札 最高利回り",
+          "unit": "%",
+          "metric": "high_yield"
+        }
+      ],
+      "notes": "§13 需給分析の一次データ。応札倍率と最高利回りは「誰かが実際にその値段で買ったか」を示す。買い戻しや発行構成の変更が需給を変えたかは、ここに現れなければ変わっていない。1 応答から 2 指標を取るため series を 2 本に分けている。"
+    },
+    {
+      "source_id": "src_us_treasury_debt",
+      "name": "米国債務残高（日次）",
+      "publisher": "U.S. Department of the Treasury (Fiscal Service)",
+      "country": "US",
+      "language": "en",
+      "tier": "tier1",
+      "reliability": "A",
+      "kind": "json_series",
+      "url": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/",
+      "categories": [
+        "macro"
+      ],
+      "poll_interval_minutes": 1440,
+      "enabled": true,
+      "series_request": {
+        "format": "records",
+        "endpoint_template": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_to_penny?fields=record_date,{field}&filter=record_date:gte:{start_date}&sort=-record_date&page[size]=400",
+        "point_url_template": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/?series={field}&period={period}",
+        "points_path": "data",
+        "period": "record_date"
+      },
+      "series": [
+        {
+          "field": "tot_pub_debt_out_amt",
+          "value": "tot_pub_debt_out_amt",
+          "label": "米国 公的債務残高",
+          "unit": "USD"
+        },
+        {
+          "field": "debt_held_public_amt",
+          "value": "debt_held_public_amt",
+          "label": "米国 民間保有債務残高",
+          "unit": "USD"
+        }
+      ],
+      "lookback_days": 400,
+      "notes": "§6 マクロ経済。買い戻しは残高を減らす操作ではなく年限を入れ替える操作なので、総額よりも民間保有分の推移が意味を持つ。"
+    },
+    {
+      "source_id": "src_us_treasury_avg_rate",
+      "name": "米国債務の平均利率（月次・証券種別）",
+      "publisher": "U.S. Department of the Treasury (Fiscal Service)",
+      "country": "US",
+      "language": "en",
+      "tier": "tier1",
+      "reliability": "A",
+      "kind": "json_series",
+      "url": "https://fiscaldata.treasury.gov/datasets/average-interest-rates-treasury-securities/",
+      "categories": [
+        "macro"
+      ],
+      "poll_interval_minutes": 10080,
+      "enabled": true,
+      "series_request": {
+        "format": "records",
+        "endpoint_template": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/avg_interest_rates?filter=record_date:gte:{start_date},security_desc:eq:{security}&sort=-record_date&page[size]=60",
+        "point_url_template": "https://fiscaldata.treasury.gov/datasets/average-interest-rates-treasury-securities/?security={security}&period={period}",
+        "points_path": "data",
+        "period": "record_date",
+        "value": "avg_interest_rate_amt"
+      },
+      "series": [
+        {
+          "security": "Treasury%20Bills",
+          "label": "米国債 平均利率 短期証券",
+          "unit": "%"
+        },
+        {
+          "security": "Treasury%20Notes",
+          "label": "米国債 平均利率 中期証券",
+          "unit": "%"
+        },
+        {
+          "security": "Treasury%20Bonds",
+          "label": "米国債 平均利率 長期証券",
+          "unit": "%"
+        }
+      ],
+      "lookback_days": 1100,
+      "notes": "平均年限を短くする操作は、財政コストを短期金利に連動させる方向に働く。その転写が実際に起きているかは、証券種別ごとの平均利率の推移でしか確かめられない。 証券種別名に空白が入るため URL エンコード済みの値を置いている。"
+    },
+    {
+      "source_id": "src_us_treasury_press",
+      "name": "米財務省 プレスリリース",
+      "publisher": "U.S. Department of the Treasury",
+      "country": "US",
+      "language": "en",
+      "tier": "tier1",
+      "reliability": "A",
+      "kind": "html",
+      "url": "https://home.treasury.gov/news/press-releases",
+      "categories": [
+        "macro",
+        "policy_regulation"
+      ],
+      "enabled": false,
+      "notes": "買い戻し規模の変更や四半期リファンディング声明はここに出る。RSS/JSON を提供しておらず（rss/press.xml・jsonapi ともに 404 を実測）、HTML コレクタが要るため無効。Federal Register には財務省の告示が載るが、プレスリリースは載らない。"
     }
   ]
 }

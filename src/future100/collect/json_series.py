@@ -15,7 +15,7 @@
 ソース定義:
 
   "series_request": {
-    "format": "records" | "jsonstat",
+    "format": "records" | "jsonstat" | "odata_xml",
     "endpoint_template": "https://.../{code}?date={start_year}:{end_year}",
     "point_url_template": "https://.../{code}#{geo}/{period}",  観測の同一性を決める安定 URL
     "points_path": "1",              records: データ点配列へのパス（数字は配列添字）
@@ -32,6 +32,8 @@
 from __future__ import annotations
 
 import json
+import re
+import xml.etree.ElementTree as ET
 from collections.abc import Iterator
 from dataclasses import dataclass, field
 from datetime import timedelta
@@ -41,6 +43,7 @@ from .. import timeutil
 from . import base
 
 COLLECTOR = "json_series@1"
+_DATETIME_PREFIX = re.compile(r"^\d{4}-\d{2}-\d{2}T")
 
 
 @dataclass
@@ -73,7 +76,7 @@ def collect_series(source: dict) -> Iterator[dict]:
         try:
             url = _render(spec["endpoint_template"], entry, source)
             payload = base.http_get(url, timeout=source.get("timeout", base.DEFAULT_TIMEOUT), user_agent=user_agent)
-            document = json.loads(payload)
+            document = ET.fromstring(payload) if spec["format"] == "odata_xml" else json.loads(payload)
             _assert_status(document, spec)
             published_at = _updated_at(document, spec.get("updated_path"))
             for point in parse(document, spec, entry):
@@ -81,7 +84,7 @@ def collect_series(source: dict) -> Iterator[dict]:
                 yield _make_document(source, spec, entry, point, url, published_at, observed_at)
         except base.FetchError as exc:
             errors.append(exc.reason)
-        except (json.JSONDecodeError, KeyError, TypeError, ValueError) as exc:
+        except (json.JSONDecodeError, ET.ParseError, KeyError, TypeError, ValueError) as exc:
             errors.append(f"{entry.get('code', entry.get('dataset', '?'))}: {type(exc).__name__}: {exc}")
 
     if not produced and errors:
@@ -146,13 +149,20 @@ def _records(document: Any, spec: dict, entry: dict) -> Iterator[Point]:
         if not isinstance(points, list):
             continue
         for item in points:
-            value = _number(_dig(item, spec.get("value", "value")))
+            # value / label は系列定義で上書きできる。同じ応答から別の指標を取り出す
+            # ため（入札結果の応札倍率と最高利回りなど）に要る。
+            value = _number(_dig(item, entry.get("value") or spec.get("value", "value")))
             period = _period(item, spec.get("period", "date"))
             if value is None or not period:
                 continue  # 欠測は数値として保存しない（0 と区別できなくなる）
             keys = {name: _text(_dig(item, path)) for name, path in (spec.get("key_fields") or {}).items()}
             label = _text(_dig(item, spec.get("label"))) or entry.get("label", "")
-            detail = ", ".join(v for v in keys.values() if v)
+            # 系列名に入れる区分は label_fields で絞れる。識別のためだけに要る区分
+            # （入札の CUSIP など）を名前に入れると、1 点しかない系列が銘柄の数だけ並ぶ。
+            named = spec.get("label_fields")
+            detail = ", ".join(
+                value for name, value in keys.items() if value and (named is None or name in named)
+            )
             yield Point(
                 period=period,
                 value=value,
@@ -220,9 +230,45 @@ def _jsonstat(document: Any, spec: dict, entry: dict) -> Iterator[Point]:
         )
 
 
+_ATOM = "{http://www.w3.org/2005/Atom}"
+_ODATA = "{http://schemas.microsoft.com/ado/2007/08/dataservices}"
+
+
+def _odata_xml(document: Any, spec: dict, entry: dict) -> Iterator[Point]:
+    """OData の Atom XML（米財務省の利回り曲線など）。
+
+    1 つの entry が 1 日ぶんの全期間の値を持つ形なので、系列定義の fields で
+    「どの列を取り出すか」を名前つきで指定する。1 回の取得で複数系列を作れる
+    （期間ごとに要求を分けると、同じ数百 KB を期間の数だけ取り直すことになる）。
+    """
+    fields = entry.get("fields") or {}
+    period_field = spec.get("period", "NEW_DATE")
+    for element in document.iter(f"{_ATOM}entry"):
+        period = _text(_child_text(element, period_field))[:10]
+        if not period:
+            continue
+        for name, column in fields.items():
+            value = _number(_child_text(element, column))
+            if value is None:
+                continue
+            yield Point(
+                period=period,
+                value=value,
+                label=f"{entry.get('label', '')} {name}".strip(),
+                unit=entry.get("unit", ""),
+                keys={"tenor": name},
+            )
+
+
+def _child_text(element: Any, name: str) -> str:
+    node = element.find(f".//{_ODATA}{name}")
+    return node.text or "" if node is not None else ""
+
+
 _PARSERS: dict[str, Callable[[Any, dict, dict], Iterator[Point]]] = {
     "records": _records,
     "jsonstat": _jsonstat,
+    "odata_xml": _odata_xml,
 }
 
 
@@ -283,8 +329,14 @@ def _dig(payload: Any, path: str | None) -> Any:
 
 
 def _period(item: dict, paths: str | list[str]) -> str:
+    """対象期間。日時で返す API は日付までに丸める。
+
+    統計の対象期間に時刻の意味は無く（入札日 2026-08-19T00:00:00 の 00:00 は
+    「その日」以上の情報を持たない）、残すと同じ日が別の期間として並ぶ。
+    """
     parts = [_text(_dig(item, path)) for path in ([paths] if isinstance(paths, str) else paths)]
-    return "-".join(p for p in parts if p)
+    period = "-".join(p for p in parts if p)
+    return period[:10] if _DATETIME_PREFIX.match(period) else period
 
 
 def _number(value: Any) -> float | None:

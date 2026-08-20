@@ -432,7 +432,8 @@
     "https://usaspending.gov/award/CONT_AWD_47QSCC26F631K_4732_47QSCC26A0001_4732": "clu_0ad8bdf2f0",
     "https://usaspending.gov/award/CONT_AWD_1605C426P00029_1605_-NONE-_-NONE-": "clu_815e05a67a",
     "https://usaspending.gov/award/CONT_AWD_47QSCC26F626D_4732_47QSCC26D0005_4732": "clu_cb23cb5520",
-    "https://usaspending.gov/award/CONT_AWD_16PBGC26F0019_1665_GS23F0037T_4730": "clu_fb205b8a32"
+    "https://usaspending.gov/award/CONT_AWD_16PBGC26F0019_1665_GS23F0037T_4730": "clu_fb205b8a32",
+    "https://news.samsung.com/global/samsung-opens-business-experience-studio-in-hanoi-supporting-enterprise-digital-transformation": "clu_cd46c204d1"
   },
   "by_hash": {
     "4ca527d298d7cdc85765029ed4acfc00ef692fc43e7ded1390f04cb76f3d99c9": "clu_5b71ae2cfb",
@@ -867,7 +868,8 @@
     "3677af6487348de9c19208401bf9b6ecdcbff6fb2335072081fc31a88039451d": "clu_0ad8bdf2f0",
     "960ae69b68a7441b88789b47fe4aff76829beffe32ec2dd3554961fe8a31e63c": "clu_815e05a67a",
     "b316119c172fa887cc791d8b5da0ba1d508ba4c65f7ad67ed8e53fea4ef0fc86": "clu_cb23cb5520",
-    "7c9a0014902b2e778ea2add4a06119630a2cea7f3ca5eba71f2cc9d80931363a": "clu_fb205b8a32"
+    "7c9a0014902b2e778ea2add4a06119630a2cea7f3ca5eba71f2cc9d80931363a": "clu_fb205b8a32",
+    "015d8d74f45b198d171fd28bb6bf25dc880b8da489f21364069e5ed4a62a1412": "clu_cd46c204d1"
   },
   "by_key": {
     "日本銀行::マネーストック(7月)::2026-08-11": "clu_5b71ae2cfb",
@@ -1295,7 +1297,8 @@
     "u.s. department of the treasury::end cap,10 duct size::2026-08-11": "clu_0ad8bdf2f0",
     "u.s. department of the treasury::services to demolish and dispose of and install new concrete in various areas of msha's approval and certification center's campus.::2026-08-11": "clu_815e05a67a",
     "u.s. department of the treasury::pad, writing paper: - see attached document for detail.::2026-08-11": "clu_cb23cb5520",
-    "u.s. department of the treasury::identity monitoring services::2026-08-11": "clu_fb205b8a32"
+    "u.s. department of the treasury::identity monitoring services::2026-08-11": "clu_fb205b8a32",
+    "samsung electronics::samsung opens business experience studio in hanoi, supporting enterprise digital transformation::2026-08-11": "clu_cd46c204d1"
   },
   "clusters": {
     "clu_5b71ae2cfb": {
@@ -5193,6 +5196,15 @@
       ],
       "source_ids": [
         "src_usaspending_awards"
+      ]
+    },
+    "clu_cd46c204d1": {
+      "primary_event_id": "evt_20260820_015d8d74f4",
+      "event_ids": [
+        "evt_20260820_015d8d74f4"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

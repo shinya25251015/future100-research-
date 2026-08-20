@@ -181,7 +181,8 @@
     "https://science.nasa.gov/earth/earth-observatory/a-sunflowers-view-of-totality": "clu_e911c5bac8",
     "https://nasa.gov/news-release/nasa-announces-max-power-americas-newest-aerospace-expo-airshow": "clu_a799225462",
     "https://nasa.gov/image-article/total-solar-eclipse-in-sunflower-field": "clu_0b2509378d",
-    "https://war.gov/News/Contracts/Contract/Article/4574365/contracts-for-aug-14-2026": "clu_b6953728aa"
+    "https://war.gov/News/Contracts/Contract/Article/4574365/contracts-for-aug-14-2026": "clu_b6953728aa",
+    "https://spectrum.ieee.org/digital-signal-processing-pioneer-bede-liu": "clu_f51263a617"
   },
   "by_hash": {
     "8573873297d6084c62f19da89454e3423fa6fe2874466549898348c63a655f03": "clu_e1a77172aa",
@@ -2151,6 +2152,15 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_f51263a617": {
+      "primary_event_id": "evt_20260820_2cb1a6c1b4",
+      "event_ids": [
+        "evt_20260820_2cb1a6c1b4"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
       ]
     }
   }

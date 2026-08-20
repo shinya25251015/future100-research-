@@ -1,0 +1,65 @@
+{
+  "window_id": "sig_next_gen_battery_20260820",
+  "as_of": "2026-08-20T04:33:23Z",
+  "window": {
+    "start": "2026-08-14",
+    "end": "2026-08-20",
+    "baseline_start": "2026-07-17",
+    "baseline_end": "2026-08-13"
+  },
+  "topic": {
+    "label": "次世代電池",
+    "keywords": [
+      "solid-state battery",
+      "sodium-ion battery",
+      "lithium-ion battery",
+      "battery plant",
+      "battery cell",
+      "全固体電池",
+      "蓄電池",
+      "二次電池"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_next_gen_battery"
+  },
+  "counts": [
+    {
+      "signal_type": "export_control",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    },
+    {
+      "signal_type": "paper",
+      "count": 0,
+      "baseline_count": 1.0,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    },
+    {
+      "signal_type": "patent",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}

@@ -195,9 +195,10 @@
           "type": "string",
           "enum": [
             "records",
-            "jsonstat"
+            "jsonstat",
+            "odata_xml"
           ],
-          "description": "records=データ点が辞書の配列、jsonstat=JSON-stat（Eurostat）"
+          "description": "records=データ点が辞書の配列、jsonstat=JSON-stat（Eurostat）、odata_xml=OData の Atom XML（米財務省の利回り曲線）"
         },
         "endpoint_template": {
           "type": "string",
@@ -268,6 +269,13 @@
           "type": "string",
           "default": "message",
           "description": "失敗理由のメッセージへのパス"
+        },
+        "label_fields": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "key_fields のうち系列名に含めるもの。省略時は全部。識別のためだけに要る区分（入札の CUSIP など）を名前に入れると、1 点しかない系列がその数だけ並ぶ。"
         }
       }
     },
@@ -303,6 +311,17 @@
               "type": "string",
               "pattern": "^sec_[a-z0-9_]+$"
             }
+          },
+          "value": {
+            "type": "string",
+            "description": "この系列で取り出す値のフィールド。series_request.value を上書きする。同じ応答から別の指標を取り出すときに使う（入札結果の応札倍率と最高利回りなど）。"
+          },
+          "fields": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "odata_xml 用。名前 → 列名。1 つの entry が全期間の値を持つ形式で、どの列を取り出すかを名前つきで指定する。1 回の取得で複数系列を作れる。"
           }
         }
       }

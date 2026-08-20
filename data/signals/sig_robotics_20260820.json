@@ -1,0 +1,69 @@
+{
+  "window_id": "sig_robotics_20260820",
+  "as_of": "2026-08-20T04:33:23Z",
+  "window": {
+    "start": "2026-08-14",
+    "end": "2026-08-20",
+    "baseline_start": "2026-07-17",
+    "baseline_end": "2026-08-13"
+  },
+  "topic": {
+    "label": "ロボティクス",
+    "keywords": [
+      "robot",
+      "robotic",
+      "humanoid",
+      "factory automation",
+      "ロボット",
+      "産業用ロボット"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_robotics"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 12,
+      "baseline_count": 47.5,
+      "event_ids": [
+        "evt_20260815_cfeb062b53",
+        "evt_20260815_df3177841c",
+        "evt_20260815_2a952ce3db",
+        "evt_20260815_aef0619dbc",
+        "evt_20260815_07498b532f",
+        "evt_20260815_97d95c89d1",
+        "evt_20260815_f14e8b3749",
+        "evt_20260820_a00d97a332",
+        "evt_20260820_283cb7188a",
+        "evt_20260820_f19a342e04",
+        "evt_20260820_164f8ea310",
+        "evt_20260820_ad67fbdddf"
+      ],
+      "delta_ratio": -0.747
+    },
+    {
+      "signal_type": "procurement",
+      "count": 0,
+      "baseline_count": 0.5,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}
