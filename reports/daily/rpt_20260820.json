@@ -1,10 +1,10 @@
 {
   "report_id": "rpt_20260820",
   "report_date": "2026-08-20",
-  "as_of": "2026-08-20T04:41:46Z",
+  "as_of": "2026-08-20T21:55:01Z",
   "coverage": {
-    "events_ingested": 2060,
-    "events_after_dedup": 1933,
+    "events_ingested": 2119,
+    "events_after_dedup": 1992,
     "sources_polled": 24,
     "sources_failed": []
   },
@@ -13,13 +13,13 @@
       "no": 1,
       "key": "executive_summary",
       "title": "本日の構造変化サマリ",
-      "body": "本日の観測は 1933 件。内訳（分類別）: macro 1620 / technology 311 / corporate_action 2。シグナル種別: paper 311 / export_control 1。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 7 件）。件数は観測量であって重要度ではない。"
+      "body": "本日の観測は 1992 件。内訳（分類別）: macro 1623 / technology 311 / policy_regulation 53 / corporate_action 5。シグナル種別: paper 311 / procurement 3 / export_control 1。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 7 件）。件数は観測量であって重要度ではない。"
     },
     {
       "no": 2,
       "key": "policy_regulation",
       "title": "政策・規制 (§4)",
-      "body": "本日該当なし（本日の新規観測なし）"
+      "body": "本日 53 件を観測。\n- [A] 2026-08-20 Contracts for Aug. 20, 2026 (evt_20260820_9c88874f2b)\n- [A] 2026-08-20 The National Space Transportation Policy (evt_20260820_6e88106bee)\n- [A] 2026-08-20 Daily News 20 / 08 / 2026 (evt_20260820_d4337aa0a8)\n- [A] 2026-08-20 Information Collection Being Submitted to the Office of Management and Budget for Emergency Review and Approval (evt_20260820_ee7e251f7b)\n- [A] 2026-08-20 Draft Regulatory Guide: Comprehensive Risk Metrics and Associated Risk Performance Objectives for Commercial Nuclear Plants (evt_20260820_421ad2d674)\n- [A] 2026-08-20 Filing Plats of Survey; New Mexico, Oklahoma (evt_20260820_fdfc449a57)\n- [A] 2026-08-20 Codex Alimentarius Commission: Meeting of the Codex Committee on Food Import and Export Inspection and Certification Systems (evt_20260820_8ebd6f4731)\n- [A] 2026-08-20 First Responder Network Authority Combined Board and Board Committees Meeting (evt_20260820_8d689aaeee)"
     },
     {
       "no": 3,
@@ -31,7 +31,7 @@
       "no": 4,
       "key": "macro_economy",
       "title": "マクロ経済 (§6)",
-      "body": "本日 1620 件を観測（うち一次統計のデータ点 1618 件）。\n- 統計 米国 公的債務残高 = 40,047,425,768,420.22 USD（2026-08-18, 本日 275 期ぶんを観測）\n- 統計 米国 民間保有債務残高 = 32,265,798,542,898.08 USD（2026-08-18, 本日 275 期ぶんを観測）\n- 統計 米国債 平均利率 中期証券 = 3.309 %（2026-07-31, 本日 36 期ぶんを観測）\n- 統計 米国債 平均利率 短期証券 = 3.758 %（2026-07-31, 本日 36 期ぶんを観測）\n- 統計 米国債 平均利率 長期証券 = 3.442 %（2026-07-31, 本日 36 期ぶんを観測）\n- 統計 米国債入札 応札倍率（17-Week, Bill） = 3.19 倍（2026-08-05, 本日 2 期ぶんを観測）\n- 統計 米国債入札 応札倍率（26-Week, Bill） = 2.97 倍（2026-08-17, 本日 1 期ぶんを観測）\n- 統計 米国債入札 応札倍率（30-Year, Bond） = 2.39 倍（2026-08-13, 本日 1 期ぶんを観測）\n- [A] 2026-08-20 基準外国為替相場及び裁定外国為替相場（9月分） (evt_20260820_b1781ffacc)\n- [A] 2026-08-20 報告省令レート（9月分） (evt_20260820_3209ee1d5b)"
+      "body": "本日 1623 件を観測（うち一次統計のデータ点 1618 件）。\n- 統計 米国 公的債務残高 = 40,047,425,768,420.22 USD（2026-08-18, 本日 275 期ぶんを観測）\n- 統計 米国 民間保有債務残高 = 32,265,798,542,898.08 USD（2026-08-18, 本日 275 期ぶんを観測）\n- 統計 米国債 平均利率 中期証券 = 3.309 %（2026-07-31, 本日 36 期ぶんを観測）\n- 統計 米国債 平均利率 短期証券 = 3.758 %（2026-07-31, 本日 36 期ぶんを観測）\n- 統計 米国債 平均利率 長期証券 = 3.442 %（2026-07-31, 本日 36 期ぶんを観測）\n- 統計 米国債入札 応札倍率（17-Week, Bill） = 3.19 倍（2026-08-05, 本日 2 期ぶんを観測）\n- 統計 米国債入札 応札倍率（26-Week, Bill） = 2.97 倍（2026-08-17, 本日 1 期ぶんを観測）\n- 統計 米国債入札 応札倍率（30-Year, Bond） = 2.39 倍（2026-08-13, 本日 1 期ぶんを観測）\n- [A] 2026-08-20 Federal Reserve Board announces approval of application by National Westminster Bank Plc (evt_20260820_bf9f0980c8)\n- [A] 2026-08-20 Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch (evt_20260820_c68682a3b0)\n- [A] 2026-08-20 Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank (evt_20260820_489a59dadf)\n- [A] 2026-08-20 基準外国為替相場及び裁定外国為替相場（9月分） (evt_20260820_b1781ffacc)\n- [A] 2026-08-20 報告省令レート（9月分） (evt_20260820_3209ee1d5b)"
     },
     {
       "no": 5,
@@ -55,7 +55,7 @@
       "no": 8,
       "key": "known_sector_monitor",
       "title": "既知セクター監視 (§11)",
-      "body": "常時監視 16 セクターの本日の観測件数。掲載順は設定ファイルの登録順であり、優劣や順位ではない (§44-46)。\n- AI / 計算基盤 (sec_ai_compute): 本日 1043 件\n- 半導体 (sec_semiconductor): 本日 6 件\n- 光通信 (sec_optical_networking): 本日 0 件\n- CPO (Co-Packaged Optics) (sec_cpo): 本日 0 件\n- 電力・送配電 (sec_power_grid): 本日 1 件\n- 原子力 (sec_nuclear): 本日 0 件\n- 核融合 (sec_fusion): 本日 0 件\n- 防衛 (sec_defense): 本日 0 件"
+      "body": "常時監視 16 セクターの本日の観測件数。掲載順は設定ファイルの登録順であり、優劣や順位ではない (§44-46)。\n- AI / 計算基盤 (sec_ai_compute): 本日 1043 件\n- 半導体 (sec_semiconductor): 本日 6 件\n- 光通信 (sec_optical_networking): 本日 0 件\n- CPO (Co-Packaged Optics) (sec_cpo): 本日 0 件\n- 電力・送配電 (sec_power_grid): 本日 1 件\n- 原子力 (sec_nuclear): 本日 1 件\n- 核融合 (sec_fusion): 本日 0 件\n- 防衛 (sec_defense): 本日 0 件"
     },
     {
       "no": 9,
@@ -109,7 +109,7 @@
   "prohibited_output_check": {
     "contains_ticker_recommendation": false,
     "contains_ranking": false,
-    "checked_at": "2026-08-20T04:41:47Z"
+    "checked_at": "2026-08-20T21:55:15Z"
   },
   "schema_version": "1.0"
 }
