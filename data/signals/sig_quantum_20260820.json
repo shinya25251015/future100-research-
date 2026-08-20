@@ -1,6 +1,6 @@
 {
   "window_id": "sig_quantum_20260820",
-  "as_of": "2026-08-20T04:33:23Z",
+  "as_of": "2026-08-20T04:41:27Z",
   "window": {
     "start": "2026-08-14",
     "end": "2026-08-20",
@@ -23,15 +23,22 @@
   "counts": [
     {
       "signal_type": "paper",
-      "count": 4,
+      "count": 11,
       "baseline_count": 7.5,
       "event_ids": [
         "evt_20260815_ca9b8b91c6",
+        "evt_20260817_b48fbb72d9",
+        "evt_20260817_bc01771d1f",
+        "evt_20260818_6ccff37e99",
+        "evt_20260818_918dc5ebec",
+        "evt_20260818_e418b33075",
+        "evt_20260818_cab7da3a8b",
+        "evt_20260819_96327bc264",
         "evt_20260820_398fd62f08",
         "evt_20260820_18506882e0",
         "evt_20260820_971955a6e8"
       ],
-      "delta_ratio": -0.467
+      "delta_ratio": 0.467
     },
     {
       "signal_type": "patent",
@@ -42,20 +49,30 @@
     }
   ],
   "coverage": {
-    "baseline_covered": false,
-    "sources": [],
-    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      },
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
   },
   "co_occurrence": {
-    "distinct_signal_types": 0,
-    "distinct_sources": 0,
-    "distinct_regions": 0,
-    "score": 0.0,
+    "distinct_signal_types": 1,
+    "distinct_sources": 2,
+    "distinct_regions": 1,
+    "score": 34.2,
     "threshold_met": false
   },
   "promotion": {
     "promoted": false,
-    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+    "rationale": "同時増加のしきい値を満たさない。"
   },
   "schema_version": "1.0"
 }

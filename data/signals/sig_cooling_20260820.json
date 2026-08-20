@@ -1,6 +1,6 @@
 {
   "window_id": "sig_cooling_20260820",
-  "as_of": "2026-08-20T04:33:23Z",
+  "as_of": "2026-08-20T04:41:27Z",
   "window": {
     "start": "2026-08-14",
     "end": "2026-08-20",
@@ -24,27 +24,40 @@
   "counts": [
     {
       "signal_type": "paper",
-      "count": 0,
+      "count": 2,
       "baseline_count": 1.0,
-      "event_ids": [],
-      "delta_ratio": -1.0
+      "event_ids": [
+        "evt_20260817_5a10ec1465",
+        "evt_20260819_1c0b53dd8e"
+      ],
+      "delta_ratio": 1.0
     }
   ],
   "coverage": {
-    "baseline_covered": false,
-    "sources": [],
-    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      },
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
   },
   "co_occurrence": {
-    "distinct_signal_types": 0,
-    "distinct_sources": 0,
-    "distinct_regions": 0,
-    "score": 0.0,
+    "distinct_signal_types": 1,
+    "distinct_sources": 2,
+    "distinct_regions": 1,
+    "score": 34.2,
     "threshold_met": false
   },
   "promotion": {
     "promoted": false,
-    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+    "rationale": "同時増加のしきい値を満たさない。"
   },
   "schema_version": "1.0"
 }

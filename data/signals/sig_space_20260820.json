@@ -1,6 +1,6 @@
 {
   "window_id": "sig_space_20260820",
-  "as_of": "2026-08-20T04:33:23Z",
+  "as_of": "2026-08-20T04:41:27Z",
   "window": {
     "start": "2026-08-14",
     "end": "2026-08-20",
@@ -33,36 +33,51 @@
     },
     {
       "signal_type": "paper",
-      "count": 1,
+      "count": 9,
       "baseline_count": 6.0,
       "event_ids": [
-        "evt_20260815_b3dd05f3a6"
+        "evt_20260815_b3dd05f3a6",
+        "evt_20260818_173c205478",
+        "evt_20260818_5b18948fc3",
+        "evt_20260818_4417aff4b2",
+        "evt_20260818_def153b499",
+        "evt_20260818_47d5c4ff2d",
+        "evt_20260818_a0e4c60adb",
+        "evt_20260818_3e452ba424",
+        "evt_20260819_3926dc451f"
       ],
-      "delta_ratio": -0.833
+      "delta_ratio": 0.5
     },
     {
       "signal_type": "procurement",
-      "count": 0,
+      "count": 1,
       "baseline_count": 2.0,
-      "event_ids": [],
-      "delta_ratio": -1.0
+      "event_ids": [
+        "evt_20260817_9b5a2d8c89"
+      ],
+      "delta_ratio": -0.5
     }
   ],
   "coverage": {
-    "baseline_covered": false,
-    "sources": [],
-    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
   },
   "co_occurrence": {
-    "distinct_signal_types": 0,
-    "distinct_sources": 0,
-    "distinct_regions": 0,
-    "score": 0.0,
+    "distinct_signal_types": 1,
+    "distinct_sources": 1,
+    "distinct_regions": 1,
+    "score": 26.7,
     "threshold_met": false
   },
   "promotion": {
     "promoted": false,
-    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+    "rationale": "同時増加のしきい値を満たさない。"
   },
   "schema_version": "1.0"
 }

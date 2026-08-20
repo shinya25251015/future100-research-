@@ -1,10 +1,10 @@
 {
   "report_id": "rpt_20260820",
   "report_date": "2026-08-20",
-  "as_of": "2026-08-20T04:33:40Z",
+  "as_of": "2026-08-20T04:41:46Z",
   "coverage": {
     "events_ingested": 2060,
-    "events_after_dedup": 2020,
+    "events_after_dedup": 1933,
     "sources_polled": 24,
     "sources_failed": []
   },
@@ -13,13 +13,13 @@
       "no": 1,
       "key": "executive_summary",
       "title": "本日の構造変化サマリ",
-      "body": "本日の観測は 2020 件。内訳（分類別）: macro 1622 / technology 326 / policy_regulation 60 / corporate_action 12。シグナル種別: paper 311 / procurement 4 / export_control 3 / new_standard 1 / patent 1。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 15 件）。件数は観測量であって重要度ではない。"
+      "body": "本日の観測は 1933 件。内訳（分類別）: macro 1620 / technology 311 / corporate_action 2。シグナル種別: paper 311 / export_control 1。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 7 件）。件数は観測量であって重要度ではない。"
     },
     {
       "no": 2,
       "key": "policy_regulation",
       "title": "政策・規制 (§4)",
-      "body": "本日 60 件を観測。\n- [A] 2026-08-19 Contracts for Aug. 19, 2026 (evt_20260820_8c8cf79f6c)\n- [A] 2026-08-19 Daily News 19 / 08 / 2026 (evt_20260820_b419bbcc79)\n- [A] 2026-08-19 Temporary Suspension of Additional Duties to Offset Canadian Discrimination Against the Commerce of the United States with Respect to Alcoholic Beverages, Dairy, and Motor Vehicles (evt_20260820_8c5cb0803e)\n- [A] 2026-08-19 Proposed Extension of Information Collection: Form CA-2a, Notice of Recurrence (evt_20260820_54f5df806d)\n- [A] 2026-08-19 Agency Information Collection Activities; Submission for OMB Review; Consumer Price Index Commodities and Services Survey (evt_20260820_5241505857)\n- [A] 2026-08-19 Mechanical Power Press Standard; Extension of the Office of Management and Budget (OMB) Approval of Information Collection (Paperwork) Requirements (evt_20260820_efc282eb85)\n- [A] 2026-08-19 Notice of Public Meeting of the Alaska Advisory Committee to the U.S. Commission on Civil Rights (evt_20260820_8e76730fcd)\n- [A] 2026-08-19 Air Plan Approval; South Carolina; Minor Source Permit Program Revisions (evt_20260820_45160de030)"
+      "body": "本日該当なし（本日の新規観測なし）"
     },
     {
       "no": 3,
@@ -31,7 +31,7 @@
       "no": 4,
       "key": "macro_economy",
       "title": "マクロ経済 (§6)",
-      "body": "本日 1622 件を観測（うち一次統計のデータ点 1618 件）。\n- 統計 米国 公的債務残高 = 40,047,425,768,420.22 USD（2026-08-18, 本日 275 期ぶんを観測）\n- 統計 米国 民間保有債務残高 = 32,265,798,542,898.08 USD（2026-08-18, 本日 275 期ぶんを観測）\n- 統計 米国債 平均利率 中期証券 = 3.309 %（2026-07-31, 本日 36 期ぶんを観測）\n- 統計 米国債 平均利率 短期証券 = 3.758 %（2026-07-31, 本日 36 期ぶんを観測）\n- 統計 米国債 平均利率 長期証券 = 3.442 %（2026-07-31, 本日 36 期ぶんを観測）\n- 統計 米国債入札 応札倍率（17-Week, Bill） = 3.19 倍（2026-08-05, 本日 2 期ぶんを観測）\n- 統計 米国債入札 応札倍率（26-Week, Bill） = 2.97 倍（2026-08-17, 本日 1 期ぶんを観測）\n- 統計 米国債入札 応札倍率（30-Year, Bond） = 2.39 倍（2026-08-13, 本日 1 期ぶんを観測）\n- [A] 2026-08-20 基準外国為替相場及び裁定外国為替相場（9月分） (evt_20260820_b1781ffacc)\n- [A] 2026-08-20 報告省令レート（9月分） (evt_20260820_3209ee1d5b)\n- [A] 2026-08-19 Minutes of the Federal Open Market Committee, July 28–29, 2026 (evt_20260820_3a1993973a)\n- [A] 2026-08-17 展望レポートのハイライト （2026年7月） (evt_20260820_2734b7ba17)"
+      "body": "本日 1620 件を観測（うち一次統計のデータ点 1618 件）。\n- 統計 米国 公的債務残高 = 40,047,425,768,420.22 USD（2026-08-18, 本日 275 期ぶんを観測）\n- 統計 米国 民間保有債務残高 = 32,265,798,542,898.08 USD（2026-08-18, 本日 275 期ぶんを観測）\n- 統計 米国債 平均利率 中期証券 = 3.309 %（2026-07-31, 本日 36 期ぶんを観測）\n- 統計 米国債 平均利率 短期証券 = 3.758 %（2026-07-31, 本日 36 期ぶんを観測）\n- 統計 米国債 平均利率 長期証券 = 3.442 %（2026-07-31, 本日 36 期ぶんを観測）\n- 統計 米国債入札 応札倍率（17-Week, Bill） = 3.19 倍（2026-08-05, 本日 2 期ぶんを観測）\n- 統計 米国債入札 応札倍率（26-Week, Bill） = 2.97 倍（2026-08-17, 本日 1 期ぶんを観測）\n- 統計 米国債入札 応札倍率（30-Year, Bond） = 2.39 倍（2026-08-13, 本日 1 期ぶんを観測）\n- [A] 2026-08-20 基準外国為替相場及び裁定外国為替相場（9月分） (evt_20260820_b1781ffacc)\n- [A] 2026-08-20 報告省令レート（9月分） (evt_20260820_3209ee1d5b)"
     },
     {
       "no": 5,
@@ -43,19 +43,19 @@
       "no": 6,
       "key": "technology_progress",
       "title": "技術革新の進展 (§8)",
-      "body": "本日 326 件を観測。\n- [B] 2026-08-20 SkillForge: Self-Distilling Agents for Project-Specific Issue Resolution (evt_20260820_347285a31a)\n- [B] 2026-08-20 Safety Alignment Illusion: The Cross-Lingual Safety Gap in LLMs (evt_20260820_fbf6186777)\n- [B] 2026-08-20 Intercepting the Kangaroo: Experimental Astrolinguistics with Constructed Lexicons, Active Probing, and Large Language Models as Informants and Hypothesis Proposers (evt_20260820_51127c1d89)\n- [B] 2026-08-20 TokenPowerSandbox: Evidence-Gated CPU-First Screening for Energy-Aware LLM Serving (evt_20260820_d67cee93b1)\n- [B] 2026-08-20 Computational Orientalism: Measuring Structural Discourse Bias in Large Language Models Using the Middle East Cultural Sensitivity Score (MECSS) (evt_20260820_9f5e7da3fb)\n- [B] 2026-08-20 Molecular Implementation of the Machine-Learned Skala Exchange-Correlation Functional in CP2K through GauXC (evt_20260820_ebf0c2f9ae)\n- [B] 2026-08-20 SESSE: Sketch, Expand, Sort, Summarize, Evaluate -- LLM-as-Judge Evaluation via Structured Decomposition (evt_20260820_3c47a387d0)\n- [B] 2026-08-20 When to Call an Apple Red: Humans Follow Introspective Rules, VLMs Don't (evt_20260820_640693a534)"
+      "body": "本日 311 件を観測。\n- [B] 2026-08-20 SkillForge: Self-Distilling Agents for Project-Specific Issue Resolution (evt_20260820_347285a31a)\n- [B] 2026-08-20 Safety Alignment Illusion: The Cross-Lingual Safety Gap in LLMs (evt_20260820_fbf6186777)\n- [B] 2026-08-20 Intercepting the Kangaroo: Experimental Astrolinguistics with Constructed Lexicons, Active Probing, and Large Language Models as Informants and Hypothesis Proposers (evt_20260820_51127c1d89)\n- [B] 2026-08-20 TokenPowerSandbox: Evidence-Gated CPU-First Screening for Energy-Aware LLM Serving (evt_20260820_d67cee93b1)\n- [B] 2026-08-20 Computational Orientalism: Measuring Structural Discourse Bias in Large Language Models Using the Middle East Cultural Sensitivity Score (MECSS) (evt_20260820_9f5e7da3fb)\n- [B] 2026-08-20 Molecular Implementation of the Machine-Learned Skala Exchange-Correlation Functional in CP2K through GauXC (evt_20260820_ebf0c2f9ae)\n- [B] 2026-08-20 SESSE: Sketch, Expand, Sort, Summarize, Evaluate -- LLM-as-Judge Evaluation via Structured Decomposition (evt_20260820_3c47a387d0)\n- [B] 2026-08-20 When to Call an Apple Red: Humans Follow Introspective Rules, VLMs Don't (evt_20260820_640693a534)"
     },
     {
       "no": 7,
       "key": "early_signals",
       "title": "Early Signal Detection (§10)",
-      "body": "しきい値を満たした topic はなし。うち 15 件は観測期間が baseline に届かず判定を保留している（取り込み開始による見かけの急増をシグナルとして扱わないため）。"
+      "body": "しきい値を満たした topic はなし。うち 7 件は観測期間が baseline に届かず判定を保留している（取り込み開始による見かけの急増をシグナルとして扱わないため）。"
     },
     {
       "no": 8,
       "key": "known_sector_monitor",
       "title": "既知セクター監視 (§11)",
-      "body": "常時監視 16 セクターの本日の観測件数。掲載順は設定ファイルの登録順であり、優劣や順位ではない (§44-46)。\n- AI / 計算基盤 (sec_ai_compute): 本日 1045 件\n- 半導体 (sec_semiconductor): 本日 7 件\n- 光通信 (sec_optical_networking): 本日 0 件\n- CPO (Co-Packaged Optics) (sec_cpo): 本日 0 件\n- 電力・送配電 (sec_power_grid): 本日 1 件\n- 原子力 (sec_nuclear): 本日 0 件\n- 核融合 (sec_fusion): 本日 0 件\n- 防衛 (sec_defense): 本日 0 件"
+      "body": "常時監視 16 セクターの本日の観測件数。掲載順は設定ファイルの登録順であり、優劣や順位ではない (§44-46)。\n- AI / 計算基盤 (sec_ai_compute): 本日 1043 件\n- 半導体 (sec_semiconductor): 本日 6 件\n- 光通信 (sec_optical_networking): 本日 0 件\n- CPO (Co-Packaged Optics) (sec_cpo): 本日 0 件\n- 電力・送配電 (sec_power_grid): 本日 1 件\n- 原子力 (sec_nuclear): 本日 0 件\n- 核融合 (sec_fusion): 本日 0 件\n- 防衛 (sec_defense): 本日 0 件"
     },
     {
       "no": 9,
@@ -109,7 +109,7 @@
   "prohibited_output_check": {
     "contains_ticker_recommendation": false,
     "contains_ranking": false,
-    "checked_at": "2026-08-20T04:33:41Z"
+    "checked_at": "2026-08-20T04:41:47Z"
   },
   "schema_version": "1.0"
 }
