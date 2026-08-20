@@ -1,0 +1,129 @@
+{
+  "window_id": "sig_semiconductor_20260818",
+  "as_of": "2026-08-18T21:49:29Z",
+  "window": {
+    "start": "2026-08-12",
+    "end": "2026-08-18",
+    "baseline_start": "2026-07-15",
+    "baseline_end": "2026-08-11"
+  },
+  "topic": {
+    "label": "半導体",
+    "keywords": [
+      "semiconductor",
+      "foundry",
+      "wafer",
+      "lithography",
+      "euv",
+      "hbm",
+      "chip fab",
+      "半導体",
+      "前工程",
+      "後工程",
+      "露光装置"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_semiconductor"
+  },
+  "counts": [
+    {
+      "signal_type": "export_control",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    },
+    {
+      "signal_type": "new_standard",
+      "count": 2,
+      "baseline_count": 0.25,
+      "event_ids": [
+        "evt_20260814_2cb1a6c1b4",
+        "evt_20260817_2cb1a6c1b4"
+      ],
+      "delta_ratio": 7.0
+    },
+    {
+      "signal_type": "paper",
+      "count": 31,
+      "baseline_count": 25.5,
+      "event_ids": [
+        "evt_20260813_b6a6a6b140",
+        "evt_20260813_ff83305725",
+        "evt_20260813_29687cc98e",
+        "evt_20260813_f3a5f57968",
+        "evt_20260813_262cafad5b",
+        "evt_20260813_f37aaea593",
+        "evt_20260814_7f096f93de",
+        "evt_20260814_3a07ce4cd1",
+        "evt_20260814_fbfd380d5e",
+        "evt_20260814_faf19359bd",
+        "evt_20260814_9ad592d977",
+        "evt_20260814_27591120fe",
+        "evt_20260814_254c0474ed",
+        "evt_20260814_47f7de047e",
+        "evt_20260814_93742b9783",
+        "evt_20260814_74b4836f54",
+        "evt_20260814_ec7f4be91b",
+        "evt_20260814_49dce1d5b5",
+        "evt_20260814_4e97371984",
+        "evt_20260814_f355091b25",
+        "evt_20260815_4884b8bafe",
+        "evt_20260815_07baedaef1",
+        "evt_20260817_863966e4a4",
+        "evt_20260818_dd432b3218",
+        "evt_20260818_c9df45c329",
+        "evt_20260818_f8d65bc13a",
+        "evt_20260818_b526a12af5",
+        "evt_20260818_1c627b2238",
+        "evt_20260818_d5347ccbef",
+        "evt_20260818_aa3a68b9c6",
+        "evt_20260818_9470294bd3"
+      ],
+      "delta_ratio": 0.216
+    },
+    {
+      "signal_type": "patent",
+      "count": 2,
+      "baseline_count": 0.5,
+      "event_ids": [
+        "evt_20260814_2cb1a6c1b4",
+        "evt_20260817_2cb1a6c1b4"
+      ],
+      "delta_ratio": 3.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      },
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      },
+      {
+        "source_id": "src_ieee_spectrum",
+        "observation_start": "2026-08-13T15:29:13Z",
+        "covers_baseline": false
+      }
+    ],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 3,
+    "distinct_sources": 3,
+    "distinct_regions": 1,
+    "score": 66.7,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}

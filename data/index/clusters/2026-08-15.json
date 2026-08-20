@@ -291,7 +291,8 @@
     "https://arxiv.org/abs/2608.12877": "clu_3170173841",
     "https://arxiv.org/abs/2608.12892": "clu_3723184d72",
     "https://arxiv.org/abs/2608.12594": "clu_cb58af6952",
-    "https://science.nasa.gov/image-article/apod/apod-2026-august-15-bright-perseids-from-sweden": "clu_1d7519e764"
+    "https://science.nasa.gov/image-article/apod/apod-2026-august-15-bright-perseids-from-sweden": "clu_1d7519e764",
+    "https://science.nasa.gov/solar-system/skywatching/night-sky-network/summer-triangle-corner-deneb": "clu_cf9ba4c93a"
   },
   "by_hash": {
     "48392648a72e63b8089d7dd8facff14e1f91b9bbdbcafedcae9fece4d356035d": "clu_13de8f17db",
@@ -585,7 +586,8 @@
     "13d5ec7bbab49c50dd0ae27d4449ac97b16ef98a70fd8316623765a3bf197741": "clu_3170173841",
     "da073420f50eb08fa4cbddd39c344d34a61a8bbc3b60f9ae03e00251841cb8be": "clu_3723184d72",
     "f647ac792623de415c9e8c22737ca3584e0eb7e427628dc7972144aa5790df88": "clu_cb58af6952",
-    "c88f1bbeaf4cfbdaeeefe824405b3e74b149171b8700d3e62d927415890f9603": "clu_1d7519e764"
+    "c88f1bbeaf4cfbdaeeefe824405b3e74b149171b8700d3e62d927415890f9603": "clu_1d7519e764",
+    "c4002c3e78e4cbcd305021581da77d861f86d0b7387586e9905a770e3562332c": "clu_cf9ba4c93a"
   },
   "by_key": {
     "arxiv::correct is not governed: provenance integrity in agentic workflows::2026-08-15": "clu_13de8f17db",
@@ -879,7 +881,8 @@
     "arxiv::reflectfact: self-reflective agents for improving comprehension and reasoning in multi-hop fact verification::2026-08-15": "clu_3170173841",
     "arxiv::predictive memory localization: forecasting selective intervention paths from internal signals::2026-08-15": "clu_3723184d72",
     "arxiv::what makes a peer? valuation-anchored similarity in private markets::2026-08-15": "clu_cb58af6952",
-    "nasa::apod: 2026 august 15 – bright perseids from sweden::2026-08-15": "clu_1d7519e764"
+    "nasa::apod: 2026 august 15 – bright perseids from sweden::2026-08-15": "clu_1d7519e764",
+    "nasa::summer triangle corner: deneb::2026-08-15": "clu_cf9ba4c93a"
   },
   "clusters": {
     "clu_13de8f17db": {
@@ -3505,6 +3508,15 @@
       "primary_event_id": "evt_20260815_c88f1bbeaf",
       "event_ids": [
         "evt_20260815_c88f1bbeaf"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_cf9ba4c93a": {
+      "primary_event_id": "evt_20260817_c4002c3e78",
+      "event_ids": [
+        "evt_20260817_c4002c3e78"
       ],
       "source_ids": [
         "src_nasa_news"

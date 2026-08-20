@@ -1,0 +1,68 @@
+{
+  "window_id": "sig_critical_minerals_20260817",
+  "as_of": "2026-08-17T21:51:55Z",
+  "window": {
+    "start": "2026-08-11",
+    "end": "2026-08-17",
+    "baseline_start": "2026-07-14",
+    "baseline_end": "2026-08-10"
+  },
+  "topic": {
+    "label": "重要鉱物・資源",
+    "keywords": [
+      "rare earth",
+      "critical mineral",
+      "lithium supply",
+      "gallium",
+      "germanium",
+      "copper supply",
+      "レアアース",
+      "重要鉱物",
+      "資源確保"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_critical_minerals"
+  },
+  "counts": [
+    {
+      "signal_type": "new_standard",
+      "count": 0,
+      "baseline_count": 0.5,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    },
+    {
+      "signal_type": "paper",
+      "count": 3,
+      "baseline_count": 2.75,
+      "event_ids": [
+        "evt_20260814_5a6b54bf4b",
+        "evt_20260814_d0fd92c22c",
+        "evt_20260817_3d4d70359c"
+      ],
+      "delta_ratio": 0.091
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 1,
+    "distinct_regions": 1,
+    "score": 26.7,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}
