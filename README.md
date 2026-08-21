@@ -3,7 +3,8 @@
 世界の政策・地政学・マクロ経済・技術革新・設備投資・需給・資源制約を継続的に観測し、
 **今後 5〜10 年で成長する可能性が高いセクター・産業・市場を早期に発見する**ための分析基盤。
 
-仕様は [CLAUDE.md](CLAUDE.md)（Ver.4.0）が正。実装計画は [docs/ROADMAP.md](docs/ROADMAP.md)。
+仕様は [CLAUDE.md](CLAUDE.md)（Ver.4.0）が正。実装計画は [docs/ROADMAP.md](docs/ROADMAP.md)、
+現状と残課題は [docs/HANDOVER.md](docs/HANDOVER.md)。
 
 このシステムが**やらないこと**（仕様書 §1, §44-46）:
 
