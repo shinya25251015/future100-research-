@@ -127,7 +127,8 @@
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-08-21&tenor=5%E5%B9%B4": "clu_16bfd81caf",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-08-20&tenor=3%E3%81%8B%E6%9C%88": "clu_16bfd81caf",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-08-20&series=tot_pub_debt_out_amt": "clu_015f0c06a4",
-    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-08-21&tenor=10%E5%B9%B4": "clu_16bfd81caf"
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-08-21&tenor=10%E5%B9%B4": "clu_16bfd81caf",
+    "https://spectrum.ieee.org/ieee-senior-member-ai-ecommerce": "clu_55f2aa0d1c"
   },
   "by_hash": {
     "7ca47f9de09720e5fe21e3d1f860279c6976e80832d886811b61e0e781ded9f9": "clu_6097117667",
@@ -257,7 +258,8 @@
     "d4950cdf51d6c9101e98e83c1ec9fcd0d73b7057f0b21d9e4d2532a13975c677": "clu_16bfd81caf",
     "42b845766aae3e0e7218f5822fa1fa2e6f8f2c7c8b86e8c13fe3e5cbc16ecdcf": "clu_16bfd81caf",
     "b7f8d791c47b862090b9017866d93d5875ac93060477efce0caea18556d2f62d": "clu_015f0c06a4",
-    "d6ce26700ea4663d74f58033e6744a5e4b63e01129d5859f6d38efa674e49229": "clu_16bfd81caf"
+    "d6ce26700ea4663d74f58033e6744a5e4b63e01129d5859f6d38efa674e49229": "clu_16bfd81caf",
+    "3a6d1bb6f39bf9660ec3ebc9ba3509e8d9689b1218dc5fba5d37f0b41510fdeb": "clu_55f2aa0d1c"
   },
   "by_key": {
     "office of the federal register::center for scientific review; notice of closed meetings::2026-08-21": "clu_6097117667",
@@ -386,7 +388,8 @@
     "u.s. department of the treasury::米国債利回り 5年 2026-08-21: 4.43 %::2026-08-21": "clu_16bfd81caf",
     "u.s. department of the treasury::米国債利回り 3か月 2026-08-20: 3.87 %::2026-08-21": "clu_16bfd81caf",
     "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-08-20: 40,033,256,786,764.367 usd::2026-08-21": "clu_015f0c06a4",
-    "u.s. department of the treasury::米国債利回り 10年 2026-08-21: 4.74 %::2026-08-21": "clu_16bfd81caf"
+    "u.s. department of the treasury::米国債利回り 10年 2026-08-21: 4.74 %::2026-08-21": "clu_16bfd81caf",
+    "ieee::this ieee senior member develops ai tools for e-commerce sites::2026-08-21": "clu_55f2aa0d1c"
   },
   "clusters": {
     "clu_6097117667": {
@@ -1452,6 +1455,15 @@
       ],
       "source_ids": [
         "src_us_treasury_debt"
+      ]
+    },
+    "clu_55f2aa0d1c": {
+      "primary_event_id": "evt_20260823_3a6d1bb6f3",
+      "event_ids": [
+        "evt_20260823_3a6d1bb6f3"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
       ]
     }
   }
