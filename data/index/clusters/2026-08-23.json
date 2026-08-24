@@ -1,12 +1,18 @@
 {
   "by_url": {
-    "https://science.nasa.gov/blog/curiosity-blog-sols-4982-4987-back-to-our-regularly-scheduled-programming": "clu_04fdb15af0"
+    "https://science.nasa.gov/blog/curiosity-blog-sols-4982-4987-back-to-our-regularly-scheduled-programming": "clu_04fdb15af0",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1750": "clu_84f7b3af88",
+    "https://spectrum.ieee.org/poetry-for-engineers-safe-distance": "clu_dd9bd6292a"
   },
   "by_hash": {
-    "5e50706d6da3fcd989e35ad6343cd4f081c319dbe37ec77170de22c412f9a632": "clu_04fdb15af0"
+    "5e50706d6da3fcd989e35ad6343cd4f081c319dbe37ec77170de22c412f9a632": "clu_04fdb15af0",
+    "1876472e05a96afa0957cea51af11ec27b6fa6b7d9dfaa7f4973686c22b5a638": "clu_84f7b3af88",
+    "98a4d445cbfe243a438c1c3af61970c5d737772d3f94687bd118fb9edf1e9c78": "clu_dd9bd6292a"
   },
   "by_key": {
-    "nasa::curiosity blog, sols 4982–4987: back to our regularly scheduled programming::2026-08-23": "clu_04fdb15af0"
+    "nasa::curiosity blog, sols 4982–4987: back to our regularly scheduled programming::2026-08-23": "clu_04fdb15af0",
+    "european commission::commission approves €6.1 billion for ukraine's defence::2026-08-23": "clu_84f7b3af88",
+    "ieee::poetry for engineers: safe distance::2026-08-23": "clu_dd9bd6292a"
   },
   "clusters": {
     "clu_04fdb15af0": {
@@ -16,6 +22,24 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_84f7b3af88": {
+      "primary_event_id": "evt_20260824_1876472e05",
+      "event_ids": [
+        "evt_20260824_1876472e05"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_dd9bd6292a": {
+      "primary_event_id": "evt_20260824_98a4d445cb",
+      "event_ids": [
+        "evt_20260824_98a4d445cb"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
       ]
     }
   }
