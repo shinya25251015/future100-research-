@@ -1,0 +1,119 @@
+{
+  "window_id": "sig_robotics_20260825",
+  "as_of": "2026-08-25T21:54:34Z",
+  "window": {
+    "start": "2026-08-19",
+    "end": "2026-08-25",
+    "baseline_start": "2026-07-22",
+    "baseline_end": "2026-08-18"
+  },
+  "topic": {
+    "label": "ロボティクス",
+    "keywords": [
+      "robot",
+      "robotic",
+      "humanoid",
+      "factory automation",
+      "ロボット",
+      "産業用ロボット"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_robotics"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 52,
+      "baseline_count": 50.5,
+      "event_ids": [
+        "evt_20260819_6fe1f67b9b",
+        "evt_20260819_fdb3911a99",
+        "evt_20260819_1148cf0772",
+        "evt_20260819_a68d401be7",
+        "evt_20260819_3a144f2f98",
+        "evt_20260819_a1ff39fa2e",
+        "evt_20260819_3ea365f8bf",
+        "evt_20260819_c2e8db2fd8",
+        "evt_20260819_4e5ec34433",
+        "evt_20260819_9c5f8779e0",
+        "evt_20260819_847d000992",
+        "evt_20260819_5f2208b9ea",
+        "evt_20260819_a513bdbdd2",
+        "evt_20260820_a00d97a332",
+        "evt_20260820_283cb7188a",
+        "evt_20260820_f19a342e04",
+        "evt_20260820_164f8ea310",
+        "evt_20260820_ad67fbdddf",
+        "evt_20260821_28b7efab1b",
+        "evt_20260824_1b241cd59f",
+        "evt_20260824_90ce3e35cc",
+        "evt_20260824_1dcb08a22c",
+        "evt_20260824_b65d2a9d74",
+        "evt_20260824_d1943900eb",
+        "evt_20260824_e9b0c7c21b",
+        "evt_20260824_d876c45218",
+        "evt_20260824_bdf672ee59",
+        "evt_20260825_65326a1cf3",
+        "evt_20260825_131f019c74",
+        "evt_20260825_315f98fe12",
+        "evt_20260825_d6d4e9ebb2",
+        "evt_20260825_6203c733c4",
+        "evt_20260825_106b57e3ca",
+        "evt_20260825_d9b35e7047",
+        "evt_20260825_d2af6aaacf",
+        "evt_20260825_260ee64ffa",
+        "evt_20260825_0f6bc90f89",
+        "evt_20260825_903a943819",
+        "evt_20260825_c54998029c",
+        "evt_20260825_873e150c36",
+        "evt_20260825_b1d590bfd3",
+        "evt_20260825_84409faa1a",
+        "evt_20260825_43c02beaa4",
+        "evt_20260825_bb666ee82f",
+        "evt_20260825_6882e9ba66",
+        "evt_20260825_f8531791a0",
+        "evt_20260825_9279dd94f3",
+        "evt_20260825_4821feb369",
+        "evt_20260825_0aa682ff90",
+        "evt_20260825_e25efcda7c",
+        "evt_20260825_b76e5548a3",
+        "evt_20260825_a4df0095ac"
+      ],
+      "delta_ratio": 0.03
+    },
+    {
+      "signal_type": "procurement",
+      "count": 0,
+      "baseline_count": 0.5,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      },
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 2,
+    "distinct_regions": 1,
+    "score": 34.2,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}

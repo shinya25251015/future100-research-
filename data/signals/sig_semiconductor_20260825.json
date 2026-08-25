@@ -1,0 +1,108 @@
+{
+  "window_id": "sig_semiconductor_20260825",
+  "as_of": "2026-08-25T21:54:34Z",
+  "window": {
+    "start": "2026-08-19",
+    "end": "2026-08-25",
+    "baseline_start": "2026-07-22",
+    "baseline_end": "2026-08-18"
+  },
+  "topic": {
+    "label": "半導体",
+    "keywords": [
+      "semiconductor",
+      "foundry",
+      "wafer",
+      "lithography",
+      "euv",
+      "hbm",
+      "chip fab",
+      "半導体",
+      "前工程",
+      "後工程",
+      "露光装置"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_semiconductor"
+  },
+  "counts": [
+    {
+      "signal_type": "new_standard",
+      "count": 0,
+      "baseline_count": 0.75,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    },
+    {
+      "signal_type": "paper",
+      "count": 29,
+      "baseline_count": 26.25,
+      "event_ids": [
+        "evt_20260819_f0a3688d1e",
+        "evt_20260819_3d9aac36ba",
+        "evt_20260819_5d1ef33caf",
+        "evt_20260819_23c5260fbb",
+        "evt_20260819_09f3918f7f",
+        "evt_20260819_9b5f5d12c3",
+        "evt_20260820_ec42b3be2a",
+        "evt_20260820_e70aef7d1b",
+        "evt_20260820_d8e2b7acf9",
+        "evt_20260820_cb182b0499",
+        "evt_20260820_7e3461fff7",
+        "evt_20260820_3787750f1c",
+        "evt_20260821_cfd0ee040b",
+        "evt_20260824_401110b4d5",
+        "evt_20260824_936e5d292d",
+        "evt_20260824_aacd64741a",
+        "evt_20260824_34d8010b88",
+        "evt_20260824_c10913ba7b",
+        "evt_20260824_d7e41127fd",
+        "evt_20260825_cf52c37217",
+        "evt_20260825_e4dff3a127",
+        "evt_20260825_0e5366a49f",
+        "evt_20260825_448955f229",
+        "evt_20260825_7019eaed8e",
+        "evt_20260825_3fa95ce44f",
+        "evt_20260825_eb5f662ba5",
+        "evt_20260825_d13e4538bf",
+        "evt_20260825_664a388e8b",
+        "evt_20260825_b57fe6dac9"
+      ],
+      "delta_ratio": 0.105
+    },
+    {
+      "signal_type": "patent",
+      "count": 0,
+      "baseline_count": 0.75,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      },
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 2,
+    "distinct_regions": 1,
+    "score": 34.2,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}
