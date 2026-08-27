@@ -721,7 +721,10 @@
     "https://treasurydirect.gov/auctions/announcements-data-results?cusip=91282CRH6&metric=high_yield&period=2026-08-25": "clu_86818fcb17",
     "https://treasurydirect.gov/auctions/announcements-data-results?cusip=912797UJ4&metric=bid_to_cover&period=2026-08-25": "clu_86818fcb17",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-08-24&series=debt_held_public_amt": "clu_a5dcacc75f",
-    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-08-24&series=tot_pub_debt_out_amt": "clu_679fcc5ed0"
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-08-24&series=tot_pub_debt_out_amt": "clu_679fcc5ed0",
+    "http://boj.or.jp/statistics/pi/cspi_release/sppi2607.pdf": "clu_cb20e742b0",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1747": "clu_3dacca1f12",
+    "https://nasa.gov/technology/space-comms/deep-space-network/new-next-gen-dish-adds-muscle-to-nasas-deep-space-network": "clu_281ff9b36c"
   },
   "by_hash": {
     "cca43f1104d187c86d035b2f5b99a90ed8db96a5aa98709e21fd7b4574040abe": "clu_79dd0e3d72",
@@ -1445,7 +1448,10 @@
     "ce4cea102f7cbc6b412003c93940aa63ca5c27196523051610af962fc6f1bf2b": "clu_86818fcb17",
     "52bf112decc021ac90d1ab2d3da21bfb473f8300b2ab6baf8f6e0e3478c0989f": "clu_86818fcb17",
     "672aa88255bdb98e64360d32ae852e5130532099af1b259748b8daa8683ea144": "clu_a5dcacc75f",
-    "7d16029ff102b6d765f6fe5adc53ee68bc5bfb7405c17d926f75ecebd2e0fd3b": "clu_679fcc5ed0"
+    "7d16029ff102b6d765f6fe5adc53ee68bc5bfb7405c17d926f75ecebd2e0fd3b": "clu_679fcc5ed0",
+    "cc8e22cb5278cd7cd3dddfdabeefa64b9252db0bd03e12e885813bd3b3633517": "clu_cb20e742b0",
+    "b4a3e11f80509af875bcec47842ea0d6c12268ef6d91b2b7e42b118c3d03d1d2": "clu_3dacca1f12",
+    "bc72249e87b86d60463b71b93609d0286fb877b800e199834f722d89ed6422d3": "clu_281ff9b36c"
   },
   "by_key": {
     "office of the federal register::30-day notice of intent to seek extension of approval: report of fuel cost, consumption, and surcharge revenue::2026-08-25": "clu_79dd0e3d72",
@@ -2168,7 +2174,10 @@
     "u.s. department of the treasury (treasurydirect)::米国債入札 最高利回り(2-year, note) 2026-08-25: 4.204 %::2026-08-25": "clu_86818fcb17",
     "u.s. department of the treasury (treasurydirect)::米国債入札 応札倍率(6-week, bill) 2026-08-25: 2.71 倍::2026-08-25": "clu_86818fcb17",
     "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-08-24: 32,274,806,592,449.5 usd::2026-08-25": "clu_a5dcacc75f",
-    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-08-24: 40,035,385,103,646.141 usd::2026-08-25": "clu_679fcc5ed0"
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-08-24: 40,035,385,103,646.141 usd::2026-08-25": "clu_679fcc5ed0",
+    "日本銀行::企業向けサービス価格指数(7月)::2026-08-25": "clu_cb20e742b0",
+    "european commission::commission sends statement of objections over proposed joint venture between upm and sappi::2026-08-25": "clu_3dacca1f12",
+    "nasa::new next-gen dish adds muscle to nasa’s deep space network::2026-08-25": "clu_281ff9b36c"
   },
   "clusters": {
     "clu_79dd0e3d72": {
@@ -8652,6 +8661,33 @@
       ],
       "source_ids": [
         "src_us_treasury_debt"
+      ]
+    },
+    "clu_cb20e742b0": {
+      "primary_event_id": "evt_20260827_cc8e22cb52",
+      "event_ids": [
+        "evt_20260827_cc8e22cb52"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_3dacca1f12": {
+      "primary_event_id": "evt_20260827_b4a3e11f80",
+      "event_ids": [
+        "evt_20260827_b4a3e11f80"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_281ff9b36c": {
+      "primary_event_id": "evt_20260827_bc72249e87",
+      "event_ids": [
+        "evt_20260827_bc72249e87"
+      ],
+      "source_ids": [
+        "src_nasa_news"
       ]
     }
   }
