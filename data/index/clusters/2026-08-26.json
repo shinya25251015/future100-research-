@@ -425,7 +425,8 @@
     "https://nasa.gov/news-release/nasa-sets-spacewalk-for-station-maintenance-live-coverage-planned": "clu_da5809072b",
     "https://nasa.gov/earth/earth-visualization-mapping/building-foresight-for-earth-science-featuring-lindsey-jacobson": "clu_c588664eb6",
     "https://nasa.gov/centers-and-facilities/johnson/nasa-johnson-pilots-chase-moons-shadow-for-eclipse-science": "clu_26e2ab200b",
-    "https://nasa.gov/missions/artemis/nasa-begins-moon-mission-plume-surface-interaction-tests": "clu_2ecc3f9768"
+    "https://nasa.gov/missions/artemis/nasa-begins-moon-mission-plume-surface-interaction-tests": "clu_2ecc3f9768",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1762": "clu_f3eb0ec4e6"
   },
   "by_hash": {
     "e6431f66545b3ac957b6a6d29c865ebffc2b779309a0f2c3806eee2057138696": "clu_ee8e540f56",
@@ -852,7 +853,8 @@
     "9cbe50b15c38354e1c5cca171f39bf8561415740a513de09b7814b4293fce88b": "clu_da5809072b",
     "7364b28220e1ce48f6bf09998afeaf9ab0dc514590699ec32455e48c8850a5c7": "clu_c588664eb6",
     "6df5ad3132cf195034947f14903d99633030ead3d74f346a3d672e364763352d": "clu_26e2ab200b",
-    "2186045cdb1aa87748a0bc113ebf8123806eb07cec84bad4053e1ac2715bf3bd": "clu_2ecc3f9768"
+    "2186045cdb1aa87748a0bc113ebf8123806eb07cec84bad4053e1ac2715bf3bd": "clu_2ecc3f9768",
+    "b738e2abba76a049d59917e23609d7a5ba75186a576a16bffe7d3871f679ea37": "clu_f3eb0ec4e6"
   },
   "by_key": {
     "office of the federal register::boott hydropower, llc; notice of intent to prepare an environmental assessment::2026-08-26": "clu_ee8e540f56",
@@ -1278,7 +1280,8 @@
     "nasa::nasa sets spacewalk for station maintenance, live coverage planned::2026-08-26": "clu_da5809072b",
     "nasa::building foresight for earth science, featuring lindsey jacobson::2026-08-26": "clu_c588664eb6",
     "nasa::nasa johnson pilots chase moon’s shadow for eclipse science::2026-08-26": "clu_26e2ab200b",
-    "nasa::nasa begins moon mission plume-surface interaction tests::2026-08-26": "clu_2ecc3f9768"
+    "nasa::nasa begins moon mission plume-surface interaction tests::2026-08-26": "clu_2ecc3f9768",
+    "european commission::commission endorses greece's €4.8 billion social climate plan to support vulnerable households, transport users and micro-enterprises in the clean transition::2026-08-26": "clu_f3eb0ec4e6"
   },
   "clusters": {
     "clu_ee8e540f56": {
@@ -5104,6 +5107,15 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_f3eb0ec4e6": {
+      "primary_event_id": "evt_20260828_b738e2abba",
+      "event_ids": [
+        "evt_20260828_b738e2abba"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }
