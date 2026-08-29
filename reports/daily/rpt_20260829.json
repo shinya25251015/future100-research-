@@ -1,10 +1,10 @@
 {
   "report_id": "rpt_20260829",
   "report_date": "2026-08-29",
-  "as_of": "2026-08-29T03:16:50Z",
+  "as_of": "2026-08-29T23:32:00Z",
   "coverage": {
-    "events_ingested": 68,
-    "events_after_dedup": 68,
+    "events_ingested": 118,
+    "events_after_dedup": 118,
     "sources_polled": 24,
     "sources_failed": []
   },
@@ -13,13 +13,13 @@
       "no": 1,
       "key": "executive_summary",
       "title": "本日の構造変化サマリ",
-      "body": "本日の観測は 68 件。内訳（分類別）: policy_regulation 53 / macro 8 / technology 7。シグナル種別: export_control 2 / procurement 1。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 12 件）。件数は観測量であって重要度ではない。"
+      "body": "本日の観測は 118 件。内訳（分類別）: policy_regulation 103 / macro 8 / technology 7。シグナル種別: export_control 2 / procurement 2 / subsidy 1。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 12 件）。件数は観測量であって重要度ではない。"
     },
     {
       "no": 2,
       "key": "policy_regulation",
       "title": "政策・規制 (§4)",
-      "body": "本日 53 件を観測。\n- [A] 2026-08-28 Contracts for Aug. 28, 2026 (evt_20260829_e5ff9b8b88)\n- [A] 2026-08-28 Establishing the United States Space Academy (evt_20260829_27c79047d7)\n- [A] 2026-08-28 Daily News 28 / 08 / 2026 (evt_20260829_d69ca33650)\n- [A] 2026-08-28 Combined Notice of Filings #2 (evt_20260829_b91e01e54f)\n- [A] 2026-08-28 EnergySolutions Services Inc.; Export License Amendment Application (evt_20260829_7809556e59)\n- [A] 2026-08-28 Special Conditions: Skyryse, Robinson Helicopter Company Model R66 Helicopter; Control Margin Awareness (evt_20260829_6d9b92b841)\n- [A] 2026-08-28 Polytetramethylene Ether Glycol From the People's Republic of China, the Republic of Korea, Taiwan, and the Socialist Republic of Vietnam: Postponement of Preliminary Determinations in the Less-Than-Fair-Value Investigations (evt_20260829_0f3a39c8ea)\n- [A] 2026-08-28 Carbon and Alloy Steel Wire Rod From the Republic of Korea: Notice of Reopening of, and Intent To Reconsider the Final Results of, Antidumping Duty Administrative Review; 2023-2024 (evt_20260829_1396c2e648)"
+      "body": "本日 103 件を観測。\n- [A] 2026-08-31 Revocation of the Designation of Al-Nusrah Front, Also Known as Hay'at Tahrir al-Sham, as a Specially Designated Global Terrorist (evt_20260829_fdb40e0abc)\n- [A] 2026-08-31 Permitting Use of Computer-Based, Three-Dimensional Simulation for Periodic Refresher Training on Brake Systems (evt_20260829_9f5fcd18f6)\n- [A] 2026-08-31 First Step Act Time Credits-Revisions (evt_20260829_d41b6792a8)\n- [A] 2026-08-31 Promoting Telehealth in Rural America (evt_20260829_95661062d5)\n- [A] 2026-08-31 Rescission of Social Security Acquiescence Ruling 90-2(2) (evt_20260829_6a8085ebeb)\n- [A] 2026-08-31 Information Collection Being Reviewed by the Federal Communications Commission (evt_20260829_a0395dbd8e)\n- [A] 2026-08-31 Expanding Certain Locomotive Wheel Set Diameter Variations (evt_20260829_97dc2d945c)\n- [A] 2026-08-31 Information Collection Being Reviewed by the Federal Communications Commission Under Delegated Authority (evt_20260829_f41ea3e714)"
     },
     {
       "no": 3,
@@ -109,7 +109,7 @@
   "prohibited_output_check": {
     "contains_ticker_recommendation": false,
     "contains_ranking": false,
-    "checked_at": "2026-08-29T03:17:10Z"
+    "checked_at": "2026-08-29T23:32:20Z"
   },
   "schema_version": "1.0"
 }
