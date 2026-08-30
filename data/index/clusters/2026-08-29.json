@@ -7,7 +7,8 @@
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-08-28&tenor=2%E5%B9%B4": "clu_ca90467fe9",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-08-28&tenor=5%E5%B9%B4": "clu_f04a7e9b88",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-08-27&series=tot_pub_debt_out_amt": "clu_b27dccc9ac",
-    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-08-27&series=debt_held_public_amt": "clu_7e70827515"
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-08-27&series=debt_held_public_amt": "clu_7e70827515",
+    "https://spectrum.ieee.org/bimodal-nuclear-engine": "clu_acc4862f23"
   },
   "by_hash": {
     "fc007e4b34eefc4d7d648a7d21ba212194fc090d1dc707336d0009a0ce9e38a0": "clu_f28c1cc8ba",
@@ -17,7 +18,8 @@
     "d7105f2a2cf1470941121342eff6832ada1530eda12e42b18b0fb9c83f336409": "clu_ca90467fe9",
     "9c3a58e7293c087ccd419d4d15c8372fd6aa327dfd987494e8ee568174c1e00b": "clu_f04a7e9b88",
     "36d81dfb025f489d4b362befd437da999e0f3af12537748286dac86f692366fa": "clu_b27dccc9ac",
-    "49c0677b7b1f66e94b20a1cdd38ab8022c1b953f483abd16f36fe07d9169eb5c": "clu_7e70827515"
+    "49c0677b7b1f66e94b20a1cdd38ab8022c1b953f483abd16f36fe07d9169eb5c": "clu_7e70827515",
+    "fb57677f97e612722efbd5d886c2e0ea4489874fce0b8078f3cb803af6f776d9": "clu_acc4862f23"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 20年 2026-08-28: 5.21 %::2026-08-29": "clu_f28c1cc8ba",
@@ -27,7 +29,8 @@
     "u.s. department of the treasury::米国債利回り 2年 2026-08-28: 4.34 %::2026-08-29": "clu_ca90467fe9",
     "u.s. department of the treasury::米国債利回り 5年 2026-08-28: 4.48 %::2026-08-29": "clu_f04a7e9b88",
     "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-08-27: 40,077,529,831,942.938 usd::2026-08-29": "clu_b27dccc9ac",
-    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-08-27: 32,313,802,811,901.629 usd::2026-08-29": "clu_7e70827515"
+    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-08-27: 32,313,802,811,901.629 usd::2026-08-29": "clu_7e70827515",
+    "ieee::noodling on nuclear engines::2026-08-29": "clu_acc4862f23"
   },
   "clusters": {
     "clu_f28c1cc8ba": {
@@ -100,6 +103,15 @@
       ],
       "source_ids": [
         "src_us_treasury_debt"
+      ]
+    },
+    "clu_acc4862f23": {
+      "primary_event_id": "evt_20260830_fb57677f97",
+      "event_ids": [
+        "evt_20260830_fb57677f97"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
       ]
     }
   }

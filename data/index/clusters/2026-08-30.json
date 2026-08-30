@@ -1,0 +1,58 @@
+{
+  "by_url": {
+    "https://science.nasa.gov/photojournal/panorama-showcasing-the-34-meter-antennas-of-the-dsns-goldstone-complex": "clu_adf47b7087",
+    "https://science.nasa.gov/photojournal/ribbon-cutting-event-for-nasa-deep-space-networks-deep-space-station-23": "clu_edab6b9424",
+    "https://science.nasa.gov/photojournal/nasa-deep-space-networks-new-goldstone-antenna-goes-online": "clu_16dcf43628",
+    "https://nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches": "clu_4f834c3dbe"
+  },
+  "by_hash": {
+    "9d2b0072bfa186ca7a1eefaac53a61a7050e7585e8558d350a767b72654232b2": "clu_adf47b7087",
+    "f014b7e85d02ad4be0e6e7242836b0994c437b5de564451ebbb352087aae894e": "clu_edab6b9424",
+    "46ada34abd433e4856b0334b6816642a8aa7d92d4486f2bcf4ff54a061691b8c": "clu_16dcf43628",
+    "08a0aa332f3322ce69c3b80fe4987eadb2087f195e4124e12c0571354587af08": "clu_4f834c3dbe"
+  },
+  "by_key": {
+    "nasa::panorama showcasing the 34-meter antennas of the dsn’s goldstone complex::2026-08-30": "clu_adf47b7087",
+    "nasa::ribbon-cutting event for nasa deep space network’s deep space station 23::2026-08-30": "clu_edab6b9424",
+    "nasa::nasa deep space network’s new goldstone antenna goes online::2026-08-30": "clu_16dcf43628",
+    "nasa::nasa’s dark universe-seeking nancy grace roman space telescope launches::2026-08-30": "clu_4f834c3dbe"
+  },
+  "clusters": {
+    "clu_adf47b7087": {
+      "primary_event_id": "evt_20260830_9d2b0072bf",
+      "event_ids": [
+        "evt_20260830_9d2b0072bf"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_edab6b9424": {
+      "primary_event_id": "evt_20260830_f014b7e85d",
+      "event_ids": [
+        "evt_20260830_f014b7e85d"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_16dcf43628": {
+      "primary_event_id": "evt_20260830_46ada34abd",
+      "event_ids": [
+        "evt_20260830_46ada34abd"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_4f834c3dbe": {
+      "primary_event_id": "evt_20260830_08a0aa332f",
+      "event_ids": [
+        "evt_20260830_08a0aa332f"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    }
+  }
+}

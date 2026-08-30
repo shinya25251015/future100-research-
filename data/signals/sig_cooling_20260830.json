@@ -1,0 +1,66 @@
+{
+  "window_id": "sig_cooling_20260830",
+  "as_of": "2026-08-30T23:44:00Z",
+  "window": {
+    "start": "2026-08-24",
+    "end": "2026-08-30",
+    "baseline_start": "2026-07-27",
+    "baseline_end": "2026-08-23"
+  },
+  "topic": {
+    "label": "冷却・熱管理",
+    "keywords": [
+      "liquid cooling",
+      "immersion cooling",
+      "data center cooling",
+      "thermal management",
+      "液冷",
+      "冷却装置",
+      "熱管理"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_cooling"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 4,
+      "baseline_count": 1.25,
+      "event_ids": [
+        "evt_20260824_d2118de9d3",
+        "evt_20260827_f8eddae77f",
+        "evt_20260828_f78965c636",
+        "evt_20260828_f64192c1b9"
+      ],
+      "delta_ratio": 2.2
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      },
+      {
+        "source_id": "src_ieee_spectrum",
+        "observation_start": "2026-08-13T15:29:13Z",
+        "covers_baseline": false
+      }
+    ],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 2,
+    "distinct_regions": 1,
+    "score": 34.2,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}
