@@ -1,10 +1,10 @@
 {
   "report_id": "rpt_20260901",
   "report_date": "2026-09-01",
-  "as_of": "2026-09-01T00:44:54Z",
+  "as_of": "2026-09-01T23:29:13Z",
   "coverage": {
-    "events_ingested": 357,
-    "events_after_dedup": 357,
+    "events_ingested": 421,
+    "events_after_dedup": 421,
     "sources_polled": 24,
     "sources_failed": []
   },
@@ -13,13 +13,13 @@
       "no": 1,
       "key": "executive_summary",
       "title": "本日の構造変化サマリ",
-      "body": "本日の観測は 357 件。内訳（分類別）: technology 325 / policy_regulation 15 / macro 14 / corporate_action 3。シグナル種別: paper 318 / procurement 3 / new_standard 1。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 16 件）。件数は観測量であって重要度ではない。"
+      "body": "本日の観測は 421 件。内訳（分類別）: technology 326 / policy_regulation 72 / macro 17 / corporate_action 6。シグナル種別: paper 318 / procurement 4 / export_control 3 / new_standard 1 / patent 1。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 16 件）。件数は観測量であって重要度ではない。"
     },
     {
       "no": 2,
       "key": "policy_regulation",
       "title": "政策・規制 (§4)",
-      "body": "本日 15 件を観測。\n- [B] 2026-08-31 The EU’s AI Drive Undermines Its ​Own Chip Strategy (evt_20260901_f978535700)\n- [A] 2026-08-31 Contracts for Aug. 31, 2026 (evt_20260901_568165d6aa)\n- [A] 2026-08-31 Keynote speech by Commissioner Hoekstra at the Opening of the Academic Year in Delft: 'Europe's Industrial and Technological Renaissance' (evt_20260901_65c587dd7f)\n- [A] 2026-08-31 Statement in context of G20 Finance Ministers and Central Bank Governors meetings on 31 August and 1 September, in Asheville, US (evt_20260901_7cd89a1ab4)\n- [A] 2026-08-31 Statement by President von der Leyen following her visit to the Emergency Response Coordination Centre (evt_20260901_7927f96c1d)\n- [A] 2026-08-31 Daily News 31 / 08 / 2026 (evt_20260901_af5da54967)\n- [A] 2026-08-31 Factsheet: Europe responds, solidarity in action (evt_20260901_b189a3924a)\n- [A] 2026-08-31 長期国債買入れ（利回り・価格入札方式）の四半期予定（2026年7～9月）［日程更新］ (evt_20260901_976d4a2a48)"
+      "body": "本日 72 件を観測。\n- [B] 2026-08-31 The EU’s AI Drive Undermines Its ​Own Chip Strategy (evt_20260901_f978535700)\n- [A] 2026-09-01 Contracts for Sept. 1, 2026 (evt_20260901_464cdd8ff0)\n- [A] 2026-09-01 Speech by Commissioner Lahbib at the European Parliament on the 2026 Wildfire Season (evt_20260901_07d7d65288)\n- [A] 2026-09-01 Speech by Commissioner Jozef Síkela at the Opening of the EU Arctic Forum in Brussels (evt_20260901_df124c5275)\n- [A] 2026-09-01 Daily News 01 / 09 / 2026 (evt_20260901_ee6bb8a0fe)\n- [A] 2026-09-01 Entry into force or application of EU legislation key milestones  1 September – 15 October 2026 (evt_20260901_470e3c1bd0)\n- [A] 2026-09-01 30-Day Notice of Proposed Information Collection: The Resident Opportunities and Self-Sufficiency (ROSS) Program (evt_20260901_49e7e0ae28)\n- [A] 2026-09-01 Notice of Agreements Filed (evt_20260901_3bfcf95398)"
     },
     {
       "no": 3,
@@ -31,7 +31,7 @@
       "no": 4,
       "key": "macro_economy",
       "title": "マクロ経済 (§6)",
-      "body": "本日 14 件を観測（うち一次統計のデータ点 10 件）。\n- 統計 米国 公的債務残高 = 40,104,097,482,666.58 USD（2026-08-28, 本日 1 期ぶんを観測）\n- 統計 米国 民間保有債務残高 = 32,340,688,588,401.83 USD（2026-08-28, 本日 1 期ぶんを観測）\n- 統計 米国債入札 応札倍率（13-Week, Bill） = 2.77 倍（2026-08-31, 本日 1 期ぶんを観測）\n- 統計 米国債入札 応札倍率（26-Week, Bill） = 2.63 倍（2026-08-31, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 10年 = 4.75 %（2026-08-31, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 20年 = 5.24 %（2026-08-31, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 2年 = 4.34 %（2026-08-31, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 30年 = 5.25 %（2026-08-31, 本日 1 期ぶんを観測）\n- [A] 2026-08-31 令和8年8月27日からの大雨に伴う災害等に対する金融上の措置について（福井県） (evt_20260901_db7b6b8560)\n- [A] 2026-08-31 決済動向（7月） (evt_20260901_102eb24b48)\n- [A] 2026-08-31 資金循環（日米欧比較）（2026年第1四半期） (evt_20260901_c96a959fc1)\n- [A] 2026-08-30 貸出約定平均金利（7月） (evt_20260901_6c38fb84ee)"
+      "body": "本日 17 件を観測（うち一次統計のデータ点 10 件）。\n- 統計 米国 公的債務残高 = 40,104,097,482,666.58 USD（2026-08-28, 本日 1 期ぶんを観測）\n- 統計 米国 民間保有債務残高 = 32,340,688,588,401.83 USD（2026-08-28, 本日 1 期ぶんを観測）\n- 統計 米国債入札 応札倍率（13-Week, Bill） = 2.77 倍（2026-08-31, 本日 1 期ぶんを観測）\n- 統計 米国債入札 応札倍率（26-Week, Bill） = 2.63 倍（2026-08-31, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 10年 = 4.75 %（2026-08-31, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 20年 = 5.24 %（2026-08-31, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 2年 = 4.34 %（2026-08-31, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 30年 = 5.25 %（2026-08-31, 本日 1 期ぶんを観測）\n- [A] 2026-09-01 金融安定理事会によるG20財務大臣・中央銀行総裁へのレターの公表について (evt_20260901_70388deffb)\n- [A] 2026-09-01 債券市場サーベイ（2026年8月調査） (evt_20260901_284ceb477a)\n- [A] 2026-09-01 日銀当座預金増減要因と金融調節（8月実績） (evt_20260901_ddac4a9884)\n- [A] 2026-08-31 令和8年8月27日からの大雨に伴う災害等に対する金融上の措置について（福井県） (evt_20260901_db7b6b8560)\n- [A] 2026-08-31 決済動向（7月） (evt_20260901_102eb24b48)\n- [A] 2026-08-31 資金循環（日米欧比較）（2026年第1四半期） (evt_20260901_c96a959fc1)\n- [A] 2026-08-30 貸出約定平均金利（7月） (evt_20260901_6c38fb84ee)"
     },
     {
       "no": 5,
@@ -43,7 +43,7 @@
       "no": 6,
       "key": "technology_progress",
       "title": "技術革新の進展 (§8)",
-      "body": "本日 325 件を観測。\n- [B] 2026-08-31 This Teen Helped Native American Students Earn Ham Radio Licenses (evt_20260901_6d50dd1c54)\n- [B] 2026-08-31 The First Battery Was Inspired By a Dead Frog (evt_20260901_12c04021c7)\n- [B] 2026-08-31 Scientific Graphics Program Synthesis via Dual Self-Consistency Reinforcement Learning (evt_20260901_a520a639dc)\n- [B] 2026-08-31 Stress-induced Martensitic transformation in epitaxial Ni-Mn-Ga thin films and its correlation to optical and magneto-optical properties (evt_20260901_fca6eeca30)\n- [B] 2026-08-31 Beyond Pixels: Visual Metaphor Transfer via Schema-Driven Agentic Reasoning (evt_20260901_539b9ef8e0)\n- [B] 2026-08-31 Automatic Pronunciation Error Detection and Correction of the Holy Quran's Learners Using Deep Learning (evt_20260901_90709bd0b6)\n- [B] 2026-08-31 RiskBlend: A Multi-Signal Framework for Test Input Prioritization in Machine Learning Regression Testing (evt_20260901_f34907a345)\n- [B] 2026-08-31 LongPIBench: A Long-Context Benchmark for Prompt Injection (evt_20260901_5a665f34f0)"
+      "body": "本日 326 件を観測。\n- [B] 2026-08-31 This Teen Helped Native American Students Earn Ham Radio Licenses (evt_20260901_6d50dd1c54)\n- [B] 2026-08-31 The First Battery Was Inspired By a Dead Frog (evt_20260901_12c04021c7)\n- [B] 2026-08-31 Scientific Graphics Program Synthesis via Dual Self-Consistency Reinforcement Learning (evt_20260901_a520a639dc)\n- [B] 2026-08-31 Stress-induced Martensitic transformation in epitaxial Ni-Mn-Ga thin films and its correlation to optical and magneto-optical properties (evt_20260901_fca6eeca30)\n- [B] 2026-08-31 Beyond Pixels: Visual Metaphor Transfer via Schema-Driven Agentic Reasoning (evt_20260901_539b9ef8e0)\n- [B] 2026-08-31 Automatic Pronunciation Error Detection and Correction of the Holy Quran's Learners Using Deep Learning (evt_20260901_90709bd0b6)\n- [B] 2026-08-31 RiskBlend: A Multi-Signal Framework for Test Input Prioritization in Machine Learning Regression Testing (evt_20260901_f34907a345)\n- [B] 2026-08-31 LongPIBench: A Long-Context Benchmark for Prompt Injection (evt_20260901_5a665f34f0)"
     },
     {
       "no": 7,
@@ -109,7 +109,7 @@
   "prohibited_output_check": {
     "contains_ticker_recommendation": false,
     "contains_ranking": false,
-    "checked_at": "2026-09-01T00:45:14Z"
+    "checked_at": "2026-09-01T23:29:34Z"
   },
   "schema_version": "1.0"
 }

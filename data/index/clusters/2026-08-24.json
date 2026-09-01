@@ -404,7 +404,10 @@
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-08-24&tenor=2%E5%B9%B4": "clu_6034266e9b",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-08-21&series=tot_pub_debt_out_amt": "clu_5b47b254b6",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-08-21&series=debt_held_public_amt": "clu_e31d32cabe",
-    "https://ec.europa.eu/commission/presscorner/detail/lv/speech_26_1755": "clu_340c99cf87"
+    "https://ec.europa.eu/commission/presscorner/detail/lv/speech_26_1755": "clu_340c99cf87",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1786": "clu_550a90f229",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1787": "clu_9e08f2c822",
+    "https://ec.europa.eu/commission/presscorner/detail/sv/speech_26_1785": "clu_4530ea3e53"
   },
   "by_hash": {
     "a6778b4ba2cfc13d7ebd5c4fcad0e7d5af5dc39e8839b4a0fca4d5172503eeaf": "clu_5e0e15dca1",
@@ -811,7 +814,10 @@
     "50392b6cf5d6ab130b3e412c697212e8053b0ff394c4f1e51bf14f067a1b2aee": "clu_6034266e9b",
     "b4e77c17f9073e07b1ffa4156e2d2ee30310ae5a5af36c72506e22581c91351d": "clu_5b47b254b6",
     "2d36636acf10154e1b98ee46fd4a0eb780420c16f5b230c2cb163c564f1330ed": "clu_e31d32cabe",
-    "8acf5173fe8e638f5049e132a159c70b7af2428c28f23b3073fecbf60dae521d": "clu_340c99cf87"
+    "8acf5173fe8e638f5049e132a159c70b7af2428c28f23b3073fecbf60dae521d": "clu_340c99cf87",
+    "797fd414f0d25f82a93d8029af899232abf5814fa1e555f4d8785d7b5b77bd7e": "clu_550a90f229",
+    "3b9dfa5de10ec3a8a08208b66d05d447e065199e09a8249bb0478708af026896": "clu_9e08f2c822",
+    "91577072eeae792520fd759dce877aae4adb0af014d2061d0ff750b54dff95e0": "clu_4530ea3e53"
   },
   "by_key": {
     "office of the federal register::environmental management site-specific advisory board, paducah::2026-08-24": "clu_5e0e15dca1",
@@ -1216,7 +1222,10 @@
     "u.s. department of the treasury::米国債利回り 2年 2026-08-24: 4.24 %::2026-08-24": "clu_6034266e9b",
     "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-08-21: 40,032,876,505,819.312 usd::2026-08-24": "clu_5b47b254b6",
     "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-08-21: 32,276,141,923,440.988 usd::2026-08-24": "clu_e31d32cabe",
-    "european commission::eiropas komisāra valda dombrovska runa rīgas tehniskajā universitātē, atklājot talantu programmas 2026./2027. m.g.::2026-08-24": "clu_340c99cf87"
+    "european commission::eiropas komisāra valda dombrovska runa rīgas tehniskajā universitātē, atklājot talantu programmas 2026./2027. m.g.::2026-08-24": "clu_340c99cf87",
+    "european commission::commissioner roswall's address at the high level roundtable, 'water in the boardroom'::2026-08-24": "clu_550a90f229",
+    "european commission::commissioner roswall's speech at the stockholm junior water prize ceremony::2026-08-24": "clu_9e08f2c822",
+    "european commission::commissioner roswall's speech at the 'baltic sea solutions' event during stockholm water week::2026-08-24": "clu_4530ea3e53"
   },
   "clusters": {
     "clu_5e0e15dca1": {
@@ -4859,6 +4868,33 @@
       "primary_event_id": "evt_20260825_8acf5173fe",
       "event_ids": [
         "evt_20260825_8acf5173fe"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_550a90f229": {
+      "primary_event_id": "evt_20260901_797fd414f0",
+      "event_ids": [
+        "evt_20260901_797fd414f0"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_9e08f2c822": {
+      "primary_event_id": "evt_20260901_3b9dfa5de1",
+      "event_ids": [
+        "evt_20260901_3b9dfa5de1"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_4530ea3e53": {
+      "primary_event_id": "evt_20260901_91577072ee",
+      "event_ids": [
+        "evt_20260901_91577072ee"
       ],
       "source_ids": [
         "src_eu_commission_press"
