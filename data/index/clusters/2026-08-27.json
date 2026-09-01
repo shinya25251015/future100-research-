@@ -88,7 +88,8 @@
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-03": "clu_927a1f85e1",
     "https://esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/MTG-I2_ready_for_launch_on_Ariane_6": "clu_a9adf880d0",
     "https://esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/MTG-I2_completes_Europe_s_latest_weather_trio": "clu_424f6959bd",
-    "https://esa.int/Enabling_Support/Space_Transportation/First_contracts_kick_off_European_Launcher_Challenge": "clu_e9b598c7f9"
+    "https://esa.int/Enabling_Support/Space_Transportation/First_contracts_kick_off_European_Launcher_Challenge": "clu_e9b598c7f9",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1773": "clu_f8ee7b2a7d"
   },
   "by_hash": {
     "e876e4478686db9edf1c09eda7663a2ba8edabccf2693c50e55fc7f945210a8b": "clu_8637313629",
@@ -179,7 +180,8 @@
     "15957a9585807a3010788bf79ab2fad95ce9b4bf6b2cdfc378f574e88157f656": "clu_927a1f85e1",
     "142e89a188c480cec11276c838ea04700d685f2bd38c67b801b9bd65df6c776c": "clu_a9adf880d0",
     "daf94934d829431bc03ec49559307daae6b3bee5af260767b1a52940f983d300": "clu_424f6959bd",
-    "4d6aa938423eae87d03477a50327638271d4c37cb6685eeca0ac2da6784e602b": "clu_e9b598c7f9"
+    "4d6aa938423eae87d03477a50327638271d4c37cb6685eeca0ac2da6784e602b": "clu_e9b598c7f9",
+    "32cb64f127eb14c47b0ce12c3a4f9e41466fabb426c1935b9f75d85fc60aa3ba": "clu_f8ee7b2a7d"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 30年 2026-08-26: 5.18 %::2026-08-27": "clu_8637313629",
@@ -269,7 +271,8 @@
     "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-03: 240,681.987 gwh::2026-08-27": "clu_927a1f85e1",
     "european space agency::mtg-i2 ready for launch on ariane 6::2026-08-27": "clu_a9adf880d0",
     "european space agency::mtg-i2 completes europe’s latest weather trio::2026-08-27": "clu_424f6959bd",
-    "european space agency::first contracts kick off european launcher challenge::2026-08-27": "clu_e9b598c7f9"
+    "european space agency::first contracts kick off european launcher challenge::2026-08-27": "clu_e9b598c7f9",
+    "european commission::speech by commissioner albuquerque at the 8th european summer courses: “connected europe”::2026-08-27": "clu_f8ee7b2a7d"
   },
   "clusters": {
     "clu_8637313629": {
@@ -1040,6 +1043,15 @@
       ],
       "source_ids": [
         "src_esa_news"
+      ]
+    },
+    "clu_f8ee7b2a7d": {
+      "primary_event_id": "evt_20260901_32cb64f127",
+      "event_ids": [
+        "evt_20260901_32cb64f127"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

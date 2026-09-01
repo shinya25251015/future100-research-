@@ -1,0 +1,94 @@
+{
+  "window_id": "sig_semiconductor_20260901",
+  "as_of": "2026-09-01T00:44:54Z",
+  "window": {
+    "start": "2026-08-26",
+    "end": "2026-09-01",
+    "baseline_start": "2026-07-29",
+    "baseline_end": "2026-08-25"
+  },
+  "topic": {
+    "label": "半導体",
+    "keywords": [
+      "semiconductor",
+      "foundry",
+      "wafer",
+      "lithography",
+      "euv",
+      "hbm",
+      "chip fab",
+      "半導体",
+      "前工程",
+      "後工程",
+      "露光装置"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_semiconductor"
+  },
+  "counts": [
+    {
+      "signal_type": "new_standard",
+      "count": 0,
+      "baseline_count": 0.5,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    },
+    {
+      "signal_type": "paper",
+      "count": 17,
+      "baseline_count": 26.75,
+      "event_ids": [
+        "evt_20260827_23ff7ba3a9",
+        "evt_20260827_cf86c40d32",
+        "evt_20260827_1450eaed45",
+        "evt_20260827_fe1eeddf9c",
+        "evt_20260827_e334cc4187",
+        "evt_20260828_4cee4a8193",
+        "evt_20260828_2ee271f321",
+        "evt_20260828_a98b250b63",
+        "evt_20260828_d39d13e998",
+        "evt_20260828_7ecb448bf6",
+        "evt_20260828_88178fb095",
+        "evt_20260828_ad90ef7642",
+        "evt_20260901_364845ef53",
+        "evt_20260901_17e686c44c",
+        "evt_20260901_e5152613c9",
+        "evt_20260901_dc96e57059",
+        "evt_20260901_ef0379c7b4"
+      ],
+      "delta_ratio": -0.364
+    },
+    {
+      "signal_type": "patent",
+      "count": 0,
+      "baseline_count": 0.5,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    },
+    {
+      "signal_type": "procurement",
+      "count": 1,
+      "baseline_count": 0.0,
+      "event_ids": [
+        "evt_20260901_f978535700"
+      ]
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}

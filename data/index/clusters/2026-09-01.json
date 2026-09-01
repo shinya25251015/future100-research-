@@ -1,0 +1,142 @@
+{
+  "by_url": {
+    "https://news.samsung.com/global/samsung-expands-the-galaxy-book6-lineup-making-galaxy-book-more-accessible": "clu_2059937597",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-08-31&tenor=3%E3%81%8B%E6%9C%88": "clu_fce20cb41b",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-08-31&tenor=2%E5%B9%B4": "clu_02d85f95b1",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-08-31&tenor=30%E5%B9%B4": "clu_740f20d1ba",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-08-31&tenor=10%E5%B9%B4": "clu_58014ebedd",
+    "https://treasurydirect.gov/auctions/announcements-data-results?cusip=912797WD5&metric=bid_to_cover&period=2026-08-31": "clu_c519e69487",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-08-31&tenor=20%E5%B9%B4": "clu_c344d6afe5",
+    "https://treasurydirect.gov/auctions/announcements-data-results?cusip=912797VA2&metric=bid_to_cover&period=2026-08-31": "clu_56fe197260",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-08-31&tenor=5%E5%B9%B4": "clu_80e9b5f530",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-08-28&series=debt_held_public_amt": "clu_d03784e25c",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-08-28&series=tot_pub_debt_out_amt": "clu_e0a3cf6ff0"
+  },
+  "by_hash": {
+    "3efb706a032944427ec72981605eac8a323d531979ea52df66c510a79af22a48": "clu_2059937597",
+    "567a8a055741f5fef88b43e87495ee3a825ba3b3bc508a4c5328ec076d1d9149": "clu_fce20cb41b",
+    "b8a0e8bacc830ff60baa777abd4a526038c58574bc00650237e5840058cf1f07": "clu_02d85f95b1",
+    "c2e0d268d7c6c2bae18ce83ad8452eb5b798b5be027cd55c7a1b8ab63618aa70": "clu_740f20d1ba",
+    "1bd3fdcc1f91e6f1438a1a659fe66c762020d04c312d076de79fb25be335a2e3": "clu_58014ebedd",
+    "71c7bab5c69d28286ff682495606ad348831920907598d7f5190d8a08c4188e1": "clu_c519e69487",
+    "eec1984368bc6241c6abab60e9cd3ef5cc5a006effd30bd3b3fc943c9418eaed": "clu_c344d6afe5",
+    "da3c7477b2bb69c2f06c12a4af8c41ac8b80ec930c53da24644e7c28eac10882": "clu_56fe197260",
+    "63b5772d0038f3ddd85b3978c55a6bf852dbac75e512d6c46d6544e82e2b03ca": "clu_80e9b5f530",
+    "06565ca0030fd78b59751c12eb59d633fdd9bbf9be421a1736fb3eb3c73308ee": "clu_d03784e25c",
+    "ddf73dd001485ba79abfa42473b8f3386ba3cdae5da3ced2047db6264a7f8a3b": "clu_e0a3cf6ff0"
+  },
+  "by_key": {
+    "samsung electronics::samsung expands the galaxy book6 lineup, making galaxy book more accessible::2026-09-01": "clu_2059937597",
+    "u.s. department of the treasury::米国債利回り 3か月 2026-08-31: 3.91 %::2026-09-01": "clu_fce20cb41b",
+    "u.s. department of the treasury::米国債利回り 2年 2026-08-31: 4.34 %::2026-09-01": "clu_02d85f95b1",
+    "u.s. department of the treasury::米国債利回り 30年 2026-08-31: 5.25 %::2026-09-01": "clu_740f20d1ba",
+    "u.s. department of the treasury::米国債利回り 10年 2026-08-31: 4.75 %::2026-09-01": "clu_58014ebedd",
+    "u.s. department of the treasury (treasurydirect)::米国債入札 応札倍率(26-week, bill) 2026-08-31: 2.63 倍::2026-09-01": "clu_c519e69487",
+    "u.s. department of the treasury::米国債利回り 20年 2026-08-31: 5.24 %::2026-09-01": "clu_c344d6afe5",
+    "u.s. department of the treasury (treasurydirect)::米国債入札 応札倍率(13-week, bill) 2026-08-31: 2.77 倍::2026-09-01": "clu_56fe197260",
+    "u.s. department of the treasury::米国債利回り 5年 2026-08-31: 4.49 %::2026-09-01": "clu_80e9b5f530",
+    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-08-28: 32,340,688,588,401.828 usd::2026-09-01": "clu_d03784e25c",
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-08-28: 40,104,097,482,666.578 usd::2026-09-01": "clu_e0a3cf6ff0"
+  },
+  "clusters": {
+    "clu_2059937597": {
+      "primary_event_id": "evt_20260901_3efb706a03",
+      "event_ids": [
+        "evt_20260901_3efb706a03"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_fce20cb41b": {
+      "primary_event_id": "evt_20260901_567a8a0557",
+      "event_ids": [
+        "evt_20260901_567a8a0557"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_02d85f95b1": {
+      "primary_event_id": "evt_20260901_b8a0e8bacc",
+      "event_ids": [
+        "evt_20260901_b8a0e8bacc"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_740f20d1ba": {
+      "primary_event_id": "evt_20260901_c2e0d268d7",
+      "event_ids": [
+        "evt_20260901_c2e0d268d7"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_58014ebedd": {
+      "primary_event_id": "evt_20260901_1bd3fdcc1f",
+      "event_ids": [
+        "evt_20260901_1bd3fdcc1f"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_c519e69487": {
+      "primary_event_id": "evt_20260901_71c7bab5c6",
+      "event_ids": [
+        "evt_20260901_71c7bab5c6"
+      ],
+      "source_ids": [
+        "src_us_treasury_auctions"
+      ]
+    },
+    "clu_c344d6afe5": {
+      "primary_event_id": "evt_20260901_eec1984368",
+      "event_ids": [
+        "evt_20260901_eec1984368"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_56fe197260": {
+      "primary_event_id": "evt_20260901_da3c7477b2",
+      "event_ids": [
+        "evt_20260901_da3c7477b2"
+      ],
+      "source_ids": [
+        "src_us_treasury_auctions"
+      ]
+    },
+    "clu_80e9b5f530": {
+      "primary_event_id": "evt_20260901_63b5772d00",
+      "event_ids": [
+        "evt_20260901_63b5772d00"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_d03784e25c": {
+      "primary_event_id": "evt_20260901_06565ca003",
+      "event_ids": [
+        "evt_20260901_06565ca003"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    },
+    "clu_e0a3cf6ff0": {
+      "primary_event_id": "evt_20260901_ddf73dd001",
+      "event_ids": [
+        "evt_20260901_ddf73dd001"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    }
+  }
+}
