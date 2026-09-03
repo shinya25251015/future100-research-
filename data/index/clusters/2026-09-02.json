@@ -575,7 +575,9 @@
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-08-31&series=debt_held_public_amt": "clu_024f71e243",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-01&series=tot_pub_debt_out_amt": "clu_bdc28537ab",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-01&series=debt_held_public_amt": "clu_9b2d4290ef",
-    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-08-31&series=tot_pub_debt_out_amt": "clu_c0e77a0931"
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-08-31&series=tot_pub_debt_out_amt": "clu_c0e77a0931",
+    "http://boj.or.jp/statistics/boj/fm/juqp/juqp2609.xlsx": "clu_18c5c9768a",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1769": "clu_ec0b93ce1e"
   },
   "by_hash": {
     "1fb146541842e9242d5e17afb35738246f96519312b7d26da5e1c8366b7652bc": "clu_f71d5dbd37",
@@ -1149,7 +1151,9 @@
     "eda867d7d857d9bb23492b5936c678182b8a453cf95c82e91cf2d677c6ef574d": "clu_024f71e243",
     "41c4d8249c3eb97bc5fe848983e299f6928c9b404506862f727a022c46ff370e": "clu_bdc28537ab",
     "e7316d199e22e273fdeea0f518c8d429a8d8bd29e469b27bc4b588bdf70ecb7e": "clu_9b2d4290ef",
-    "da13bfd7afd1c050682426e094d776002a59aa93849bd4f5a486a927c2a8aa99": "clu_c0e77a0931"
+    "da13bfd7afd1c050682426e094d776002a59aa93849bd4f5a486a927c2a8aa99": "clu_c0e77a0931",
+    "58239d5d51906f6a842e516a7b7e39d0830fa486fe0b306b0166b164de9aecda": "clu_18c5c9768a",
+    "444e107da08a4ebc2557091c4bde74d6ed1866bf92f0fcb39dc25266569ec093": "clu_ec0b93ce1e"
   },
   "by_key": {
     "office of the federal register::safety zone; lake st. clair, grosse pointe farms, mi::2026-09-02": "clu_f71d5dbd37",
@@ -1722,7 +1726,9 @@
     "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-08-31: 32,414,988,847,175.219 usd::2026-09-02": "clu_024f71e243",
     "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-09-01: 40,112,464,593,206.297 usd::2026-09-02": "clu_bdc28537ab",
     "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-09-01: 32,420,529,452,197.109 usd::2026-09-02": "clu_9b2d4290ef",
-    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-08-31: 40,175,641,071,634.141 usd::2026-09-02": "clu_c0e77a0931"
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-08-31: 40,175,641,071,634.141 usd::2026-09-02": "clu_c0e77a0931",
+    "日本銀行::日銀当座預金増減要因(9月見込み)::2026-09-02": "clu_18c5c9768a",
+    "european commission::commission adopts eu guidelines on exclusionary abuses of dominance::2026-09-02": "clu_ec0b93ce1e"
   },
   "clusters": {
     "clu_f71d5dbd37": {
@@ -6871,6 +6877,24 @@
       ],
       "source_ids": [
         "src_us_treasury_debt"
+      ]
+    },
+    "clu_18c5c9768a": {
+      "primary_event_id": "evt_20260903_58239d5d51",
+      "event_ids": [
+        "evt_20260903_58239d5d51"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_ec0b93ce1e": {
+      "primary_event_id": "evt_20260903_444e107da0",
+      "event_ids": [
+        "evt_20260903_444e107da0"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

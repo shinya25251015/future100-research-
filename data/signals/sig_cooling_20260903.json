@@ -1,0 +1,58 @@
+{
+  "window_id": "sig_cooling_20260903",
+  "as_of": "2026-09-03T23:27:38Z",
+  "window": {
+    "start": "2026-08-28",
+    "end": "2026-09-03",
+    "baseline_start": "2026-07-31",
+    "baseline_end": "2026-08-27"
+  },
+  "topic": {
+    "label": "冷却・熱管理",
+    "keywords": [
+      "liquid cooling",
+      "immersion cooling",
+      "data center cooling",
+      "thermal management",
+      "液冷",
+      "冷却装置",
+      "熱管理"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_cooling"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 2,
+      "baseline_count": 1.25,
+      "event_ids": [
+        "evt_20260828_f78965c636",
+        "evt_20260828_f64192c1b9"
+      ],
+      "delta_ratio": 0.6
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 1,
+    "distinct_regions": 1,
+    "score": 26.7,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}
