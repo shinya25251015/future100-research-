@@ -1,0 +1,46 @@
+{
+  "by_url": {
+    "https://science.nasa.gov/image-article/apod-2026-september-5-chasing-the-moons-shadow": "clu_4492c068c4",
+    "https://esa.int/Enabling_Support/Space_Transportation/Boost/Isar_Aerospace_achieves_first_launch_to_orbit_from_continental_Europe": "clu_3b9b14686a",
+    "https://esa.int/Enabling_Support/Space_Transportation/Boost/Spectrum_s_qualifying_second_launch": "clu_3b29009d21"
+  },
+  "by_hash": {
+    "d2245c7276e3816003f73748f202d956f82c105d4da33d7ed7dc33d691b9cc8c": "clu_4492c068c4",
+    "19462c129999f74727c9eea22a3ae0f89fb32e0e82c7871d2adc6fcedde7327b": "clu_3b9b14686a",
+    "30009e6fe0c4fd12598e8dca5b765b89d90427a7f381dfb7892a7eee40de3df4": "clu_3b29009d21"
+  },
+  "by_key": {
+    "nasa::apod: 2026 september 5 – chasing the moon’s shadow::2026-09-05": "clu_4492c068c4",
+    "european space agency::isar aerospace achieves first launch to orbit from continental europe::2026-09-05": "clu_3b9b14686a",
+    "european space agency::spectrum’s qualifying second launch::2026-09-05": "clu_3b29009d21"
+  },
+  "clusters": {
+    "clu_4492c068c4": {
+      "primary_event_id": "evt_20260905_d2245c7276",
+      "event_ids": [
+        "evt_20260905_d2245c7276"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_3b9b14686a": {
+      "primary_event_id": "evt_20260905_19462c1299",
+      "event_ids": [
+        "evt_20260905_19462c1299"
+      ],
+      "source_ids": [
+        "src_esa_news"
+      ]
+    },
+    "clu_3b29009d21": {
+      "primary_event_id": "evt_20260905_30009e6fe0",
+      "event_ids": [
+        "evt_20260905_30009e6fe0"
+      ],
+      "source_ids": [
+        "src_esa_news"
+      ]
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "window_id": "sig_nuclear_20260905",
+  "as_of": "2026-09-05T23:10:03Z",
+  "window": {
+    "start": "2026-08-30",
+    "end": "2026-09-05",
+    "baseline_start": "2026-08-02",
+    "baseline_end": "2026-08-29"
+  },
+  "topic": {
+    "label": "原子力",
+    "keywords": [
+      "nuclear power",
+      "nuclear reactor",
+      "nuclear plant",
+      "small modular reactor",
+      "smr",
+      "原子力",
+      "原子炉",
+      "小型モジュール炉",
+      "再稼働"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_nuclear"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 2,
+      "baseline_count": 0.25,
+      "event_ids": [
+        "evt_20260901_1f69674161",
+        "evt_20260903_73dafa7e31"
+      ],
+      "delta_ratio": 7.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 1,
+    "distinct_regions": 1,
+    "score": 26.7,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}

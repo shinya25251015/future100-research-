@@ -1,0 +1,54 @@
+{
+  "window_id": "sig_quantum_20260905",
+  "as_of": "2026-09-05T23:10:03Z",
+  "window": {
+    "start": "2026-08-30",
+    "end": "2026-09-05",
+    "baseline_start": "2026-08-02",
+    "baseline_end": "2026-08-29"
+  },
+  "topic": {
+    "label": "量子",
+    "keywords": [
+      "quantum computing",
+      "quantum computer",
+      "qubit",
+      "quantum processor",
+      "量子コンピュータ",
+      "量子計算"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_quantum"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 4,
+      "baseline_count": 7.75,
+      "event_ids": [
+        "evt_20260902_ac581507e3",
+        "evt_20260902_71c905ee74",
+        "evt_20260902_bddf54836e",
+        "evt_20260903_c78e726a79"
+      ],
+      "delta_ratio": -0.484
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}
