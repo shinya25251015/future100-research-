@@ -1,0 +1,34 @@
+{
+  "by_url": {
+    "https://news.samsung.com/global/from-253-grams-to-201-grams-the-engineering-behind-the-worlds-lightest-fold": "clu_afaad9602e",
+    "https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partnership-for-intelligence-driven-semiconductor-infrastructure": "clu_fab14b7c36"
+  },
+  "by_hash": {
+    "a8321a9cf55bbb6fefeac52a94d1f97b52826f331be9e554251ecc6c19949379": "clu_afaad9602e",
+    "f9282bae1e516a2f0cc84b8f5e440491f67ab850fe697fabb4afb7c2bec8a068": "clu_fab14b7c36"
+  },
+  "by_key": {
+    "samsung electronics::from 253 grams to 201 grams: the engineering behind the world’s lightest fold::2026-09-09": "clu_afaad9602e",
+    "samsung electronics::samsung and mistral ai announce strategic partnership for intelligence-driven semiconductor infrastructure::2026-09-09": "clu_fab14b7c36"
+  },
+  "clusters": {
+    "clu_afaad9602e": {
+      "primary_event_id": "evt_20260908_a8321a9cf5",
+      "event_ids": [
+        "evt_20260908_a8321a9cf5"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_fab14b7c36": {
+      "primary_event_id": "evt_20260908_f9282bae1e",
+      "event_ids": [
+        "evt_20260908_f9282bae1e"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    }
+  }
+}

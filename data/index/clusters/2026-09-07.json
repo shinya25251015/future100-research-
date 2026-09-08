@@ -330,7 +330,10 @@
     "https://science.nasa.gov/image-article/apod-2026-september-7-the-pelican-nebula-in-gas-dust-and-stars": "clu_b95b265409",
     "https://news.samsung.com/global/samsung-medison-expands-womens-health-diagnostic-portfolio-with-launch-of-premium-ultrasound-hera-z10": "clu_4414a295c8",
     "https://news.samsung.com/global/samsung-enhances-long-term-value-of-refrigerators-and-laundry-appliances-with-ai-focused-software-updates": "clu_e6895073b6",
-    "https://esa.int/ESA_Multimedia/Videos/2026/09/Isar_Aerospace_achieves_first_launch_to_orbit_from_continental_Europe": "clu_861b27ce48"
+    "https://esa.int/ESA_Multimedia/Videos/2026/09/Isar_Aerospace_achieves_first_launch_to_orbit_from_continental_Europe": "clu_861b27ce48",
+    "http://boj.or.jp/statistics/dl/depo/kashi/kasi2608.pdf": "clu_abdbbf0dc0",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1805": "clu_617721371e",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1798": "clu_bed1575cc2"
   },
   "by_hash": {
     "661f054db372455da92cae0230a600fd8ff4c0bdfb716fa4ca43a3885658de30": "clu_db3475d536",
@@ -663,7 +666,10 @@
     "de11defd939d22b7d662f598eb87427a42dd512fb7876034c532422fce920438": "clu_b95b265409",
     "4280fabe6c2104ae65b766611f38aaf0085358bdfa9f47e3a8265f4bff4c3fdb": "clu_4414a295c8",
     "202e31e11f4f3708d002fec5cace8ceb566e98b577dff8b565cd84dc267a1d29": "clu_e6895073b6",
-    "996a1131ea6819115c39a4cc236dd6db058d099680d1f1f047d5e6824f569785": "clu_861b27ce48"
+    "996a1131ea6819115c39a4cc236dd6db058d099680d1f1f047d5e6824f569785": "clu_861b27ce48",
+    "801868fb32a2c4c95d2b94963d975714356271c50bf8693c5a382c05023c2964": "clu_abdbbf0dc0",
+    "f78b96c76625c12774115ad45f12b64e6ef95dd3fd7c257cd579934b353de22f": "clu_617721371e",
+    "358fbd14e8b4e4dbcb22ebab95e429ef7bbeed6426fffeb120bef0835e718dbc": "clu_bed1575cc2"
   },
   "by_key": {
     "日本銀行::令和8年台風第24号及び前線による大雨に伴う災害等に対する金融上の措置について(鹿児島県)::2026-09-07": "clu_db3475d536",
@@ -996,7 +1002,10 @@
     "nasa::apod: 2026 september 7 – the pelican nebula in gas, dust, and stars::2026-09-07": "clu_b95b265409",
     "samsung electronics::samsung medison expands women’s health diagnostic portfolio with launch of premium ultrasound ‘hera z10’::2026-09-07": "clu_4414a295c8",
     "samsung electronics::samsung enhances long-term value of refrigerators and laundry appliances with ai-focused software updates::2026-09-07": "clu_e6895073b6",
-    "european space agency::isar aerospace achieves first launch to orbit from continental europe::2026-09-07": "clu_861b27ce48"
+    "european space agency::isar aerospace achieves first launch to orbit from continental europe::2026-09-07": "clu_861b27ce48",
+    "日本銀行::貸出・預金動向(8月)::2026-09-07": "clu_abdbbf0dc0",
+    "european commission::commission proposes €1.1 million from the european globalisation adjustment fund to support dismissed paper industry workers in finland::2026-09-07": "clu_617721371e",
+    "european commission::commission approves €400 million german state aid to enhance insulin supply resilience::2026-09-07": "clu_bed1575cc2"
   },
   "clusters": {
     "clu_db3475d536": {
@@ -3976,6 +3985,33 @@
       ],
       "source_ids": [
         "src_esa_news"
+      ]
+    },
+    "clu_abdbbf0dc0": {
+      "primary_event_id": "evt_20260908_801868fb32",
+      "event_ids": [
+        "evt_20260908_801868fb32"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_617721371e": {
+      "primary_event_id": "evt_20260908_f78b96c766",
+      "event_ids": [
+        "evt_20260908_f78b96c766"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_bed1575cc2": {
+      "primary_event_id": "evt_20260908_358fbd14e8",
+      "event_ids": [
+        "evt_20260908_358fbd14e8"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }
