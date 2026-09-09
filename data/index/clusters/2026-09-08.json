@@ -86,7 +86,19 @@
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-04&series=debt_held_public_amt": "clu_f493d3fb17",
     "https://treasurydirect.gov/auctions/announcements-data-results?cusip=912797WK9&metric=bid_to_cover&period=2026-09-08": "clu_48ae25dc9e",
     "https://treasurydirect.gov/auctions/announcements-data-results?cusip=912797UL9&metric=bid_to_cover&period=2026-09-08": "clu_b49053b817",
-    "https://treasurydirect.gov/auctions/announcements-data-results?cusip=91282CRL7&metric=high_yield&period=2026-09-08": "clu_753b3484d3"
+    "https://treasurydirect.gov/auctions/announcements-data-results?cusip=91282CRL7&metric=high_yield&period=2026-09-08": "clu_753b3484d3",
+    "http://boj.or.jp/statistics/money/ms/ms2608.pdf": "clu_a6d3d123ab",
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_1819": "clu_3c9734f267",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1821": "clu_6c92a403b4",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1815": "clu_1f39283b2e",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1794": "clu_9a7e880a0a",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1820": "clu_06f921c8dd",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1810": "clu_ede7d5fe45",
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_1793": "clu_fc0e3d1656",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1792": "clu_80f319cd53",
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_1811": "clu_9a49ef74fa",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1799": "clu_1ede5260e1",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1817": "clu_8036b0f202"
   },
   "by_hash": {
     "766fefd07dd1362ddddfb6da7f3f22a9efdee615157be26d5d299d0c334d83b0": "clu_e6de609edc",
@@ -174,7 +186,19 @@
     "47f35c2727a45a42cd383dac257db3a0ede64e72733752b75a43828a2d088c78": "clu_f493d3fb17",
     "2c58e31621fc265776e8dd897eb49a2eb5216cfa002cf27dadf4f0381c8dbaf0": "clu_48ae25dc9e",
     "e8e9e91debb678a6a727700f7a0a007c98ac996839782e3e3259324492ba44b8": "clu_b49053b817",
-    "85dabd65239f75eed0b53a3170de2ef5c5982ac3e86dd4ab61ded7dac07b59b7": "clu_753b3484d3"
+    "85dabd65239f75eed0b53a3170de2ef5c5982ac3e86dd4ab61ded7dac07b59b7": "clu_753b3484d3",
+    "62e08d1961e6a0705539db1fb91a7c7551cd7ef440ccefecc387634c6f26eef1": "clu_a6d3d123ab",
+    "fc96d465d559374942641ef17a792bf04e2dbf8b2c73027b4a957b7ea119d01d": "clu_3c9734f267",
+    "f356558a8931f6b68387a09079a98d65f0826d46783c6e2f69138a61daabef84": "clu_6c92a403b4",
+    "43ae5015a7a30d26b7777bfcad1cf3d6f25c983dce06e2492408389fbd489f3a": "clu_1f39283b2e",
+    "926dd91e58d395a2658618b0169983da666417541c9415996e5bf5e4a6685125": "clu_9a7e880a0a",
+    "922277d6e0adf11850ab9e319da4aba32a7f441bb1e262d214f60b59a1fa0cf8": "clu_06f921c8dd",
+    "3d32f70b064d720a75c81fb84a48d183c8bb8184fe0c7375f3a769c12272e905": "clu_ede7d5fe45",
+    "ecf9a197dae7265dbe2e4b9577cefde9120d2f3e9ed27c572c3cb8cf8c755ef2": "clu_fc0e3d1656",
+    "9a2606fb6bf18e00f66a3e15e31673eda56e41a38db165abe14fcc4c4ee9d4c8": "clu_80f319cd53",
+    "b3380107e42234f0011c82d551a3ae9b1a687eb26e2a4393be2170ff2776e2fb": "clu_9a49ef74fa",
+    "53b3a9185edf793b7934c61d70a41eec64d7ac9c03e364f74108da6129018473": "clu_1ede5260e1",
+    "4182a395fd6d64301816329bd23deb3fcfee93da3822bf8e860ddb73d40ebff1": "clu_8036b0f202"
   },
   "by_key": {
     "office of the federal register::proposed recreation fee site::2026-09-08": "clu_e6de609edc",
@@ -253,7 +277,19 @@
     "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-09-04: 32,410,785,543,623.23 usd::2026-09-08": "clu_f493d3fb17",
     "u.s. department of the treasury (treasurydirect)::米国債入札 応札倍率(26-week, bill) 2026-09-08: 2.88 倍::2026-09-08": "clu_48ae25dc9e",
     "u.s. department of the treasury (treasurydirect)::米国債入札 応札倍率(6-week, bill) 2026-09-08: 2.93 倍::2026-09-08": "clu_b49053b817",
-    "u.s. department of the treasury (treasurydirect)::米国債入札 最高利回り(3-year, note) 2026-09-08: 4.474 %::2026-09-08": "clu_753b3484d3"
+    "u.s. department of the treasury (treasurydirect)::米国債入札 最高利回り(3-year, note) 2026-09-08: 4.474 %::2026-09-08": "clu_753b3484d3",
+    "日本銀行::マネーストック(8月)::2026-09-08": "clu_a6d3d123ab",
+    "european commission::questions and answers on the eu public procurement act::2026-09-08": "clu_3c9734f267",
+    "european commission::factsheet - public procurement act::2026-09-08": "clu_6c92a403b4",
+    "european commission::factsheet on the european innovation act::2026-09-08": "clu_1f39283b2e",
+    "european commission::factsheet on the affordable housing act::2026-09-08": "clu_9a7e880a0a",
+    "european commission::press remarks by executive vice-president ribera and commissioner jørgensen on the affordable housing act::2026-09-08": "clu_06f921c8dd",
+    "european commission::commission proposes new european innovation act to help innovative european ideas grow and compete globally::2026-09-08": "clu_ede7d5fe45",
+    "european commission::questions and answers on the affordable housing act::2026-09-08": "clu_fc0e3d1656",
+    "european commission::new eu rules to help local authorities tackle the housing crisis::2026-09-08": "clu_80f319cd53",
+    "european commission::questions and answers on the european innovation act::2026-09-08": "clu_9a49ef74fa",
+    "european commission::commission grants spain €114.7 million and provides enhanced operational assistance to manage the situation in ceuta::2026-09-08": "clu_1ede5260e1",
+    "european commission::commission proposes simpler and more strategic public procurement rules::2026-09-08": "clu_8036b0f202"
   },
   "clusters": {
     "clu_e6de609edc": {
@@ -1021,6 +1057,114 @@
       ],
       "source_ids": [
         "src_us_treasury_auctions"
+      ]
+    },
+    "clu_a6d3d123ab": {
+      "primary_event_id": "evt_20260909_62e08d1961",
+      "event_ids": [
+        "evt_20260909_62e08d1961"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_3c9734f267": {
+      "primary_event_id": "evt_20260909_fc96d465d5",
+      "event_ids": [
+        "evt_20260909_fc96d465d5"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_6c92a403b4": {
+      "primary_event_id": "evt_20260909_f356558a89",
+      "event_ids": [
+        "evt_20260909_f356558a89"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_1f39283b2e": {
+      "primary_event_id": "evt_20260909_43ae5015a7",
+      "event_ids": [
+        "evt_20260909_43ae5015a7"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_9a7e880a0a": {
+      "primary_event_id": "evt_20260909_926dd91e58",
+      "event_ids": [
+        "evt_20260909_926dd91e58"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_06f921c8dd": {
+      "primary_event_id": "evt_20260909_922277d6e0",
+      "event_ids": [
+        "evt_20260909_922277d6e0"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_ede7d5fe45": {
+      "primary_event_id": "evt_20260909_3d32f70b06",
+      "event_ids": [
+        "evt_20260909_3d32f70b06"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_fc0e3d1656": {
+      "primary_event_id": "evt_20260909_ecf9a197da",
+      "event_ids": [
+        "evt_20260909_ecf9a197da"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_80f319cd53": {
+      "primary_event_id": "evt_20260909_9a2606fb6b",
+      "event_ids": [
+        "evt_20260909_9a2606fb6b"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_9a49ef74fa": {
+      "primary_event_id": "evt_20260909_b3380107e4",
+      "event_ids": [
+        "evt_20260909_b3380107e4"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_1ede5260e1": {
+      "primary_event_id": "evt_20260909_53b3a9185e",
+      "event_ids": [
+        "evt_20260909_53b3a9185e"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_8036b0f202": {
+      "primary_event_id": "evt_20260909_4182a395fd",
+      "event_ids": [
+        "evt_20260909_4182a395fd"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

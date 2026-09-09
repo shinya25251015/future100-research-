@@ -577,7 +577,9 @@
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-01&series=debt_held_public_amt": "clu_9b2d4290ef",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-08-31&series=tot_pub_debt_out_amt": "clu_c0e77a0931",
     "http://boj.or.jp/statistics/boj/fm/juqp/juqp2609.xlsx": "clu_18c5c9768a",
-    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1769": "clu_ec0b93ce1e"
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1769": "clu_ec0b93ce1e",
+    "https://esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_sealed_within_Vega-C_fairing": "clu_f99e4ea32e",
+    "https://esa.int/ESA_Multimedia/Images/2026/09/Sentinel-3C_positioned_on_the_top_of_the_Vespa_adapter": "clu_b4df24834c"
   },
   "by_hash": {
     "1fb146541842e9242d5e17afb35738246f96519312b7d26da5e1c8366b7652bc": "clu_f71d5dbd37",
@@ -1153,7 +1155,9 @@
     "e7316d199e22e273fdeea0f518c8d429a8d8bd29e469b27bc4b588bdf70ecb7e": "clu_9b2d4290ef",
     "da13bfd7afd1c050682426e094d776002a59aa93849bd4f5a486a927c2a8aa99": "clu_c0e77a0931",
     "58239d5d51906f6a842e516a7b7e39d0830fa486fe0b306b0166b164de9aecda": "clu_18c5c9768a",
-    "444e107da08a4ebc2557091c4bde74d6ed1866bf92f0fcb39dc25266569ec093": "clu_ec0b93ce1e"
+    "444e107da08a4ebc2557091c4bde74d6ed1866bf92f0fcb39dc25266569ec093": "clu_ec0b93ce1e",
+    "2d2a9a23671c85e6989513dca90ff2cf2a9d6b78776785b98689026e3a70ff3a": "clu_f99e4ea32e",
+    "d5e6ff1187a92a33b209dfa588b2ce76573bdba4ee8cbfe68a5bbd3130a83508": "clu_b4df24834c"
   },
   "by_key": {
     "office of the federal register::safety zone; lake st. clair, grosse pointe farms, mi::2026-09-02": "clu_f71d5dbd37",
@@ -1728,7 +1732,9 @@
     "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-09-01: 32,420,529,452,197.109 usd::2026-09-02": "clu_9b2d4290ef",
     "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-08-31: 40,175,641,071,634.141 usd::2026-09-02": "clu_c0e77a0931",
     "日本銀行::日銀当座預金増減要因(9月見込み)::2026-09-02": "clu_18c5c9768a",
-    "european commission::commission adopts eu guidelines on exclusionary abuses of dominance::2026-09-02": "clu_ec0b93ce1e"
+    "european commission::commission adopts eu guidelines on exclusionary abuses of dominance::2026-09-02": "clu_ec0b93ce1e",
+    "european space agency::flex and sentinel-3c sealed within vega-c fairing::2026-09-02": "clu_f99e4ea32e",
+    "european space agency::sentinel-3c positioned on the top of the vespa adapter::2026-09-02": "clu_b4df24834c"
   },
   "clusters": {
     "clu_f71d5dbd37": {
@@ -6895,6 +6901,24 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_f99e4ea32e": {
+      "primary_event_id": "evt_20260909_2d2a9a2367",
+      "event_ids": [
+        "evt_20260909_2d2a9a2367"
+      ],
+      "source_ids": [
+        "src_esa_news"
+      ]
+    },
+    "clu_b4df24834c": {
+      "primary_event_id": "evt_20260909_d5e6ff1187",
+      "event_ids": [
+        "evt_20260909_d5e6ff1187"
+      ],
+      "source_ids": [
+        "src_esa_news"
       ]
     }
   }
