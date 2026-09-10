@@ -993,7 +993,13 @@
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-09-09&tenor=30%E5%B9%B4": "clu_ab106d8c20",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-09-09&tenor=3%E3%81%8B%E6%9C%88": "clu_ab106d8c20",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-09-09&tenor=10%E5%B9%B4": "clu_ab106d8c20",
-    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-09-09&tenor=2%E5%B9%B4": "clu_ab106d8c20"
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-09-09&tenor=2%E5%B9%B4": "clu_ab106d8c20",
+    "http://boj.or.jp/statistics/bis/yoshi/index.htm": "clu_d70e286068",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1827": "clu_8192cad2c0",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1828": "clu_269b9aa24e",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1830": "clu_44ecaf17dc",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1831": "clu_c8f19b224c",
+    "https://esa.int/ESA_Multimedia/Images/2026/09/pVega-C_flight_VV30_with_FLEX_and_Sentinel-3C": "clu_83fdef46c2"
   },
   "by_hash": {
     "a8321a9cf55bbb6fefeac52a94d1f97b52826f331be9e554251ecc6c19949379": "clu_afaad9602e",
@@ -1989,7 +1995,13 @@
     "07a4a005bce4294f20f19ee866a1d4fc1618c57b1094a23d785f1c83ba818e7e": "clu_ab106d8c20",
     "c23e1a8b55e9796abb1679da7e2ab1bc6006446aeb48b48f18d65cf644fbc089": "clu_ab106d8c20",
     "cc22516f433be19f1d95dd888b6ee83a8c27fee17b473541a59549710e4c3841": "clu_ab106d8c20",
-    "2bf6def23cff3fb523d9a1ca12f3535ab6c92c58cec7d3cf4b94934a224c819c": "clu_ab106d8c20"
+    "2bf6def23cff3fb523d9a1ca12f3535ab6c92c58cec7d3cf4b94934a224c819c": "clu_ab106d8c20",
+    "175d765c9d2c2ba505a6b1d467482215195de57c07061a88746002c9c39b3073": "clu_d70e286068",
+    "295c1ca97f26580eb6b932b19aa2a262bd70f95a1ac2aeaa2fa310dfc41154c2": "clu_8192cad2c0",
+    "564cd00503e9eb108efbb7fd1ca4b6b94b31189846059b3bf2b224fdf2c028cb": "clu_269b9aa24e",
+    "e4af51190fd9e9d63aab3c7992347f6b46e3595ee57464c27c68eceaca81099f": "clu_44ecaf17dc",
+    "cf5ace8d2fd13aa808c40e0a64e03b171c41a1d0f9f44a5e902fc42f3b817c79": "clu_c8f19b224c",
+    "65e24a55dcfb5a3ff236a4183cd5312acabab8366b70bef613491f088fd6e907": "clu_83fdef46c2"
   },
   "by_key": {
     "samsung electronics::from 253 grams to 201 grams: the engineering behind the world’s lightest fold::2026-09-09": "clu_afaad9602e",
@@ -2984,7 +2996,13 @@
     "u.s. department of the treasury::米国債利回り 30年 2026-09-09: 5.28 %::2026-09-09": "clu_ab106d8c20",
     "u.s. department of the treasury::米国債利回り 3か月 2026-09-09: 3.95 %::2026-09-09": "clu_ab106d8c20",
     "u.s. department of the treasury::米国債利回り 10年 2026-09-09: 4.83 %::2026-09-09": "clu_ab106d8c20",
-    "u.s. department of the treasury::米国債利回り 2年 2026-09-09: 4.43 %::2026-09-09": "clu_ab106d8c20"
+    "u.s. department of the treasury::米国債利回り 2年 2026-09-09: 4.43 %::2026-09-09": "clu_ab106d8c20",
+    "日本銀行::デリバティブ取引に関する定例市場報告::2026-09-09": "clu_d70e286068",
+    "european commission::a new strategic vision for the outermost regions, strengthening the eu's global reach::2026-09-09": "clu_8192cad2c0",
+    "european commission::factsheet on the eu's outermost regions strategy::2026-09-09": "clu_269b9aa24e",
+    "european commission::speech by president von der leyen at the international space summit::2026-09-09": "clu_44ecaf17dc",
+    "european commission::remarks by executive vice-president virkkunen at international space summit in paris::2026-09-09": "clu_c8f19b224c",
+    "european space agency::pvega-c flight vv30 with flex and sentinel-3c::2026-09-09": "clu_83fdef46c2"
   },
   "clusters": {
     "clu_afaad9602e": {
@@ -11876,6 +11894,60 @@
       ],
       "source_ids": [
         "src_us_treasury_debt"
+      ]
+    },
+    "clu_d70e286068": {
+      "primary_event_id": "evt_20260910_175d765c9d",
+      "event_ids": [
+        "evt_20260910_175d765c9d"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_8192cad2c0": {
+      "primary_event_id": "evt_20260910_295c1ca97f",
+      "event_ids": [
+        "evt_20260910_295c1ca97f"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_269b9aa24e": {
+      "primary_event_id": "evt_20260910_564cd00503",
+      "event_ids": [
+        "evt_20260910_564cd00503"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_44ecaf17dc": {
+      "primary_event_id": "evt_20260910_e4af51190f",
+      "event_ids": [
+        "evt_20260910_e4af51190f"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_c8f19b224c": {
+      "primary_event_id": "evt_20260910_cf5ace8d2f",
+      "event_ids": [
+        "evt_20260910_cf5ace8d2f"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_83fdef46c2": {
+      "primary_event_id": "evt_20260910_65e24a55dc",
+      "event_ids": [
+        "evt_20260910_65e24a55dc"
+      ],
+      "source_ids": [
+        "src_esa_news"
       ]
     }
   }

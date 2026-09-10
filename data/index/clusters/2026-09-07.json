@@ -333,7 +333,8 @@
     "https://esa.int/ESA_Multimedia/Videos/2026/09/Isar_Aerospace_achieves_first_launch_to_orbit_from_continental_Europe": "clu_861b27ce48",
     "http://boj.or.jp/statistics/dl/depo/kashi/kasi2608.pdf": "clu_abdbbf0dc0",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1805": "clu_617721371e",
-    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1798": "clu_bed1575cc2"
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1798": "clu_bed1575cc2",
+    "https://esa.int/ESA_Multimedia/Videos/2026/09/Isar_Aerospace_achieves_first_launch_to_orbit_from_continental_Europe2": "clu_c73edf6fd7"
   },
   "by_hash": {
     "661f054db372455da92cae0230a600fd8ff4c0bdfb716fa4ca43a3885658de30": "clu_db3475d536",
@@ -4012,6 +4013,15 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_c73edf6fd7": {
+      "primary_event_id": "evt_20260910_996a1131ea",
+      "event_ids": [
+        "evt_20260910_996a1131ea"
+      ],
+      "source_ids": [
+        "src_esa_news"
       ]
     }
   }
