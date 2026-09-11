@@ -999,7 +999,9 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1828": "clu_269b9aa24e",
     "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1830": "clu_44ecaf17dc",
     "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1831": "clu_c8f19b224c",
-    "https://esa.int/ESA_Multimedia/Images/2026/09/pVega-C_flight_VV30_with_FLEX_and_Sentinel-3C": "clu_83fdef46c2"
+    "https://esa.int/ESA_Multimedia/Images/2026/09/pVega-C_flight_VV30_with_FLEX_and_Sentinel-3C": "clu_83fdef46c2",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1858": "clu_5b932fd6ad",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1857": "clu_c484caf3e8"
   },
   "by_hash": {
     "a8321a9cf55bbb6fefeac52a94d1f97b52826f331be9e554251ecc6c19949379": "clu_afaad9602e",
@@ -2001,7 +2003,9 @@
     "564cd00503e9eb108efbb7fd1ca4b6b94b31189846059b3bf2b224fdf2c028cb": "clu_269b9aa24e",
     "e4af51190fd9e9d63aab3c7992347f6b46e3595ee57464c27c68eceaca81099f": "clu_44ecaf17dc",
     "cf5ace8d2fd13aa808c40e0a64e03b171c41a1d0f9f44a5e902fc42f3b817c79": "clu_c8f19b224c",
-    "65e24a55dcfb5a3ff236a4183cd5312acabab8366b70bef613491f088fd6e907": "clu_83fdef46c2"
+    "65e24a55dcfb5a3ff236a4183cd5312acabab8366b70bef613491f088fd6e907": "clu_83fdef46c2",
+    "ff30d64258eda67ff81dc18fd077ae025ac140719ab55e9e73d4428bbaaec72f": "clu_5b932fd6ad",
+    "4d14dac34160fe44bedc5cd83883e5fa15f84c4d3a94d534ca44bd9c63318686": "clu_c484caf3e8"
   },
   "by_key": {
     "samsung electronics::from 253 grams to 201 grams: the engineering behind the world’s lightest fold::2026-09-09": "clu_afaad9602e",
@@ -3002,7 +3006,9 @@
     "european commission::factsheet on the eu's outermost regions strategy::2026-09-09": "clu_269b9aa24e",
     "european commission::speech by president von der leyen at the international space summit::2026-09-09": "clu_44ecaf17dc",
     "european commission::remarks by executive vice-president virkkunen at international space summit in paris::2026-09-09": "clu_c8f19b224c",
-    "european space agency::pvega-c flight vv30 with flex and sentinel-3c::2026-09-09": "clu_83fdef46c2"
+    "european space agency::pvega-c flight vv30 with flex and sentinel-3c::2026-09-09": "clu_83fdef46c2",
+    "european commission::closing speech by commissioner albuquerque at the workshop “saving for retirement through auto-enrolment and supplementary pensions”::2026-09-09": "clu_5b932fd6ad",
+    "european commission::press conference by commissioner brunner after the inauguration of the security research and innovation campus::2026-09-09": "clu_c484caf3e8"
   },
   "clusters": {
     "clu_afaad9602e": {
@@ -11948,6 +11954,24 @@
       ],
       "source_ids": [
         "src_esa_news"
+      ]
+    },
+    "clu_5b932fd6ad": {
+      "primary_event_id": "evt_20260911_ff30d64258",
+      "event_ids": [
+        "evt_20260911_ff30d64258"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_c484caf3e8": {
+      "primary_event_id": "evt_20260911_4d14dac341",
+      "event_ids": [
+        "evt_20260911_4d14dac341"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

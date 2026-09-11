@@ -340,7 +340,11 @@
     "https://treasurydirect.gov/auctions/announcements-data-results?cusip=912810UW6&metric=high_yield&period=2026-09-10": "clu_3ce8b38b1f",
     "https://fiscaldata.treasury.gov/datasets/average-interest-rates-treasury-securities?period=2026-08-31&security=Treasury+Bills": "clu_06b864dc47",
     "https://fiscaldata.treasury.gov/datasets/average-interest-rates-treasury-securities?period=2026-08-31&security=Treasury+Bonds": "clu_53e9b1c4f1",
-    "https://fiscaldata.treasury.gov/datasets/average-interest-rates-treasury-securities?period=2026-08-31&security=Treasury+Notes": "clu_3cf24a763a"
+    "https://fiscaldata.treasury.gov/datasets/average-interest-rates-treasury-securities?period=2026-08-31&security=Treasury+Notes": "clu_3cf24a763a",
+    "http://boj.or.jp/statistics/pi/cgpi_release/cgpi2608.pdf": "clu_e38969e358",
+    "https://federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm": "clu_b7657478a5",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1829": "clu_d91c870076",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1842": "clu_05c22b5854"
   },
   "by_hash": {
     "4f4741a0bbd958b9ff6783b24100feff2e8db738c2345499e68fbc83e503e019": "clu_2966f9d802",
@@ -683,7 +687,11 @@
     "674d4b5679d62fe8c1cca76a3c93d4c63b30df303ed8928692a0884f160e3f9e": "clu_3ce8b38b1f",
     "441b45f8a226ea06862d8c3609902e8f564776884b5c94a30cc451b3ba0a5c8c": "clu_06b864dc47",
     "af5f07dbada2507009066de85d889ac144cd02b84f2ef9218382a830d16c7981": "clu_53e9b1c4f1",
-    "77937a84ab7c29d88d46b797fbc6e2d35e1d412c9a615dc4b4b68fefdfeca165": "clu_3cf24a763a"
+    "77937a84ab7c29d88d46b797fbc6e2d35e1d412c9a615dc4b4b68fefdfeca165": "clu_3cf24a763a",
+    "05a9625b7b40537108fb8ed68fa7c9bd2c232726b3fc4cb963ba86cfd0827868": "clu_e38969e358",
+    "a08738cf43b49456ba9d31465d0f4516684be868154c5aed6ccdf906599cec63": "clu_b7657478a5",
+    "a4a815e411927eea498c9017dee59bd0c64840836e5f2d5d9f01037b1d5069e7": "clu_d91c870076",
+    "268f8ba590225f891b2ad6a1a1c56705366182aa8429474ca531996ca377c9af": "clu_05c22b5854"
   },
   "by_key": {
     "office of the federal register::continuation of the national emergency with respect to certain terrorist attacks::2026-09-10": "clu_2966f9d802",
@@ -1025,7 +1033,11 @@
     "u.s. department of the treasury (treasurydirect)::米国債入札 最高利回り(29-year 11-month, bond) 2026-09-10: 5.308 %::2026-09-10": "clu_3ce8b38b1f",
     "u.s. department of the treasury (fiscal service)::米国債 平均利率 短期証券 2026-08-31: 3.788 %::2026-09-10": "clu_06b864dc47",
     "u.s. department of the treasury (fiscal service)::米国債 平均利率 長期証券 2026-08-31: 3.453 %::2026-09-10": "clu_53e9b1c4f1",
-    "u.s. department of the treasury (fiscal service)::米国債 平均利率 中期証券 2026-08-31: 3.345 %::2026-09-10": "clu_3cf24a763a"
+    "u.s. department of the treasury (fiscal service)::米国債 平均利率 中期証券 2026-08-31: 3.345 %::2026-09-10": "clu_3cf24a763a",
+    "日本銀行::企業物価指数(8月)::2026-09-10": "clu_e38969e358",
+    "board of governors of the federal reserve system::agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle::2026-09-10": "clu_b7657478a5",
+    "european commission::commission approves €6.1 billion to support ukraine's air and missile defence and other defence needs::2026-09-10": "clu_d91c870076",
+    "european commission::commission presents landmark india trade deal to council for signature::2026-09-10": "clu_05c22b5854"
   },
   "clusters": {
     "clu_2966f9d802": {
@@ -4064,6 +4076,42 @@
       ],
       "source_ids": [
         "src_us_treasury_avg_rate"
+      ]
+    },
+    "clu_e38969e358": {
+      "primary_event_id": "evt_20260911_05a9625b7b",
+      "event_ids": [
+        "evt_20260911_05a9625b7b"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_b7657478a5": {
+      "primary_event_id": "evt_20260911_a08738cf43",
+      "event_ids": [
+        "evt_20260911_a08738cf43"
+      ],
+      "source_ids": [
+        "src_us_federal_reserve"
+      ]
+    },
+    "clu_d91c870076": {
+      "primary_event_id": "evt_20260911_a4a815e411",
+      "event_ids": [
+        "evt_20260911_a4a815e411"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_05c22b5854": {
+      "primary_event_id": "evt_20260911_268f8ba590",
+      "event_ids": [
+        "evt_20260911_268f8ba590"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

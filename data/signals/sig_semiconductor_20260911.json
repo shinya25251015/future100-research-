@@ -1,0 +1,100 @@
+{
+  "window_id": "sig_semiconductor_20260911",
+  "as_of": "2026-09-11T23:29:43Z",
+  "window": {
+    "start": "2026-09-05",
+    "end": "2026-09-11",
+    "baseline_start": "2026-08-08",
+    "baseline_end": "2026-09-04"
+  },
+  "topic": {
+    "label": "半導体",
+    "keywords": [
+      "semiconductor",
+      "foundry",
+      "wafer",
+      "lithography",
+      "euv",
+      "hbm",
+      "chip fab",
+      "半導体",
+      "前工程",
+      "後工程",
+      "露光装置"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_semiconductor"
+  },
+  "counts": [
+    {
+      "signal_type": "new_standard",
+      "count": 0,
+      "baseline_count": 0.5,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    },
+    {
+      "signal_type": "paper",
+      "count": 24,
+      "baseline_count": 27.25,
+      "event_ids": [
+        "evt_20260907_0069b5ef97",
+        "evt_20260907_47d963b48d",
+        "evt_20260907_6c7a3de388",
+        "evt_20260907_f1fd568dfe",
+        "evt_20260909_52a146a291",
+        "evt_20260909_4695822670",
+        "evt_20260909_ccaae8b44c",
+        "evt_20260909_65d3d79b44",
+        "evt_20260909_37bdf9c6fe",
+        "evt_20260909_15d1ca11fd",
+        "evt_20260909_869ef7f0e4",
+        "evt_20260909_11fc50beca",
+        "evt_20260909_d2c01cc605",
+        "evt_20260909_397c1ad001",
+        "evt_20260909_2a3b95891c",
+        "evt_20260909_a3a567f063",
+        "evt_20260910_9624f4d11d",
+        "evt_20260910_2fee70ca6f",
+        "evt_20260910_36310fd76f",
+        "evt_20260911_13eac9ddf1",
+        "evt_20260911_f1fc6cbcff",
+        "evt_20260911_8bc3b27365",
+        "evt_20260911_267b5c5779",
+        "evt_20260911_69152eda62"
+      ],
+      "delta_ratio": -0.119
+    },
+    {
+      "signal_type": "patent",
+      "count": 0,
+      "baseline_count": 0.5,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    },
+    {
+      "signal_type": "procurement",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}
