@@ -79,7 +79,8 @@
     "https://science.nasa.gov/solar-system/skywatching/whats-up-september-2026-skywatching-tips-from-nasa": "clu_3613f762f9",
     "https://science.nasa.gov/image-article/apod-2026-september-1-a-plane-lunar-eclipse": "clu_6e0baec94b",
     "https://science.nasa.gov/earth/earth-observatory/iceberg-from-petermann-glacier-speeds-away": "clu_77bc58fdc4",
-    "https://nasa.gov/image-article/historic-engines-take-their-place-on-artemis-iii": "clu_2bee0ae081"
+    "https://nasa.gov/image-article/historic-engines-take-their-place-on-artemis-iii": "clu_2bee0ae081",
+    "https://news.samsung.com/global/interview-the-people-behind-the-galaxy-z-series-camera-innovations-%e2%91%a0-how-my-fancam-keeps-favorite-people-in-focus": "clu_d781cf1659"
   },
   "by_hash": {
     "3efb706a032944427ec72981605eac8a323d531979ea52df66c510a79af22a48": "clu_2059937597",
@@ -161,7 +162,8 @@
     "34c5eccbc5a6ff86e738f4091724c43aafb4c17328d5063599239e89fa647b92": "clu_3613f762f9",
     "129f8c8f3ac1acafc565f23599211a48e74b9ad9891c4856e61b4aa31298938c": "clu_6e0baec94b",
     "4893a3e4ea004d56b2ae9a05d4b6b33c1c2c6897e23ab78688f2b54fddbf76d8": "clu_77bc58fdc4",
-    "66e6e2ce30761fae8f94c6d92542b0e435a5f1fac7260ad2e93caad7158ca57b": "clu_2bee0ae081"
+    "66e6e2ce30761fae8f94c6d92542b0e435a5f1fac7260ad2e93caad7158ca57b": "clu_2bee0ae081",
+    "605a6e95a827ff9c70ecd7a230b0b6c28f8ce26b57305d3813cd1b9bbdff61b7": "clu_d781cf1659"
   },
   "by_key": {
     "samsung electronics::samsung expands the galaxy book6 lineup, making galaxy book more accessible::2026-09-01": "clu_2059937597",
@@ -242,7 +244,8 @@
     "nasa::what’s up: september 2026 skywatching tips from nasa::2026-09-01": "clu_3613f762f9",
     "nasa::apod: 2026 september 1 – a plane lunar eclipse::2026-09-01": "clu_6e0baec94b",
     "nasa::ice island survives run-in with joe island::2026-09-01": "clu_77bc58fdc4",
-    "nasa::historic engines take their place on artemis iii::2026-09-01": "clu_2bee0ae081"
+    "nasa::historic engines take their place on artemis iii::2026-09-01": "clu_2bee0ae081",
+    "samsung electronics::[interview] the people behind the galaxy z series’ camera innovations 1: how my fancam keeps favorite people in focus::2026-09-01": "clu_d781cf1659"
   },
   "clusters": {
     "clu_2059937597": {
@@ -963,6 +966,15 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_d781cf1659": {
+      "primary_event_id": "evt_20260915_605a6e95a8",
+      "event_ids": [
+        "evt_20260915_605a6e95a8"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

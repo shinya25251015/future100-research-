@@ -360,7 +360,14 @@
     "https://treasurydirect.gov/auctions/announcements-data-results?cusip=912797UD7&metric=bid_to_cover&period=2026-09-14": "clu_1284c47d9b",
     "https://treasurydirect.gov/auctions/announcements-data-results?cusip=912797VH7&metric=bid_to_cover&period=2026-09-14": "clu_9d216034e8",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-11&series=debt_held_public_amt": "clu_cb33fa391e",
-    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-11&series=tot_pub_debt_out_amt": "clu_49e0084f50"
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-11&series=tot_pub_debt_out_amt": "clu_49e0084f50",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1854": "clu_41dade51ed",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1851": "clu_9eafa56543",
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_1852": "clu_45c8df15e2",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1853": "clu_1843628bd3",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1855": "clu_5e09abfdb9",
+    "https://war.gov/News/Contracts/Contract/Article/4600826/contracts-for-sept-14-2026": "clu_d83429a1e2",
+    "https://esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_ready_for_liftoff_on_Vega-C": "clu_81ef64252f"
   },
   "by_hash": {
     "1b94f9fe73bfb040d4ce46268289ded9457d94ec5934c212e8d11be9daaab81c": "clu_20b54e23f4",
@@ -720,7 +727,14 @@
     "294dd0816d82fb0b8a50d5f05a51f0d5a5c5880c9f2d8e3f6eb44e7c6bad7bd4": "clu_1284c47d9b",
     "733fec594ae84dbaca7409ebbd4f64742b4b627f372aa3abfd7d65280c02f64c": "clu_9d216034e8",
     "2300175eff51a276279d08d79e0bfbbc7b3b6c83d12d3c2966f31c52e4e6820c": "clu_cb33fa391e",
-    "3bd5fe16cbefa6e01977e89e5b495d6345c8797bd8492d99a482d33921995999": "clu_49e0084f50"
+    "3bd5fe16cbefa6e01977e89e5b495d6345c8797bd8492d99a482d33921995999": "clu_49e0084f50",
+    "2c230fc6600c6246d3e74e4b9bd56ec5d697d5737c0715ea5e44fb2ac8fd785a": "clu_41dade51ed",
+    "b637269257ebe51b3e4ba635daafb5ccba9614f8d86b572a7cf63dd14e679712": "clu_9eafa56543",
+    "7fbba63d9fecac047a947076b77a487b2bbddad9331d5fbc2bd99541f9e393c6": "clu_45c8df15e2",
+    "7ff988c9b2ce7251cc2d3de8c4abbdbfefee995a84b382a099225305d3622d02": "clu_1843628bd3",
+    "d79238d1f8d3c9865f749fc951b524feca2859bf62d3070dbf4485f83fb4435e": "clu_5e09abfdb9",
+    "8391d534332b3675cfc64d62da93bafde8a68affe17d18434a0e341e27cc419e": "clu_d83429a1e2",
+    "2f14fee3dc03badba93b38bc7cf1bc215b051854905cc97c6cebd632eac344a0": "clu_81ef64252f"
   },
   "by_key": {
     "office of the federal register::expanded examination cycle for certain small insured depository institutions and u.s. branches and agencies of foreign banks::2026-09-14": "clu_20b54e23f4",
@@ -1080,7 +1094,14 @@
     "u.s. department of the treasury (treasurydirect)::米国債入札 応札倍率(26-week, bill) 2026-09-14: 2.74 倍::2026-09-14": "clu_1284c47d9b",
     "u.s. department of the treasury (treasurydirect)::米国債入札 応札倍率(13-week, bill) 2026-09-14: 2.64 倍::2026-09-14": "clu_9d216034e8",
     "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-09-11: 32,357,573,654,300.309 usd::2026-09-14": "clu_cb33fa391e",
-    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-09-11: 40,046,178,322,792.781 usd::2026-09-14": "clu_49e0084f50"
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-09-11: 40,046,178,322,792.781 usd::2026-09-14": "clu_49e0084f50",
+    "european commission::factsheet: a digital european social security pass::2026-09-14": "clu_41dade51ed",
+    "european commission::commission proposes ambitious measures to strengthen fair labour mobility::2026-09-14": "clu_9eafa56543",
+    "european commission::questions and answers on fair labour mobility package::2026-09-14": "clu_45c8df15e2",
+    "european commission::factsheet: strengthening the european labour authority::2026-09-14": "clu_1843628bd3",
+    "european commission::factsheet: skills portability initiative::2026-09-14": "clu_5e09abfdb9",
+    "u.s. department of war (旧 department of defense)::contracts for sept. 14, 2026::2026-09-14": "clu_d83429a1e2",
+    "european space agency::flex and sentinel-3c ready for liftoff on vega-c::2026-09-14": "clu_81ef64252f"
   },
   "clusters": {
     "clu_20b54e23f4": {
@@ -4303,6 +4324,69 @@
       ],
       "source_ids": [
         "src_us_treasury_debt"
+      ]
+    },
+    "clu_41dade51ed": {
+      "primary_event_id": "evt_20260915_2c230fc660",
+      "event_ids": [
+        "evt_20260915_2c230fc660"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_9eafa56543": {
+      "primary_event_id": "evt_20260915_b637269257",
+      "event_ids": [
+        "evt_20260915_b637269257"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_45c8df15e2": {
+      "primary_event_id": "evt_20260915_7fbba63d9f",
+      "event_ids": [
+        "evt_20260915_7fbba63d9f"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_1843628bd3": {
+      "primary_event_id": "evt_20260915_7ff988c9b2",
+      "event_ids": [
+        "evt_20260915_7ff988c9b2"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_5e09abfdb9": {
+      "primary_event_id": "evt_20260915_d79238d1f8",
+      "event_ids": [
+        "evt_20260915_d79238d1f8"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_d83429a1e2": {
+      "primary_event_id": "evt_20260915_8391d53433",
+      "event_ids": [
+        "evt_20260915_8391d53433"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
+      ]
+    },
+    "clu_81ef64252f": {
+      "primary_event_id": "evt_20260915_2f14fee3dc",
+      "event_ids": [
+        "evt_20260915_2f14fee3dc"
+      ],
+      "source_ids": [
+        "src_esa_news"
       ]
     }
   }

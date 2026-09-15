@@ -344,7 +344,8 @@
     "http://boj.or.jp/statistics/pi/cgpi_release/cgpi2608.pdf": "clu_e38969e358",
     "https://federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm": "clu_b7657478a5",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1829": "clu_d91c870076",
-    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1842": "clu_05c22b5854"
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1842": "clu_05c22b5854",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1884": "clu_d46fd5ed51"
   },
   "by_hash": {
     "4f4741a0bbd958b9ff6783b24100feff2e8db738c2345499e68fbc83e503e019": "clu_2966f9d802",
@@ -691,7 +692,8 @@
     "05a9625b7b40537108fb8ed68fa7c9bd2c232726b3fc4cb963ba86cfd0827868": "clu_e38969e358",
     "a08738cf43b49456ba9d31465d0f4516684be868154c5aed6ccdf906599cec63": "clu_b7657478a5",
     "a4a815e411927eea498c9017dee59bd0c64840836e5f2d5d9f01037b1d5069e7": "clu_d91c870076",
-    "268f8ba590225f891b2ad6a1a1c56705366182aa8429474ca531996ca377c9af": "clu_05c22b5854"
+    "268f8ba590225f891b2ad6a1a1c56705366182aa8429474ca531996ca377c9af": "clu_05c22b5854",
+    "8fbcbb0a951626fd27fbcfe24a39b9257c3ba91bbfab146b38cd27a99a4ff74d": "clu_d46fd5ed51"
   },
   "by_key": {
     "office of the federal register::continuation of the national emergency with respect to certain terrorist attacks::2026-09-10": "clu_2966f9d802",
@@ -1037,7 +1039,8 @@
     "日本銀行::企業物価指数(8月)::2026-09-10": "clu_e38969e358",
     "board of governors of the federal reserve system::agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle::2026-09-10": "clu_b7657478a5",
     "european commission::commission approves €6.1 billion to support ukraine's air and missile defence and other defence needs::2026-09-10": "clu_d91c870076",
-    "european commission::commission presents landmark india trade deal to council for signature::2026-09-10": "clu_05c22b5854"
+    "european commission::commission presents landmark india trade deal to council for signature::2026-09-10": "clu_05c22b5854",
+    "european commission::commissioner mcgrath speech at the conference on online safety for children and young people::2026-09-10": "clu_d46fd5ed51"
   },
   "clusters": {
     "clu_2966f9d802": {
@@ -4109,6 +4112,15 @@
       "primary_event_id": "evt_20260911_268f8ba590",
       "event_ids": [
         "evt_20260911_268f8ba590"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_d46fd5ed51": {
+      "primary_event_id": "evt_20260915_8fbcbb0a95",
+      "event_ids": [
+        "evt_20260915_8fbcbb0a95"
       ],
       "source_ids": [
         "src_eu_commission_press"

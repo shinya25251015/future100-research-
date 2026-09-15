@@ -1,0 +1,68 @@
+{
+  "window_id": "sig_next_gen_battery_20260915",
+  "as_of": "2026-09-15T23:37:20Z",
+  "window": {
+    "start": "2026-09-09",
+    "end": "2026-09-15",
+    "baseline_start": "2026-08-12",
+    "baseline_end": "2026-09-08"
+  },
+  "topic": {
+    "label": "次世代電池",
+    "keywords": [
+      "solid-state battery",
+      "sodium-ion battery",
+      "lithium-ion battery",
+      "battery plant",
+      "battery cell",
+      "全固体電池",
+      "蓄電池",
+      "二次電池"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_next_gen_battery"
+  },
+  "counts": [
+    {
+      "signal_type": "capex_guidance",
+      "count": 1,
+      "baseline_count": 0.0,
+      "event_ids": [
+        "evt_20260915_69e2ad6c44"
+      ]
+    },
+    {
+      "signal_type": "paper",
+      "count": 3,
+      "baseline_count": 0.25,
+      "event_ids": [
+        "evt_20260911_4d464f93d3",
+        "evt_20260914_4dd740caa8",
+        "evt_20260915_6be8e68dcc"
+      ],
+      "delta_ratio": 11.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 1,
+    "distinct_regions": 1,
+    "score": 26.7,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}
