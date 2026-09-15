@@ -1,12 +1,18 @@
 {
   "by_url": {
-    "https://science.nasa.gov/image-article/apod-2026-september-13-comet-neowise-rising-over-the-adriatic-sea": "clu_64aa3932c2"
+    "https://science.nasa.gov/image-article/apod-2026-september-13-comet-neowise-rising-over-the-adriatic-sea": "clu_64aa3932c2",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1835": "clu_f199dacd37",
+    "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1861": "clu_ce5307a2b4"
   },
   "by_hash": {
-    "4a6a61065c3847f1d5a26059c4419dc43ba0581157fe23e0d54ca0821fda3330": "clu_64aa3932c2"
+    "4a6a61065c3847f1d5a26059c4419dc43ba0581157fe23e0d54ca0821fda3330": "clu_64aa3932c2",
+    "178369514000f46969bd6a34e113e8b6eb3535656821842600441781058c0039": "clu_f199dacd37",
+    "8e6bdd5e2462df6366664615cf2591abbcbf38b5d4493c4872be953ac5e1d720": "clu_ce5307a2b4"
   },
   "by_key": {
-    "nasa::apod: 2026 september 13 – comet neowise rising over the adriatic sea::2026-09-13": "clu_64aa3932c2"
+    "nasa::apod: 2026 september 13 – comet neowise rising over the adriatic sea::2026-09-13": "clu_64aa3932c2",
+    "european commission::commission approves €52 million romanian state aid for cattle farmers facing increased fuel and fertiliser prices::2026-09-13": "clu_f199dacd37",
+    "european commission::joint statement by executive vice-president virkkunen, high representative kallas and commissioner mcgrath ahead of international day of democracy::2026-09-13": "clu_ce5307a2b4"
   },
   "clusters": {
     "clu_64aa3932c2": {
@@ -16,6 +22,24 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_f199dacd37": {
+      "primary_event_id": "evt_20260914_1783695140",
+      "event_ids": [
+        "evt_20260914_1783695140"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_ce5307a2b4": {
+      "primary_event_id": "evt_20260914_8e6bdd5e24",
+      "event_ids": [
+        "evt_20260914_8e6bdd5e24"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }
