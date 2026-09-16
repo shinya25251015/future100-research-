@@ -1,0 +1,74 @@
+{
+  "window_id": "sig_space_20260916",
+  "as_of": "2026-09-16T23:45:22Z",
+  "window": {
+    "start": "2026-09-10",
+    "end": "2026-09-16",
+    "baseline_start": "2026-08-13",
+    "baseline_end": "2026-09-09"
+  },
+  "topic": {
+    "label": "宇宙",
+    "keywords": [
+      "spacecraft",
+      "satellite",
+      "launch vehicle",
+      "space agency",
+      "space station",
+      "orbital launch",
+      "宇宙開発",
+      "人工衛星",
+      "打ち上げ"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_space"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 6,
+      "baseline_count": 8.25,
+      "event_ids": [
+        "evt_20260911_66d133a3db",
+        "evt_20260912_e886230b0a",
+        "evt_20260914_8639317f8a",
+        "evt_20260915_ad6fdf2f6c",
+        "evt_20260915_b01eaf37dd",
+        "evt_20260915_6237d7c5e6"
+      ],
+      "delta_ratio": -0.273
+    },
+    {
+      "signal_type": "patent",
+      "count": 1,
+      "baseline_count": 0.0,
+      "event_ids": [
+        "evt_20260910_558519aaa1"
+      ]
+    },
+    {
+      "signal_type": "procurement",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}

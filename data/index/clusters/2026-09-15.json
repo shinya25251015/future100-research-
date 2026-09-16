@@ -757,7 +757,9 @@
     "https://treasurydirect.gov/auctions/announcements-data-results?cusip=912810UX4&metric=bid_to_cover&period=2026-09-15": "clu_840cec0751",
     "https://treasurydirect.gov/auctions/announcements-data-results?cusip=912797SK4&metric=bid_to_cover&period=2026-09-15": "clu_840cec0751",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-14&series=tot_pub_debt_out_amt": "clu_406f44b77d",
-    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-14&series=debt_held_public_amt": "clu_c474baf1ac"
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-14&series=debt_held_public_amt": "clu_c474baf1ac",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1877": "clu_105e16c727",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1868": "clu_497786f457"
   },
   "by_hash": {
     "90143297b9fcb24a1f7c36b512acc670fa09b6bd4b648134facec7a889466db6": "clu_623ef5abcd",
@@ -1516,7 +1518,9 @@
     "a47a5325a40d8b5f6500b7afba03cf89503cb8d2bc92ebd125df8cab47f3c9d0": "clu_840cec0751",
     "70dee366d119383314e2d578b21e04a3df646e1f11085b36b66fada915d4f762": "clu_840cec0751",
     "c9e731933fd11f90774713fe25c7399ff759d6deb301269ef3278001b1dd32c2": "clu_406f44b77d",
-    "368ea69452059c7dc9924a43e5a092dc990bd1bba09a668ab362934780731554": "clu_c474baf1ac"
+    "368ea69452059c7dc9924a43e5a092dc990bd1bba09a668ab362934780731554": "clu_c474baf1ac",
+    "434c0debf84c6b26bd63e1ef8cd8cc4bee064f12c61b4bed9a0611eefe72dc57": "clu_105e16c727",
+    "50a2a67b815214fb4f9df2f23eb1b6111eb52faf138b389c163932246d3be3b6": "clu_497786f457"
   },
   "by_key": {
     "office of the federal register::supplemental nutrition assistance program: state of idaho snap demonstration project::2026-09-15": "clu_623ef5abcd",
@@ -2275,7 +2279,9 @@
     "u.s. department of the treasury (treasurydirect)::米国債入札 応札倍率(19-year 11-month, bond) 2026-09-15: 2.57 倍::2026-09-15": "clu_840cec0751",
     "u.s. department of the treasury (treasurydirect)::米国債入札 応札倍率(6-week, bill) 2026-09-15: 3.16 倍::2026-09-15": "clu_840cec0751",
     "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-09-14: 40,054,421,967,786.906 usd::2026-09-15": "clu_406f44b77d",
-    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-09-14: 32,358,452,350,574.73 usd::2026-09-15": "clu_c474baf1ac"
+    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-09-14: 32,358,452,350,574.73 usd::2026-09-15": "clu_c474baf1ac",
+    "european commission::commission sends statement of objections over the proposed acquisition of anglo american's nickel business by mmg::2026-09-15": "clu_105e16c727",
+    "european commission::2026 state of the union address by president von der leyen::2026-09-15": "clu_497786f457"
   },
   "clusters": {
     "clu_623ef5abcd": {
@@ -9059,6 +9065,24 @@
       ],
       "source_ids": [
         "src_us_treasury_debt"
+      ]
+    },
+    "clu_105e16c727": {
+      "primary_event_id": "evt_20260916_434c0debf8",
+      "event_ids": [
+        "evt_20260916_434c0debf8"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_497786f457": {
+      "primary_event_id": "evt_20260916_50a2a67b81",
+      "event_ids": [
+        "evt_20260916_50a2a67b81"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }
