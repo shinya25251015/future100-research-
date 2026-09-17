@@ -153,7 +153,13 @@
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-09-16&tenor=20%E5%B9%B4": "clu_12021b6eb8",
     "https://treasurydirect.gov/auctions/announcements-data-results?cusip=912797WQ6&metric=bid_to_cover&period=2026-09-16": "clu_081d212ec8",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-15&series=debt_held_public_amt": "clu_8771106b3b",
-    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-15&series=tot_pub_debt_out_amt": "clu_8555932d99"
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-15&series=tot_pub_debt_out_amt": "clu_8555932d99",
+    "http://boj.or.jp/statistics/sj/sj.htm": "clu_29376664d2",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1890": "clu_144c58f901",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1891": "clu_91eb25f723",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1889": "clu_2b3bea9bc6",
+    "https://content.knowledgehub.wiley.com/single-phase-direct-liquid-cooling-is-proven-for-the-next-decade-of-ultra-dense-compute": "clu_480d55f857",
+    "https://war.gov/News/Contracts/Contract/Article/4603312/contracts-for-sept-16-2026": "clu_56cb02ea09"
   },
   "by_hash": {
     "c28b9a592058af2e021fd5122e628c5c5283fb3685b79e94cb8bfbdfa35ee41c": "clu_7783739565",
@@ -305,7 +311,13 @@
     "e86f042f6f6ec374e60813df3e9d7cdb158a1f5eea90f204bc309a4cad05e83b": "clu_12021b6eb8",
     "4210d9c809da1a0c941fd32276f9487f94060840cae0d9f61dbbf80d5715dcf7": "clu_081d212ec8",
     "f8e97b918c1d89c1abc1a5187b3d43edc4035c7d00ed4717409649a3301605fd": "clu_8771106b3b",
-    "17129163486467adfcdffe8a4f3a84c519caa051523368a53fa1afaef2c65956": "clu_8555932d99"
+    "17129163486467adfcdffe8a4f3a84c519caa051523368a53fa1afaef2c65956": "clu_8555932d99",
+    "68ac59037b2ab85792847a817bfbec34becd4bea3c9ff6657d91dd7f5de146f3": "clu_29376664d2",
+    "5b6eb57f39a93d6a93b88f3fa09d074ceb36ba6d9365d710cf2772a5a8d4e59b": "clu_144c58f901",
+    "3e07d36714280513d19b50a01993968703cb3e69a2674bdb2e476c8889c14d10": "clu_91eb25f723",
+    "dadecec96ef5d54ce073dc75cfe92ae69712fe2e1ce2d5224814393716855aa3": "clu_2b3bea9bc6",
+    "aaf2390a45b1b64bea5365633e25ed07a0cf2cdd96b19bb75c65fbeeecb05edb": "clu_480d55f857",
+    "b3366da8fe8b16f28f3a86eda1f7dc32ac8e0183a5546ba349f6714194eaabea": "clu_56cb02ea09"
   },
   "by_key": {
     "office of the federal register::medicare program; medicare appeals; adjustment to the amount in controversy threshold amounts for calendar year 2027::2026-09-16": "clu_7783739565",
@@ -456,7 +468,13 @@
     "u.s. department of the treasury::米国債利回り 20年 2026-09-16: 5.39 %::2026-09-16": "clu_12021b6eb8",
     "u.s. department of the treasury (treasurydirect)::米国債入札 応札倍率(17-week, bill) 2026-09-16: 2.72 倍::2026-09-16": "clu_081d212ec8",
     "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-09-15: 32,406,391,951,586.012 usd::2026-09-16": "clu_8771106b3b",
-    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-09-15: 40,114,445,691,166.844 usd::2026-09-16": "clu_8555932d99"
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-09-15: 40,114,445,691,166.844 usd::2026-09-16": "clu_8555932d99",
+    "日本銀行::資金循環統計(速報)(2026年第2四半期)::2026-09-16": "clu_29376664d2",
+    "european commission::eu kids act to restrict social media platforms' access to children in the eu::2026-09-16": "clu_144c58f901",
+    "european commission::factsheet: eu kids act::2026-09-16": "clu_91eb25f723",
+    "european commission::remarks by commissioner dombrovskis at eurofi “strengthening our economic fabric: a competitive financial system for a sovereign europe”::2026-09-16": "clu_2b3bea9bc6",
+    "ieee::single-phase direct liquid cooling is proven for the next decade of ultra-dense compute::2026-09-16": "clu_480d55f857",
+    "u.s. department of war (旧 department of defense)::contracts for sept. 16, 2026::2026-09-16": "clu_56cb02ea09"
   },
   "clusters": {
     "clu_7783739565": {
@@ -1807,6 +1825,60 @@
       ],
       "source_ids": [
         "src_us_treasury_debt"
+      ]
+    },
+    "clu_29376664d2": {
+      "primary_event_id": "evt_20260917_68ac59037b",
+      "event_ids": [
+        "evt_20260917_68ac59037b"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_144c58f901": {
+      "primary_event_id": "evt_20260917_5b6eb57f39",
+      "event_ids": [
+        "evt_20260917_5b6eb57f39"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_91eb25f723": {
+      "primary_event_id": "evt_20260917_3e07d36714",
+      "event_ids": [
+        "evt_20260917_3e07d36714"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_2b3bea9bc6": {
+      "primary_event_id": "evt_20260917_dadecec96e",
+      "event_ids": [
+        "evt_20260917_dadecec96e"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_480d55f857": {
+      "primary_event_id": "evt_20260917_aaf2390a45",
+      "event_ids": [
+        "evt_20260917_aaf2390a45"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    },
+    "clu_56cb02ea09": {
+      "primary_event_id": "evt_20260917_b3366da8fe",
+      "event_ids": [
+        "evt_20260917_b3366da8fe"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
       ]
     }
   }

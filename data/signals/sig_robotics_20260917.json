@@ -1,0 +1,123 @@
+{
+  "window_id": "sig_robotics_20260917",
+  "as_of": "2026-09-17T23:37:40Z",
+  "window": {
+    "start": "2026-09-11",
+    "end": "2026-09-17",
+    "baseline_start": "2026-08-14",
+    "baseline_end": "2026-09-10"
+  },
+  "topic": {
+    "label": "ロボティクス",
+    "keywords": [
+      "robot",
+      "robotic",
+      "humanoid",
+      "factory automation",
+      "ロボット",
+      "産業用ロボット"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_robotics"
+  },
+  "counts": [
+    {
+      "signal_type": "new_standard",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    },
+    {
+      "signal_type": "paper",
+      "count": 56,
+      "baseline_count": 51.0,
+      "event_ids": [
+        "evt_20260912_870f6ac897",
+        "evt_20260912_d749295639",
+        "evt_20260912_678264a658",
+        "evt_20260912_35fa94a6f2",
+        "evt_20260912_eb03b7e838",
+        "evt_20260912_08ecf86492",
+        "evt_20260912_c30df081c7",
+        "evt_20260912_2e1b85b2d4",
+        "evt_20260914_98ca96f3f2",
+        "evt_20260914_6414baffab",
+        "evt_20260914_d33bf6186d",
+        "evt_20260914_1c25c7316b",
+        "evt_20260914_67eefae58a",
+        "evt_20260914_5af2998384",
+        "evt_20260914_314f6a0d27",
+        "evt_20260914_69e12bd2ad",
+        "evt_20260914_f28f3e8d9d",
+        "evt_20260914_53b4dfda54",
+        "evt_20260914_fc17795ba6",
+        "evt_20260915_04563c8142",
+        "evt_20260915_d9d8bbfcd4",
+        "evt_20260915_91d2c9cbdc",
+        "evt_20260915_e73a1c7902",
+        "evt_20260915_a8f410eaa3",
+        "evt_20260915_53c7eac85a",
+        "evt_20260915_c6a7689e01",
+        "evt_20260915_349261ad68",
+        "evt_20260915_593d5d5240",
+        "evt_20260915_7c645b83d7",
+        "evt_20260915_b824209d17",
+        "evt_20260915_3c62948cdf",
+        "evt_20260915_efb508b128",
+        "evt_20260915_509774ac58",
+        "evt_20260915_f0a5fec08a",
+        "evt_20260915_fc904f1c5e",
+        "evt_20260915_c340194182",
+        "evt_20260915_34b62e3ef0",
+        "evt_20260915_fae4b940b9",
+        "evt_20260917_08a6ecdfdb",
+        "evt_20260917_5a06dc85d1",
+        "evt_20260917_8c2cfbfdd1",
+        "evt_20260917_3267d85176",
+        "evt_20260917_655846921e",
+        "evt_20260917_a3b2486ac0",
+        "evt_20260917_c9063822a6",
+        "evt_20260917_3f9598fbfb",
+        "evt_20260917_8e8b911287",
+        "evt_20260917_9b1dc06827",
+        "evt_20260917_3bbd4ab325",
+        "evt_20260917_20bf5d7528",
+        "evt_20260917_5327c9d68e",
+        "evt_20260917_f891291cd2",
+        "evt_20260917_8bee99f234",
+        "evt_20260917_a5c05ab72e",
+        "evt_20260917_4ea71074a8",
+        "evt_20260917_5949856043"
+      ],
+      "delta_ratio": 0.098
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      },
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 2,
+    "distinct_regions": 1,
+    "score": 34.2,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}
