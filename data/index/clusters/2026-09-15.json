@@ -759,7 +759,8 @@
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-14&series=tot_pub_debt_out_amt": "clu_406f44b77d",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-14&series=debt_held_public_amt": "clu_c474baf1ac",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1877": "clu_105e16c727",
-    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1868": "clu_497786f457"
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1868": "clu_497786f457",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_1901": "clu_caf7e46dab"
   },
   "by_hash": {
     "90143297b9fcb24a1f7c36b512acc670fa09b6bd4b648134facec7a889466db6": "clu_623ef5abcd",
@@ -1520,7 +1521,8 @@
     "c9e731933fd11f90774713fe25c7399ff759d6deb301269ef3278001b1dd32c2": "clu_406f44b77d",
     "368ea69452059c7dc9924a43e5a092dc990bd1bba09a668ab362934780731554": "clu_c474baf1ac",
     "434c0debf84c6b26bd63e1ef8cd8cc4bee064f12c61b4bed9a0611eefe72dc57": "clu_105e16c727",
-    "50a2a67b815214fb4f9df2f23eb1b6111eb52faf138b389c163932246d3be3b6": "clu_497786f457"
+    "50a2a67b815214fb4f9df2f23eb1b6111eb52faf138b389c163932246d3be3b6": "clu_497786f457",
+    "5a8f2a3e1cd01de99f8c004eec6c0d8492917f33424f6bce1de2a379854f0098": "clu_caf7e46dab"
   },
   "by_key": {
     "office of the federal register::supplemental nutrition assistance program: state of idaho snap demonstration project::2026-09-15": "clu_623ef5abcd",
@@ -2281,7 +2283,8 @@
     "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-09-14: 40,054,421,967,786.906 usd::2026-09-15": "clu_406f44b77d",
     "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-09-14: 32,358,452,350,574.73 usd::2026-09-15": "clu_c474baf1ac",
     "european commission::commission sends statement of objections over the proposed acquisition of anglo american's nickel business by mmg::2026-09-15": "clu_105e16c727",
-    "european commission::2026 state of the union address by president von der leyen::2026-09-15": "clu_497786f457"
+    "european commission::2026 state of the union address by president von der leyen::2026-09-15": "clu_497786f457",
+    "european commission::president von der leyen delivers 2026 state of the union adress::2026-09-15": "clu_caf7e46dab"
   },
   "clusters": {
     "clu_623ef5abcd": {
@@ -9080,6 +9083,15 @@
       "primary_event_id": "evt_20260916_50a2a67b81",
       "event_ids": [
         "evt_20260916_50a2a67b81"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_caf7e46dab": {
+      "primary_event_id": "evt_20260918_5a8f2a3e1c",
+      "event_ids": [
+        "evt_20260918_5a8f2a3e1c"
       ],
       "source_ids": [
         "src_eu_commission_press"

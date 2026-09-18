@@ -392,7 +392,8 @@
     "https://treasurydirect.gov/auctions/announcements-data-results?cusip=91282CRE3&metric=bid_to_cover&period=2026-09-17": "clu_66a8c674d8",
     "https://treasurydirect.gov/auctions/announcements-data-results?cusip=912797VX2&metric=bid_to_cover&period=2026-09-17": "clu_66a8c674d8",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-16&series=debt_held_public_amt": "clu_5f3382df42",
-    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-16&series=tot_pub_debt_out_amt": "clu_6c179fabaa"
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-16&series=tot_pub_debt_out_amt": "clu_6c179fabaa",
+    "https://war.gov/News/Contracts/Contract/Article/4604536/contracts-for-sept-17-2026": "clu_305078e1db"
   },
   "by_hash": {
     "061e68e657eeb02a3730ad549558f2eb8494061894609f1785f7e82587c6c383": "clu_ccd6f51220",
@@ -787,7 +788,8 @@
     "57edf81b7edd7ae7158225ad59b586bcee796beb185f7cd75aee7e10e3c610eb": "clu_66a8c674d8",
     "9f1481810b18d353a5a57dfc0e69026b5c209697cad5dcd4f98eb59f5bf68aba": "clu_66a8c674d8",
     "85553eb0203989aeab26496f25cb07233a23b8c4d29d8e013308a333f2bb5ae9": "clu_5f3382df42",
-    "1bd82ee8456289e5fbb2e3f8709bfc5e3aee4b0f1597bfce191c29927d9bae1f": "clu_6c179fabaa"
+    "1bd82ee8456289e5fbb2e3f8709bfc5e3aee4b0f1597bfce191c29927d9bae1f": "clu_6c179fabaa",
+    "c1d7c1532a7ae3e79f50557240b204ce653d988df74bcf842e0a7e97c0612184": "clu_305078e1db"
   },
   "by_key": {
     "office of the federal register::airworthiness directives; bell textron canada limited helicopters::2026-09-17": "clu_ccd6f51220",
@@ -1180,7 +1182,8 @@
     "u.s. department of the treasury (treasurydirect)::米国債入札 応札倍率(9-year 10-month, note) 2026-09-17: 2.24 倍::2026-09-17": "clu_66a8c674d8",
     "u.s. department of the treasury (treasurydirect)::米国債入札 応札倍率(8-week, bill) 2026-09-17: 2.94 倍::2026-09-17": "clu_66a8c674d8",
     "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-09-16: 32,406,353,922,774.301 usd::2026-09-17": "clu_5f3382df42",
-    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-09-16: 40,094,080,427,790.969 usd::2026-09-17": "clu_6c179fabaa"
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-09-16: 40,094,080,427,790.969 usd::2026-09-17": "clu_6c179fabaa",
+    "u.s. department of war (旧 department of defense)::contracts for sept. 17, 2026::2026-09-17": "clu_305078e1db"
   },
   "clusters": {
     "clu_ccd6f51220": {
@@ -4671,6 +4674,15 @@
       ],
       "source_ids": [
         "src_us_treasury_debt"
+      ]
+    },
+    "clu_305078e1db": {
+      "primary_event_id": "evt_20260918_c1d7c1532a",
+      "event_ids": [
+        "evt_20260918_c1d7c1532a"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
       ]
     }
   }
