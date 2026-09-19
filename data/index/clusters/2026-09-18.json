@@ -435,7 +435,9 @@
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-09-18&tenor=10%E5%B9%B4": "clu_7181eb89db",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-09-18&tenor=30%E5%B9%B4": "clu_608f6cbd14",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-17&series=debt_held_public_amt": "clu_441ac164f6",
-    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-17&series=tot_pub_debt_out_amt": "clu_29e20aab72"
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-17&series=tot_pub_debt_out_amt": "clu_29e20aab72",
+    "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1906": "clu_16ad8a457e",
+    "https://war.gov/News/Contracts/Contract/Article/4605498/contracts-for-sept-18-2026": "clu_3b4cb43dbf"
   },
   "by_hash": {
     "e379bb6152f6d28b5013a1187f9cedee9225ce16886dd40d7b3d9b2de47814e0": "clu_6a97ab25c8",
@@ -872,7 +874,9 @@
     "b76d8d4cd800bde6243b6fb8688978a24d6f1624a8de64746ed09b17f49ea026": "clu_7181eb89db",
     "3dd8f0ab7e47d6adccd6142c08989ee28746e5865c40269247dc1ec4d6bb1f6c": "clu_608f6cbd14",
     "2d58131c2922984cdaa050ba9976d88ad4b93d03f02a6e2cceabbd0159d169b2": "clu_441ac164f6",
-    "342c8bfe82d11e22c652e7158238a8c7657dc3cb44db57cae2cc6d79dc9e4525": "clu_29e20aab72"
+    "342c8bfe82d11e22c652e7158238a8c7657dc3cb44db57cae2cc6d79dc9e4525": "clu_29e20aab72",
+    "967a48e05103f8dd74358b99c63216f32865b382ee3013d8d2c33f0f30f8e684": "clu_16ad8a457e",
+    "47028f977a5e62342723acfb067fb5a3724beddf072e5d8a919c74ddc0bb7948": "clu_3b4cb43dbf"
   },
   "by_key": {
     "board of governors of the federal reserve system::federal reserve board issues enforcement actions with former employee of northstar bank, former employee of american express travel related services company, inc., and former employee of regions bank::2026-09-18": "clu_6a97ab25c8",
@@ -1307,7 +1311,9 @@
     "u.s. department of the treasury::米国債利回り 10年 2026-09-18: 5.01 %::2026-09-18": "clu_7181eb89db",
     "u.s. department of the treasury::米国債利回り 30年 2026-09-18: 5.34 %::2026-09-18": "clu_608f6cbd14",
     "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-09-17: 32,392,786,557,372.461 usd::2026-09-18": "clu_441ac164f6",
-    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-09-17: 40,093,343,468,150.5 usd::2026-09-18": "clu_29e20aab72"
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-09-17: 40,093,343,468,150.5 usd::2026-09-18": "clu_29e20aab72",
+    "european commission::remarks by commissioner dombrovskis at the informal ecofin press conference::2026-09-18": "clu_16ad8a457e",
+    "u.s. department of war (旧 department of defense)::contracts for sept. 18, 2026::2026-09-18": "clu_3b4cb43dbf"
   },
   "clusters": {
     "clu_6a97ab25c8": {
@@ -5223,6 +5229,24 @@
       ],
       "source_ids": [
         "src_us_treasury_debt"
+      ]
+    },
+    "clu_16ad8a457e": {
+      "primary_event_id": "evt_20260919_967a48e051",
+      "event_ids": [
+        "evt_20260919_967a48e051"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_3b4cb43dbf": {
+      "primary_event_id": "evt_20260919_47028f977a",
+      "event_ids": [
+        "evt_20260919_47028f977a"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
       ]
     }
   }

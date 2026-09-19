@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://science.nasa.gov/image-article/apod-2026-september-19-a-zodiacal-night": "clu_aa05192a5f"
+  },
+  "by_hash": {
+    "86dee989214a7d28b510b8e850bb21003b6706ef706538edbf45a712f941c9c9": "clu_aa05192a5f"
+  },
+  "by_key": {
+    "nasa::apod: 2026 september 19 – a zodiacal night::2026-09-19": "clu_aa05192a5f"
+  },
+  "clusters": {
+    "clu_aa05192a5f": {
+      "primary_event_id": "evt_20260919_86dee98921",
+      "event_ids": [
+        "evt_20260919_86dee98921"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    }
+  }
+}
