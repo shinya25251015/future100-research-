@@ -1,0 +1,34 @@
+{
+  "by_url": {
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1912": "clu_48def8c032",
+    "https://science.nasa.gov/image-article/apod-2026-september-20-analemma-over-the-callanish-stones": "clu_840eddb32f"
+  },
+  "by_hash": {
+    "ba8e9c5ff746dcfc3e8e0cc3cd959d8dd70e983b316f15c9618357d1c6ac366f": "clu_48def8c032",
+    "dad59ec0f2527cfc7332018e90752f7b40af413fa107493e04d37916163d6ec9": "clu_840eddb32f"
+  },
+  "by_key": {
+    "european commission::un private sector forum - un global compact::2026-09-20": "clu_48def8c032",
+    "nasa::apod: 2026 september 20 – analemma over the callanish stones::2026-09-20": "clu_840eddb32f"
+  },
+  "clusters": {
+    "clu_48def8c032": {
+      "primary_event_id": "evt_20260920_ba8e9c5ff7",
+      "event_ids": [
+        "evt_20260920_ba8e9c5ff7"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_840eddb32f": {
+      "primary_event_id": "evt_20260920_dad59ec0f2",
+      "event_ids": [
+        "evt_20260920_dad59ec0f2"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    }
+  }
+}

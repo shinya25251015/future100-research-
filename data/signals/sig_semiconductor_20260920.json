@@ -1,0 +1,111 @@
+{
+  "window_id": "sig_semiconductor_20260920",
+  "as_of": "2026-09-20T23:23:10Z",
+  "window": {
+    "start": "2026-09-14",
+    "end": "2026-09-20",
+    "baseline_start": "2026-08-17",
+    "baseline_end": "2026-09-13"
+  },
+  "topic": {
+    "label": "半導体",
+    "keywords": [
+      "semiconductor",
+      "foundry",
+      "wafer",
+      "lithography",
+      "euv",
+      "hbm",
+      "chip fab",
+      "半導体",
+      "前工程",
+      "後工程",
+      "露光装置"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_semiconductor"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 39,
+      "baseline_count": 23.5,
+      "event_ids": [
+        "evt_20260914_bf6749a014",
+        "evt_20260914_889c11485d",
+        "evt_20260914_f148827abb",
+        "evt_20260914_eb4b91d19e",
+        "evt_20260914_11b4a432fe",
+        "evt_20260914_de5f30d0df",
+        "evt_20260914_fbba9e714a",
+        "evt_20260915_9d6f79346a",
+        "evt_20260915_049aab0d79",
+        "evt_20260915_661a400027",
+        "evt_20260915_2a8ec1df72",
+        "evt_20260915_52794c84c8",
+        "evt_20260915_f3ca8622ae",
+        "evt_20260915_28838283b2",
+        "evt_20260915_9c7f783481",
+        "evt_20260915_06cb66c4ff",
+        "evt_20260915_cbc8b2de8d",
+        "evt_20260915_7dec3d44ce",
+        "evt_20260915_054b7c19e4",
+        "evt_20260915_c401a2460f",
+        "evt_20260915_7fce13828c",
+        "evt_20260915_49bc0d3fb7",
+        "evt_20260915_45fb587f16",
+        "evt_20260916_9134a2af13",
+        "evt_20260916_fbef3d780b",
+        "evt_20260916_519f9919b6",
+        "evt_20260916_33462ab813",
+        "evt_20260916_9576e83d37",
+        "evt_20260917_90a57d96af",
+        "evt_20260917_fbb567de94",
+        "evt_20260917_96014706e3",
+        "evt_20260917_c1773c92fd",
+        "evt_20260917_757c947e74",
+        "evt_20260918_64c8473c41",
+        "evt_20260918_fde6671744",
+        "evt_20260918_d7c9b6cfc3",
+        "evt_20260918_00d3a797f9",
+        "evt_20260918_3aef90688e",
+        "evt_20260918_993c2aa67e"
+      ],
+      "delta_ratio": 0.66
+    },
+    {
+      "signal_type": "procurement",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      },
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 2,
+    "distinct_regions": 1,
+    "score": 34.2,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}
