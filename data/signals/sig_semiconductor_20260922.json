@@ -1,0 +1,84 @@
+{
+  "window_id": "sig_semiconductor_20260922",
+  "as_of": "2026-09-22T00:14:30Z",
+  "window": {
+    "start": "2026-09-16",
+    "end": "2026-09-22",
+    "baseline_start": "2026-08-19",
+    "baseline_end": "2026-09-15"
+  },
+  "topic": {
+    "label": "半導体",
+    "keywords": [
+      "semiconductor",
+      "foundry",
+      "wafer",
+      "lithography",
+      "euv",
+      "hbm",
+      "chip fab",
+      "半導体",
+      "前工程",
+      "後工程",
+      "露光装置"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_semiconductor"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 22,
+      "baseline_count": 27.0,
+      "event_ids": [
+        "evt_20260916_9134a2af13",
+        "evt_20260916_fbef3d780b",
+        "evt_20260916_519f9919b6",
+        "evt_20260916_33462ab813",
+        "evt_20260916_9576e83d37",
+        "evt_20260917_90a57d96af",
+        "evt_20260917_fbb567de94",
+        "evt_20260917_96014706e3",
+        "evt_20260917_c1773c92fd",
+        "evt_20260917_757c947e74",
+        "evt_20260918_64c8473c41",
+        "evt_20260918_fde6671744",
+        "evt_20260918_d7c9b6cfc3",
+        "evt_20260918_00d3a797f9",
+        "evt_20260918_3aef90688e",
+        "evt_20260918_993c2aa67e",
+        "evt_20260922_8ea485b74f",
+        "evt_20260922_ebc861403a",
+        "evt_20260922_3a851acfe3",
+        "evt_20260922_ea83123507",
+        "evt_20260922_f136f3ffbb",
+        "evt_20260922_aa27c97ae4"
+      ],
+      "delta_ratio": -0.185
+    },
+    {
+      "signal_type": "procurement",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}
