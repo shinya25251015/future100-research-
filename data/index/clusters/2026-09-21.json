@@ -289,7 +289,12 @@
     "https://science.nasa.gov/photojournal/perseverances-view-of-turquoise-bay": "clu_632acda7a3",
     "https://nasa.gov/learning-resources/nasa-kicks-off-nationwide-effort-to-prepare-tomorrows-space-workforce": "clu_03f1eeeceb",
     "https://science.nasa.gov/image-article/apod-2026-september-21-cocoon-nebula-wide-field": "clu_623d45a113",
-    "https://science.nasa.gov/earth/earth-observatory/arctic-melt-season-length-levels-off": "clu_313451f475"
+    "https://science.nasa.gov/earth/earth-observatory/arctic-melt-season-length-levels-off": "clu_313451f475",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1920": "clu_4366a53267",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1929": "clu_2a9d7ce3c9",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1919": "clu_68bfd20e34",
+    "https://ec.europa.eu/commission/presscorner/detail/en/read_26_1927": "clu_95e07916b4",
+    "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1922": "clu_bb61c805c4"
   },
   "by_hash": {
     "711e12dca70672c7ea23b129712bbf9ff230ee3e4be03624d0abea52d79316c6": "clu_31ca1aed22",
@@ -581,7 +586,12 @@
     "bcd2b6b568aea6ac674f79ac7f71652721a23bf65246c59ae7e47648b07f0a06": "clu_632acda7a3",
     "cccd6013620a215e5d5d7bda4f14c84797f881513d12d616fc2db07b74414d04": "clu_03f1eeeceb",
     "6dbf6233b5bd9fb7122d8cbd0426d8a3c995647883d449d39009346f702e6cdb": "clu_623d45a113",
-    "c5cfa76a63bf08cef1df6a0d9d4cfa64975f9ebee2fc19f9900c67b166457c76": "clu_313451f475"
+    "c5cfa76a63bf08cef1df6a0d9d4cfa64975f9ebee2fc19f9900c67b166457c76": "clu_313451f475",
+    "0d279e37c1faee7074a73a3ca27619d18d66d2e2e63f113ed0f4cfcba4d6e99f": "clu_4366a53267",
+    "7599ddd2a7a16acba2794cb88d9a7aa736f0ec4d03b1dad6056093ab59475686": "clu_2a9d7ce3c9",
+    "6c05728ad4be30d9b0394cd594b4a9049ea13eb4e31300d1c7403cbbc8bb218e": "clu_68bfd20e34",
+    "b4c521858cef72d0558bb521f84cf8d3dd43ea3e207c72fcf4cbe174a125a130": "clu_95e07916b4",
+    "98bcfa6e3cb26e0e8c803b9398bd42b9cb078e75f3a04f7c7cbaf3f66487f3ea": "clu_bb61c805c4"
   },
   "by_key": {
     "office of the federal register::agency information collection activities; proposed collection; comment request; temporary marketing permit applications::2026-09-21": "clu_31ca1aed22",
@@ -873,7 +883,12 @@
     "nasa::perseverance’s view of ‘turquoise bay’::2026-09-21": "clu_632acda7a3",
     "nasa::nasa kicks off nationwide effort to prepare tomorrow’s space workforce::2026-09-21": "clu_03f1eeeceb",
     "nasa::apod: 2026 september 21 – cocoon nebula wide field::2026-09-21": "clu_623d45a113",
-    "nasa::arctic melt season length levels off::2026-09-21": "clu_313451f475"
+    "nasa::arctic melt season length levels off::2026-09-21": "clu_313451f475",
+    "european commission::eu report highlights continued deterioration of fundamental freedoms in hong kong::2026-09-21": "clu_4366a53267",
+    "european commission::substantial agreement on eu-philippines trade deal::2026-09-21": "clu_2a9d7ce3c9",
+    "european commission::eu report shows growing focus on national security undermines fundamental freedoms in macao::2026-09-21": "clu_68bfd20e34",
+    "european commission::readout of the call between president von der leyen and president marcos of the philippines::2026-09-21": "clu_95e07916b4",
+    "european commission::joint press statement by commissioner šefčovič and secretary roque::2026-09-21": "clu_bb61c805c4"
   },
   "clusters": {
     "clu_31ca1aed22": {
@@ -3484,6 +3499,51 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_4366a53267": {
+      "primary_event_id": "evt_20260922_0d279e37c1",
+      "event_ids": [
+        "evt_20260922_0d279e37c1"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_2a9d7ce3c9": {
+      "primary_event_id": "evt_20260922_7599ddd2a7",
+      "event_ids": [
+        "evt_20260922_7599ddd2a7"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_68bfd20e34": {
+      "primary_event_id": "evt_20260922_6c05728ad4",
+      "event_ids": [
+        "evt_20260922_6c05728ad4"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_95e07916b4": {
+      "primary_event_id": "evt_20260922_b4c521858c",
+      "event_ids": [
+        "evt_20260922_b4c521858c"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_bb61c805c4": {
+      "primary_event_id": "evt_20260922_98bcfa6e3c",
+      "event_ids": [
+        "evt_20260922_98bcfa6e3c"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

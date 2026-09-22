@@ -1,10 +1,10 @@
 {
   "report_id": "rpt_20260922",
   "report_date": "2026-09-22",
-  "as_of": "2026-09-22T00:14:30Z",
+  "as_of": "2026-09-22T23:43:40Z",
   "coverage": {
-    "events_ingested": 253,
-    "events_after_dedup": 253,
+    "events_ingested": 321,
+    "events_after_dedup": 321,
     "sources_polled": 24,
     "sources_failed": []
   },
@@ -13,13 +13,13 @@
       "no": 1,
       "key": "executive_summary",
       "title": "本日の構造変化サマリ",
-      "body": "本日の観測は 253 件。内訳（分類別）: technology 228 / policy_regulation 10 / macro 10 / corporate_action 5。シグナル種別: paper 216 / procurement 1。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 15 件）。件数は観測量であって重要度ではない。"
+      "body": "本日の観測は 321 件。内訳（分類別）: technology 228 / policy_regulation 75 / macro 11 / corporate_action 7。シグナル種別: paper 216 / procurement 1。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 15 件）。件数は観測量であって重要度ではない。"
     },
     {
       "no": 2,
       "key": "policy_regulation",
       "title": "政策・規制 (§4)",
-      "body": "本日 10 件を観測。\n- [A] 2026-09-21 Ceremonial Signature event of the Global Green Bond Initiative launch (GGBI) (evt_20260922_7b6203cdc5)\n- [A] 2026-09-21 Speech by President von der Leyen at the Summit in Support of Multilateralism (evt_20260922_cf84ceb4ab)\n- [A] 2026-09-21 Contracts for Sept. 21, 2026 (evt_20260922_ef68f02343)\n- [A] 2026-09-21 Joint press release following the trilateral Leaders meeting reviewing the progress of EU-Australia relations (evt_20260922_f382c24dff)\n- [A] 2026-09-21 Commissioner Roswall's speech at the Water Resilience Stakeholder Platform (evt_20260922_f33765cff9)\n- [A] 2026-09-21 Speech by Commissioner Lahbib at the UN General Assembly on Humanitarian Diplomacy that Safeguards International Humanitarian Law (evt_20260922_a592b43a4f)\n- [A] 2026-09-21 Daily News 21 / 09 / 2026 (evt_20260922_e0de01e37d)\n- [A] 2026-09-21 Keynote speech by Commissioner Dombrovskis at launch of the Alliance for the Reduction of Bureaucratic Burden (evt_20260922_a6e4ab2411)"
+      "body": "本日 75 件を観測。\n- [A] 2026-09-22 Speech by Commissioner Lahbib at the UN General Assembly on Protecting Civilians Better (evt_20260922_39da8abd77)\n- [A] 2026-09-22 Speech by President von der Leyen at the high-level dialogue on ‘Protecting Children's Rights facing Artificial Intelligence' (evt_20260922_c1b409cbc1)\n- [A] 2026-09-22 Daily News 22 / 09 / 2026 (evt_20260922_7b7d29b98e)\n- [A] 2026-09-22 Eurobarometer survey shows overwhelming public support for European agriculture and EU support for farmers and rural areas (evt_20260922_4086913e83)\n- [A] 2026-09-22 Joint press release: Commission and EIB Group launch European Institutional Investors Pact to boost investment in European tech scale-ups (evt_20260922_e9facf00d2)\n- [A] 2026-09-22 Remarks by Commissioner Serafin at the General Affairs Council in Brussels (evt_20260922_c08ca1eda6)\n- [A] 2026-09-22 Commissioner Roswall's speech at the 9th meeting of the Zero Pollution Stakeholder Platform (evt_20260922_4402a82508)\n- [A] 2026-09-22 Europeans are doing more physical activity, new Eurobarometer shows (evt_20260922_abaa02a2a2)"
     },
     {
       "no": 3,
@@ -31,7 +31,7 @@
       "no": 4,
       "key": "macro_economy",
       "title": "マクロ経済 (§6)",
-      "body": "本日 10 件を観測（うち一次統計のデータ点 10 件）。\n- 統計 米国 公的債務残高 = 40,101,500,516,712.09 USD（2026-09-18, 本日 1 期ぶんを観測）\n- 統計 米国 民間保有債務残高 = 32,401,926,526,743.72 USD（2026-09-18, 本日 1 期ぶんを観測）\n- 統計 米国債入札 応札倍率（13-Week, Bill） = 2.77 倍（2026-09-21, 本日 1 期ぶんを観測）\n- 統計 米国債入札 応札倍率（26-Week, Bill） = 2.62 倍（2026-09-21, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 10年 = 4.96 %（2026-09-21, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 20年 = 5.33 %（2026-09-21, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 2年 = 4.76 %（2026-09-21, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 30年 = 5.29 %（2026-09-21, 本日 1 期ぶんを観測）"
+      "body": "本日 11 件を観測（うち一次統計のデータ点 10 件）。\n- 統計 米国 公的債務残高 = 40,101,500,516,712.09 USD（2026-09-18, 本日 1 期ぶんを観測）\n- 統計 米国 民間保有債務残高 = 32,401,926,526,743.72 USD（2026-09-18, 本日 1 期ぶんを観測）\n- 統計 米国債入札 応札倍率（13-Week, Bill） = 2.77 倍（2026-09-21, 本日 1 期ぶんを観測）\n- 統計 米国債入札 応札倍率（26-Week, Bill） = 2.62 倍（2026-09-21, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 10年 = 4.96 %（2026-09-21, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 20年 = 5.33 %（2026-09-21, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 2年 = 4.76 %（2026-09-21, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 30年 = 5.29 %（2026-09-21, 本日 1 期ぶんを観測）\n- [A] 2026-09-22 Federal Reserve Board announces approval of application by BancFirst Corporation (evt_20260922_6170ce9398)"
     },
     {
       "no": 5,
@@ -55,7 +55,7 @@
       "no": 8,
       "key": "known_sector_monitor",
       "title": "既知セクター監視 (§11)",
-      "body": "常時監視 16 セクターの本日の観測件数。掲載順は設定ファイルの登録順であり、優劣や順位ではない (§44-46)。\n- AI / 計算基盤 (sec_ai_compute): 本日 56 件\n- 半導体 (sec_semiconductor): 本日 6 件\n- 光通信 (sec_optical_networking): 本日 0 件\n- CPO (Co-Packaged Optics) (sec_cpo): 本日 0 件\n- 電力・送配電 (sec_power_grid): 本日 0 件\n- 原子力 (sec_nuclear): 本日 0 件\n- 核融合 (sec_fusion): 本日 0 件\n- 防衛 (sec_defense): 本日 0 件"
+      "body": "常時監視 16 セクターの本日の観測件数。掲載順は設定ファイルの登録順であり、優劣や順位ではない (§44-46)。\n- AI / 計算基盤 (sec_ai_compute): 本日 57 件\n- 半導体 (sec_semiconductor): 本日 6 件\n- 光通信 (sec_optical_networking): 本日 0 件\n- CPO (Co-Packaged Optics) (sec_cpo): 本日 0 件\n- 電力・送配電 (sec_power_grid): 本日 0 件\n- 原子力 (sec_nuclear): 本日 0 件\n- 核融合 (sec_fusion): 本日 0 件\n- 防衛 (sec_defense): 本日 0 件"
     },
     {
       "no": 9,
@@ -109,7 +109,7 @@
   "prohibited_output_check": {
     "contains_ticker_recommendation": false,
     "contains_ranking": false,
-    "checked_at": "2026-09-22T00:14:59Z"
+    "checked_at": "2026-09-22T23:44:10Z"
   },
   "schema_version": "1.0"
 }

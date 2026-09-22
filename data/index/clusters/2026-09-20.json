@@ -3,19 +3,22 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1912": "clu_48def8c032",
     "https://science.nasa.gov/image-article/apod-2026-september-20-analemma-over-the-callanish-stones": "clu_840eddb32f",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1904": "clu_6037400009",
-    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1667": "clu_2d88b2b566"
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1667": "clu_2d88b2b566",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1933": "clu_4c3a9730f6"
   },
   "by_hash": {
     "ba8e9c5ff746dcfc3e8e0cc3cd959d8dd70e983b316f15c9618357d1c6ac366f": "clu_48def8c032",
     "dad59ec0f2527cfc7332018e90752f7b40af413fa107493e04d37916163d6ec9": "clu_840eddb32f",
     "dffa2cb77712568684055025b3c4b078b842fe00aa342e867725d40746a7249e": "clu_6037400009",
-    "11255aa2476fe6ef1593ab985689af2a0813242b7474623382b2030cda5899ab": "clu_2d88b2b566"
+    "11255aa2476fe6ef1593ab985689af2a0813242b7474623382b2030cda5899ab": "clu_2d88b2b566",
+    "c1798145408fd82f5e7f07b17e90a4411cf5e6e8e4e5fff473fdd0506398bd9f": "clu_4c3a9730f6"
   },
   "by_key": {
     "european commission::un private sector forum - un global compact::2026-09-20": "clu_48def8c032",
     "nasa::apod: 2026 september 20 – analemma over the callanish stones::2026-09-20": "clu_840eddb32f",
     "european commission::eu customs reform marks a new era for customs in europe::2026-09-20": "clu_6037400009",
-    "european commission::commission enhances energy efficiency and sustainability of data centres in the eu::2026-09-20": "clu_2d88b2b566"
+    "european commission::commission enhances energy efficiency and sustainability of data centres in the eu::2026-09-20": "clu_2d88b2b566",
+    "european commission::speech by commissioner lahbib at the ministerial-level side event on sudan at the un general assembly::2026-09-20": "clu_4c3a9730f6"
   },
   "clusters": {
     "clu_48def8c032": {
@@ -49,6 +52,15 @@
       "primary_event_id": "evt_20260922_11255aa247",
       "event_ids": [
         "evt_20260922_11255aa247"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_4c3a9730f6": {
+      "primary_event_id": "evt_20260922_c179814540",
+      "event_ids": [
+        "evt_20260922_c179814540"
       ],
       "source_ids": [
         "src_eu_commission_press"
