@@ -1,0 +1,139 @@
+{
+  "window_id": "sig_robotics_20260923",
+  "as_of": "2026-09-23T23:54:39Z",
+  "window": {
+    "start": "2026-09-17",
+    "end": "2026-09-23",
+    "baseline_start": "2026-08-20",
+    "baseline_end": "2026-09-16"
+  },
+  "topic": {
+    "label": "ロボティクス",
+    "keywords": [
+      "robot",
+      "robotic",
+      "humanoid",
+      "factory automation",
+      "ロボット",
+      "産業用ロボット"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_robotics"
+  },
+  "counts": [
+    {
+      "signal_type": "new_standard",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    },
+    {
+      "signal_type": "paper",
+      "count": 77,
+      "baseline_count": 47.0,
+      "event_ids": [
+        "evt_20260917_08a6ecdfdb",
+        "evt_20260917_5a06dc85d1",
+        "evt_20260917_8c2cfbfdd1",
+        "evt_20260917_3267d85176",
+        "evt_20260917_655846921e",
+        "evt_20260917_a3b2486ac0",
+        "evt_20260917_c9063822a6",
+        "evt_20260917_3f9598fbfb",
+        "evt_20260917_8e8b911287",
+        "evt_20260917_9b1dc06827",
+        "evt_20260917_3bbd4ab325",
+        "evt_20260917_20bf5d7528",
+        "evt_20260917_5327c9d68e",
+        "evt_20260917_f891291cd2",
+        "evt_20260917_8bee99f234",
+        "evt_20260917_a5c05ab72e",
+        "evt_20260917_4ea71074a8",
+        "evt_20260917_5949856043",
+        "evt_20260918_6fbf4a3a3c",
+        "evt_20260918_f8aac5f9f4",
+        "evt_20260918_3b589ef05f",
+        "evt_20260918_15b0d551b0",
+        "evt_20260918_e77d0357e4",
+        "evt_20260918_83b7808223",
+        "evt_20260918_8dcb0efef0",
+        "evt_20260918_9cfc354c19",
+        "evt_20260918_932de2c2e2",
+        "evt_20260918_900e1ca670",
+        "evt_20260918_14f51ddfb8",
+        "evt_20260918_d489a466e2",
+        "evt_20260918_1f353d9dce",
+        "evt_20260918_642e613cf5",
+        "evt_20260918_2a22c60123",
+        "evt_20260918_756ff46be5",
+        "evt_20260918_8c14e562bb",
+        "evt_20260918_d7b88d0c93",
+        "evt_20260918_8df8b36d5c",
+        "evt_20260918_359d16e426",
+        "evt_20260918_d259663ea9",
+        "evt_20260918_0c1d23d326",
+        "evt_20260918_8d8cac87bb",
+        "evt_20260918_6d80b80978",
+        "evt_20260922_636ea5ee41",
+        "evt_20260922_114a4a1af4",
+        "evt_20260922_df0b70dd69",
+        "evt_20260922_c9c0db9931",
+        "evt_20260922_357966b4e2",
+        "evt_20260922_fde9351e20",
+        "evt_20260922_cd6659386b",
+        "evt_20260922_6b6f8360ef",
+        "evt_20260922_91bb7e077e",
+        "evt_20260922_6dfc852169",
+        "evt_20260922_4d1a639786",
+        "evt_20260922_547ba983ed",
+        "evt_20260922_896802f4c4",
+        "evt_20260922_2c6595752d",
+        "evt_20260922_ecc60201ee",
+        "evt_20260922_db833c774e",
+        "evt_20260923_9781e05300",
+        "evt_20260923_1e4fcfa593",
+        "evt_20260923_079853c0cc",
+        "evt_20260923_c6c007e461",
+        "evt_20260923_c7e3716193",
+        "evt_20260923_a441e79901",
+        "evt_20260923_13d469304b",
+        "evt_20260923_629a4f0a15",
+        "evt_20260923_92a80a9694",
+        "evt_20260923_d8fc91f9dc",
+        "evt_20260923_e00c8ab4a1",
+        "evt_20260923_315bd9ea8b",
+        "evt_20260923_412691ef9e",
+        "evt_20260923_3e9595ca6a",
+        "evt_20260923_6ce1a86761",
+        "evt_20260923_d29a0724e5",
+        "evt_20260923_470deb45d0",
+        "evt_20260923_136a428cc1",
+        "evt_20260923_4a07a3c7ae"
+      ],
+      "delta_ratio": 0.638
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 1,
+    "distinct_regions": 1,
+    "score": 26.7,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}

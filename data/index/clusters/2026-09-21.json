@@ -294,7 +294,9 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1929": "clu_2a9d7ce3c9",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1919": "clu_68bfd20e34",
     "https://ec.europa.eu/commission/presscorner/detail/en/read_26_1927": "clu_95e07916b4",
-    "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1922": "clu_bb61c805c4"
+    "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1922": "clu_bb61c805c4",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1949": "clu_07e7c6b61a",
+    "https://ec.europa.eu/commission/presscorner/detail/en/read_26_1956": "clu_e3fcb7dd1e"
   },
   "by_hash": {
     "711e12dca70672c7ea23b129712bbf9ff230ee3e4be03624d0abea52d79316c6": "clu_31ca1aed22",
@@ -591,7 +593,9 @@
     "7599ddd2a7a16acba2794cb88d9a7aa736f0ec4d03b1dad6056093ab59475686": "clu_2a9d7ce3c9",
     "6c05728ad4be30d9b0394cd594b4a9049ea13eb4e31300d1c7403cbbc8bb218e": "clu_68bfd20e34",
     "b4c521858cef72d0558bb521f84cf8d3dd43ea3e207c72fcf4cbe174a125a130": "clu_95e07916b4",
-    "98bcfa6e3cb26e0e8c803b9398bd42b9cb078e75f3a04f7c7cbaf3f66487f3ea": "clu_bb61c805c4"
+    "98bcfa6e3cb26e0e8c803b9398bd42b9cb078e75f3a04f7c7cbaf3f66487f3ea": "clu_bb61c805c4",
+    "f03f313353170ace474a2e8f5cf2393dab2d131748467f1bff1898d3e7052d2d": "clu_07e7c6b61a",
+    "39e1478e4c3161c9f0c9d21d3d6fdddd6869f88628c6be737c76cf35419daec7": "clu_e3fcb7dd1e"
   },
   "by_key": {
     "office of the federal register::agency information collection activities; proposed collection; comment request; temporary marketing permit applications::2026-09-21": "clu_31ca1aed22",
@@ -888,7 +892,9 @@
     "european commission::substantial agreement on eu-philippines trade deal::2026-09-21": "clu_2a9d7ce3c9",
     "european commission::eu report shows growing focus on national security undermines fundamental freedoms in macao::2026-09-21": "clu_68bfd20e34",
     "european commission::readout of the call between president von der leyen and president marcos of the philippines::2026-09-21": "clu_95e07916b4",
-    "european commission::joint press statement by commissioner šefčovič and secretary roque::2026-09-21": "clu_bb61c805c4"
+    "european commission::joint press statement by commissioner šefčovič and secretary roque::2026-09-21": "clu_bb61c805c4",
+    "european commission::opening remarks by commissioner šuica at the unesco-eu high-level side event – strengthening information integrity and freedom of expression in the mediterranean: an eu–unesco partnership::2026-09-21": "clu_07e7c6b61a",
+    "european commission::president von der leyen meets prime minister støre in new york::2026-09-21": "clu_e3fcb7dd1e"
   },
   "clusters": {
     "clu_31ca1aed22": {
@@ -3541,6 +3547,24 @@
       "primary_event_id": "evt_20260922_98bcfa6e3c",
       "event_ids": [
         "evt_20260922_98bcfa6e3c"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_07e7c6b61a": {
+      "primary_event_id": "evt_20260923_f03f313353",
+      "event_ids": [
+        "evt_20260923_f03f313353"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_e3fcb7dd1e": {
+      "primary_event_id": "evt_20260923_39e1478e4c",
+      "event_ids": [
+        "evt_20260923_39e1478e4c"
       ],
       "source_ids": [
         "src_eu_commission_press"

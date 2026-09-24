@@ -71,7 +71,13 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1943": "clu_d45d6170c7",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1934": "clu_87902d5dfd",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1938": "clu_6b425b1608",
-    "https://news.samsung.com/global/samsung-opens-built-in-appliance-showroom-in-germany-to-advance-european-market-expansion": "clu_93feacfb85"
+    "https://news.samsung.com/global/samsung-opens-built-in-appliance-showroom-in-germany-to-advance-european-market-expansion": "clu_93feacfb85",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1941": "clu_6f36aaa521",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1940": "clu_51fe1187e9",
+    "https://spectrum.ieee.org/sustainability-robotics-barbara-mazzolai": "clu_f154843bd7",
+    "https://spectrum.ieee.org/spain-astronaut-ieee-honorary-member": "clu_6f2299d9af",
+    "https://spectrum.ieee.org/fanless-liquid-cooled-ai-servers-coolit": "clu_b9bef98244",
+    "https://war.gov/News/Contracts/Contract/Article/4608792/contracts-for-sept-22-2026": "clu_9dea3fdd3c"
   },
   "by_hash": {
     "08d32a245cbb41b5f0daef943c590e8320aeda4b789a22f4664db149ddf2fcf3": "clu_ef9a321f10",
@@ -145,7 +151,13 @@
     "39da8abd772e9c2b85ca28aceb3292c6ba1f2e7ad02c60ea9e84c06e1e6e79e6": "clu_d45d6170c7",
     "abaa02a2a2a7f333b7b1c84b24302186d25c74c17bfcde3b60317723a92b6f18": "clu_87902d5dfd",
     "4086913e83294da776c3f5403aa601e8b24ed44478bc7b1458108ab7c5904d19": "clu_6b425b1608",
-    "59a2b2c5a5fd43a1a29c04f117ecf27c0c1c9d5e2e27a7c156d2bc98d4ee150d": "clu_93feacfb85"
+    "59a2b2c5a5fd43a1a29c04f117ecf27c0c1c9d5e2e27a7c156d2bc98d4ee150d": "clu_93feacfb85",
+    "f2ac8d2a39a67afcd4770073dcad93fdfd883226be27441684cc23d8f63efa26": "clu_6f36aaa521",
+    "3da6f4663bd2a0768a568c05a0563a35b069452dd8c714daf3554aef38f57adb": "clu_51fe1187e9",
+    "8b97ee48d044b84ae191c39c3b553bd9b5442a2b2dfde51b91dd1379ae890a4a": "clu_f154843bd7",
+    "3356d6f3386fdf7a5998bd267e04a125a3f037ab0f7e86645fe9d2521dacc31e": "clu_6f2299d9af",
+    "8799fd9b1f0f971356271885db7b40314cdbde9e216f098257bc373bb8ab3e1a": "clu_b9bef98244",
+    "07faee7566ee7487f25711abf8edca782482ec9cfb05fe02ccba26cb72073fae": "clu_9dea3fdd3c"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 3か月 2026-09-21: 4.17 %::2026-09-22": "clu_ef9a321f10",
@@ -216,7 +228,13 @@
     "european commission::speech by commissioner lahbib at the un general assembly on protecting civilians better::2026-09-22": "clu_d45d6170c7",
     "european commission::europeans are doing more physical activity, new eurobarometer shows::2026-09-22": "clu_87902d5dfd",
     "european commission::eurobarometer survey shows overwhelming public support for european agriculture and eu support for farmers and rural areas::2026-09-22": "clu_6b425b1608",
-    "samsung electronics::samsung opens built-in appliance showroom in germany to advance european market expansion::2026-09-22": "clu_93feacfb85"
+    "samsung electronics::samsung opens built-in appliance showroom in germany to advance european market expansion::2026-09-22": "clu_93feacfb85",
+    "european commission::commission proposes to unlock €4.2 billion in cohesion funding for hungary and restore full access to erasmus+ and horizon europe::2026-09-22": "clu_6f36aaa521",
+    "european commission::joint press release - launch of a french national hub for social, intermediate and sustainable housing::2026-09-22": "clu_51fe1187e9",
+    "ieee::barbara mazzolai wants to build a new field of robotics::2026-09-22": "clu_f154843bd7",
+    "ieee::spain’s first astronaut, pedro duque, named ieee honorary member::2026-09-22": "clu_6f2299d9af",
+    "ieee::the future is fanless: 100% heat capture for liquid cooled ai servers::2026-09-22": "clu_b9bef98244",
+    "u.s. department of war (旧 department of defense)::contracts for sept. 22, 2026::2026-09-22": "clu_9dea3fdd3c"
   },
   "clusters": {
     "clu_ef9a321f10": {
@@ -865,6 +883,60 @@
       ],
       "source_ids": [
         "src_samsung_newsroom"
+      ]
+    },
+    "clu_6f36aaa521": {
+      "primary_event_id": "evt_20260923_f2ac8d2a39",
+      "event_ids": [
+        "evt_20260923_f2ac8d2a39"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_51fe1187e9": {
+      "primary_event_id": "evt_20260923_3da6f4663b",
+      "event_ids": [
+        "evt_20260923_3da6f4663b"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_f154843bd7": {
+      "primary_event_id": "evt_20260923_8b97ee48d0",
+      "event_ids": [
+        "evt_20260923_8b97ee48d0"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    },
+    "clu_6f2299d9af": {
+      "primary_event_id": "evt_20260923_3356d6f338",
+      "event_ids": [
+        "evt_20260923_3356d6f338"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    },
+    "clu_b9bef98244": {
+      "primary_event_id": "evt_20260923_8799fd9b1f",
+      "event_ids": [
+        "evt_20260923_8799fd9b1f"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    },
+    "clu_9dea3fdd3c": {
+      "primary_event_id": "evt_20260923_07faee7566",
+      "event_ids": [
+        "evt_20260923_07faee7566"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
       ]
     }
   }
