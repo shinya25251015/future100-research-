@@ -77,7 +77,12 @@
     "https://spectrum.ieee.org/sustainability-robotics-barbara-mazzolai": "clu_f154843bd7",
     "https://spectrum.ieee.org/spain-astronaut-ieee-honorary-member": "clu_6f2299d9af",
     "https://spectrum.ieee.org/fanless-liquid-cooled-ai-servers-coolit": "clu_b9bef98244",
-    "https://war.gov/News/Contracts/Contract/Article/4608792/contracts-for-sept-22-2026": "clu_9dea3fdd3c"
+    "https://war.gov/News/Contracts/Contract/Article/4608792/contracts-for-sept-22-2026": "clu_9dea3fdd3c",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1971": "clu_9ba6105092",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1970": "clu_2816c760b9",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1969": "clu_bf9354cafc",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1964": "clu_4af955a1e4",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1963": "clu_916a048037"
   },
   "by_hash": {
     "08d32a245cbb41b5f0daef943c590e8320aeda4b789a22f4664db149ddf2fcf3": "clu_ef9a321f10",
@@ -157,7 +162,12 @@
     "8b97ee48d044b84ae191c39c3b553bd9b5442a2b2dfde51b91dd1379ae890a4a": "clu_f154843bd7",
     "3356d6f3386fdf7a5998bd267e04a125a3f037ab0f7e86645fe9d2521dacc31e": "clu_6f2299d9af",
     "8799fd9b1f0f971356271885db7b40314cdbde9e216f098257bc373bb8ab3e1a": "clu_b9bef98244",
-    "07faee7566ee7487f25711abf8edca782482ec9cfb05fe02ccba26cb72073fae": "clu_9dea3fdd3c"
+    "07faee7566ee7487f25711abf8edca782482ec9cfb05fe02ccba26cb72073fae": "clu_9dea3fdd3c",
+    "9ee3bccb71efc0b7c4c830fbd621156034501a976ab9dac77308fafb5411c1ef": "clu_9ba6105092",
+    "4df6debb4b7ad5bf109a6718482548ee340ba42929a07351ed96c6441676b2ed": "clu_2816c760b9",
+    "3c2ed17e5ce4331ee63f38069f700920a41cafa3b7d24b8d5fc7f0a9f4e044a4": "clu_bf9354cafc",
+    "f66ecd1700a3be0f50af22b5c28718413608f225caabf16383a8bd81aa4f3f80": "clu_4af955a1e4",
+    "54189e7fab6bd3735002c18550f3557f23bd712ca8cf9a8d9984a6c22d19e76a": "clu_916a048037"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 3か月 2026-09-21: 4.17 %::2026-09-22": "clu_ef9a321f10",
@@ -234,7 +244,12 @@
     "ieee::barbara mazzolai wants to build a new field of robotics::2026-09-22": "clu_f154843bd7",
     "ieee::spain’s first astronaut, pedro duque, named ieee honorary member::2026-09-22": "clu_6f2299d9af",
     "ieee::the future is fanless: 100% heat capture for liquid cooled ai servers::2026-09-22": "clu_b9bef98244",
-    "u.s. department of war (旧 department of defense)::contracts for sept. 22, 2026::2026-09-22": "clu_9dea3fdd3c"
+    "u.s. department of war (旧 department of defense)::contracts for sept. 22, 2026::2026-09-22": "clu_9dea3fdd3c",
+    "european commission::opening address by commissioner šuica at the high-level roundtable on women economic empowerment in mena region::2026-09-22": "clu_9ba6105092",
+    "european commission::statement by commissioner šuica at the signing ceremony of two early recovery contracts with unicef and undp, delivering on the team gaza initiative::2026-09-22": "clu_2816c760b9",
+    "european commission::commissioner šuica addresses the board of peace at the high-level briefing on the margins of the united nations general assembly::2026-09-22": "clu_bf9354cafc",
+    "european commission::opening address by commissioner šuica at the high-level roundtable on gaza recovery: from sharm el sheikh to phase ii – consolidating peace and early recovery::2026-09-22": "clu_4af955a1e4",
+    "european commission::opening address by commissioner šuica at the high-level ministerial policy dialogue - moving beyond crisis: investing in development from day one::2026-09-22": "clu_916a048037"
   },
   "clusters": {
     "clu_ef9a321f10": {
@@ -937,6 +952,51 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_9ba6105092": {
+      "primary_event_id": "evt_20260924_9ee3bccb71",
+      "event_ids": [
+        "evt_20260924_9ee3bccb71"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_2816c760b9": {
+      "primary_event_id": "evt_20260924_4df6debb4b",
+      "event_ids": [
+        "evt_20260924_4df6debb4b"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_bf9354cafc": {
+      "primary_event_id": "evt_20260924_3c2ed17e5c",
+      "event_ids": [
+        "evt_20260924_3c2ed17e5c"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_4af955a1e4": {
+      "primary_event_id": "evt_20260924_f66ecd1700",
+      "event_ids": [
+        "evt_20260924_f66ecd1700"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_916a048037": {
+      "primary_event_id": "evt_20260924_54189e7fab",
+      "event_ids": [
+        "evt_20260924_54189e7fab"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

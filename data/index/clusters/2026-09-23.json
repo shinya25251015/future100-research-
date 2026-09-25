@@ -486,7 +486,8 @@
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-21&series=tot_pub_debt_out_amt": "clu_107ff16666",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-22&series=debt_held_public_amt": "clu_e2e581ed22",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-22&series=tot_pub_debt_out_amt": "clu_ecceb90060",
-    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-21&series=debt_held_public_amt": "clu_507fe3664f"
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-21&series=debt_held_public_amt": "clu_507fe3664f",
+    "https://war.gov/News/Contracts/Contract/Article/4609970/contracts-for-sept-23-2026": "clu_72e546033d"
   },
   "by_hash": {
     "d21bdbd05ca99c88b67d8ac5cc266436d03958601042474e42e5db3b6d69dab4": "clu_936bdf3c40",
@@ -968,7 +969,8 @@
     "885ef5b6efb1483160529938b6888b60e1503d207675cad0c9c8b4fd55efaddb": "clu_107ff16666",
     "364657ade72236d98340bf3eeb2a884e9383b0b4ca9582d98e6a5e567253dc34": "clu_e2e581ed22",
     "056c6fe3fdc5983ac42dcc72d5f29647e7cbd0b6b25a09f8f6a57b30f7867747": "clu_ecceb90060",
-    "65311f443f11b8ab01130ed974b254e5efa22f9002e4a1d2eaab57cf108cdb70": "clu_507fe3664f"
+    "65311f443f11b8ab01130ed974b254e5efa22f9002e4a1d2eaab57cf108cdb70": "clu_507fe3664f",
+    "5bfecb899517760a47c22c08ff9113a74a4ed17870fd2bfe287e83f04244b101": "clu_72e546033d"
   },
   "by_key": {
     "office of the federal register::notice of inventory completion: indiana university, bloomington, in::2026-09-23": "clu_936bdf3c40",
@@ -1449,7 +1451,8 @@
     "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-09-21: 40,112,118,151,111.922 usd::2026-09-23": "clu_107ff16666",
     "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-09-22: 32,375,685,818,022.199 usd::2026-09-23": "clu_e2e581ed22",
     "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-09-22: 40,097,834,028,442.07 usd::2026-09-23": "clu_ecceb90060",
-    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-09-21: 32,402,191,477,341.648 usd::2026-09-23": "clu_507fe3664f"
+    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-09-21: 32,402,191,477,341.648 usd::2026-09-23": "clu_507fe3664f",
+    "u.s. department of war (旧 department of defense)::contracts for sept. 23, 2026::2026-09-23": "clu_72e546033d"
   },
   "clusters": {
     "clu_936bdf3c40": {
@@ -5715,6 +5718,15 @@
       ],
       "source_ids": [
         "src_us_treasury_debt"
+      ]
+    },
+    "clu_72e546033d": {
+      "primary_event_id": "evt_20260924_5bfecb8995",
+      "event_ids": [
+        "evt_20260924_5bfecb8995"
+      ],
+      "source_ids": [
+        "src_us_defense_contracts"
       ]
     }
   }
