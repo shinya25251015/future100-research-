@@ -133,7 +133,8 @@
     "https://treasurydirect.gov/auctions/announcements-data-results?cusip=91282CRM5&metric=bid_to_cover&period=2026-09-24": "clu_6d080a21ad",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-23&series=debt_held_public_amt": "clu_4a0c693b12",
     "https://treasurydirect.gov/auctions/announcements-data-results?cusip=912797VN4&metric=bid_to_cover&period=2026-09-24": "clu_6d080a21ad",
-    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-09-24&tenor=20%E5%B9%B4": "clu_6d080a21ad"
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-09-24&tenor=20%E5%B9%B4": "clu_6d080a21ad",
+    "https://ec.europa.eu/commission/presscorner/detail/en/inf_26_1834": "clu_a191f6535e"
   },
   "by_hash": {
     "0ad467aaa15555c474217e67165f7b9c41ca51aa78769eaf1a0a332499656bbe": "clu_b6be1c63b3",
@@ -269,7 +270,8 @@
     "3000671882f506ba8150859f2b452873e1236ac075dd4dadd9ef9882eb5a6ff3": "clu_6d080a21ad",
     "1dda5d4d6d262e0201d30b1600dc3cf42173f11b5ba975cfeb863178405848f4": "clu_4a0c693b12",
     "70226ab904191806ca63a3dd1647d121c3d4857d71b3fc9c20f691c6cb3553a5": "clu_6d080a21ad",
-    "1bcb6d5ab700d9bd81ccbbc2349f9884b410a3855ca9395b9b5437b58f9b601d": "clu_6d080a21ad"
+    "1bcb6d5ab700d9bd81ccbbc2349f9884b410a3855ca9395b9b5437b58f9b601d": "clu_6d080a21ad",
+    "6f002fd85ff7eb0f8d951b61b48ee7fddf3c8acc5111e79878359f060168fb9e": "clu_a191f6535e"
   },
   "by_key": {
     "office of the federal register::change in bank control notices; acquisitions of shares of a bank or bank holding company::2026-09-24": "clu_b6be1c63b3",
@@ -404,7 +406,8 @@
     "u.s. department of the treasury (treasurydirect)::米国債入札 応札倍率(7-year, note) 2026-09-24: 2.42 倍::2026-09-24": "clu_6d080a21ad",
     "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-09-23: 32,376,938,482,751.488 usd::2026-09-24": "clu_4a0c693b12",
     "u.s. department of the treasury (treasurydirect)::米国債入札 応札倍率(4-week, bill) 2026-09-24: 2.61 倍::2026-09-24": "clu_6d080a21ad",
-    "u.s. department of the treasury::米国債利回り 20年 2026-09-24: 5.53 %::2026-09-24": "clu_6d080a21ad"
+    "u.s. department of the treasury::米国債利回り 20年 2026-09-24: 5.53 %::2026-09-24": "clu_6d080a21ad",
+    "european commission::commission takes action to ensure complete and timely transposition of eu directives::2026-09-24": "clu_a191f6535e"
   },
   "clusters": {
     "clu_b6be1c63b3": {
@@ -1540,6 +1543,15 @@
       ],
       "source_ids": [
         "src_us_treasury_debt"
+      ]
+    },
+    "clu_a191f6535e": {
+      "primary_event_id": "evt_20260926_6f002fd85f",
+      "event_ids": [
+        "evt_20260926_6f002fd85f"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

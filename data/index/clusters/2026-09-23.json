@@ -487,7 +487,12 @@
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-22&series=debt_held_public_amt": "clu_e2e581ed22",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-22&series=tot_pub_debt_out_amt": "clu_ecceb90060",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-21&series=debt_held_public_amt": "clu_507fe3664f",
-    "https://war.gov/News/Contracts/Contract/Article/4609970/contracts-for-sept-23-2026": "clu_72e546033d"
+    "https://war.gov/News/Contracts/Contract/Article/4609970/contracts-for-sept-23-2026": "clu_72e546033d",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1977": "clu_0ee56b103c",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1976": "clu_d7bafbd239",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1980": "clu_904c428358",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1979": "clu_f67bd8bac6",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1978": "clu_29cb39ff21"
   },
   "by_hash": {
     "d21bdbd05ca99c88b67d8ac5cc266436d03958601042474e42e5db3b6d69dab4": "clu_936bdf3c40",
@@ -970,7 +975,12 @@
     "364657ade72236d98340bf3eeb2a884e9383b0b4ca9582d98e6a5e567253dc34": "clu_e2e581ed22",
     "056c6fe3fdc5983ac42dcc72d5f29647e7cbd0b6b25a09f8f6a57b30f7867747": "clu_ecceb90060",
     "65311f443f11b8ab01130ed974b254e5efa22f9002e4a1d2eaab57cf108cdb70": "clu_507fe3664f",
-    "5bfecb899517760a47c22c08ff9113a74a4ed17870fd2bfe287e83f04244b101": "clu_72e546033d"
+    "5bfecb899517760a47c22c08ff9113a74a4ed17870fd2bfe287e83f04244b101": "clu_72e546033d",
+    "b93d3c7e7ee161aeb9093cf825de4f9d2ff2c79966789f39a4d57b3f12fa2363": "clu_0ee56b103c",
+    "7ad6740e907199ce18bfafe9f8e16597b86168b4f4d900ea8454685f2bae7748": "clu_d7bafbd239",
+    "8d68fe2915705c72e52449141e9e3dbe76e6aafe8c55b57939874077548b0d60": "clu_904c428358",
+    "23793aa098dc37c2f91fd9aadfecc30645ff701b4b733784240dd23adc29ac57": "clu_f67bd8bac6",
+    "71abbd6a72b4314ba5f752990a4593c3bbfd977fa8c4e50b4b6404323f78d734": "clu_29cb39ff21"
   },
   "by_key": {
     "office of the federal register::notice of inventory completion: indiana university, bloomington, in::2026-09-23": "clu_936bdf3c40",
@@ -1452,7 +1462,12 @@
     "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-09-22: 32,375,685,818,022.199 usd::2026-09-23": "clu_e2e581ed22",
     "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-09-22: 40,097,834,028,442.07 usd::2026-09-23": "clu_ecceb90060",
     "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-09-21: 32,402,191,477,341.648 usd::2026-09-23": "clu_507fe3664f",
-    "u.s. department of war (旧 department of defense)::contracts for sept. 23, 2026::2026-09-23": "clu_72e546033d"
+    "u.s. department of war (旧 department of defense)::contracts for sept. 23, 2026::2026-09-23": "clu_72e546033d",
+    "european commission::commissioner šuica addresses the ministerial roundtable on health and humanitarian access in gaza::2026-09-23": "clu_0ee56b103c",
+    "european commission::commissioner šuica addresses the 2nd ministerial meeting of the coalition of rome for fertiliser access and food security::2026-09-23": "clu_d7bafbd239",
+    "european commission::commissioner šuica addresses the ministerial meeting on palestine with all ad hoc liaison committee (ahlc) members::2026-09-23": "clu_904c428358",
+    "european commission::intervention by commissioner šuica at the unrwa ministerial-level meeting::2026-09-23": "clu_f67bd8bac6",
+    "european commission::commissioner šuica addresses the global alliance for the implementation of the two-state solution::2026-09-23": "clu_29cb39ff21"
   },
   "clusters": {
     "clu_936bdf3c40": {
@@ -5727,6 +5742,51 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_0ee56b103c": {
+      "primary_event_id": "evt_20260926_b93d3c7e7e",
+      "event_ids": [
+        "evt_20260926_b93d3c7e7e"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_d7bafbd239": {
+      "primary_event_id": "evt_20260926_7ad6740e90",
+      "event_ids": [
+        "evt_20260926_7ad6740e90"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_904c428358": {
+      "primary_event_id": "evt_20260926_8d68fe2915",
+      "event_ids": [
+        "evt_20260926_8d68fe2915"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_f67bd8bac6": {
+      "primary_event_id": "evt_20260926_23793aa098",
+      "event_ids": [
+        "evt_20260926_23793aa098"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_29cb39ff21": {
+      "primary_event_id": "evt_20260926_71abbd6a72",
+      "event_ids": [
+        "evt_20260926_71abbd6a72"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }
