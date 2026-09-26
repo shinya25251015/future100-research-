@@ -7,7 +7,8 @@
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-09-25&tenor=30%E5%B9%B4": "clu_63e96807f9",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-09-25&tenor=3%E3%81%8B%E6%9C%88": "clu_34ee313289",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-24&series=debt_held_public_amt": "clu_0b26cd29e7",
-    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-24&series=tot_pub_debt_out_amt": "clu_3f173f85b8"
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-24&series=tot_pub_debt_out_amt": "clu_3f173f85b8",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1989": "clu_20ed6a3e89"
   },
   "by_hash": {
     "7622746a670674782b466e798640d3c7d5ea1a54d4c16fe7c6dda2297ca0d38f": "clu_a7e1dac118",
@@ -17,7 +18,8 @@
     "682bf3966fc3f1daca2353c7829d1ec7394d22af24a8a6dcebda3d9c38b459e6": "clu_63e96807f9",
     "706d5fc5cc80098ba5eb09136a66513842e87f3ea6f9e2c0d861c5c4947aa7b0": "clu_34ee313289",
     "61bd46b6d66e719e593fd27e96c495335ed8020dbd48de3b47c9b6096a6e6f6c": "clu_0b26cd29e7",
-    "49a44993106fcd40c75c82bef16707fa1c65163a9437639118e4ddbf9aae3ff7": "clu_3f173f85b8"
+    "49a44993106fcd40c75c82bef16707fa1c65163a9437639118e4ddbf9aae3ff7": "clu_3f173f85b8",
+    "808a89b46a98e4261d57d0857d0001f881b6c630b43cb0f50807e6d85c8f3b3a": "clu_20ed6a3e89"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 20年 2026-09-25: 5.54 %::2026-09-26": "clu_a7e1dac118",
@@ -27,7 +29,8 @@
     "u.s. department of the treasury::米国債利回り 30年 2026-09-25: 5.49 %::2026-09-26": "clu_63e96807f9",
     "u.s. department of the treasury::米国債利回り 3か月 2026-09-25: 4.24 %::2026-09-26": "clu_34ee313289",
     "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-09-24: 32,362,728,656,693.391 usd::2026-09-26": "clu_0b26cd29e7",
-    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-09-24: 40,068,807,991,924.844 usd::2026-09-26": "clu_3f173f85b8"
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-09-24: 40,068,807,991,924.844 usd::2026-09-26": "clu_3f173f85b8",
+    "european commission::wystąpienie komisarza piotra serafina podczas xxvi międzynarodowej konferencji „rola chrześcijan w procesie integracji europejskiej” pt. „europa skazana na podział czy zjednoczenie?”::2026-09-26": "clu_20ed6a3e89"
   },
   "clusters": {
     "clu_a7e1dac118": {
@@ -100,6 +103,15 @@
       ],
       "source_ids": [
         "src_us_treasury_debt"
+      ]
+    },
+    "clu_20ed6a3e89": {
+      "primary_event_id": "evt_20260926_808a89b46a",
+      "event_ids": [
+        "evt_20260926_808a89b46a"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

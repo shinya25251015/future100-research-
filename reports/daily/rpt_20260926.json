@@ -1,10 +1,10 @@
 {
   "report_id": "rpt_20260926",
   "report_date": "2026-09-26",
-  "as_of": "2026-09-26T00:03:01Z",
+  "as_of": "2026-09-26T23:46:24Z",
   "coverage": {
-    "events_ingested": 468,
-    "events_after_dedup": 467,
+    "events_ingested": 520,
+    "events_after_dedup": 519,
     "sources_polled": 24,
     "sources_failed": []
   },
@@ -13,13 +13,13 @@
       "no": 1,
       "key": "executive_summary",
       "title": "本日の構造変化サマリ",
-      "body": "本日の観測は 467 件。内訳（分類別）: technology 389 / policy_regulation 60 / macro 18。シグナル種別: paper 379 / procurement 3 / export_control 2 / patent 1 / government_budget 1 / new_standard 1。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 13 件）。件数は観測量であって重要度ではない。"
+      "body": "本日の観測は 519 件。内訳（分類別）: technology 389 / policy_regulation 112 / macro 18。シグナル種別: paper 379 / export_control 3 / procurement 3 / subsidy 2 / patent 1 / government_budget 1 / new_standard 1。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 13 件）。件数は観測量であって重要度ではない。"
     },
     {
       "no": 2,
       "key": "policy_regulation",
       "title": "政策・規制 (§4)",
-      "body": "本日 60 件を観測。\n- [A] 2026-09-25 Contracts for Sept. 25, 2026 (evt_20260926_c274e4759f)\n- [A] 2026-09-25 Gold Star Mother’s And Family’s Day, 2026 (evt_20260926_56e7da798e)\n- [A] 2026-09-25 Speech by Commissioner Albuquerque at the Interparliamentary Conference on Stability, Economic Coordination and Governance in the EU (evt_20260926_061268848d)\n- [A] 2026-09-25 Daily News 25 / 09 / 2026 (evt_20260926_de1e432ef3)\n- [A] 2026-09-25 Commission greenlights Luxembourg's third payment request for €92.2 million under NextGenerationEU (evt_20260926_423f2a4d04)\n- [A] 2026-09-25 Clarifying the Scope of “Applicable Requirements” Under State Operating Permit Programs and the Federal Operating Permit Program (evt_20260926_7d0e01b55f)\n- [A] 2026-09-25 IFR Altitudes; Miscellaneous Amendments (evt_20260926_81c4a8cdea)\n- [A] 2026-09-25 Foreign-Trade Zone (FTZ) 57, Notification of Proposed Production Activity; Eli Lilly and Company; (Drug Products); Concord, North Carolina (evt_20260926_c104b76909)"
+      "body": "本日 112 件を観測。\n- [A] 2026-09-28 Notice of Proposed Information Collection Requests: Native American Library Services Enhancement Grants Notice of Funding Opportunity. (evt_20260926_2cdb9e11a5)\n- [A] 2026-09-28 Request Notice: Use of Foreign-Built Small Passenger Vessel in United States Coastwise Trade, M/V KUDU (evt_20260926_4a01ecba15)\n- [A] 2026-09-28 South Atlantic Fishery Management Council; Public Meeting (evt_20260926_e5bbc7733b)\n- [A] 2026-09-28 Notice of Policy Change and Rescission of Single-Pilot Training Exemptions for Certain Cessna Aircraft (evt_20260926_bb6ed4317a)\n- [A] 2026-09-28 Rescission Notice; Pleasant Creek Supplemental Watershed Plan, Sanpete County, Utah (evt_20260926_5525dad851)\n- [A] 2026-09-28 Foreign-Trade Zone (FTZ) 106, Notification of Proposed Production Activity; Hitachi Vantara Manufacturing; (Enterprise Datacenter Disk Storage System Hardware); Norman, Oklahoma (evt_20260926_6d6e91b080)\n- [A] 2026-09-28 Science and Technology Reinvention Laboratory Personnel Demonstration Project Program (evt_20260926_0aafedca5f)\n- [A] 2026-09-28 Rescission Notice; Upper Price River Watershed Project, Carbon County, Utah (evt_20260926_da4a57fc9e)"
     },
     {
       "no": 3,
@@ -55,7 +55,7 @@
       "no": 8,
       "key": "known_sector_monitor",
       "title": "既知セクター監視 (§11)",
-      "body": "常時監視 16 セクターの本日の観測件数。掲載順は設定ファイルの登録順であり、優劣や順位ではない (§44-46)。\n- AI / 計算基盤 (sec_ai_compute): 本日 118 件\n- 半導体 (sec_semiconductor): 本日 7 件\n- 光通信 (sec_optical_networking): 本日 0 件\n- CPO (Co-Packaged Optics) (sec_cpo): 本日 0 件\n- 電力・送配電 (sec_power_grid): 本日 1 件\n- 原子力 (sec_nuclear): 本日 0 件\n- 核融合 (sec_fusion): 本日 0 件\n- 防衛 (sec_defense): 本日 0 件"
+      "body": "常時監視 16 セクターの本日の観測件数。掲載順は設定ファイルの登録順であり、優劣や順位ではない (§44-46)。\n- AI / 計算基盤 (sec_ai_compute): 本日 119 件\n- 半導体 (sec_semiconductor): 本日 7 件\n- 光通信 (sec_optical_networking): 本日 0 件\n- CPO (Co-Packaged Optics) (sec_cpo): 本日 0 件\n- 電力・送配電 (sec_power_grid): 本日 1 件\n- 原子力 (sec_nuclear): 本日 0 件\n- 核融合 (sec_fusion): 本日 0 件\n- 防衛 (sec_defense): 本日 0 件"
     },
     {
       "no": 9,
@@ -109,7 +109,7 @@
   "prohibited_output_check": {
     "contains_ticker_recommendation": false,
     "contains_ranking": false,
-    "checked_at": "2026-09-26T00:03:34Z"
+    "checked_at": "2026-09-26T23:46:54Z"
   },
   "schema_version": "1.0"
 }

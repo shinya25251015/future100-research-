@@ -1,0 +1,607 @@
+{
+  "by_url": {
+    "https://federalregister.gov/documents/2026/09/28/2026-19771/notice-of-proposed-information-collection-requests-native-american-library-services-enhancement": "clu_d75638572f",
+    "https://federalregister.gov/documents/2026/09/28/2026-19800/request-notice-use-of-foreign-built-small-passenger-vessel-in-united-states-coastwise-trade-mv-kudu": "clu_7483231f10",
+    "https://federalregister.gov/documents/2026/09/28/2026-19780/south-atlantic-fishery-management-council-public-meeting": "clu_507567a283",
+    "https://federalregister.gov/documents/2026/09/28/2026-19843/notice-of-policy-change-and-rescission-of-single-pilot-training-exemptions-for-certain-cessna": "clu_59c6f93bc1",
+    "https://federalregister.gov/documents/2026/09/28/2026-19772/rescission-notice-pleasant-creek-supplemental-watershed-plan-sanpete-county-utah": "clu_5b58c1240d",
+    "https://federalregister.gov/documents/2026/09/28/2026-19777/foreign-trade-zone-ftz-106-notification-of-proposed-production-activity-hitachi-vantara": "clu_16a0a9e8c5",
+    "https://federalregister.gov/documents/2026/09/28/2026-19805/science-and-technology-reinvention-laboratory-personnel-demonstration-project-program": "clu_c087f0fe82",
+    "https://federalregister.gov/documents/2026/09/28/2026-19770/rescission-notice-upper-price-river-watershed-project-carbon-county-utah": "clu_b26d64c21e",
+    "https://federalregister.gov/documents/2026/09/28/2026-19793/request-notice-use-of-foreign-built-small-passenger-vessel-in-united-states-coastwise-trade-sv-suzie": "clu_b935f30249",
+    "https://federalregister.gov/documents/2026/09/28/2026-19806/submission-for-omb-review-30-day-comment-request": "clu_dd08743308",
+    "https://federalregister.gov/documents/2026/09/28/2026-19778/notice-of-determinations-culturally-significant-object-being-imported-for-exhibition-determinations": "clu_63135639cf",
+    "https://federalregister.gov/documents/2026/09/28/2026-19769/notice-of-intent-to-amend-the-winnemucca-district-resource-management-plan-for-the-western-quarry": "clu_ac0aff4641",
+    "https://federalregister.gov/documents/2026/09/28/2026-19779/certain-frozen-warmwater-shrimp-from-india-rescission-of-antidumping-duty-administrative-review-in": "clu_001e51951c",
+    "https://federalregister.gov/documents/2026/09/28/2026-19798/request-notice-use-of-foreign-built-small-passenger-vessel-in-united-states-coastwise-trade-mv": "clu_02358bb6da",
+    "https://federalregister.gov/documents/2026/09/28/2026-19799/request-notice-use-of-foreign-built-small-passenger-vessel-in-united-states-coastwise-trade-sv-my": "clu_10ed59f469",
+    "https://federalregister.gov/documents/2026/09/28/2026-19797/request-notice-use-of-foreign-built-small-passenger-vessel-in-united-states-coastwise-trade-mv-lady": "clu_849289d730",
+    "https://federalregister.gov/documents/2026/09/28/2026-19791/denial-of-motor-vehicle-defect-petition-dp26-005": "clu_c46d36b8bf",
+    "https://federalregister.gov/documents/2026/09/28/2026-19814/senior-executive-service-ses-performance-review-board-members": "clu_7ae17ceff7",
+    "https://federalregister.gov/documents/2026/09/28/2026-19810/qualification-of-drivers-exemption-applications-hearing": "clu_b73b6b55d6",
+    "https://federalregister.gov/documents/2026/09/28/2026-19807/qualification-of-drivers-exemption-applications-hearing": "clu_1a350f95e5",
+    "https://federalregister.gov/documents/2026/09/28/2026-19783/notice-of-formal-determination-on-records-release": "clu_089df177d4",
+    "https://federalregister.gov/documents/2026/09/28/2026-19781/south-atlantic-fishery-management-council-public-meetings": "clu_c65b5aa1a5",
+    "https://federalregister.gov/documents/2026/09/28/2026-19795/bulk-manufacturer-of-controlled-substances-application-cargill-incorporated": "clu_72bb33e01f",
+    "https://federalregister.gov/documents/2026/09/28/2026-19789/marine-mammals-file-no-29889": "clu_cc559b49f1",
+    "https://federalregister.gov/documents/2026/09/28/2026-19766/proposed-data-collection-submitted-for-public-comment-and-recommendations": "clu_64221e51f7",
+    "https://federalregister.gov/documents/2026/09/28/2026-19803/bulk-manufacturer-of-controlled-substances-application-irvine-labs-inc": "clu_97d53f917c",
+    "https://federalregister.gov/documents/2026/09/28/2026-19776/notice-of-determinations-culturally-significant-objects-being-imported-for-exhibition-determinations": "clu_de8a54c5a7",
+    "https://federalregister.gov/documents/2026/09/28/2026-19811/tin-mill-products-from-china-taiwan-and-turkey-scheduling-of-the-final-phase-of-countervailing-duty": "clu_c0fcdb7ac3",
+    "https://federalregister.gov/documents/2026/09/28/2026-19804/submission-for-omb-review-30-day-comment-request-generic-clearance-for-nih-citizen-science-and": "clu_0982f17c5f",
+    "https://federalregister.gov/documents/2026/09/28/2026-19785/agency-information-collection-activities-proposed-collection-comment-request-extension-rule-30b2-1": "clu_935f28f48f",
+    "https://federalregister.gov/documents/2026/09/28/2026-19808/qualification-of-drivers-exemption-applications-hearing": "clu_3098795d4d",
+    "https://federalregister.gov/documents/2026/09/28/2026-19775/glyphosate-open-literature-search-to-inform-human-health-risk-assessment-extension-of-comment-period": "clu_e7e9004d82",
+    "https://federalregister.gov/documents/2026/09/28/2026-19794/request-notice-use-of-foreign-built-small-passenger-vessel-in-united-states-coastwise-trade-mv-naiad": "clu_4111bdc1ed",
+    "https://federalregister.gov/documents/2026/09/28/2026-19786/capital-construction-fund-revision-correction": "clu_ee6df49487",
+    "https://federalregister.gov/documents/2026/09/28/2026-19790/name-of-information-collection-nasa-generic-clearance-for-conferences-meetings-workshops": "clu_5d1819ef0b",
+    "https://federalregister.gov/documents/2026/09/28/2026-19801/fisheries-of-the-caribbean-gulf-of-america-and-south-atlantic-snapper-grouper-fishery-of-the-south": "clu_c0ca45280b",
+    "https://federalregister.gov/documents/2026/09/28/C1-2026-18574/information-reporting-regarding-qualified-opportunity-zones-and-updated-qualified-opportunity-fund": "clu_b87c546116",
+    "https://federalregister.gov/documents/2026/09/28/2026-19768/notice-of-proposed-information-collection-requests-imls-native-hawaiian-library-services-grant": "clu_2eaff1747f",
+    "https://federalregister.gov/documents/2026/09/28/2026-19802/information-on-sba-secondary-market-program": "clu_212b665b86",
+    "https://federalregister.gov/documents/2026/09/28/2026-19796/notice-of-public-meeting-of-the-oregon-advisory-committee-to-the-us-commission-on-civil-rights": "clu_f4b82b9301",
+    "https://federalregister.gov/documents/2026/09/28/2026-19787/agency-information-collection-activities-proposed-collection-comment-request-extension-investment": "clu_d5ac0d45cd",
+    "https://federalregister.gov/documents/2026/09/28/2026-19782/section-184-indian-housing-loan-guarantee-program-increase-in-the-loan-guarantee-fee": "clu_c958831c09",
+    "https://federalregister.gov/documents/2026/09/28/2026-19792/importer-of-controlled-substances-application-benuvia-operations-llc": "clu_efd70d4351",
+    "https://federalregister.gov/documents/2026/09/28/2026-19815/establishment-modification-and-revocation-of-class-e-airspace-alaska-ak": "clu_4829881abf",
+    "https://federalregister.gov/documents/2026/09/28/2026-19773/privacy-act-of-1974-system-of-records": "clu_68c33782bf",
+    "https://federalregister.gov/documents/2026/09/28/2026-19788/center-for-scientific-review-notice-of-closed-meetings": "clu_a2dc36af2f",
+    "https://federalregister.gov/documents/2026/09/28/2026-19774/national-emission-standards-for-hazardous-air-pollutants-for-gasoline-distribution-facilities-and": "clu_917863f2bf",
+    "https://federalregister.gov/documents/2026/09/28/2026-19784/30-day-notice-of-proposed-information-collection-race-and-ethnic-data-collection": "clu_55158b283e",
+    "https://federalregister.gov/documents/2026/09/28/2026-19813/fisheries-off-west-coast-states-west-coast-salmon-fisheries-rebuilding-plan-for-the-overfished": "clu_5f7ecd479b",
+    "https://federalregister.gov/documents/2026/09/28/2026-19809/qualification-of-drivers-exemption-applications-hearing": "clu_03379293ea"
+  },
+  "by_hash": {
+    "2cdb9e11a5883d0f47501102a02c9f8f6fc367adec99eae134b7c7554dfef787": "clu_d75638572f",
+    "4a01ecba15d8cc1a75f2ec346396e515bae10591321f5267542d1aac25118d76": "clu_7483231f10",
+    "e5bbc7733b396e77e5616c8a79b641e4c88a0ed77c1124780b0612ad57b58ec4": "clu_507567a283",
+    "bb6ed4317a569f9a1cadf829f880acb20f56ab478b07bfc011484c90fc5e5dbf": "clu_59c6f93bc1",
+    "5525dad85154ccfb5a41f530c8a5bd991925714e851366ad5e98aec555da72b3": "clu_5b58c1240d",
+    "6d6e91b080c2338d3fd23c7308b6f78d7530217f6efd68ea213571bae7454450": "clu_16a0a9e8c5",
+    "0aafedca5f3a76f4e574a525b9f275a8a777648c3df90663206e6bbbe0e57829": "clu_c087f0fe82",
+    "da4a57fc9e6de35d37e59f137882d1d5d2b7e1c5c3efb6e5ab1fd3d6a721b754": "clu_b26d64c21e",
+    "e7e7b194fca1c903d5adc3105490dc01f321d1a33e1bb2bb2d87143e932f619e": "clu_b935f30249",
+    "66d55eed941fedbaf4a8c7a72359f50cab94f63529ba31ac72b78cd9e2a8786c": "clu_dd08743308",
+    "d31d8f83da46a30359345bb31e3e64152ad6ad13238e2136776a81f7c900b38d": "clu_63135639cf",
+    "a17612223d70da21cc43b12d4fb8caa9befd76f8d272c3bfabe464d745c4c24c": "clu_ac0aff4641",
+    "0e10d6a7c80afe1f86cd768c7f715a2eb21fcd996342410dd9d4cc2653f97667": "clu_001e51951c",
+    "9f3860df08f195d3bcbde1bfdd5444369e512056554a95d39477633cccd8e2db": "clu_02358bb6da",
+    "3a75eea993eee4a593470f07341a9fb022e08ec4111e8ed4488a160fb501c6ff": "clu_10ed59f469",
+    "fab1b55817918eb9e7791b473a6911dcf3c28c535b64132083bc8f360d016215": "clu_849289d730",
+    "019d9e86d39bec4a04e709450ae831506fc9b889ddeb0cce08a0b42393ab0208": "clu_c46d36b8bf",
+    "5bb0438ce6cc518dee1eb54c838c1fd6e3598073ec31915926097026372855a8": "clu_7ae17ceff7",
+    "e12ce741d16c0ddb4459f3aecd924a3b8142cf10859788786361c125e727d44c": "clu_b73b6b55d6",
+    "de9dd68a7c6a5993fa18d081528645d7016b22122328e816f5787e5511692dc2": "clu_1a350f95e5",
+    "244e339bd61087cc4b698515ddb3a3bd8dadd034f64783d521003a4123b84adc": "clu_089df177d4",
+    "3324522e466eec5170b7147fd812ca730cca8683b94c080c533dd3c4bc787ec9": "clu_c65b5aa1a5",
+    "241f09fcb9e98608a978409aef9bd701b648fd6b03c95ae06bf00da8e69b56ca": "clu_72bb33e01f",
+    "f60d62258afbe1d639afed800af3ba5e1639b82f493e920e92f8162b0fa26cfb": "clu_cc559b49f1",
+    "f2be2a4f6e977496cc1f566e8a4d8d5e33859a10a9ae62ebadf9dd1ac4043a59": "clu_64221e51f7",
+    "8eac501b3763865fda11541a2052e6c258c1af028c0131177abdea47e23f1d45": "clu_97d53f917c",
+    "22b8fe2a46d14fdbeded8689726900f7dc9d72b866ba4465004b4928fac77abb": "clu_de8a54c5a7",
+    "d27b7e647afb2c23781fd37cbeda446513e7d95143cab485b2dc0d121cd5f781": "clu_c0fcdb7ac3",
+    "f163957a0dcf5f6f52c9eddb237b60b29b6fe2b2324febcbb53809d166e711ed": "clu_0982f17c5f",
+    "d61b2ad093590c8c12260a5f53f6da047a655786fb50d9dc5e2feacf57317670": "clu_935f28f48f",
+    "44f98d1e9759e27fde415ea398d27a02269be1231154f739b1d3712f67ca7720": "clu_3098795d4d",
+    "0e66bcf8f1a4e880418242a9912fbf5b0170959e934f87fc6291eb8729daf8c8": "clu_e7e9004d82",
+    "391e85abe5ddbf5e6578bbf646aa21e9e6f8d21e0d666ffd7a89d0ce2ba3c8c1": "clu_4111bdc1ed",
+    "0c50c58911e2a56d0daa42e0ac12ed2f4dc234a162ccf93cd15af6f581e061b2": "clu_ee6df49487",
+    "13723677e1d576c39bb7d3e8cee8033d2809dc1546db4e2ef9271818840915b6": "clu_5d1819ef0b",
+    "383e005f34a1773f3f53431d2b4d24332a47789b3dd6146e507cc803e96b5d26": "clu_c0ca45280b",
+    "828ba0355ddd10804b33377fc969174dee5d6cff54f6d5886b8d368cb4839726": "clu_b87c546116",
+    "4553868b0cfef312c0bd312d9e71846d2e1e3752333eb5f876fbd38fc2002f2a": "clu_2eaff1747f",
+    "d08294f1bdce38cbe20bd6eea16b42aaa532d851bbb9346e6a79b8f9bbed08e7": "clu_212b665b86",
+    "e37b8191730b6332053bdd3c2c2c0f33453b094c9ddaec62adb4ab8f6478dd6e": "clu_f4b82b9301",
+    "6953b6ffc05991fef1791d2970b8f38a324e0e5f69cbea4f58ac2001fa64a10f": "clu_d5ac0d45cd",
+    "a492ac8b2174e5e65919a261f0b12533ae0f0fc0e96dabaa55884a758bca0063": "clu_c958831c09",
+    "d91c091a56f69d7afc0134cc0a1415a72fcf0525e70306d9760b4e75fd95a6e9": "clu_efd70d4351",
+    "ce8c06d76a20ce3e0d7b88f8951dd06344ff3b2450c48b41d2ae40cdf9c54536": "clu_4829881abf",
+    "a1269ecac399b48b5ea4e6549acda2c6a784d3fbaa2bcd52afcf0a1d035dae10": "clu_68c33782bf",
+    "7ca47f9de09720e5fe21e3d1f860279c6976e80832d886811b61e0e781ded9f9": "clu_a2dc36af2f",
+    "bb199bace4fa795cb67dfae9d459e26e81f392f58a8a933b56f388a778d51a6e": "clu_917863f2bf",
+    "4464613aba5110a06a1da968ef3cbe8679f5c5c1318929b1586c0519970c025f": "clu_55158b283e",
+    "651524483f367736cd2d5a4a83c8ca933e5bd391b9256e18840e3c71f00fa896": "clu_5f7ecd479b",
+    "b8f9ee6dad5149e38a84f437359aa620082fc9b25870de93ad603712d397849c": "clu_03379293ea"
+  },
+  "by_key": {
+    "office of the federal register::notice of proposed information collection requests: native american library services enhancement grants notice of funding opportunity.::2026-09-28": "clu_d75638572f",
+    "office of the federal register::request notice: use of foreign-built small passenger vessel in united states coastwise trade, m/v kudu::2026-09-28": "clu_7483231f10",
+    "office of the federal register::south atlantic fishery management council; public meeting::2026-09-28": "clu_507567a283",
+    "office of the federal register::notice of policy change and rescission of single-pilot training exemptions for certain cessna aircraft::2026-09-28": "clu_59c6f93bc1",
+    "office of the federal register::rescission notice; pleasant creek supplemental watershed plan, sanpete county, utah::2026-09-28": "clu_5b58c1240d",
+    "office of the federal register::foreign-trade zone (ftz) 106, notification of proposed production activity; hitachi vantara manufacturing; (enterprise datacenter disk storage system hardware); norman, oklahoma::2026-09-28": "clu_16a0a9e8c5",
+    "office of the federal register::science and technology reinvention laboratory personnel demonstration project program::2026-09-28": "clu_c087f0fe82",
+    "office of the federal register::rescission notice; upper price river watershed project, carbon county, utah::2026-09-28": "clu_b26d64c21e",
+    "office of the federal register::request notice: use of foreign-built small passenger vessel in united states coastwise trade, s/v suzie manuela::2026-09-28": "clu_b935f30249",
+    "office of the federal register::submission for omb review; 30-day comment request;::2026-09-28": "clu_dd08743308",
+    "office of the federal register::notice of determinations; culturally significant object being imported for exhibition-determinations: exhibition of “panel from the frieze of archers” object::2026-09-28": "clu_63135639cf",
+    "office of the federal register::notice of intent to amend the winnemucca district resource management plan for the western quarry limestone project, humboldt county, nevada and prepare an associated environmental assessment::2026-09-28": "clu_ac0aff4641",
+    "office of the federal register::certain frozen warmwater shrimp from india: rescission of antidumping duty administrative review, in part; 2025-2026::2026-09-28": "clu_001e51951c",
+    "office of the federal register::request notice: use of foreign-built small passenger vessel in united states coastwise trade, m/v bowditch::2026-09-28": "clu_02358bb6da",
+    "office of the federal register::request notice: use of foreign-built small passenger vessel in united states coastwise trade, s/v my office::2026-09-28": "clu_10ed59f469",
+    "office of the federal register::request notice: use of foreign-built small passenger vessel in united states coastwise trade, m/v lady j::2026-09-28": "clu_849289d730",
+    "office of the federal register::denial of motor vehicle defect petition, dp26-005::2026-09-28": "clu_c46d36b8bf",
+    "office of the federal register::senior executive service (ses) performance review board; members::2026-09-28": "clu_7ae17ceff7",
+    "office of the federal register::qualification of drivers; exemption applications; hearing::2026-09-28": "clu_b73b6b55d6",
+    "office of the federal register::notice of formal determination on records release::2026-09-28": "clu_089df177d4",
+    "office of the federal register::south atlantic fishery management council-public meetings::2026-09-28": "clu_c65b5aa1a5",
+    "office of the federal register::bulk manufacturer of controlled substances application: cargill, incorporated::2026-09-28": "clu_72bb33e01f",
+    "office of the federal register::marine mammals; file no. 29889::2026-09-28": "clu_cc559b49f1",
+    "office of the federal register::proposed data collection submitted for public comment and recommendations::2026-09-28": "clu_64221e51f7",
+    "office of the federal register::bulk manufacturer of controlled substances application: irvine labs, inc.::2026-09-28": "clu_97d53f917c",
+    "office of the federal register::notice of determinations; culturally significant objects being imported for exhibition-determinations: “with full consent,” exhibition::2026-09-28": "clu_de8a54c5a7",
+    "office of the federal register::tin mill products from china, taiwan, and turkey; scheduling of the final phase of countervailing duty and antidumping duty investigations::2026-09-28": "clu_c0fcdb7ac3",
+    "office of the federal register::submission for omb review; 30-day comment request; generic clearance for nih citizen science and crowdsourcing projects (office of the director)::2026-09-28": "clu_0982f17c5f",
+    "office of the federal register::agency information collection activities; proposed collection; comment request; extension: rule 30b2-1::2026-09-28": "clu_935f28f48f",
+    "office of the federal register::glyphosate open literature search to inform human health risk assessment; extension of comment period::2026-09-28": "clu_e7e9004d82",
+    "office of the federal register::request notice: use of foreign-built small passenger vessel in united states coastwise trade, m/v naiad::2026-09-28": "clu_4111bdc1ed",
+    "office of the federal register::capital construction fund revision; correction::2026-09-28": "clu_ee6df49487",
+    "office of the federal register::name of information collection: nasa generic clearance for conferences, meetings, workshops, registrations and challenges::2026-09-28": "clu_5d1819ef0b",
+    "office of the federal register::fisheries of the caribbean, gulf of america, and south atlantic; snapper-grouper fishery of the south atlantic; regulatory amendment 36::2026-09-28": "clu_c0ca45280b",
+    "office of the federal register::information reporting regarding qualified opportunity zones and updated qualified opportunity fund certification and decertification procedures::2026-09-28": "clu_b87c546116",
+    "office of the federal register::notice of proposed information collection requests: imls native hawaiian library services grant program notice of funding opportunity::2026-09-28": "clu_2eaff1747f",
+    "office of the federal register::information on sba secondary market program::2026-09-28": "clu_212b665b86",
+    "office of the federal register::notice of public meeting of the oregon advisory committee to the u.s. commission on civil rights::2026-09-28": "clu_f4b82b9301",
+    "office of the federal register::agency information collection activities; proposed collection; comment request; extension: investment company act form n-17f-1, certificate of accounting of securities and similar investments of a management investment company in the custody of members of national securities exchanges::2026-09-28": "clu_d5ac0d45cd",
+    "office of the federal register::section 184 indian housing loan guarantee program increase in the loan guarantee fee::2026-09-28": "clu_c958831c09",
+    "office of the federal register::importer of controlled substances application: benuvia operations, llc::2026-09-28": "clu_efd70d4351",
+    "office of the federal register::establishment, modification, and revocation of class e airspace; alaska, ak::2026-09-28": "clu_4829881abf",
+    "office of the federal register::privacy act of 1974; system of records::2026-09-28": "clu_68c33782bf",
+    "office of the federal register::center for scientific review; notice of closed meetings::2026-09-28": "clu_a2dc36af2f",
+    "office of the federal register::national emission standards for hazardous air pollutants for gasoline distribution facilities and standards of performance for bulk gasoline terminals reconsideration::2026-09-28": "clu_917863f2bf",
+    "office of the federal register::30-day notice of proposed information collection: race and ethnic data collection::2026-09-28": "clu_55158b283e",
+    "office of the federal register::fisheries off west coast states; west coast salmon fisheries; rebuilding plan for the overfished queets river spring/summer chinook salmon stock::2026-09-28": "clu_5f7ecd479b"
+  },
+  "clusters": {
+    "clu_d75638572f": {
+      "primary_event_id": "evt_20260926_2cdb9e11a5",
+      "event_ids": [
+        "evt_20260926_2cdb9e11a5"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_7483231f10": {
+      "primary_event_id": "evt_20260926_4a01ecba15",
+      "event_ids": [
+        "evt_20260926_4a01ecba15"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_507567a283": {
+      "primary_event_id": "evt_20260926_e5bbc7733b",
+      "event_ids": [
+        "evt_20260926_e5bbc7733b"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_59c6f93bc1": {
+      "primary_event_id": "evt_20260926_bb6ed4317a",
+      "event_ids": [
+        "evt_20260926_bb6ed4317a"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_5b58c1240d": {
+      "primary_event_id": "evt_20260926_5525dad851",
+      "event_ids": [
+        "evt_20260926_5525dad851"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_16a0a9e8c5": {
+      "primary_event_id": "evt_20260926_6d6e91b080",
+      "event_ids": [
+        "evt_20260926_6d6e91b080"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_c087f0fe82": {
+      "primary_event_id": "evt_20260926_0aafedca5f",
+      "event_ids": [
+        "evt_20260926_0aafedca5f"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_b26d64c21e": {
+      "primary_event_id": "evt_20260926_da4a57fc9e",
+      "event_ids": [
+        "evt_20260926_da4a57fc9e"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_b935f30249": {
+      "primary_event_id": "evt_20260926_e7e7b194fc",
+      "event_ids": [
+        "evt_20260926_e7e7b194fc"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_dd08743308": {
+      "primary_event_id": "evt_20260926_66d55eed94",
+      "event_ids": [
+        "evt_20260926_66d55eed94"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_63135639cf": {
+      "primary_event_id": "evt_20260926_d31d8f83da",
+      "event_ids": [
+        "evt_20260926_d31d8f83da"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_ac0aff4641": {
+      "primary_event_id": "evt_20260926_a17612223d",
+      "event_ids": [
+        "evt_20260926_a17612223d"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_001e51951c": {
+      "primary_event_id": "evt_20260926_0e10d6a7c8",
+      "event_ids": [
+        "evt_20260926_0e10d6a7c8"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_02358bb6da": {
+      "primary_event_id": "evt_20260926_9f3860df08",
+      "event_ids": [
+        "evt_20260926_9f3860df08"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_10ed59f469": {
+      "primary_event_id": "evt_20260926_3a75eea993",
+      "event_ids": [
+        "evt_20260926_3a75eea993"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_849289d730": {
+      "primary_event_id": "evt_20260926_fab1b55817",
+      "event_ids": [
+        "evt_20260926_fab1b55817"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_c46d36b8bf": {
+      "primary_event_id": "evt_20260926_019d9e86d3",
+      "event_ids": [
+        "evt_20260926_019d9e86d3"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_7ae17ceff7": {
+      "primary_event_id": "evt_20260926_5bb0438ce6",
+      "event_ids": [
+        "evt_20260926_5bb0438ce6"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_b73b6b55d6": {
+      "primary_event_id": "evt_20260926_e12ce741d1",
+      "event_ids": [
+        "evt_20260926_e12ce741d1"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_1a350f95e5": {
+      "primary_event_id": "evt_20260926_de9dd68a7c",
+      "event_ids": [
+        "evt_20260926_de9dd68a7c"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_089df177d4": {
+      "primary_event_id": "evt_20260926_244e339bd6",
+      "event_ids": [
+        "evt_20260926_244e339bd6"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_c65b5aa1a5": {
+      "primary_event_id": "evt_20260926_3324522e46",
+      "event_ids": [
+        "evt_20260926_3324522e46"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_72bb33e01f": {
+      "primary_event_id": "evt_20260926_241f09fcb9",
+      "event_ids": [
+        "evt_20260926_241f09fcb9"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_cc559b49f1": {
+      "primary_event_id": "evt_20260926_f60d62258a",
+      "event_ids": [
+        "evt_20260926_f60d62258a"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_64221e51f7": {
+      "primary_event_id": "evt_20260926_f2be2a4f6e",
+      "event_ids": [
+        "evt_20260926_f2be2a4f6e"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_97d53f917c": {
+      "primary_event_id": "evt_20260926_8eac501b37",
+      "event_ids": [
+        "evt_20260926_8eac501b37"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_de8a54c5a7": {
+      "primary_event_id": "evt_20260926_22b8fe2a46",
+      "event_ids": [
+        "evt_20260926_22b8fe2a46"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_c0fcdb7ac3": {
+      "primary_event_id": "evt_20260926_d27b7e647a",
+      "event_ids": [
+        "evt_20260926_d27b7e647a"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_0982f17c5f": {
+      "primary_event_id": "evt_20260926_f163957a0d",
+      "event_ids": [
+        "evt_20260926_f163957a0d"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_935f28f48f": {
+      "primary_event_id": "evt_20260926_d61b2ad093",
+      "event_ids": [
+        "evt_20260926_d61b2ad093"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_3098795d4d": {
+      "primary_event_id": "evt_20260926_44f98d1e97",
+      "event_ids": [
+        "evt_20260926_44f98d1e97"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_e7e9004d82": {
+      "primary_event_id": "evt_20260926_0e66bcf8f1",
+      "event_ids": [
+        "evt_20260926_0e66bcf8f1"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_4111bdc1ed": {
+      "primary_event_id": "evt_20260926_391e85abe5",
+      "event_ids": [
+        "evt_20260926_391e85abe5"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_ee6df49487": {
+      "primary_event_id": "evt_20260926_0c50c58911",
+      "event_ids": [
+        "evt_20260926_0c50c58911"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_5d1819ef0b": {
+      "primary_event_id": "evt_20260926_13723677e1",
+      "event_ids": [
+        "evt_20260926_13723677e1"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_c0ca45280b": {
+      "primary_event_id": "evt_20260926_383e005f34",
+      "event_ids": [
+        "evt_20260926_383e005f34"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_b87c546116": {
+      "primary_event_id": "evt_20260926_828ba0355d",
+      "event_ids": [
+        "evt_20260926_828ba0355d"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_2eaff1747f": {
+      "primary_event_id": "evt_20260926_4553868b0c",
+      "event_ids": [
+        "evt_20260926_4553868b0c"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_212b665b86": {
+      "primary_event_id": "evt_20260926_d08294f1bd",
+      "event_ids": [
+        "evt_20260926_d08294f1bd"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_f4b82b9301": {
+      "primary_event_id": "evt_20260926_e37b819173",
+      "event_ids": [
+        "evt_20260926_e37b819173"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_d5ac0d45cd": {
+      "primary_event_id": "evt_20260926_6953b6ffc0",
+      "event_ids": [
+        "evt_20260926_6953b6ffc0"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_c958831c09": {
+      "primary_event_id": "evt_20260926_a492ac8b21",
+      "event_ids": [
+        "evt_20260926_a492ac8b21"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_efd70d4351": {
+      "primary_event_id": "evt_20260926_d91c091a56",
+      "event_ids": [
+        "evt_20260926_d91c091a56"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_4829881abf": {
+      "primary_event_id": "evt_20260926_ce8c06d76a",
+      "event_ids": [
+        "evt_20260926_ce8c06d76a"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_68c33782bf": {
+      "primary_event_id": "evt_20260926_a1269ecac3",
+      "event_ids": [
+        "evt_20260926_a1269ecac3"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_a2dc36af2f": {
+      "primary_event_id": "evt_20260926_7ca47f9de0",
+      "event_ids": [
+        "evt_20260926_7ca47f9de0"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_917863f2bf": {
+      "primary_event_id": "evt_20260926_bb199bace4",
+      "event_ids": [
+        "evt_20260926_bb199bace4"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_55158b283e": {
+      "primary_event_id": "evt_20260926_4464613aba",
+      "event_ids": [
+        "evt_20260926_4464613aba"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_5f7ecd479b": {
+      "primary_event_id": "evt_20260926_651524483f",
+      "event_ids": [
+        "evt_20260926_651524483f"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_03379293ea": {
+      "primary_event_id": "evt_20260926_b8f9ee6dad",
+      "event_ids": [
+        "evt_20260926_b8f9ee6dad"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    }
+  }
+}

@@ -453,7 +453,8 @@
     "https://nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-middle-school-design-challenge": "clu_ad7d871fa4",
     "https://science.nasa.gov/earth/earth-observatory/explosive-intensification-for-hurricane-polo": "clu_00bb8df1ec",
     "https://nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge": "clu_0830438aed",
-    "https://nasa.gov/centers-and-facilities/nesc/tb-26-07-aluminum-alloy-2219-material-guidance": "clu_cda405b9e9"
+    "https://nasa.gov/centers-and-facilities/nesc/tb-26-07-aluminum-alloy-2219-material-guidance": "clu_cda405b9e9",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1985": "clu_7095437efd"
   },
   "by_hash": {
     "a92ae2c87bddaf2005806c6d38df06b89cb6364053617ec6d7b747de6661cb69": "clu_e41b80e17d",
@@ -908,7 +909,8 @@
     "85fe3ef617c46c77b67a9bb5b796afeabd3f6ad648adfac9a831966d777b5a54": "clu_ad7d871fa4",
     "11a6a706c6d9cccb5b7c7f5ba553ba5960606238496a363ca413fbb302a8d01b": "clu_00bb8df1ec",
     "86c6d11406e86959c763f8af7d94a1d774f7856a58f9723b80b230d41db85f2d": "clu_0830438aed",
-    "c3604ab6fc7a060129b0121c4e75f3bd131b4325416bf3b555859078a60bd16c": "clu_cda405b9e9"
+    "c3604ab6fc7a060129b0121c4e75f3bd131b4325416bf3b555859078a60bd16c": "clu_cda405b9e9",
+    "48fb1992f3a0101a8fb93173ffd6c0af6ac057c7e49627c8d924437e2d53f5e4": "clu_7095437efd"
   },
   "by_key": {
     "board of governors of the federal reserve system::federal reserve board announces approval of application by peoples bancorp inc.::2026-09-25": "clu_e41b80e17d",
@@ -1359,7 +1361,8 @@
     "nasa::2026-2027 dwu: middle school design challenge::2026-09-25": "clu_ad7d871fa4",
     "nasa::explosive intensification for hurricane polo::2026-09-25": "clu_00bb8df1ec",
     "nasa::2026-2027 dwu: high school engineering challenge::2026-09-25": "clu_0830438aed",
-    "nasa::tb 26-07 aluminum alloy 2219 material guidance::2026-09-25": "clu_cda405b9e9"
+    "nasa::tb 26-07 aluminum alloy 2219 material guidance::2026-09-25": "clu_cda405b9e9",
+    "european commission::president von der leyen announces €710 million to support displaced people in africa and global crisis relief::2026-09-25": "clu_7095437efd"
   },
   "clusters": {
     "clu_e41b80e17d": {
@@ -5430,6 +5433,15 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_7095437efd": {
+      "primary_event_id": "evt_20260926_48fb1992f3",
+      "event_ids": [
+        "evt_20260926_48fb1992f3"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }
