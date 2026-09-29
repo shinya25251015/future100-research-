@@ -3,19 +3,28 @@
     "http://boj.or.jp/mopo/mpmsche_minu/minu_2026/g260731.pdf": "clu_d56f4ba1d0",
     "http://boj.or.jp/statistics/pi/cspi_release/sppi2608.pdf": "clu_a41f8ed4d8",
     "https://spectrum.ieee.org/poetry-user-interface-design": "clu_b3cafc454a",
-    "https://science.nasa.gov/image-article/apod-2026-september-27-andromeda-before-photoshop": "clu_c48cd14d61"
+    "https://science.nasa.gov/image-article/apod-2026-september-27-andromeda-before-photoshop": "clu_c48cd14d61",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1983": "clu_14d83cbfef",
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_1860": "clu_303289075a",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1859": "clu_bad2a203cd"
   },
   "by_hash": {
     "cd97f928c0d04aa9f302003594ba95193c8f88d9677307f73aed584323dd9349": "clu_d56f4ba1d0",
     "678b9f1892db8dd1f64497423fc67ae60339cdd594c7d0592fa9c413a717c1ee": "clu_a41f8ed4d8",
     "19b204aa962431568ef2f3dbe1aaf1acffccb952e39499689905e28ddd63db82": "clu_b3cafc454a",
-    "bcaf4de14a13e572ee782233144156c97801eeccc9776dd5bbf702a380c7bf5f": "clu_c48cd14d61"
+    "bcaf4de14a13e572ee782233144156c97801eeccc9776dd5bbf702a380c7bf5f": "clu_c48cd14d61",
+    "2ecbe43d6530c06b0667bb8fe97818b99ffe079655848d74dd8c6047d5ef6e75": "clu_14d83cbfef",
+    "ab9e6814f535c738a172c6ae9d80599cd62bb9fe56eef7a47ce33b062f25390c": "clu_303289075a",
+    "8af7e770598f93e761a85ff5e81498126dc6639cde3101821e5493fa731d66b3": "clu_bad2a203cd"
   },
   "by_key": {
     "日本銀行::金融政策決定会合議事要旨(7月30、31日開催分)::2026-09-27": "clu_d56f4ba1d0",
     "日本銀行::企業向けサービス価格指数(8月)::2026-09-27": "clu_a41f8ed4d8",
     "ieee::poetry for engineers: the ui designer’s dream::2026-09-27": "clu_b3cafc454a",
-    "nasa::apod: 2026 september 27 – andromeda before and after photoshop::2026-09-27": "clu_c48cd14d61"
+    "nasa::apod: 2026 september 27 – andromeda before and after photoshop::2026-09-27": "clu_c48cd14d61",
+    "european commission::eu trade agreements continue to benefit european businesses::2026-09-27": "clu_14d83cbfef",
+    "european commission::questions and answers on the proposed recommendation on cardiovascular health checks::2026-09-27": "clu_303289075a",
+    "european commission::commission launches eu screening week with new recommendations on cardiovascular health checks::2026-09-27": "clu_bad2a203cd"
   },
   "clusters": {
     "clu_d56f4ba1d0": {
@@ -52,6 +61,33 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_14d83cbfef": {
+      "primary_event_id": "evt_20260929_2ecbe43d65",
+      "event_ids": [
+        "evt_20260929_2ecbe43d65"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_303289075a": {
+      "primary_event_id": "evt_20260929_ab9e6814f5",
+      "event_ids": [
+        "evt_20260929_ab9e6814f5"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_bad2a203cd": {
+      "primary_event_id": "evt_20260929_8af7e77059",
+      "event_ids": [
+        "evt_20260929_8af7e77059"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

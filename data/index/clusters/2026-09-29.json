@@ -1,0 +1,154 @@
+{
+  "by_url": {
+    "https://news.samsung.com/global/samsung-to-invest-usd-1-billion-in-ai-infrastructure-company-helix": "clu_a59ed265e6",
+    "https://news.samsung.com/global/world-heart-day-taking-care-of-your-heart-every-day-starting-from-your-wrist": "clu_d4680acb05",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-09-28&tenor=5%E5%B9%B4": "clu_3dde123fd9",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-09-28&tenor=20%E5%B9%B4": "clu_c7738d3159",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-09-28&tenor=2%E5%B9%B4": "clu_fcd48de3d1",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-09-28&tenor=3%E3%81%8B%E6%9C%88": "clu_7ae5ecf0ff",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-09-28&tenor=30%E5%B9%B4": "clu_b2a53f8f47",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-09-28&tenor=10%E5%B9%B4": "clu_f4d5d85975",
+    "https://treasurydirect.gov/auctions/announcements-data-results?cusip=912797WM5&metric=bid_to_cover&period=2026-09-28": "clu_ff2084bff1",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-25&series=debt_held_public_amt": "clu_4c7273ed2e",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-25&series=tot_pub_debt_out_amt": "clu_2cbc9c8b82",
+    "https://treasurydirect.gov/auctions/announcements-data-results?cusip=912797VJ3&metric=bid_to_cover&period=2026-09-28": "clu_49da405224"
+  },
+  "by_hash": {
+    "c362bbc19d0a3daaa319830f162a576390b75f84e44ecf3f65b4886d33f4ff38": "clu_a59ed265e6",
+    "01f5b3b0052c87be35477d0d02534dd69a65b5f023d51fe943869e5e359cd78c": "clu_d4680acb05",
+    "c2293894e75f7c51e67c81d3867bf21cc2a790f4e6ed4ab3b4cefc219d8ef2b7": "clu_3dde123fd9",
+    "5dd094ac7dd7cfb9dd321b9ff4fb915c4f8768127a816756d50f80eb4f57f88c": "clu_c7738d3159",
+    "fbf9ab7ce425aba4485ae51db2931fda54eff76583b605df19e4b7ae96e4ba96": "clu_fcd48de3d1",
+    "653e1e7f26adc4c44b2bd439ae5be1d3fa78ce5bd9ac152b0727aeace05f9cd6": "clu_7ae5ecf0ff",
+    "31cfc6caeaf595ec832d14fabcb87b023d77186260938224b18c81d2738c2b91": "clu_b2a53f8f47",
+    "7b2d85152b317cf3bdeb8de677c14cdaff41be07ee658ff9952b462508cad049": "clu_f4d5d85975",
+    "3f1516add48b3ad39d59c3c754a073c462628a875116baf85708e772ec238cbc": "clu_ff2084bff1",
+    "d0b2765fe2b16dcc53d73c40aa200dd0cc83d0e798cf5fcfa90a5c22c4ddfb71": "clu_4c7273ed2e",
+    "45d0b75177b47fac6b23f299e99c52da1f80de1ae6ee261ca89aca850bdb3256": "clu_2cbc9c8b82",
+    "0343e86423413bfae41b2c464ac8c9702467cf49292163ac97c762fccad3526f": "clu_49da405224"
+  },
+  "by_key": {
+    "samsung electronics::samsung to invest usd 1 billion in ai infrastructure company helix::2026-09-29": "clu_a59ed265e6",
+    "samsung electronics::[world heart day] taking care of your heart every day, starting from your wrist::2026-09-29": "clu_d4680acb05",
+    "u.s. department of the treasury::米国債利回り 5年 2026-09-28: 5.06 %::2026-09-29": "clu_3dde123fd9",
+    "u.s. department of the treasury::米国債利回り 20年 2026-09-28: 5.6 %::2026-09-29": "clu_c7738d3159",
+    "u.s. department of the treasury::米国債利回り 2年 2026-09-28: 4.92 %::2026-09-29": "clu_fcd48de3d1",
+    "u.s. department of the treasury::米国債利回り 3か月 2026-09-28: 4.28 %::2026-09-29": "clu_7ae5ecf0ff",
+    "u.s. department of the treasury::米国債利回り 30年 2026-09-28: 5.56 %::2026-09-29": "clu_b2a53f8f47",
+    "u.s. department of the treasury::米国債利回り 10年 2026-09-28: 5.24 %::2026-09-29": "clu_f4d5d85975",
+    "u.s. department of the treasury (treasurydirect)::米国債入札 応札倍率(26-week, bill) 2026-09-28: 2.64 倍::2026-09-29": "clu_ff2084bff1",
+    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-09-25: 32,385,874,118,414.109 usd::2026-09-29": "clu_4c7273ed2e",
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-09-25: 40,097,178,119,750.906 usd::2026-09-29": "clu_2cbc9c8b82",
+    "u.s. department of the treasury (treasurydirect)::米国債入札 応札倍率(13-week, bill) 2026-09-28: 2.99 倍::2026-09-29": "clu_49da405224"
+  },
+  "clusters": {
+    "clu_a59ed265e6": {
+      "primary_event_id": "evt_20260929_c362bbc19d",
+      "event_ids": [
+        "evt_20260929_c362bbc19d"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_d4680acb05": {
+      "primary_event_id": "evt_20260929_01f5b3b005",
+      "event_ids": [
+        "evt_20260929_01f5b3b005"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_3dde123fd9": {
+      "primary_event_id": "evt_20260929_c2293894e7",
+      "event_ids": [
+        "evt_20260929_c2293894e7"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_c7738d3159": {
+      "primary_event_id": "evt_20260929_5dd094ac7d",
+      "event_ids": [
+        "evt_20260929_5dd094ac7d"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_fcd48de3d1": {
+      "primary_event_id": "evt_20260929_fbf9ab7ce4",
+      "event_ids": [
+        "evt_20260929_fbf9ab7ce4"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_7ae5ecf0ff": {
+      "primary_event_id": "evt_20260929_653e1e7f26",
+      "event_ids": [
+        "evt_20260929_653e1e7f26"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_b2a53f8f47": {
+      "primary_event_id": "evt_20260929_31cfc6caea",
+      "event_ids": [
+        "evt_20260929_31cfc6caea"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_f4d5d85975": {
+      "primary_event_id": "evt_20260929_7b2d85152b",
+      "event_ids": [
+        "evt_20260929_7b2d85152b"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_ff2084bff1": {
+      "primary_event_id": "evt_20260929_3f1516add4",
+      "event_ids": [
+        "evt_20260929_3f1516add4"
+      ],
+      "source_ids": [
+        "src_us_treasury_auctions"
+      ]
+    },
+    "clu_4c7273ed2e": {
+      "primary_event_id": "evt_20260929_d0b2765fe2",
+      "event_ids": [
+        "evt_20260929_d0b2765fe2"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    },
+    "clu_2cbc9c8b82": {
+      "primary_event_id": "evt_20260929_45d0b75177",
+      "event_ids": [
+        "evt_20260929_45d0b75177"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    },
+    "clu_49da405224": {
+      "primary_event_id": "evt_20260929_0343e86423",
+      "event_ids": [
+        "evt_20260929_0343e86423"
+      ],
+      "source_ids": [
+        "src_us_treasury_auctions"
+      ]
+    }
+  }
+}
