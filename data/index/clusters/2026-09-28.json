@@ -425,7 +425,8 @@
     "https://nasa.gov/image-article/space-station-view-of-earth-at-night": "clu_92506ba7a1",
     "https://nasa.gov/news-release/nasa-celebrates-as-artemis-accords-surpasses-75-signatories": "clu_a4b2353ff0",
     "https://nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-orbit-challenge-2027": "clu_a9434df48d",
-    "https://nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-kristie-foster": "clu_8833455677"
+    "https://nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-kristie-foster": "clu_8833455677",
+    "https://robotsguide.com/learn/a-day-in-the-life-of-a-roboticist-charlie-kemp": "clu_07830cdd10"
   },
   "by_hash": {
     "2cdb9e11a5883d0f47501102a02c9f8f6fc367adec99eae134b7c7554dfef787": "clu_d75638572f",
@@ -853,7 +854,8 @@
     "3bfbfdb2c47d972704973ec52b6fd2ddc72399fc13d53d68fcd78a4d74fb592b": "clu_92506ba7a1",
     "fdf91ca6dad57704b280c555f5eb7a7dcbf4305efa3bd09a1c127dee8f03deda": "clu_a4b2353ff0",
     "e4b55a0c6cce0a8be641c4aebbb407e0fb1c96b24df15910ebc7f3a32e7523af": "clu_a9434df48d",
-    "6b9f69ad7addd7497aacaa7628b4503e166d523a97899456825c769c76316591": "clu_8833455677"
+    "6b9f69ad7addd7497aacaa7628b4503e166d523a97899456825c769c76316591": "clu_8833455677",
+    "181ebfe8a5d28c9c6d837e9ee5030fb64e80ca5c8f90f59d195d485e016c5e9c": "clu_07830cdd10"
   },
   "by_key": {
     "office of the federal register::notice of proposed information collection requests: native american library services enhancement grants notice of funding opportunity.::2026-09-28": "clu_d75638572f",
@@ -1278,7 +1280,8 @@
     "nasa::space station view of earth at night::2026-09-28": "clu_92506ba7a1",
     "nasa::nasa celebrates as artemis accords surpasses 75 signatories::2026-09-28": "clu_a4b2353ff0",
     "nasa::nasa orbit challenge 2027::2026-09-28": "clu_a9434df48d",
-    "nasa::contractor to civil servant: nasa welcomes kristie foster::2026-09-28": "clu_8833455677"
+    "nasa::contractor to civil servant: nasa welcomes kristie foster::2026-09-28": "clu_8833455677",
+    "ieee::a day in the life of a roboticist: charlie kemp::2026-09-28": "clu_07830cdd10"
   },
   "clusters": {
     "clu_d75638572f": {
@@ -5113,6 +5116,15 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_07830cdd10": {
+      "primary_event_id": "evt_20260930_181ebfe8a5",
+      "event_ids": [
+        "evt_20260930_181ebfe8a5"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
       ]
     }
   }
