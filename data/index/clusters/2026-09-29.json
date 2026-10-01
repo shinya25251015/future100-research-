@@ -1505,7 +1505,11 @@
     "https://science.nasa.gov/image-article/apod-2026-september-29-sh2-188-the-shrimp-nebula": "clu_a374592769",
     "https://nasa.gov/news-release/nasa-adds-blue-origin-new-glenn-9x4-to-launch-services-contract": "clu_89f3bc7aad",
     "https://nasa.gov/news-release/nasa-sets-crew-13-launch-docking-coverage": "clu_848864feb0",
-    "https://nasa.gov/image-article/crew-13-rocket-and-spacecraft-at-launch-pad": "clu_9e6f1bff0b"
+    "https://nasa.gov/image-article/crew-13-rocket-and-spacecraft-at-launch-pad": "clu_9e6f1bff0b",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2008": "clu_b8d3d17ac7",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2017": "clu_f137d1f58c",
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2009": "clu_53ef709d3f",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2011": "clu_9111140e07"
   },
   "by_hash": {
     "c362bbc19d0a3daaa319830f162a576390b75f84e44ecf3f65b4886d33f4ff38": "clu_a59ed265e6",
@@ -3013,7 +3017,11 @@
     "7c792ff39bd0dc78fd85a358020d5ef4706ff3c553971e846d8d757c1258cf6d": "clu_a374592769",
     "6089cf0b1b3be7e922fa2385e9a30396c835db50fa5c6127e035846003200b44": "clu_89f3bc7aad",
     "50c9792dd8b4c4efece677e7746c6504de002ee56e660523886736404f70c979": "clu_848864feb0",
-    "40ac9f0d04a248e7330a1889024f94e1a058d0648f38dbbb2e33f27335575074": "clu_9e6f1bff0b"
+    "40ac9f0d04a248e7330a1889024f94e1a058d0648f38dbbb2e33f27335575074": "clu_9e6f1bff0b",
+    "48b7324a08c8a1a9435a136a2544ea91c602708f20dc8152dc9b855ce38b22db": "clu_b8d3d17ac7",
+    "f60f9a8e2950b1ea0999984ff58a9c9d59b55971af38a25d93f0d701923c9c9e": "clu_f137d1f58c",
+    "579dac3602f78f6b7e96be9c2b84efd1dbe6b22c485c21c780ca36433fc4a945": "clu_53ef709d3f",
+    "3631473baf22fd9a714a98af58ad9c00217de921e44ca461e12ca11813843ab8": "clu_9111140e07"
   },
   "by_key": {
     "samsung electronics::samsung to invest usd 1 billion in ai infrastructure company helix::2026-09-29": "clu_a59ed265e6",
@@ -4520,7 +4528,11 @@
     "nasa::apod: 2026 september 29 – sh2-188: the shrimp nebula::2026-09-29": "clu_a374592769",
     "nasa::nasa adds blue origin new glenn 9×4 to launch services contract::2026-09-29": "clu_89f3bc7aad",
     "nasa::nasa sets crew-13 launch, docking coverage::2026-09-29": "clu_848864feb0",
-    "nasa::crew-13 rocket and spacecraft at launch pad::2026-09-29": "clu_9e6f1bff0b"
+    "nasa::crew-13 rocket and spacecraft at launch pad::2026-09-29": "clu_9e6f1bff0b",
+    "european commission::commission proposes a new eu critical communication system for first responders::2026-09-29": "clu_b8d3d17ac7",
+    "european commission::commission report finds devastating shifts in the arctic and record-breaking marine heatwaves::2026-09-29": "clu_f137d1f58c",
+    "european commission::questions and answers on the european union critical communication system::2026-09-29": "clu_53ef709d3f",
+    "european commission::factsheet: eu critical communication system::2026-09-29": "clu_9111140e07"
   },
   "clusters": {
     "clu_a59ed265e6": {
@@ -18068,6 +18080,42 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_b8d3d17ac7": {
+      "primary_event_id": "evt_20261001_48b7324a08",
+      "event_ids": [
+        "evt_20261001_48b7324a08"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_f137d1f58c": {
+      "primary_event_id": "evt_20261001_f60f9a8e29",
+      "event_ids": [
+        "evt_20261001_f60f9a8e29"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_53ef709d3f": {
+      "primary_event_id": "evt_20261001_579dac3602",
+      "event_ids": [
+        "evt_20261001_579dac3602"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_9111140e07": {
+      "primary_event_id": "evt_20261001_3631473baf",
+      "event_ids": [
+        "evt_20261001_3631473baf"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

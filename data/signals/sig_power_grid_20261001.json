@@ -1,0 +1,83 @@
+{
+  "window_id": "sig_power_grid_20261001",
+  "as_of": "2026-10-01T00:44:42Z",
+  "window": {
+    "start": "2026-09-25",
+    "end": "2026-10-01",
+    "baseline_start": "2026-08-28",
+    "baseline_end": "2026-09-24"
+  },
+  "topic": {
+    "label": "電力・送配電",
+    "keywords": [
+      "power grid",
+      "electric grid",
+      "electrical grid",
+      "power transformer",
+      "transmission line",
+      "substation",
+      "grid interconnection",
+      "grid operator",
+      "送電網",
+      "送配電",
+      "変電所",
+      "変圧器",
+      "系統連系"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_power_grid"
+  },
+  "counts": [
+    {
+      "signal_type": "capex_guidance",
+      "count": 1,
+      "baseline_count": 0.0,
+      "event_ids": [
+        "evt_20260930_6026e8c247"
+      ]
+    },
+    {
+      "signal_type": "export_control",
+      "count": 1,
+      "baseline_count": 0.0,
+      "event_ids": [
+        "evt_20260929_d713ddec4f"
+      ]
+    },
+    {
+      "signal_type": "paper",
+      "count": 5,
+      "baseline_count": 0.75,
+      "event_ids": [
+        "evt_20260926_d20537c627",
+        "evt_20260929_fbd92d9a30",
+        "evt_20260930_6026e8c247",
+        "evt_20261001_ca9c777daf",
+        "evt_20261001_cba381cb9e"
+      ],
+      "delta_ratio": 5.667
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 1,
+    "distinct_regions": 1,
+    "score": 26.7,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}
