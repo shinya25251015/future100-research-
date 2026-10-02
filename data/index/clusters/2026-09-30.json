@@ -791,7 +791,19 @@
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-04": "clu_8d7d4a8c9e",
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-05": "clu_9c79bc64bd",
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-06": "clu_3c3a864ff5",
-    "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-02": "clu_624ea38903"
+    "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-02": "clu_624ea38903",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1916": "clu_cccd4dd570",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1866": "clu_1aeaaa1dfe",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2022": "clu_bd0ebaff99",
+    "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2028": "clu_dafa20f9df",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1872": "clu_75de0b8b5f",
+    "https://ec.europa.eu/commission/presscorner/detail/en/inf_26_1760": "clu_8bb0dac94b",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1871": "clu_4352455737",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1869": "clu_da996b1156",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1870": "clu_83602ebe0a",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1910": "clu_e2a7223bf9",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2027": "clu_068319035b",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1874": "clu_651ffc1396"
   },
   "by_hash": {
     "095b56371111a863647963d7352f21a9cef3a16df4929823df33e33ce97fb1d2": "clu_a7c29a4261",
@@ -1584,7 +1596,19 @@
     "82d4d33b179af256c8939adf5fd8238a46a400dffa9b64ed2306523b18e7c6e0": "clu_8d7d4a8c9e",
     "700229a024a83b087aefa2a7e79090706a677ba76f080af6ed5bdcceeeb9369f": "clu_9c79bc64bd",
     "5be0988524d068d53d750b61d90a437e598e4f154fd6e0544a4631d5ca4820a5": "clu_3c3a864ff5",
-    "18ef355b00304a30fbf83771eff508002de787f3f229d0579bb2e829ccf241bb": "clu_624ea38903"
+    "18ef355b00304a30fbf83771eff508002de787f3f229d0579bb2e829ccf241bb": "clu_624ea38903",
+    "621582bac5f45e714e634d45161ed17b56d2a62c9d7a46f355c2895292719e92": "clu_cccd4dd570",
+    "5e4ba37af7124d3eb620641767e356bec8964d3f94fa387ed5c2659d8a1eb4c1": "clu_1aeaaa1dfe",
+    "03b305b879e91806cd5f97e409e5e7af5f1e694f003caad1a6c737049e0e30b9": "clu_bd0ebaff99",
+    "f9b126c4c97e0809cefce0ca3a4e1da6dc19e3ea402987a459dbc40db527fb85": "clu_dafa20f9df",
+    "4b94d55002c5c7c681e8dea080c48c04e356dcfc17527966ea38940480e84987": "clu_75de0b8b5f",
+    "6d5f965bf79cf385b2d70aa7c3b4afbc36ace6d9ab6b9b99eb73a5ccffa86473": "clu_8bb0dac94b",
+    "14cd5556395ee9ccf4442978126e638a43551a609881817176f81041e6dba0b0": "clu_4352455737",
+    "aee31bc019547b4ccc9b557eb87f2e812456c051e55f0761768628a2ed5a1f25": "clu_da996b1156",
+    "63d4baf64ff5460d56df22279d2dd0556ed04105f48880d6f4aca5f227d93305": "clu_83602ebe0a",
+    "656e7ba12d2b07eb52a0b6094dc49f66615e3a1b51751a4502e2b29017d97f94": "clu_e2a7223bf9",
+    "cb7925bfd2c5957d86c5eccfa6214233ef93cd77a82bdcd540af4c75f02adaf0": "clu_068319035b",
+    "3f7605417c47a1c7f12ee5025f7392981d4c0ab6bbf5c52174ee4c17946c7952": "clu_651ffc1396"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 30年 2026-09-29: 5.59 %::2026-09-30": "clu_a7c29a4261",
@@ -2376,7 +2400,19 @@
     "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-04: 213,008.564 gwh::2026-09-30": "clu_8d7d4a8c9e",
     "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-05: 210,610.839 gwh::2026-09-30": "clu_9c79bc64bd",
     "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-06: 213,995.656 gwh::2026-09-30": "clu_3c3a864ff5",
-    "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-02: 236,817.554 gwh::2026-09-30": "clu_624ea38903"
+    "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-02: 236,817.554 gwh::2026-09-30": "clu_624ea38903",
+    "european commission::commission decides to refer belgium to the court of justice of the european union over recognition of investor-state arbitration awards that violate the principle of autonomy of eu law::2026-09-30": "clu_cccd4dd570",
+    "european commission::commission decides to refer slovakia to the court of justice of the european union for failing to deploy the electronic system for temporary storage for air transport::2026-09-30": "clu_1aeaaa1dfe",
+    "european commission::entry into force or application of eu legislation: 1 october – 31 october 2026::2026-09-30": "clu_bd0ebaff99",
+    "european commission::statement by commissioner dombrovskis at press conference with vasile tofan, prime minister of moldova::2026-09-30": "clu_dafa20f9df",
+    "european commission::commission decides to refer finland to the court of justice of the european union for failing to align its rules with the seveso iii directive::2026-09-30": "clu_75de0b8b5f",
+    "european commission::october infringements package: key decisions::2026-09-30": "clu_8bb0dac94b",
+    "european commission::commission decides to refer greece and cyprus to the court of justice of the european union for failing to ensure adequate treatment of waste::2026-09-30": "clu_4352455737",
+    "european commission::commission decides to refer bulgaria to the court of justice of the european union to ensure full transposition of eu electricity market rules::2026-09-30": "clu_da996b1156",
+    "european commission::commission decides to refer hungary to the court of justice of the european union to ensure compliance with rules on intra-eu investor-state arbitration::2026-09-30": "clu_83602ebe0a",
+    "european commission::commission decides to refer spain to the court of justice of the european union for failing to comply with eu rules on state liability for breaches of union law::2026-09-30": "clu_e2a7223bf9",
+    "european commission::keynote speech by commissioner dombrovskis at national bank of moldova annual conference::2026-09-30": "clu_068319035b",
+    "european commission::commission decides to refer bulgaria to the court of justice of the european union for failing to transpose eu rules on hired vehicles::2026-09-30": "clu_651ffc1396"
   },
   "clusters": {
     "clu_a7c29a4261": {
@@ -9496,6 +9532,114 @@
       ],
       "source_ids": [
         "src_eurostat_industry_energy"
+      ]
+    },
+    "clu_cccd4dd570": {
+      "primary_event_id": "evt_20261002_621582bac5",
+      "event_ids": [
+        "evt_20261002_621582bac5"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_1aeaaa1dfe": {
+      "primary_event_id": "evt_20261002_5e4ba37af7",
+      "event_ids": [
+        "evt_20261002_5e4ba37af7"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_bd0ebaff99": {
+      "primary_event_id": "evt_20261002_03b305b879",
+      "event_ids": [
+        "evt_20261002_03b305b879"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_dafa20f9df": {
+      "primary_event_id": "evt_20261002_f9b126c4c9",
+      "event_ids": [
+        "evt_20261002_f9b126c4c9"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_75de0b8b5f": {
+      "primary_event_id": "evt_20261002_4b94d55002",
+      "event_ids": [
+        "evt_20261002_4b94d55002"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_8bb0dac94b": {
+      "primary_event_id": "evt_20261002_6d5f965bf7",
+      "event_ids": [
+        "evt_20261002_6d5f965bf7"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_4352455737": {
+      "primary_event_id": "evt_20261002_14cd555639",
+      "event_ids": [
+        "evt_20261002_14cd555639"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_da996b1156": {
+      "primary_event_id": "evt_20261002_aee31bc019",
+      "event_ids": [
+        "evt_20261002_aee31bc019"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_83602ebe0a": {
+      "primary_event_id": "evt_20261002_63d4baf64f",
+      "event_ids": [
+        "evt_20261002_63d4baf64f"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_e2a7223bf9": {
+      "primary_event_id": "evt_20261002_656e7ba12d",
+      "event_ids": [
+        "evt_20261002_656e7ba12d"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_068319035b": {
+      "primary_event_id": "evt_20261002_cb7925bfd2",
+      "event_ids": [
+        "evt_20261002_cb7925bfd2"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_651ffc1396": {
+      "primary_event_id": "evt_20261002_3f7605417c",
+      "event_ids": [
+        "evt_20261002_3f7605417c"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }
