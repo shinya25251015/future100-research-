@@ -670,7 +670,9 @@
     "https://science.nasa.gov/image-article/apod-2026-october-1-harvest-moon-with-belt-of-venus-and-erupting-mount-etna": "clu_92c72b42cf",
     "https://nasa.gov/image-article/nasas-spacex-crew-13-launches": "clu_3f2fcae49b",
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-07": "clu_6f8725df6b",
-    "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-06": "clu_ff4febb483"
+    "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-06": "clu_ff4febb483",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2047": "clu_de5dda95b0",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2019": "clu_ef346d5132"
   },
   "by_hash": {
     "9f3eb9e89977e9c3126541d6611bcc97e4189288baa3f38c1630e9644bddbf40": "clu_ef47225a91",
@@ -1343,7 +1345,9 @@
     "f5d6d6951aead1968dda8669c4b56b215496771fd78dd3fc8eef5a4da80654d6": "clu_92c72b42cf",
     "ab8d41fcf8b71cbd508ea53b784bccb32b6890f8e604e5038c077f3304fb64b2": "clu_3f2fcae49b",
     "7a4991fe8fbc98932d60b13ec4ecfbec3dc057aea324e217beae21b0eea2b085": "clu_6f8725df6b",
-    "ebcea4bf1ea5ab1d3af921129c9d31ab876eb1c4ed8ffb3fc802fb321e5324a3": "clu_ff4febb483"
+    "ebcea4bf1ea5ab1d3af921129c9d31ab876eb1c4ed8ffb3fc802fb321e5324a3": "clu_ff4febb483",
+    "39dd67f092fb7966ce1a1b10abd632e4b03fd27027b00b1a5db1d4cb96707e3f": "clu_de5dda95b0",
+    "3b10674560ecf9121bc40a9f247a71081b69fa1510b6ad5368a21ddb00eaa4ff": "clu_ef346d5132"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 3か月 2026-09-30: 4.2 %::2026-10-01": "clu_ef47225a91",
@@ -2015,7 +2019,9 @@
     "nasa::apod: 2026 october 1 – harvest moon with erupting mount etna::2026-10-01": "clu_92c72b42cf",
     "nasa::nasa’s spacex crew-13 launches::2026-10-01": "clu_3f2fcae49b",
     "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-07: 228,235.451 gwh::2026-10-01": "clu_6f8725df6b",
-    "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-06: 214,012.854 gwh::2026-10-01": "clu_ff4febb483"
+    "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-06: 214,012.854 gwh::2026-10-01": "clu_ff4febb483",
+    "european commission::commission disburses €2.9 billion under ukraine facility to support financial stability and reforms::2026-10-01": "clu_de5dda95b0",
+    "european commission::commission approves €170 million bulgarian state aid for farmers facing increased fuel and fertiliser prices::2026-10-01": "clu_ef346d5132"
   },
   "clusters": {
     "clu_ef47225a91": {
@@ -8055,6 +8061,24 @@
       ],
       "source_ids": [
         "src_eurostat_industry_energy"
+      ]
+    },
+    "clu_de5dda95b0": {
+      "primary_event_id": "evt_20261003_39dd67f092",
+      "event_ids": [
+        "evt_20261003_39dd67f092"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_ef346d5132": {
+      "primary_event_id": "evt_20261003_3b10674560",
+      "event_ids": [
+        "evt_20261003_3b10674560"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

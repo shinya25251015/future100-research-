@@ -1,0 +1,81 @@
+{
+  "window_id": "sig_space_20261003",
+  "as_of": "2026-10-03T00:39:46Z",
+  "window": {
+    "start": "2026-09-27",
+    "end": "2026-10-03",
+    "baseline_start": "2026-08-30",
+    "baseline_end": "2026-09-26"
+  },
+  "topic": {
+    "label": "宇宙",
+    "keywords": [
+      "spacecraft",
+      "satellite",
+      "launch vehicle",
+      "space agency",
+      "space station",
+      "orbital launch",
+      "宇宙開発",
+      "人工衛星",
+      "打ち上げ"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_space"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 11,
+      "baseline_count": 5.75,
+      "event_ids": [
+        "evt_20260929_de45ca9fb6",
+        "evt_20260929_f812e5c3c2",
+        "evt_20260929_a590216e6f",
+        "evt_20260930_40bff526ec",
+        "evt_20261001_22fcb7a0ea",
+        "evt_20261001_ee53280864",
+        "evt_20261001_b9d8af03c8",
+        "evt_20261001_0af3600dc5",
+        "evt_20261001_d007445310",
+        "evt_20261003_eb2f0126b0",
+        "evt_20261003_8180cd3833"
+      ],
+      "delta_ratio": 0.913
+    },
+    {
+      "signal_type": "patent",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      },
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 2,
+    "distinct_regions": 1,
+    "score": 34.2,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}

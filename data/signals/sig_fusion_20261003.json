@@ -1,0 +1,63 @@
+{
+  "window_id": "sig_fusion_20261003",
+  "as_of": "2026-10-03T00:39:46Z",
+  "window": {
+    "start": "2026-09-27",
+    "end": "2026-10-03",
+    "baseline_start": "2026-08-30",
+    "baseline_end": "2026-09-26"
+  },
+  "topic": {
+    "label": "核融合",
+    "keywords": [
+      "nuclear fusion",
+      "fusion energy",
+      "fusion reactor",
+      "tokamak",
+      "stellarator",
+      "核融合"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_fusion"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 3,
+      "baseline_count": 1.75,
+      "event_ids": [
+        "evt_20260930_79327c6cc7",
+        "evt_20261001_c51673591c",
+        "evt_20261002_dbd6edb308"
+      ],
+      "delta_ratio": 0.714
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      },
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 2,
+    "distinct_regions": 1,
+    "score": 34.2,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}
