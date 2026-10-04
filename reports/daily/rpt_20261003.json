@@ -1,10 +1,10 @@
 {
   "report_id": "rpt_20261003",
   "report_date": "2026-10-03",
-  "as_of": "2026-10-03T00:39:46Z",
+  "as_of": "2026-10-03T23:59:04Z",
   "coverage": {
-    "events_ingested": 625,
-    "events_after_dedup": 625,
+    "events_ingested": 675,
+    "events_after_dedup": 675,
     "sources_polled": 24,
     "sources_failed": []
   },
@@ -13,13 +13,13 @@
       "no": 1,
       "key": "executive_summary",
       "title": "本日の構造変化サマリ",
-      "body": "本日の観測は 625 件。内訳（分類別）: technology 553 / policy_regulation 58 / macro 13 / corporate_action 1。シグナル種別: paper 543 / export_control 1 / patent 1 / procurement 1。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 5 件）。件数は観測量であって重要度ではない。"
+      "body": "本日の観測は 675 件。内訳（分類別）: technology 554 / policy_regulation 107 / macro 13 / corporate_action 1。シグナル種別: paper 544 / export_control 3 / patent 1 / procurement 1。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 5 件）。件数は観測量であって重要度ではない。"
     },
     {
       "no": 2,
       "key": "policy_regulation",
       "title": "政策・規制 (§4)",
-      "body": "本日 58 件を観測。\n- [A] 2026-10-02 Contracts for Oct. 2, 2026 (evt_20261003_a77f3bf1e2)\n- [A] 2026-10-02 National Manufacturing Day, 2026 (evt_20261003_4c209e4b10)\n- [A] 2026-10-02 Statement by Commissioner Lahbib on the siege of Oleshky, Ukraine (evt_20261003_64a477aa2a)\n- [A] 2026-10-02 G7 Leaders' Statement on global energy security and market stability (evt_20261003_e13f9e08fc)\n- [A] 2026-10-02 Statement by President von der Leyen with Prime Minister of North Macedonia Mickoski (evt_20261003_68e8d43788)\n- [A] 2026-10-02 Daily News 02 / 10 / 2026 (evt_20261003_5d67f36e9e)\n- [A] 2026-10-02 Streamlining Access to Government Services Through America.gov (evt_20261003_77c8373f3b)\n- [A] 2026-10-02 Center for Scientific Review; Notice of Closed Meetings (evt_20261003_7ca47f9de0)"
+      "body": "本日 107 件を観測。\n- [A] 2026-10-05 Information Collection: Information Collections Contained in the Sunset Rule (evt_20261003_bebb19e454)\n- [A] 2026-10-05 Methionine From France, Japan, and Spain: Final Results of the Expedited First Sunset Reviews of the Antidumping Duty Orders (evt_20261003_055cc6ea39)\n- [A] 2026-10-05 Airworthiness Directives; Airbus Helicopters (evt_20261003_d862f4f9cd)\n- [A] 2026-10-05 Agency Information Collection Activities: Proposed Collection; Comment Request (evt_20261003_c2af2b966f)\n- [A] 2026-10-05 Lightning Hazard Mitigation Burden-Reducing Exception (evt_20261003_dd084d2e64)\n- [A] 2026-10-05 Proposed Data Collection Submitted for Public Comment and Recommendations (evt_20261003_9e184796fa)\n- [A] 2026-10-05 Presidential Determination on the Revocation of Presidential Determinations Related to Lebanon (evt_20261003_2f4de0b70a)\n- [A] 2026-10-05 Mattresses From Poland: Preliminary Intent To Rescind Antidumping Duty Administrative Review; 2024-2025 (evt_20261003_d9cbeeeaa7)"
     },
     {
       "no": 3,
@@ -43,7 +43,7 @@
       "no": 6,
       "key": "technology_progress",
       "title": "技術革新の進展 (§8)",
-      "body": "本日 553 件を観測。\n- [B] 2026-10-02 Engineering Multipole Resonances in Dielectric Metasurfaces for Transmission, Reflection, and Absorption Control (evt_20261003_2dc4c97392)\n- [B] 2026-10-02 SWE-chat: Coding Agent Interactions From Real Users in the Wild (evt_20261003_ae3d026645)\n- [B] 2026-10-02 Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents (evt_20261003_0e4bdbccc9)\n- [B] 2026-10-02 Improving Math Reasoning through Value-guided Informative Search (evt_20261003_52af7a442d)\n- [B] 2026-10-02 Meta-Multi-Agent Reinforcement Learning for Fast Adaptation of Interactive Policies with Applications to Autonomous Driving (evt_20261003_5eac22b3cd)\n- [B] 2026-10-02 Stratified Consistency Distillation for Natural Language Formalization (evt_20261003_7565f2f0c8)\n- [B] 2026-10-02 SHARPO: Segment-Level Credit Assignment for Agentic Reinforcement Learning (evt_20261003_29bdb5d355)\n- [B] 2026-10-02 Continuous Process-Level Evaluation for Evolving Enterprise AI Agent Skills (evt_20261003_e2b4d6f307)"
+      "body": "本日 554 件を観測。\n- [B] 2026-10-02 Engineering Multipole Resonances in Dielectric Metasurfaces for Transmission, Reflection, and Absorption Control (evt_20261003_2dc4c97392)\n- [B] 2026-10-02 SWE-chat: Coding Agent Interactions From Real Users in the Wild (evt_20261003_ae3d026645)\n- [B] 2026-10-02 Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents (evt_20261003_0e4bdbccc9)\n- [B] 2026-10-02 Improving Math Reasoning through Value-guided Informative Search (evt_20261003_52af7a442d)\n- [B] 2026-10-02 Meta-Multi-Agent Reinforcement Learning for Fast Adaptation of Interactive Policies with Applications to Autonomous Driving (evt_20261003_5eac22b3cd)\n- [B] 2026-10-02 Stratified Consistency Distillation for Natural Language Formalization (evt_20261003_7565f2f0c8)\n- [B] 2026-10-02 SHARPO: Segment-Level Credit Assignment for Agentic Reinforcement Learning (evt_20261003_29bdb5d355)\n- [B] 2026-10-02 Continuous Process-Level Evaluation for Evolving Enterprise AI Agent Skills (evt_20261003_e2b4d6f307)"
     },
     {
       "no": 7,
@@ -109,7 +109,7 @@
   "prohibited_output_check": {
     "contains_ticker_recommendation": false,
     "contains_ranking": false,
-    "checked_at": "2026-10-03T00:40:25Z"
+    "checked_at": "2026-10-03T23:59:40Z"
   },
   "schema_version": "1.0"
 }
