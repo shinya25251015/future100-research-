@@ -7,7 +7,8 @@
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-02&tenor=2%E5%B9%B4": "clu_8faeda56f9",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-02&tenor=20%E5%B9%B4": "clu_09ed82455c",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-10-01&series=debt_held_public_amt": "clu_81dd1f48b5",
-    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-10-01&series=tot_pub_debt_out_amt": "clu_5132bcc675"
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-10-01&series=tot_pub_debt_out_amt": "clu_5132bcc675",
+    "https://science.nasa.gov/image-article/apod-2026-october-3-selfie-at-vera-rubin-ridge": "clu_25a41b4798"
   },
   "by_hash": {
     "d9241f272b1413846c052a2fcb5ddc08ab343a65764c437899156d964f777227": "clu_e9a4c1edd8",
@@ -17,7 +18,8 @@
     "41da2edb66a4320ffaf09e2af317bb4a54a310f1b42000d226f7526c4bee8efe": "clu_8faeda56f9",
     "d177fad3488b0512647b26c90607492a4bae52f0ae017ed99f17f76e7e383207": "clu_09ed82455c",
     "60e68ebfdf3586f0e11c5859ecf5cbad5f297d4f597e7dec43c839d91e5bff4c": "clu_81dd1f48b5",
-    "a3c8e06330fed44c36823b9a18f3e13c0f38e515133c910048fe8a78c351961c": "clu_5132bcc675"
+    "a3c8e06330fed44c36823b9a18f3e13c0f38e515133c910048fe8a78c351961c": "clu_5132bcc675",
+    "27f45d593bf0956fc4703a52819a0ff8396f2c6e77bf074ebc60e576ba5b630f": "clu_25a41b4798"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 5年 2026-10-02: 5.06 %::2026-10-03": "clu_e9a4c1edd8",
@@ -27,7 +29,8 @@
     "u.s. department of the treasury::米国債利回り 2年 2026-10-02: 4.83 %::2026-10-03": "clu_8faeda56f9",
     "u.s. department of the treasury::米国債利回り 20年 2026-10-02: 5.67 %::2026-10-03": "clu_09ed82455c",
     "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-10-01: 32,433,790,394,253.859 usd::2026-10-03": "clu_81dd1f48b5",
-    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-10-01: 40,260,641,972,390.031 usd::2026-10-03": "clu_5132bcc675"
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-10-01: 40,260,641,972,390.031 usd::2026-10-03": "clu_5132bcc675",
+    "nasa::apod: 2026 october 3 – selfie at vera rubin ridge::2026-10-03": "clu_25a41b4798"
   },
   "clusters": {
     "clu_e9a4c1edd8": {
@@ -100,6 +103,15 @@
       ],
       "source_ids": [
         "src_us_treasury_debt"
+      ]
+    },
+    "clu_25a41b4798": {
+      "primary_event_id": "evt_20261005_27f45d593b",
+      "event_ids": [
+        "evt_20261005_27f45d593b"
+      ],
+      "source_ids": [
+        "src_nasa_news"
       ]
     }
   }

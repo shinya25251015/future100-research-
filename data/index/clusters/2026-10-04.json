@@ -1,0 +1,58 @@
+{
+  "by_url": {
+    "http://boj.or.jp/statistics/boj/fm/juqp/juqp2610.xlsx": "clu_ee47c68e4d",
+    "https://nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino": "clu_9b82bd2d9c",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5022-5028-cashing-in-at-cache-creek": "clu_14e3cce504",
+    "https://science.nasa.gov/image-article/apod-2026-october-4-supernumerary-rainbows-over-new-jersey": "clu_3bfe9b7c9a"
+  },
+  "by_hash": {
+    "35d93055d42950ee8b0c75037278585a569dab4c682544b4b38d3325ad5d82c3": "clu_ee47c68e4d",
+    "1ef3a53be6126c8e3b333c3e046e7c65bccd3abd169c5692e0787bc7a0672e43": "clu_9b82bd2d9c",
+    "7ff7d005e02ec3e465b264e0a4d892f4603cf2f1799a78e5179dbccf64c0652f": "clu_14e3cce504",
+    "b4a853b809bc9feb64e46ec213c03bc47c51c59370b54cdf9451751f0c5a8e1c": "clu_3bfe9b7c9a"
+  },
+  "by_key": {
+    "日本銀行::日銀当座預金増減要因(10月見込み)::2026-10-04": "clu_ee47c68e4d",
+    "nasa::mapping the gaps in nasa’s return to the moon, featuring richard spolzino::2026-10-04": "clu_9b82bd2d9c",
+    "nasa::curiosity blog, sols 5022-5028: cashing in at cache creek::2026-10-04": "clu_14e3cce504",
+    "nasa::apod: 2026 october 4 – supernumerary rainbows over new jersey::2026-10-04": "clu_3bfe9b7c9a"
+  },
+  "clusters": {
+    "clu_ee47c68e4d": {
+      "primary_event_id": "evt_20261005_35d93055d4",
+      "event_ids": [
+        "evt_20261005_35d93055d4"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_9b82bd2d9c": {
+      "primary_event_id": "evt_20261005_1ef3a53be6",
+      "event_ids": [
+        "evt_20261005_1ef3a53be6"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_14e3cce504": {
+      "primary_event_id": "evt_20261005_7ff7d005e0",
+      "event_ids": [
+        "evt_20261005_7ff7d005e0"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_3bfe9b7c9a": {
+      "primary_event_id": "evt_20261005_b4a853b809",
+      "event_ids": [
+        "evt_20261005_b4a853b809"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    }
+  }
+}
