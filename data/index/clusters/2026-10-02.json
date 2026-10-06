@@ -624,7 +624,8 @@
     "https://nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests": "clu_b8d96cd2bb",
     "https://nasa.gov/news-release/nasa-astronaut-christina-koch-to-join-nfl-fans-in-philadelphia": "clu_8292466001",
     "https://nasa.gov/news-release/nasa-opens-applications-for-next-class-of-flight-directors": "clu_0753005416",
-    "https://nasa.gov/news-release/la-nasa-abre-solicitudes-para-proxima-promocion-de-directores-de-vuelo": "clu_48d4f64faa"
+    "https://nasa.gov/news-release/la-nasa-abre-solicitudes-para-proxima-promocion-de-directores-de-vuelo": "clu_48d4f64faa",
+    "https://spectrum.ieee.org/smart-car-researcher-eliminate-stoplights": "clu_5c95f34fca"
   },
   "by_hash": {
     "d2181d68e6adf7dae9ff3fc3aba8087008a5ebfc63d92a4aa2ea3905353ecf8f": "clu_501bac9ce0",
@@ -1248,7 +1249,8 @@
     "d82034c3f270c9a6eaf44a96c32e716aa839d720e5cc66aedf31f290ba13bb6d": "clu_b8d96cd2bb",
     "177ce370c1fcabad9f80a1f1b40d4c8719115376a89da86d65253cd6bf68333a": "clu_8292466001",
     "2fb80581d17a0d884524b21adbc34e7aa2518a8f8ff128026eeec33824f15ba6": "clu_0753005416",
-    "39b4f6bdfbf003afbf3a02eb0649bc7ba2e17ed25593d167c09b7d866ce69a19": "clu_48d4f64faa"
+    "39b4f6bdfbf003afbf3a02eb0649bc7ba2e17ed25593d167c09b7d866ce69a19": "clu_48d4f64faa",
+    "321ec03c4edfdec14846726b5a1bf2778aea78f81d3b45552b05b65ed2432cdc": "clu_5c95f34fca"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 20年 2026-10-01: 5.64 %::2026-10-02": "clu_501bac9ce0",
@@ -1871,7 +1873,8 @@
     "nasa::nasa model wing lights up during first pressure sensitive paint tests::2026-10-02": "clu_b8d96cd2bb",
     "nasa::nasa astronaut christina koch to join nfl fans in philadelphia::2026-10-02": "clu_8292466001",
     "nasa::nasa opens applications for next class of flight directors::2026-10-02": "clu_0753005416",
-    "nasa::la nasa abre solicitudes para próxima promoción de directores de vuelo::2026-10-02": "clu_48d4f64faa"
+    "nasa::la nasa abre solicitudes para próxima promoción de directores de vuelo::2026-10-02": "clu_48d4f64faa",
+    "ieee::smart car researcher wants to eliminate stoplights::2026-10-02": "clu_5c95f34fca"
   },
   "clusters": {
     "clu_501bac9ce0": {
@@ -7470,6 +7473,15 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_5c95f34fca": {
+      "primary_event_id": "evt_20261006_321ec03c4e",
+      "event_ids": [
+        "evt_20261006_321ec03c4e"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
       ]
     }
   }

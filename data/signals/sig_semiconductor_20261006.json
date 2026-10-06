@@ -1,0 +1,68 @@
+{
+  "window_id": "sig_semiconductor_20261006",
+  "as_of": "2026-10-06T01:50:42Z",
+  "window": {
+    "start": "2026-09-30",
+    "end": "2026-10-06",
+    "baseline_start": "2026-09-02",
+    "baseline_end": "2026-09-29"
+  },
+  "topic": {
+    "label": "半導体",
+    "keywords": [
+      "semiconductor",
+      "foundry",
+      "wafer",
+      "lithography",
+      "euv",
+      "hbm",
+      "chip fab",
+      "半導体",
+      "前工程",
+      "後工程",
+      "露光装置"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_semiconductor"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 13,
+      "baseline_count": 28.25,
+      "event_ids": [
+        "evt_20261001_ce0496861b",
+        "evt_20261001_9e666e9f16",
+        "evt_20261001_e2dc7c5247",
+        "evt_20261001_e2c609ac92",
+        "evt_20261002_a0badc0f0b",
+        "evt_20261002_82aeb5ca9b",
+        "evt_20261003_f03ce6c0f4",
+        "evt_20261003_1284a6d51c",
+        "evt_20261003_627b5f353b",
+        "evt_20261003_091b0b6485",
+        "evt_20261006_2a5ebb6a48",
+        "evt_20261006_1d9a4d3984",
+        "evt_20261006_35fe811cab"
+      ],
+      "delta_ratio": -0.54
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}
