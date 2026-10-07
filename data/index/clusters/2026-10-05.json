@@ -463,7 +463,13 @@
     "https://science.nasa.gov/missions/hubble/suspected-second-generation-planet-solves-nasa-hubble-cold-case": "clu_8b88458320",
     "https://science.nasa.gov/image-article/apod-2026-october-5-m104-the-sombrero-galaxys-tidal-streams": "clu_a8e52e7ca6",
     "https://nasa.gov/news-release/nasa-to-stream-spacex-crew-12-return-splashdown-live": "clu_45f4a3fa42",
-    "https://nasa.gov/image-article/nasa-astronaut-christina-koch-at-eagles-vs-rams": "clu_267bd57a8b"
+    "https://nasa.gov/image-article/nasa-astronaut-christina-koch-at-eagles-vs-rams": "clu_267bd57a8b",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2064": "clu_1cfad3516b",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2075": "clu_43d730acaa",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2072": "clu_08acf8f7b9",
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2071": "clu_29f1a25670",
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2076": "clu_260d950ee6",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2070": "clu_f60e2fbaab"
   },
   "by_hash": {
     "bebb19e4540c0e6d4c45694e8c109b024893cc1803abf520654345014aad7927": "clu_6355067620",
@@ -924,7 +930,13 @@
     "fb7ec94719c973c0864cacccd2193a227444ea713d2d46d7504b3dbc988de995": "clu_8b88458320",
     "acf91ed0b138dce6655b9b4bd655b865b343a43cd845c7ca45aaf9f1eac7d4bc": "clu_a8e52e7ca6",
     "771caa0e311c64e2408d06b9ef9ea16cfe46307bb3d3b1be978a358c470b9133": "clu_45f4a3fa42",
-    "c773e18172f1f694275df653e3eb8fc473ec6cb0adbcb8cfdb4e2292bb7c9b34": "clu_267bd57a8b"
+    "c773e18172f1f694275df653e3eb8fc473ec6cb0adbcb8cfdb4e2292bb7c9b34": "clu_267bd57a8b",
+    "855c26e14f6f6faaf7dfb5d0a7aa0373041cd53263471063a1302947ebc18356": "clu_1cfad3516b",
+    "e055f6920db060cfc76fbef6b1ff716ef608a940724f8e72a99961c05685e4e0": "clu_43d730acaa",
+    "83b71dc7a63a9bdfc1b5b6aa6439ae39e609fe9d5368de3bfaacd74510602cdf": "clu_08acf8f7b9",
+    "1fde284abfdeab7c8368a2f41de1cef1d6e356308799d7efdb277511b44d23d0": "clu_29f1a25670",
+    "7359aa5f75d378237db52a9f0069919d69260d60e17c1e14cb10c20fd866f49d": "clu_260d950ee6",
+    "cf0b8c491799a66b336919592d8b0bc76052b505b6dcf65110e9ad645c1a0cfa": "clu_f60e2fbaab"
   },
   "by_key": {
     "office of the federal register::information collection: information collections contained in the sunset rule::2026-10-05": "clu_6355067620",
@@ -1382,7 +1394,13 @@
     "nasa::suspected second-generation planet solves nasa hubble cold case::2026-10-05": "clu_8b88458320",
     "nasa::apod: 2026 october 5 – m104: the sombrero galaxy’s tidal streams::2026-10-05": "clu_a8e52e7ca6",
     "nasa::nasa to stream spacex crew-12 return, splashdown live::2026-10-05": "clu_45f4a3fa42",
-    "nasa::nasa astronaut christina koch at eagles vs. rams::2026-10-05": "clu_267bd57a8b"
+    "nasa::nasa astronaut christina koch at eagles vs. rams::2026-10-05": "clu_267bd57a8b",
+    "european commission::commission registers european citizens' initiative for sovereign european ai domains::2026-10-05": "clu_1cfad3516b",
+    "european commission::preparing for a wider union::2026-10-05": "clu_43d730acaa",
+    "european commission::factsheet - standardisation regulation proposal::2026-10-05": "clu_08acf8f7b9",
+    "european commission::questions and answers on the new standardisation regulation::2026-10-05": "clu_29f1a25670",
+    "european commission::questions and answers on the pre-enlargement policy reviews::2026-10-05": "clu_260d950ee6",
+    "european commission::commission adopts proposal to accelerate standards development and improve eu competitiveness::2026-10-05": "clu_f60e2fbaab"
   },
   "clusters": {
     "clu_6355067620": {
@@ -5514,6 +5532,60 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_1cfad3516b": {
+      "primary_event_id": "evt_20261007_855c26e14f",
+      "event_ids": [
+        "evt_20261007_855c26e14f"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_43d730acaa": {
+      "primary_event_id": "evt_20261007_e055f6920d",
+      "event_ids": [
+        "evt_20261007_e055f6920d"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_08acf8f7b9": {
+      "primary_event_id": "evt_20261007_83b71dc7a6",
+      "event_ids": [
+        "evt_20261007_83b71dc7a6"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_29f1a25670": {
+      "primary_event_id": "evt_20261007_1fde284abf",
+      "event_ids": [
+        "evt_20261007_1fde284abf"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_260d950ee6": {
+      "primary_event_id": "evt_20261007_7359aa5f75",
+      "event_ids": [
+        "evt_20261007_7359aa5f75"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_f60e2fbaab": {
+      "primary_event_id": "evt_20261007_cf0b8c4917",
+      "event_ids": [
+        "evt_20261007_cf0b8c4917"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

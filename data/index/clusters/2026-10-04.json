@@ -5,7 +5,8 @@
     "https://science.nasa.gov/blog/curiosity-blog-sols-5022-5028-cashing-in-at-cache-creek": "clu_14e3cce504",
     "https://science.nasa.gov/image-article/apod-2026-october-4-supernumerary-rainbows-over-new-jersey": "clu_3bfe9b7c9a",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2056": "clu_baf4c9dd52",
-    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2054": "clu_9fea7a2f37"
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2054": "clu_9fea7a2f37",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2087": "clu_a30ef27561"
   },
   "by_hash": {
     "35d93055d42950ee8b0c75037278585a569dab4c682544b4b38d3325ad5d82c3": "clu_ee47c68e4d",
@@ -13,7 +14,8 @@
     "7ff7d005e02ec3e465b264e0a4d892f4603cf2f1799a78e5179dbccf64c0652f": "clu_14e3cce504",
     "b4a853b809bc9feb64e46ec213c03bc47c51c59370b54cdf9451751f0c5a8e1c": "clu_3bfe9b7c9a",
     "42fc7d45691128717cbfcf0f1d27344ff805aef1305d7c05367a9c1ba780096c": "clu_baf4c9dd52",
-    "d23ff51f1c90537e71cfdfcf1a31ce43ddf2ff9f781ea3f2d42207355be983b4": "clu_9fea7a2f37"
+    "d23ff51f1c90537e71cfdfcf1a31ce43ddf2ff9f781ea3f2d42207355be983b4": "clu_9fea7a2f37",
+    "a1b89407c1f5390f0d6afc1d834ee52db22368a2f241db69fb90bd2c60d22fcc": "clu_a30ef27561"
   },
   "by_key": {
     "日本銀行::日銀当座預金増減要因(10月見込み)::2026-10-04": "clu_ee47c68e4d",
@@ -21,7 +23,8 @@
     "nasa::curiosity blog, sols 5022-5028: cashing in at cache creek::2026-10-04": "clu_14e3cce504",
     "nasa::apod: 2026 october 4 – supernumerary rainbows over new jersey::2026-10-04": "clu_3bfe9b7c9a",
     "european commission::commission finds polish support for man trucks factory expansion incompatible state aid::2026-10-04": "clu_baf4c9dd52",
-    "european commission::commission unlocks €157 million to moldova for reform progress under the growth plan::2026-10-04": "clu_9fea7a2f37"
+    "european commission::commission unlocks €157 million to moldova for reform progress under the growth plan::2026-10-04": "clu_9fea7a2f37",
+    "european commission::speech by commissioner várhelyi at ep plenary session: protecting patients from illegal and falsified medicines sold online::2026-10-04": "clu_a30ef27561"
   },
   "clusters": {
     "clu_ee47c68e4d": {
@@ -73,6 +76,15 @@
       "primary_event_id": "evt_20261006_d23ff51f1c",
       "event_ids": [
         "evt_20261006_d23ff51f1c"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_a30ef27561": {
+      "primary_event_id": "evt_20261007_a1b89407c1",
+      "event_ids": [
+        "evt_20261007_a1b89407c1"
       ],
       "source_ids": [
         "src_eu_commission_press"
