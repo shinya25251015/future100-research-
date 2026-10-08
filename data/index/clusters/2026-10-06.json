@@ -918,7 +918,8 @@
     "https://science.nasa.gov/earth/earth-observatory/october-2026-satellite-puzzler": "clu_561e62c3cd",
     "https://war.gov/News/Contracts/Contract/Article/4620231/contracts-for-oct-6-2026": "clu_650afaaef2",
     "https://nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn": "clu_83ef35293a",
-    "https://esa.int/Enabling_Support/Space_Transportation/How_to_record_rocket_emissions": "clu_13a53b4329"
+    "https://esa.int/Enabling_Support/Space_Transportation/How_to_record_rocket_emissions": "clu_13a53b4329",
+    "https://ec.europa.eu/commission/presscorner/detail/fr/speech_26_2080": "clu_a14d0493fd"
   },
   "by_hash": {
     "1ab82f0863270dc019d438d8440dfdef2c6f2fff6fa7a0a41e141b3751cd47a1": "clu_dbf9bf8610",
@@ -1838,7 +1839,8 @@
     "d0be580db02f801b80a37a337abc89450cbda38bb912e653a2f9bc4f21018710": "clu_561e62c3cd",
     "4b98a7462b12908395fb3f6ced22463e471f051e6c0794c2c55a3ee62cc5d20b": "clu_650afaaef2",
     "5243684e952c9534f7f966ec683c4500957bbef30f4981a699598e778850e034": "clu_83ef35293a",
-    "5c0e8dc16481cc5db1648240795f1765b903403dfe2d96fd0b7436deeec8a484": "clu_13a53b4329"
+    "5c0e8dc16481cc5db1648240795f1765b903403dfe2d96fd0b7436deeec8a484": "clu_13a53b4329",
+    "cdc3121cdbfcb5a39831d6b5b6dc2424a7019f124b4ddf1edb19ba45aa1fffc3": "clu_a14d0493fd"
   },
   "by_key": {
     "the white house::emergency tax relief on diesel fuel::2026-10-06": "clu_dbf9bf8610",
@@ -2758,7 +2760,8 @@
     "nasa::october 2026 satellite puzzler::2026-10-06": "clu_561e62c3cd",
     "u.s. department of war (旧 department of defense)::contracts for oct. 6, 2026::2026-10-06": "clu_650afaaef2",
     "nasa::nasa’s curiosity rover catches stunning martian dawn::2026-10-06": "clu_83ef35293a",
-    "european space agency::how to record rocket emissions::2026-10-06": "clu_13a53b4329"
+    "european space agency::how to record rocket emissions::2026-10-06": "clu_13a53b4329",
+    "european commission::discours liminaire du commissaire hansen devant les commissions des affaires européennes et des affaires économiques de l'assemblée nationale::2026-10-06": "clu_a14d0493fd"
   },
   "clusters": {
     "clu_dbf9bf8610": {
@@ -11021,6 +11024,15 @@
       ],
       "source_ids": [
         "src_esa_news"
+      ]
+    },
+    "clu_a14d0493fd": {
+      "primary_event_id": "evt_20261008_cdc3121cdb",
+      "event_ids": [
+        "evt_20261008_cdc3121cdb"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

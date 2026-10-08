@@ -469,7 +469,9 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2072": "clu_08acf8f7b9",
     "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2071": "clu_29f1a25670",
     "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2076": "clu_260d950ee6",
-    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2070": "clu_f60e2fbaab"
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2070": "clu_f60e2fbaab",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2102": "clu_6cc0a46410",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2090": "clu_2d39652f9d"
   },
   "by_hash": {
     "bebb19e4540c0e6d4c45694e8c109b024893cc1803abf520654345014aad7927": "clu_6355067620",
@@ -936,7 +938,9 @@
     "83b71dc7a63a9bdfc1b5b6aa6439ae39e609fe9d5368de3bfaacd74510602cdf": "clu_08acf8f7b9",
     "1fde284abfdeab7c8368a2f41de1cef1d6e356308799d7efdb277511b44d23d0": "clu_29f1a25670",
     "7359aa5f75d378237db52a9f0069919d69260d60e17c1e14cb10c20fd866f49d": "clu_260d950ee6",
-    "cf0b8c491799a66b336919592d8b0bc76052b505b6dcf65110e9ad645c1a0cfa": "clu_f60e2fbaab"
+    "cf0b8c491799a66b336919592d8b0bc76052b505b6dcf65110e9ad645c1a0cfa": "clu_f60e2fbaab",
+    "d736126a74c02fd27fbcc1e90e9ec299f38dfb955d7ac3ff750b3d8c125dbd02": "clu_6cc0a46410",
+    "38afcc3d43877ff977c0f819a7cb9b41cab20dfb6472c9e9595f60bf5e44a6b7": "clu_2d39652f9d"
   },
   "by_key": {
     "office of the federal register::information collection: information collections contained in the sunset rule::2026-10-05": "clu_6355067620",
@@ -1400,7 +1404,9 @@
     "european commission::factsheet - standardisation regulation proposal::2026-10-05": "clu_08acf8f7b9",
     "european commission::questions and answers on the new standardisation regulation::2026-10-05": "clu_29f1a25670",
     "european commission::questions and answers on the pre-enlargement policy reviews::2026-10-05": "clu_260d950ee6",
-    "european commission::commission adopts proposal to accelerate standards development and improve eu competitiveness::2026-10-05": "clu_f60e2fbaab"
+    "european commission::commission adopts proposal to accelerate standards development and improve eu competitiveness::2026-10-05": "clu_f60e2fbaab",
+    "european commission::remarks by commissioner kos on the pre-enlargement policy reviews::2026-10-05": "clu_6cc0a46410",
+    "european commission::speech by commissioner kos - press conference on pre-enlargement policy reviews::2026-10-05": "clu_2d39652f9d"
   },
   "clusters": {
     "clu_6355067620": {
@@ -5583,6 +5589,24 @@
       "primary_event_id": "evt_20261007_cf0b8c4917",
       "event_ids": [
         "evt_20261007_cf0b8c4917"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_6cc0a46410": {
+      "primary_event_id": "evt_20261008_d736126a74",
+      "event_ids": [
+        "evt_20261008_d736126a74"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_2d39652f9d": {
+      "primary_event_id": "evt_20261008_38afcc3d43",
+      "event_ids": [
+        "evt_20261008_38afcc3d43"
       ],
       "source_ids": [
         "src_eu_commission_press"
