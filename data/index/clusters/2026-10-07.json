@@ -139,7 +139,14 @@
     "https://science.nasa.gov/photojournal/nasas-curiosity-looks-back-after-reaching-elevation-milestone": "clu_c210a50c95",
     "https://nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival": "clu_425c5497fb",
     "https://nasa.gov/image-article/artemis-ii-crew-moon-photo-annotations": "clu_0327aff071",
-    "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-07": "clu_9f98f6d325"
+    "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-07": "clu_9f98f6d325",
+    "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2103": "clu_a7461ba388",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2091": "clu_d30124db25",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2084": "clu_d876c59645",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2104": "clu_f421591aeb",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2065": "clu_ba59db1e24",
+    "https://esa.int/ESA_Multimedia/Images/2026/10/Geraldine_Naja_with_the_WIA-Europe_award": "clu_73fc52fa60",
+    "https://esa.int/Enabling_Support/Space_Transportation/Future_space_transportation/Themis_completes_second_fuelling_rehearsal": "clu_cffb890e7c"
   },
   "by_hash": {
     "a540ae3b6dd4a5d9a6d86b7583896b6bb417c67d25cc50681750f6b63fa62b9f": "clu_5920239a2f",
@@ -279,7 +286,14 @@
     "729060c84932bda2d76337d45d3f4572339c0cb7ed6cf9544ea84f5cf23414f7": "clu_c210a50c95",
     "fb962adfa9fbf580cee1e401d94fda7cfedb12ff258dfbfc5c04ba105e7db80f": "clu_425c5497fb",
     "f6014d5baccdc83531d9044f38f1829fc0bcb5c75a4e84ae9ec840cc60e0cd12": "clu_0327aff071",
-    "bd3b04cfd177d8c37c39740e9da9401ebf76268d50c521aad81439bdda89b1ca": "clu_9f98f6d325"
+    "bd3b04cfd177d8c37c39740e9da9401ebf76268d50c521aad81439bdda89b1ca": "clu_9f98f6d325",
+    "48a1720770060a641e25e6b9adbafa419b640e83c00381408e5a415ef6fa01b5": "clu_a7461ba388",
+    "b4460c3c9628c7d936e094a2098809d46b3bd922242cfe95402729a0e093822f": "clu_d30124db25",
+    "3831c9205be8b459dc0257004f2c22c6d348e8ed10cd35f1ddcab366af9be06a": "clu_d876c59645",
+    "07b8885753f1a52c80177881791807867b6d8cbc39b009d0479c368ffa21b832": "clu_f421591aeb",
+    "d3cda87eeea700dd573bab2716748218eda0db30423032701090e65a3ee36ec2": "clu_ba59db1e24",
+    "0d560fd8bd8f2af2604d676c6263e7374a6cf439d7b5c40a602c6046fde027cc": "clu_73fc52fa60",
+    "d3f6147f5ab087fc0ac979db91395b4581775d2869fec4c86e1730a4ef09a914": "clu_cffb890e7c"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 5年 2026-10-06: 5.03 %::2026-10-07": "clu_5920239a2f",
@@ -419,7 +433,14 @@
     "nasa::nasa’s curiosity looks back after reaching elevation milestone::2026-10-07": "clu_c210a50c95",
     "nasa::nasa sets coverage for spacex 35th station resupply launch, arrival::2026-10-07": "clu_425c5497fb",
     "nasa::artemis ii crew moon photo annotations::2026-10-07": "clu_0327aff071",
-    "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-07: 228,203.221 gwh::2026-10-07": "clu_9f98f6d325"
+    "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-07: 228,203.221 gwh::2026-10-07": "clu_9f98f6d325",
+    "european commission::remarks by commissioner dombrovskis at eurogroup press conference::2026-10-07": "clu_a7461ba388",
+    "european commission::eurobarometer shows consumers' growing trust in eu ecolabel::2026-10-07": "clu_d30124db25",
+    "european commission::commission fines kingspan €40 million for providing incorrect and misleading information during merger investigation::2026-10-07": "clu_d876c59645",
+    "european commission::keynote remarks by commissioner síkela at the arctic circle assembly::2026-10-07": "clu_f421591aeb",
+    "european commission::the eu budget continues delivering for europe in 2025::2026-10-07": "clu_ba59db1e24",
+    "european space agency::géraldine naja with the wia-europe award::2026-10-07": "clu_73fc52fa60",
+    "european space agency::themis completes second fuelling rehearsal::2026-10-07": "clu_cffb890e7c"
   },
   "clusters": {
     "clu_5920239a2f": {
@@ -1647,6 +1668,69 @@
       ],
       "source_ids": [
         "src_eurostat_industry_energy"
+      ]
+    },
+    "clu_a7461ba388": {
+      "primary_event_id": "evt_20261009_48a1720770",
+      "event_ids": [
+        "evt_20261009_48a1720770"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_d30124db25": {
+      "primary_event_id": "evt_20261009_b4460c3c96",
+      "event_ids": [
+        "evt_20261009_b4460c3c96"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_d876c59645": {
+      "primary_event_id": "evt_20261009_3831c9205b",
+      "event_ids": [
+        "evt_20261009_3831c9205b"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_f421591aeb": {
+      "primary_event_id": "evt_20261009_07b8885753",
+      "event_ids": [
+        "evt_20261009_07b8885753"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_ba59db1e24": {
+      "primary_event_id": "evt_20261009_d3cda87eee",
+      "event_ids": [
+        "evt_20261009_d3cda87eee"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_73fc52fa60": {
+      "primary_event_id": "evt_20261009_0d560fd8bd",
+      "event_ids": [
+        "evt_20261009_0d560fd8bd"
+      ],
+      "source_ids": [
+        "src_esa_news"
+      ]
+    },
+    "clu_cffb890e7c": {
+      "primary_event_id": "evt_20261009_d3f6147f5a",
+      "event_ids": [
+        "evt_20261009_d3f6147f5a"
+      ],
+      "source_ids": [
+        "src_esa_news"
       ]
     }
   }
