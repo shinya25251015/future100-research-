@@ -522,7 +522,14 @@
     "https://nasa.gov/news-release/nasa-energy-department-advance-new-era-of-nuclear-powered-exploration": "clu_cf604e78d2",
     "https://nasa.gov/news-release/nasa-briefing-to-highlight-contributions-to-martian-moons-mission": "clu_48f1cf1b96",
     "https://science.nasa.gov/missions/webb/webb-measures-distance-to-farthest-fast-radio-burst-suggesting-origin": "clu_46ffa527d5",
-    "https://science.nasa.gov/image-article/apod-2026-october-8-the-saturn-system-smorgasbord": "clu_a83ad53e4b"
+    "https://science.nasa.gov/image-article/apod-2026-october-8-the-saturn-system-smorgasbord": "clu_a83ad53e4b",
+    "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2100": "clu_bb0b2c594a",
+    "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2116": "clu_e53889f5bc",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2052": "clu_b89710166b",
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2114": "clu_8d80f8b99d",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2113": "clu_f5764a4e0b",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2115": "clu_a8b4b125f9",
+    "https://whitehouse.gov/presidential-actions/2026/10/establishment-of-a-committee-of-inquiry-to-investigate-allegations-of-false-statements-by-lisa-denell-cook": "clu_2c7b7fef5a"
   },
   "by_hash": {
     "7d1a31c4be323507786418de029fd2a72566d1097880aafb2d13713a4a0ce921": "clu_aba4730bd3",
@@ -1047,7 +1054,14 @@
     "5f5986e7f29f4fbdc0e815f8897f4843b0f08fd303dc1ddbd8ed05829f9b999d": "clu_cf604e78d2",
     "5886daf6377b68340bf81052d151a9bd1ebc362c45e37943406b8ac310cdfd3b": "clu_48f1cf1b96",
     "fa684e246c8d0daf21262381f5437468bf4b7de72ca711f66da213f60808d365": "clu_46ffa527d5",
-    "a51763a44fadecb1e91f6a580f6afa0b31f0c32bd44ad0f7161fd34141bc5b9c": "clu_a83ad53e4b"
+    "a51763a44fadecb1e91f6a580f6afa0b31f0c32bd44ad0f7161fd34141bc5b9c": "clu_a83ad53e4b",
+    "60aea4263c1a849ade55d7fc4bf446348917efa03e3938f58ea00888feb2f2a0": "clu_bb0b2c594a",
+    "7cc0d026440d7ece41a83b2984bf88b84e48af85f13c99c32529688f65a0b300": "clu_e53889f5bc",
+    "01a62ae67a786d0584e465c3cfa8bd8b3d415558c78342a07958fe6214698dca": "clu_b89710166b",
+    "7a61cdd566cd4aa63d754dea6cf331deaed16714a150df3df3bb6dbfae3fd9da": "clu_8d80f8b99d",
+    "c1c3a3dcbcc7da1e92a5fa65694b4607c18c2c805313b7b55660ab507c9b0150": "clu_f5764a4e0b",
+    "c1ed770031818213431d85587ded82bda466964398fafc9cfc0404f85fabd357": "clu_a8b4b125f9",
+    "c7e4591e913858aae5ff44097c38df28db33f5dc1c8343bb5f8d8c296a74af23": "clu_2c7b7fef5a"
   },
   "by_key": {
     "samsung electronics::samsung electronics announces earnings guidance for third quarter 2026::2026-10-08": "clu_aba4730bd3",
@@ -1571,7 +1585,14 @@
     "nasa::nasa, energy department advance new era of nuclear-powered exploration::2026-10-08": "clu_cf604e78d2",
     "nasa::nasa briefing to highlight contributions to martian moons mission::2026-10-08": "clu_48f1cf1b96",
     "nasa::webb measures distance to farthest fast radio burst, suggesting origin::2026-10-08": "clu_46ffa527d5",
-    "nasa::apod: 2026 october 8 – the saturn system smörgåsbord::2026-10-08": "clu_a83ad53e4b"
+    "nasa::apod: 2026 october 8 – the saturn system smörgåsbord::2026-10-08": "clu_a83ad53e4b",
+    "european commission::statement by commissioner várhelyi ahead of world mental health day::2026-10-08": "clu_bb0b2c594a",
+    "european commission::remarks by commissioner dombrovskis at the ecofin press conference::2026-10-08": "clu_e53889f5bc",
+    "european commission::speech by commissioner albuquerque (by video message) for the eif financial institutions shareholder group annual meeting::2026-10-08": "clu_b89710166b",
+    "european commission::questions and answers on the critical raw materials strategic projects::2026-10-08": "clu_8d80f8b99d",
+    "european commission::commission selects 46 new strategic projects to bolster the eu's supply of critical raw materials::2026-10-08": "clu_f5764a4e0b",
+    "european commission::factsheet - critical raw materials strategic projects::2026-10-08": "clu_a8b4b125f9",
+    "the white house::establishment of a committee of inquiry to investigate allegations of false statements by lisa denell cook::2026-10-08": "clu_2c7b7fef5a"
   },
   "clusters": {
     "clu_aba4730bd3": {
@@ -6272,6 +6293,69 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_bb0b2c594a": {
+      "primary_event_id": "evt_20261010_60aea4263c",
+      "event_ids": [
+        "evt_20261010_60aea4263c"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_e53889f5bc": {
+      "primary_event_id": "evt_20261010_7cc0d02644",
+      "event_ids": [
+        "evt_20261010_7cc0d02644"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_b89710166b": {
+      "primary_event_id": "evt_20261010_01a62ae67a",
+      "event_ids": [
+        "evt_20261010_01a62ae67a"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_8d80f8b99d": {
+      "primary_event_id": "evt_20261010_7a61cdd566",
+      "event_ids": [
+        "evt_20261010_7a61cdd566"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_f5764a4e0b": {
+      "primary_event_id": "evt_20261010_c1c3a3dcbc",
+      "event_ids": [
+        "evt_20261010_c1c3a3dcbc"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_a8b4b125f9": {
+      "primary_event_id": "evt_20261010_c1ed770031",
+      "event_ids": [
+        "evt_20261010_c1ed770031"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_2c7b7fef5a": {
+      "primary_event_id": "evt_20261010_c7e4591e91",
+      "event_ids": [
+        "evt_20261010_c7e4591e91"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
       ]
     }
   }
