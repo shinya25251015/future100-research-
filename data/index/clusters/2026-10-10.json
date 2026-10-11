@@ -7,7 +7,9 @@
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-09&tenor=3%E3%81%8B%E6%9C%88": "clu_171647db1f",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-09&tenor=30%E5%B9%B4": "clu_572f9b8be9",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-10-08&series=debt_held_public_amt": "clu_5b75b68fe4",
-    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-10-08&series=tot_pub_debt_out_amt": "clu_be33344e2c"
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-10-08&series=tot_pub_debt_out_amt": "clu_be33344e2c",
+    "https://nasa.gov/news-release/nasa-to-conduct-flyover-engage-nfl-fans-at-metlife-stadium": "clu_0e71da22b7",
+    "https://science.nasa.gov/image-article/apod-2026-october-10-lunar-farside": "clu_76e89171aa"
   },
   "by_hash": {
     "9c5f0495351900e05fce596b53d7c7387e97464f0037808d8282256c76af5e9c": "clu_b7177f5661",
@@ -17,7 +19,9 @@
     "8a418ea7ce6daddd45cda9d207c0999be1aee8066baf95f347cb42970cdc554a": "clu_171647db1f",
     "20491d02520283f34b7f220dc326e629e617835c28620155eb50b6761fa7bb4f": "clu_572f9b8be9",
     "9824f23fc02ddf162a45755104d25a24c48130053340defcef5d894d55711298": "clu_5b75b68fe4",
-    "e1b6a5c4ad57e51705633cec4e9f4ceae6d28164936cce274220ccc28aa9d80c": "clu_be33344e2c"
+    "e1b6a5c4ad57e51705633cec4e9f4ceae6d28164936cce274220ccc28aa9d80c": "clu_be33344e2c",
+    "2fa632d5ce63457717c98561df1cdd42fca509991eac8805c4bce9f30d69d749": "clu_0e71da22b7",
+    "8d08ec0ed2e1463f074c486db2a0bf5d9b92b2a9fef89410bd7a8415bb71cc03": "clu_76e89171aa"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 5年 2026-10-09: 5.02 %::2026-10-10": "clu_b7177f5661",
@@ -27,7 +31,9 @@
     "u.s. department of the treasury::米国債利回り 3か月 2026-10-09: 4.25 %::2026-10-10": "clu_171647db1f",
     "u.s. department of the treasury::米国債利回り 30年 2026-10-09: 5.6 %::2026-10-10": "clu_572f9b8be9",
     "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-10-08: 32,454,086,117,711.32 usd::2026-10-10": "clu_5b75b68fe4",
-    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-10-08: 40,305,316,210,829.719 usd::2026-10-10": "clu_be33344e2c"
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-10-08: 40,305,316,210,829.719 usd::2026-10-10": "clu_be33344e2c",
+    "nasa::nasa to conduct flyover, engage nfl fans at metlife stadium::2026-10-10": "clu_0e71da22b7",
+    "nasa::apod: 2026 october 10 – lunar farside::2026-10-10": "clu_76e89171aa"
   },
   "clusters": {
     "clu_b7177f5661": {
@@ -100,6 +106,24 @@
       ],
       "source_ids": [
         "src_us_treasury_debt"
+      ]
+    },
+    "clu_0e71da22b7": {
+      "primary_event_id": "evt_20261011_2fa632d5ce",
+      "event_ids": [
+        "evt_20261011_2fa632d5ce"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_76e89171aa": {
+      "primary_event_id": "evt_20261011_8d08ec0ed2",
+      "event_ids": [
+        "evt_20261011_8d08ec0ed2"
+      ],
+      "source_ids": [
+        "src_nasa_news"
       ]
     }
   }
