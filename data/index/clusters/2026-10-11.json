@@ -1,15 +1,18 @@
 {
   "by_url": {
     "https://ec.europa.eu/commission/presscorner/detail/en/read_26_2131": "clu_297420d843",
-    "https://science.nasa.gov/image-article/apod-2026-october-11-ice-fishing-for-cosmic-neutrinos": "clu_f7b014756b"
+    "https://science.nasa.gov/image-article/apod-2026-october-11-ice-fishing-for-cosmic-neutrinos": "clu_f7b014756b",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2126": "clu_b1e23f9147"
   },
   "by_hash": {
     "6dd48f5e00d6dddfe9ed2a5d30b3f85d8b7f611701cec79fa86c70217b521add": "clu_297420d843",
-    "95d6bc066d74aaf981fb37a1057187192b2c44f1f0af579c2667b9309b4e362a": "clu_f7b014756b"
+    "95d6bc066d74aaf981fb37a1057187192b2c44f1f0af579c2667b9309b4e362a": "clu_f7b014756b",
+    "a00ec1bf3131a5886496360b8197dfaf5619ee93b5c9800bb102ea58f934e7f2": "clu_b1e23f9147"
   },
   "by_key": {
     "european commission::read-out by president von der leyen following her call with president zelenskyy::2026-10-11": "clu_297420d843",
-    "nasa::apod: 2026 october 11 – ice fishing for cosmic neutrinos::2026-10-11": "clu_f7b014756b"
+    "nasa::apod: 2026 october 11 – ice fishing for cosmic neutrinos::2026-10-11": "clu_f7b014756b",
+    "european commission::commission opens in-depth investigation into xxxlutz's proposed acquisition of porta::2026-10-11": "clu_b1e23f9147"
   },
   "clusters": {
     "clu_297420d843": {
@@ -28,6 +31,15 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_b1e23f9147": {
+      "primary_event_id": "evt_20261013_a00ec1bf31",
+      "event_ids": [
+        "evt_20261013_a00ec1bf31"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }
