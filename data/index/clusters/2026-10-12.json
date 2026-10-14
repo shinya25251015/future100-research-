@@ -307,7 +307,12 @@
     "https://spectrum.ieee.org/fervo-cape-station-geothermal": "clu_e244a0d2c4",
     "https://science.nasa.gov/image-article/apod-2026-october-12-jupiter-and-the-moons": "clu_bb52fc88dc",
     "https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-grows-to-its-2026-maximum": "clu_308f5d3888",
-    "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research": "clu_f6c6cf2641"
+    "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research": "clu_f6c6cf2641",
+    "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2135": "clu_21d75c4c01",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2130": "clu_5a5ee4d75f",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2142": "clu_f9e38b403b",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2137": "clu_9416d769ed",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2136": "clu_64244e0120"
   },
   "by_hash": {
     "91144e5cc54d6a2bb2eefef9a884c291f8089861270edc749b9f5f4a7f97e735": "clu_d2d76f4f97",
@@ -617,7 +622,12 @@
     "1873bfb6035735a80628a23127dcf1acaeab382f2c96a4442205e20992137587": "clu_e244a0d2c4",
     "ba6e6d74e439f77666d5d1a83210c4fa30ccb3e8a3e537773edf158a4ca710b4": "clu_bb52fc88dc",
     "6fdec38e704de2648dc63df8304d9d6a05ea06379f88ad82d4cf0334fc4a23ae": "clu_308f5d3888",
-    "585270623bd3e0c00eb4ce6ff1fbae8269b0b22eee3def95e2e4010e2bfd4976": "clu_f6c6cf2641"
+    "585270623bd3e0c00eb4ce6ff1fbae8269b0b22eee3def95e2e4010e2bfd4976": "clu_f6c6cf2641",
+    "8a7323fd3379d9a135fa5c4faff2ba81c0654baed3a0d46ed943d82c7f21b1f8": "clu_21d75c4c01",
+    "12ec1504cefb4bbca32c1fa050bf3c7c15a287da57c5c4254d08530ff46a932c": "clu_5a5ee4d75f",
+    "b1292a7b8c5db6258d5aca597f23d0453018a3425b82bd626d144f14fa4fe05c": "clu_f9e38b403b",
+    "4872caf4f3fbf85a3db62f98e41e1b2184122782789b1d214b45238ebd95a692": "clu_9416d769ed",
+    "8bf519ac5cadc9fb92081bb26582937a52e36052493099777f046ddf8e331e96": "clu_64244e0120"
   },
   "by_key": {
     "日本銀行::企業物価指数(9月)::2026-10-12": "clu_d2d76f4f97",
@@ -927,7 +937,12 @@
     "ieee::first utility-scale enhanced geothermal plant goes live::2026-10-12": "clu_e244a0d2c4",
     "nasa::apod: 2026 october 12 – jupiter and the moons::2026-10-12": "clu_bb52fc88dc",
     "nasa::antarctic sea ice grows to its 2026 maximum::2026-10-12": "clu_308f5d3888",
-    "nasa::nasa’s spacex crs-35 mission to launch health research::2026-10-12": "clu_f6c6cf2641"
+    "nasa::nasa’s spacex crs-35 mission to launch health research::2026-10-12": "clu_f6c6cf2641",
+    "european commission::joint statement on the third eu-türkiye high-level dialogue on trade::2026-10-12": "clu_21d75c4c01",
+    "european commission::keynote speech by commissioner síkela at the high-level eu-malaysia business forum::2026-10-12": "clu_5a5ee4d75f",
+    "european commission::commission issues €10 billion in its 9th syndicated transaction of 2026::2026-10-12": "clu_f9e38b403b",
+    "european commission::commission approves kimberly-clark's acquisition of kenvue, subject to conditions::2026-10-12": "clu_9416d769ed",
+    "european commission::press remarks by commissioner šefčovič on the eu-türkiye high-level dialogue on trade::2026-10-12": "clu_64244e0120"
   },
   "clusters": {
     "clu_d2d76f4f97": {
@@ -3700,6 +3715,51 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_21d75c4c01": {
+      "primary_event_id": "evt_20261014_8a7323fd33",
+      "event_ids": [
+        "evt_20261014_8a7323fd33"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_5a5ee4d75f": {
+      "primary_event_id": "evt_20261014_12ec1504ce",
+      "event_ids": [
+        "evt_20261014_12ec1504ce"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_f9e38b403b": {
+      "primary_event_id": "evt_20261014_b1292a7b8c",
+      "event_ids": [
+        "evt_20261014_b1292a7b8c"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_9416d769ed": {
+      "primary_event_id": "evt_20261014_4872caf4f3",
+      "event_ids": [
+        "evt_20261014_4872caf4f3"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_64244e0120": {
+      "primary_event_id": "evt_20261014_8bf519ac5c",
+      "event_ids": [
+        "evt_20261014_8bf519ac5c"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

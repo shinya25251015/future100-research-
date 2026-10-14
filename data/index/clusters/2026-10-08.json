@@ -529,7 +529,8 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2114": "clu_8d80f8b99d",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2113": "clu_f5764a4e0b",
     "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2115": "clu_a8b4b125f9",
-    "https://whitehouse.gov/presidential-actions/2026/10/establishment-of-a-committee-of-inquiry-to-investigate-allegations-of-false-statements-by-lisa-denell-cook": "clu_2c7b7fef5a"
+    "https://whitehouse.gov/presidential-actions/2026/10/establishment-of-a-committee-of-inquiry-to-investigate-allegations-of-false-statements-by-lisa-denell-cook": "clu_2c7b7fef5a",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2148": "clu_e643cf9f84"
   },
   "by_hash": {
     "7d1a31c4be323507786418de029fd2a72566d1097880aafb2d13713a4a0ce921": "clu_aba4730bd3",
@@ -1061,7 +1062,8 @@
     "7a61cdd566cd4aa63d754dea6cf331deaed16714a150df3df3bb6dbfae3fd9da": "clu_8d80f8b99d",
     "c1c3a3dcbcc7da1e92a5fa65694b4607c18c2c805313b7b55660ab507c9b0150": "clu_f5764a4e0b",
     "c1ed770031818213431d85587ded82bda466964398fafc9cfc0404f85fabd357": "clu_a8b4b125f9",
-    "c7e4591e913858aae5ff44097c38df28db33f5dc1c8343bb5f8d8c296a74af23": "clu_2c7b7fef5a"
+    "c7e4591e913858aae5ff44097c38df28db33f5dc1c8343bb5f8d8c296a74af23": "clu_2c7b7fef5a",
+    "462a61077551468183bdd35c164e0deb61a128242a4855a464941165cb713265": "clu_e643cf9f84"
   },
   "by_key": {
     "samsung electronics::samsung electronics announces earnings guidance for third quarter 2026::2026-10-08": "clu_aba4730bd3",
@@ -1592,7 +1594,8 @@
     "european commission::questions and answers on the critical raw materials strategic projects::2026-10-08": "clu_8d80f8b99d",
     "european commission::commission selects 46 new strategic projects to bolster the eu's supply of critical raw materials::2026-10-08": "clu_f5764a4e0b",
     "european commission::factsheet - critical raw materials strategic projects::2026-10-08": "clu_a8b4b125f9",
-    "the white house::establishment of a committee of inquiry to investigate allegations of false statements by lisa denell cook::2026-10-08": "clu_2c7b7fef5a"
+    "the white house::establishment of a committee of inquiry to investigate allegations of false statements by lisa denell cook::2026-10-08": "clu_2c7b7fef5a",
+    "european commission::opening words by executive vice-president virkkunen at the meeting with the european ai scientific panel of independent experts::2026-10-08": "clu_e643cf9f84"
   },
   "clusters": {
     "clu_aba4730bd3": {
@@ -6356,6 +6359,15 @@
       ],
       "source_ids": [
         "src_us_presidential_actions"
+      ]
+    },
+    "clu_e643cf9f84": {
+      "primary_event_id": "evt_20261014_462a610775",
+      "event_ids": [
+        "evt_20261014_462a610775"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }
