@@ -146,7 +146,11 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2104": "clu_f421591aeb",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2065": "clu_ba59db1e24",
     "https://esa.int/ESA_Multimedia/Images/2026/10/Geraldine_Naja_with_the_WIA-Europe_award": "clu_73fc52fa60",
-    "https://esa.int/Enabling_Support/Space_Transportation/Future_space_transportation/Themis_completes_second_fuelling_rehearsal": "clu_cffb890e7c"
+    "https://esa.int/Enabling_Support/Space_Transportation/Future_space_transportation/Themis_completes_second_fuelling_rehearsal": "clu_cffb890e7c",
+    "https://boj.or.jp/research/research_data/cai/index.htm": "clu_002912f34f",
+    "https://boj.or.jp/statistics/market/short/call/call.xlsx": "clu_d203661c42",
+    "https://boj.or.jp/statistics/br/bop_06/bpdata/diiqcy.htm": "clu_1e94a0fa27",
+    "https://boj.or.jp/statistics/boj/other/acmai/release/2026/ac260930.htm": "clu_dd1f0645b4"
   },
   "by_hash": {
     "a540ae3b6dd4a5d9a6d86b7583896b6bb417c67d25cc50681750f6b63fa62b9f": "clu_5920239a2f",
@@ -293,7 +297,9 @@
     "07b8885753f1a52c80177881791807867b6d8cbc39b009d0479c368ffa21b832": "clu_f421591aeb",
     "d3cda87eeea700dd573bab2716748218eda0db30423032701090e65a3ee36ec2": "clu_ba59db1e24",
     "0d560fd8bd8f2af2604d676c6263e7374a6cf439d7b5c40a602c6046fde027cc": "clu_73fc52fa60",
-    "d3f6147f5ab087fc0ac979db91395b4581775d2869fec4c86e1730a4ef09a914": "clu_cffb890e7c"
+    "d3f6147f5ab087fc0ac979db91395b4581775d2869fec4c86e1730a4ef09a914": "clu_cffb890e7c",
+    "1344859c6bccd36f08add5f42a792b6c344de06d23acdae6ac3f3799bdcd92a1": "clu_002912f34f",
+    "5a261a2dca1fcaef867040b02239393093f5bd55821e16d8b81e5b6977e98744": "clu_d203661c42"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 5年 2026-10-06: 5.03 %::2026-10-07": "clu_5920239a2f",
@@ -440,7 +446,9 @@
     "european commission::keynote remarks by commissioner síkela at the arctic circle assembly::2026-10-07": "clu_f421591aeb",
     "european commission::the eu budget continues delivering for europe in 2025::2026-10-07": "clu_ba59db1e24",
     "european space agency::géraldine naja with the wia-europe award::2026-10-07": "clu_73fc52fa60",
-    "european space agency::themis completes second fuelling rehearsal::2026-10-07": "clu_cffb890e7c"
+    "european space agency::themis completes second fuelling rehearsal::2026-10-07": "clu_cffb890e7c",
+    "日本銀行::消費活動指数::2026-10-07": "clu_002912f34f",
+    "日本銀行::コール市場残高(9月)::2026-10-07": "clu_d203661c42"
   },
   "clusters": {
     "clu_5920239a2f": {
@@ -1731,6 +1739,42 @@
       ],
       "source_ids": [
         "src_esa_news"
+      ]
+    },
+    "clu_002912f34f": {
+      "primary_event_id": "evt_20261015_1344859c6b",
+      "event_ids": [
+        "evt_20261015_1344859c6b"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_d203661c42": {
+      "primary_event_id": "evt_20261015_5a261a2dca",
+      "event_ids": [
+        "evt_20261015_5a261a2dca"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_1e94a0fa27": {
+      "primary_event_id": "evt_20261015_1eb3142a74",
+      "event_ids": [
+        "evt_20261015_1eb3142a74"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_dd1f0645b4": {
+      "primary_event_id": "evt_20261015_6c53a88bda",
+      "event_ids": [
+        "evt_20261015_6c53a88bda"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

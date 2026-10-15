@@ -438,7 +438,13 @@
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-17&series=tot_pub_debt_out_amt": "clu_29e20aab72",
     "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1906": "clu_16ad8a457e",
     "https://war.gov/News/Contracts/Contract/Article/4605498/contracts-for-sept-18-2026": "clu_3b4cb43dbf",
-    "https://content.knowledgehub.wiley.com/76-faster-replication-same-infrastructure": "clu_728406047e"
+    "https://content.knowledgehub.wiley.com/76-faster-replication-same-infrastructure": "clu_728406047e",
+    "https://boj.or.jp/about/release/sousaidouga.htm": "clu_2713f5995a",
+    "https://boj.or.jp/mopo/mpmdeci/mpr_2026/k260918b.pdf": "clu_01977df88a",
+    "https://boj.or.jp/mopo/mpmdeci/mpr_2026/mpr260918b.pdf": "clu_82c23791c5",
+    "https://boj.or.jp/mopo/mpmdeci/mpr_2026/mpr260918a.pdf": "clu_f5a285e258",
+    "https://boj.or.jp/about/services/tame/tame_rate/kijun/kiju2610.htm": "clu_c82e227f7b",
+    "https://boj.or.jp/about/services/tame/tame_rate/syorei/hou2610.htm": "clu_e6423564f4"
   },
   "by_hash": {
     "e379bb6152f6d28b5013a1187f9cedee9225ce16886dd40d7b3d9b2de47814e0": "clu_6a97ab25c8",
@@ -878,7 +884,8 @@
     "342c8bfe82d11e22c652e7158238a8c7657dc3cb44db57cae2cc6d79dc9e4525": "clu_29e20aab72",
     "967a48e05103f8dd74358b99c63216f32865b382ee3013d8d2c33f0f30f8e684": "clu_16ad8a457e",
     "47028f977a5e62342723acfb067fb5a3724beddf072e5d8a919c74ddc0bb7948": "clu_3b4cb43dbf",
-    "185cc849fb480df5a640a897cf304da9b2b395c8157ec2955053a34675292ce7": "clu_728406047e"
+    "185cc849fb480df5a640a897cf304da9b2b395c8157ec2955053a34675292ce7": "clu_728406047e",
+    "725a61031a071fe8755e3ebacaa671ec8c89ca24f690c0825cecc1bf9cb837f7": "clu_2713f5995a"
   },
   "by_key": {
     "board of governors of the federal reserve system::federal reserve board issues enforcement actions with former employee of northstar bank, former employee of american express travel related services company, inc., and former employee of regions bank::2026-09-18": "clu_6a97ab25c8",
@@ -1316,7 +1323,8 @@
     "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-09-17: 40,093,343,468,150.5 usd::2026-09-18": "clu_29e20aab72",
     "european commission::remarks by commissioner dombrovskis at the informal ecofin press conference::2026-09-18": "clu_16ad8a457e",
     "u.s. department of war (旧 department of defense)::contracts for sept. 18, 2026::2026-09-18": "clu_3b4cb43dbf",
-    "ieee::parallel reads and write optimization for large-scale data replication::2026-09-18": "clu_728406047e"
+    "ieee::parallel reads and write optimization for large-scale data replication::2026-09-18": "clu_728406047e",
+    "日本銀行::総裁記者会見(9月18日)動画の配信開始::2026-09-18": "clu_2713f5995a"
   },
   "clusters": {
     "clu_6a97ab25c8": {
@@ -5259,6 +5267,60 @@
       ],
       "source_ids": [
         "src_ieee_spectrum"
+      ]
+    },
+    "clu_2713f5995a": {
+      "primary_event_id": "evt_20261015_725a61031a",
+      "event_ids": [
+        "evt_20261015_725a61031a"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_01977df88a": {
+      "primary_event_id": "evt_20261015_4743ed3b63",
+      "event_ids": [
+        "evt_20261015_4743ed3b63"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_82c23791c5": {
+      "primary_event_id": "evt_20261015_8b056ba33c",
+      "event_ids": [
+        "evt_20261015_8b056ba33c"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_f5a285e258": {
+      "primary_event_id": "evt_20261015_557ff5be50",
+      "event_ids": [
+        "evt_20261015_557ff5be50"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_c82e227f7b": {
+      "primary_event_id": "evt_20261015_bb0805f5ac",
+      "event_ids": [
+        "evt_20261015_bb0805f5ac"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_e6423564f4": {
+      "primary_event_id": "evt_20261015_89957d8152",
+      "event_ids": [
+        "evt_20261015_89957d8152"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

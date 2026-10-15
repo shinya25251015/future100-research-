@@ -134,7 +134,10 @@
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-23&series=debt_held_public_amt": "clu_4a0c693b12",
     "https://treasurydirect.gov/auctions/announcements-data-results?cusip=912797VN4&metric=bid_to_cover&period=2026-09-24": "clu_6d080a21ad",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-09-24&tenor=20%E5%B9%B4": "clu_6d080a21ad",
-    "https://ec.europa.eu/commission/presscorner/detail/en/inf_26_1834": "clu_a191f6535e"
+    "https://ec.europa.eu/commission/presscorner/detail/en/inf_26_1834": "clu_a191f6535e",
+    "https://boj.or.jp/about/bcp/fso/fso260924a.pdf": "clu_72b991da5d",
+    "https://boj.or.jp/about/press/kaiken_2026/kk260924a.pdf": "clu_af78c70a54",
+    "https://boj.or.jp/statistics/bis/ibs/index.htm": "clu_429cf51c71"
   },
   "by_hash": {
     "0ad467aaa15555c474217e67165f7b9c41ca51aa78769eaf1a0a332499656bbe": "clu_b6be1c63b3",
@@ -1552,6 +1555,33 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_72b991da5d": {
+      "primary_event_id": "evt_20261015_732c5f346b",
+      "event_ids": [
+        "evt_20261015_732c5f346b"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_af78c70a54": {
+      "primary_event_id": "evt_20261015_06c9c75d4f",
+      "event_ids": [
+        "evt_20261015_06c9c75d4f"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_429cf51c71": {
+      "primary_event_id": "evt_20261015_c641f74a1d",
+      "event_ids": [
+        "evt_20261015_c641f74a1d"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

@@ -494,7 +494,8 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1979": "clu_f67bd8bac6",
     "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1978": "clu_29cb39ff21",
     "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1995": "clu_ed31cfd795",
-    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1996": "clu_4089977686"
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1996": "clu_4089977686",
+    "https://boj.or.jp/statistics/bis/repo/index.htm": "clu_c65ffe36c0"
   },
   "by_hash": {
     "d21bdbd05ca99c88b67d8ac5cc266436d03958601042474e42e5db3b6d69dab4": "clu_936bdf3c40",
@@ -984,7 +985,8 @@
     "23793aa098dc37c2f91fd9aadfecc30645ff701b4b733784240dd23adc29ac57": "clu_f67bd8bac6",
     "71abbd6a72b4314ba5f752990a4593c3bbfd977fa8c4e50b4b6404323f78d734": "clu_29cb39ff21",
     "4028241b8da263cd1b9733208714fc734c535e4b0e1d9d70cecf5b23589ca44d": "clu_ed31cfd795",
-    "a8bc81df6898376c8a3e499db966f15ba19421c593300984e8d4b9fc744f4fff": "clu_4089977686"
+    "a8bc81df6898376c8a3e499db966f15ba19421c593300984e8d4b9fc744f4fff": "clu_4089977686",
+    "75adfc25905c6e6d18f6489ec86242289f3bfb470e3f4caee0fd0450c44b49ac": "clu_c65ffe36c0"
   },
   "by_key": {
     "office of the federal register::notice of inventory completion: indiana university, bloomington, in::2026-09-23": "clu_936bdf3c40",
@@ -1473,7 +1475,8 @@
     "european commission::intervention by commissioner šuica at the unrwa ministerial-level meeting::2026-09-23": "clu_f67bd8bac6",
     "european commission::commissioner šuica addresses the global alliance for the implementation of the two-state solution::2026-09-23": "clu_29cb39ff21",
     "european commission::speech by commissioner mcgrath at the general assembly of the united nations' side-event on information integrity solutions dialogue::2026-09-23": "clu_ed31cfd795",
-    "european commission::remarks by commissioner mcgrath at the annual ministerial meeting of the informal ministerial network for the international criminal court::2026-09-23": "clu_4089977686"
+    "european commission::remarks by commissioner mcgrath at the annual ministerial meeting of the informal ministerial network for the international criminal court::2026-09-23": "clu_4089977686",
+    "日本銀行::fsbレポ統計の日本分集計結果::2026-09-23": "clu_c65ffe36c0"
   },
   "clusters": {
     "clu_936bdf3c40": {
@@ -5811,6 +5814,15 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_c65ffe36c0": {
+      "primary_event_id": "evt_20261015_75adfc2590",
+      "event_ids": [
+        "evt_20261015_75adfc2590"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

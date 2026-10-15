@@ -1,0 +1,107 @@
+{
+  "by_url": {
+    "https://news.samsung.com/global/samsung-hosts-silicon-valley-future-wireless-summit-2026": "clu_1392c9953c",
+    "https://treasurydirect.gov/auctions/announcements-data-results?cusip=912797WZ6&metric=bid_to_cover&period=2026-10-14": "clu_85d91f78e5",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-14&tenor=20%E5%B9%B4": "clu_5d29097a9a",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-14&tenor=3%E3%81%8B%E6%9C%88": "clu_febdba8ec0",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-14&tenor=2%E5%B9%B4": "clu_b8da2e7585",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-14&tenor=5%E5%B9%B4": "clu_85d91f78e5",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-14&tenor=30%E5%B9%B4": "clu_85d91f78e5",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-14&tenor=10%E5%B9%B4": "clu_85d91f78e5",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-10-13&series=tot_pub_debt_out_amt": "clu_f2d57856fe",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-10-13&series=debt_held_public_amt": "clu_c7b274ffc0"
+  },
+  "by_hash": {
+    "f6cc27b7f20b99b04deda40a30c37714d86cbdb887d1d6733ec74474ecdb5c5a": "clu_1392c9953c",
+    "b0126d976b2a7b922e8547ffbffabfb897bc1f560d8abe6e06c6b9bfcb2ad2cb": "clu_85d91f78e5",
+    "5dbb03c26c073608666d804e5b3fca0050577867790323b508b6fdf6bbfea8ba": "clu_5d29097a9a",
+    "3fc9a9c73532cf8365bdce32e3e8c5cff7cc85e8d0f4449fabee5c575ea93edb": "clu_febdba8ec0",
+    "0438b81399da4e595ec9008b0a4a93e0ea7b04e7cd66f48675bd222004396912": "clu_b8da2e7585",
+    "d619f474a29aac1f95b568770be2e260ccae57644da27a22a159f1516533790d": "clu_85d91f78e5",
+    "d6cf300ccdb8e3a66877f8ec3aa7a4caf1794ceee62351d45d5e3f60e0ba6238": "clu_85d91f78e5",
+    "4eee420a20087d2822cf9f9d66f284c43a743234434a4e1c49590ead662e595c": "clu_85d91f78e5",
+    "c6953c152d8e6e970b7e0fc0065eb72e72ab40b0d4cfc929b193e698fbd3665b": "clu_f2d57856fe",
+    "94dda6379f1b9fd96cb3fc3de2c60baed7a81e69d974c883500125762f5cc59e": "clu_c7b274ffc0"
+  },
+  "by_key": {
+    "samsung electronics::samsung hosts silicon valley future wireless summit 2026::2026-10-15": "clu_1392c9953c",
+    "u.s. department of the treasury (treasurydirect)::米国債入札 応札倍率(17-week, bill) 2026-10-14: 2.79 倍::2026-10-15": "clu_85d91f78e5",
+    "u.s. department of the treasury::米国債利回り 20年 2026-10-14: 5.57 %::2026-10-15": "clu_5d29097a9a",
+    "u.s. department of the treasury::米国債利回り 3か月 2026-10-14: 4.28 %::2026-10-15": "clu_febdba8ec0",
+    "u.s. department of the treasury::米国債利回り 2年 2026-10-14: 4.82 %::2026-10-15": "clu_b8da2e7585",
+    "u.s. department of the treasury::米国債利回り 5年 2026-10-14: 5 %::2026-10-15": "clu_85d91f78e5",
+    "u.s. department of the treasury::米国債利回り 30年 2026-10-14: 5.52 %::2026-10-15": "clu_85d91f78e5",
+    "u.s. department of the treasury::米国債利回り 10年 2026-10-14: 5.19 %::2026-10-15": "clu_85d91f78e5",
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-10-13: 40,343,879,238,035.672 usd::2026-10-15": "clu_f2d57856fe",
+    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-10-13: 32,483,641,012,611.98 usd::2026-10-15": "clu_c7b274ffc0"
+  },
+  "clusters": {
+    "clu_1392c9953c": {
+      "primary_event_id": "evt_20261015_f6cc27b7f2",
+      "event_ids": [
+        "evt_20261015_f6cc27b7f2"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_85d91f78e5": {
+      "primary_event_id": "evt_20261015_b0126d976b",
+      "event_ids": [
+        "evt_20261015_b0126d976b",
+        "evt_20261015_d619f474a2",
+        "evt_20261015_d6cf300ccd",
+        "evt_20261015_4eee420a20"
+      ],
+      "source_ids": [
+        "src_us_treasury_auctions",
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_5d29097a9a": {
+      "primary_event_id": "evt_20261015_5dbb03c26c",
+      "event_ids": [
+        "evt_20261015_5dbb03c26c"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_febdba8ec0": {
+      "primary_event_id": "evt_20261015_3fc9a9c735",
+      "event_ids": [
+        "evt_20261015_3fc9a9c735"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_b8da2e7585": {
+      "primary_event_id": "evt_20261015_0438b81399",
+      "event_ids": [
+        "evt_20261015_0438b81399"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_f2d57856fe": {
+      "primary_event_id": "evt_20261015_c6953c152d",
+      "event_ids": [
+        "evt_20261015_c6953c152d"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    },
+    "clu_c7b274ffc0": {
+      "primary_event_id": "evt_20261015_94dda6379f",
+      "event_ids": [
+        "evt_20261015_94dda6379f"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    }
+  }
+}

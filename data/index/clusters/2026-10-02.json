@@ -625,7 +625,9 @@
     "https://nasa.gov/news-release/nasa-astronaut-christina-koch-to-join-nfl-fans-in-philadelphia": "clu_8292466001",
     "https://nasa.gov/news-release/nasa-opens-applications-for-next-class-of-flight-directors": "clu_0753005416",
     "https://nasa.gov/news-release/la-nasa-abre-solicitudes-para-proxima-promocion-de-directores-de-vuelo": "clu_48d4f64faa",
-    "https://spectrum.ieee.org/smart-car-researcher-eliminate-stoplights": "clu_5c95f34fca"
+    "https://spectrum.ieee.org/smart-car-researcher-eliminate-stoplights": "clu_5c95f34fca",
+    "https://boj.or.jp/statistics/boj/other/col/col2609.xlsx": "clu_c4341c9537",
+    "https://boj.or.jp/statistics/boj/other/mei/release/2026/mei260930.xlsx": "clu_f0998cda50"
   },
   "by_hash": {
     "d2181d68e6adf7dae9ff3fc3aba8087008a5ebfc63d92a4aa2ea3905353ecf8f": "clu_501bac9ce0",
@@ -7482,6 +7484,24 @@
       ],
       "source_ids": [
         "src_ieee_spectrum"
+      ]
+    },
+    "clu_c4341c9537": {
+      "primary_event_id": "evt_20261015_502ca278fd",
+      "event_ids": [
+        "evt_20261015_502ca278fd"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_f0998cda50": {
+      "primary_event_id": "evt_20261015_120296d439",
+      "event_ids": [
+        "evt_20261015_120296d439"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

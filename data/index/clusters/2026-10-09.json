@@ -557,7 +557,12 @@
     "https://nasa.gov/image-article/cosmic-house-of-mirrors": "clu_5fa89555e6",
     "https://nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations": "clu_4cdbffaa98",
     "https://science.nasa.gov/earth/earth-observatory/floodwaters-overwhelm-thailand": "clu_34d46b9646",
-    "https://nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies": "clu_f57b5e8d75"
+    "https://nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies": "clu_f57b5e8d75",
+    "https://boj.or.jp/mopo/mpmdeci/mpr_2026/mpr261009a.pdf": "clu_2a3b7db0ce",
+    "https://boj.or.jp/research/imes/dps/dps26_e.htm": "clu_07ecace05b",
+    "https://boj.or.jp/about/recruit/rec261009a.htm": "clu_fd33c41ecd",
+    "https://boj.or.jp/finsys/macpru/mac261009a.pdf": "clu_21d02b1d01",
+    "https://boj.or.jp/paym/market/market2610.htm": "clu_7eaa4dc5ba"
   },
   "by_hash": {
     "52ed6a3c5f83a6507ed94007d4424a2caf8445747f7983dab4e701454fc905fd": "clu_0b46a1d500",
@@ -1113,7 +1118,8 @@
     "1b27eafd58d60154637fca595cf7e2e6df23b403e715c9fe0481fc9009a668a0": "clu_5fa89555e6",
     "f9ed88ba3cb469ee5cd2a204f632fe026230c7e9b0ebf31ff9d61364443204fa": "clu_4cdbffaa98",
     "84f569179dac58aa366d314f919cd1901f404c80d8cad3c198ebc390cbf23b1f": "clu_34d46b9646",
-    "ae32daf0ba121ea3024195f18cd52661a2de2e9bfd6a567e7718f6533cd4cc4a": "clu_f57b5e8d75"
+    "ae32daf0ba121ea3024195f18cd52661a2de2e9bfd6a567e7718f6533cd4cc4a": "clu_f57b5e8d75",
+    "cd955621be93171cf9f53a2c8473b66caee1d4d464ccee9872f76251292be46d": "clu_07ecace05b"
   },
   "by_key": {
     "u.s. department of the treasury (treasurydirect)::米国債入札 応札倍率(4-week, bill) 2026-10-08: 2.4 倍::2026-10-09": "clu_0b46a1d500",
@@ -1669,7 +1675,8 @@
     "nasa::cosmic house of mirrors::2026-10-09": "clu_5fa89555e6",
     "nasa::nasa seeks us industry plans for commercial space stations::2026-10-09": "clu_4cdbffaa98",
     "nasa::floodwaters overwhelm thailand::2026-10-09": "clu_34d46b9646",
-    "nasa::nasa demonstrates next-generation heat shield technologies::2026-10-09": "clu_f57b5e8d75"
+    "nasa::nasa demonstrates next-generation heat shield technologies::2026-10-09": "clu_f57b5e8d75",
+    "日本銀行::金融研究所ディスカッション・ペーパー・シリーズ(e-series : 英語版)(2026年収録分)::2026-10-09": "clu_07ecace05b"
   },
   "clusters": {
     "clu_0b46a1d500": {
@@ -6593,6 +6600,51 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_2a3b7db0ce": {
+      "primary_event_id": "evt_20261015_e7c18544d6",
+      "event_ids": [
+        "evt_20261015_e7c18544d6"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_07ecace05b": {
+      "primary_event_id": "evt_20261015_cd955621be",
+      "event_ids": [
+        "evt_20261015_cd955621be"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_fd33c41ecd": {
+      "primary_event_id": "evt_20261015_756638507e",
+      "event_ids": [
+        "evt_20261015_756638507e"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_21d02b1d01": {
+      "primary_event_id": "evt_20261015_a6687a9d38",
+      "event_ids": [
+        "evt_20261015_a6687a9d38"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_7eaa4dc5ba": {
+      "primary_event_id": "evt_20261015_265fb58f86",
+      "event_ids": [
+        "evt_20261015_265fb58f86"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

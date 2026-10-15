@@ -803,7 +803,14 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1870": "clu_83602ebe0a",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1910": "clu_e2a7223bf9",
     "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2027": "clu_068319035b",
-    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1874": "clu_651ffc1396"
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1874": "clu_651ffc1396",
+    "https://boj.or.jp/intl_finance/meeting/emeap/eme260930a.htm": "clu_714e330c0f",
+    "https://boj.or.jp/mopo/mpmdeci/mpr_2026/mpr260930a.pdf": "clu_8f189d881c",
+    "https://boj.or.jp/statistics/tk/tankan09a.htm": "clu_0132028acd",
+    "https://boj.or.jp/paym/bond/ryudo.pdf": "clu_8203e51b22",
+    "https://boj.or.jp/statistics/set/kess/release/2026/kess2608.pdf": "clu_3ceee12621",
+    "https://boj.or.jp/about/bcp/fso/fso260930a.pdf": "clu_8399f74e5b",
+    "https://boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi260918.pdf": "clu_f541d383ff"
   },
   "by_hash": {
     "095b56371111a863647963d7352f21a9cef3a16df4929823df33e33ce97fb1d2": "clu_a7c29a4261",
@@ -9640,6 +9647,69 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_714e330c0f": {
+      "primary_event_id": "evt_20261015_569eb4aea5",
+      "event_ids": [
+        "evt_20261015_569eb4aea5"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_8f189d881c": {
+      "primary_event_id": "evt_20261015_9dceebb773",
+      "event_ids": [
+        "evt_20261015_9dceebb773"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_0132028acd": {
+      "primary_event_id": "evt_20261015_679b3c4d0a",
+      "event_ids": [
+        "evt_20261015_679b3c4d0a"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_8203e51b22": {
+      "primary_event_id": "evt_20261015_c355df4fb2",
+      "event_ids": [
+        "evt_20261015_c355df4fb2"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_3ceee12621": {
+      "primary_event_id": "evt_20261015_a7ddc3a956",
+      "event_ids": [
+        "evt_20261015_a7ddc3a956"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_8399f74e5b": {
+      "primary_event_id": "evt_20261015_16fe8fabb0",
+      "event_ids": [
+        "evt_20261015_16fe8fabb0"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_f541d383ff": {
+      "primary_event_id": "evt_20261015_22900b3a2f",
+      "event_ids": [
+        "evt_20261015_22900b3a2f"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

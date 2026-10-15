@@ -672,7 +672,14 @@
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-07": "clu_6f8725df6b",
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-06": "clu_ff4febb483",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2047": "clu_de5dda95b0",
-    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2019": "clu_ef346d5132"
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2019": "clu_ef346d5132",
+    "https://boj.or.jp/statistics/boj/fm/juqf/juqf09.xlsx": "clu_00e45e2dbf",
+    "https://boj.or.jp/statistics/dl/loan/yaku/yaku2608.pdf": "clu_4aec6b8146",
+    "https://boj.or.jp/statistics/boj/other/mb/mb.htm": "clu_5610725be2",
+    "https://boj.or.jp/about/bcp/fso/fso261001a.pdf": "clu_e0f69252eb",
+    "https://boj.or.jp/finsys/intlact_fs/kisei/kis261001a.htm": "clu_7b9fc253e5",
+    "https://boj.or.jp/statistics/tk/tankan09b.htm": "clu_2349641b27",
+    "https://boj.or.jp/mopo/mpmdeci/mpr_2026/mpr261001a.pdf": "clu_e6f3348439"
   },
   "by_hash": {
     "9f3eb9e89977e9c3126541d6611bcc97e4189288baa3f38c1630e9644bddbf40": "clu_ef47225a91",
@@ -1347,7 +1354,8 @@
     "7a4991fe8fbc98932d60b13ec4ecfbec3dc057aea324e217beae21b0eea2b085": "clu_6f8725df6b",
     "ebcea4bf1ea5ab1d3af921129c9d31ab876eb1c4ed8ffb3fc802fb321e5324a3": "clu_ff4febb483",
     "39dd67f092fb7966ce1a1b10abd632e4b03fd27027b00b1a5db1d4cb96707e3f": "clu_de5dda95b0",
-    "3b10674560ecf9121bc40a9f247a71081b69fa1510b6ad5368a21ddb00eaa4ff": "clu_ef346d5132"
+    "3b10674560ecf9121bc40a9f247a71081b69fa1510b6ad5368a21ddb00eaa4ff": "clu_ef346d5132",
+    "40670cc118d5909cd064dfa67d75c17b48216244b34dad4f8304c3e18b04831d": "clu_5610725be2"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 3か月 2026-09-30: 4.2 %::2026-10-01": "clu_ef47225a91",
@@ -2021,7 +2029,8 @@
     "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-07: 228,235.451 gwh::2026-10-01": "clu_6f8725df6b",
     "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-06: 214,012.854 gwh::2026-10-01": "clu_ff4febb483",
     "european commission::commission disburses €2.9 billion under ukraine facility to support financial stability and reforms::2026-10-01": "clu_de5dda95b0",
-    "european commission::commission approves €170 million bulgarian state aid for farmers facing increased fuel and fertiliser prices::2026-10-01": "clu_ef346d5132"
+    "european commission::commission approves €170 million bulgarian state aid for farmers facing increased fuel and fertiliser prices::2026-10-01": "clu_ef346d5132",
+    "日本銀行::マネタリーベース(9月)::2026-10-01": "clu_5610725be2"
   },
   "clusters": {
     "clu_ef47225a91": {
@@ -8079,6 +8088,69 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_00e45e2dbf": {
+      "primary_event_id": "evt_20261015_e48aa1e105",
+      "event_ids": [
+        "evt_20261015_e48aa1e105"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_4aec6b8146": {
+      "primary_event_id": "evt_20261015_6856fb0222",
+      "event_ids": [
+        "evt_20261015_6856fb0222"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_5610725be2": {
+      "primary_event_id": "evt_20261015_40670cc118",
+      "event_ids": [
+        "evt_20261015_40670cc118"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_e0f69252eb": {
+      "primary_event_id": "evt_20261015_4be45bf400",
+      "event_ids": [
+        "evt_20261015_4be45bf400"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_7b9fc253e5": {
+      "primary_event_id": "evt_20261015_524c871818",
+      "event_ids": [
+        "evt_20261015_524c871818"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_2349641b27": {
+      "primary_event_id": "evt_20261015_34aca9d17d",
+      "event_ids": [
+        "evt_20261015_34aca9d17d"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_e6f3348439": {
+      "primary_event_id": "evt_20261015_f1a9c619ab",
+      "event_ids": [
+        "evt_20261015_f1a9c619ab"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

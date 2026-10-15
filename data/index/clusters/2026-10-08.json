@@ -530,7 +530,32 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2113": "clu_f5764a4e0b",
     "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2115": "clu_a8b4b125f9",
     "https://whitehouse.gov/presidential-actions/2026/10/establishment-of-a-committee-of-inquiry-to-investigate-allegations-of-false-statements-by-lisa-denell-cook": "clu_2c7b7fef5a",
-    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2148": "clu_e643cf9f84"
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2148": "clu_e643cf9f84",
+    "https://boj.or.jp/research/brp/rer/rer261008.htm": "clu_7b89775d05",
+    "https://boj.or.jp/statistics/other/toukai/toukai.xlsx": "clu_888517dbd1",
+    "https://boj.or.jp/about/recruit/rec261008a.htm": "clu_d8f19694a5",
+    "https://boj.or.jp/statistics/other/kantou/kantou.xlsx": "clu_f3371c64d8",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=JPN&period=2023": "clu_88f6ac51b9",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=KOR&period=2023": "clu_1949411211",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=IND&period=2024": "clu_3bd3f8bfaf",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=KOR&period=2024": "clu_1795e132be",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=USA&period=2024": "clu_6700df458c",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=USA&period=2021": "clu_d395b1e669",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=JPN&period=2022": "clu_c901077de3",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=CHN&period=2021": "clu_f5a788f63e",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=CHN&period=2022": "clu_3f33dfb4f4",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=IND&period=2022": "clu_ba15ac1a84",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=DEU&period=2023": "clu_5588f8b57c",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=USA&period=2020": "clu_7149d5440c",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=JPN&period=2024": "clu_e1f23ce8ed",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=DEU&period=2022": "clu_97e2ba07a4",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=USA&period=2022": "clu_4b05c978dd",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=CHN&period=2023": "clu_992d6eadfe",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=DEU&period=2024": "clu_bee78abdb3",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=KOR&period=2022": "clu_be72bd4a1d",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=CHN&period=2024": "clu_7523c21ca0",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=USA&period=2023": "clu_7bf827ebb3",
+    "https://data.worldbank.org/indicator/IP.PAT.RESD?locations=IND&period=2023": "clu_e0b964272c"
   },
   "by_hash": {
     "7d1a31c4be323507786418de029fd2a72566d1097880aafb2d13713a4a0ce921": "clu_aba4730bd3",
@@ -1063,7 +1088,28 @@
     "c1c3a3dcbcc7da1e92a5fa65694b4607c18c2c805313b7b55660ab507c9b0150": "clu_f5764a4e0b",
     "c1ed770031818213431d85587ded82bda466964398fafc9cfc0404f85fabd357": "clu_a8b4b125f9",
     "c7e4591e913858aae5ff44097c38df28db33f5dc1c8343bb5f8d8c296a74af23": "clu_2c7b7fef5a",
-    "462a61077551468183bdd35c164e0deb61a128242a4855a464941165cb713265": "clu_e643cf9f84"
+    "462a61077551468183bdd35c164e0deb61a128242a4855a464941165cb713265": "clu_e643cf9f84",
+    "457437b0264c7f665d7b05f79a25ffa6a072dfcdade79817b6851f7af7116c70": "clu_88f6ac51b9",
+    "89e99e111ffefb073021de024043907fee6be4c114dd51182af52ba636201029": "clu_1949411211",
+    "f4486bce88a4b45338ee40679a57da198bad7c08e5d2082e9e9da2b82884aac1": "clu_3bd3f8bfaf",
+    "44beb0bdd809051643ea12cf2a97eebe2674fa6347c6b52c402cc3097a85c645": "clu_1795e132be",
+    "16304e10a94ad75742d0ad1518f0bdb96acb9f9b1fcda5483f421cd19682ae2c": "clu_6700df458c",
+    "16deaadfcee91a39c6c8034ef4c2717a70588b36c5741b3ee9196cd37e3f60c9": "clu_d395b1e669",
+    "66e40454caf40e2a1befb9e3136c3b0c1b1995f5f00d833ff9ea87c74af8bb7d": "clu_c901077de3",
+    "786869910150105b2f6ad817001cc1805dba06a7efbfdfd7100ef18fb64f260c": "clu_f5a788f63e",
+    "288495bd5fc1e03e640c88c2001193f5ed2195b7de39993bacfb2412c4d4b342": "clu_3f33dfb4f4",
+    "317d0d924225b99ce3aef4e88004f4953046110cece261c96030c513af7c780c": "clu_ba15ac1a84",
+    "ac7d8b508f351104fc2a436e217a3c681366de3982140bcc35574aaaa56ad81a": "clu_5588f8b57c",
+    "7a7606becf2a43bceaedb0180358bbc50b711b80e37367b8bed2dfbc6f952a0b": "clu_7149d5440c",
+    "1267e22e8ac2a918460e30c880ff94acf5fd6f07eba6346b84366a2d9dc74d00": "clu_e1f23ce8ed",
+    "edf153a29b83fbd45191cbc664f83b034b50c5ca0f368bff7474740e34c93dbb": "clu_97e2ba07a4",
+    "3f20b9004c59a7be910e6fb393cf1d27e71e5e9f8fb858da64c8a1d33b7c6098": "clu_4b05c978dd",
+    "ec85ba63f77770d5abc95d4713072314359d79a27de87d43a3bd793534bf8cb8": "clu_992d6eadfe",
+    "958ee315a902d106e55f2ab0c647e49e1458ec3972acb9ad9586b4ff4839a161": "clu_bee78abdb3",
+    "018ea3ee6d78e91a75471781bc509ae867135a7babb1ef351e900ba363938e02": "clu_be72bd4a1d",
+    "deb76a55655ed2f5c60ce7de6f14157dd118d75f1606a55c4ac422f3305e0832": "clu_7523c21ca0",
+    "13013a5ca3fc07402226d95957f62f532cf372779a14ac84bc9653b22a9620f8": "clu_7bf827ebb3",
+    "17fcd145eb6411a5ff4f093a4aadfbec91486d171ad8059ac38748f1eb114165": "clu_e0b964272c"
   },
   "by_key": {
     "samsung electronics::samsung electronics announces earnings guidance for third quarter 2026::2026-10-08": "clu_aba4730bd3",
@@ -1595,7 +1641,28 @@
     "european commission::commission selects 46 new strategic projects to bolster the eu's supply of critical raw materials::2026-10-08": "clu_f5764a4e0b",
     "european commission::factsheet - critical raw materials strategic projects::2026-10-08": "clu_a8b4b125f9",
     "the white house::establishment of a committee of inquiry to investigate allegations of false statements by lisa denell cook::2026-10-08": "clu_2c7b7fef5a",
-    "european commission::opening words by executive vice-president virkkunen at the meeting with the european ai scientific panel of independent experts::2026-10-08": "clu_e643cf9f84"
+    "european commission::opening words by executive vice-president virkkunen at the meeting with the european ai scientific panel of independent experts::2026-10-08": "clu_e643cf9f84",
+    "world bank::patent applications, residents(jpn) 2023: 228,936 件::2026-10-08": "clu_88f6ac51b9",
+    "world bank::patent applications, residents(kor) 2023: 191,142 件::2026-10-08": "clu_1949411211",
+    "world bank::patent applications, residents(ind) 2024: 63,217 件::2026-10-08": "clu_3bd3f8bfaf",
+    "world bank::patent applications, residents(kor) 2024: 195,786 件::2026-10-08": "clu_1795e132be",
+    "world bank::patent applications, residents(usa) 2024: 270,295 件::2026-10-08": "clu_6700df458c",
+    "world bank::patent applications, residents(usa) 2021: 282,476 件::2026-10-08": "clu_d395b1e669",
+    "world bank::patent applications, residents(jpn) 2022: 218,813 件::2026-10-08": "clu_c901077de3",
+    "world bank::patent applications, residents(chn) 2021: 1,427,845 件::2026-10-08": "clu_f5a788f63e",
+    "world bank::patent applications, residents(chn) 2022: 1,464,605 件::2026-10-08": "clu_3f33dfb4f4",
+    "world bank::patent applications, residents(ind) 2022: 38,551 件::2026-10-08": "clu_ba15ac1a84",
+    "world bank::patent applications, residents(deu) 2023: 38,489 件::2026-10-08": "clu_5588f8b57c",
+    "world bank::patent applications, residents(usa) 2020: 287,979 件::2026-10-08": "clu_7149d5440c",
+    "world bank::patent applications, residents(jpn) 2024: 237,169 件::2026-10-08": "clu_e1f23ce8ed",
+    "world bank::patent applications, residents(deu) 2022: 37,199 件::2026-10-08": "clu_97e2ba07a4",
+    "world bank::patent applications, residents(usa) 2022: 273,691 件::2026-10-08": "clu_4b05c978dd",
+    "world bank::patent applications, residents(chn) 2023: 1,522,292 件::2026-10-08": "clu_992d6eadfe",
+    "world bank::patent applications, residents(deu) 2024: 40,085 件::2026-10-08": "clu_bee78abdb3",
+    "world bank::patent applications, residents(kor) 2022: 183,748 件::2026-10-08": "clu_be72bd4a1d",
+    "world bank::patent applications, residents(chn) 2024: 1,672,001 件::2026-10-08": "clu_7523c21ca0",
+    "world bank::patent applications, residents(usa) 2023: 278,446 件::2026-10-08": "clu_7bf827ebb3",
+    "world bank::patent applications, residents(ind) 2023: 49,860 件::2026-10-08": "clu_e0b964272c"
   },
   "clusters": {
     "clu_aba4730bd3": {
@@ -6368,6 +6435,231 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_7b89775d05": {
+      "primary_event_id": "evt_20261015_0235992536",
+      "event_ids": [
+        "evt_20261015_0235992536"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_888517dbd1": {
+      "primary_event_id": "evt_20261015_7230f6ab4f",
+      "event_ids": [
+        "evt_20261015_7230f6ab4f"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_d8f19694a5": {
+      "primary_event_id": "evt_20261015_755e6ad885",
+      "event_ids": [
+        "evt_20261015_755e6ad885"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_f3371c64d8": {
+      "primary_event_id": "evt_20261015_e57ca13f05",
+      "event_ids": [
+        "evt_20261015_e57ca13f05"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_88f6ac51b9": {
+      "primary_event_id": "evt_20261015_457437b026",
+      "event_ids": [
+        "evt_20261015_457437b026"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_1949411211": {
+      "primary_event_id": "evt_20261015_89e99e111f",
+      "event_ids": [
+        "evt_20261015_89e99e111f"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_3bd3f8bfaf": {
+      "primary_event_id": "evt_20261015_f4486bce88",
+      "event_ids": [
+        "evt_20261015_f4486bce88"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_1795e132be": {
+      "primary_event_id": "evt_20261015_44beb0bdd8",
+      "event_ids": [
+        "evt_20261015_44beb0bdd8"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_6700df458c": {
+      "primary_event_id": "evt_20261015_16304e10a9",
+      "event_ids": [
+        "evt_20261015_16304e10a9"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_d395b1e669": {
+      "primary_event_id": "evt_20261015_16deaadfce",
+      "event_ids": [
+        "evt_20261015_16deaadfce"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_c901077de3": {
+      "primary_event_id": "evt_20261015_66e40454ca",
+      "event_ids": [
+        "evt_20261015_66e40454ca"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_f5a788f63e": {
+      "primary_event_id": "evt_20261015_7868699101",
+      "event_ids": [
+        "evt_20261015_7868699101"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_3f33dfb4f4": {
+      "primary_event_id": "evt_20261015_288495bd5f",
+      "event_ids": [
+        "evt_20261015_288495bd5f"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_ba15ac1a84": {
+      "primary_event_id": "evt_20261015_317d0d9242",
+      "event_ids": [
+        "evt_20261015_317d0d9242"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_5588f8b57c": {
+      "primary_event_id": "evt_20261015_ac7d8b508f",
+      "event_ids": [
+        "evt_20261015_ac7d8b508f"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_7149d5440c": {
+      "primary_event_id": "evt_20261015_7a7606becf",
+      "event_ids": [
+        "evt_20261015_7a7606becf"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_e1f23ce8ed": {
+      "primary_event_id": "evt_20261015_1267e22e8a",
+      "event_ids": [
+        "evt_20261015_1267e22e8a"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_97e2ba07a4": {
+      "primary_event_id": "evt_20261015_edf153a29b",
+      "event_ids": [
+        "evt_20261015_edf153a29b"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_4b05c978dd": {
+      "primary_event_id": "evt_20261015_3f20b9004c",
+      "event_ids": [
+        "evt_20261015_3f20b9004c"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_992d6eadfe": {
+      "primary_event_id": "evt_20261015_ec85ba63f7",
+      "event_ids": [
+        "evt_20261015_ec85ba63f7"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_bee78abdb3": {
+      "primary_event_id": "evt_20261015_958ee315a9",
+      "event_ids": [
+        "evt_20261015_958ee315a9"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_be72bd4a1d": {
+      "primary_event_id": "evt_20261015_018ea3ee6d",
+      "event_ids": [
+        "evt_20261015_018ea3ee6d"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_7523c21ca0": {
+      "primary_event_id": "evt_20261015_deb76a5565",
+      "event_ids": [
+        "evt_20261015_deb76a5565"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_7bf827ebb3": {
+      "primary_event_id": "evt_20261015_13013a5ca3",
+      "event_ids": [
+        "evt_20261015_13013a5ca3"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
+      ]
+    },
+    "clu_e0b964272c": {
+      "primary_event_id": "evt_20261015_17fcd145eb",
+      "event_ids": [
+        "evt_20261015_17fcd145eb"
+      ],
+      "source_ids": [
+        "src_worldbank_indicators"
       ]
     }
   }

@@ -920,7 +920,11 @@
     "https://nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn": "clu_83ef35293a",
     "https://esa.int/Enabling_Support/Space_Transportation/How_to_record_rocket_emissions": "clu_13a53b4329",
     "https://ec.europa.eu/commission/presscorner/detail/fr/speech_26_2080": "clu_a14d0493fd",
-    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2111": "clu_6052022539"
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2111": "clu_6052022539",
+    "https://boj.or.jp/statistics/boj/fm/ope/m_release/2026/ope2609.xlsx": "clu_21b2b5b21c",
+    "https://boj.or.jp/statistics/boj/other/tseifu/release/2026/seifu2609.pdf": "clu_46ae1538fa",
+    "https://boj.or.jp/finsys/intlact_fs/kisei/kis261006a.htm": "clu_ba33494bf3",
+    "https://boj.or.jp/statistics/boj/other/mbt/mbt2609.pdf": "clu_98682d1cca"
   },
   "by_hash": {
     "1ab82f0863270dc019d438d8440dfdef2c6f2fff6fa7a0a41e141b3751cd47a1": "clu_dbf9bf8610",
@@ -11045,6 +11049,42 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_21b2b5b21c": {
+      "primary_event_id": "evt_20261015_62111d970b",
+      "event_ids": [
+        "evt_20261015_62111d970b"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_46ae1538fa": {
+      "primary_event_id": "evt_20261015_ad549b58ad",
+      "event_ids": [
+        "evt_20261015_ad549b58ad"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_ba33494bf3": {
+      "primary_event_id": "evt_20261015_006b15d951",
+      "event_ids": [
+        "evt_20261015_006b15d951"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_98682d1cca": {
+      "primary_event_id": "evt_20261015_46b8790207",
+      "event_ids": [
+        "evt_20261015_46b8790207"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

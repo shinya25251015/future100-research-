@@ -6,7 +6,8 @@
     "https://science.nasa.gov/image-article/apod-2026-october-4-supernumerary-rainbows-over-new-jersey": "clu_3bfe9b7c9a",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2056": "clu_baf4c9dd52",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2054": "clu_9fea7a2f37",
-    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2087": "clu_a30ef27561"
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2087": "clu_a30ef27561",
+    "https://boj.or.jp/statistics/boj/fm/juqp/juqp2610.xlsx": "clu_691097288f"
   },
   "by_hash": {
     "35d93055d42950ee8b0c75037278585a569dab4c682544b4b38d3325ad5d82c3": "clu_ee47c68e4d",
@@ -88,6 +89,15 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_691097288f": {
+      "primary_event_id": "evt_20261015_35d93055d4",
+      "event_ids": [
+        "evt_20261015_35d93055d4"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

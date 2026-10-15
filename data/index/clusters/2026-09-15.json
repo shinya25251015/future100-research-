@@ -760,7 +760,8 @@
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-09-14&series=debt_held_public_amt": "clu_c474baf1ac",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1877": "clu_105e16c727",
     "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1868": "clu_497786f457",
-    "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_1901": "clu_caf7e46dab"
+    "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_1901": "clu_caf7e46dab",
+    "https://boj.or.jp/intl_finance/cooperate/coop260915a.pdf": "clu_c8ac732ab4"
   },
   "by_hash": {
     "90143297b9fcb24a1f7c36b512acc670fa09b6bd4b648134facec7a889466db6": "clu_623ef5abcd",
@@ -9095,6 +9096,15 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_c8ac732ab4": {
+      "primary_event_id": "evt_20261015_6f12552577",
+      "event_ids": [
+        "evt_20261015_6f12552577"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

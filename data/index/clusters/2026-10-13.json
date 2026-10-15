@@ -75,7 +75,17 @@
     "https://nasa.gov/organizations/ogc/job-opportunities-nasa-office-of-the-general-counsel": "clu_3094adfd93",
     "https://science.nasa.gov/photojournal/nasas-record-setting-perseverance-rover-team": "clu_0dfb040f81",
     "https://nasa.gov/news-release/nasa-names-astronaut-christina-koch-acting-deputy-chief-engineer": "clu_ff4eb3c30b",
-    "https://science.nasa.gov/photojournal/perseverance-navcam-image-marks-record-drive": "clu_f0b4098763"
+    "https://science.nasa.gov/photojournal/perseverance-navcam-image-marks-record-drive": "clu_f0b4098763",
+    "https://boj.or.jp/statistics/set/bffail/sjgb2609.pdf": "clu_5fe585d6e9",
+    "https://boj.or.jp/intl_finance/meeting/group/gro261013a.htm": "clu_20bfa06136",
+    "https://boj.or.jp/research/o_survey/ishiki2610.htm": "clu_16970a1c8e",
+    "https://boj.or.jp/statistics/money/ms/ms2609.pdf": "clu_181dd68eb0",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2150": "clu_9226e6c717",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2146": "clu_0b8b088066",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2153": "clu_b1e6c008b0",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2119": "clu_538e09670f",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2154": "clu_c652b77ea4",
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2120": "clu_dfb3b3cd30"
   },
   "by_hash": {
     "c2e5fcd81d6f92656f6c02e43e2ee44017e0895758583767d68645473f93f8a7": "clu_bc08744f54",
@@ -153,7 +163,13 @@
     "05f1a0fbe5dddab00b1ec85478b01e939f98dc8690eec11aed54694ef1b8e592": "clu_3094adfd93",
     "f24f61f018661c3173706d9ee9bea66c677326579706c8dfcade5ef455ee69df": "clu_0dfb040f81",
     "502fde57358e7c92c67a81f2a6937e7b39b20f66b0f0ae6a3878f86f4dda0d75": "clu_ff4eb3c30b",
-    "c67c36fd32d90d680e65737548b84ac29417346e8db45f17e7a4a7441a8a0b3c": "clu_f0b4098763"
+    "c67c36fd32d90d680e65737548b84ac29417346e8db45f17e7a4a7441a8a0b3c": "clu_f0b4098763",
+    "82e1f722cdf6a6df98378fc2d5494cc90b20bfa29d35c734b6131b2e1ac36cf8": "clu_9226e6c717",
+    "44e330b9e0ade55d1a9cc60cfb6504bd5e1f73ec7e4224672302c5568c7a49e8": "clu_0b8b088066",
+    "056e549da69c8a75b5599f0601c70323bf2bd107b3aced7e19781b8bd20cc31e": "clu_b1e6c008b0",
+    "93160ce389b28349ab4716b7df92e1f9b62ae037158be459ad9f4f4e72d6d90f": "clu_538e09670f",
+    "d9d72ae32fb4385ac7fb508fde4768a9deff5204c6073340ff933d9a8b78f525": "clu_c652b77ea4",
+    "531ff8ab76a1eeb95d06b1bd793d7706c737444db560cb213f171e71a1733c81": "clu_dfb3b3cd30"
   },
   "by_key": {
     "office of the federal register::fees for services performed in connection with licensing and related services-2026 update::2026-10-13": "clu_bc08744f54",
@@ -227,7 +243,13 @@
     "nasa::job opportunities: nasa office of the general counsel::2026-10-13": "clu_3094adfd93",
     "nasa::nasa’s record-setting perseverance rover team::2026-10-13": "clu_0dfb040f81",
     "nasa::nasa names astronaut christina koch acting deputy chief engineer::2026-10-13": "clu_ff4eb3c30b",
-    "nasa::perseverance navcam image marks record drive::2026-10-13": "clu_f0b4098763"
+    "nasa::perseverance navcam image marks record drive::2026-10-13": "clu_f0b4098763",
+    "european commission::speech by executive vice-president virkkunen at the international ai summit in dublin::2026-10-13": "clu_9226e6c717",
+    "european commission::speech by executive vice-president fitto at high level session “making the right to stay a reality: opportunities for our communities and our prosperity”::2026-10-13": "clu_0b8b088066",
+    "european commission::commission disburses €2.86 billion to ukraine for drones, missiles and urgent battlefield needs::2026-10-13": "clu_b1e6c008b0",
+    "european commission::commission proposes flexibility to methane importers to help save costs::2026-10-13": "clu_538e09670f",
+    "european commission::commission accepts commitments by sanofi to address possible anticompetitive disparagement of competing flu vaccine for vulnerable patients::2026-10-13": "clu_c652b77ea4",
+    "european commission::questions and answers on the proposal for amendment to the eu methane regulation::2026-10-13": "clu_dfb3b3cd30"
   },
   "clusters": {
     "clu_bc08744f54": {
@@ -912,6 +934,96 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_5fe585d6e9": {
+      "primary_event_id": "evt_20261015_9cfd6e5a46",
+      "event_ids": [
+        "evt_20261015_9cfd6e5a46"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_20bfa06136": {
+      "primary_event_id": "evt_20261015_70388deffb",
+      "event_ids": [
+        "evt_20261015_70388deffb"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_16970a1c8e": {
+      "primary_event_id": "evt_20261015_65defd1c67",
+      "event_ids": [
+        "evt_20261015_65defd1c67"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_181dd68eb0": {
+      "primary_event_id": "evt_20261015_ed6104d19a",
+      "event_ids": [
+        "evt_20261015_ed6104d19a"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_9226e6c717": {
+      "primary_event_id": "evt_20261015_82e1f722cd",
+      "event_ids": [
+        "evt_20261015_82e1f722cd"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_0b8b088066": {
+      "primary_event_id": "evt_20261015_44e330b9e0",
+      "event_ids": [
+        "evt_20261015_44e330b9e0"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_b1e6c008b0": {
+      "primary_event_id": "evt_20261015_056e549da6",
+      "event_ids": [
+        "evt_20261015_056e549da6"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_538e09670f": {
+      "primary_event_id": "evt_20261015_93160ce389",
+      "event_ids": [
+        "evt_20261015_93160ce389"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_c652b77ea4": {
+      "primary_event_id": "evt_20261015_d9d72ae32f",
+      "event_ids": [
+        "evt_20261015_d9d72ae32f"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_dfb3b3cd30": {
+      "primary_event_id": "evt_20261015_531ff8ab76",
+      "event_ids": [
+        "evt_20261015_531ff8ab76"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }
