@@ -1411,7 +1411,11 @@
     "https://science.nasa.gov/earth/earth-observatory/hurricane-simon-lurks-off-the-mexican-coast": "clu_c3729de491",
     "https://nasa.gov/news-release/nasa-to-host-news-conference-previewing-us-spacewalks-100-101": "clu_7f4e1a7a2a",
     "https://nasa.gov/centers-and-facilities/langley/nasa-develops-batteries-to-power-humanitys-return-to-moon": "clu_ff5da65fd1",
-    "https://nasa.gov/news-release/nasa-to-discuss-artemis-acceleration-status-of-upcoming-moon-missions": "clu_3fe35c3ee3"
+    "https://nasa.gov/news-release/nasa-to-discuss-artemis-acceleration-status-of-upcoming-moon-missions": "clu_3fe35c3ee3",
+    "http://boj.or.jp/intl_finance/cooperate/coop261014a.pdf": "clu_63988d74b5",
+    "http://boj.or.jp/statistics/boj/other/acmai/release/2026/ac261010.htm": "clu_e76a07f3cc",
+    "http://boj.or.jp/statistics/boj/other/mei/release/2026/mei261009.xlsx": "clu_f0998cda50",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2165": "clu_fd8302129d"
   },
   "by_hash": {
     "6d322c935a5e08bc4d5e691fd767a410233f709488f165226ba71dd516f46b49": "clu_d1b0847f2b",
@@ -2823,7 +2827,8 @@
     "823b22425ae69e15c7954d6a87e047366b6e77712c4d2f37d942e882c01c3fce": "clu_c3729de491",
     "5fb99375d5d69fa1187947dfac912f523be11292bc8ee74b8f7861829f9f4e30": "clu_7f4e1a7a2a",
     "ba029f55edb3b8775bc86b52d71d89029d2dbde89c9fba4d6f49d03862c0ddc7": "clu_ff5da65fd1",
-    "d3b74ae482277b06a8d16fb9e09be723c69e1776b57fd369f929937522fdb53c": "clu_3fe35c3ee3"
+    "d3b74ae482277b06a8d16fb9e09be723c69e1776b57fd369f929937522fdb53c": "clu_3fe35c3ee3",
+    "b135034856a6c10c2221f55c026f18589127ac4ded11d1167b8fcb152b15137a": "clu_fd8302129d"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 5年 2026-10-13: 5 %::2026-10-14": "clu_d1b0847f2b",
@@ -4232,7 +4237,8 @@
     "nasa::hurricane simon lurks off the mexican coast::2026-10-14": "clu_c3729de491",
     "nasa::nasa to host news conference previewing us spacewalks 100, 101::2026-10-14": "clu_7f4e1a7a2a",
     "nasa::nasa develops batteries to power humanity’s return to moon::2026-10-14": "clu_ff5da65fd1",
-    "nasa::nasa to discuss artemis acceleration, status of upcoming moon missions::2026-10-14": "clu_3fe35c3ee3"
+    "nasa::nasa to discuss artemis acceleration, status of upcoming moon missions::2026-10-14": "clu_3fe35c3ee3",
+    "european commission::main messages from the tripartite social summit::2026-10-14": "clu_fd8302129d"
   },
   "clusters": {
     "clu_d1b0847f2b": {
@@ -16900,6 +16906,15 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_fd8302129d": {
+      "primary_event_id": "evt_20261015_b135034856",
+      "event_ids": [
+        "evt_20261015_b135034856"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

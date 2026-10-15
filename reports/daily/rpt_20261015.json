@@ -1,10 +1,10 @@
 {
   "report_id": "rpt_20261015",
   "report_date": "2026-10-15",
-  "as_of": "2026-10-15T00:02:03Z",
+  "as_of": "2026-10-15T23:46:31Z",
   "coverage": {
-    "events_ingested": 1508,
-    "events_after_dedup": 1505,
+    "events_ingested": 1583,
+    "events_after_dedup": 1580,
     "sources_polled": 24,
     "sources_failed": []
   },
@@ -13,13 +13,13 @@
       "no": 1,
       "key": "executive_summary",
       "title": "本日の構造変化サマリ",
-      "body": "本日の観測は 1505 件。内訳（分類別）: technology 1335 / macro 97 / policy_regulation 65 / corporate_action 8。シグナル種別: paper 1325 / procurement 3 / patent 3 / export_control 2 / vc_investment 1。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 14 件）。件数は観測量であって重要度ではない。"
+      "body": "本日の観測は 1580 件。内訳（分類別）: technology 1335 / policy_regulation 124 / macro 104 / corporate_action 17。シグナル種別: paper 1325 / procurement 4 / export_control 4 / patent 3 / vc_investment 1。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 14 件）。件数は観測量であって重要度ではない。"
     },
     {
       "no": 2,
       "key": "policy_regulation",
       "title": "政策・規制 (§4)",
-      "body": "本日 65 件を観測。\n- [A] 2026-10-14 Contracts for Oct. 14, 2026 (evt_20261015_7028fbf38d)\n- [A] 2026-10-14 Commissioner Roswall's speech at the Inaugural Convening of the Women Public Sector Climate Leaders Network (evt_20261015_b6b31b4d40)\n- [A] 2026-10-14 Commission awards six projects making lasting contributions for Europe's cohesion at REGIOSTARS ceremony (evt_20261015_bf46a23767)\n- [A] 2026-10-14 Commissioners Kubilius and Lahbib strengthen global disaster risk management through space technologies (evt_20261015_842ac49e1d)\n- [A] 2026-10-14 Speech by Executive Vice-President Fitto at High Level Session   “A Cohesion Policy for a Competitive Union” (evt_20261015_ce6b66d6d4)\n- [A] 2026-10-14 Opening Remarks by Commissioner Hansen at the Farmers' Congress in Sweden (evt_20261015_997a95119a)\n- [A] 2026-10-14 Opening remarks by Executive Vice-President Teresa Ribera on the Commission decision to accept commitments by Sanofi (evt_20261015_6cd82fbce1)\n- [A] 2026-10-14 Eurobarometer survey highlights growing use of AI in European companies (evt_20261015_f1febc57c8)"
+      "body": "本日 124 件を観測。\n- [A] 2026-10-15 Contracts for Oct. 15, 2026 (evt_20261015_83a08b5441)\n- [A] 2026-10-15 Speech by Commissioner Albuquerque (by video message) for the Malta's Financial Wellbeing Conference 2026: From Access to Trust (evt_20261015_5330ac32c0)\n- [A] 2026-10-15 Commission launches RAISE pledging initiative to boost AI support for researchers across Europe (evt_20261015_18645ad930)\n- [A] 2026-10-15 Commissioner Roswall's keynote address at the 12th Congress of European Farmers (evt_20261015_e65f42dce5)\n- [A] 2026-10-15 Rescheduling of the EU-GCC Summit (evt_20261015_acc2b4c47d)\n- [A] 2026-10-15 Speech by Commissioner Lahbib at the International Conference on the Protection of Aid Workers (evt_20261015_0d810b0f63)\n- [A] 2026-10-15 Daily News 15 / 10 / 2026 (evt_20261015_9a404a11f0)\n- [A] 2026-10-15 Steady progress on the One Europe, One Market roadmap (evt_20261015_96a04cfaea)"
     },
     {
       "no": 3,
@@ -31,7 +31,7 @@
       "no": 4,
       "key": "macro_economy",
       "title": "マクロ経済 (§6)",
-      "body": "本日 97 件を観測（うち一次統計のデータ点 27 件）。\n- 統計 Patent applications, residents（CHN） = 1,672,001.0 件（2024, 本日 4 期ぶんを観測）\n- 統計 Patent applications, residents（DEU） = 40,085.0 件（2024, 本日 3 期ぶんを観測）\n- 統計 Patent applications, residents（IND） = 63,217.0 件（2024, 本日 3 期ぶんを観測）\n- 統計 Patent applications, residents（JPN） = 237,169.0 件（2024, 本日 3 期ぶんを観測）\n- 統計 Patent applications, residents（KOR） = 195,786.0 件（2024, 本日 3 期ぶんを観測）\n- 統計 Patent applications, residents（USA） = 270,295.0 件（2024, 本日 5 期ぶんを観測）\n- 統計 米国 公的債務残高 = 40,343,879,238,035.67 USD（2026-10-13, 本日 1 期ぶんを観測）\n- 統計 米国 民間保有債務残高 = 32,483,641,012,611.98 USD（2026-10-13, 本日 1 期ぶんを観測）\n- [A] 2026-10-14 第15回日中韓・中央銀行総裁会合の開催について (evt_20261015_70c701e42a)\n- [A] 2026-10-14 日本銀行が保有する国債の銘柄別残高 (evt_20261015_120296d439)\n- [A] 2026-10-14 営業毎旬報告（10月10日現在） (evt_20261015_356755d243)\n- [A] 2026-10-13 マネーストック（9月） (evt_20261015_ed6104d19a)\n- [A] 2026-10-13 金融安定理事会によるG20財務大臣・中央銀行総裁へのレターの公表について (evt_20261015_70388deffb)\n- [A] 2026-10-13 フェイルの発生状況（9月） (evt_20261015_9cfd6e5a46)\n- [A] 2026-10-13 「生活意識に関するアンケート調査」（第107回）の結果 (evt_20261015_65defd1c67)\n- [A] 2026-10-12 貸出・預金動向（9月） (evt_20261015_ab29d225c5)"
+      "body": "本日 104 件を観測（うち一次統計のデータ点 27 件）。\n- 統計 Patent applications, residents（CHN） = 1,672,001.0 件（2024, 本日 4 期ぶんを観測）\n- 統計 Patent applications, residents（DEU） = 40,085.0 件（2024, 本日 3 期ぶんを観測）\n- 統計 Patent applications, residents（IND） = 63,217.0 件（2024, 本日 3 期ぶんを観測）\n- 統計 Patent applications, residents（JPN） = 237,169.0 件（2024, 本日 3 期ぶんを観測）\n- 統計 Patent applications, residents（KOR） = 195,786.0 件（2024, 本日 3 期ぶんを観測）\n- 統計 Patent applications, residents（USA） = 270,295.0 件（2024, 本日 5 期ぶんを観測）\n- 統計 米国 公的債務残高 = 40,343,879,238,035.67 USD（2026-10-13, 本日 1 期ぶんを観測）\n- 統計 米国 民間保有債務残高 = 32,483,641,012,611.98 USD（2026-10-13, 本日 1 期ぶんを観測）\n- [A] 2026-10-15 金融安定理事会による市中協議文書「規制・監督の現代化に係る原則」の公表について (evt_20261015_1d2c0639be)\n- [A] 2026-10-15 金融安定理事会による「G20金融規制改革の実施モニタリングレビュー：2026年報告書」の公表について (evt_20261015_3d2c30b890)\n- [A] 2026-10-15 【挨拶】小枝審議委員「わが国の経済・物価情勢と金融政策」（熊本） (evt_20261015_87309499c0)\n- [A] 2026-10-15 「市場調節に関する意見交換会」（2026年10月）の概要 (evt_20261015_408b2834f1)\n- [A] 2026-10-14 第15回日中韓・中央銀行総裁会合の開催について (evt_20261015_70c701e42a)\n- [A] 2026-10-14 第15回日中韓・中央銀行総裁会合の開催について (evt_20261015_70c701e42a)\n- [A] 2026-10-14 日本銀行が保有する国債の銘柄別残高 (evt_20261015_120296d439)\n- [A] 2026-10-14 日本銀行が保有する国債の銘柄別残高 (evt_20261015_120296d439)"
     },
     {
       "no": 5,
@@ -55,7 +55,7 @@
       "no": 8,
       "key": "known_sector_monitor",
       "title": "既知セクター監視 (§11)",
-      "body": "常時監視 16 セクターの本日の観測件数。掲載順は設定ファイルの登録順であり、優劣や順位ではない (§44-46)。\n- AI / 計算基盤 (sec_ai_compute): 本日 391 件\n- 半導体 (sec_semiconductor): 本日 11 件\n- 光通信 (sec_optical_networking): 本日 0 件\n- CPO (Co-Packaged Optics) (sec_cpo): 本日 0 件\n- 電力・送配電 (sec_power_grid): 本日 0 件\n- 原子力 (sec_nuclear): 本日 0 件\n- 核融合 (sec_fusion): 本日 0 件\n- 防衛 (sec_defense): 本日 1 件"
+      "body": "常時監視 16 セクターの本日の観測件数。掲載順は設定ファイルの登録順であり、優劣や順位ではない (§44-46)。\n- AI / 計算基盤 (sec_ai_compute): 本日 392 件\n- 半導体 (sec_semiconductor): 本日 11 件\n- 光通信 (sec_optical_networking): 本日 0 件\n- CPO (Co-Packaged Optics) (sec_cpo): 本日 0 件\n- 電力・送配電 (sec_power_grid): 本日 0 件\n- 原子力 (sec_nuclear): 本日 0 件\n- 核融合 (sec_fusion): 本日 0 件\n- 防衛 (sec_defense): 本日 1 件"
     },
     {
       "no": 9,
@@ -109,7 +109,7 @@
   "prohibited_output_check": {
     "contains_ticker_recommendation": false,
     "contains_ranking": false,
-    "checked_at": "2026-10-15T00:02:55Z"
+    "checked_at": "2026-10-15T23:47:06Z"
   },
   "schema_version": "1.0"
 }
