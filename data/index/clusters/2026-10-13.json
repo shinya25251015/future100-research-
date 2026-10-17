@@ -85,7 +85,8 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2153": "clu_b1e6c008b0",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2119": "clu_538e09670f",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2154": "clu_c652b77ea4",
-    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2120": "clu_dfb3b3cd30"
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2120": "clu_dfb3b3cd30",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2180": "clu_84c3907144"
   },
   "by_hash": {
     "c2e5fcd81d6f92656f6c02e43e2ee44017e0895758583767d68645473f93f8a7": "clu_bc08744f54",
@@ -169,7 +170,8 @@
     "056e549da69c8a75b5599f0601c70323bf2bd107b3aced7e19781b8bd20cc31e": "clu_b1e6c008b0",
     "93160ce389b28349ab4716b7df92e1f9b62ae037158be459ad9f4f4e72d6d90f": "clu_538e09670f",
     "d9d72ae32fb4385ac7fb508fde4768a9deff5204c6073340ff933d9a8b78f525": "clu_c652b77ea4",
-    "531ff8ab76a1eeb95d06b1bd793d7706c737444db560cb213f171e71a1733c81": "clu_dfb3b3cd30"
+    "531ff8ab76a1eeb95d06b1bd793d7706c737444db560cb213f171e71a1733c81": "clu_dfb3b3cd30",
+    "7883589e9c28649b3639fcc88080a5d2411b789496cd10d56d0a586454776c73": "clu_84c3907144"
   },
   "by_key": {
     "office of the federal register::fees for services performed in connection with licensing and related services-2026 update::2026-10-13": "clu_bc08744f54",
@@ -249,7 +251,8 @@
     "european commission::commission disburses €2.86 billion to ukraine for drones, missiles and urgent battlefield needs::2026-10-13": "clu_b1e6c008b0",
     "european commission::commission proposes flexibility to methane importers to help save costs::2026-10-13": "clu_538e09670f",
     "european commission::commission accepts commitments by sanofi to address possible anticompetitive disparagement of competing flu vaccine for vulnerable patients::2026-10-13": "clu_c652b77ea4",
-    "european commission::questions and answers on the proposal for amendment to the eu methane regulation::2026-10-13": "clu_dfb3b3cd30"
+    "european commission::questions and answers on the proposal for amendment to the eu methane regulation::2026-10-13": "clu_dfb3b3cd30",
+    "european commission::commissioner roswall's address at the european sustainable industry summit 2026::2026-10-13": "clu_84c3907144"
   },
   "clusters": {
     "clu_bc08744f54": {
@@ -1021,6 +1024,15 @@
       "primary_event_id": "evt_20261015_531ff8ab76",
       "event_ids": [
         "evt_20261015_531ff8ab76"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_84c3907144": {
+      "primary_event_id": "evt_20261016_7883589e9c",
+      "event_ids": [
+        "evt_20261016_7883589e9c"
       ],
       "source_ids": [
         "src_eu_commission_press"
