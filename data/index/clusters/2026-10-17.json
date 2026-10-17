@@ -1,0 +1,58 @@
+{
+  "by_url": {
+    "https://whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026": "clu_e7c1e732f3",
+    "https://spectrum.ieee.org/variable-frequency-drives": "clu_86146c096c",
+    "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration": "clu_a6715bd7d1",
+    "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p": "clu_862e5e4641"
+  },
+  "by_hash": {
+    "fa6a8b820bfb1f9cb5892bb5d0ac9061898ad06ad14a39687a3a4a53dbb29f34": "clu_e7c1e732f3",
+    "e0cdf2f2f5ddca8cea47854232ff292b24520862d4e5a6f3d5d9704431732eb4": "clu_86146c096c",
+    "2b5aa4e865a6aaf404bf8a352c49b512a261e2794bc13eae17b5ae270e20cc93": "clu_a6715bd7d1",
+    "345eb0a9cb7f74a971c01c677057141d69a4496616953041ed4fc2f90ded7853": "clu_862e5e4641"
+  },
+  "by_key": {
+    "the white house::implementing the lindsey o. graham sanctioning russia and iran act of 2026::2026-10-17": "clu_e7c1e732f3",
+    "ieee::this hidden device could free up gigawatts of grid power::2026-10-17": "clu_86146c096c",
+    "nvidia corporation::rtx spark ignites global celebration as new windows pcs arrive::2026-10-17": "clu_a6715bd7d1",
+    "nasa::apod: 2026 october 17 – 3d 67p::2026-10-17": "clu_862e5e4641"
+  },
+  "clusters": {
+    "clu_e7c1e732f3": {
+      "primary_event_id": "evt_20261017_fa6a8b820b",
+      "event_ids": [
+        "evt_20261017_fa6a8b820b"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_86146c096c": {
+      "primary_event_id": "evt_20261017_e0cdf2f2f5",
+      "event_ids": [
+        "evt_20261017_e0cdf2f2f5"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    },
+    "clu_a6715bd7d1": {
+      "primary_event_id": "evt_20261017_2b5aa4e865",
+      "event_ids": [
+        "evt_20261017_2b5aa4e865"
+      ],
+      "source_ids": [
+        "src_nvidia_newsroom"
+      ]
+    },
+    "clu_862e5e4641": {
+      "primary_event_id": "evt_20261017_345eb0a9cb",
+      "event_ids": [
+        "evt_20261017_345eb0a9cb"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    }
+  }
+}
