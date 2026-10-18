@@ -1,0 +1,34 @@
+{
+  "by_url": {
+    "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2194": "clu_ee8478cfec",
+    "https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars": "clu_7b0439a6d3"
+  },
+  "by_hash": {
+    "3392c11086e1d56b20ee7a643fc1137d629f3b225c4bdca19b98f5d0109c861a": "clu_ee8478cfec",
+    "ad60d3ff941aa030882dc2e793d6b95341af3ef9cf4282303af07b6d3fa7949f": "clu_7b0439a6d3"
+  },
+  "by_key": {
+    "european commission::commission statement on the protests in albania::2026-10-18": "clu_ee8478cfec",
+    "nasa::apod: 2026 october 18 – sonified: eagle nebula pillars::2026-10-18": "clu_7b0439a6d3"
+  },
+  "clusters": {
+    "clu_ee8478cfec": {
+      "primary_event_id": "evt_20261018_3392c11086",
+      "event_ids": [
+        "evt_20261018_3392c11086"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_7b0439a6d3": {
+      "primary_event_id": "evt_20261018_ad60d3ff94",
+      "event_ids": [
+        "evt_20261018_ad60d3ff94"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    }
+  }
+}

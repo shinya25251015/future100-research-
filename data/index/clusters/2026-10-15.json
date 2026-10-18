@@ -108,7 +108,8 @@
     "https://nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland": "clu_274c70d0c2",
     "https://ec.europa.eu/eurostat/databrowser/view/sts_inpr_m?keys=PRD%2FC27%2FSCA%2FI21%2FEU27_2020&period=2026-05": "clu_9a984dc463",
     "https://nasa.gov/missions/station/iss-research/power-up-roll-out-solar-arrays-boost-space-station-power-supply": "clu_f79aaef062",
-    "https://ec.europa.eu/eurostat/databrowser/view/sts_inpr_m?keys=PRD%2FC26%2FSCA%2FI21%2FEU27_2020&period=2025-11": "clu_6f161ccc78"
+    "https://ec.europa.eu/eurostat/databrowser/view/sts_inpr_m?keys=PRD%2FC26%2FSCA%2FI21%2FEU27_2020&period=2025-11": "clu_6f161ccc78",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2192": "clu_8b275d0554"
   },
   "by_hash": {
     "f6cc27b7f20b99b04deda40a30c37714d86cbdb887d1d6733ec74474ecdb5c5a": "clu_1392c9953c",
@@ -219,7 +220,8 @@
     "5098d6a2e2af8e4bfed0060a2b5349234afc71118b210defe54c46ba7e9958cd": "clu_274c70d0c2",
     "0dee135e91e2f2be3c0a34ae8d12e4f754f691c40e3b9111e15e82b1f1977d5d": "clu_9a984dc463",
     "758fa4c5d18c6602540b435592ae3c27e737f9354ab5474e7c20c469751a6635": "clu_f79aaef062",
-    "2461505f3c00ff4e95088ab77e666cb6fe0066c894b3573016ae85d89fc09990": "clu_6f161ccc78"
+    "2461505f3c00ff4e95088ab77e666cb6fe0066c894b3573016ae85d89fc09990": "clu_6f161ccc78",
+    "b20d54e30615dd126d8536d1fc56c7073967596111a8866a17ef31b71ee95419": "clu_8b275d0554"
   },
   "by_key": {
     "samsung electronics::samsung hosts silicon valley future wireless summit 2026::2026-10-15": "clu_1392c9953c",
@@ -325,7 +327,8 @@
     "nasa::nasa to conduct low-altitude flights over texas farmland::2026-10-15": "clu_274c70d0c2",
     "european commission (eurostat)::production in industry - monthly data(production (volume), manufacture of electrical equipment, seasonally and calendar adjusted data, european union - 27 countries (from 2020)) 2026-05: 99.9 指数(2021=100)::2026-10-15": "clu_9a984dc463",
     "nasa::power up: roll out solar arrays boost space station power supply::2026-10-15": "clu_f79aaef062",
-    "european commission (eurostat)::production in industry - monthly data(production (volume), manufacture of computer, electronic and optical products, seasonally and calendar adjusted data, european union - 27 countries (from 2020)) 2025-11: 97.3 指数(2021=100)::2026-10-15": "clu_6f161ccc78"
+    "european commission (eurostat)::production in industry - monthly data(production (volume), manufacture of computer, electronic and optical products, seasonally and calendar adjusted data, european union - 27 countries (from 2020)) 2025-11: 97.3 指数(2021=100)::2026-10-15": "clu_6f161ccc78",
+    "european commission::remarks by commissioner brunner at an event on the occasion of the 75th anniversary of the europa-institut at saarland university::2026-10-15": "clu_8b275d0554"
   },
   "clusters": {
     "clu_1392c9953c": {
@@ -1284,6 +1287,15 @@
       ],
       "source_ids": [
         "src_eurostat_industry_energy"
+      ]
+    },
+    "clu_8b275d0554": {
+      "primary_event_id": "evt_20261018_b20d54e306",
+      "event_ids": [
+        "evt_20261018_b20d54e306"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }
