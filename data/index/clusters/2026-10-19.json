@@ -120,7 +120,13 @@
     "https://nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis": "clu_c768bf157f",
     "https://nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat": "clu_ff7cb2ef7b",
     "https://nasa.gov/centers-and-facilities/glenn/acoustics-experimental-facilities": "clu_64f414087e",
-    "https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source": "clu_a54dcddf73"
+    "https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source": "clu_a54dcddf73",
+    "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2204": "clu_8a05c673ac",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2201": "clu_7f5c195b91",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2200": "clu_3f139ca298",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2203": "clu_1f9370887f",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2205": "clu_60b128ca5c",
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2199": "clu_dc4b9b449d"
   },
   "by_hash": {
     "979ac74ea08a3027c0bb1e8ad029ff1a7c6bdc57a100380d0ae5d7264bfb6e6b": "clu_627666ecce",
@@ -237,7 +243,13 @@
     "48e7c6a9ff804de3c8859ba6311704028e4cfa1356b959f7393c01f3bceee653": "clu_c768bf157f",
     "580a3487b9cf01a377a14190c51adb1092edcfe8e0f3f32169ffe788958aebe2": "clu_ff7cb2ef7b",
     "249954dd0b1c37a9fb39552dcfdfc531198eb8dd4418eee10cc68395ce63ac2e": "clu_64f414087e",
-    "83896fc36a1c1a2b199c51d6d12c59657e884c7eac760a14a0888fe1f135ced4": "clu_a54dcddf73"
+    "83896fc36a1c1a2b199c51d6d12c59657e884c7eac760a14a0888fe1f135ced4": "clu_a54dcddf73",
+    "14c0e4818b62b33a984bbaa4fa269a58f3a561deb5647751fcba692f4c39c397": "clu_8a05c673ac",
+    "93f1dec3f8a67fe906605523f881f0e571736695a481d3050dafc7668d09c3c4": "clu_7f5c195b91",
+    "81b131f7f9bdf417ca9142d5c4ae867e1f68a68c8d6f4736c463ef658de21266": "clu_3f139ca298",
+    "48eb7ca9f6ed6b789920fddfd8c2835dba52a1238dc05820f04334cb1ca7d0f4": "clu_1f9370887f",
+    "d0d49435e0c545ba571111297067041e321533d481c3e7f56cac24d5e680242b": "clu_60b128ca5c",
+    "df6e04b618d90ad22f131b742bff3c09cb83a21f442451633382109ae795e582": "clu_dc4b9b449d"
   },
   "by_key": {
     "office of the federal register::bulk manufacturer of controlled substances application: janssen pharmaceuticals, inc.::2026-10-19": "clu_627666ecce",
@@ -354,7 +366,13 @@
     "nasa::nasa improves shock, vibration analysis::2026-10-19": "clu_c768bf157f",
     "nasa::nasa’s simulated mars crew marks one year inside habitat::2026-10-19": "clu_ff7cb2ef7b",
     "nasa::experimental facilities::2026-10-19": "clu_64f414087e",
-    "nasa::apod: 2026 october 19 – treble clef: unusual x-ray hot radio source::2026-10-19": "clu_a54dcddf73"
+    "nasa::apod: 2026 october 19 – treble clef: unusual x-ray hot radio source::2026-10-19": "clu_a54dcddf73",
+    "european commission::statement by president von der leyen on europe's northern neighbourhood: a new strategy for the arctic::2026-10-19": "clu_8a05c673ac",
+    "european commission::factsheet on vision 2040 for fisheries and aquaculture in the eu::2026-10-19": "clu_7f5c195b91",
+    "european commission::commission presents its vision 2040 for a thriving fisheries and aquaculture sector::2026-10-19": "clu_3f139ca298",
+    "european commission::eu sets out a new strategy for the arctic::2026-10-19": "clu_1f9370887f",
+    "european commission::eu and new caledonia sign strategic partnership on sustainable raw materials::2026-10-19": "clu_60b128ca5c",
+    "european commission::questions and answers on the vision 2040 for fisheries and aquaculture::2026-10-19": "clu_dc4b9b449d"
   },
   "clusters": {
     "clu_627666ecce": {
@@ -1390,6 +1408,60 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_8a05c673ac": {
+      "primary_event_id": "evt_20261021_14c0e4818b",
+      "event_ids": [
+        "evt_20261021_14c0e4818b"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_7f5c195b91": {
+      "primary_event_id": "evt_20261021_93f1dec3f8",
+      "event_ids": [
+        "evt_20261021_93f1dec3f8"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_3f139ca298": {
+      "primary_event_id": "evt_20261021_81b131f7f9",
+      "event_ids": [
+        "evt_20261021_81b131f7f9"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_1f9370887f": {
+      "primary_event_id": "evt_20261021_48eb7ca9f6",
+      "event_ids": [
+        "evt_20261021_48eb7ca9f6"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_60b128ca5c": {
+      "primary_event_id": "evt_20261021_d0d49435e0",
+      "event_ids": [
+        "evt_20261021_d0d49435e0"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_dc4b9b449d": {
+      "primary_event_id": "evt_20261021_df6e04b618",
+      "event_ids": [
+        "evt_20261021_df6e04b618"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

@@ -7,7 +7,8 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2182": "clu_91736d6f1a",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2178": "clu_0210e52451",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2184": "clu_6275dd005a",
-    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2185": "clu_d80fceb5d5"
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2185": "clu_d80fceb5d5",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2213": "clu_41f5c97f4c"
   },
   "by_hash": {
     "3392c11086e1d56b20ee7a643fc1137d629f3b225c4bdca19b98f5d0109c861a": "clu_ee8478cfec",
@@ -17,7 +18,8 @@
     "ddd0f83e60fe362b6bea3df02113066c7490efeefeb42dd8c1bb967f16cbcc7c": "clu_91736d6f1a",
     "dcb25e9bd2b8559afb208f5855c080f22b6e055321844dd6e4291898a86284d6": "clu_0210e52451",
     "539b45ddaa88643ad4061d4b05c5475b5fef8a839461fe00bb2098c93811c992": "clu_6275dd005a",
-    "d4e50be22e25ce8472adbac65b0f30a23335ea00390ee097a198860a769ab113": "clu_d80fceb5d5"
+    "d4e50be22e25ce8472adbac65b0f30a23335ea00390ee097a198860a769ab113": "clu_d80fceb5d5",
+    "6671f86ac424a26218c4fac54f29fca6a4d3f323b584611c2cdbd229456958c4": "clu_41f5c97f4c"
   },
   "by_key": {
     "european commission::commission statement on the protests in albania::2026-10-18": "clu_ee8478cfec",
@@ -27,7 +29,8 @@
     "european commission::andorra and san marino sign association agreement to move closer to the eu::2026-10-18": "clu_91736d6f1a",
     "european commission::commission sends statement of objections to kkr for providing incorrect or misleading information during merger investigation::2026-10-18": "clu_0210e52451",
     "european commission::eu invests over €390 million in 135 new climate and environment projects::2026-10-18": "clu_6275dd005a",
-    "european commission::new life project summaries::2026-10-18": "clu_d80fceb5d5"
+    "european commission::new life project summaries::2026-10-18": "clu_d80fceb5d5",
+    "european commission::speech by commissioner albuquerque (by video message) for the financial wellbeing institute roundtable on the savings and investments union::2026-10-18": "clu_41f5c97f4c"
   },
   "clusters": {
     "clu_ee8478cfec": {
@@ -97,6 +100,15 @@
       "primary_event_id": "evt_20261020_d4e50be22e",
       "event_ids": [
         "evt_20261020_d4e50be22e"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_41f5c97f4c": {
+      "primary_event_id": "evt_20261021_6671f86ac4",
+      "event_ids": [
+        "evt_20261021_6671f86ac4"
       ],
       "source_ids": [
         "src_eu_commission_press"
