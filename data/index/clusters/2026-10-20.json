@@ -824,7 +824,9 @@
     "https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m?keys=PRD%2FF%2FSCA%2FI21%2FEU27_2020&period=2026-02": "clu_1183c5d224",
     "https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m?keys=PRD%2FF%2FSCA%2FI21%2FEU27_2020&period=2026-06": "clu_2b7aad7f84",
     "https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m?keys=PRD%2FF%2FSCA%2FI21%2FEU27_2020&period=2025-08": "clu_7c215c823b",
-    "https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m?keys=PRD%2FF%2FSCA%2FI21%2FEU27_2020&period=2026-08": "clu_ed645fcd00"
+    "https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m?keys=PRD%2FF%2FSCA%2FI21%2FEU27_2020&period=2026-08": "clu_ed645fcd00",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2206": "clu_45e90f8453",
+    "https://blogs.nvidia.com/blog/european-leaders-vera-cpu-infrastructure": "clu_cf8272b019"
   },
   "by_hash": {
     "9ba01272836529f3a089269dcc51521265c68b5922aea81afe0f3b7c0270026b": "clu_7a3f55eb2c",
@@ -1651,7 +1653,9 @@
     "babd6e38c1170eb1083396e5bcd9b56e869dcfbc5863043ebb34d761242be459": "clu_1183c5d224",
     "1f85da986ea3479355a180a75322adb700f216af47d50398cf4c2cef3772ba6a": "clu_2b7aad7f84",
     "39233c9043e3672f528d5324ca6884e47174c9cf9fa9965294b5d209af8be20b": "clu_7c215c823b",
-    "4f09aaa51cc0249da890582505fe2fba5653aad97779b157649154ae1ef358c1": "clu_ed645fcd00"
+    "4f09aaa51cc0249da890582505fe2fba5653aad97779b157649154ae1ef358c1": "clu_ed645fcd00",
+    "46224f975dad3a480b0cd96e5248381c81e8b5c47169000bbcfd86e3bbf5c206": "clu_45e90f8453",
+    "dd42bdcfd46c59e0a3a7c6aedd45c934f06a42832637506a8c4ef101e7eb0c3d": "clu_cf8272b019"
   },
   "by_key": {
     "日本銀行::基準外国為替相場及び裁定外国為替相場(11月分)::2026-10-20": "clu_7a3f55eb2c",
@@ -2478,7 +2482,9 @@
     "european commission (eurostat)::production in construction - monthly data(production (volume), construction, seasonally and calendar adjusted data, european union - 27 countries (from 2020)) 2026-02: 102.3 指数(2021=100)::2026-10-20": "clu_1183c5d224",
     "european commission (eurostat)::production in construction - monthly data(production (volume), construction, seasonally and calendar adjusted data, european union - 27 countries (from 2020)) 2026-06: 103.5 指数(2021=100)::2026-10-20": "clu_2b7aad7f84",
     "european commission (eurostat)::production in construction - monthly data(production (volume), construction, seasonally and calendar adjusted data, european union - 27 countries (from 2020)) 2025-08: 103.8 指数(2021=100)::2026-10-20": "clu_7c215c823b",
-    "european commission (eurostat)::production in construction - monthly data(production (volume), construction, seasonally and calendar adjusted data, european union - 27 countries (from 2020)) 2026-08: 105.5 指数(2021=100)::2026-10-20": "clu_ed645fcd00"
+    "european commission (eurostat)::production in construction - monthly data(production (volume), construction, seasonally and calendar adjusted data, european union - 27 countries (from 2020)) 2026-08: 105.5 指数(2021=100)::2026-10-20": "clu_ed645fcd00",
+    "european commission::commission welcomes political agreement on rules enhancing stability and long-term resilience of eu carbon market::2026-10-20": "clu_45e90f8453",
+    "nvidia corporation::european leaders turn to nvidia vera cpus to build local infrastructure::2026-10-20": "clu_cf8272b019"
   },
   "clusters": {
     "clu_7a3f55eb2c": {
@@ -9904,6 +9910,24 @@
       ],
       "source_ids": [
         "src_eurostat_industry_energy"
+      ]
+    },
+    "clu_45e90f8453": {
+      "primary_event_id": "evt_20261022_46224f975d",
+      "event_ids": [
+        "evt_20261022_46224f975d"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_cf8272b019": {
+      "primary_event_id": "evt_20261022_dd42bdcfd4",
+      "event_ids": [
+        "evt_20261022_dd42bdcfd4"
+      ],
+      "source_ids": [
+        "src_nvidia_newsroom"
       ]
     }
   }
