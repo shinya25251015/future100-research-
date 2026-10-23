@@ -538,7 +538,8 @@
     "https://science.nasa.gov/image-article/apod-2026-october-21-new-ghosts-revealed-in-cassiopeia": "clu_23155a8c24",
     "https://nasa.gov/centers-and-facilities/jpl/nasa-jpl-looks-to-next-90-years-of-innovation-exploration": "clu_7484d9579f",
     "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface": "clu_6d5485cebb",
-    "https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world": "clu_e6a265f392"
+    "https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world": "clu_e6a265f392",
+    "https://ec.europa.eu/commission/presscorner/detail/el/speech_26_2227": "clu_4a36c7e509"
   },
   "by_hash": {
     "b84838b6409eee021040787b6d0781ae60ada0a1bf212805993da1d5fd0458ab": "clu_ef20e312b1",
@@ -1076,7 +1077,8 @@
     "1cfcb8a17362475f66457a8d95bafaeae7f9742a6f49a1e10bde6e071523173b": "clu_23155a8c24",
     "8822cf0e74cba2cad820ebc6ecfc1605a03b095554cb474891b102226cb53d84": "clu_7484d9579f",
     "c576c26b489740727309a2b6705f088dcc46c784204947f6f59bec8f05f25422": "clu_6d5485cebb",
-    "ead9b4c1c63e0cf8159e91a20021dc60e7228632b57bfe3debf4f6d36d3c8c4e": "clu_e6a265f392"
+    "ead9b4c1c63e0cf8159e91a20021dc60e7228632b57bfe3debf4f6d36d3c8c4e": "clu_e6a265f392",
+    "c2191a44e117db1da65f363bfde74a8195d0ed52510103d2ad557308e2ee76b0": "clu_4a36c7e509"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 20年 2026-10-20: 5.47 %::2026-10-21": "clu_ef20e312b1",
@@ -1614,7 +1616,8 @@
     "nasa::apod: 2026 october 21 – new ghosts revealed in cassiopeia::2026-10-21": "clu_23155a8c24",
     "nasa::nasa jpl looks to next 90 years of innovation, exploration::2026-10-21": "clu_7484d9579f",
     "nasa::nasa’s casals instrument bridges gaps in 3d maps of earth’s surface::2026-10-21": "clu_6d5485cebb",
-    "nasa::tracks along the longest drive on another world::2026-10-21": "clu_e6a265f392"
+    "nasa::tracks along the longest drive on another world::2026-10-21": "clu_e6a265f392",
+    "european commission::commissioner tzitzikostas delivers a keynote speech at excellence centre jean monnet::2026-10-21": "clu_4a36c7e509"
   },
   "clusters": {
     "clu_ef20e312b1": {
@@ -6439,6 +6442,15 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_4a36c7e509": {
+      "primary_event_id": "evt_20261023_c2191a44e1",
+      "event_ids": [
+        "evt_20261023_c2191a44e1"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }
