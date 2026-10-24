@@ -71,7 +71,15 @@
     "https://whitehouse.gov/presidential-actions/2026/10/further-modifying-the-scope-of-products-of-canada-subject-to-the-additional-duties-imposed-to-offset-canadian-discrimination-against-the-commerce-of-the-united-states-with-respect-to-motor-vehicles": "clu_c95fbc16d9",
     "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem": "clu_13074f66c1",
     "https://news.samsung.com/global/inside-jbl-playback-gallery-80-years-of-sound-innovation": "clu_3b8502fda3",
-    "https://war.gov/News/Contracts/Contract/Article/4632813/contracts-for-oct-23-2026": "clu_c32ebda2c1"
+    "https://war.gov/News/Contracts/Contract/Article/4632813/contracts-for-oct-23-2026": "clu_c32ebda2c1",
+    "https://spectrum.ieee.org/preethi-ashwath-chip-designer": "clu_3b96ccc646",
+    "https://science.nasa.gov/image-article/apod-2026-october-23-andromeda-in-southern-spring": "clu_e9cd58ffd0",
+    "https://nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis": "clu_72ac05d69a",
+    "https://nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions": "clu_eda639f24b",
+    "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends": "clu_85c225ae68",
+    "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now": "clu_5f51150033",
+    "https://nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations": "clu_216c961619",
+    "https://nasa.gov/centers-and-facilities/langley/nasa-power-energy-partnership": "clu_82f34ade71"
   },
   "by_hash": {
     "699d4ba5aab3b91ee558053110bc84788893dd85b99f67700e09a56f15d6c6f5": "clu_14b020b984",
@@ -144,7 +152,15 @@
     "7f61d3d5f3e311776e2188aba221fc559dd953e5ca3eaf780d9b74e5f0f7672a": "clu_c95fbc16d9",
     "09dde94cb9c0c8db976f8d71a907d6ddc005e7792788fb95c5b970b2299b3db6": "clu_13074f66c1",
     "f91a8573f3e3ba3a76b366286df4b32fadc744c1bd0605fb8d44455beea8e628": "clu_3b8502fda3",
-    "eea0ecbda2dbcd3fb813ef67150c577e4aadcd279e55da4aef48e6934c7cef34": "clu_c32ebda2c1"
+    "eea0ecbda2dbcd3fb813ef67150c577e4aadcd279e55da4aef48e6934c7cef34": "clu_c32ebda2c1",
+    "574d9a1ab0fcdc59edcc44583a1f435e9bbbb4e9db6ea9f31ef5ebee3c9f32ce": "clu_3b96ccc646",
+    "fd819f93f1cb581d2245453887c9fb75019c34ac12814a1410f0f7a06ac6a6ed": "clu_e9cd58ffd0",
+    "70e4f9646fcbe29bff126f61884fce2cde098ceb7367975c39ec01f292fad609": "clu_72ac05d69a",
+    "02a2217fd306bfe1c93544b06639ef0a4e52d84fb2cf5a4c11580c05621fdb54": "clu_eda639f24b",
+    "ff2aaa875b7e74d8ced4b2848dbbb6e948e952af507080966c425a0a1a46a501": "clu_85c225ae68",
+    "11708a411c637181480cab13963f0dad360353ae1115db78ed057a0f7dcd126c": "clu_5f51150033",
+    "951501f9362c3ea97341fee9fc8447339193423909ece04df00a1a9188fe4425": "clu_216c961619",
+    "19cfaf94660d07444aa9d5932bfa2c3bdea5b0721040ab5c58511d6dd9c66e95": "clu_82f34ade71"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 20年 2026-10-22: 5.32 %::2026-10-23": "clu_14b020b984",
@@ -213,7 +229,15 @@
     "the white house::further modifying the scope of products of canada subject to the additional duties imposed to offset canadian discrimination against the commerce of the united states with respect to motor vehicles::2026-10-23": "clu_c95fbc16d9",
     "nvidia corporation::kazakhstan expands compute for its ai future::2026-10-23": "clu_13074f66c1",
     "samsung electronics::inside jbl playback gallery: 80 years of sound innovation::2026-10-23": "clu_3b8502fda3",
-    "u.s. department of war (旧 department of defense)::contracts for oct. 23, 2026::2026-10-23": "clu_c32ebda2c1"
+    "u.s. department of war (旧 department of defense)::contracts for oct. 23, 2026::2026-10-23": "clu_c32ebda2c1",
+    "ieee::from chip lab to center stage::2026-10-23": "clu_3b96ccc646",
+    "nasa::apod: 2026 october 23 – andromeda in southern spring::2026-10-23": "clu_e9cd58ffd0",
+    "nasa::rs-25 engine tests at nasa stennis::2026-10-23": "clu_72ac05d69a",
+    "nasa::nasa, partners accelerate lander development for 2028 moon missions::2026-10-23": "clu_eda639f24b",
+    "nasa::nasa’s swift mission ends, leaves behind scientific bonanza::2026-10-23": "clu_85c225ae68",
+    "nasa::el niño then and now::2026-10-23": "clu_5f51150033",
+    "nasa::nasa’s artemis iii mission to test future moon lander operations::2026-10-23": "clu_216c961619",
+    "nasa::nasa, virginia launch power partnership for energy security::2026-10-23": "clu_82f34ade71"
   },
   "clusters": {
     "clu_14b020b984": {
@@ -853,6 +877,78 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_3b96ccc646": {
+      "primary_event_id": "evt_20261024_574d9a1ab0",
+      "event_ids": [
+        "evt_20261024_574d9a1ab0"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    },
+    "clu_e9cd58ffd0": {
+      "primary_event_id": "evt_20261024_fd819f93f1",
+      "event_ids": [
+        "evt_20261024_fd819f93f1"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_72ac05d69a": {
+      "primary_event_id": "evt_20261024_70e4f9646f",
+      "event_ids": [
+        "evt_20261024_70e4f9646f"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_eda639f24b": {
+      "primary_event_id": "evt_20261024_02a2217fd3",
+      "event_ids": [
+        "evt_20261024_02a2217fd3"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_85c225ae68": {
+      "primary_event_id": "evt_20261024_ff2aaa875b",
+      "event_ids": [
+        "evt_20261024_ff2aaa875b"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_5f51150033": {
+      "primary_event_id": "evt_20261024_11708a411c",
+      "event_ids": [
+        "evt_20261024_11708a411c"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_216c961619": {
+      "primary_event_id": "evt_20261024_951501f936",
+      "event_ids": [
+        "evt_20261024_951501f936"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_82f34ade71": {
+      "primary_event_id": "evt_20261024_19cfaf9466",
+      "event_ids": [
+        "evt_20261024_19cfaf9466"
+      ],
+      "source_ids": [
+        "src_nasa_news"
       ]
     }
   }
