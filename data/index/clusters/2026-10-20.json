@@ -827,7 +827,8 @@
     "https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m?keys=PRD%2FF%2FSCA%2FI21%2FEU27_2020&period=2026-08": "clu_ed645fcd00",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2206": "clu_45e90f8453",
     "https://blogs.nvidia.com/blog/european-leaders-vera-cpu-infrastructure": "clu_cf8272b019",
-    "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2241": "clu_76ec30368b"
+    "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2241": "clu_76ec30368b",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2243": "clu_f13ceb4348"
   },
   "by_hash": {
     "9ba01272836529f3a089269dcc51521265c68b5922aea81afe0f3b7c0270026b": "clu_7a3f55eb2c",
@@ -1657,7 +1658,8 @@
     "4f09aaa51cc0249da890582505fe2fba5653aad97779b157649154ae1ef358c1": "clu_ed645fcd00",
     "46224f975dad3a480b0cd96e5248381c81e8b5c47169000bbcfd86e3bbf5c206": "clu_45e90f8453",
     "dd42bdcfd46c59e0a3a7c6aedd45c934f06a42832637506a8c4ef101e7eb0c3d": "clu_cf8272b019",
-    "1a420ec628e7d8842a2f4ba7e28d5b398ee2d16b2bc4e8f19a0f2287aae3af1f": "clu_76ec30368b"
+    "1a420ec628e7d8842a2f4ba7e28d5b398ee2d16b2bc4e8f19a0f2287aae3af1f": "clu_76ec30368b",
+    "70bb5056094671df63ccf99f26ecbecd0de8da3e39374a8d4a246ecfe00a5442": "clu_f13ceb4348"
   },
   "by_key": {
     "日本銀行::基準外国為替相場及び裁定外国為替相場(11月分)::2026-10-20": "clu_7a3f55eb2c",
@@ -2487,7 +2489,8 @@
     "european commission (eurostat)::production in construction - monthly data(production (volume), construction, seasonally and calendar adjusted data, european union - 27 countries (from 2020)) 2026-08: 105.5 指数(2021=100)::2026-10-20": "clu_ed645fcd00",
     "european commission::commission welcomes political agreement on rules enhancing stability and long-term resilience of eu carbon market::2026-10-20": "clu_45e90f8453",
     "nvidia corporation::european leaders turn to nvidia vera cpus to build local infrastructure::2026-10-20": "clu_cf8272b019",
-    "european commission::remarks by commissioner mcgrath in the european parliament plenary session on the rule of law in malta::2026-10-20": "clu_76ec30368b"
+    "european commission::remarks by commissioner mcgrath in the european parliament plenary session on the rule of law in malta::2026-10-20": "clu_76ec30368b",
+    "european commission::guest piece by commissioner hansen \"feeding europe: the security we had forgotten\"::2026-10-20": "clu_f13ceb4348"
   },
   "clusters": {
     "clu_7a3f55eb2c": {
@@ -9937,6 +9940,15 @@
       "primary_event_id": "evt_20261023_1a420ec628",
       "event_ids": [
         "evt_20261023_1a420ec628"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_f13ceb4348": {
+      "primary_event_id": "evt_20261023_70bb505609",
+      "event_ids": [
+        "evt_20261023_70bb505609"
       ],
       "source_ids": [
         "src_eu_commission_press"

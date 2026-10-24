@@ -1,10 +1,10 @@
 {
   "report_id": "rpt_20261023",
   "report_date": "2026-10-23",
-  "as_of": "2026-10-23T00:05:28Z",
+  "as_of": "2026-10-23T23:56:24Z",
   "coverage": {
-    "events_ingested": 428,
-    "events_after_dedup": 428,
+    "events_ingested": 494,
+    "events_after_dedup": 494,
     "sources_polled": 24,
     "sources_failed": []
   },
@@ -13,13 +13,13 @@
       "no": 1,
       "key": "executive_summary",
       "title": "本日の構造変化サマリ",
-      "body": "本日の観測は 428 件。内訳（分類別）: technology 339 / policy_regulation 63 / macro 11 / corporate_action 8 / supply_demand 7。シグナル種別: paper 332 / procurement 4 / export_control 1 / subsidy 1 / government_budget 1。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 14 件）。件数は観測量であって重要度ではない。"
+      "body": "本日の観測は 494 件。内訳（分類別）: technology 340 / policy_regulation 123 / macro 14 / corporate_action 10 / supply_demand 7。シグナル種別: paper 332 / procurement 5 / export_control 3 / subsidy 1 / government_budget 1 / patent 1。同時増加のしきい値を満たした topic: 0 件（観測期間不足で判定保留: 14 件）。件数は観測量であって重要度ではない。"
     },
     {
       "no": 2,
       "key": "policy_regulation",
       "title": "政策・規制 (§4)",
-      "body": "本日 63 件を観測。\n- [B] 2026-10-22 Why Engineers Should Brave Capitol Hill (evt_20261023_36e62d000c)\n- [A] 2026-10-22 Contracts for Oct. 22, 2026 (evt_20261023_8a0b4082bb)\n- [A] 2026-10-22 National Seafood Month, 2026 (evt_20261023_3433e7544b)\n- [A] 2026-10-22 DECREASING HOUSING COSTS FOR THE AMERICAN PEOPLE (evt_20261023_1f3e0edb0f)\n- [A] 2026-10-22 Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Domestic Petroleum Production, Refining, and Logistics Capacity (evt_20261023_53455d5199)\n- [A] 2026-10-22 Adjusting Imports of Wind Turbines and Their Parts and Components into the United States (evt_20261023_139c47da2e)\n- [A] 2026-10-22 Speech by Commissioner Lahbib at the Resilient Europe Conference (evt_20261023_1cbdbd63c8)\n- [A] 2026-10-22 Commission welcomes commitments of Coca-Cola, Nestlé, and Danone to modify recycling claims on plastic bottles (evt_20261023_9e81f8ea08)"
+      "body": "本日 123 件を観測。\n- [B] 2026-10-22 Why Engineers Should Brave Capitol Hill (evt_20261023_36e62d000c)\n- [A] 2026-10-23 Contracts for Oct. 23, 2026 (evt_20261023_eea0ecbda2)\n- [A] 2026-10-23 FURTHER MODIFYING THE SCOPE OF PRODUCTS OF CANADA SUBJECT TO THE ADDITIONAL DUTIES IMPOSED TO OFFSET CANADIAN DISCRIMINATION AGAINST THE COMMERCE OF THE UNITED STATES WITH RESPECT TO MOTOR VEHICLES (evt_20261023_7f61d3d5f3)\n- [A] 2026-10-23 Remarks by Commissioner Šefčovič at the press conference following the informal Foreign Affairs Council (Trade) (evt_20261023_1b22f593f0)\n- [A] 2026-10-23 Speech by President von der Leyen to the Hungarian National Assembly on the occasion of the 70th anniversary of the Hungarian Revolution of 1956 (evt_20261023_22ccf3b4e8)\n- [A] 2026-10-23 Commission proposes stronger recognition of European heritage sites* (evt_20261023_df6b5ad55b)\n- [A] 2026-10-23 Daily News 23 / 10 / 2026 (evt_20261023_a1a623fd53)\n- [A] 2026-10-23 EU Civil Protection Mechanism turns 25 (evt_20261023_01ef7d56f0)"
     },
     {
       "no": 3,
@@ -31,7 +31,7 @@
       "no": 4,
       "key": "macro_economy",
       "title": "マクロ経済 (§6)",
-      "body": "本日 11 件を観測（うち一次統計のデータ点 8 件）。\n- 統計 米国 公的債務残高 = 40,413,639,012,305.97 USD（2026-10-21, 本日 1 期ぶんを観測）\n- 統計 米国 民間保有債務残高 = 32,566,346,587,338.02 USD（2026-10-21, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 10年 = 4.96 %（2026-10-22, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 20年 = 5.32 %（2026-10-22, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 2年 = 4.65 %（2026-10-22, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 30年 = 5.29 %（2026-10-22, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 3か月 = 4.22 %（2026-10-22, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 5年 = 4.78 %（2026-10-22, 本日 1 期ぶんを観測）\n- [A] 2026-10-22 日本銀行が保有する国債の銘柄別残高 (evt_20261023_120296d439)\n- [A] 2026-10-22 （日銀レビュー）企業の決算説明会テキストを用いた経済政策不確実性の考察 (evt_20261023_b266502eaf)\n- [A] 2026-10-22 営業毎旬報告（10月20日現在） (evt_20261023_dd2f86768c)"
+      "body": "本日 14 件を観測（うち一次統計のデータ点 8 件）。\n- 統計 米国 公的債務残高 = 40,413,639,012,305.97 USD（2026-10-21, 本日 1 期ぶんを観測）\n- 統計 米国 民間保有債務残高 = 32,566,346,587,338.02 USD（2026-10-21, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 10年 = 4.96 %（2026-10-22, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 20年 = 5.32 %（2026-10-22, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 2年 = 4.65 %（2026-10-22, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 30年 = 5.29 %（2026-10-22, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 3か月 = 4.22 %（2026-10-22, 本日 1 期ぶんを観測）\n- 統計 米国債利回り 5年 = 4.78 %（2026-10-22, 本日 1 期ぶんを観測）\n- [A] 2026-10-23 バーゼル銀行監督委員会による「グローバルなシステム上重要な銀行（G-SIB）-ウィンドウ・ドレッシング行動に対処するための評価枠組みの改訂」及び市中協議文書「G-SIB評価手法のレビュー」の公表について (evt_20261023_6b03be4161)\n- [A] 2026-10-23 日本銀行政策委員会月報（令和8年8・9月号） (evt_20261023_8433543010)\n- [A] 2026-10-23 金融システムレポート（2026年10月号） (evt_20261023_5068015a07)\n- [A] 2026-10-22 日本銀行が保有する国債の銘柄別残高 (evt_20261023_120296d439)\n- [A] 2026-10-22 （日銀レビュー）企業の決算説明会テキストを用いた経済政策不確実性の考察 (evt_20261023_b266502eaf)\n- [A] 2026-10-22 営業毎旬報告（10月20日現在） (evt_20261023_dd2f86768c)"
     },
     {
       "no": 5,
@@ -43,7 +43,7 @@
       "no": 6,
       "key": "technology_progress",
       "title": "技術革新の進展 (§8)",
-      "body": "本日 339 件を観測。\n- [B] 2026-10-22 Why AI Can’t Replace Engineering Teams (evt_20261023_64bd64c9ed)\n- [B] 2026-10-22 RuleSmith: Multi-Agent LLMs for Automated Game Balancing (evt_20261023_737ae82738)\n- [B] 2026-10-22 The Reflexivity Threshold: A Phase Transition for Multi-Agent Performative Prediction (evt_20261023_8fb34ee8b2)\n- [B] 2026-10-22 A Strong MoE Is All You Need for Process Supervision (evt_20261023_cd6e8d0880)\n- [B] 2026-10-22 MICA: Multi-granularity Intertemporal Credit Assignment for Long-Horizon Emotional Support Dialogue (evt_20261023_a143698c8d)\n- [B] 2026-10-22 An interpretable deep learning method for early hepatocellular carcinoma diagnosis on multiphase CT (evt_20261023_6692689854)\n- [B] 2026-10-22 Hereditary Effective Atom Theory for Large-Scale Atomic Structure Prediction (evt_20261023_bf6ad1220e)\n- [B] 2026-10-22 Why is AI-generated language so hard to understand? (evt_20261023_e6fbe89bdf)"
+      "body": "本日 340 件を観測。\n- [B] 2026-10-22 Why AI Can’t Replace Engineering Teams (evt_20261023_64bd64c9ed)\n- [B] 2026-10-22 RuleSmith: Multi-Agent LLMs for Automated Game Balancing (evt_20261023_737ae82738)\n- [B] 2026-10-22 The Reflexivity Threshold: A Phase Transition for Multi-Agent Performative Prediction (evt_20261023_8fb34ee8b2)\n- [B] 2026-10-22 A Strong MoE Is All You Need for Process Supervision (evt_20261023_cd6e8d0880)\n- [B] 2026-10-22 MICA: Multi-granularity Intertemporal Credit Assignment for Long-Horizon Emotional Support Dialogue (evt_20261023_a143698c8d)\n- [B] 2026-10-22 An interpretable deep learning method for early hepatocellular carcinoma diagnosis on multiphase CT (evt_20261023_6692689854)\n- [B] 2026-10-22 Hereditary Effective Atom Theory for Large-Scale Atomic Structure Prediction (evt_20261023_bf6ad1220e)\n- [B] 2026-10-22 Why is AI-generated language so hard to understand? (evt_20261023_e6fbe89bdf)"
     },
     {
       "no": 7,
@@ -109,7 +109,7 @@
   "prohibited_output_check": {
     "contains_ticker_recommendation": false,
     "contains_ranking": false,
-    "checked_at": "2026-10-23T00:06:16Z"
+    "checked_at": "2026-10-23T23:57:09Z"
   },
   "schema_version": "1.0"
 }
