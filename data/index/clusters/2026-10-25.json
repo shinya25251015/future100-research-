@@ -1,0 +1,22 @@
+{
+  "by_url": {
+    "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe": "clu_31bde44742"
+  },
+  "by_hash": {
+    "aed2eef01bd6eaf58a24618ea20162a42ca3cfad43a62eab5c22c38b0c1b98b1": "clu_31bde44742"
+  },
+  "by_key": {
+    "nasa::apod: 2026 october 25 – dark matter in a simulated universe::2026-10-25": "clu_31bde44742"
+  },
+  "clusters": {
+    "clu_31bde44742": {
+      "primary_event_id": "evt_20261025_aed2eef01b",
+      "event_ids": [
+        "evt_20261025_aed2eef01b"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    }
+  }
+}
