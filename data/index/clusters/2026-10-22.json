@@ -426,7 +426,8 @@
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-01": "clu_053f67ca4c",
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-03": "clu_f24bd48a28",
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-05": "clu_f5ef3b7785",
-    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2232": "clu_f4bdc1ae21"
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2232": "clu_f4bdc1ae21",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2267": "clu_4d31a2e03c"
   },
   "by_hash": {
     "5fb7b5d9d7063c710ba4fe6ff1e1e1f96057d9ef5fc9213b3eec5ca5c628f3af": "clu_a468404324",
@@ -854,7 +855,8 @@
     "2d81012ca957ab84e450ed3f5b4a9adc0f49bc869b39d1404230216f2b7bea74": "clu_053f67ca4c",
     "c7e4e42449c69df5dd8942deb2663c3afb54f69ed5b22d44e2a4d28170f0711b": "clu_f24bd48a28",
     "33f1a7de93f99e22698b6f16c480a46039854105e66ae1ec3276a81276c3b8b2": "clu_f5ef3b7785",
-    "addd4890e1698b93b888a459651abf82a6dfd3120b709d7d744ffff9576ea4b9": "clu_f4bdc1ae21"
+    "addd4890e1698b93b888a459651abf82a6dfd3120b709d7d744ffff9576ea4b9": "clu_f4bdc1ae21",
+    "150f1a2e2f626a6712c0a4cc8d2874df659c9d7306f602adb652ac4569991b05": "clu_4d31a2e03c"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 20年 2026-10-21: 5.47 %::2026-10-22": "clu_a468404324",
@@ -1280,7 +1282,8 @@
     "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-01: 269,561.692 gwh::2026-10-22": "clu_053f67ca4c",
     "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-03: 240,823.629 gwh::2026-10-22": "clu_f24bd48a28",
     "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-05: 210,610.752 gwh::2026-10-22": "clu_f5ef3b7785",
-    "european commission::commission opens investigation into possible anticompetitive conduct by omya in the supply of calcium carbonates to the paper industry::2026-10-22": "clu_f4bdc1ae21"
+    "european commission::commission opens investigation into possible anticompetitive conduct by omya in the supply of calcium carbonates to the paper industry::2026-10-22": "clu_f4bdc1ae21",
+    "european commission::commissioner roswall's address at an event to mark the handover of the #handsoffnature petition::2026-10-22": "clu_4d31a2e03c"
   },
   "clusters": {
     "clu_a468404324": {
@@ -5112,6 +5115,15 @@
       "primary_event_id": "evt_20261023_addd4890e1",
       "event_ids": [
         "evt_20261023_addd4890e1"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_4d31a2e03c": {
+      "primary_event_id": "evt_20261027_150f1a2e2f",
+      "event_ids": [
+        "evt_20261027_150f1a2e2f"
       ],
       "source_ids": [
         "src_eu_commission_press"

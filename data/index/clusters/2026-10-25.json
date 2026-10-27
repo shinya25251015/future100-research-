@@ -1,12 +1,18 @@
 {
   "by_url": {
-    "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe": "clu_31bde44742"
+    "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe": "clu_31bde44742",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2231": "clu_be8e5d0ba1",
+    "https://spectrum.ieee.org/poetry-for-engineers-of-code-and-shortleaf-pine": "clu_24a31ed005"
   },
   "by_hash": {
-    "aed2eef01bd6eaf58a24618ea20162a42ca3cfad43a62eab5c22c38b0c1b98b1": "clu_31bde44742"
+    "aed2eef01bd6eaf58a24618ea20162a42ca3cfad43a62eab5c22c38b0c1b98b1": "clu_31bde44742",
+    "2c5787bbc9451ef5bfc314038b49a88838f4e0f4baf92eb9a00d7aa619e69563": "clu_be8e5d0ba1",
+    "d6428c7f378db834a11e5fd180820be3dfc63e92bf4d5663bc77706e39bd385a": "clu_24a31ed005"
   },
   "by_key": {
-    "nasa::apod: 2026 october 25 – dark matter in a simulated universe::2026-10-25": "clu_31bde44742"
+    "nasa::apod: 2026 october 25 – dark matter in a simulated universe::2026-10-25": "clu_31bde44742",
+    "european commission::eu citizens think innovative foods can be useful but want more information, new eurobarometer shows::2026-10-25": "clu_be8e5d0ba1",
+    "ieee::poetry for engineers: of code and shortleaf pine::2026-10-25": "clu_24a31ed005"
   },
   "clusters": {
     "clu_31bde44742": {
@@ -16,6 +22,24 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_be8e5d0ba1": {
+      "primary_event_id": "evt_20261027_2c5787bbc9",
+      "event_ids": [
+        "evt_20261027_2c5787bbc9"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_24a31ed005": {
+      "primary_event_id": "evt_20261027_d6428c7f37",
+      "event_ids": [
+        "evt_20261027_d6428c7f37"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
       ]
     }
   }

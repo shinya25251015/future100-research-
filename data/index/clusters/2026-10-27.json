@@ -1,0 +1,118 @@
+{
+  "by_url": {
+    "https://news.samsung.com/global/hands-on-comfort-convenience-and-more-a-day-with-galaxy-buds-on": "clu_ebcc2f1f52",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-26&tenor=20%E5%B9%B4": "clu_76c129cf3c",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-26&tenor=5%E5%B9%B4": "clu_b4c5d7fa28",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-26&tenor=2%E5%B9%B4": "clu_bf7140a318",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-26&tenor=3%E3%81%8B%E6%9C%88": "clu_895628388f",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-26&tenor=10%E5%B9%B4": "clu_71e3eba958",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-26&tenor=30%E5%B9%B4": "clu_0f714427d4",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-10-23&series=tot_pub_debt_out_amt": "clu_58076f6ce2",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-10-23&series=debt_held_public_amt": "clu_98d3a324b1"
+  },
+  "by_hash": {
+    "f26242bee9b2bd29cd722b6f6543d714f1a5ffa12a042e3d1d320cb146940ebf": "clu_ebcc2f1f52",
+    "89cd4c5477e17b41debe4f65505fee2e54eea983ac77ebacb4bf5e494e5e267b": "clu_76c129cf3c",
+    "166174f24e6bfa6a4e90ceb6d900d2a1d1586737774558a87f646faa36ff97c3": "clu_b4c5d7fa28",
+    "9f98f00a40bafad45d3634ed472949c766f437a51cc45c2b21facb9432430d95": "clu_bf7140a318",
+    "c4c48ce5f5f7e42200f1a3eb10272d9ae3d5ec211f294f3ab239b3079c1d6e0f": "clu_895628388f",
+    "d45d832a29c06142c1c1396383bf967270b128cd43c57e534b53285e91a2c435": "clu_71e3eba958",
+    "b7f10895f93188c69c575ca48f1dfbf3fea7a5b58bb03d41073b6634958ce1e5": "clu_0f714427d4",
+    "c93f725ac77439b143170f9166951dff92c657bbe92cf958ba610b96e13bd83b": "clu_58076f6ce2",
+    "28161f3e575530adeff1a90f398b8e5543041a1df968960410a4af46b99bec36": "clu_98d3a324b1"
+  },
+  "by_key": {
+    "samsung electronics::[hands-on] comfort, convenience, and more: a day with galaxy buds on::2026-10-27": "clu_ebcc2f1f52",
+    "u.s. department of the treasury::米国債利回り 20年 2026-10-26: 5.35 %::2026-10-27": "clu_76c129cf3c",
+    "u.s. department of the treasury::米国債利回り 5年 2026-10-26: 4.84 %::2026-10-27": "clu_b4c5d7fa28",
+    "u.s. department of the treasury::米国債利回り 2年 2026-10-26: 4.68 %::2026-10-27": "clu_bf7140a318",
+    "u.s. department of the treasury::米国債利回り 3か月 2026-10-26: 4.22 %::2026-10-27": "clu_895628388f",
+    "u.s. department of the treasury::米国債利回り 10年 2026-10-26: 5 %::2026-10-27": "clu_71e3eba958",
+    "u.s. department of the treasury::米国債利回り 30年 2026-10-26: 5.31 %::2026-10-27": "clu_0f714427d4",
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-10-23: 40,463,151,897,249.188 usd::2026-10-27": "clu_58076f6ce2",
+    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-10-23: 32,610,649,676,158.391 usd::2026-10-27": "clu_98d3a324b1"
+  },
+  "clusters": {
+    "clu_ebcc2f1f52": {
+      "primary_event_id": "evt_20261027_f26242bee9",
+      "event_ids": [
+        "evt_20261027_f26242bee9"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_76c129cf3c": {
+      "primary_event_id": "evt_20261027_89cd4c5477",
+      "event_ids": [
+        "evt_20261027_89cd4c5477"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_b4c5d7fa28": {
+      "primary_event_id": "evt_20261027_166174f24e",
+      "event_ids": [
+        "evt_20261027_166174f24e"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_bf7140a318": {
+      "primary_event_id": "evt_20261027_9f98f00a40",
+      "event_ids": [
+        "evt_20261027_9f98f00a40"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_895628388f": {
+      "primary_event_id": "evt_20261027_c4c48ce5f5",
+      "event_ids": [
+        "evt_20261027_c4c48ce5f5"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_71e3eba958": {
+      "primary_event_id": "evt_20261027_d45d832a29",
+      "event_ids": [
+        "evt_20261027_d45d832a29"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_0f714427d4": {
+      "primary_event_id": "evt_20261027_b7f10895f9",
+      "event_ids": [
+        "evt_20261027_b7f10895f9"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_58076f6ce2": {
+      "primary_event_id": "evt_20261027_c93f725ac7",
+      "event_ids": [
+        "evt_20261027_c93f725ac7"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    },
+    "clu_98d3a324b1": {
+      "primary_event_id": "evt_20261027_28161f3e57",
+      "event_ids": [
+        "evt_20261027_28161f3e57"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    }
+  }
+}
