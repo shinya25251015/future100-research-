@@ -401,7 +401,14 @@
     "https://science.nasa.gov/earth/earth-observatory/hunting-red-leaves-with-satellites": "clu_11d244a647",
     "https://nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture": "clu_b5b02c231a",
     "https://war.gov/News/Contracts/Contract/Article/4633995/contracts-for-oct-26-2026": "clu_b6089e4c45",
-    "https://nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california": "clu_b0fb6adc04"
+    "https://nasa.gov/news-release/nasa-invites-media-to-moon-landing-simulation-experience-in-california": "clu_b0fb6adc04",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2264": "clu_d96630ff1f",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2263": "clu_1e5ce20e3a",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2244": "clu_4123da4b86",
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2245": "clu_a1a81547b1",
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2261": "clu_5ad7aad0b8",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2246": "clu_db492a0cb5",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2260": "clu_5ae43390cd"
   },
   "by_hash": {
     "299224ebe651c2f5f44ecb94634ec2bf497e370b98bb04f41d81be7cfc4555b8": "clu_4a31deeca0",
@@ -804,7 +811,14 @@
     "a6723d8a986d8c111a5e0954f0fadea92688d0e980994865292c5f3890f67dfd": "clu_11d244a647",
     "81c7fc262520789f4c8b309a5dbd37fce543de66344c86d3d1cec67198871b31": "clu_b5b02c231a",
     "15009af7268e1f0fde66f757c842426da0c93d167c0323d5c42a80922a17ac35": "clu_b6089e4c45",
-    "7d035234a2ebb5fc246327bb2954075a2b66cf98e45e12bb1936d2f77dde7ad5": "clu_b0fb6adc04"
+    "7d035234a2ebb5fc246327bb2954075a2b66cf98e45e12bb1936d2f77dde7ad5": "clu_b0fb6adc04",
+    "8ac5a74b6e55f8c508959b9fe53ac632589cc4e9fd3b0e551deaed64a29a3c80": "clu_d96630ff1f",
+    "45a10cbcf777d262b67b1b5d6349064e1307823ef845673083c22dbd012c9892": "clu_1e5ce20e3a",
+    "8c5982cbb2620aa97426f092ee8ca5def2120d552568e7dd3cbb77b479020de2": "clu_4123da4b86",
+    "89fdd1e22e1765c62d46e5bf06055aaa405f043f0a903ed136eed0e20c266e55": "clu_a1a81547b1",
+    "ef2a43d2756cf5a8c5ae4d3cf8e963464ac8c811e0ec8fa3d0c11135669c9d32": "clu_5ad7aad0b8",
+    "86d4118b3f7f6170fa201fbc2457eb2361e542011a13a2d545b76724d95b6182": "clu_db492a0cb5",
+    "cffb42864eb805cdeaef57f77e9e1cf5e053ce142a2b7a21bcd33dc297bcf334": "clu_5ae43390cd"
   },
   "by_key": {
     "office of the federal register::agency information collection activities; proposed collection ecomments requested; revision of a previously approved collection; application for cancellation of removal (form eoir-42a) for certain permanent residents; and application for cancellation of removal and adjustment of status (form eoir-42b) for certain nonpermanent residents::2026-10-26": "clu_4a31deeca0",
@@ -1207,7 +1221,14 @@
     "nasa::hunting red leaves with satellites::2026-10-26": "clu_11d244a647",
     "nasa::nasa, usda sign agreement advancing earth science, agriculture::2026-10-26": "clu_b5b02c231a",
     "u.s. department of war (旧 department of defense)::contracts for oct. 26, 2026::2026-10-26": "clu_b6089e4c45",
-    "nasa::nasa invites media to moon landing simulation experience in california::2026-10-26": "clu_b0fb6adc04"
+    "nasa::nasa invites media to moon landing simulation experience in california::2026-10-26": "clu_b0fb6adc04",
+    "european commission::remarks by executive vice-president ribera and commissioner hoekstra at the press conference on the eu framework for climate resilience::2026-10-26": "clu_d96630ff1f",
+    "european commission::factsheet: a stronger frontex::2026-10-26": "clu_1e5ce20e3a",
+    "european commission::commission presents climate resilience framework for a better prepared and protected europe::2026-10-26": "clu_4123da4b86",
+    "european commission::questions and answers on the eu climate resilience framework::2026-10-26": "clu_a1a81547b1",
+    "european commission::questions and answers on the commission proposal to reinforce frontex: stronger border protection, a greater role on returns and more effective crisis response::2026-10-26": "clu_5ad7aad0b8",
+    "european commission::factsheet - eu framework for climate resilience::2026-10-26": "clu_db492a0cb5",
+    "european commission::commission proposes to reinforce frontex: stronger border protection, a greater role on returns and more effective crisis response::2026-10-26": "clu_5ae43390cd"
   },
   "clusters": {
     "clu_4a31deeca0": {
@@ -4817,6 +4838,69 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_d96630ff1f": {
+      "primary_event_id": "evt_20261028_8ac5a74b6e",
+      "event_ids": [
+        "evt_20261028_8ac5a74b6e"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_1e5ce20e3a": {
+      "primary_event_id": "evt_20261028_45a10cbcf7",
+      "event_ids": [
+        "evt_20261028_45a10cbcf7"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_4123da4b86": {
+      "primary_event_id": "evt_20261028_8c5982cbb2",
+      "event_ids": [
+        "evt_20261028_8c5982cbb2"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_a1a81547b1": {
+      "primary_event_id": "evt_20261028_89fdd1e22e",
+      "event_ids": [
+        "evt_20261028_89fdd1e22e"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_5ad7aad0b8": {
+      "primary_event_id": "evt_20261028_ef2a43d275",
+      "event_ids": [
+        "evt_20261028_ef2a43d275"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_db492a0cb5": {
+      "primary_event_id": "evt_20261028_86d4118b3f",
+      "event_ids": [
+        "evt_20261028_86d4118b3f"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_5ae43390cd": {
+      "primary_event_id": "evt_20261028_cffb42864e",
+      "event_ids": [
+        "evt_20261028_cffb42864e"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }
