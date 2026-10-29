@@ -173,7 +173,9 @@
     "https://nasa.gov/image-article/nasas-neo-surveyor-sunshade": "clu_420b5ad417",
     "https://nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent": "clu_fc6af14ab8",
     "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden": "clu_ed9c20a30f",
-    "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-07": "clu_feb875f06c"
+    "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-07": "clu_feb875f06c",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2274": "clu_70e8a12321",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2271": "clu_dbd1a4da19"
   },
   "by_hash": {
     "f26242bee9b2bd29cd722b6f6543d714f1a5ffa12a042e3d1d320cb146940ebf": "clu_ebcc2f1f52",
@@ -348,7 +350,9 @@
     "ff480e94c1ebef61e4b2315dc2b521f539209ba2e881736e929be153ae3314a4": "clu_420b5ad417",
     "7a730a81aeb99c93657f872371907badbd2e68bf6883dbc0be46b5ceaf0b87e3": "clu_fc6af14ab8",
     "43296d180dafc817b028a0c572cb69249144ca649da174244b8442c95f6ee5c7": "clu_ed9c20a30f",
-    "daf40307b0dd4f49aa43a5e445422046607bc44998a9dd4d5f7a4f41f3c4ad68": "clu_feb875f06c"
+    "daf40307b0dd4f49aa43a5e445422046607bc44998a9dd4d5f7a4f41f3c4ad68": "clu_feb875f06c",
+    "3252c0306c30d4504a9b7eadad1c14ed43ae75e4da134360be4772beff46ceeb": "clu_70e8a12321",
+    "c45464d1df32b941af7c0b66e0d09636e34c9bc87be57f8167c4fd5c371d0362": "clu_dbd1a4da19"
   },
   "by_key": {
     "samsung electronics::[hands-on] comfort, convenience, and more: a day with galaxy buds on::2026-10-27": "clu_ebcc2f1f52",
@@ -520,7 +524,9 @@
     "nasa::nasa’s neo surveyor sunshade::2026-10-27": "clu_420b5ad417",
     "nasa::how a johnson mentor shapes the next generation of nasa talent::2026-10-27": "clu_fc6af14ab8",
     "nasa::apod: 2026 october 27 – noctilucent clouds over sweden::2026-10-27": "clu_ed9c20a30f",
-    "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-07: 228,202.623 gwh::2026-10-27": "clu_feb875f06c"
+    "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-07: 228,202.623 gwh::2026-10-27": "clu_feb875f06c",
+    "european commission::new eurobarometer survey shows young people's growing engagement and views on participatory democracy, youth issues, and eu's added value in their lives::2026-10-27": "clu_70e8a12321",
+    "european commission::factsheet - eu demography toolbox::2026-10-27": "clu_dbd1a4da19"
   },
   "clusters": {
     "clu_ebcc2f1f52": {
@@ -2071,6 +2077,24 @@
       ],
       "source_ids": [
         "src_eurostat_industry_energy"
+      ]
+    },
+    "clu_70e8a12321": {
+      "primary_event_id": "evt_20261029_3252c0306c",
+      "event_ids": [
+        "evt_20261029_3252c0306c"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_dbd1a4da19": {
+      "primary_event_id": "evt_20261029_c45464d1df",
+      "event_ids": [
+        "evt_20261029_c45464d1df"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }
