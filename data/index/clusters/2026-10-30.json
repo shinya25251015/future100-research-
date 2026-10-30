@@ -1,0 +1,130 @@
+{
+  "by_url": {
+    "http://boj.or.jp/about/release/sousailive.htm": "clu_5be159e69c",
+    "https://science.nasa.gov/photojournal/map-showing-potential-origins-of-martian-meteorite-teghaza-001": "clu_413531faac",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-29&tenor=30%E5%B9%B4": "clu_3e9278cf50",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-29&tenor=10%E5%B9%B4": "clu_05a074bb8e",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-29&tenor=2%E5%B9%B4": "clu_865ea6eb52",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-10-28&series=tot_pub_debt_out_amt": "clu_131a9974af",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-29&tenor=5%E5%B9%B4": "clu_aa46afba9a",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-29&tenor=3%E3%81%8B%E6%9C%88": "clu_f8e3b814ff",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-29&tenor=20%E5%B9%B4": "clu_da2ba03e1d",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-10-28&series=debt_held_public_amt": "clu_d3910746ff"
+  },
+  "by_hash": {
+    "0428f197d64f9e858d0edbad27a22e241adfedc8faf8dd13cbc8056b36b378c5": "clu_5be159e69c",
+    "4cb47b1f8f073caaba54bec1372e19b03c3bcfe6257d7408fc6b07c6ed0a86cc": "clu_413531faac",
+    "a66fdf3bd505455140af8499db86484875b322ba382118d54424d97c0c31acba": "clu_3e9278cf50",
+    "954ff026d999e74bc7aef05d8732b5dd5e569ae1e01e21de5e37bb6c70c2dd5f": "clu_05a074bb8e",
+    "e79ad83ad16991a9892d4f0c104b9c35d7c21c4f05245f168379968026e03d1b": "clu_865ea6eb52",
+    "fa9dd7e6f5c751b2c0940b40db564e319ad906f3afe48c339d571039efc2b11c": "clu_131a9974af",
+    "1cbf0c532f7acfecb9446a7db5d55850109f733980bbd43d29654a1d96fd612b": "clu_aa46afba9a",
+    "6327b8f187a705a341fdd083c915a8404c5c6f99aa7b1a0728716db8ec5bf83f": "clu_f8e3b814ff",
+    "9669b3dc470ac659729bb5f327588d9cb5fcb0713dff6e60971a3fcb8cbff644": "clu_da2ba03e1d",
+    "6e4308d4bf27082e3a99379a81fbbeabf6bc97c641631ce7bac64f244e7439bd": "clu_d3910746ff"
+  },
+  "by_key": {
+    "日本銀行::総裁記者会見ライブ配信(10月30日15時30分予定)::2026-10-30": "clu_5be159e69c",
+    "nasa::map showing potential origins of martian meteorite teghaza 001::2026-10-30": "clu_413531faac",
+    "u.s. department of the treasury::米国債利回り 30年 2026-10-29: 5.32 %::2026-10-30": "clu_3e9278cf50",
+    "u.s. department of the treasury::米国債利回り 10年 2026-10-29: 4.98 %::2026-10-30": "clu_05a074bb8e",
+    "u.s. department of the treasury::米国債利回り 2年 2026-10-29: 4.61 %::2026-10-30": "clu_865ea6eb52",
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-10-28: 40,551,054,852,362.406 usd::2026-10-30": "clu_131a9974af",
+    "u.s. department of the treasury::米国債利回り 5年 2026-10-29: 4.78 %::2026-10-30": "clu_aa46afba9a",
+    "u.s. department of the treasury::米国債利回り 3か月 2026-10-29: 4.18 %::2026-10-30": "clu_f8e3b814ff",
+    "u.s. department of the treasury::米国債利回り 20年 2026-10-29: 5.35 %::2026-10-30": "clu_da2ba03e1d",
+    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-10-28: 32,671,924,859,186.91 usd::2026-10-30": "clu_d3910746ff"
+  },
+  "clusters": {
+    "clu_5be159e69c": {
+      "primary_event_id": "evt_20261030_0428f197d6",
+      "event_ids": [
+        "evt_20261030_0428f197d6"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_413531faac": {
+      "primary_event_id": "evt_20261030_4cb47b1f8f",
+      "event_ids": [
+        "evt_20261030_4cb47b1f8f"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_3e9278cf50": {
+      "primary_event_id": "evt_20261030_a66fdf3bd5",
+      "event_ids": [
+        "evt_20261030_a66fdf3bd5"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_05a074bb8e": {
+      "primary_event_id": "evt_20261030_954ff026d9",
+      "event_ids": [
+        "evt_20261030_954ff026d9"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_865ea6eb52": {
+      "primary_event_id": "evt_20261030_e79ad83ad1",
+      "event_ids": [
+        "evt_20261030_e79ad83ad1"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_131a9974af": {
+      "primary_event_id": "evt_20261030_fa9dd7e6f5",
+      "event_ids": [
+        "evt_20261030_fa9dd7e6f5"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    },
+    "clu_aa46afba9a": {
+      "primary_event_id": "evt_20261030_1cbf0c532f",
+      "event_ids": [
+        "evt_20261030_1cbf0c532f"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_f8e3b814ff": {
+      "primary_event_id": "evt_20261030_6327b8f187",
+      "event_ids": [
+        "evt_20261030_6327b8f187"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_da2ba03e1d": {
+      "primary_event_id": "evt_20261030_9669b3dc47",
+      "event_ids": [
+        "evt_20261030_9669b3dc47"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_d3910746ff": {
+      "primary_event_id": "evt_20261030_6e4308d4bf",
+      "event_ids": [
+        "evt_20261030_6e4308d4bf"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    }
+  }
+}
