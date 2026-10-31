@@ -77,7 +77,11 @@
     "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results": "clu_07727c95ad",
     "https://nasa.gov/image-article/nasas-hubble-marks-way-for-roman-space-telescope": "clu_0d0501a5de",
     "https://nasa.gov/solar-system/planets/mars/nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found": "clu_6f07be443d",
-    "https://nasa.gov/news-release/envia-tu-nombre-a-titan-a-bordo-de-la-mision-dragonfly-de-la-nasa": "clu_7779f0c20b"
+    "https://nasa.gov/news-release/envia-tu-nombre-a-titan-a-bordo-de-la-mision-dragonfly-de-la-nasa": "clu_7779f0c20b",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2287": "clu_cfdca5ffdd",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2291": "clu_081ade2096",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2285": "clu_226cd317fc",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2301": "clu_e61e36c12f"
   },
   "by_hash": {
     "5a5b36e1b7602ad7e69305b92048edd5046ff0dd85cbd3237dee5a62e7ab2eaa": "clu_f4379d0ea0",
@@ -150,7 +154,11 @@
     "7ed08add6c3effe5073c4bb603425c85d6476478101980a0f84904410adadcc4": "clu_07727c95ad",
     "31fe682e6e7c37dc5b9cc94f45cc1108292c7acddb1b3b7ef4338d3dfba33cb3": "clu_0d0501a5de",
     "eb64cdf5d3a55990ff54f9f2deb537ba188bf746f3a8511476e507148438d037": "clu_6f07be443d",
-    "a539f2f91130d0133bc851180ab9eb68b07c042e157d41f2af714b5ee0c88abf": "clu_7779f0c20b"
+    "a539f2f91130d0133bc851180ab9eb68b07c042e157d41f2af714b5ee0c88abf": "clu_7779f0c20b",
+    "424ab904eb4c86c5f74b54c28d0c39ba0a63b03f0f25df63192329e127ddd29f": "clu_cfdca5ffdd",
+    "0ca7819de3f19724b49797bbbdc1de36b0db32c4ecf6373e75655c83fb8ff20e": "clu_081ade2096",
+    "40fd27d68bf475b90f90b586fb47aad86ceadba3a600b28b3fbc612f34590967": "clu_226cd317fc",
+    "a09c5e80297507ab88b9bc07c39fdaa74818f2f5d11b7e499b4a4c7dc2a7f500": "clu_e61e36c12f"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 20年 2026-10-28: 5.41 %::2026-10-29": "clu_f4379d0ea0",
@@ -222,7 +230,11 @@
     "samsung electronics::samsung electronics announces third quarter 2026 results::2026-10-29": "clu_07727c95ad",
     "nasa::nasa’s hubble marks way for roman space telescope::2026-10-29": "clu_0d0501a5de",
     "nasa::nasa-funded study details one of oldest mars meteorites ever found::2026-10-29": "clu_6f07be443d",
-    "nasa::envía tu nombre a titán a bordo de la misión dragonfly de la nasa::2026-10-29": "clu_7779f0c20b"
+    "nasa::envía tu nombre a titán a bordo de la misión dragonfly de la nasa::2026-10-29": "clu_7779f0c20b",
+    "european commission::eu announces establishment and composition of prepareu advisory group on european disaster preparedness::2026-10-29": "clu_cfdca5ffdd",
+    "european commission::keynote speech by commissioner dombrovskis at nato fuse event::2026-10-29": "clu_081ade2096",
+    "european commission::europeans overwhelmingly support stronger eu civil protection cooperation based on solidarity, new eurobarometer shows::2026-10-29": "clu_226cd317fc",
+    "european commission::commission takes a key step forward on 2027 financial support for ukraine::2026-10-29": "clu_e61e36c12f"
   },
   "clusters": {
     "clu_f4379d0ea0": {
@@ -862,6 +874,42 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_cfdca5ffdd": {
+      "primary_event_id": "evt_20261031_424ab904eb",
+      "event_ids": [
+        "evt_20261031_424ab904eb"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_081ade2096": {
+      "primary_event_id": "evt_20261031_0ca7819de3",
+      "event_ids": [
+        "evt_20261031_0ca7819de3"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_226cd317fc": {
+      "primary_event_id": "evt_20261031_40fd27d68b",
+      "event_ids": [
+        "evt_20261031_40fd27d68b"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_e61e36c12f": {
+      "primary_event_id": "evt_20261031_a09c5e8029",
+      "event_ids": [
+        "evt_20261031_a09c5e8029"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

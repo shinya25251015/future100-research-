@@ -492,7 +492,8 @@
     "https://science.nasa.gov/get-involved/citizen-science/nasa-selects-19-new-citizen-science-proposals-in-2026": "clu_902fc47125",
     "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io": "clu_6a697a3f02",
     "https://nasa.gov/image-article/webb-sees-turbulent-star-nursery": "clu_46f2d69f8a",
-    "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-07": "clu_dbc61601fb"
+    "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-07": "clu_dbc61601fb",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2315": "clu_429a18de5c"
   },
   "by_hash": {
     "25313defb3cce6792ca000fd7e4a523d03bdc60d15d0a1cbe0ad87ab15d83838": "clu_a6a3ee32b9",
@@ -984,7 +985,8 @@
     "81e2e8889dc6f4e333c44923b09154ac657dbc24ef3d768e14aa4e9d33ed59b1": "clu_902fc47125",
     "0dc127dddd7a26cf638ad34172c9dca1ea1ed4b33aa414f8455891c2708035a5": "clu_6a697a3f02",
     "cbd41438fb44dfed5c942ea252dea896f760449b1218f947f314c4d27aeb5b1b": "clu_46f2d69f8a",
-    "6b5ae0f192e045019edc5a9487240aeb731bfb158c8527179a4e4e1f3a273c2d": "clu_dbc61601fb"
+    "6b5ae0f192e045019edc5a9487240aeb731bfb158c8527179a4e4e1f3a273c2d": "clu_dbc61601fb",
+    "6ada2bdd4031e54d7838b25b44760b9df89bcb25ad1ad1ca4a7b8ac65e729cde": "clu_429a18de5c"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 20年 2026-10-27: 5.34 %::2026-10-28": "clu_a6a3ee32b9",
@@ -1476,7 +1478,8 @@
     "nasa::nasa selects 19 new citizen science proposals in 2026::2026-10-28": "clu_902fc47125",
     "nasa::apod: 2026 october 28 – the mutual occultation of ganymede and io::2026-10-28": "clu_6a697a3f02",
     "nasa::webb sees turbulent star nursery::2026-10-28": "clu_46f2d69f8a",
-    "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-07: 228,097.623 gwh::2026-10-28": "clu_dbc61601fb"
+    "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-07: 228,097.623 gwh::2026-10-28": "clu_dbc61601fb",
+    "european commission::speech of commissioner mcgrath at dublin city university high-level event: eu inc. “driving the eu competitiveness agenda”::2026-10-28": "clu_429a18de5c"
   },
   "clusters": {
     "clu_a6a3ee32b9": {
@@ -5873,6 +5876,15 @@
       ],
       "source_ids": [
         "src_eurostat_industry_energy"
+      ]
+    },
+    "clu_429a18de5c": {
+      "primary_event_id": "evt_20261031_6ada2bdd40",
+      "event_ids": [
+        "evt_20261031_6ada2bdd40"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

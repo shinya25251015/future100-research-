@@ -1,0 +1,97 @@
+{
+  "window_id": "sig_semiconductor_20261031",
+  "as_of": "2026-10-31T00:58:31Z",
+  "window": {
+    "start": "2026-10-25",
+    "end": "2026-10-31",
+    "baseline_start": "2026-09-27",
+    "baseline_end": "2026-10-24"
+  },
+  "topic": {
+    "label": "半導体",
+    "keywords": [
+      "semiconductor",
+      "foundry",
+      "wafer",
+      "lithography",
+      "euv",
+      "hbm",
+      "chip fab",
+      "半導体",
+      "前工程",
+      "後工程",
+      "露光装置"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_semiconductor"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 25,
+      "baseline_count": 22.5,
+      "event_ids": [
+        "evt_20261027_986f31478f",
+        "evt_20261027_54018a175c",
+        "evt_20261027_3280135642",
+        "evt_20261027_285a1eba87",
+        "evt_20261027_02f97ccde8",
+        "evt_20261028_eb83cd371e",
+        "evt_20261028_5d3220526e",
+        "evt_20261028_cef0df7a7f",
+        "evt_20261028_099d236b07",
+        "evt_20261028_184610bb07",
+        "evt_20261029_748ca40c82",
+        "evt_20261029_627a972d79",
+        "evt_20261029_95d5a36f51",
+        "evt_20261029_8885c36038",
+        "evt_20261029_86cc4d633a",
+        "evt_20261029_e61afd212b",
+        "evt_20261031_5f1b212c0f",
+        "evt_20261031_b6ea650a2a",
+        "evt_20261031_71cf02cc9e",
+        "evt_20261031_cc8d4ead49",
+        "evt_20261031_db28ec6ac0",
+        "evt_20261031_7179557e0d",
+        "evt_20261031_cbba150b86",
+        "evt_20261031_1728ff4013",
+        "evt_20261031_e961f960ca"
+      ],
+      "delta_ratio": 0.111
+    },
+    {
+      "signal_type": "patent",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      },
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 2,
+    "distinct_regions": 1,
+    "score": 34.2,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}
