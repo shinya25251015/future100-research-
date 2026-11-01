@@ -7,7 +7,10 @@
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-30&tenor=5%E5%B9%B4": "clu_3fbc29133e",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-10-30&tenor=3%E3%81%8B%E6%9C%88": "clu_26d1aac3a2",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-10-29&series=tot_pub_debt_out_amt": "clu_c67d999586",
-    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-10-29&series=debt_held_public_amt": "clu_dbcab9a366"
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-10-29&series=debt_held_public_amt": "clu_dbcab9a366",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2318": "clu_8df1bbc815",
+    "https://spectrum.ieee.org/early-electric-vehicles": "clu_f7a0ddfb23",
+    "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet": "clu_6577bf9fd6"
   },
   "by_hash": {
     "5b042827bee2c42138fcb1075a0bf6f3da915d726b0013da9085d6ac3a8965d5": "clu_5973a730e4",
@@ -17,7 +20,10 @@
     "c099aa8750d7d805b7dcd921c7cafa5f5cf432d5567baeae09ac94748f480700": "clu_3fbc29133e",
     "46fefa7826c53accc57c82722bbbeb04ae4f28b0e38ac498df3b9fa1c9592e27": "clu_26d1aac3a2",
     "1d84bac115452a494483166b87a6d2e27e14fb0de1d614e39859a5b1062718f0": "clu_c67d999586",
-    "1c45627892095a0c98232012dae7059c08c26c101b153d91e40ee61bbaceebfd": "clu_dbcab9a366"
+    "1c45627892095a0c98232012dae7059c08c26c101b153d91e40ee61bbaceebfd": "clu_dbcab9a366",
+    "0332a58bad428fdab80faf3d464e6ec599fee136ac0c5b9d8977d209fe61e8a2": "clu_8df1bbc815",
+    "af549fbefd714c3a8423f589daa11980df46933d9596c11a4af52c6f96a085f7": "clu_f7a0ddfb23",
+    "16a1a351de7f2df316f2f2cd2ac7c3f6a701439a15fb7907549cb4abb5195476": "clu_6577bf9fd6"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 30年 2026-10-30: 5.31 %::2026-10-31": "clu_5973a730e4",
@@ -27,7 +33,10 @@
     "u.s. department of the treasury::米国債利回り 5年 2026-10-30: 4.71 %::2026-10-31": "clu_3fbc29133e",
     "u.s. department of the treasury::米国債利回り 3か月 2026-10-30: 4.16 %::2026-10-31": "clu_26d1aac3a2",
     "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-10-29: 40,593,637,262,883.477 usd::2026-10-31": "clu_c67d999586",
-    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-10-29: 32,712,190,190,967.422 usd::2026-10-31": "clu_dbcab9a366"
+    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-10-29: 32,712,190,190,967.422 usd::2026-10-31": "clu_dbcab9a366",
+    "european commission::eu-canada summit 2026: leaders mark a historic moment in bilateral relations::2026-10-31": "clu_8df1bbc815",
+    "ieee::when electric cars were for women::2026-10-31": "clu_f7a0ddfb23",
+    "nasa::apod: 2026 october 31 – night on a spooky planet::2026-10-31": "clu_6577bf9fd6"
   },
   "clusters": {
     "clu_5973a730e4": {
@@ -100,6 +109,33 @@
       ],
       "source_ids": [
         "src_us_treasury_debt"
+      ]
+    },
+    "clu_8df1bbc815": {
+      "primary_event_id": "evt_20261101_0332a58bad",
+      "event_ids": [
+        "evt_20261101_0332a58bad"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_f7a0ddfb23": {
+      "primary_event_id": "evt_20261101_af549fbefd",
+      "event_ids": [
+        "evt_20261101_af549fbefd"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    },
+    "clu_6577bf9fd6": {
+      "primary_event_id": "evt_20261101_16a1a351de",
+      "event_ids": [
+        "evt_20261101_16a1a351de"
+      ],
+      "source_ids": [
+        "src_nasa_news"
       ]
     }
   }

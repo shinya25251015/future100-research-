@@ -1,0 +1,597 @@
+{
+  "by_url": {
+    "https://federalregister.gov/documents/2026/11/02/2026-22341/nces-request-for-information-correction": "clu_ae1fa195c8",
+    "https://federalregister.gov/documents/2026/11/02/2026-22328/request-for-information-reopening-of-comment-period": "clu_2ae74c1e53",
+    "https://federalregister.gov/documents/2026/11/02/2026-22314/notice-of-availability-of-the-record-of-decision-for-the-final-supplemental-environmental-impact": "clu_a9ac69b53a",
+    "https://federalregister.gov/documents/2026/11/02/2026-22338/information-collections-being-reviewed-by-the-federal-communications-commission-under-delegated": "clu_39d37061f6",
+    "https://federalregister.gov/documents/2026/11/02/2026-22326/agency-information-collection-activities-proposed-collection-comment-request": "clu_0577a3d00f",
+    "https://federalregister.gov/documents/2026/11/02/2026-22315/withdrawal-of-notice-of-intent-to-prepare-an-environmental-impact-statement-port-of-iberia-louisiana": "clu_c1e2052781",
+    "https://federalregister.gov/documents/2026/11/02/2026-22310/airworthiness-directives-diamond-aircraft-industries-inc-airplanes": "clu_5ce49ede34",
+    "https://federalregister.gov/documents/2026/11/02/2026-22330/agency-forms-undergoing-paperwork-reduction-act-review": "clu_2516fd9e39",
+    "https://federalregister.gov/documents/2026/11/02/2026-22347/potassium-permanganate-from-china-institution-of-a-five-year-review": "clu_339b676b6b",
+    "https://federalregister.gov/documents/2026/11/02/2026-22305/submission-for-omb-review-comment-request": "clu_460bf6c18b",
+    "https://federalregister.gov/documents/2026/11/02/2026-22324/notice-of-proposed-information-collection-requests-native-american-library-services-basic-grants": "clu_5327f42a5d",
+    "https://federalregister.gov/documents/2026/11/02/2026-22317/airworthiness-directives-the-boeing-company-airplanes": "clu_7eff7707a4",
+    "https://federalregister.gov/documents/2026/11/02/2026-22386/delegation-of-authority-under-section-8335-of-the-national-defense-authorization-act-for-fiscal-year": "clu_ea83035b5a",
+    "https://federalregister.gov/documents/2026/11/02/2026-22349/polyester-textured-yarn-from-indonesia-malaysia-thailand-and-vietnam-institution-of-five-year": "clu_7ad8eb8305",
+    "https://federalregister.gov/documents/2026/11/02/2026-22344/foreign-trade-zone-ftz-38-authorization-of-production-activity-coroplast-tape-corporation-pressure": "clu_89b75e10c9",
+    "https://federalregister.gov/documents/2026/11/02/2026-22333/formations-of-acquisitions-by-and-mergers-of-bank-holding-companies": "clu_8d3a65e912",
+    "https://federalregister.gov/documents/2026/11/02/2026-22342/chassis-and-subassemblies-from-china-determinations": "clu_acd4d754c3",
+    "https://federalregister.gov/documents/2026/11/02/2026-22337/unleashing-the-power-of-unlicensed-ultra-wideband-devices-petition-of-robert-bosch-llc-for-amendment": "clu_268af27be6",
+    "https://federalregister.gov/documents/2026/11/02/2026-22307/airworthiness-directives-brp-rotax-gmbh-and-co-kg-formerly-brp-powertrain-gmbh-and-co-kg-and": "clu_83effc1c83",
+    "https://federalregister.gov/documents/2026/11/02/2026-22350/renewal-of-agency-information-collection-activities-submission-for-omb-review-comment-requested": "clu_cafb7d4ffe",
+    "https://federalregister.gov/documents/2026/11/02/2026-22318/airworthiness-directives-the-boeing-company-airplanes": "clu_f25972a1ef",
+    "https://federalregister.gov/documents/2026/11/02/2026-22320/agency-information-collection-activities-extension-without-change-of-a-currently-approved-collection": "clu_90e0c8dd87",
+    "https://federalregister.gov/documents/2026/11/02/2026-22351/corrosion-resistant-steel-products-from-mexico-notice-of-court-decision-not-in-harmony-with-the": "clu_f30a955128",
+    "https://federalregister.gov/documents/2026/11/02/2026-22311/utility-scale-wind-towers-from-india-malaysia-and-spain-scheduling-of-expedited-five-year-reviews": "clu_c171ada0e6",
+    "https://federalregister.gov/documents/2026/11/02/2026-22322/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for": "clu_54093bb1aa",
+    "https://federalregister.gov/documents/2026/11/02/2026-22334/reducing-barriers-to-network-improvements-and-service-changes-accelerating-network-modernization": "clu_0c1014fe0b",
+    "https://federalregister.gov/documents/2026/11/02/2026-22385/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united": "clu_73cc73488b",
+    "https://federalregister.gov/documents/2026/11/02/2026-22313/antidumping-or-countervailing-duty-order-finding-or-suspended-investigation-advance-notification-of": "clu_029f51fec7",
+    "https://federalregister.gov/documents/2026/11/02/2026-22309/notice-of-request-for-revision-to-and-extension-of-approval-of-an-information-collection-operations": "clu_a0b8d0b95b",
+    "https://federalregister.gov/documents/2026/11/02/2026-22306/improving-transparency-into-pharmacy-benefit-manager-fee-disclosure": "clu_5992f2548e",
+    "https://federalregister.gov/documents/2026/11/02/2026-22325/notice-of-intent-to-extend-and-continue-concession-contracts-and-award-a-temporary-concession": "clu_dddb555ff2",
+    "https://federalregister.gov/documents/2026/11/02/2026-22308/welded-stainless-line-and-pressure-pipe-from-india-the-republic-of-trkiye-and-the-united-arab": "clu_6fa399cb6a",
+    "https://federalregister.gov/documents/2026/11/02/2026-22321/current-list-of-hhs-certified-laboratories-and-instrumented-initial-testing-facilities-which-meet": "clu_e9d2c2b4fb",
+    "https://federalregister.gov/documents/2026/11/02/2026-22348/certain-mobile-access-equipment-mae-and-subassemblies-thereof-from-china-institution-of-five-year": "clu_08a5b52e5b",
+    "https://federalregister.gov/documents/2026/11/02/2026-22323/notice-of-public-meeting-of-the-virginia-advisory-committee-cancellation-of-november-meeting-and": "clu_42c093ec1a",
+    "https://federalregister.gov/documents/2026/11/02/2026-22327/new-england-fishery-management-council-public-meeting": "clu_190b44bf6e",
+    "https://federalregister.gov/documents/2026/11/02/2026-22352/foreign-trade-zone-ftz-80-authorization-of-production-activity-standardaero-san-antonio-refurbished": "clu_3ff78432a9",
+    "https://federalregister.gov/documents/2026/11/02/2026-22335/notice-of-petition-for-waiver-of-compliance": "clu_b036ccbd5d",
+    "https://federalregister.gov/documents/2026/11/02/2026-22340/annual-determination-of-average-cost-of-incarceration-fee-coif": "clu_19bbe3b712",
+    "https://federalregister.gov/documents/2026/11/02/2026-22332/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for": "clu_7bd7a75b36",
+    "https://federalregister.gov/documents/2026/11/02/2026-22329/agency-forms-undergoing-paperwork-reduction-act-review": "clu_2516fd9e39",
+    "https://federalregister.gov/documents/2026/11/02/2026-22353/truck-bed-covers-from-the-peoples-republic-of-china-amended-preliminary-determination-of-the": "clu_fa1d8935d6",
+    "https://federalregister.gov/documents/2026/11/02/2026-22312/initiation-of-five-year-sunset-reviews": "clu_024cef0993",
+    "https://federalregister.gov/documents/2026/11/02/2026-22345/antidumping-or-countervailing-duty-order-finding-or-suspended-investigation-opportunity-to-request": "clu_410c5a169b",
+    "https://federalregister.gov/documents/2026/11/02/2026-22336/notice-of-petition-for-waiver-of-compliance": "clu_191a8f7af6",
+    "https://federalregister.gov/documents/2026/11/02/2026-22343/large-power-transformers-from-the-republic-of-korea-preliminary-results-of-antidumping-duty": "clu_32fb254520",
+    "https://federalregister.gov/documents/2026/11/02/2026-22346/agency-information-collection-activities-proposed-collection-comment-request-extension-rule-18a-5": "clu_e3fdc56c9d",
+    "https://federalregister.gov/documents/2026/11/02/2026-22331/notice-of-final-federal-agency-actions-on-transportation-project-in-nebraska": "clu_21243d6503",
+    "https://federalregister.gov/documents/2026/11/02/2026-22319/eunice-kennedy-shriver-national-institute-of-child-health-and-human-development-notice-of-meeting": "clu_de80849ee9",
+    "https://federalregister.gov/documents/2026/11/02/2026-22339/prospective-grant-of-exclusive-patent-license-catheter-based-intramyocardial-ablation-for-treating": "clu_b6ed9b0334"
+  },
+  "by_hash": {
+    "9af1e5f4b7e6947d7340b142d5ba9ca0193be361efdeff392f3da89c1e2a54a3": "clu_ae1fa195c8",
+    "fd5ae51dcfcdbf1e96846cd7a48dceedb85e00aaa6c3c439f5ddc6a1b1a52383": "clu_2ae74c1e53",
+    "dc1cb0ea9f5f82348d42f4d062255195d75edd30b5629c7271e3f2b47cce6f2b": "clu_a9ac69b53a",
+    "2c0ab0d39b5cf4a21bd92cbf6347f31cd66984e2e8f7af6aecf0c6f4b6f6fab9": "clu_39d37061f6",
+    "c2af2b966fb2f0f13b77dddeaddbfd5f86228a26a246a26e16328127dbdc5f08": "clu_0577a3d00f",
+    "85c19768021b13e0fb07092b54d560aafde210571182deadc5ec03d67ece917c": "clu_c1e2052781",
+    "78f7819638493dd225e4011fab890170d454a1b7a4c4f52f15a9e1999c46de36": "clu_5ce49ede34",
+    "3e361bb96e8e7702dd1540c8e20b5f56fe5e804def357e55bada2d2e917dc06e": "clu_2516fd9e39",
+    "50d0b7fb190d15d116ded909a01762123289571b2c6df7d01124a7615a8718cb": "clu_339b676b6b",
+    "4b5eab3fe73e2c1126c31774d2ddf7d410cf3d9023fa78b36cad76d6b7a10b43": "clu_460bf6c18b",
+    "e5e038ad404d9b42f13dbf430f720b539d29a3c50f52d30b5bf18b2b50b5208e": "clu_5327f42a5d",
+    "cdd4380a969f2a846ba8fea7ac9e03dd202f9496ad74d6b18cab5a61debd68e3": "clu_7eff7707a4",
+    "7cc350f08fdc295ef3d5dbf324c3cfaec34a3434b0502508a1381d976f9d2442": "clu_ea83035b5a",
+    "ca0aeac5df924a6938b66c66470e1fd3c6e34628d5278b71b23d12224962cc98": "clu_7ad8eb8305",
+    "919ec030b159cd331c7f904e16e42946f76625773aa1dc24232d00538bcb1e76": "clu_89b75e10c9",
+    "17b3ab047b74cdf87f2e88b15c0f3a6bc58adf966a15a42a39f7d62f01343e13": "clu_8d3a65e912",
+    "c5c6a134639249d28dc2780a5697fa1f293e4fdaaacf1fee366462c506bef869": "clu_acd4d754c3",
+    "55bd3fc6afb84b851ce9358fbce1046d47c1531040ae14a78dac5d1e324175be": "clu_268af27be6",
+    "240933027180f4794098fdff35d376abeddaa6d3eef8f3bd4e1514b3040f9acd": "clu_83effc1c83",
+    "61abce73db175e7d4ca209d7c3a9ff2f9d2f67d3eab4f708141a8695a4aa077f": "clu_cafb7d4ffe",
+    "0b98737bdc813cdbe0a3684697d957de24e62d168d55296197daec2a49560308": "clu_f25972a1ef",
+    "cd800a4e81c213bc3747791886cf706361134795c948a2767a62da60f36e83ac": "clu_90e0c8dd87",
+    "a7fef5c26e19536156eaa554fab6aa4ccd33750f7b0442960b0cad9157fe5082": "clu_f30a955128",
+    "eb268ee7323e31e5f017d55e9a597fabcaed7e8d786a6bc8f2cef3c7c12b489c": "clu_c171ada0e6",
+    "98d1766d88c2ca3f04022af5bbe0b0f458b93fad6d3c52fa0cd4eabefd289bf1": "clu_54093bb1aa",
+    "49d60af1f4aaad1ab2953bf064e3d7856d1119805553ad9d0a97b943a636068f": "clu_0c1014fe0b",
+    "72130fa3d6b68f030406454adebb7a2e20cd873e284401e0020ced62055e093a": "clu_73cc73488b",
+    "1a65e63f3ab4347824e9642863ae62edf2d9a67e2e1508a4f3606fff2b77b77b": "clu_029f51fec7",
+    "41dbb466d0f62ac016dd61a0662484d9725dc92cab02906a15ec3a832e525e2d": "clu_a0b8d0b95b",
+    "fc086b30fc66eb786c2b522580eff15bf8d627d8a2291d17f824de6831719932": "clu_5992f2548e",
+    "138fe58efd827c38e3da7692a9c97454af6ff13f5c74b5415300c564bd11a174": "clu_dddb555ff2",
+    "cf38af6fafbe745f31639a9f93de0fb511d291f00c93aa9761751e1270223b46": "clu_6fa399cb6a",
+    "25eb0eff630399179f7af703a7aa907358ff4cc03d3da9ac0da9082524e77dd3": "clu_e9d2c2b4fb",
+    "72ac6a59e96e58c08d94f7f52d00b0000b43c84dbfe523674b131cfa316c1ba5": "clu_08a5b52e5b",
+    "bc071343503795d2c8be3930ebc0b20d3007f29b92347e9beac906349a687eea": "clu_42c093ec1a",
+    "25180d2f69adc32f0a6ffc11b8ba56b747ecb61b855b242e8daca0ca54ef0450": "clu_190b44bf6e",
+    "b5e1bd52d635f9451aa27887490717ac5ca750bc02cb035ac8ab0969ef7dfaaa": "clu_3ff78432a9",
+    "6595efb0cc6c8279e43886a20b19e74d040194d8b02db4c7a6f9943822e037ee": "clu_b036ccbd5d",
+    "8e14e425dfbaad0103b2add32f40376bfbdd1335502871924c9e875242a0ed76": "clu_19bbe3b712",
+    "eded2e249982788cd28c8caf379fed3007ab9870e0c4d3e01f4a4cd87412c567": "clu_7bd7a75b36",
+    "fbd4d74b116d5565cb1462b0642dc778bceed2adc5ac64a10bfd12749f715c07": "clu_fa1d8935d6",
+    "03535438ba54f5e4fd49f16e91b70cf8542893953582bcd415d8e192ad06ab8f": "clu_024cef0993",
+    "a0811cd1d84cb26e2890184a9653ec91c5668c143c8945787b865a3677b06228": "clu_410c5a169b",
+    "3455c793cc30283bfa03e751c0ec917121368b1904dcc286ccffe1cba2d2504e": "clu_191a8f7af6",
+    "cb0c42f95d4b13fb0fa11a1ea7969214b410c742399dfaa387450631f4f03782": "clu_32fb254520",
+    "4a36254b1d89766ebb57e340ede72539ae486f1ca4bb460f581d24cad603bb81": "clu_e3fdc56c9d",
+    "bab60c40f8dc62e0253aa255291daef2856e45a725b5123795eb7867369715af": "clu_21243d6503",
+    "b5a0a51fd6f2d9f113a4c5d0e4d42bedcceda329b89c2541d29eeaa01c0354a2": "clu_de80849ee9",
+    "1fe5a21b9798ca1743beae6bf9a9a7ae262ff5be62c8f52bc0dab53db5fd9bfb": "clu_b6ed9b0334"
+  },
+  "by_key": {
+    "office of the federal register::nces request for information, correction::2026-11-02": "clu_ae1fa195c8",
+    "office of the federal register::request for information; reopening of comment period::2026-11-02": "clu_2ae74c1e53",
+    "office of the federal register::notice of availability of the record of decision for the final supplemental environmental impact statement for the morganza to the gulf, louisiana, hurricane and storm damage risk reduction project, terrebonne and lafourche parishes, louisiana::2026-11-02": "clu_a9ac69b53a",
+    "office of the federal register::information collections being reviewed by the federal communications commission under delegated authority::2026-11-02": "clu_39d37061f6",
+    "office of the federal register::agency information collection activities: proposed collection; comment request::2026-11-02": "clu_0577a3d00f",
+    "office of the federal register::withdrawal of notice of intent to prepare an environmental impact statement, port of iberia, louisiana::2026-11-02": "clu_c1e2052781",
+    "office of the federal register::airworthiness directives; diamond aircraft industries inc. airplanes::2026-11-02": "clu_5ce49ede34",
+    "office of the federal register::agency forms undergoing paperwork reduction act review::2026-11-02": "clu_2516fd9e39",
+    "office of the federal register::potassium permanganate from china; institution of a five-year review::2026-11-02": "clu_339b676b6b",
+    "office of the federal register::submission for omb review; comment request::2026-11-02": "clu_460bf6c18b",
+    "office of the federal register::notice of proposed information collection requests: native american library services basic grants notice of funding opportunity::2026-11-02": "clu_5327f42a5d",
+    "office of the federal register::airworthiness directives; the boeing company airplanes::2026-11-02": "clu_7eff7707a4",
+    "office of the federal register::delegation of authority under section 8335 of the national defense authorization act for fiscal year 2026::2026-11-02": "clu_ea83035b5a",
+    "office of the federal register::polyester textured yarn from indonesia, malaysia, thailand, and vietnam; institution of five-year reviews::2026-11-02": "clu_7ad8eb8305",
+    "office of the federal register::foreign-trade zone (ftz) 38; authorization of production activity; coroplast tape corporation; (pressure sensitive tapes); rock hill, south carolina::2026-11-02": "clu_89b75e10c9",
+    "office of the federal register::formations of, acquisitions by, and mergers of bank holding companies::2026-11-02": "clu_8d3a65e912",
+    "office of the federal register::chassis and subassemblies from china; determinations::2026-11-02": "clu_acd4d754c3",
+    "office of the federal register::unleashing the power of unlicensed ultra-wideband devices; petition of robert bosch llc for amendment of the part 15 subpart f ultra-wideband rules; and petition of alliance for automative innovation et al. to amend part 15 of the fcc's rules to permit the operation of certain ultra-wideband devices::2026-11-02": "clu_268af27be6",
+    "office of the federal register::airworthiness directives; brp-rotax gmbh & co kg (formerly brp-powertrain gmbh & co kg and bombardier-rotax gmbh) engines::2026-11-02": "clu_83effc1c83",
+    "office of the federal register::renewal of agency information collection activities: submission for omb review; comment requested; ocean transportation intermediaries; 3072-0018::2026-11-02": "clu_cafb7d4ffe",
+    "office of the federal register::agency information collection activities; extension, without change, of a currently approved collection: application for free training for civics and citizenship teachers of adults; civics and citizenship toolkit::2026-11-02": "clu_90e0c8dd87",
+    "office of the federal register::corrosion-resistant steel products from mexico: notice of court decision not in harmony with the final determination of antidumping duty investigation; notice of amended final determination; notice of amended antidumping duty order, in part::2026-11-02": "clu_f30a955128",
+    "office of the federal register::utility scale wind towers from india, malaysia, and spain; scheduling of expedited five-year reviews::2026-11-02": "clu_c171ada0e6",
+    "office of the federal register::agency information collection activities; submission to the office of management and budget (omb) for review and approval; comment request; american community survey and puerto rico community survey::2026-11-02": "clu_54093bb1aa",
+    "office of the federal register::reducing barriers to network improvements and service changes, accelerating network modernization; correction::2026-11-02": "clu_0c1014fe0b",
+    "office of the federal register::adjusting imports of robotics, industrial machinery, and their parts and components into the united states::2026-11-02": "clu_73cc73488b",
+    "office of the federal register::antidumping or countervailing duty order, finding, or suspended investigation; advance notification of sunset review::2026-11-02": "clu_029f51fec7",
+    "office of the federal register::notice of request for revision to and extension of approval of an information collection; operations and reporting system::2026-11-02": "clu_a0b8d0b95b",
+    "office of the federal register::improving transparency into pharmacy benefit manager fee disclosure::2026-11-02": "clu_5992f2548e",
+    "office of the federal register::notice of intent to extend and continue concession contracts and award a temporary concession contract::2026-11-02": "clu_dddb555ff2",
+    "office of the federal register::welded stainless line and pressure pipe from india, the republic of türkiye, and the united arab emirates: postponement of preliminary determinations in the less-than-fair-value investigations::2026-11-02": "clu_6fa399cb6a",
+    "office of the federal register::current list of hhs-certified laboratories and instrumented initial testing facilities which meet minimum standards to engage in urine and oral fluid drug testing for federal agencies::2026-11-02": "clu_e9d2c2b4fb",
+    "office of the federal register::certain mobile access equipment (mae) and subassemblies thereof from china; institution of five-year reviews::2026-11-02": "clu_08a5b52e5b",
+    "office of the federal register::notice of public meeting of the virginia advisory committee; cancellation of november meeting and revision to december meeting purpose and duration::2026-11-02": "clu_42c093ec1a",
+    "office of the federal register::new england fishery management council; public meeting::2026-11-02": "clu_190b44bf6e",
+    "office of the federal register::foreign-trade zone (ftz) 80; authorization of production activity; standardaero san antonio; (refurbished engines); san antonio, texas::2026-11-02": "clu_3ff78432a9",
+    "office of the federal register::notice of petition for waiver of compliance::2026-11-02": "clu_b036ccbd5d",
+    "office of the federal register::annual determination of average cost of incarceration fee (coif)::2026-11-02": "clu_19bbe3b712",
+    "office of the federal register::agency information collection activities; submission to the office of management and budget for review and approval; comment request; eib 10-04, notice of claim and proof of loss, working capital guarantee::2026-11-02": "clu_7bd7a75b36",
+    "office of the federal register::truck bed covers from the people's republic of china: amended preliminary determination of the less-than-fair-value investigation::2026-11-02": "clu_fa1d8935d6",
+    "office of the federal register::initiation of five-year (sunset) reviews::2026-11-02": "clu_024cef0993",
+    "office of the federal register::antidumping or countervailing duty order, finding, or suspended investigation; opportunity to request administrative review and join annual inquiry service list; note regarding format of review requests::2026-11-02": "clu_410c5a169b",
+    "office of the federal register::large power transformers from the republic of korea: preliminary results of antidumping duty administrative review; 2024-2025::2026-11-02": "clu_32fb254520",
+    "office of the federal register::agency information collection activities; proposed collection; comment request; extension: rule 18a-5::2026-11-02": "clu_e3fdc56c9d",
+    "office of the federal register::notice of final federal agency actions on transportation project in nebraska::2026-11-02": "clu_21243d6503",
+    "office of the federal register::eunice kennedy shriver national institute of child health & human development; notice of meeting::2026-11-02": "clu_de80849ee9",
+    "office of the federal register::prospective grant of exclusive patent license: catheter-based intramyocardial ablation for treating ventricular arrhythmia in a human::2026-11-02": "clu_b6ed9b0334"
+  },
+  "clusters": {
+    "clu_ae1fa195c8": {
+      "primary_event_id": "evt_20261101_9af1e5f4b7",
+      "event_ids": [
+        "evt_20261101_9af1e5f4b7"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_2ae74c1e53": {
+      "primary_event_id": "evt_20261101_fd5ae51dcf",
+      "event_ids": [
+        "evt_20261101_fd5ae51dcf"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_a9ac69b53a": {
+      "primary_event_id": "evt_20261101_dc1cb0ea9f",
+      "event_ids": [
+        "evt_20261101_dc1cb0ea9f"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_39d37061f6": {
+      "primary_event_id": "evt_20261101_2c0ab0d39b",
+      "event_ids": [
+        "evt_20261101_2c0ab0d39b"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_0577a3d00f": {
+      "primary_event_id": "evt_20261101_c2af2b966f",
+      "event_ids": [
+        "evt_20261101_c2af2b966f"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_c1e2052781": {
+      "primary_event_id": "evt_20261101_85c1976802",
+      "event_ids": [
+        "evt_20261101_85c1976802"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_5ce49ede34": {
+      "primary_event_id": "evt_20261101_78f7819638",
+      "event_ids": [
+        "evt_20261101_78f7819638"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_2516fd9e39": {
+      "primary_event_id": "evt_20261101_3e361bb96e",
+      "event_ids": [
+        "evt_20261101_3e361bb96e"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_339b676b6b": {
+      "primary_event_id": "evt_20261101_50d0b7fb19",
+      "event_ids": [
+        "evt_20261101_50d0b7fb19"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_460bf6c18b": {
+      "primary_event_id": "evt_20261101_4b5eab3fe7",
+      "event_ids": [
+        "evt_20261101_4b5eab3fe7"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_5327f42a5d": {
+      "primary_event_id": "evt_20261101_e5e038ad40",
+      "event_ids": [
+        "evt_20261101_e5e038ad40"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_7eff7707a4": {
+      "primary_event_id": "evt_20261101_cdd4380a96",
+      "event_ids": [
+        "evt_20261101_cdd4380a96"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_ea83035b5a": {
+      "primary_event_id": "evt_20261101_7cc350f08f",
+      "event_ids": [
+        "evt_20261101_7cc350f08f"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_7ad8eb8305": {
+      "primary_event_id": "evt_20261101_ca0aeac5df",
+      "event_ids": [
+        "evt_20261101_ca0aeac5df"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_89b75e10c9": {
+      "primary_event_id": "evt_20261101_919ec030b1",
+      "event_ids": [
+        "evt_20261101_919ec030b1"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_8d3a65e912": {
+      "primary_event_id": "evt_20261101_17b3ab047b",
+      "event_ids": [
+        "evt_20261101_17b3ab047b"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_acd4d754c3": {
+      "primary_event_id": "evt_20261101_c5c6a13463",
+      "event_ids": [
+        "evt_20261101_c5c6a13463"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_268af27be6": {
+      "primary_event_id": "evt_20261101_55bd3fc6af",
+      "event_ids": [
+        "evt_20261101_55bd3fc6af"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_83effc1c83": {
+      "primary_event_id": "evt_20261101_2409330271",
+      "event_ids": [
+        "evt_20261101_2409330271"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_cafb7d4ffe": {
+      "primary_event_id": "evt_20261101_61abce73db",
+      "event_ids": [
+        "evt_20261101_61abce73db"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_f25972a1ef": {
+      "primary_event_id": "evt_20261101_0b98737bdc",
+      "event_ids": [
+        "evt_20261101_0b98737bdc"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_90e0c8dd87": {
+      "primary_event_id": "evt_20261101_cd800a4e81",
+      "event_ids": [
+        "evt_20261101_cd800a4e81"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_f30a955128": {
+      "primary_event_id": "evt_20261101_a7fef5c26e",
+      "event_ids": [
+        "evt_20261101_a7fef5c26e"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_c171ada0e6": {
+      "primary_event_id": "evt_20261101_eb268ee732",
+      "event_ids": [
+        "evt_20261101_eb268ee732"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_54093bb1aa": {
+      "primary_event_id": "evt_20261101_98d1766d88",
+      "event_ids": [
+        "evt_20261101_98d1766d88"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_0c1014fe0b": {
+      "primary_event_id": "evt_20261101_49d60af1f4",
+      "event_ids": [
+        "evt_20261101_49d60af1f4"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_73cc73488b": {
+      "primary_event_id": "evt_20261101_72130fa3d6",
+      "event_ids": [
+        "evt_20261101_72130fa3d6"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_029f51fec7": {
+      "primary_event_id": "evt_20261101_1a65e63f3a",
+      "event_ids": [
+        "evt_20261101_1a65e63f3a"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_a0b8d0b95b": {
+      "primary_event_id": "evt_20261101_41dbb466d0",
+      "event_ids": [
+        "evt_20261101_41dbb466d0"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_5992f2548e": {
+      "primary_event_id": "evt_20261101_fc086b30fc",
+      "event_ids": [
+        "evt_20261101_fc086b30fc"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_dddb555ff2": {
+      "primary_event_id": "evt_20261101_138fe58efd",
+      "event_ids": [
+        "evt_20261101_138fe58efd"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_6fa399cb6a": {
+      "primary_event_id": "evt_20261101_cf38af6faf",
+      "event_ids": [
+        "evt_20261101_cf38af6faf"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_e9d2c2b4fb": {
+      "primary_event_id": "evt_20261101_25eb0eff63",
+      "event_ids": [
+        "evt_20261101_25eb0eff63"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_08a5b52e5b": {
+      "primary_event_id": "evt_20261101_72ac6a59e9",
+      "event_ids": [
+        "evt_20261101_72ac6a59e9"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_42c093ec1a": {
+      "primary_event_id": "evt_20261101_bc07134350",
+      "event_ids": [
+        "evt_20261101_bc07134350"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_190b44bf6e": {
+      "primary_event_id": "evt_20261101_25180d2f69",
+      "event_ids": [
+        "evt_20261101_25180d2f69"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_3ff78432a9": {
+      "primary_event_id": "evt_20261101_b5e1bd52d6",
+      "event_ids": [
+        "evt_20261101_b5e1bd52d6"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_b036ccbd5d": {
+      "primary_event_id": "evt_20261101_6595efb0cc",
+      "event_ids": [
+        "evt_20261101_6595efb0cc"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_19bbe3b712": {
+      "primary_event_id": "evt_20261101_8e14e425df",
+      "event_ids": [
+        "evt_20261101_8e14e425df"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_7bd7a75b36": {
+      "primary_event_id": "evt_20261101_eded2e2499",
+      "event_ids": [
+        "evt_20261101_eded2e2499"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_fa1d8935d6": {
+      "primary_event_id": "evt_20261101_fbd4d74b11",
+      "event_ids": [
+        "evt_20261101_fbd4d74b11"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_024cef0993": {
+      "primary_event_id": "evt_20261101_03535438ba",
+      "event_ids": [
+        "evt_20261101_03535438ba"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_410c5a169b": {
+      "primary_event_id": "evt_20261101_a0811cd1d8",
+      "event_ids": [
+        "evt_20261101_a0811cd1d8"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_191a8f7af6": {
+      "primary_event_id": "evt_20261101_3455c793cc",
+      "event_ids": [
+        "evt_20261101_3455c793cc"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_32fb254520": {
+      "primary_event_id": "evt_20261101_cb0c42f95d",
+      "event_ids": [
+        "evt_20261101_cb0c42f95d"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_e3fdc56c9d": {
+      "primary_event_id": "evt_20261101_4a36254b1d",
+      "event_ids": [
+        "evt_20261101_4a36254b1d"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_21243d6503": {
+      "primary_event_id": "evt_20261101_bab60c40f8",
+      "event_ids": [
+        "evt_20261101_bab60c40f8"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_de80849ee9": {
+      "primary_event_id": "evt_20261101_b5a0a51fd6",
+      "event_ids": [
+        "evt_20261101_b5a0a51fd6"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    },
+    "clu_b6ed9b0334": {
+      "primary_event_id": "evt_20261101_1fe5a21b97",
+      "event_ids": [
+        "evt_20261101_1fe5a21b97"
+      ],
+      "source_ids": [
+        "src_us_federal_register"
+      ]
+    }
+  }
+}
