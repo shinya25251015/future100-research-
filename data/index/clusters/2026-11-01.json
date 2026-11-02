@@ -1,0 +1,34 @@
+{
+  "by_url": {
+    "https://spectrum.ieee.org/ai-slop-trust-science": "clu_bb32cbce3c",
+    "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon": "clu_061688e06e"
+  },
+  "by_hash": {
+    "dc21dfe932f85d2ef32098042427bc8eda849669633c6f4ae8c2afe7076fbfe8": "clu_bb32cbce3c",
+    "7c0eaa375483898e7288a85a57021d5d495d1a38a7dbf91ad8cf6a1db033e079": "clu_061688e06e"
+  },
+  "by_key": {
+    "ieee::guarding the gates of knowledge::2026-11-01": "clu_bb32cbce3c",
+    "nasa::apod: 2026 november 1 – colors of the moon::2026-11-01": "clu_061688e06e"
+  },
+  "clusters": {
+    "clu_bb32cbce3c": {
+      "primary_event_id": "evt_20261102_dc21dfe932",
+      "event_ids": [
+        "evt_20261102_dc21dfe932"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
+      ]
+    },
+    "clu_061688e06e": {
+      "primary_event_id": "evt_20261102_7c0eaa3754",
+      "event_ids": [
+        "evt_20261102_7c0eaa3754"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    }
+  }
+}

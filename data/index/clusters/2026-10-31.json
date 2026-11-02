@@ -10,7 +10,8 @@
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-10-29&series=debt_held_public_amt": "clu_dbcab9a366",
     "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2318": "clu_8df1bbc815",
     "https://spectrum.ieee.org/early-electric-vehicles": "clu_f7a0ddfb23",
-    "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet": "clu_6577bf9fd6"
+    "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet": "clu_6577bf9fd6",
+    "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2317": "clu_9fc5541ea5"
   },
   "by_hash": {
     "5b042827bee2c42138fcb1075a0bf6f3da915d726b0013da9085d6ac3a8965d5": "clu_5973a730e4",
@@ -23,7 +24,8 @@
     "1c45627892095a0c98232012dae7059c08c26c101b153d91e40ee61bbaceebfd": "clu_dbcab9a366",
     "0332a58bad428fdab80faf3d464e6ec599fee136ac0c5b9d8977d209fe61e8a2": "clu_8df1bbc815",
     "af549fbefd714c3a8423f589daa11980df46933d9596c11a4af52c6f96a085f7": "clu_f7a0ddfb23",
-    "16a1a351de7f2df316f2f2cd2ac7c3f6a701439a15fb7907549cb4abb5195476": "clu_6577bf9fd6"
+    "16a1a351de7f2df316f2f2cd2ac7c3f6a701439a15fb7907549cb4abb5195476": "clu_6577bf9fd6",
+    "0ede3cf0d4677822f2e83070f2f64e79eb8241f38b720483aad6942033760f3c": "clu_9fc5541ea5"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 30年 2026-10-30: 5.31 %::2026-10-31": "clu_5973a730e4",
@@ -36,7 +38,8 @@
     "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-10-29: 32,712,190,190,967.422 usd::2026-10-31": "clu_dbcab9a366",
     "european commission::eu-canada summit 2026: leaders mark a historic moment in bilateral relations::2026-10-31": "clu_8df1bbc815",
     "ieee::when electric cars were for women::2026-10-31": "clu_f7a0ddfb23",
-    "nasa::apod: 2026 october 31 – night on a spooky planet::2026-10-31": "clu_6577bf9fd6"
+    "nasa::apod: 2026 october 31 – night on a spooky planet::2026-10-31": "clu_6577bf9fd6",
+    "european commission::joint statement by executive vice-president virkkunen, high representative kallas and commissioner mcgrath ahead of the international day to end impunity for crimes against journalists::2026-10-31": "clu_9fc5541ea5"
   },
   "clusters": {
     "clu_5973a730e4": {
@@ -136,6 +139,15 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_9fc5541ea5": {
+      "primary_event_id": "evt_20261102_0ede3cf0d4",
+      "event_ids": [
+        "evt_20261102_0ede3cf0d4"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

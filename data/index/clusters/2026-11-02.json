@@ -49,7 +49,8 @@
     "https://federalregister.gov/documents/2026/11/02/2026-22346/agency-information-collection-activities-proposed-collection-comment-request-extension-rule-18a-5": "clu_e3fdc56c9d",
     "https://federalregister.gov/documents/2026/11/02/2026-22331/notice-of-final-federal-agency-actions-on-transportation-project-in-nebraska": "clu_21243d6503",
     "https://federalregister.gov/documents/2026/11/02/2026-22319/eunice-kennedy-shriver-national-institute-of-child-health-and-human-development-notice-of-meeting": "clu_de80849ee9",
-    "https://federalregister.gov/documents/2026/11/02/2026-22339/prospective-grant-of-exclusive-patent-license-catheter-based-intramyocardial-ablation-for-treating": "clu_b6ed9b0334"
+    "https://federalregister.gov/documents/2026/11/02/2026-22339/prospective-grant-of-exclusive-patent-license-catheter-based-intramyocardial-ablation-for-treating": "clu_b6ed9b0334",
+    "https://news.samsung.com/global/samsung-champions-young-olympians-at-dakar-2026-first-ever-olympic-event-on-african-continent": "clu_97a415ce24"
   },
   "by_hash": {
     "9af1e5f4b7e6947d7340b142d5ba9ca0193be361efdeff392f3da89c1e2a54a3": "clu_ae1fa195c8",
@@ -100,7 +101,8 @@
     "4a36254b1d89766ebb57e340ede72539ae486f1ca4bb460f581d24cad603bb81": "clu_e3fdc56c9d",
     "bab60c40f8dc62e0253aa255291daef2856e45a725b5123795eb7867369715af": "clu_21243d6503",
     "b5a0a51fd6f2d9f113a4c5d0e4d42bedcceda329b89c2541d29eeaa01c0354a2": "clu_de80849ee9",
-    "1fe5a21b9798ca1743beae6bf9a9a7ae262ff5be62c8f52bc0dab53db5fd9bfb": "clu_b6ed9b0334"
+    "1fe5a21b9798ca1743beae6bf9a9a7ae262ff5be62c8f52bc0dab53db5fd9bfb": "clu_b6ed9b0334",
+    "905b7232bf4d0147810d87b8d22628fdb7e92b725eb619035fffab873fc10732": "clu_97a415ce24"
   },
   "by_key": {
     "office of the federal register::nces request for information, correction::2026-11-02": "clu_ae1fa195c8",
@@ -149,7 +151,8 @@
     "office of the federal register::agency information collection activities; proposed collection; comment request; extension: rule 18a-5::2026-11-02": "clu_e3fdc56c9d",
     "office of the federal register::notice of final federal agency actions on transportation project in nebraska::2026-11-02": "clu_21243d6503",
     "office of the federal register::eunice kennedy shriver national institute of child health & human development; notice of meeting::2026-11-02": "clu_de80849ee9",
-    "office of the federal register::prospective grant of exclusive patent license: catheter-based intramyocardial ablation for treating ventricular arrhythmia in a human::2026-11-02": "clu_b6ed9b0334"
+    "office of the federal register::prospective grant of exclusive patent license: catheter-based intramyocardial ablation for treating ventricular arrhythmia in a human::2026-11-02": "clu_b6ed9b0334",
+    "samsung electronics::samsung champions young olympians at dakar 2026, first-ever olympic event on african continent::2026-11-02": "clu_97a415ce24"
   },
   "clusters": {
     "clu_ae1fa195c8": {
@@ -591,6 +594,15 @@
       ],
       "source_ids": [
         "src_us_federal_register"
+      ]
+    },
+    "clu_97a415ce24": {
+      "primary_event_id": "evt_20261102_905b7232bf",
+      "event_ids": [
+        "evt_20261102_905b7232bf"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }
