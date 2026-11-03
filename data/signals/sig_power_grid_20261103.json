@@ -1,0 +1,80 @@
+{
+  "window_id": "sig_power_grid_20261103",
+  "as_of": "2026-11-03T03:00:59Z",
+  "window": {
+    "start": "2026-10-28",
+    "end": "2026-11-03",
+    "baseline_start": "2026-09-30",
+    "baseline_end": "2026-10-27"
+  },
+  "topic": {
+    "label": "電力・送配電",
+    "keywords": [
+      "power grid",
+      "electric grid",
+      "electrical grid",
+      "power transformer",
+      "transmission line",
+      "substation",
+      "grid interconnection",
+      "grid operator",
+      "送電網",
+      "送配電",
+      "変電所",
+      "変圧器",
+      "系統連系"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_power_grid"
+  },
+  "counts": [
+    {
+      "signal_type": "export_control",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    },
+    {
+      "signal_type": "paper",
+      "count": 3,
+      "baseline_count": 1.75,
+      "event_ids": [
+        "evt_20261031_43db850226",
+        "evt_20261031_9bfe785545",
+        "evt_20261103_702e33dc77"
+      ],
+      "delta_ratio": 0.714
+    },
+    {
+      "signal_type": "patent",
+      "count": 1,
+      "baseline_count": 0.0,
+      "event_ids": [
+        "evt_20261101_af549fbefd"
+      ]
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 1,
+    "distinct_regions": 1,
+    "score": 26.7,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}
