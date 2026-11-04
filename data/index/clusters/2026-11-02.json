@@ -360,7 +360,9 @@
     "https://nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now": "clu_46f9ca308c",
     "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa": "clu_e82695cd1a",
     "https://nasa.gov/image-article/nasas-chapea-crew-returns-to-earth": "clu_59b1c4df54",
-    "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies": "clu_ada0233902"
+    "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies": "clu_ada0233902",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2300": "clu_dc3d0c37b3",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2308": "clu_8c1d49c89e"
   },
   "by_hash": {
     "9af1e5f4b7e6947d7340b142d5ba9ca0193be361efdeff392f3da89c1e2a54a3": "clu_ae1fa195c8",
@@ -722,7 +724,9 @@
     "e8fa1b35af5763f17eee95fd545fa52e86c89e793ea45ff7f6f36f752854da64": "clu_46f9ca308c",
     "b81af979c7a54a6d5b082182c4c26d77783336f4f891a7f36e4f19d6c7dd25c8": "clu_e82695cd1a",
     "daf531394c3205d672118834a6b8f58619cab4e66aaca2dfc576fd92692d16db": "clu_59b1c4df54",
-    "7aed0942b120434c9dae8d7f3add7a325492fc023fb133268df554383cc2b4a7": "clu_ada0233902"
+    "7aed0942b120434c9dae8d7f3add7a325492fc023fb133268df554383cc2b4a7": "clu_ada0233902",
+    "b1f28e819e5d91ace06ae3b8a7f23676e7d15a843419869493720d4f96041431": "clu_dc3d0c37b3",
+    "c4cc4e5bc08db051ff4cb2c7c5f43424d7b81903e88ae9e50d097b861562775d": "clu_8c1d49c89e"
   },
   "by_key": {
     "office of the federal register::nces request for information, correction::2026-11-02": "clu_ae1fa195c8",
@@ -1082,7 +1086,9 @@
     "nasa::happy 65 years: nasa’s johnson space center then and now::2026-11-02": "clu_46f9ca308c",
     "nasa::what’s up: november 2026 skywatching tips from nasa::2026-11-02": "clu_e82695cd1a",
     "nasa::nasa’s chapea crew “returns” to earth::2026-11-02": "clu_59b1c4df54",
-    "nasa::nasa’s hubble uncovers case of missing oxygen in nearby dwarf galaxies::2026-11-02": "clu_ada0233902"
+    "nasa::nasa’s hubble uncovers case of missing oxygen in nearby dwarf galaxies::2026-11-02": "clu_ada0233902",
+    "european commission::commission conditionally approves jd.com's acquisition of ceconomy under the foreign subsidies regulation::2026-11-02": "clu_dc3d0c37b3",
+    "european commission::eu roma strategic framework brings positive progress on roma rights across the eu with further efforts needed::2026-11-02": "clu_8c1d49c89e"
   },
   "clusters": {
     "clu_ae1fa195c8": {
@@ -4323,6 +4329,24 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_dc3d0c37b3": {
+      "primary_event_id": "evt_20261104_b1f28e819e",
+      "event_ids": [
+        "evt_20261104_b1f28e819e"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_8c1d49c89e": {
+      "primary_event_id": "evt_20261104_c4cc4e5bc0",
+      "event_ids": [
+        "evt_20261104_c4cc4e5bc0"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }
