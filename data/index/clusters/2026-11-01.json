@@ -1,15 +1,18 @@
 {
   "by_url": {
     "https://spectrum.ieee.org/ai-slop-trust-science": "clu_bb32cbce3c",
-    "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon": "clu_061688e06e"
+    "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon": "clu_061688e06e",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2335": "clu_770ff22f1d"
   },
   "by_hash": {
     "dc21dfe932f85d2ef32098042427bc8eda849669633c6f4ae8c2afe7076fbfe8": "clu_bb32cbce3c",
-    "7c0eaa375483898e7288a85a57021d5d495d1a38a7dbf91ad8cf6a1db033e079": "clu_061688e06e"
+    "7c0eaa375483898e7288a85a57021d5d495d1a38a7dbf91ad8cf6a1db033e079": "clu_061688e06e",
+    "9c13a1e7e604431c995303c2db0fb59587cf5f1030a8191733fb517cc467c28b": "clu_770ff22f1d"
   },
   "by_key": {
     "ieee::guarding the gates of knowledge::2026-11-01": "clu_bb32cbce3c",
-    "nasa::apod: 2026 november 1 – colors of the moon::2026-11-01": "clu_061688e06e"
+    "nasa::apod: 2026 november 1 – colors of the moon::2026-11-01": "clu_061688e06e",
+    "european commission::speech by commissioner albuquerque at the financial system conference 2026: at the heart of europe::2026-11-01": "clu_770ff22f1d"
   },
   "clusters": {
     "clu_bb32cbce3c": {
@@ -28,6 +31,15 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_770ff22f1d": {
+      "primary_event_id": "evt_20261105_9c13a1e7e6",
+      "event_ids": [
+        "evt_20261105_9c13a1e7e6"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

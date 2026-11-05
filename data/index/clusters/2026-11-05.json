@@ -1,0 +1,118 @@
+{
+  "by_url": {
+    "https://news.samsung.com/global/beyond-the-medal-samsung-helps-young-athletes-explore-what-comes-next-at-dakar-2026": "clu_a21a584cdc",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-04&tenor=30%E5%B9%B4": "clu_cf532dfcb2",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-04&tenor=5%E5%B9%B4": "clu_f33d4647df",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-04&tenor=3%E3%81%8B%E6%9C%88": "clu_337dcbd44a",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-04&tenor=20%E5%B9%B4": "clu_17ef41c7a6",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-04&tenor=2%E5%B9%B4": "clu_dc90355c29",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-04&tenor=10%E5%B9%B4": "clu_4f5c4a2747",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-11-03&series=tot_pub_debt_out_amt": "clu_83fa49654a",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-11-03&series=debt_held_public_amt": "clu_b719f90e2c"
+  },
+  "by_hash": {
+    "5930c5d8866776af6bf43eeddf3623f56dac87d77026914a5fd3d4d96f076f38": "clu_a21a584cdc",
+    "7ea4e98aa249b38ce0784f4bf63378cfbb492d1898065b693aa5d2895b23b2ad": "clu_cf532dfcb2",
+    "57875c486777bb2ca4f519bc0ccdc301af4f97daba03b27e7748bee3fda7baed": "clu_f33d4647df",
+    "b3397bf2874c9a4855d610ca5fbba9347b9734c028aa661974e75a9dbc073cf2": "clu_337dcbd44a",
+    "f8488e05cde54f868fabcffcca736bc85fa0f71ea4f4a892bc6bfa1883ae7dff": "clu_17ef41c7a6",
+    "e00b82e98ab5f3c3da074b9b3047b1f1fe8a1a1e4b0f239506abb369cabc4d42": "clu_dc90355c29",
+    "710c59ccf783b85c87f0493efc9a12ef89b250b438f0a7ff790612bee470791d": "clu_4f5c4a2747",
+    "b93bf411f5347cc9c2ae7ee95932bb82e3ec2c62118791c1ed45809b0fa4a1cf": "clu_83fa49654a",
+    "dc801eb828bc2230219f27cee22d7da60b8955be7ae87cf227f2e9fda0d2dc72": "clu_b719f90e2c"
+  },
+  "by_key": {
+    "samsung electronics::beyond the medal: samsung helps young athletes explore what comes next at dakar 2026::2026-11-05": "clu_a21a584cdc",
+    "u.s. department of the treasury::米国債利回り 30年 2026-11-04: 5.28 %::2026-11-05": "clu_cf532dfcb2",
+    "u.s. department of the treasury::米国債利回り 5年 2026-11-04: 4.69 %::2026-11-05": "clu_f33d4647df",
+    "u.s. department of the treasury::米国債利回り 3か月 2026-11-04: 4.21 %::2026-11-05": "clu_337dcbd44a",
+    "u.s. department of the treasury::米国債利回り 20年 2026-11-04: 5.3 %::2026-11-05": "clu_17ef41c7a6",
+    "u.s. department of the treasury::米国債利回り 2年 2026-11-04: 4.58 %::2026-11-05": "clu_dc90355c29",
+    "u.s. department of the treasury::米国債利回り 10年 2026-11-04: 4.9 %::2026-11-05": "clu_4f5c4a2747",
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-11-03: 40,547,403,570,984.82 usd::2026-11-05": "clu_83fa49654a",
+    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-11-03: 32,765,330,118,710.621 usd::2026-11-05": "clu_b719f90e2c"
+  },
+  "clusters": {
+    "clu_a21a584cdc": {
+      "primary_event_id": "evt_20261105_5930c5d886",
+      "event_ids": [
+        "evt_20261105_5930c5d886"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_cf532dfcb2": {
+      "primary_event_id": "evt_20261105_7ea4e98aa2",
+      "event_ids": [
+        "evt_20261105_7ea4e98aa2"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_f33d4647df": {
+      "primary_event_id": "evt_20261105_57875c4867",
+      "event_ids": [
+        "evt_20261105_57875c4867"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_337dcbd44a": {
+      "primary_event_id": "evt_20261105_b3397bf287",
+      "event_ids": [
+        "evt_20261105_b3397bf287"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_17ef41c7a6": {
+      "primary_event_id": "evt_20261105_f8488e05cd",
+      "event_ids": [
+        "evt_20261105_f8488e05cd"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_dc90355c29": {
+      "primary_event_id": "evt_20261105_e00b82e98a",
+      "event_ids": [
+        "evt_20261105_e00b82e98a"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_4f5c4a2747": {
+      "primary_event_id": "evt_20261105_710c59ccf7",
+      "event_ids": [
+        "evt_20261105_710c59ccf7"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_83fa49654a": {
+      "primary_event_id": "evt_20261105_b93bf411f5",
+      "event_ids": [
+        "evt_20261105_b93bf411f5"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    },
+    "clu_b719f90e2c": {
+      "primary_event_id": "evt_20261105_dc801eb828",
+      "event_ids": [
+        "evt_20261105_dc801eb828"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    }
+  }
+}
