@@ -458,7 +458,11 @@
     "https://nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon": "clu_b8740217d1",
     "https://war.gov/News/Contracts/Contract/Article/4641708/contracts-for-nov-4-2026": "clu_92aa196f42",
     "https://science.nasa.gov/image-article/apod-2026-november-4-the-not-so-hidden-galaxy-ic-342": "clu_17d00430d2",
-    "https://nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour": "clu_6623f894ce"
+    "https://nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour": "clu_6623f894ce",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2337": "clu_35ebd2f710",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2338": "clu_1b6be58daa",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2340": "clu_bc8fbd2e8a",
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2339": "clu_f2c0327440"
   },
   "by_hash": {
     "16aab79a855439a8c2d600450a535180d29da8cd84b72f42c24a06c89b02f569": "clu_fd14e545c0",
@@ -917,7 +921,11 @@
     "fb0dbf63c7f127998ca063dfcb55455b69c88522dc2f7bdbb785090ff950dcdc": "clu_b8740217d1",
     "a161bf5c7eeea3d2f117e481058fe9efb4026218a3df043bdf54d2988b099ccd": "clu_92aa196f42",
     "304029b378b3c69ce6baafb11cd7dbc5c7696da4c1837f3b6a3b568a12e831d0": "clu_17d00430d2",
-    "73955acd689b6de38b9d782f8c941f0b90a378877c6c83add25d8142ce357beb": "clu_6623f894ce"
+    "73955acd689b6de38b9d782f8c941f0b90a378877c6c83add25d8142ce357beb": "clu_6623f894ce",
+    "a16038233034e6161f3d2c0daac33d74c3d3a7b835893558dd7952f574a1a0d7": "clu_35ebd2f710",
+    "a88d8a2ae0d0fac6dcb4da2b4fdac59460dbd7dc16de6c7c985bf9880da99fe8": "clu_1b6be58daa",
+    "d9f2c0c384090325b893b2d6bc080d94be7c01a13b980fd723a92c997e9c081f": "clu_bc8fbd2e8a",
+    "7ed65d0d2bffb320293534cada99f39069ca9e38a56065948c4b92dbd2236f15": "clu_f2c0327440"
   },
   "by_key": {
     "日本銀行::営業毎旬報告(10月31日現在)::2026-11-04": "clu_fd14e545c0",
@@ -1374,7 +1382,11 @@
     "nasa::nasa shares plans to accelerate artemis, return to moon::2026-11-04": "clu_b8740217d1",
     "u.s. department of war (旧 department of defense)::contracts for nov. 4, 2026::2026-11-04": "clu_92aa196f42",
     "nasa::apod: 2026 november 4 – the not-so-hidden galaxy, ic 342::2026-11-04": "clu_17d00430d2",
-    "nasa::nasa space grant students fuel agency’s inspiration tour::2026-11-04": "clu_6623f894ce"
+    "nasa::nasa space grant students fuel agency’s inspiration tour::2026-11-04": "clu_6623f894ce",
+    "european commission::factsheet: vocational skills for a competitive europe::2026-11-04": "clu_35ebd2f710",
+    "european commission::commission launches education and skills package to tackle declining basic skills, rapid digital change and teacher shortages::2026-11-04": "clu_1b6be58daa",
+    "european commission::factsheet: education and skills package::2026-11-04": "clu_bc8fbd2e8a",
+    "european commission::questions and answers on the education and skills package::2026-11-04": "clu_f2c0327440"
   },
   "clusters": {
     "clu_fd14e545c0": {
@@ -5488,6 +5500,42 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_35ebd2f710": {
+      "primary_event_id": "evt_20261106_a160382330",
+      "event_ids": [
+        "evt_20261106_a160382330"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_1b6be58daa": {
+      "primary_event_id": "evt_20261106_a88d8a2ae0",
+      "event_ids": [
+        "evt_20261106_a88d8a2ae0"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_bc8fbd2e8a": {
+      "primary_event_id": "evt_20261106_d9f2c0c384",
+      "event_ids": [
+        "evt_20261106_d9f2c0c384"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_f2c0327440": {
+      "primary_event_id": "evt_20261106_7ed65d0d2b",
+      "event_ids": [
+        "evt_20261106_7ed65d0d2b"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

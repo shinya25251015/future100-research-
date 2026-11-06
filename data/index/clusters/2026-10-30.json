@@ -683,7 +683,8 @@
     "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope": "clu_b17be763e0",
     "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away": "clu_bf9b4f9edb",
     "https://nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head": "clu_ad10d68d07",
-    "https://nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants": "clu_86ef46537b"
+    "https://nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants": "clu_86ef46537b",
+    "https://event.on24.com/wcc/r/5546816/67D0147A8B8D057FCE11A17D61A8BB0D": "clu_7576f8ea36"
   },
   "by_hash": {
     "0428f197d64f9e858d0edbad27a22e241adfedc8faf8dd13cbc8056b36b378c5": "clu_5be159e69c",
@@ -1369,7 +1370,8 @@
     "8bc21a7dd43da77136ffaecc45d1ea1308d8f5f8857846ec6835feededa34bb1": "clu_b17be763e0",
     "1e933e684189d613d38cca480e9d89fcf0c217da6e9a5b2b9203006cbc798842": "clu_bf9b4f9edb",
     "c17a976f99c4f957cc5c7e026f677377db19e8cfdde9709f2038687161bb0ecf": "clu_ad10d68d07",
-    "56a627a5fe8d6477edff6785f812e86a0be3eb191acfca70b9f5fef2b40c1f92": "clu_86ef46537b"
+    "56a627a5fe8d6477edff6785f812e86a0be3eb191acfca70b9f5fef2b40c1f92": "clu_86ef46537b",
+    "159fc80274032b121d52d21920f5091336584d8fc8fc87447b6ccd7b6fd02841": "clu_7576f8ea36"
   },
   "by_key": {
     "日本銀行::総裁記者会見ライブ配信(10月30日15時30分予定)::2026-10-30": "clu_5be159e69c",
@@ -2053,7 +2055,8 @@
     "nasa::nasa explores potential commercial servicing for hubble telescope::2026-10-30": "clu_b17be763e0",
     "nasa::november’s night sky notes: light-day away::2026-10-30": "clu_bf9b4f9edb",
     "nasa::nasa’s james webb space telescope captures eerie cat’s head::2026-10-30": "clu_ad10d68d07",
-    "nasa::nasa releases max power key events for media, participants::2026-10-30": "clu_86ef46537b"
+    "nasa::nasa releases max power key events for media, participants::2026-10-30": "clu_86ef46537b",
+    "ieee::multiphysics modeling for next-generation electromagnetic manufacturing technologies::2026-10-30": "clu_7576f8ea36"
   },
   "clusters": {
     "clu_5be159e69c": {
@@ -8210,6 +8213,15 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_7576f8ea36": {
+      "primary_event_id": "evt_20261106_159fc80274",
+      "event_ids": [
+        "evt_20261106_159fc80274"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
       ]
     }
   }
