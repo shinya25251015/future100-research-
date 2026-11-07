@@ -424,7 +424,12 @@
     "https://science.nasa.gov/earth/earth-observatory/cyprus-island-of-snakes-cats-and-ophiolites": "clu_e20d2d15fe",
     "https://science.nasa.gov/image-article/apod-2026-november-5-enceladus-in-silhouette": "clu_a0fa331295",
     "https://nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research": "clu_ed4b5ad31d",
-    "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-07": "clu_2016024064"
+    "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-07": "clu_2016024064",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2334": "clu_494810b849",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2347": "clu_9a718eb9a9",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2342": "clu_ab0f8b9520",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2361": "clu_6f6dc47567",
+    "https://spectrum.ieee.org/ieee-preuniversity": "clu_28ff894cf7"
   },
   "by_hash": {
     "5930c5d8866776af6bf43eeddf3623f56dac87d77026914a5fd3d4d96f076f38": "clu_a21a584cdc",
@@ -851,7 +856,12 @@
     "e3482632cb32cf25cdf092ea7a114dc55ab4a3a8b4178e6494b01edcaa257639": "clu_e20d2d15fe",
     "144523f0461a9b37a3fd33868677522f620afc9b8262d8a3560e7f22a26fad98": "clu_a0fa331295",
     "09b74006c66debbea9a1c0e0298f31932842ed9ab9e91c33dfa5ab8650048d22": "clu_ed4b5ad31d",
-    "97ec855e59b2db8f6248b0a11c4b8b6ee6453d62e7e219a74626fe6fd83fd9c1": "clu_2016024064"
+    "97ec855e59b2db8f6248b0a11c4b8b6ee6453d62e7e219a74626fe6fd83fd9c1": "clu_2016024064",
+    "d5deffc0464982ffd4a0a48bf2a2c3161b582d910498712d848dd997b9aa7e9d": "clu_494810b849",
+    "a3aedf473870a1444d5b966176843b1d78b6ed1efc530d937c9902fb5713c50b": "clu_9a718eb9a9",
+    "46b3c6c69fa0f89a7c5fdd169f681d7c6fa43bf6871d1ba96ca79fb8acb5c1ab": "clu_ab0f8b9520",
+    "f67967824fdf155456c03ef02d8521baf3754481865e50fb3c67673f4a017dfc": "clu_6f6dc47567",
+    "5191a03965d8d7ae5f4b481befdafa2dfc36a5b8aebbc8ae8c3944f591bdd5ae": "clu_28ff894cf7"
   },
   "by_key": {
     "samsung electronics::beyond the medal: samsung helps young athletes explore what comes next at dakar 2026::2026-11-05": "clu_a21a584cdc",
@@ -1277,7 +1287,12 @@
     "nasa::cyprus: island of snakes, cats, and ophiolites::2026-11-05": "clu_e20d2d15fe",
     "nasa::apod: 2026 november 5 – enceladus in silhouette::2026-11-05": "clu_a0fa331295",
     "nasa::nasa announces x-70 experimental aircraft to advance flight research::2026-11-05": "clu_ed4b5ad31d",
-    "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-07: 228,097.877 gwh::2026-11-05": "clu_2016024064"
+    "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-07: 228,097.877 gwh::2026-11-05": "clu_2016024064",
+    "european commission::eu and india conclude negotiations on association to horizon europe::2026-11-05": "clu_494810b849",
+    "european commission::commission approves merger between akzonobel and axalta, subject to conditions::2026-11-05": "clu_9a718eb9a9",
+    "european commission::eu to push for accelerated global climate action at cop31::2026-11-05": "clu_ab0f8b9520",
+    "european commission::commission preliminarily finds tiktok's ‘for you' feed in breach of digital services act for harmful ‘rabbit holes' effect::2026-11-05": "clu_6f6dc47567",
+    "ieee::ieee program schools preuniversity educators on tech topics::2026-11-05": "clu_28ff894cf7"
   },
   "clusters": {
     "clu_a21a584cdc": {
@@ -5103,6 +5118,51 @@
       ],
       "source_ids": [
         "src_eurostat_industry_energy"
+      ]
+    },
+    "clu_494810b849": {
+      "primary_event_id": "evt_20261107_d5deffc046",
+      "event_ids": [
+        "evt_20261107_d5deffc046"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_9a718eb9a9": {
+      "primary_event_id": "evt_20261107_a3aedf4738",
+      "event_ids": [
+        "evt_20261107_a3aedf4738"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_ab0f8b9520": {
+      "primary_event_id": "evt_20261107_46b3c6c69f",
+      "event_ids": [
+        "evt_20261107_46b3c6c69f"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_6f6dc47567": {
+      "primary_event_id": "evt_20261107_f67967824f",
+      "event_ids": [
+        "evt_20261107_f67967824f"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_28ff894cf7": {
+      "primary_event_id": "evt_20261107_5191a03965",
+      "event_ids": [
+        "evt_20261107_5191a03965"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
       ]
     }
   }
