@@ -7,7 +7,10 @@
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-06&tenor=20%E5%B9%B4": "clu_b3e6f90fe5",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-06&tenor=5%E5%B9%B4": "clu_ecc9785343",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-11-05&series=tot_pub_debt_out_amt": "clu_7cd09f19b2",
-    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-11-05&series=debt_held_public_amt": "clu_a1af31a1cf"
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-11-05&series=debt_held_public_amt": "clu_a1af31a1cf",
+    "https://nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps": "clu_edc9e2e451",
+    "https://nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects": "clu_affa4e98bd",
+    "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif": "clu_164d4785bd"
   },
   "by_hash": {
     "7656c9483f4b93e169d24de84d93839156499a8cdb37a25d5ebca49e2d4c8ae1": "clu_cb652e5f71",
@@ -17,7 +20,10 @@
     "dca08c151509f7929af68728282fb0472150749b9e3a33e174462756bb6bb4e2": "clu_b3e6f90fe5",
     "f26df27fceec04dc4b687ca5d990c7732b5a58036e1d3d538ecd3ad99984d379": "clu_ecc9785343",
     "470816c0474f207e611624b0c777b9e525c871ffbeefcb21c7eda3330f1c2dc3": "clu_7cd09f19b2",
-    "f66bd3ef1f885caf8dddfdb06bbbf412ed99f1a21982377762288a0db5235018": "clu_a1af31a1cf"
+    "f66bd3ef1f885caf8dddfdb06bbbf412ed99f1a21982377762288a0db5235018": "clu_a1af31a1cf",
+    "4cb782bf3fb06c419186b5d17cf67f30b463f17c1a90b586cca13ef6608d8192": "clu_edc9e2e451",
+    "6b4d148f2d69dcd4aa8026d798125da83af5fbefe377d528cf119fd446d758b0": "clu_affa4e98bd",
+    "3eaa0ce577d38ea6fd647e1e6e0ddae6ed8571db329bc12dc03a69f2377cbcea": "clu_164d4785bd"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 30年 2026-11-06: 5.26 %::2026-11-07": "clu_cb652e5f71",
@@ -27,7 +33,10 @@
     "u.s. department of the treasury::米国債利回り 20年 2026-11-06: 5.29 %::2026-11-07": "clu_b3e6f90fe5",
     "u.s. department of the treasury::米国債利回り 5年 2026-11-06: 4.64 %::2026-11-07": "clu_ecc9785343",
     "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-11-05: 40,556,120,784,983.648 usd::2026-11-07": "clu_7cd09f19b2",
-    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-11-05: 32,766,722,473,715.609 usd::2026-11-07": "clu_a1af31a1cf"
+    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-11-05: 32,766,722,473,715.609 usd::2026-11-07": "clu_a1af31a1cf",
+    "nasa::nasa seeks next generation of explorers to join astronaut corps::2026-11-07": "clu_edc9e2e451",
+    "nasa::nasa awards moon base transportation, technology, science projects::2026-11-07": "clu_affa4e98bd",
+    "nasa::apod: 2026 november 7 – de gerlache-kocher massif::2026-11-07": "clu_164d4785bd"
   },
   "clusters": {
     "clu_cb652e5f71": {
@@ -100,6 +109,33 @@
       ],
       "source_ids": [
         "src_us_treasury_debt"
+      ]
+    },
+    "clu_edc9e2e451": {
+      "primary_event_id": "evt_20261108_4cb782bf3f",
+      "event_ids": [
+        "evt_20261108_4cb782bf3f"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_affa4e98bd": {
+      "primary_event_id": "evt_20261108_6b4d148f2d",
+      "event_ids": [
+        "evt_20261108_6b4d148f2d"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_164d4785bd": {
+      "primary_event_id": "evt_20261108_3eaa0ce577",
+      "event_ids": [
+        "evt_20261108_3eaa0ce577"
+      ],
+      "source_ids": [
+        "src_nasa_news"
       ]
     }
   }
