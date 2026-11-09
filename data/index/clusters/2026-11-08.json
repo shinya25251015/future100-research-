@@ -1,0 +1,94 @@
+{
+  "by_url": {
+    "http://boj.or.jp/statistics/boj/other/tseifu/release/2026/seifu2610.pdf": "clu_f06888ba8a",
+    "http://boj.or.jp/statistics/boj/other/mbt/mbt2610.pdf": "clu_1e17551f19",
+    "http://boj.or.jp/statistics/boj/fm/ope/m_release/2026/ope2610.xlsx": "clu_0fd717e795",
+    "https://nvidianews.nvidia.com/news/a-message-to-our-company": "clu_2c8ab17a22",
+    "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors": "clu_e7ba07e7b1",
+    "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor": "clu_eda94246a4",
+    "https://nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge": "clu_a0221a37ca"
+  },
+  "by_hash": {
+    "6700ff7c1804c339b8d6e5a8e526cbc3695d1a6c8e0be60eca9875b10178f87e": "clu_f06888ba8a",
+    "0e355dcbc20cc0c2db5614795711a76dcebdfdf6dc5de8cae51d6cd5b829c70b": "clu_1e17551f19",
+    "2f836ae63625a9221710c74becc4780df757180e361adbaaeb0739f49f7567f4": "clu_0fd717e795",
+    "884f204f693b3df9877d8408a7e4ac692f8721c3cb686738c9d5f316b4101220": "clu_2c8ab17a22",
+    "10787443ca355c2a4087b64dfc0c1e5aa270ad1b63fc94dab1369404da8ec5bb": "clu_e7ba07e7b1",
+    "d01967b090bf988b164f5838e36bcc7e1d9e6d8b01b012430588f410dc4d26ce": "clu_eda94246a4",
+    "9c07b3cb14848e74df3a24d91f529fb72f78f34e4304827c9c30050712597ce9": "clu_a0221a37ca"
+  },
+  "by_key": {
+    "日本銀行::日本銀行の対政府取引(10月)::2026-11-08": "clu_f06888ba8a",
+    "日本銀行::マネタリーベースと日本銀行の取引(10月)::2026-11-08": "clu_1e17551f19",
+    "日本銀行::オペレーション(10月)::2026-11-08": "clu_0fd717e795",
+    "nvidia corporation::a message to our company::2026-11-08": "clu_2c8ab17a22",
+    "nvidia corporation::statement from nvidia board of directors::2026-11-08": "clu_e7ba07e7b1",
+    "nasa::apod: 2026 november 8 – major fireball meteor::2026-11-08": "clu_eda94246a4",
+    "nasa::nasa announces $1 million to students for moon base challenge::2026-11-08": "clu_a0221a37ca"
+  },
+  "clusters": {
+    "clu_f06888ba8a": {
+      "primary_event_id": "evt_20261109_6700ff7c18",
+      "event_ids": [
+        "evt_20261109_6700ff7c18"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_1e17551f19": {
+      "primary_event_id": "evt_20261109_0e355dcbc2",
+      "event_ids": [
+        "evt_20261109_0e355dcbc2"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_0fd717e795": {
+      "primary_event_id": "evt_20261109_2f836ae636",
+      "event_ids": [
+        "evt_20261109_2f836ae636"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_2c8ab17a22": {
+      "primary_event_id": "evt_20261109_884f204f69",
+      "event_ids": [
+        "evt_20261109_884f204f69"
+      ],
+      "source_ids": [
+        "src_nvidia_newsroom"
+      ]
+    },
+    "clu_e7ba07e7b1": {
+      "primary_event_id": "evt_20261109_10787443ca",
+      "event_ids": [
+        "evt_20261109_10787443ca"
+      ],
+      "source_ids": [
+        "src_nvidia_newsroom"
+      ]
+    },
+    "clu_eda94246a4": {
+      "primary_event_id": "evt_20261109_d01967b090",
+      "event_ids": [
+        "evt_20261109_d01967b090"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_a0221a37ca": {
+      "primary_event_id": "evt_20261109_9c07b3cb14",
+      "event_ids": [
+        "evt_20261109_9c07b3cb14"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    }
+  }
+}
