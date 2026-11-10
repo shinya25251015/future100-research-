@@ -1,0 +1,130 @@
+{
+  "by_url": {
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole": "clu_89d3d0540b",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up": "clu_3b4fb865a3",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-09&tenor=5%E5%B9%B4": "clu_beb0fecd13",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-09&tenor=20%E5%B9%B4": "clu_abf1b56a36",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-09&tenor=30%E5%B9%B4": "clu_096841a460",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-09&tenor=2%E5%B9%B4": "clu_9c1f148336",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-09&tenor=3%E3%81%8B%E6%9C%88": "clu_b34d01e1af",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-09&tenor=10%E5%B9%B4": "clu_1cbdd51f2a",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-11-06&series=debt_held_public_amt": "clu_a2702139c6",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-11-06&series=tot_pub_debt_out_amt": "clu_40e31b69e1"
+  },
+  "by_hash": {
+    "dc49c0a5c0c136827a7389fd591214b7931ff25b26a6871e67c85a922cfda0e5": "clu_89d3d0540b",
+    "cc2dbb2c59ebde23da52095c30227fdc41130cd6a92bd9e98b90ed9dc852f3f1": "clu_3b4fb865a3",
+    "405284e6c173b4cb1d8c97b93f057460c0a7107b5a406a6fae995b12498b4313": "clu_beb0fecd13",
+    "bc1e4f9bc6ff2aeaa53660ed04c8f43e3a05b69c8382cbfb224524a16472198e": "clu_abf1b56a36",
+    "d8f24bc618c7c6c9bc5337169fa45c8d77ce5adcc5acc231975efdc698e253ce": "clu_096841a460",
+    "26fd0e9477bcb4fe7429cdf970dfa34e3258793d4f540bc3be7b71c5ec590ba9": "clu_9c1f148336",
+    "7e262e1b79af0849a91cd0e6ebb781375768f8a7c55b58a1fc444b6daf73d3f3": "clu_b34d01e1af",
+    "5f856bf9ab254ea04d7eda3be88afdb96a6ddd9093cecd07418594043dab77cb": "clu_1cbdd51f2a",
+    "1ec005da7dc96fddf05568990ece2f8d8c66b3c2e04ed49413b45476b6545014": "clu_a2702139c6",
+    "9d05bcaa95468a7f740eeb12d042c278ede8106e3281eb47b6c6b0f570d79fb5": "clu_40e31b69e1"
+  },
+  "by_key": {
+    "nasa::curiosity blog, sols 5050-5055: it’s nazca, our 49th drill hole::2026-11-10": "clu_89d3d0540b",
+    "nasa::curiosity blog, sols 5056-5062: charging back up!::2026-11-10": "clu_3b4fb865a3",
+    "u.s. department of the treasury::米国債利回り 5年 2026-11-09: 4.67 %::2026-11-10": "clu_beb0fecd13",
+    "u.s. department of the treasury::米国債利回り 20年 2026-11-09: 5.29 %::2026-11-10": "clu_abf1b56a36",
+    "u.s. department of the treasury::米国債利回り 30年 2026-11-09: 5.26 %::2026-11-10": "clu_096841a460",
+    "u.s. department of the treasury::米国債利回り 2年 2026-11-09: 4.56 %::2026-11-10": "clu_9c1f148336",
+    "u.s. department of the treasury::米国債利回り 3か月 2026-11-09: 4.24 %::2026-11-10": "clu_b34d01e1af",
+    "u.s. department of the treasury::米国債利回り 10年 2026-11-09: 4.88 %::2026-11-10": "clu_1cbdd51f2a",
+    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-11-06: 32,762,925,356,629.469 usd::2026-11-10": "clu_a2702139c6",
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-11-06: 40,552,751,019,092.609 usd::2026-11-10": "clu_40e31b69e1"
+  },
+  "clusters": {
+    "clu_89d3d0540b": {
+      "primary_event_id": "evt_20261110_dc49c0a5c0",
+      "event_ids": [
+        "evt_20261110_dc49c0a5c0"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_3b4fb865a3": {
+      "primary_event_id": "evt_20261110_cc2dbb2c59",
+      "event_ids": [
+        "evt_20261110_cc2dbb2c59"
+      ],
+      "source_ids": [
+        "src_nasa_news"
+      ]
+    },
+    "clu_beb0fecd13": {
+      "primary_event_id": "evt_20261110_405284e6c1",
+      "event_ids": [
+        "evt_20261110_405284e6c1"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_abf1b56a36": {
+      "primary_event_id": "evt_20261110_bc1e4f9bc6",
+      "event_ids": [
+        "evt_20261110_bc1e4f9bc6"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_096841a460": {
+      "primary_event_id": "evt_20261110_d8f24bc618",
+      "event_ids": [
+        "evt_20261110_d8f24bc618"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_9c1f148336": {
+      "primary_event_id": "evt_20261110_26fd0e9477",
+      "event_ids": [
+        "evt_20261110_26fd0e9477"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_b34d01e1af": {
+      "primary_event_id": "evt_20261110_7e262e1b79",
+      "event_ids": [
+        "evt_20261110_7e262e1b79"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_1cbdd51f2a": {
+      "primary_event_id": "evt_20261110_5f856bf9ab",
+      "event_ids": [
+        "evt_20261110_5f856bf9ab"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_a2702139c6": {
+      "primary_event_id": "evt_20261110_1ec005da7d",
+      "event_ids": [
+        "evt_20261110_1ec005da7d"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    },
+    "clu_40e31b69e1": {
+      "primary_event_id": "evt_20261110_9d05bcaa95",
+      "event_ids": [
+        "evt_20261110_9d05bcaa95"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    }
+  }
+}

@@ -6,7 +6,9 @@
     "https://nvidianews.nvidia.com/news/a-message-to-our-company": "clu_2c8ab17a22",
     "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors": "clu_e7ba07e7b1",
     "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor": "clu_eda94246a4",
-    "https://nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge": "clu_a0221a37ca"
+    "https://nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge": "clu_a0221a37ca",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2343": "clu_4cb3f2735b",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2371": "clu_de4c65e31e"
   },
   "by_hash": {
     "6700ff7c1804c339b8d6e5a8e526cbc3695d1a6c8e0be60eca9875b10178f87e": "clu_f06888ba8a",
@@ -15,7 +17,9 @@
     "884f204f693b3df9877d8408a7e4ac692f8721c3cb686738c9d5f316b4101220": "clu_2c8ab17a22",
     "10787443ca355c2a4087b64dfc0c1e5aa270ad1b63fc94dab1369404da8ec5bb": "clu_e7ba07e7b1",
     "d01967b090bf988b164f5838e36bcc7e1d9e6d8b01b012430588f410dc4d26ce": "clu_eda94246a4",
-    "9c07b3cb14848e74df3a24d91f529fb72f78f34e4304827c9c30050712597ce9": "clu_a0221a37ca"
+    "9c07b3cb14848e74df3a24d91f529fb72f78f34e4304827c9c30050712597ce9": "clu_a0221a37ca",
+    "ee433935c1bb41d8db48bb7a654be731eccf0d4fa85499870ae48cda8003a861": "clu_4cb3f2735b",
+    "fb3cc7365e4f80166f5af3bfd8aac972f79ba55dd2a4541398498f9dd150a4b7": "clu_de4c65e31e"
   },
   "by_key": {
     "日本銀行::日本銀行の対政府取引(10月)::2026-11-08": "clu_f06888ba8a",
@@ -24,7 +28,9 @@
     "nvidia corporation::a message to our company::2026-11-08": "clu_2c8ab17a22",
     "nvidia corporation::statement from nvidia board of directors::2026-11-08": "clu_e7ba07e7b1",
     "nasa::apod: 2026 november 8 – major fireball meteor::2026-11-08": "clu_eda94246a4",
-    "nasa::nasa announces $1 million to students for moon base challenge::2026-11-08": "clu_a0221a37ca"
+    "nasa::nasa announces $1 million to students for moon base challenge::2026-11-08": "clu_a0221a37ca",
+    "european commission::eu emissions continue to fall as clean energy gains ground::2026-11-08": "clu_4cb3f2735b",
+    "european commission::high-level platform meets in moldova to strengthen digital connectivity between the eu, the black sea region, south-caucasus and central asia*::2026-11-08": "clu_de4c65e31e"
   },
   "clusters": {
     "clu_f06888ba8a": {
@@ -88,6 +94,24 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_4cb3f2735b": {
+      "primary_event_id": "evt_20261110_ee433935c1",
+      "event_ids": [
+        "evt_20261110_ee433935c1"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_de4c65e31e": {
+      "primary_event_id": "evt_20261110_fb3cc7365e",
+      "event_ids": [
+        "evt_20261110_fb3cc7365e"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }
