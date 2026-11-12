@@ -903,7 +903,12 @@
     "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon": "clu_58b5d1063f",
     "https://nasa.gov/image-article/chapea-crew-leaves-a-mark": "clu_6e8e5ef30d",
     "https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds": "clu_48fc090574",
-    "https://war.gov/News/Contracts/Contract/Article/4645969/contracts-for-nov-10-2026": "clu_1b5e11e74c"
+    "https://war.gov/News/Contracts/Contract/Article/4645969/contracts-for-nov-10-2026": "clu_1b5e11e74c",
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2408": "clu_95ef2d9912",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2407": "clu_fcd78ab334",
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2386": "clu_a53e4c36d3",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2385": "clu_e7836a677f",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2393": "clu_21a32fe8d0"
   },
   "by_hash": {
     "dc49c0a5c0c136827a7389fd591214b7931ff25b26a6871e67c85a922cfda0e5": "clu_89d3d0540b",
@@ -1809,7 +1814,12 @@
     "6951879be583ba09ab0192ec8c196c762678139429e3288d8e98fe5dc516a760": "clu_58b5d1063f",
     "8823ecb007a01155ec0b8f80a1a16f381a0c6ad92ff68accb663b117f4a8e831": "clu_6e8e5ef30d",
     "a46dc52a18b4dd01e1dd0af0c08ad3d8f8be9bfc2ae34623e71b517c0167fefc": "clu_48fc090574",
-    "0727aebb3ccd7879ffbd6e10a4d8d4a3901c88ef296be418dfb92b85c0fbc8ba": "clu_1b5e11e74c"
+    "0727aebb3ccd7879ffbd6e10a4d8d4a3901c88ef296be418dfb92b85c0fbc8ba": "clu_1b5e11e74c",
+    "2605e1b092543d8193e07b3d71b87217503c8ee8b1550ae912bdad206f5212c7": "clu_95ef2d9912",
+    "c97fec83088b5c0e841cfef237f23f3527a5dc25ed4e5f0b69d2396b24d743d9": "clu_fcd78ab334",
+    "e31e0b75bc0cb14af0e9e2bfb55d0e4ef35e36f4dbfd8d31fe3d9db44378d7d6": "clu_a53e4c36d3",
+    "c5872604fa9ccd5528e56d26bd3fb44663b31fc48e6d0297275945dce1135283": "clu_e7836a677f",
+    "de7e20b8c47eabf261df0a83e5a9c86f30ca0e753bc1eb8d7eada5ddf6d91564": "clu_21a32fe8d0"
   },
   "by_key": {
     "nasa::curiosity blog, sols 5050-5055: it’s nazca, our 49th drill hole::2026-11-10": "clu_89d3d0540b",
@@ -2713,7 +2723,12 @@
     "nasa::apod: 2026 november 10 – saturn behind the moon::2026-11-10": "clu_58b5d1063f",
     "nasa::chapea crew leaves a mark::2026-11-10": "clu_6e8e5ef30d",
     "nasa::nasa scientists show how gravitational waves can reveal new worlds::2026-11-10": "clu_48fc090574",
-    "u.s. department of war (旧 department of defense)::contracts for nov. 10, 2026::2026-11-10": "clu_1b5e11e74c"
+    "u.s. department of war (旧 department of defense)::contracts for nov. 10, 2026::2026-11-10": "clu_1b5e11e74c",
+    "european commission::questions and answers on the consumer package::2026-11-10": "clu_95ef2d9912",
+    "european commission::commission strengthens consumer protection laws, making them fit for the digital age::2026-11-10": "clu_fcd78ab334",
+    "european commission::questions and answers on the agreement on the eu annual budget 2027::2026-11-10": "clu_a53e4c36d3",
+    "european commission::bringing the current mff to a successful close: agreement on the final annual budget *::2026-11-10": "clu_e7836a677f",
+    "european commission::commissionner tzitzikostas delivers a speech at the drone summit::2026-11-10": "clu_21a32fe8d0"
   },
   "clusters": {
     "clu_89d3d0540b": {
@@ -10843,6 +10858,51 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_95ef2d9912": {
+      "primary_event_id": "evt_20261112_2605e1b092",
+      "event_ids": [
+        "evt_20261112_2605e1b092"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_fcd78ab334": {
+      "primary_event_id": "evt_20261112_c97fec8308",
+      "event_ids": [
+        "evt_20261112_c97fec8308"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_a53e4c36d3": {
+      "primary_event_id": "evt_20261112_e31e0b75bc",
+      "event_ids": [
+        "evt_20261112_e31e0b75bc"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_e7836a677f": {
+      "primary_event_id": "evt_20261112_c5872604fa",
+      "event_ids": [
+        "evt_20261112_c5872604fa"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_21a32fe8d0": {
+      "primary_event_id": "evt_20261112_de7e20b8c4",
+      "event_ids": [
+        "evt_20261112_de7e20b8c4"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

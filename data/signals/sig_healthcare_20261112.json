@@ -1,0 +1,59 @@
+{
+  "window_id": "sig_healthcare_20261112",
+  "as_of": "2026-11-12T02:26:46Z",
+  "window": {
+    "start": "2026-11-06",
+    "end": "2026-11-12",
+    "baseline_start": "2026-10-09",
+    "baseline_end": "2026-11-05"
+  },
+  "topic": {
+    "label": "医療・ライフサイエンス",
+    "keywords": [
+      "clinical trial",
+      "drug development",
+      "biotechnology",
+      "vaccine",
+      "医薬品",
+      "創薬",
+      "治験"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_healthcare"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 3,
+      "baseline_count": 2.5,
+      "event_ids": [
+        "evt_20261107_8d52f3566e",
+        "evt_20261111_a3f8418383",
+        "evt_20261112_65c644c633"
+      ],
+      "delta_ratio": 0.2
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 1,
+    "distinct_regions": 1,
+    "score": 26.7,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}

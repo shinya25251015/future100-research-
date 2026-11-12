@@ -454,7 +454,8 @@
     "https://science.nasa.gov/blog/newest-sample-oldest-rock": "clu_3c4a895e74",
     "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts": "clu_01a23fda05",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2384": "clu_49128aafdf",
-    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2373": "clu_83b8f2cf27"
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2373": "clu_83b8f2cf27",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2409": "clu_5928479234"
   },
   "by_hash": {
     "fe174135a082c4cb7fb044c05a8efb2c9d501dad7056db6f66f9168a32189035": "clu_088d14e37a",
@@ -909,7 +910,8 @@
     "7d5391c307505cde169b674a2af30525957a93b9089c33d80895ec5dd9f51bdd": "clu_3c4a895e74",
     "40b4011d7e67ae5a0d571d31da01631ca381809a31fd555ba214ffc4995de648": "clu_01a23fda05",
     "746a461c4e07e7bc694f006b847cffe50f12e8f2da2e9440c0181618eadefc02": "clu_49128aafdf",
-    "ef3309526abf84f36e8d0c873cdf06acc74f97b17f816c17bb04094e432c2210": "clu_83b8f2cf27"
+    "ef3309526abf84f36e8d0c873cdf06acc74f97b17f816c17bb04094e432c2210": "clu_83b8f2cf27",
+    "9336f30ca02dfc1e57957f6a7da7d36ef83f30985189fd93b49f16676eb4972b": "clu_5928479234"
   },
   "by_key": {
     "office of the federal register::television broadcasting services odessa, texas::2026-11-09": "clu_088d14e37a",
@@ -1364,7 +1366,8 @@
     "nasa::newest sample, oldest rock?::2026-11-09": "clu_3c4a895e74",
     "nasa::nasa’s chandra finds source of star’s mysterious outbursts::2026-11-09": "clu_01a23fda05",
     "european commission::commission issues €8 billion in its 10th syndicated transaction of 2026::2026-11-09": "clu_49128aafdf",
-    "european commission::commission approves €2 billion belgian state aid to support offshore wind energy::2026-11-09": "clu_83b8f2cf27"
+    "european commission::commission approves €2 billion belgian state aid to support offshore wind energy::2026-11-09": "clu_83b8f2cf27",
+    "european commission::opening speech by commissioner kubilius at the launch event of the uarm hub brussels::2026-11-09": "clu_5928479234"
   },
   "clusters": {
     "clu_088d14e37a": {
@@ -5439,6 +5442,15 @@
       "primary_event_id": "evt_20261111_ef3309526a",
       "event_ids": [
         "evt_20261111_ef3309526a"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_5928479234": {
+      "primary_event_id": "evt_20261112_9336f30ca0",
+      "event_ids": [
+        "evt_20261112_9336f30ca0"
       ],
       "source_ids": [
         "src_eu_commission_press"
