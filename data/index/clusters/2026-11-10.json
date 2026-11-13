@@ -908,7 +908,10 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2407": "clu_fcd78ab334",
     "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2386": "clu_a53e4c36d3",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2385": "clu_e7836a677f",
-    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2393": "clu_21a32fe8d0"
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2393": "clu_21a32fe8d0",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2429": "clu_0950c6a31d",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2430": "clu_5af782d539",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2419": "clu_9f421e0d1a"
   },
   "by_hash": {
     "dc49c0a5c0c136827a7389fd591214b7931ff25b26a6871e67c85a922cfda0e5": "clu_89d3d0540b",
@@ -1819,7 +1822,10 @@
     "c97fec83088b5c0e841cfef237f23f3527a5dc25ed4e5f0b69d2396b24d743d9": "clu_fcd78ab334",
     "e31e0b75bc0cb14af0e9e2bfb55d0e4ef35e36f4dbfd8d31fe3d9db44378d7d6": "clu_a53e4c36d3",
     "c5872604fa9ccd5528e56d26bd3fb44663b31fc48e6d0297275945dce1135283": "clu_e7836a677f",
-    "de7e20b8c47eabf261df0a83e5a9c86f30ca0e753bc1eb8d7eada5ddf6d91564": "clu_21a32fe8d0"
+    "de7e20b8c47eabf261df0a83e5a9c86f30ca0e753bc1eb8d7eada5ddf6d91564": "clu_21a32fe8d0",
+    "04a5122e01369aeb1f7e361df7494e0e96e8fdb614f2e31a77b1c674504a5196": "clu_0950c6a31d",
+    "3f3a98ae2a14e1d96e65192b1b1829605b81cfd69bb4051f574a21b6a4959aac": "clu_5af782d539",
+    "426ac69b1b5afab3b8251b839caf71c574196587d032cdf27cfd575b8c77cbf1": "clu_9f421e0d1a"
   },
   "by_key": {
     "nasa::curiosity blog, sols 5050-5055: it’s nazca, our 49th drill hole::2026-11-10": "clu_89d3d0540b",
@@ -2728,7 +2734,10 @@
     "european commission::commission strengthens consumer protection laws, making them fit for the digital age::2026-11-10": "clu_fcd78ab334",
     "european commission::questions and answers on the agreement on the eu annual budget 2027::2026-11-10": "clu_a53e4c36d3",
     "european commission::bringing the current mff to a successful close: agreement on the final annual budget *::2026-11-10": "clu_e7836a677f",
-    "european commission::commissionner tzitzikostas delivers a speech at the drone summit::2026-11-10": "clu_21a32fe8d0"
+    "european commission::commissionner tzitzikostas delivers a speech at the drone summit::2026-11-10": "clu_21a32fe8d0",
+    "european commission::opening remarks of commissioner mcgrath at the european parliament plenary debate on media freedom and rule of law in the czech republic: threats to the independence of public broadcasters::2026-11-10": "clu_0950c6a31d",
+    "european commission::concluding remarks of commissioner mcgrath at the european parliament plenary session on media freedom and rule of law in the czech republic: threats to the independence of public broadcasters::2026-11-10": "clu_5af782d539",
+    "european commission::speech by commissioner várhelyi at the ep plenary debate on europe's beating cancer plan::2026-11-10": "clu_9f421e0d1a"
   },
   "clusters": {
     "clu_89d3d0540b": {
@@ -10900,6 +10909,33 @@
       "primary_event_id": "evt_20261112_de7e20b8c4",
       "event_ids": [
         "evt_20261112_de7e20b8c4"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_0950c6a31d": {
+      "primary_event_id": "evt_20261113_04a5122e01",
+      "event_ids": [
+        "evt_20261113_04a5122e01"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_5af782d539": {
+      "primary_event_id": "evt_20261113_3f3a98ae2a",
+      "event_ids": [
+        "evt_20261113_3f3a98ae2a"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_9f421e0d1a": {
+      "primary_event_id": "evt_20261113_426ac69b1b",
+      "event_ids": [
+        "evt_20261113_426ac69b1b"
       ],
       "source_ids": [
         "src_eu_commission_press"

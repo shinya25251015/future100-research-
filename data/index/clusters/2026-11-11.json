@@ -367,7 +367,8 @@
     "https://arxiv.org/abs/2611.13975": "clu_02a008c4ce",
     "https://news.samsung.com/global/samsung-and-ioc-back-young-innovators-at-africas-first-olympic-games": "clu_4080cc319b",
     "https://science.nasa.gov/earth/earth-observatory/water-surges-into-navajo-reservoir": "clu_1337d2b231",
-    "https://science.nasa.gov/image-article/apod-2026-november-11-ngc-4449-small-galaxy-big-impact": "clu_cd84f7945d"
+    "https://science.nasa.gov/image-article/apod-2026-november-11-ngc-4449-small-galaxy-big-impact": "clu_cd84f7945d",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2415": "clu_5ff2ba9035"
   },
   "by_hash": {
     "7543758940bdd038aaa7245ec04982af844ace057542e69adbdab738afb1f779": "clu_f6ec928f58",
@@ -737,7 +738,8 @@
     "a7477a5f4beaa804a24c804f541d55c175733410999f7636b25d90be1db84e5d": "clu_02a008c4ce",
     "42a780ecfc44c06dc1a70633bc6242de2637ed1eb61133639dbec4404fc9c50a": "clu_4080cc319b",
     "771ef78539bca24e768ec2c74d463023ad4f2ab910d7c215700656f9b5a5271e": "clu_1337d2b231",
-    "b230c54901d62c5964db155d60fb82b498243f05bd28ec5e46b0aac9d515e9fe": "clu_cd84f7945d"
+    "b230c54901d62c5964db155d60fb82b498243f05bd28ec5e46b0aac9d515e9fe": "clu_cd84f7945d",
+    "4e37a32f738f6c493753317d2ae900d1b776679cdb51c0adcb6be5c23bdecdaa": "clu_5ff2ba9035"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 3か月 2026-11-10: 4.3 %::2026-11-11": "clu_f6ec928f58",
@@ -1107,7 +1109,8 @@
     "arxiv::understanding mixture-of-experts language models beyond expert boundaries::2026-11-11": "clu_02a008c4ce",
     "samsung electronics::samsung and ioc back young innovators at africa’s first olympic games::2026-11-11": "clu_4080cc319b",
     "nasa::water surges into navajo reservoir::2026-11-11": "clu_1337d2b231",
-    "nasa::apod: 2026 november 11 – ngc 4449: small galaxy, big impact::2026-11-11": "clu_cd84f7945d"
+    "nasa::apod: 2026 november 11 – ngc 4449: small galaxy, big impact::2026-11-11": "clu_cd84f7945d",
+    "european commission::commission welcomes nederlandse spoorwegen's new sales policy for railway vehicles and closes antitrust investigation::2026-11-11": "clu_5ff2ba9035"
   },
   "clusters": {
     "clu_f6ec928f58": {
@@ -4420,6 +4423,15 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_5ff2ba9035": {
+      "primary_event_id": "evt_20261113_4e37a32f73",
+      "event_ids": [
+        "evt_20261113_4e37a32f73"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }
