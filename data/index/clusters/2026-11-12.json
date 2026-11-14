@@ -82,7 +82,9 @@
     "https://nasa.gov/image-article/heart-in-the-sky-at-nasa-kennedy": "clu_bbb06846d5",
     "https://science.nasa.gov/image-article/apod-2026-november-12-moon-venus-and-spica-meet": "clu_b7825a4dc5",
     "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman": "clu_db8ed5002f",
-    "https://nasa.gov/general/nasa-ames-stars-of-the-month-november-2026": "clu_ee75767ad2"
+    "https://nasa.gov/general/nasa-ames-stars-of-the-month-november-2026": "clu_ee75767ad2",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2360": "clu_9cfdd16c38",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2422": "clu_0632a86d5d"
   },
   "by_hash": {
     "d64030de1dfe4458d9bd00c560539da5aa32887f628b1f60e871c05e4dd31ecd": "clu_60ddd371bb",
@@ -167,7 +169,9 @@
     "32f4912fb819eaed6d88801ec7a493762900fb125b2981d27da85fd9e0f91d23": "clu_bbb06846d5",
     "77f6670de8e5b7d7cd8dfc778c53069a18e41d8ed0972919172a47a31e740e1a": "clu_b7825a4dc5",
     "da4348b73ff717e8353931b473a822df978e81c5ea7cd58bf4b10c7692132f5f": "clu_db8ed5002f",
-    "9407709244301d31edaa5be2c3a873bb1806b21e7dc83d9b5129e69f1ed60cfc": "clu_ee75767ad2"
+    "9407709244301d31edaa5be2c3a873bb1806b21e7dc83d9b5129e69f1ed60cfc": "clu_ee75767ad2",
+    "dad875c363f9515d04d5e5752ef5097db8e493ace97f6ce84974637f44b22ad7": "clu_9cfdd16c38",
+    "39df29056019718abe2c55f6a2ba01c90c0275c34f76b42e58cd14c569d000e3": "clu_0632a86d5d"
   },
   "by_key": {
     "office of the federal register::wooden cabinets and vanities and components thereof from the people's republic of china: final results of antidumping duty administrative review, 2024-2025::2026-11-12": "clu_60ddd371bb",
@@ -251,7 +255,9 @@
     "nasa::heart in the sky at nasa kennedy::2026-11-12": "clu_bbb06846d5",
     "nasa::apod: 2026 november 12 – moon, venus and spica meet::2026-11-12": "clu_b7825a4dc5",
     "nasa::nasa’s hubble offers cosmic sampler of targets for roman::2026-11-12": "clu_db8ed5002f",
-    "nasa::nasa ames stars of the month: november 2026::2026-11-12": "clu_ee75767ad2"
+    "nasa::nasa ames stars of the month: november 2026::2026-11-12": "clu_ee75767ad2",
+    "european commission::commission approves €286 million german state aid to port of hamburg::2026-11-12": "clu_9cfdd16c38",
+    "european commission::commission sends supplementary statement of objections to ppc over predatory pricing in the greek wholesale electricity market::2026-11-12": "clu_0632a86d5d"
   },
   "clusters": {
     "clu_60ddd371bb": {
@@ -999,6 +1005,24 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_9cfdd16c38": {
+      "primary_event_id": "evt_20261114_dad875c363",
+      "event_ids": [
+        "evt_20261114_dad875c363"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_0632a86d5d": {
+      "primary_event_id": "evt_20261114_39df290560",
+      "event_ids": [
+        "evt_20261114_39df290560"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }
