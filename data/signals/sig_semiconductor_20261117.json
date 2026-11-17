@@ -1,0 +1,81 @@
+{
+  "window_id": "sig_semiconductor_20261117",
+  "as_of": "2026-11-17T04:06:25Z",
+  "window": {
+    "start": "2026-11-11",
+    "end": "2026-11-17",
+    "baseline_start": "2026-10-14",
+    "baseline_end": "2026-11-10"
+  },
+  "topic": {
+    "label": "半導体",
+    "keywords": [
+      "semiconductor",
+      "foundry",
+      "wafer",
+      "lithography",
+      "euv",
+      "hbm",
+      "chip fab",
+      "半導体",
+      "前工程",
+      "後工程",
+      "露光装置"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_semiconductor"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 19,
+      "baseline_count": 26.5,
+      "event_ids": [
+        "evt_20261112_e963380b55",
+        "evt_20261112_62ff4347c2",
+        "evt_20261112_ed7732ca79",
+        "evt_20261112_ce3a6865c4",
+        "evt_20261114_242368cc0e",
+        "evt_20261114_9861f4dfad",
+        "evt_20261114_af1219ce93",
+        "evt_20261114_419b2a4f69",
+        "evt_20261114_36d14b0e10",
+        "evt_20261114_a8d5516189",
+        "evt_20261114_0c2347b61f",
+        "evt_20261114_90b54c9c9c",
+        "evt_20261114_12f762d4ea",
+        "evt_20261117_c7746b174a",
+        "evt_20261117_9dc0a96a8b",
+        "evt_20261117_60b5b7a60e",
+        "evt_20261117_52818e9a51",
+        "evt_20261117_2a75cb546b",
+        "evt_20261117_621e869b28"
+      ],
+      "delta_ratio": -0.283
+    },
+    {
+      "signal_type": "patent",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}

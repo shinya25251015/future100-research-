@@ -421,7 +421,8 @@
     "https://science.nasa.gov/earth/earth-observatory/taking-a-gander-at-utahs-goosenecks": "clu_50bedc8520",
     "https://science.nasa.gov/earth/supercomputing-tech-demo-schedule": "clu_15a9000048",
     "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift": "clu_df31a140f4",
-    "https://war.gov/News/Contracts/Contract/Article/4644106/contracts-for-nov-6-2026": "clu_a8fd224ca5"
+    "https://war.gov/News/Contracts/Contract/Article/4644106/contracts-for-nov-6-2026": "clu_a8fd224ca5",
+    "https://news.samsung.com/global/samsung-employees-celebrate-diwali-with-lights-color-and-togetherness": "clu_ade0c08275"
   },
   "by_hash": {
     "6737f49e809ea0699e99fce5fc4249811c18a79d315212ec5de6c37d1299f928": "clu_df1f61f1c4",
@@ -845,7 +846,8 @@
     "5369caefbae4898f83cddfd3ea110f7b5bd9f2edbab5d29e8b13c5e24294414d": "clu_50bedc8520",
     "cf9c7f8e63b965c1a6f4bfd82f51ec20ee38cfb6fbe21dc6861e854fe644bbd2": "clu_15a9000048",
     "e85b014d89df3433d92d60347d4d72788dee5276fa7a9166cb9f5c81d8c2d049": "clu_df31a140f4",
-    "c7943ba45e722b75e82363650d9acb9523fd50f40f28a387c0673e416bba4f7e": "clu_a8fd224ca5"
+    "c7943ba45e722b75e82363650d9acb9523fd50f40f28a387c0673e416bba4f7e": "clu_a8fd224ca5",
+    "7231a76f41293b9343a3a4c97593cdfda86ae144eb17083395d884b2a9ddb2e9": "clu_ade0c08275"
   },
   "by_key": {
     "日本銀行::学生向けコンテスト「第22回 日銀グランプリ」決勝大会の実施について::2026-11-06": "clu_df1f61f1c4",
@@ -1269,7 +1271,8 @@
     "nasa::taking a gander at utah’s goosenecks::2026-11-06": "clu_50bedc8520",
     "nasa::supercomputing tech demo schedule::2026-11-06": "clu_15a9000048",
     "nasa::apod: 2026 november 6 – a farewell to swift::2026-11-06": "clu_df31a140f4",
-    "u.s. department of war (旧 department of defense)::contracts for nov. 6, 2026::2026-11-06": "clu_a8fd224ca5"
+    "u.s. department of war (旧 department of defense)::contracts for nov. 6, 2026::2026-11-06": "clu_a8fd224ca5",
+    "samsung electronics::samsung employees celebrate diwali with lights, color, and togetherness::2026-11-06": "clu_ade0c08275"
   },
   "clusters": {
     "clu_df1f61f1c4": {
@@ -5068,6 +5071,15 @@
       ],
       "source_ids": [
         "src_us_defense_contracts"
+      ]
+    },
+    "clu_ade0c08275": {
+      "primary_event_id": "evt_20261117_7231a76f41",
+      "event_ids": [
+        "evt_20261117_7231a76f41"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

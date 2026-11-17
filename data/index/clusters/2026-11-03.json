@@ -884,7 +884,8 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2325": "clu_e1d1620bad",
     "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2323": "clu_1f654fe032",
     "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2283": "clu_aaa5d3e264",
-    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2321": "clu_4d08b1d832"
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2321": "clu_4d08b1d832",
+    "https://news.samsung.com/global/samsung-partners-with-englesson-to-integrate-tv-technology-into-swedish-furniture-design": "clu_f6140779f1"
   },
   "by_hash": {
     "2d63164925194072fa9bb94311e8f09bbc3d02e422110f5d76f4ee9d13faa332": "clu_4413d6888f",
@@ -1769,7 +1770,8 @@
     "13ae8d05edc7d789d870bccb05c21a7bb48c137542d3f2ddde3fe34b0bc9ef6f": "clu_e1d1620bad",
     "46f1aee95eb60857e4987e9b7b43fa96ebb2c9e7b699f213ddda99b984379b52": "clu_1f654fe032",
     "27779b2d72cdc2c2e1f3d6740452ed361cd2b4614459d06883d4eb62a12d240e": "clu_aaa5d3e264",
-    "ed2d71d12039d1798e0d35bcb9dce2f76f04e93eda5447c841d6a61c15c8185c": "clu_4d08b1d832"
+    "ed2d71d12039d1798e0d35bcb9dce2f76f04e93eda5447c841d6a61c15c8185c": "clu_4d08b1d832",
+    "7f951800f022f7486880c8165c18d2ba24eb27656fb6d895e57645592bd024e6": "clu_f6140779f1"
   },
   "by_key": {
     "samsung electronics::[video] inside the tech: samsung micro rgb tv::2026-11-03": "clu_4413d6888f",
@@ -2652,7 +2654,8 @@
     "european commission::2026 enlargement package shows that reform commitment delivers progress towards eu membership::2026-11-03": "clu_e1d1620bad",
     "european commission::factsheet - 2027 commission work programme::2026-11-03": "clu_1f654fe032",
     "european commission::factsheet - eu sustainable tourism strategy::2026-11-03": "clu_aaa5d3e264",
-    "european commission::commission unveils 2027 work programme for a stronger and sovereign europe and reports on simplification efforts::2026-11-03": "clu_4d08b1d832"
+    "european commission::commission unveils 2027 work programme for a stronger and sovereign europe and reports on simplification efforts::2026-11-03": "clu_4d08b1d832",
+    "samsung electronics::samsung partners with englesson to integrate tv technology into swedish furniture design::2026-11-03": "clu_f6140779f1"
   },
   "clusters": {
     "clu_4413d6888f": {
@@ -10600,6 +10603,15 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_f6140779f1": {
+      "primary_event_id": "evt_20261117_7f951800f0",
+      "event_ids": [
+        "evt_20261117_7f951800f0"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }

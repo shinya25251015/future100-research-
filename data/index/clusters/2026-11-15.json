@@ -1,12 +1,15 @@
 {
   "by_url": {
-    "https://news.samsung.com/global/samsungs-latest-products-recognized-by-consumer-technology-association-ahead-of-ces-2027": "clu_395f194487"
+    "https://news.samsung.com/global/samsungs-latest-products-recognized-by-consumer-technology-association-ahead-of-ces-2027": "clu_395f194487",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2440": "clu_4136e09594"
   },
   "by_hash": {
-    "807c3444612d61a2c8b62a69af8f2aa41d59d75ca1e6821f6a2b21b1617a6259": "clu_395f194487"
+    "807c3444612d61a2c8b62a69af8f2aa41d59d75ca1e6821f6a2b21b1617a6259": "clu_395f194487",
+    "19b763a5587636a41171ab7394fc2a440fbdf08c3ddc991f559d1ca3b73d8c67": "clu_4136e09594"
   },
   "by_key": {
-    "samsung electronics::samsung’s latest products recognized by consumer technology association ahead of ces 2027::2026-11-15": "clu_395f194487"
+    "samsung electronics::samsung’s latest products recognized by consumer technology association ahead of ces 2027::2026-11-15": "clu_395f194487",
+    "european commission::commission unconditionally approves unicredit's acquisition of commerzbank::2026-11-15": "clu_4136e09594"
   },
   "clusters": {
     "clu_395f194487": {
@@ -16,6 +19,15 @@
       ],
       "source_ids": [
         "src_samsung_newsroom"
+      ]
+    },
+    "clu_4136e09594": {
+      "primary_event_id": "evt_20261117_19b763a558",
+      "event_ids": [
+        "evt_20261117_19b763a558"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

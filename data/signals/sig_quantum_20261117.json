@@ -1,0 +1,58 @@
+{
+  "window_id": "sig_quantum_20261117",
+  "as_of": "2026-11-17T04:06:25Z",
+  "window": {
+    "start": "2026-11-11",
+    "end": "2026-11-17",
+    "baseline_start": "2026-10-14",
+    "baseline_end": "2026-11-10"
+  },
+  "topic": {
+    "label": "量子",
+    "keywords": [
+      "quantum computing",
+      "quantum computer",
+      "qubit",
+      "quantum processor",
+      "量子コンピュータ",
+      "量子計算"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_quantum"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 8,
+      "baseline_count": 8.75,
+      "event_ids": [
+        "evt_20261112_62ff4347c2",
+        "evt_20261114_1c3c9f0740",
+        "evt_20261114_cc65e23e16",
+        "evt_20261114_0c3957134e",
+        "evt_20261114_e724c82e06",
+        "evt_20261117_0b395b0cad",
+        "evt_20261117_8ffb5bed89",
+        "evt_20261117_e506e7217d"
+      ],
+      "delta_ratio": -0.086
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}
