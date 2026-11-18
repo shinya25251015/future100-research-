@@ -384,7 +384,14 @@
     "https://ec.europa.eu/eurostat/databrowser/view/sts_inpr_m?keys=PRD%2FC26%2FSCA%2FI21%2FEU27_2020&period=2025-12": "clu_d488c2ea88",
     "https://ec.europa.eu/eurostat/databrowser/view/sts_inpr_m?keys=PRD%2FC26%2FSCA%2FI21%2FEU27_2020&period=2026-05": "clu_38a8a8a78f",
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-01": "clu_943b55500d",
-    "https://ec.europa.eu/eurostat/databrowser/view/sts_inpr_m?keys=PRD%2FC27%2FSCA%2FI21%2FEU27_2020&period=2025-09": "clu_b5d4e1b6e4"
+    "https://ec.europa.eu/eurostat/databrowser/view/sts_inpr_m?keys=PRD%2FC27%2FSCA%2FI21%2FEU27_2020&period=2025-09": "clu_b5d4e1b6e4",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2445": "clu_3844d61d05",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2438": "clu_ca06d2a2b6",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2457": "clu_868de344e2",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2447": "clu_2aa53be6f9",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2463": "clu_2b0d67b01e",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2459": "clu_63829b4620",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2456": "clu_e1201e74e2"
   },
   "by_hash": {
     "daccb57024d3b45a9b6efdac92d8cbe2d789d37057199cedc77b3832613de585": "clu_5df9594ba4",
@@ -771,7 +778,14 @@
     "b69510175b5ad79bbd93af500cac79381897c809e897a29537521a5dde276c86": "clu_d488c2ea88",
     "e6445ff83ba7cb76f11ca6514def8332a49b37342cf8d74a2e3d4d51064d5523": "clu_38a8a8a78f",
     "a3529b49605b21ac1b9ce0eb3b7802ad59785dc8a3163cf688046d14292e02d6": "clu_943b55500d",
-    "f83f38f99d57c1e181f1d9a1c9747db75059e8ad00a74d3f86437b777155886d": "clu_b5d4e1b6e4"
+    "f83f38f99d57c1e181f1d9a1c9747db75059e8ad00a74d3f86437b777155886d": "clu_b5d4e1b6e4",
+    "897eeb81e4f7b29d0018b00a2767143d52c32102bd358cd1ea29d89001d39977": "clu_3844d61d05",
+    "6d79f2f9e48e5003dd107544d0afabd81f3a95649065f35191bcc15adc70f771": "clu_ca06d2a2b6",
+    "7f659e9681ec71906c200cba76d0219fd71c010792143e1858e52c567ac85e31": "clu_868de344e2",
+    "b262417217603cdd06360180efaca371ae121fd8a7662647cb6cf121891f2808": "clu_2aa53be6f9",
+    "294c4f2429cb9c0c1ecc2e7d3f80b6a076132958587ff6345fd84d4b3030ce06": "clu_2b0d67b01e",
+    "973b59c4de580ee1ba0cbd9f94d30957d841fce984e5af279c727dea61387582": "clu_63829b4620",
+    "6fc63c2cfd184e815295f813b7873eddfb9054cf5aefb80088dd95a3b1612331": "clu_e1201e74e2"
   },
   "by_key": {
     "office of the federal register::certain oil country tubular goods from the united arab emirates: postponement of final determination of sales at less than fair value investigation and extension of provisional measures::2026-11-16": "clu_5df9594ba4",
@@ -1158,7 +1172,14 @@
     "european commission (eurostat)::production in industry - monthly data(production (volume), manufacture of computer, electronic and optical products, seasonally and calendar adjusted data, european union - 27 countries (from 2020)) 2025-12: 104.7 指数(2021=100)::2026-11-16": "clu_d488c2ea88",
     "european commission (eurostat)::production in industry - monthly data(production (volume), manufacture of computer, electronic and optical products, seasonally and calendar adjusted data, european union - 27 countries (from 2020)) 2026-05: 104.5 指数(2021=100)::2026-11-16": "clu_38a8a8a78f",
     "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-01: 269,591.386 gwh::2026-11-16": "clu_943b55500d",
-    "european commission (eurostat)::production in industry - monthly data(production (volume), manufacture of electrical equipment, seasonally and calendar adjusted data, european union - 27 countries (from 2020)) 2025-09: 97.6 指数(2021=100)::2026-11-16": "clu_b5d4e1b6e4"
+    "european commission (eurostat)::production in industry - monthly data(production (volume), manufacture of electrical equipment, seasonally and calendar adjusted data, european union - 27 countries (from 2020)) 2025-09: 97.6 指数(2021=100)::2026-11-16": "clu_b5d4e1b6e4",
+    "european commission::commission greenlights lithuania's seventh and final payment request for €993 million under nextgenerationeu::2026-11-16": "clu_3844d61d05",
+    "european commission::autumn 2026 economic forecast shows continued growth amid higher inflation::2026-11-16": "clu_ca06d2a2b6",
+    "european commission::commission approves €9.5 billion dutch state aid to support offshore wind energy::2026-11-16": "clu_868de344e2",
+    "european commission::commission partially greenlights cyprus' final payment request for €391 million under nextgenerationeu::2026-11-16": "clu_2aa53be6f9",
+    "european commission::commission preliminarily finds temu in breach of the digital services act for failure to tackle the sale of illegal products::2026-11-16": "clu_2b0d67b01e",
+    "european commission::eu advances syrian recovery and reconstruction through syria partnership coordination forum in damascus::2026-11-16": "clu_63829b4620",
+    "european commission::commission approves amended german state aid schemes for energy-intensive companies::2026-11-16": "clu_e1201e74e2"
   },
   "clusters": {
     "clu_5df9594ba4": {
@@ -4624,6 +4645,69 @@
       ],
       "source_ids": [
         "src_eurostat_industry_energy"
+      ]
+    },
+    "clu_3844d61d05": {
+      "primary_event_id": "evt_20261118_897eeb81e4",
+      "event_ids": [
+        "evt_20261118_897eeb81e4"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_ca06d2a2b6": {
+      "primary_event_id": "evt_20261118_6d79f2f9e4",
+      "event_ids": [
+        "evt_20261118_6d79f2f9e4"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_868de344e2": {
+      "primary_event_id": "evt_20261118_7f659e9681",
+      "event_ids": [
+        "evt_20261118_7f659e9681"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_2aa53be6f9": {
+      "primary_event_id": "evt_20261118_b262417217",
+      "event_ids": [
+        "evt_20261118_b262417217"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_2b0d67b01e": {
+      "primary_event_id": "evt_20261118_294c4f2429",
+      "event_ids": [
+        "evt_20261118_294c4f2429"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_63829b4620": {
+      "primary_event_id": "evt_20261118_973b59c4de",
+      "event_ids": [
+        "evt_20261118_973b59c4de"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_e1201e74e2": {
+      "primary_event_id": "evt_20261118_6fc63c2cfd",
+      "event_ids": [
+        "evt_20261118_6fc63c2cfd"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

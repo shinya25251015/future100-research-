@@ -1,0 +1,71 @@
+{
+  "window_id": "sig_quantum_20261118",
+  "as_of": "2026-11-18T03:04:29Z",
+  "window": {
+    "start": "2026-11-12",
+    "end": "2026-11-18",
+    "baseline_start": "2026-10-15",
+    "baseline_end": "2026-11-11"
+  },
+  "topic": {
+    "label": "量子",
+    "keywords": [
+      "quantum computing",
+      "quantum computer",
+      "qubit",
+      "quantum processor",
+      "量子コンピュータ",
+      "量子計算"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_quantum"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 11,
+      "baseline_count": 8.25,
+      "event_ids": [
+        "evt_20261114_1c3c9f0740",
+        "evt_20261114_cc65e23e16",
+        "evt_20261114_0c3957134e",
+        "evt_20261114_e724c82e06",
+        "evt_20261117_0b395b0cad",
+        "evt_20261117_8ffb5bed89",
+        "evt_20261117_e506e7217d",
+        "evt_20261118_3eff6b087c",
+        "evt_20261118_c440c82920",
+        "evt_20261118_390b38aa43",
+        "evt_20261118_83cde5da5c"
+      ],
+      "delta_ratio": 0.333
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      },
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 2,
+    "distinct_regions": 1,
+    "score": 34.2,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}
