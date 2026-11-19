@@ -752,7 +752,12 @@
     "https://science.nasa.gov/missions/chandra/new-album-of-baby-star-sounds-shared-by-nasas-chandra": "clu_7b1ec3ef93",
     "https://nasa.gov/missions/station/nicer-status-updates": "clu_d5462eed5d",
     "https://nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/bps-digital-avatar-challenge": "clu_d133586d10",
-    "https://science.nasa.gov/blog/curiosity-blog-sols-5072-5076-the-return-of-the-polygons": "clu_17c4dea964"
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5072-5076-the-return-of-the-polygons": "clu_17c4dea964",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2450": "clu_93e930653a",
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2455": "clu_7f9897b141",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2476": "clu_7549f7cb45",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2454": "clu_ddda3872cd",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2475": "clu_a5892ba8e1"
   },
   "by_hash": {
     "153a0a5f0f5fee36ce684af0fdb6d245f3f39f9e1f526267dfcbfbeaeeb408ca": "clu_631651734b",
@@ -1507,7 +1512,12 @@
     "d228178a41e98e33c0836a2cde8fdef9f70117f86b1a8c5b08a0ae9198d6006f": "clu_7b1ec3ef93",
     "2ba47ac99ec88033d2d49d7b594c5a536a24a7f35908ee1b9abf3db2829e16a6": "clu_d5462eed5d",
     "e1f4d9acb0590aaf502ad2ec427c51b2bdee7965e10629bdc33b6f9845b1d6ca": "clu_d133586d10",
-    "4b2e547df5debb7ebaf2d1ec8915e2d2adefa9c27c6ebb4694ae8f2839928733": "clu_17c4dea964"
+    "4b2e547df5debb7ebaf2d1ec8915e2d2adefa9c27c6ebb4694ae8f2839928733": "clu_17c4dea964",
+    "23fcc5072b01d5f7d602f4caa055ce177f893b62f28f5727bb108edb02d4e1f0": "clu_93e930653a",
+    "d7009736a1562a4928719c175ee34690d2de1af0320dca026199d836c10289d7": "clu_7f9897b141",
+    "f92e1390400f38edd49e76f690235f04835d624f09d318a9cf826475c9d90f0a": "clu_7549f7cb45",
+    "8e072d4cdf6d238335039c03d85a847a4d7ea6e4cb4a1ba10d5c9d43f7b910e3": "clu_ddda3872cd",
+    "8e79489a0b671c8ca0595f8f47f89f3362d5e4e719dae2c83cf6270bd05f50bb": "clu_a5892ba8e1"
   },
   "by_key": {
     "u.s. department of the treasury::米国債利回り 10年 2026-11-16: 5.12 %::2026-11-17": "clu_631651734b",
@@ -2262,7 +2272,12 @@
     "nasa::new album of baby star sounds shared by nasa’s chandra::2026-11-17": "clu_7b1ec3ef93",
     "nasa::nicer status updates::2026-11-17": "clu_d5462eed5d",
     "nasa::bps digital avatar challenge::2026-11-17": "clu_d133586d10",
-    "nasa::curiosity blog, sols 5072-5076: the return of the polygons::2026-11-17": "clu_17c4dea964"
+    "nasa::curiosity blog, sols 5072-5076: the return of the polygons::2026-11-17": "clu_17c4dea964",
+    "european commission::commission welcomes political agreement on faster and simpler permitting for grids, clean energy projects::2026-11-17": "clu_93e930653a",
+    "european commission::questions and answers on new financial support package for ukraine for 2027::2026-11-17": "clu_7f9897b141",
+    "european commission::factsheet: advanced materials::2026-11-17": "clu_7549f7cb45",
+    "european commission::commission proposes €45 billion in additional financial support for ukraine in 2027::2026-11-17": "clu_ddda3872cd",
+    "european commission::commission proposes to boost advanced materials for europe's innovation and industrial leadership::2026-11-17": "clu_a5892ba8e1"
   },
   "clusters": {
     "clu_631651734b": {
@@ -9040,6 +9055,51 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_93e930653a": {
+      "primary_event_id": "evt_20261119_23fcc5072b",
+      "event_ids": [
+        "evt_20261119_23fcc5072b"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_7f9897b141": {
+      "primary_event_id": "evt_20261119_d7009736a1",
+      "event_ids": [
+        "evt_20261119_d7009736a1"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_7549f7cb45": {
+      "primary_event_id": "evt_20261119_f92e139040",
+      "event_ids": [
+        "evt_20261119_f92e139040"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_ddda3872cd": {
+      "primary_event_id": "evt_20261119_8e072d4cdf",
+      "event_ids": [
+        "evt_20261119_8e072d4cdf"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_a5892ba8e1": {
+      "primary_event_id": "evt_20261119_8e79489a0b",
+      "event_ids": [
+        "evt_20261119_8e79489a0b"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

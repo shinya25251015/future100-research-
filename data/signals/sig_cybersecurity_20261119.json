@@ -1,0 +1,63 @@
+{
+  "window_id": "sig_cybersecurity_20261119",
+  "as_of": "2026-11-19T02:44:48Z",
+  "window": {
+    "start": "2026-11-13",
+    "end": "2026-11-19",
+    "baseline_start": "2026-10-16",
+    "baseline_end": "2026-11-12"
+  },
+  "topic": {
+    "label": "サイバーセキュリティ",
+    "keywords": [
+      "cybersecurity",
+      "cyber security",
+      "ransomware",
+      "zero trust",
+      "サイバー攻撃",
+      "サイバーセキュリティ"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_cybersecurity"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 8,
+      "baseline_count": 5.25,
+      "event_ids": [
+        "evt_20261118_058d43c1f9",
+        "evt_20261118_a950008c34",
+        "evt_20261118_8ffd032045",
+        "evt_20261118_2cd5237fe2",
+        "evt_20261118_43aa20b5b7",
+        "evt_20261119_7489e0764d",
+        "evt_20261119_4eac3ea58f",
+        "evt_20261119_52d9d96601"
+      ],
+      "delta_ratio": 0.524
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_cs_ai",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 1,
+    "distinct_regions": 1,
+    "score": 26.7,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,130 @@
+{
+  "by_url": {
+    "http://boj.or.jp/mopo/diet/d_state/dst261119a.htm": "clu_f6645380d5",
+    "https://news.samsung.com/global/samsung-tv-plus-brings-2026-mama-awards-to-k-pop-fans-around-the-world": "clu_c9551437d4",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-11-17&series=debt_held_public_amt": "clu_0327f31437",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-18&tenor=20%E5%B9%B4": "clu_b5c0adc2b8",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-18&tenor=2%E5%B9%B4": "clu_b0b06e745b",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-18&tenor=5%E5%B9%B4": "clu_3bccc1deef",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-18&tenor=3%E3%81%8B%E6%9C%88": "clu_33a39dc0c0",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-18&tenor=10%E5%B9%B4": "clu_73d7abc710",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-18&tenor=30%E5%B9%B4": "clu_285d02c521",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-11-17&series=tot_pub_debt_out_amt": "clu_8262b4afb1"
+  },
+  "by_hash": {
+    "9bb74c3ef27780d3417cd4cacf5b210063bb34cca5fcf258d99dd947fbe3816f": "clu_f6645380d5",
+    "764c93c46cface201d12ecebc0cf290cb2dc22015cb385a76b6a85ece3f303ce": "clu_c9551437d4",
+    "c3042259cbff7b78b7901aebd29c1752efdfbc19ae8b317d07d8bba0ec01d44c": "clu_0327f31437",
+    "f77ee207145e3115e17561b7524eca96fbf5c592364f7c4fbfa2b4b4102c6464": "clu_b5c0adc2b8",
+    "d5641a45c0d9d416b5dad02efff32b3f2d04ed8e8a47249bf77cc8d09f71c0e6": "clu_b0b06e745b",
+    "67d91266690c9c193295162bdabba5af3fe931eb18ef842f3067499cb5a5e231": "clu_3bccc1deef",
+    "fdc76c7c0524af10999b26300fcd36124e347320f9dc0af6a4e8bf521d209816": "clu_33a39dc0c0",
+    "1f290fd3145d0b88dc8c82c1c617adfe1047dea5e2ba8f62fe0a101dd14495b1": "clu_73d7abc710",
+    "221fae238dad9b1d6b4c02568bf0bff8a9bc45bf7f60f599cd47f26cfc146f19": "clu_285d02c521",
+    "ab11de8ba951b1ef917b359a56d9ed75c66f55a7a224930a0f68a62b4b81a9fd": "clu_8262b4afb1"
+  },
+  "by_key": {
+    "日本銀行::【概要説明】植田総裁「通貨及び金融の調節に関する報告書」(参議院財政金融委員会)::2026-11-19": "clu_f6645380d5",
+    "samsung electronics::samsung tv plus brings 2026 mama awards to k-pop fans around the world::2026-11-19": "clu_c9551437d4",
+    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-11-17: 32,887,006,494,499.789 usd::2026-11-19": "clu_0327f31437",
+    "u.s. department of the treasury::米国債利回り 20年 2026-11-18: 5.44 %::2026-11-19": "clu_b5c0adc2b8",
+    "u.s. department of the treasury::米国債利回り 2年 2026-11-18: 4.8 %::2026-11-19": "clu_b0b06e745b",
+    "u.s. department of the treasury::米国債利回り 5年 2026-11-18: 4.89 %::2026-11-19": "clu_3bccc1deef",
+    "u.s. department of the treasury::米国債利回り 3か月 2026-11-18: 4.34 %::2026-11-19": "clu_33a39dc0c0",
+    "u.s. department of the treasury::米国債利回り 10年 2026-11-18: 5.07 %::2026-11-19": "clu_73d7abc710",
+    "u.s. department of the treasury::米国債利回り 30年 2026-11-18: 5.41 %::2026-11-19": "clu_285d02c521",
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-11-17: 40,714,946,316,573.344 usd::2026-11-19": "clu_8262b4afb1"
+  },
+  "clusters": {
+    "clu_f6645380d5": {
+      "primary_event_id": "evt_20261119_9bb74c3ef2",
+      "event_ids": [
+        "evt_20261119_9bb74c3ef2"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_c9551437d4": {
+      "primary_event_id": "evt_20261119_764c93c46c",
+      "event_ids": [
+        "evt_20261119_764c93c46c"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
+      ]
+    },
+    "clu_0327f31437": {
+      "primary_event_id": "evt_20261119_c3042259cb",
+      "event_ids": [
+        "evt_20261119_c3042259cb"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    },
+    "clu_b5c0adc2b8": {
+      "primary_event_id": "evt_20261119_f77ee20714",
+      "event_ids": [
+        "evt_20261119_f77ee20714"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_b0b06e745b": {
+      "primary_event_id": "evt_20261119_d5641a45c0",
+      "event_ids": [
+        "evt_20261119_d5641a45c0"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_3bccc1deef": {
+      "primary_event_id": "evt_20261119_67d9126669",
+      "event_ids": [
+        "evt_20261119_67d9126669"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_33a39dc0c0": {
+      "primary_event_id": "evt_20261119_fdc76c7c05",
+      "event_ids": [
+        "evt_20261119_fdc76c7c05"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_73d7abc710": {
+      "primary_event_id": "evt_20261119_1f290fd314",
+      "event_ids": [
+        "evt_20261119_1f290fd314"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_285d02c521": {
+      "primary_event_id": "evt_20261119_221fae238d",
+      "event_ids": [
+        "evt_20261119_221fae238d"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_8262b4afb1": {
+      "primary_event_id": "evt_20261119_ab11de8ba9",
+      "event_ids": [
+        "evt_20261119_ab11de8ba9"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    }
+  }
+}
