@@ -1,0 +1,142 @@
+{
+  "by_url": {
+    "http://boj.or.jp/about/services/tame/tame_rate/kijun/kiju2612.htm": "clu_c979cc67d5",
+    "http://boj.or.jp/research/imes/mes/mes_261120.htm": "clu_034e86a521",
+    "http://boj.or.jp/about/services/tame/tame_rate/syorei/hou2612.htm": "clu_84fca2a3e3",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-19&tenor=3%E3%81%8B%E6%9C%88": "clu_a946575ae7",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-19&tenor=20%E5%B9%B4": "clu_0193d4f98e",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-19&tenor=5%E5%B9%B4": "clu_ec1f28ed67",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-19&tenor=30%E5%B9%B4": "clu_8cc9ea77e2",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-19&tenor=2%E5%B9%B4": "clu_71c9e30169",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-19&tenor=10%E5%B9%B4": "clu_06e2974bd7",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-11-18&series=debt_held_public_amt": "clu_93c38cb167",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-11-18&series=tot_pub_debt_out_amt": "clu_56d13026e2"
+  },
+  "by_hash": {
+    "a345982b7abb3b4b3e8b436bf58f198442e58579d7416dcca6713797c5e4ea91": "clu_c979cc67d5",
+    "49a3f210cfc7b22eedde354d72190cbd3f6ac98842e9fcc04afb6b2723c1ddba": "clu_034e86a521",
+    "908bd97944d3d765739001a2a749dc5cc6cbb994717194e7f2bcc4eb59a9a59c": "clu_84fca2a3e3",
+    "f844d8c89391853be6a9ef60049efeceb1f4928419d00cd4f1f07d1596f5223d": "clu_a946575ae7",
+    "444e5a0c1c85b04364a5f5438c09357c73dc69b14ab4ae79009ff5cb623753dc": "clu_0193d4f98e",
+    "9752469d25ba62f8177c0eaa0a75b31ed76c91aa24161e057d22c11abd2f8814": "clu_ec1f28ed67",
+    "b2c6933463316f6d22ba42301f29cd1cffbd680b9f9cae4294bba2dc9e222e27": "clu_8cc9ea77e2",
+    "efd3d4eb3faff09e01107df3f17df25d8545e7800acdddbfe35368268bf87632": "clu_71c9e30169",
+    "ea33961a7667ab742a58e3b252e04d1914ec1a5417eaf04706e60474d3a392f5": "clu_06e2974bd7",
+    "84669b2c6abb278f5012f313560be7be38a2a1a988d5c37413b3f6e6fd78f8f4": "clu_93c38cb167",
+    "34040ae262a797f737e804bd3536de0639e26fe2069242f163da71e4ce17d26f": "clu_56d13026e2"
+  },
+  "by_key": {
+    "日本銀行::基準外国為替相場及び裁定外国為替相場(12月分)::2026-11-20": "clu_c979cc67d5",
+    "日本銀行::金融研究所 英文機関誌 monetary and economic studies(第44巻)::2026-11-20": "clu_034e86a521",
+    "日本銀行::報告省令レート(12月分)::2026-11-20": "clu_84fca2a3e3",
+    "u.s. department of the treasury::米国債利回り 3か月 2026-11-19: 4.34 %::2026-11-20": "clu_a946575ae7",
+    "u.s. department of the treasury::米国債利回り 20年 2026-11-19: 5.43 %::2026-11-20": "clu_0193d4f98e",
+    "u.s. department of the treasury::米国債利回り 5年 2026-11-19: 4.86 %::2026-11-20": "clu_ec1f28ed67",
+    "u.s. department of the treasury::米国債利回り 30年 2026-11-19: 5.4 %::2026-11-20": "clu_8cc9ea77e2",
+    "u.s. department of the treasury::米国債利回り 2年 2026-11-19: 4.76 %::2026-11-20": "clu_71c9e30169",
+    "u.s. department of the treasury::米国債利回り 10年 2026-11-19: 5.04 %::2026-11-20": "clu_06e2974bd7",
+    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-11-18: 32,886,805,439,264.871 usd::2026-11-20": "clu_93c38cb167",
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-11-18: 40,690,769,638,849.953 usd::2026-11-20": "clu_56d13026e2"
+  },
+  "clusters": {
+    "clu_c979cc67d5": {
+      "primary_event_id": "evt_20261120_a345982b7a",
+      "event_ids": [
+        "evt_20261120_a345982b7a"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_034e86a521": {
+      "primary_event_id": "evt_20261120_49a3f210cf",
+      "event_ids": [
+        "evt_20261120_49a3f210cf"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_84fca2a3e3": {
+      "primary_event_id": "evt_20261120_908bd97944",
+      "event_ids": [
+        "evt_20261120_908bd97944"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_a946575ae7": {
+      "primary_event_id": "evt_20261120_f844d8c893",
+      "event_ids": [
+        "evt_20261120_f844d8c893"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_0193d4f98e": {
+      "primary_event_id": "evt_20261120_444e5a0c1c",
+      "event_ids": [
+        "evt_20261120_444e5a0c1c"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_ec1f28ed67": {
+      "primary_event_id": "evt_20261120_9752469d25",
+      "event_ids": [
+        "evt_20261120_9752469d25"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_8cc9ea77e2": {
+      "primary_event_id": "evt_20261120_b2c6933463",
+      "event_ids": [
+        "evt_20261120_b2c6933463"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_71c9e30169": {
+      "primary_event_id": "evt_20261120_efd3d4eb3f",
+      "event_ids": [
+        "evt_20261120_efd3d4eb3f"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_06e2974bd7": {
+      "primary_event_id": "evt_20261120_ea33961a76",
+      "event_ids": [
+        "evt_20261120_ea33961a76"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_93c38cb167": {
+      "primary_event_id": "evt_20261120_84669b2c6a",
+      "event_ids": [
+        "evt_20261120_84669b2c6a"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    },
+    "clu_56d13026e2": {
+      "primary_event_id": "evt_20261120_34040ae262",
+      "event_ids": [
+        "evt_20261120_34040ae262"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    }
+  }
+}
