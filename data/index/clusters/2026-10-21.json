@@ -539,7 +539,8 @@
     "https://nasa.gov/centers-and-facilities/jpl/nasa-jpl-looks-to-next-90-years-of-innovation-exploration": "clu_7484d9579f",
     "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface": "clu_6d5485cebb",
     "https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world": "clu_e6a265f392",
-    "https://ec.europa.eu/commission/presscorner/detail/el/speech_26_2227": "clu_4a36c7e509"
+    "https://ec.europa.eu/commission/presscorner/detail/el/speech_26_2227": "clu_4a36c7e509",
+    "https://boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf": "clu_0836ee2b56"
   },
   "by_hash": {
     "b84838b6409eee021040787b6d0781ae60ada0a1bf212805993da1d5fd0458ab": "clu_ef20e312b1",
@@ -6451,6 +6452,15 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_0836ee2b56": {
+      "primary_event_id": "evt_20261121_960f0ddc5e",
+      "event_ids": [
+        "evt_20261121_960f0ddc5e"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

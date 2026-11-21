@@ -81,7 +81,8 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2287": "clu_cfdca5ffdd",
     "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2291": "clu_081ade2096",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2285": "clu_226cd317fc",
-    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2301": "clu_e61e36c12f"
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2301": "clu_e61e36c12f",
+    "https://boj.or.jp/about/release_2026/rel261030a.htm": "clu_398e901f4b"
   },
   "by_hash": {
     "5a5b36e1b7602ad7e69305b92048edd5046ff0dd85cbd3237dee5a62e7ab2eaa": "clu_f4379d0ea0",
@@ -910,6 +911,15 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_398e901f4b": {
+      "primary_event_id": "evt_20261121_7021e47fa4",
+      "event_ids": [
+        "evt_20261121_7021e47fa4"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

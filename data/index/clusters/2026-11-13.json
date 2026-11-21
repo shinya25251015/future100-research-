@@ -599,7 +599,9 @@
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-03": "clu_ce5b6b365d",
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-06": "clu_064266c955",
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-05": "clu_425df13b5e",
-    "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-04": "clu_05c81e5a18"
+    "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-04": "clu_05c81e5a18",
+    "https://boj.or.jp/about/press/kaiken_2026/kk261113a.pdf": "clu_d46cedb087",
+    "https://boj.or.jp/mopo/mpmdeci/mpr_2026/mpr261113a.pdf": "clu_09aae9a8f4"
   },
   "by_hash": {
     "99de1ea13f5b6adf886790d1e0612ad8c3d921b4f4548d306475fed695bcb021": "clu_b5237361e1",
@@ -7158,6 +7160,24 @@
       ],
       "source_ids": [
         "src_eurostat_industry_energy"
+      ]
+    },
+    "clu_d46cedb087": {
+      "primary_event_id": "evt_20261121_7a9b5a8179",
+      "event_ids": [
+        "evt_20261121_7a9b5a8179"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_09aae9a8f4": {
+      "primary_event_id": "evt_20261121_3872e94bd3",
+      "event_ids": [
+        "evt_20261121_3872e94bd3"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

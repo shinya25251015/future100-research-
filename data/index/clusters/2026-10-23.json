@@ -79,7 +79,10 @@
     "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends": "clu_85c225ae68",
     "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now": "clu_5f51150033",
     "https://nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations": "clu_216c961619",
-    "https://nasa.gov/centers-and-facilities/langley/nasa-power-energy-partnership": "clu_82f34ade71"
+    "https://nasa.gov/centers-and-facilities/langley/nasa-power-energy-partnership": "clu_82f34ade71",
+    "https://boj.or.jp/research/brp/fsr/fsr261023.htm": "clu_e22c7e03ed",
+    "https://boj.or.jp/finsys/intlact_fs/kisei/kis261023a.htm": "clu_528aa49ed7",
+    "https://boj.or.jp/about/organization/policyboard/pb_geppo/pbgp2609.htm": "clu_5e54e1da88"
   },
   "by_hash": {
     "699d4ba5aab3b91ee558053110bc84788893dd85b99f67700e09a56f15d6c6f5": "clu_14b020b984",
@@ -949,6 +952,33 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_e22c7e03ed": {
+      "primary_event_id": "evt_20261121_5068015a07",
+      "event_ids": [
+        "evt_20261121_5068015a07"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_528aa49ed7": {
+      "primary_event_id": "evt_20261121_6b03be4161",
+      "event_ids": [
+        "evt_20261121_6b03be4161"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_5e54e1da88": {
+      "primary_event_id": "evt_20261121_8433543010",
+      "event_ids": [
+        "evt_20261121_8433543010"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

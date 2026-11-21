@@ -408,7 +408,8 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2245": "clu_a1a81547b1",
     "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2261": "clu_5ad7aad0b8",
     "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2246": "clu_db492a0cb5",
-    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2260": "clu_5ae43390cd"
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2260": "clu_5ae43390cd",
+    "https://boj.or.jp/statistics/pi/cspi_release/sppi2609.pdf": "clu_2c1baf6059"
   },
   "by_hash": {
     "299224ebe651c2f5f44ecb94634ec2bf497e370b98bb04f41d81be7cfc4555b8": "clu_4a31deeca0",
@@ -4901,6 +4902,15 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_2c1baf6059": {
+      "primary_event_id": "evt_20261121_e7f5149616",
+      "event_ids": [
+        "evt_20261121_e7f5149616"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

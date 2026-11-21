@@ -1,0 +1,94 @@
+{
+  "window_id": "sig_semiconductor_20261121",
+  "as_of": "2026-11-21T02:42:25Z",
+  "window": {
+    "start": "2026-11-15",
+    "end": "2026-11-21",
+    "baseline_start": "2026-10-18",
+    "baseline_end": "2026-11-14"
+  },
+  "topic": {
+    "label": "半導体",
+    "keywords": [
+      "semiconductor",
+      "foundry",
+      "wafer",
+      "lithography",
+      "euv",
+      "hbm",
+      "chip fab",
+      "半導体",
+      "前工程",
+      "後工程",
+      "露光装置"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_semiconductor"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 27,
+      "baseline_count": 26.25,
+      "event_ids": [
+        "evt_20261117_c7746b174a",
+        "evt_20261117_9dc0a96a8b",
+        "evt_20261117_60b5b7a60e",
+        "evt_20261117_52818e9a51",
+        "evt_20261117_2a75cb546b",
+        "evt_20261117_621e869b28",
+        "evt_20261118_5efdcc43d9",
+        "evt_20261118_f62f639a39",
+        "evt_20261118_927887028c",
+        "evt_20261118_b6d06ebac8",
+        "evt_20261118_ef8195698f",
+        "evt_20261118_42ef87306c",
+        "evt_20261119_6eb70816f2",
+        "evt_20261119_0cb287020b",
+        "evt_20261119_cef09aedbd",
+        "evt_20261119_dea2610f5b",
+        "evt_20261119_77a8246c41",
+        "evt_20261120_905e86d8dc",
+        "evt_20261120_2cecbae295",
+        "evt_20261120_d94d186c0a",
+        "evt_20261121_9ef3032577",
+        "evt_20261121_62e0f3d197",
+        "evt_20261121_ab041e223d",
+        "evt_20261121_220473569e",
+        "evt_20261121_cdfd998403",
+        "evt_20261121_52cf975711",
+        "evt_20261121_544319bc7a"
+      ],
+      "delta_ratio": 0.029
+    },
+    {
+      "signal_type": "patent",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": true,
+    "sources": [
+      {
+        "source_id": "src_arxiv_materials",
+        "observation_start": "2026-07-11T00:00:00Z",
+        "covers_baseline": true
+      }
+    ]
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 1,
+    "distinct_sources": 1,
+    "distinct_regions": 1,
+    "score": 26.7,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "同時増加のしきい値を満たさない。"
+  },
+  "schema_version": "1.0"
+}

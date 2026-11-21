@@ -485,7 +485,10 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2356": "clu_de71ee8df8",
     "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2509": "clu_f48c166c72",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2427": "clu_085aa99623",
-    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2372": "clu_7b047e5a2f"
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2372": "clu_7b047e5a2f",
+    "https://boj.or.jp/intl_finance/meeting/group/gro261118a.htm": "clu_30fd63507a",
+    "https://boj.or.jp/about/bcp/fin_bcp/fbcp261118a.htm": "clu_abb5bb5cb6",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2536": "clu_8c40c70928"
   },
   "by_hash": {
     "567f1167b5b29bffcf3b35293e6cf1af178e37c4761eb6827b82506f0f436f7f": "clu_40a854ad8d",
@@ -972,7 +975,8 @@
     "599adfa976657ed90bc515b69e1603b4d5f652969a9cbec2fcaa3ee273a6ba9e": "clu_de71ee8df8",
     "f242be3738aa39ca5d1cac5e277faaecf3e03bcc949447dfff49c3e634bb611b": "clu_f48c166c72",
     "e97269858dd96d9518dffbd1f94f9c09ed2fc960717d4c30dd0d68ebfe2c1ba4": "clu_085aa99623",
-    "401db2b8dfbca9dd16cde5d6874b89f53397eb59f532735a8620db644d20e2f9": "clu_7b047e5a2f"
+    "401db2b8dfbca9dd16cde5d6874b89f53397eb59f532735a8620db644d20e2f9": "clu_7b047e5a2f",
+    "aaf7da4264b4d956ad0a27309a3a7d89209310686e6a6afb306f4401bc4bf5ca": "clu_8c40c70928"
   },
   "by_key": {
     "日本銀行::市場レベルbcp・3市場合同訓練を実施::2026-11-18": "clu_40a854ad8d",
@@ -1458,7 +1462,8 @@
     "european commission::almost €24 billion mobilised and 614 projects awarded for their support to critical technologies in europe, according to commission report::2026-11-18": "clu_de71ee8df8",
     "european commission::speech by president von der leyen at the eu-jordan investment conference::2026-11-18": "clu_f48c166c72",
     "european commission::commission decides to refer greece to the court of justice of the european union for the non-implementation of individual aircraft identification in the field of civil aviation::2026-11-18": "clu_085aa99623",
-    "european commission::commission decides to refer austria to the court of justice of the european union for incorrectly applying the european arrest warrant::2026-11-18": "clu_7b047e5a2f"
+    "european commission::commission decides to refer austria to the court of justice of the european union for incorrectly applying the european arrest warrant::2026-11-18": "clu_7b047e5a2f",
+    "european commission::commissioner tzitzikostas delivers a keynote speech at the croatian tourism days 2026::2026-11-18": "clu_8c40c70928"
   },
   "clusters": {
     "clu_40a854ad8d": {
@@ -5821,6 +5826,33 @@
       "primary_event_id": "evt_20261120_401db2b8df",
       "event_ids": [
         "evt_20261120_401db2b8df"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_30fd63507a": {
+      "primary_event_id": "evt_20261121_73c3d0c2e5",
+      "event_ids": [
+        "evt_20261121_73c3d0c2e5"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_abb5bb5cb6": {
+      "primary_event_id": "evt_20261121_567f1167b5",
+      "event_ids": [
+        "evt_20261121_567f1167b5"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_8c40c70928": {
+      "primary_event_id": "evt_20261121_aaf7da4264",
+      "event_ids": [
+        "evt_20261121_aaf7da4264"
       ],
       "source_ids": [
         "src_eu_commission_press"

@@ -456,7 +456,9 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2384": "clu_49128aafdf",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2373": "clu_83b8f2cf27",
     "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2409": "clu_5928479234",
-    "https://news.samsung.com/global/samsung-celebrates-100000-smart-signage-flip-displays-sold-in-germany": "clu_697d76c69b"
+    "https://news.samsung.com/global/samsung-celebrates-100000-smart-signage-flip-displays-sold-in-germany": "clu_697d76c69b",
+    "https://boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi261030.pdf": "clu_1e85d56ee7",
+    "https://boj.or.jp/statistics/dl/depo/kashi/kasi2610.pdf": "clu_fb347e8b09"
   },
   "by_hash": {
     "fe174135a082c4cb7fb044c05a8efb2c9d501dad7056db6f66f9168a32189035": "clu_088d14e37a",
@@ -5466,6 +5468,24 @@
       ],
       "source_ids": [
         "src_samsung_newsroom"
+      ]
+    },
+    "clu_1e85d56ee7": {
+      "primary_event_id": "evt_20261121_d27d2258ce",
+      "event_ids": [
+        "evt_20261121_d27d2258ce"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_fb347e8b09": {
+      "primary_event_id": "evt_20261121_91eb3d7177",
+      "event_ids": [
+        "evt_20261121_91eb3d7177"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

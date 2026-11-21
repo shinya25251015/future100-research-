@@ -84,7 +84,12 @@
     "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman": "clu_db8ed5002f",
     "https://nasa.gov/general/nasa-ames-stars-of-the-month-november-2026": "clu_ee75767ad2",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2360": "clu_9cfdd16c38",
-    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2422": "clu_0632a86d5d"
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2422": "clu_0632a86d5d",
+    "https://boj.or.jp/statistics/boj/other/mei/release/2026/mei261110.xlsx": "clu_467d99a5cf",
+    "https://boj.or.jp/finsys/intlact_fs/kisei/kis261112a.htm": "clu_df9bcbeac8",
+    "https://boj.or.jp/statistics/boj/other/acmai/release/2026/ac261110.htm": "clu_e55d847fe1",
+    "https://boj.or.jp/statistics/set/bffail/sjgb2610.pdf": "clu_12e46e24d4",
+    "https://boj.or.jp/about/press/koen_2026/ko261112a.htm": "clu_d12a1b5e11"
   },
   "by_hash": {
     "d64030de1dfe4458d9bd00c560539da5aa32887f628b1f60e871c05e4dd31ecd": "clu_60ddd371bb",
@@ -1023,6 +1028,51 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_467d99a5cf": {
+      "primary_event_id": "evt_20261121_120296d439",
+      "event_ids": [
+        "evt_20261121_120296d439"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_df9bcbeac8": {
+      "primary_event_id": "evt_20261121_1fd6fc95f4",
+      "event_ids": [
+        "evt_20261121_1fd6fc95f4"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_e55d847fe1": {
+      "primary_event_id": "evt_20261121_e1cb8996b4",
+      "event_ids": [
+        "evt_20261121_e1cb8996b4"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_12e46e24d4": {
+      "primary_event_id": "evt_20261121_5d6c0371f8",
+      "event_ids": [
+        "evt_20261121_5d6c0371f8"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_d12a1b5e11": {
+      "primary_event_id": "evt_20261121_4ce89fc19b",
+      "event_ids": [
+        "evt_20261121_4ce89fc19b"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

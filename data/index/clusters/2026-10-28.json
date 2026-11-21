@@ -494,7 +494,9 @@
     "https://nasa.gov/image-article/webb-sees-turbulent-star-nursery": "clu_46f2d69f8a",
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-07": "clu_dbc61601fb",
     "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2315": "clu_429a18de5c",
-    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2330": "clu_60fc2ed061"
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2330": "clu_60fc2ed061",
+    "https://boj.or.jp/finsys/intlact_fs/risk/ris261028a.htm": "clu_b99fd1de0d",
+    "https://boj.or.jp/mopo/measures/select/s_release/srel261028a.htm": "clu_51be4b9fff"
   },
   "by_hash": {
     "25313defb3cce6792ca000fd7e4a523d03bdc60d15d0a1cbe0ad87ab15d83838": "clu_a6a3ee32b9",
@@ -5897,6 +5899,24 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_b99fd1de0d": {
+      "primary_event_id": "evt_20261121_5431f6fdb8",
+      "event_ids": [
+        "evt_20261121_5431f6fdb8"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_51be4b9fff": {
+      "primary_event_id": "evt_20261121_26e7a340c8",
+      "event_ids": [
+        "evt_20261121_26e7a340c8"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

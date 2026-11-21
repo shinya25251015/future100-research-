@@ -362,7 +362,12 @@
     "https://nasa.gov/image-article/nasas-chapea-crew-returns-to-earth": "clu_59b1c4df54",
     "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies": "clu_ada0233902",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2300": "clu_dc3d0c37b3",
-    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2308": "clu_8c1d49c89e"
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2308": "clu_8c1d49c89e",
+    "https://boj.or.jp/mopo/measures/select/s_release/srel261102a.htm": "clu_0cf2a80b51",
+    "https://boj.or.jp/paym/intlact_pm/cpss/cpss261102a.htm": "clu_d5a6651002",
+    "https://boj.or.jp/statistics/boj/fm/juqf/juqf10.xlsx": "clu_0f7cf7f117",
+    "https://boj.or.jp/mopo/outlook/gor2610b.pdf": "clu_8a58110ba1",
+    "https://boj.or.jp/about/press/kaiken_2026/kk261102a.pdf": "clu_13eb8c1f47"
   },
   "by_hash": {
     "9af1e5f4b7e6947d7340b142d5ba9ca0193be361efdeff392f3da89c1e2a54a3": "clu_ae1fa195c8",
@@ -4347,6 +4352,51 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_0cf2a80b51": {
+      "primary_event_id": "evt_20261121_ff2d0a974d",
+      "event_ids": [
+        "evt_20261121_ff2d0a974d"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_d5a6651002": {
+      "primary_event_id": "evt_20261121_e19a003803",
+      "event_ids": [
+        "evt_20261121_e19a003803"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_0f7cf7f117": {
+      "primary_event_id": "evt_20261121_eb947f2636",
+      "event_ids": [
+        "evt_20261121_eb947f2636"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_8a58110ba1": {
+      "primary_event_id": "evt_20261121_35a4d386dc",
+      "event_ids": [
+        "evt_20261121_35a4d386dc"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_13eb8c1f47": {
+      "primary_event_id": "evt_20261121_7dab63f5d2",
+      "event_ids": [
+        "evt_20261121_7dab63f5d2"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

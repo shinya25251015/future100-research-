@@ -175,7 +175,8 @@
     "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden": "clu_ed9c20a30f",
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-07": "clu_feb875f06c",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2274": "clu_70e8a12321",
-    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2271": "clu_dbd1a4da19"
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2271": "clu_dbd1a4da19",
+    "https://boj.or.jp/about/release_2026/rel261027a.htm": "clu_148ead5256"
   },
   "by_hash": {
     "f26242bee9b2bd29cd722b6f6543d714f1a5ffa12a042e3d1d320cb146940ebf": "clu_ebcc2f1f52",
@@ -2095,6 +2096,15 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_148ead5256": {
+      "primary_event_id": "evt_20261121_9f2487791c",
+      "event_ids": [
+        "evt_20261121_9f2487791c"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

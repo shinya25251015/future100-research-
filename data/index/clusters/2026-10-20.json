@@ -828,7 +828,9 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2206": "clu_45e90f8453",
     "https://blogs.nvidia.com/blog/european-leaders-vera-cpu-infrastructure": "clu_cf8272b019",
     "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2241": "clu_76ec30368b",
-    "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2243": "clu_f13ceb4348"
+    "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2243": "clu_f13ceb4348",
+    "https://boj.or.jp/about/press/kaiken_2026/kk261020a.pdf": "clu_5b620dbb35",
+    "https://boj.or.jp/finsys/intlact_fs/kisei/kis261020a.htm": "clu_91dadc6d45"
   },
   "by_hash": {
     "9ba01272836529f3a089269dcc51521265c68b5922aea81afe0f3b7c0270026b": "clu_7a3f55eb2c",
@@ -9952,6 +9954,24 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_5b620dbb35": {
+      "primary_event_id": "evt_20261121_7a222a1d3c",
+      "event_ids": [
+        "evt_20261121_7a222a1d3c"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_91dadc6d45": {
+      "primary_event_id": "evt_20261121_79a5ba40e5",
+      "event_ids": [
+        "evt_20261121_79a5ba40e5"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

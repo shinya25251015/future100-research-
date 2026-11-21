@@ -757,7 +757,8 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2455": "clu_7f9897b141",
     "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2476": "clu_7549f7cb45",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2454": "clu_ddda3872cd",
-    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2475": "clu_a5892ba8e1"
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2475": "clu_a5892ba8e1",
+    "https://boj.or.jp/intl_finance/meeting/group/gro261117a.htm": "clu_42ecf11ac7"
   },
   "by_hash": {
     "153a0a5f0f5fee36ce684af0fdb6d245f3f39f9e1f526267dfcbfbeaeeb408ca": "clu_631651734b",
@@ -9100,6 +9101,15 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_42ecf11ac7": {
+      "primary_event_id": "evt_20261121_a9854531e6",
+      "event_ids": [
+        "evt_20261121_a9854531e6"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

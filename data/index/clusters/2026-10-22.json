@@ -427,7 +427,10 @@
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-03": "clu_f24bd48a28",
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-05": "clu_f5ef3b7785",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2232": "clu_f4bdc1ae21",
-    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2267": "clu_4d31a2e03c"
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2267": "clu_4d31a2e03c",
+    "https://boj.or.jp/research/wps_rev/rev_2026/rev26j14.htm": "clu_a7778ac325",
+    "https://boj.or.jp/statistics/boj/other/acmai/release/2026/ac261020.htm": "clu_00cdbcbd32",
+    "https://boj.or.jp/statistics/boj/other/mei/release/2026/mei261020.xlsx": "clu_467d99a5cf"
   },
   "by_hash": {
     "5fb7b5d9d7063c710ba4fe6ff1e1e1f96057d9ef5fc9213b3eec5ca5c628f3af": "clu_a468404324",
@@ -5127,6 +5130,33 @@
       ],
       "source_ids": [
         "src_eu_commission_press"
+      ]
+    },
+    "clu_a7778ac325": {
+      "primary_event_id": "evt_20261121_b266502eaf",
+      "event_ids": [
+        "evt_20261121_b266502eaf"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_00cdbcbd32": {
+      "primary_event_id": "evt_20261121_dd2f86768c",
+      "event_ids": [
+        "evt_20261121_dd2f86768c"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_467d99a5cf": {
+      "primary_event_id": "evt_20261121_120296d439",
+      "event_ids": [
+        "evt_20261121_120296d439"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

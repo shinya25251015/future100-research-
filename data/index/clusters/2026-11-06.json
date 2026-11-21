@@ -422,7 +422,10 @@
     "https://science.nasa.gov/earth/supercomputing-tech-demo-schedule": "clu_15a9000048",
     "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift": "clu_df31a140f4",
     "https://war.gov/News/Contracts/Contract/Article/4644106/contracts-for-nov-6-2026": "clu_a8fd224ca5",
-    "https://news.samsung.com/global/samsung-employees-celebrate-diwali-with-lights-color-and-togetherness": "clu_ade0c08275"
+    "https://news.samsung.com/global/samsung-employees-celebrate-diwali-with-lights-color-and-togetherness": "clu_ade0c08275",
+    "https://boj.or.jp/research/imes/dps/dps26.htm": "clu_85654c8d92",
+    "https://boj.or.jp/about/release_2026/rel261106a.htm": "clu_1feb464c56",
+    "https://boj.or.jp/about/release_2026/rel261106b.htm": "clu_6cd07cfdaa"
   },
   "by_hash": {
     "6737f49e809ea0699e99fce5fc4249811c18a79d315212ec5de6c37d1299f928": "clu_df1f61f1c4",
@@ -5080,6 +5083,33 @@
       ],
       "source_ids": [
         "src_samsung_newsroom"
+      ]
+    },
+    "clu_85654c8d92": {
+      "primary_event_id": "evt_20261121_ec95dc6328",
+      "event_ids": [
+        "evt_20261121_ec95dc6328"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_1feb464c56": {
+      "primary_event_id": "evt_20261121_c8843b3d6d",
+      "event_ids": [
+        "evt_20261121_c8843b3d6d"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_6cd07cfdaa": {
+      "primary_event_id": "evt_20261121_9ed9b41118",
+      "event_ids": [
+        "evt_20261121_9ed9b41118"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

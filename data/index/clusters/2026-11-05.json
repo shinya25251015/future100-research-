@@ -429,7 +429,8 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2347": "clu_9a718eb9a9",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2342": "clu_ab0f8b9520",
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2361": "clu_6f6dc47567",
-    "https://spectrum.ieee.org/ieee-preuniversity": "clu_28ff894cf7"
+    "https://spectrum.ieee.org/ieee-preuniversity": "clu_28ff894cf7",
+    "https://boj.or.jp/paym/bond/mbond_list/mbond261105.pdf": "clu_10bc0aec08"
   },
   "by_hash": {
     "5930c5d8866776af6bf43eeddf3623f56dac87d77026914a5fd3d4d96f076f38": "clu_a21a584cdc",
@@ -5163,6 +5164,15 @@
       ],
       "source_ids": [
         "src_ieee_spectrum"
+      ]
+    },
+    "clu_10bc0aec08": {
+      "primary_event_id": "evt_20261121_208985e0ea",
+      "event_ids": [
+        "evt_20261121_208985e0ea"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

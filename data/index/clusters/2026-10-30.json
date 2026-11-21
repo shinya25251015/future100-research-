@@ -684,7 +684,15 @@
     "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away": "clu_bf9b4f9edb",
     "https://nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head": "clu_ad10d68d07",
     "https://nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants": "clu_86ef46537b",
-    "https://event.on24.com/wcc/r/5546816/67D0147A8B8D057FCE11A17D61A8BB0D": "clu_7576f8ea36"
+    "https://event.on24.com/wcc/r/5546816/67D0147A8B8D057FCE11A17D61A8BB0D": "clu_7576f8ea36",
+    "https://boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf": "clu_383e032fd6",
+    "https://boj.or.jp/mopo/mpmdeci/mpr_2026/mpr261030c.pdf": "clu_e6dc09f5f9",
+    "https://boj.or.jp/statistics/set/kess/release/2026/kess2609.pdf": "clu_9696003e73",
+    "https://boj.or.jp/mopo/mpmdeci/mpr_2026/mpr261030b.pdf": "clu_5bfa7f9f09",
+    "https://boj.or.jp/mopo/mpmdeci/mpr_2026/k261030b.pdf": "clu_de37838c5f",
+    "https://boj.or.jp/mopo/mpmdeci/mpr_2026/mpr261030a.pdf": "clu_bd170c8060",
+    "https://boj.or.jp/mopo/mpmdeci/mpr_2026/k261030c.pdf": "clu_a88e58fddc",
+    "https://boj.or.jp/mopo/outlook/gor2610a.pdf": "clu_22b2ddb618"
   },
   "by_hash": {
     "0428f197d64f9e858d0edbad27a22e241adfedc8faf8dd13cbc8056b36b378c5": "clu_5be159e69c",
@@ -8222,6 +8230,78 @@
       ],
       "source_ids": [
         "src_ieee_spectrum"
+      ]
+    },
+    "clu_383e032fd6": {
+      "primary_event_id": "evt_20261121_45b604d172",
+      "event_ids": [
+        "evt_20261121_45b604d172"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_e6dc09f5f9": {
+      "primary_event_id": "evt_20261121_407603ec29",
+      "event_ids": [
+        "evt_20261121_407603ec29"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_9696003e73": {
+      "primary_event_id": "evt_20261121_508c42ba76",
+      "event_ids": [
+        "evt_20261121_508c42ba76"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_5bfa7f9f09": {
+      "primary_event_id": "evt_20261121_4fe64bf952",
+      "event_ids": [
+        "evt_20261121_4fe64bf952"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_de37838c5f": {
+      "primary_event_id": "evt_20261121_4be44427a6",
+      "event_ids": [
+        "evt_20261121_4be44427a6"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_bd170c8060": {
+      "primary_event_id": "evt_20261121_dcdc9dd4c3",
+      "event_ids": [
+        "evt_20261121_dcdc9dd4c3"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_a88e58fddc": {
+      "primary_event_id": "evt_20261121_d4c2ce6992",
+      "event_ids": [
+        "evt_20261121_d4c2ce6992"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_22b2ddb618": {
+      "primary_event_id": "evt_20261121_060d6c1054",
+      "event_ids": [
+        "evt_20261121_060d6c1054"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }

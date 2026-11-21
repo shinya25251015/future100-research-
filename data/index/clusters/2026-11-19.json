@@ -437,7 +437,11 @@
     "https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m?keys=PRD%2FF%2FSCA%2FI21%2FEU27_2020&period=2026-04": "clu_fe099d79bc",
     "https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m?keys=PRD%2FF%2FSCA%2FI21%2FEU27_2020&period=2026-09": "clu_bd635dd8cb",
     "https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m?keys=PRD%2FF%2FSCA%2FI21%2FEU27_2020&period=2026-02": "clu_236ac6378a",
-    "https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m?keys=PRD%2FF%2FSCA%2FI21%2FEU27_2020&period=2025-11": "clu_7b18992033"
+    "https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m?keys=PRD%2FF%2FSCA%2FI21%2FEU27_2020&period=2025-11": "clu_7b18992033",
+    "https://boj.or.jp/mopo/diet/d_state/dst261119a.htm": "clu_36d5a1bab3",
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2511": "clu_0cc93da31d",
+    "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2512": "clu_7c60091d49",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2522": "clu_132c8b4241"
   },
   "by_hash": {
     "9bb74c3ef27780d3417cd4cacf5b210063bb34cca5fcf258d99dd947fbe3816f": "clu_f6645380d5",
@@ -876,7 +880,10 @@
     "780d421442768d874ed84bb6ea02d41c5b2cfe47a93547530c00061ca3db3aad": "clu_fe099d79bc",
     "c222dda2184927053afbe4f9d83d56cb8d16cecab7522a36ebaba27dc9f3d4dd": "clu_bd635dd8cb",
     "f312b1c7890a5094b9024f6817176b933ccea7bc09751f9c387210ee3bde8b7d": "clu_236ac6378a",
-    "f339e0a80912bbe8908926a27894352d8d99c49580f1451981306ea01ff20207": "clu_7b18992033"
+    "f339e0a80912bbe8908926a27894352d8d99c49580f1451981306ea01ff20207": "clu_7b18992033",
+    "28e383dfbd88c077d8c9b3a3468d9d98442fc29beb69153ae60eb800357159c8": "clu_0cc93da31d",
+    "9e18e9bb47537fdffbb9cfbe8d41178eabfc682faae9184b86ffadf46bb8d8c7": "clu_7c60091d49",
+    "50a9c65c9a5fb98ab1994252a3c8129689d9c499efc8cd91a561ccea98133e3b": "clu_132c8b4241"
   },
   "by_key": {
     "日本銀行::【概要説明】植田総裁「通貨及び金融の調節に関する報告書」(参議院財政金融委員会)::2026-11-19": "clu_f6645380d5",
@@ -1312,7 +1319,10 @@
     "european commission (eurostat)::production in construction - monthly data(production (volume), construction, seasonally and calendar adjusted data, european union - 27 countries (from 2020)) 2026-04: 105.4 指数(2021=100)::2026-11-19": "clu_fe099d79bc",
     "european commission (eurostat)::production in construction - monthly data(production (volume), construction, seasonally and calendar adjusted data, european union - 27 countries (from 2020)) 2026-09: 102.8 指数(2021=100)::2026-11-19": "clu_bd635dd8cb",
     "european commission (eurostat)::production in construction - monthly data(production (volume), construction, seasonally and calendar adjusted data, european union - 27 countries (from 2020)) 2026-02: 102.7 指数(2021=100)::2026-11-19": "clu_236ac6378a",
-    "european commission (eurostat)::production in construction - monthly data(production (volume), construction, seasonally and calendar adjusted data, european union - 27 countries (from 2020)) 2025-11: 104.2 指数(2021=100)::2026-11-19": "clu_7b18992033"
+    "european commission (eurostat)::production in construction - monthly data(production (volume), construction, seasonally and calendar adjusted data, european union - 27 countries (from 2020)) 2025-11: 104.2 指数(2021=100)::2026-11-19": "clu_7b18992033",
+    "european commission::questions and answers on the outcomes of the 2026 eu-uk summit::2026-11-19": "clu_0cc93da31d",
+    "european commission::joint statement of the european union and the united kingdom summit, 20 november 2026::2026-11-19": "clu_7c60091d49",
+    "european commission::commission disburses €7.9 billion to strengthen ukraine's financial stability and advance reform efforts::2026-11-19": "clu_132c8b4241"
   },
   "clusters": {
     "clu_f6645380d5": {
@@ -5246,6 +5256,42 @@
       ],
       "source_ids": [
         "src_eurostat_industry_energy"
+      ]
+    },
+    "clu_36d5a1bab3": {
+      "primary_event_id": "evt_20261121_9bb74c3ef2",
+      "event_ids": [
+        "evt_20261121_9bb74c3ef2"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_0cc93da31d": {
+      "primary_event_id": "evt_20261121_28e383dfbd",
+      "event_ids": [
+        "evt_20261121_28e383dfbd"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_7c60091d49": {
+      "primary_event_id": "evt_20261121_9e18e9bb47",
+      "event_ids": [
+        "evt_20261121_9e18e9bb47"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_132c8b4241": {
+      "primary_event_id": "evt_20261121_50a9c65c9a",
+      "event_ids": [
+        "evt_20261121_50a9c65c9a"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

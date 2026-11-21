@@ -1,0 +1,130 @@
+{
+  "by_url": {
+    "https://whitehouse.gov/presidential-actions/2026/11/national-adoption-month-2026": "clu_f9946151e8",
+    "https://whitehouse.gov/presidential-actions/2026/11/protecting-the-executives-privileges-and-enhancing-efficiencies-in-federal-contracting": "clu_89c58e4de0",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-20&tenor=20%E5%B9%B4": "clu_1139749100",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-20&tenor=2%E5%B9%B4": "clu_c2d21622af",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-20&tenor=30%E5%B9%B4": "clu_7091275cfe",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-20&tenor=3%E3%81%8B%E6%9C%88": "clu_d9b67220da",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-20&tenor=10%E5%B9%B4": "clu_b4d492a8ef",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-20&tenor=5%E5%B9%B4": "clu_427aeb67af",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-11-19&series=debt_held_public_amt": "clu_6ac6c8183a",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-11-19&series=tot_pub_debt_out_amt": "clu_a15647487f"
+  },
+  "by_hash": {
+    "23bfecdc6cb732e490268759145dd21f8a4ceb8a203d3b8feacdb55a555a4064": "clu_f9946151e8",
+    "8c567e24b46c03bef160efa8e42843521ea31e488f8b9ac32112052a96beb122": "clu_89c58e4de0",
+    "5b8389a44ee0b2cd693543ba0181f690e8118e1c0ea870d47ae780876b0b9ae0": "clu_1139749100",
+    "2f6f4de8d5de3eac7f5eb721da297ebb48f28775250a5bafc222bab8007ebafc": "clu_c2d21622af",
+    "c46639eca6060f1bb3b0a11d72ef67001061eb9d3820e5f4d86f9afb4ce3eac1": "clu_7091275cfe",
+    "2d6e3f38089ba6fed711fea9b4432761eb0a983c3ca156852765b301110f29bc": "clu_d9b67220da",
+    "39a96ea0622226b0d98d5e7aa134e59ce9d6ba0eb0ef3c8f1a229bdd1a4a9e85": "clu_b4d492a8ef",
+    "fef8bfc375b9df852725c2ea3d4ba52e5c79612cf35bd87b09cae260c3ad6e2b": "clu_427aeb67af",
+    "72f8871e91fa23a08c72930b4c4e68d9b6fc03338845b7eac31007de531de54d": "clu_6ac6c8183a",
+    "fcea232e5695bc22c411c1a3ad8e4fd714df44c04a053bfbc6859016bcd99578": "clu_a15647487f"
+  },
+  "by_key": {
+    "the white house::national adoption month, 2026::2026-11-21": "clu_f9946151e8",
+    "the white house::protecting the executive’s privileges and enhancing efficiencies in federal contracting::2026-11-21": "clu_89c58e4de0",
+    "u.s. department of the treasury::米国債利回り 20年 2026-11-20: 5.34 %::2026-11-21": "clu_1139749100",
+    "u.s. department of the treasury::米国債利回り 2年 2026-11-20: 4.63 %::2026-11-21": "clu_c2d21622af",
+    "u.s. department of the treasury::米国債利回り 30年 2026-11-20: 5.31 %::2026-11-21": "clu_7091275cfe",
+    "u.s. department of the treasury::米国債利回り 3か月 2026-11-20: 4.32 %::2026-11-21": "clu_d9b67220da",
+    "u.s. department of the treasury::米国債利回り 10年 2026-11-20: 4.92 %::2026-11-21": "clu_b4d492a8ef",
+    "u.s. department of the treasury::米国債利回り 5年 2026-11-20: 4.71 %::2026-11-21": "clu_427aeb67af",
+    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-11-19: 32,901,459,975,089.262 usd::2026-11-21": "clu_6ac6c8183a",
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-11-19: 40,709,780,700,317.023 usd::2026-11-21": "clu_a15647487f"
+  },
+  "clusters": {
+    "clu_f9946151e8": {
+      "primary_event_id": "evt_20261121_23bfecdc6c",
+      "event_ids": [
+        "evt_20261121_23bfecdc6c"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_89c58e4de0": {
+      "primary_event_id": "evt_20261121_8c567e24b4",
+      "event_ids": [
+        "evt_20261121_8c567e24b4"
+      ],
+      "source_ids": [
+        "src_us_presidential_actions"
+      ]
+    },
+    "clu_1139749100": {
+      "primary_event_id": "evt_20261121_5b8389a44e",
+      "event_ids": [
+        "evt_20261121_5b8389a44e"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_c2d21622af": {
+      "primary_event_id": "evt_20261121_2f6f4de8d5",
+      "event_ids": [
+        "evt_20261121_2f6f4de8d5"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_7091275cfe": {
+      "primary_event_id": "evt_20261121_c46639eca6",
+      "event_ids": [
+        "evt_20261121_c46639eca6"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_d9b67220da": {
+      "primary_event_id": "evt_20261121_2d6e3f3808",
+      "event_ids": [
+        "evt_20261121_2d6e3f3808"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_b4d492a8ef": {
+      "primary_event_id": "evt_20261121_39a96ea062",
+      "event_ids": [
+        "evt_20261121_39a96ea062"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_427aeb67af": {
+      "primary_event_id": "evt_20261121_fef8bfc375",
+      "event_ids": [
+        "evt_20261121_fef8bfc375"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_6ac6c8183a": {
+      "primary_event_id": "evt_20261121_72f8871e91",
+      "event_ids": [
+        "evt_20261121_72f8871e91"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    },
+    "clu_a15647487f": {
+      "primary_event_id": "evt_20261121_fcea232e56",
+      "event_ids": [
+        "evt_20261121_fcea232e56"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    }
+  }
+}

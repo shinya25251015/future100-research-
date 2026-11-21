@@ -463,7 +463,13 @@
     "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2338": "clu_1b6be58daa",
     "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2340": "clu_bc8fbd2e8a",
     "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2339": "clu_f2c0327440",
-    "https://news.samsung.com/global/samsung-launches-smartplan-in-singapore-with-flexible-payments-and-extended-product-care": "clu_f27d1ddae1"
+    "https://news.samsung.com/global/samsung-launches-smartplan-in-singapore-with-flexible-payments-and-extended-product-care": "clu_f27d1ddae1",
+    "https://boj.or.jp/statistics/boj/fm/juqp/juqp2611.xlsx": "clu_9d09b354d8",
+    "https://boj.or.jp/statistics/boj/other/col/col2610.xlsx": "clu_ee4b2983ec",
+    "https://boj.or.jp/statistics/boj/other/mei/release/2026/mei261030.xlsx": "clu_467d99a5cf",
+    "https://boj.or.jp/mopo/mpmsche_minu/minu_2026/g260918.pdf": "clu_6e3fdcc168",
+    "https://boj.or.jp/about/bcp/fin_bcp/fbcp261104a.pdf": "clu_a648d3ab4f",
+    "https://boj.or.jp/statistics/boj/other/acmai/release/2026/ac261031.htm": "clu_e439561b27"
   },
   "by_hash": {
     "16aab79a855439a8c2d600450a535180d29da8cd84b72f42c24a06c89b02f569": "clu_fd14e545c0",
@@ -5548,6 +5554,60 @@
       ],
       "source_ids": [
         "src_samsung_newsroom"
+      ]
+    },
+    "clu_9d09b354d8": {
+      "primary_event_id": "evt_20261121_f8a07e2270",
+      "event_ids": [
+        "evt_20261121_f8a07e2270"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_ee4b2983ec": {
+      "primary_event_id": "evt_20261121_50ac00e391",
+      "event_ids": [
+        "evt_20261121_50ac00e391"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_467d99a5cf": {
+      "primary_event_id": "evt_20261121_120296d439",
+      "event_ids": [
+        "evt_20261121_120296d439"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_6e3fdcc168": {
+      "primary_event_id": "evt_20261121_5af72ba83d",
+      "event_ids": [
+        "evt_20261121_5af72ba83d"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_a648d3ab4f": {
+      "primary_event_id": "evt_20261121_cc0686db93",
+      "event_ids": [
+        "evt_20261121_cc0686db93"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_e439561b27": {
+      "primary_event_id": "evt_20261121_16aab79a85",
+      "event_ids": [
+        "evt_20261121_16aab79a85"
+      ],
+      "source_ids": [
+        "src_jp_boj"
       ]
     }
   }
