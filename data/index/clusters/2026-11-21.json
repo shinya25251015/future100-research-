@@ -9,7 +9,10 @@
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-20&tenor=10%E5%B9%B4": "clu_b4d492a8ef",
     "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-20&tenor=5%E5%B9%B4": "clu_427aeb67af",
     "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-11-19&series=debt_held_public_amt": "clu_6ac6c8183a",
-    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-11-19&series=tot_pub_debt_out_amt": "clu_a15647487f"
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-11-19&series=tot_pub_debt_out_amt": "clu_a15647487f",
+    "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2557": "clu_af3651ad70",
+    "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2556": "clu_9d8b8f8de9",
+    "https://science.nasa.gov/image-article/apod-2026-november-21-voyagers-neptune": "clu_658bbd6b12"
   },
   "by_hash": {
     "23bfecdc6cb732e490268759145dd21f8a4ceb8a203d3b8feacdb55a555a4064": "clu_f9946151e8",
@@ -21,7 +24,10 @@
     "39a96ea0622226b0d98d5e7aa134e59ce9d6ba0eb0ef3c8f1a229bdd1a4a9e85": "clu_b4d492a8ef",
     "fef8bfc375b9df852725c2ea3d4ba52e5c79612cf35bd87b09cae260c3ad6e2b": "clu_427aeb67af",
     "72f8871e91fa23a08c72930b4c4e68d9b6fc03338845b7eac31007de531de54d": "clu_6ac6c8183a",
-    "fcea232e5695bc22c411c1a3ad8e4fd714df44c04a053bfbc6859016bcd99578": "clu_a15647487f"
+    "fcea232e5695bc22c411c1a3ad8e4fd714df44c04a053bfbc6859016bcd99578": "clu_a15647487f",
+    "535e17fc0969df83095b7211f84d3f4094849ffc9d089c1583aaeea447f3f72c": "clu_af3651ad70",
+    "490ee442170ff593666eb12822bde065d0b11832c58b2799bf70d80a2095c934": "clu_9d8b8f8de9",
+    "7e8c1a8b7696ecbc6f0b78bf4b1d947868b1bde9016010ce0811cc1e552a00b9": "clu_658bbd6b12"
   },
   "by_key": {
     "the white house::national adoption month, 2026::2026-11-21": "clu_f9946151e8",
@@ -33,7 +39,10 @@
     "u.s. department of the treasury::米国債利回り 10年 2026-11-20: 4.92 %::2026-11-21": "clu_b4d492a8ef",
     "u.s. department of the treasury::米国債利回り 5年 2026-11-20: 4.71 %::2026-11-21": "clu_427aeb67af",
     "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-11-19: 32,901,459,975,089.262 usd::2026-11-21": "clu_6ac6c8183a",
-    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-11-19: 40,709,780,700,317.023 usd::2026-11-21": "clu_a15647487f"
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-11-19: 40,709,780,700,317.023 usd::2026-11-21": "clu_a15647487f",
+    "european commission::statement by president von der leyen on the signature of the eu-indonesia comprehensive economic partnership agreement and the investment protection agreement::2026-11-21": "clu_af3651ad70",
+    "european commission::statement by president von der leyen on the assassination attempt against a us-ukrainian citizen in denmark::2026-11-21": "clu_9d8b8f8de9",
+    "nasa::apod: 2026 november 21 – voyager’s neptune::2026-11-21": "clu_658bbd6b12"
   },
   "clusters": {
     "clu_f9946151e8": {
@@ -124,6 +133,33 @@
       ],
       "source_ids": [
         "src_us_treasury_debt"
+      ]
+    },
+    "clu_af3651ad70": {
+      "primary_event_id": "evt_20261122_535e17fc09",
+      "event_ids": [
+        "evt_20261122_535e17fc09"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_9d8b8f8de9": {
+      "primary_event_id": "evt_20261122_490ee44217",
+      "event_ids": [
+        "evt_20261122_490ee44217"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_658bbd6b12": {
+      "primary_event_id": "evt_20261122_7e8c1a8b76",
+      "event_ids": [
+        "evt_20261122_7e8c1a8b76"
+      ],
+      "source_ids": [
+        "src_nasa_news"
       ]
     }
   }
