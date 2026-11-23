@@ -49,7 +49,8 @@
     "https://federalregister.gov/documents/2026/11/23/2026-23805/foreign-trade-zone-ftz-204-notification-of-proposed-production-activity-primester-gp-nonplasticized": "clu_b1c014e403",
     "https://federalregister.gov/documents/2026/11/23/2026-23810/magnesia-carbon-bricks-from-china-and-mexico-scheduling-of-expedited-five-year-reviews": "clu_ea7c0a22bb",
     "https://federalregister.gov/documents/2026/11/23/2026-23814/consumer-advisory-board-meeting": "clu_9675aa9884",
-    "https://federalregister.gov/documents/2026/11/23/2026-23836/amendment-of-class-e-airspace-del-rio-tx": "clu_fe9a4a6239"
+    "https://federalregister.gov/documents/2026/11/23/2026-23836/amendment-of-class-e-airspace-del-rio-tx": "clu_fe9a4a6239",
+    "https://news.samsung.com/global/the-technology-behind-more-precise-finding-with-galaxy-smarttag3-and-smartthings": "clu_6a60b76c4a"
   },
   "by_hash": {
     "ccd405867751bc46401ac02c02fe369535dfb51d9fffe433fe68cfd5b629758a": "clu_caa46c374a",
@@ -100,7 +101,8 @@
     "82e1d49bd53e05b9deaa265d36605722692bf275d0a2be75f76c2f5aece49b82": "clu_64548306ba",
     "44318812c231d4a2dfff8525ca6b558bc30c3817f603374456d8eb4b7eb77cc9": "clu_b1c014e403",
     "66ae89ccab74f10a02dd7feae5d3d0f573d98448b213f480b36114908f200988": "clu_ea7c0a22bb",
-    "12322746a5a5f0077bc16ccde3f65f47a4c1b55b0de2595144015074902545ac": "clu_fe9a4a6239"
+    "12322746a5a5f0077bc16ccde3f65f47a4c1b55b0de2595144015074902545ac": "clu_fe9a4a6239",
+    "3a0530a0eace44f9e46b27478351836d9eb9e0167ffa5c3c3ed14160a638be7a": "clu_6a60b76c4a"
   },
   "by_key": {
     "office of the federal register::amendment of class d and e airspace and removal of class e airspace over lebanon, nh::2026-11-23": "clu_caa46c374a",
@@ -147,7 +149,8 @@
     "office of the federal register::connect america fund; a national broadband plan for our future high-cost universal support, reforming the high-cost program for an all-ip future, safeguarding universal service funding through effective applicant vetting::2026-11-23": "clu_64548306ba",
     "office of the federal register::foreign-trade zone (ftz) 204, notification of proposed production activity; primester gp; (nonplasticized cellulose acetate flakes); kingsport, tennessee::2026-11-23": "clu_b1c014e403",
     "office of the federal register::magnesia carbon bricks from china and mexico; scheduling of expedited five-year reviews::2026-11-23": "clu_ea7c0a22bb",
-    "office of the federal register::amendment of class e airspace; del rio, tx::2026-11-23": "clu_fe9a4a6239"
+    "office of the federal register::amendment of class e airspace; del rio, tx::2026-11-23": "clu_fe9a4a6239",
+    "samsung electronics::the technology behind more precise finding with galaxy smarttag3 and smartthings::2026-11-23": "clu_6a60b76c4a"
   },
   "clusters": {
     "clu_caa46c374a": {
@@ -589,6 +592,15 @@
       ],
       "source_ids": [
         "src_us_federal_register"
+      ]
+    },
+    "clu_6a60b76c4a": {
+      "primary_event_id": "evt_20261123_3a0530a0ea",
+      "event_ids": [
+        "evt_20261123_3a0530a0ea"
+      ],
+      "source_ids": [
+        "src_samsung_newsroom"
       ]
     }
   }
