@@ -1,0 +1,118 @@
+{
+  "by_url": {
+    "http://boj.or.jp/about/bcp/fso/fso261124a.pdf": "clu_e5911964b3",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-23&tenor=10%E5%B9%B4": "clu_5376b064e0",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-23&tenor=2%E5%B9%B4": "clu_e476dc6129",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-23&tenor=30%E5%B9%B4": "clu_0fde0cb0cc",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-23&tenor=5%E5%B9%B4": "clu_3677aceeeb",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-23&tenor=20%E5%B9%B4": "clu_fb0f4c797b",
+    "https://home.treasury.gov/resource-center/data-chart-center/interest-rates?data=daily_treasury_yield_curve&period=2026-11-23&tenor=3%E3%81%8B%E6%9C%88": "clu_2d373e583f",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-11-20&series=tot_pub_debt_out_amt": "clu_d2918f1c66",
+    "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny?period=2026-11-20&series=debt_held_public_amt": "clu_da1bed6968"
+  },
+  "by_hash": {
+    "fcc6e42be917d9e17ffd879ac90349972b0205f77981e490756b406598b8ea98": "clu_e5911964b3",
+    "9fd0492c6f15d3e41cbce345c58deec1973c68238408c74c7b82454dc2957197": "clu_5376b064e0",
+    "9b5b6da0cd81e8561386733e1efbedf76cdb665164e41b510878ecbcfc44e087": "clu_e476dc6129",
+    "b2c7b256c3969c7aa03d5f9e21dbec58d7dbd04b1a6935ed9f3730076093baa0": "clu_0fde0cb0cc",
+    "791a5e79684cef64b677c1dfbf608c4b5e467e0b4cb3ba5a8443d8e8f8d0e984": "clu_3677aceeeb",
+    "2e95bc84365fa5aa0ddd7050f3e366cd7db14ddc1702b588362a1f573d78c8f3": "clu_fb0f4c797b",
+    "d179a711f416c307e12166614763338634c42a9e14f025df2bafa0b0b53d9972": "clu_2d373e583f",
+    "9d47e032afca9f0847803eb2277a2cd0852ef40d091ae0a01337d6a06a700693": "clu_d2918f1c66",
+    "672b64a08de6b3d103fc057011f01bb958b95baf1390ee21f7398520288eff39": "clu_da1bed6968"
+  },
+  "by_key": {
+    "日本銀行::令和8年11月20日からの大雪に係る災害等に対する金融上の措置について(福島県)::2026-11-24": "clu_e5911964b3",
+    "u.s. department of the treasury::米国債利回り 10年 2026-11-23: 4.92 %::2026-11-24": "clu_5376b064e0",
+    "u.s. department of the treasury::米国債利回り 2年 2026-11-23: 4.63 %::2026-11-24": "clu_e476dc6129",
+    "u.s. department of the treasury::米国債利回り 30年 2026-11-23: 5.29 %::2026-11-24": "clu_0fde0cb0cc",
+    "u.s. department of the treasury::米国債利回り 5年 2026-11-23: 4.74 %::2026-11-24": "clu_3677aceeeb",
+    "u.s. department of the treasury::米国債利回り 20年 2026-11-23: 5.33 %::2026-11-24": "clu_fb0f4c797b",
+    "u.s. department of the treasury::米国債利回り 3か月 2026-11-23: 4.37 %::2026-11-24": "clu_2d373e583f",
+    "u.s. department of the treasury (fiscal service)::米国 公的債務残高 2026-11-20: 40,710,417,158,680.148 usd::2026-11-24": "clu_d2918f1c66",
+    "u.s. department of the treasury (fiscal service)::米国 民間保有債務残高 2026-11-20: 32,901,198,701,800.969 usd::2026-11-24": "clu_da1bed6968"
+  },
+  "clusters": {
+    "clu_e5911964b3": {
+      "primary_event_id": "evt_20261124_fcc6e42be9",
+      "event_ids": [
+        "evt_20261124_fcc6e42be9"
+      ],
+      "source_ids": [
+        "src_jp_boj"
+      ]
+    },
+    "clu_5376b064e0": {
+      "primary_event_id": "evt_20261124_9fd0492c6f",
+      "event_ids": [
+        "evt_20261124_9fd0492c6f"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_e476dc6129": {
+      "primary_event_id": "evt_20261124_9b5b6da0cd",
+      "event_ids": [
+        "evt_20261124_9b5b6da0cd"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_0fde0cb0cc": {
+      "primary_event_id": "evt_20261124_b2c7b256c3",
+      "event_ids": [
+        "evt_20261124_b2c7b256c3"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_3677aceeeb": {
+      "primary_event_id": "evt_20261124_791a5e7968",
+      "event_ids": [
+        "evt_20261124_791a5e7968"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_fb0f4c797b": {
+      "primary_event_id": "evt_20261124_2e95bc8436",
+      "event_ids": [
+        "evt_20261124_2e95bc8436"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_2d373e583f": {
+      "primary_event_id": "evt_20261124_d179a711f4",
+      "event_ids": [
+        "evt_20261124_d179a711f4"
+      ],
+      "source_ids": [
+        "src_us_treasury_yield_curve"
+      ]
+    },
+    "clu_d2918f1c66": {
+      "primary_event_id": "evt_20261124_9d47e032af",
+      "event_ids": [
+        "evt_20261124_9d47e032af"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    },
+    "clu_da1bed6968": {
+      "primary_event_id": "evt_20261124_672b64a08d",
+      "event_ids": [
+        "evt_20261124_672b64a08d"
+      ],
+      "source_ids": [
+        "src_us_treasury_debt"
+      ]
+    }
+  }
+}

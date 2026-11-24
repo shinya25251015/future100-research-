@@ -1,15 +1,30 @@
 {
   "by_url": {
     "https://nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson": "clu_ce6262d36d",
-    "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno": "clu_246f9fd984"
+    "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno": "clu_246f9fd984",
+    "https://ec.europa.eu/commission/presscorner/detail/en/jp_26_2538": "clu_c7c135e7a9",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2552": "clu_bbc23dcdba",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2521": "clu_b8880a937b",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2467": "clu_3853a67feb",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2530": "clu_373c863887"
   },
   "by_hash": {
     "6ea52280596023555a4f46c6780f949051b3b8c67068b6463d99e792eae7c821": "clu_ce6262d36d",
-    "5ae62e125842681d7a4c3d01f2f7af3616651cf8b2f7727a9bac77e43c4b3b76": "clu_246f9fd984"
+    "5ae62e125842681d7a4c3d01f2f7af3616651cf8b2f7727a9bac77e43c4b3b76": "clu_246f9fd984",
+    "46c41b9066a1c33e96b32b3917e983645c211cfdf956ad14bcf14723a4f27888": "clu_c7c135e7a9",
+    "37f0fea79e433b7ff2168e058c24e818521e9a5b65b5dbdade6b0fd10669eb4b": "clu_bbc23dcdba",
+    "a222f2acddd81eb6858425c9905675e237261c03b02477c50513b2e8177843d3": "clu_b8880a937b",
+    "10786bb60fb4bb9438f5a8e77bbb30c4a0802a0001b793936bc74b1d0305ed0c": "clu_3853a67feb",
+    "c9d9c14796f002b43b846751ea92c2e929ca95f675183e5f001e3eeb9ec5e45b": "clu_373c863887"
   },
   "by_key": {
     "nasa::65 years of human spaceflight at nasa johnson::2026-11-22": "clu_ce6262d36d",
-    "nasa::apod: 2026 november 22 – swirls and colors on jupiter from juno::2026-11-22": "clu_246f9fd984"
+    "nasa::apod: 2026 november 22 – swirls and colors on jupiter from juno::2026-11-22": "clu_246f9fd984",
+    "european commission::eu stood firm for ambition and implementation at cop31::2026-11-22": "clu_c7c135e7a9",
+    "european commission::commission welcomes european citizens' panel recommendations on democratic resilience::2026-11-22": "clu_bbc23dcdba",
+    "european commission::commission adopts guidelines implementing the visa ban on combatants in russia's war of aggression against ukraine::2026-11-22": "clu_b8880a937b",
+    "european commission::commission approves €1 billion slovenian state aid to support closure of premogovnik velenje coal mine::2026-11-22": "clu_3853a67feb",
+    "european commission::commission opens formal investigation into possible anticompetitive conduct by coca-cola europacific partners in the non-alcoholic drinks sector::2026-11-22": "clu_373c863887"
   },
   "clusters": {
     "clu_ce6262d36d": {
@@ -28,6 +43,51 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_c7c135e7a9": {
+      "primary_event_id": "evt_20261124_46c41b9066",
+      "event_ids": [
+        "evt_20261124_46c41b9066"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_bbc23dcdba": {
+      "primary_event_id": "evt_20261124_37f0fea79e",
+      "event_ids": [
+        "evt_20261124_37f0fea79e"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_b8880a937b": {
+      "primary_event_id": "evt_20261124_a222f2acdd",
+      "event_ids": [
+        "evt_20261124_a222f2acdd"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_3853a67feb": {
+      "primary_event_id": "evt_20261124_10786bb60f",
+      "event_ids": [
+        "evt_20261124_10786bb60f"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_373c863887": {
+      "primary_event_id": "evt_20261124_c9d9c14796",
+      "event_ids": [
+        "evt_20261124_c9d9c14796"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }

@@ -1,0 +1,77 @@
+{
+  "window_id": "sig_semiconductor_20261124",
+  "as_of": "2026-11-24T05:27:31Z",
+  "window": {
+    "start": "2026-11-18",
+    "end": "2026-11-24",
+    "baseline_start": "2026-10-21",
+    "baseline_end": "2026-11-17"
+  },
+  "topic": {
+    "label": "半導体",
+    "keywords": [
+      "semiconductor",
+      "foundry",
+      "wafer",
+      "lithography",
+      "euv",
+      "hbm",
+      "chip fab",
+      "半導体",
+      "前工程",
+      "後工程",
+      "露光装置"
+    ],
+    "is_new_concept": false,
+    "sector_id": "sec_semiconductor"
+  },
+  "counts": [
+    {
+      "signal_type": "paper",
+      "count": 15,
+      "baseline_count": 26.75,
+      "event_ids": [
+        "evt_20261119_6eb70816f2",
+        "evt_20261119_0cb287020b",
+        "evt_20261119_cef09aedbd",
+        "evt_20261119_dea2610f5b",
+        "evt_20261119_77a8246c41",
+        "evt_20261120_905e86d8dc",
+        "evt_20261120_2cecbae295",
+        "evt_20261120_d94d186c0a",
+        "evt_20261121_9ef3032577",
+        "evt_20261121_62e0f3d197",
+        "evt_20261121_ab041e223d",
+        "evt_20261121_220473569e",
+        "evt_20261121_cdfd998403",
+        "evt_20261121_52cf975711",
+        "evt_20261121_544319bc7a"
+      ],
+      "delta_ratio": -0.439
+    },
+    {
+      "signal_type": "patent",
+      "count": 0,
+      "baseline_count": 0.25,
+      "event_ids": [],
+      "delta_ratio": -1.0
+    }
+  ],
+  "coverage": {
+    "baseline_covered": false,
+    "sources": [],
+    "note": "baseline 期間より後に観測を開始したソースが含まれる。増加はこのソースの取り込み開始に由来する可能性があり、シグナルとして扱わない。"
+  },
+  "co_occurrence": {
+    "distinct_signal_types": 0,
+    "distinct_sources": 0,
+    "distinct_regions": 0,
+    "score": 0.0,
+    "threshold_met": false
+  },
+  "promotion": {
+    "promoted": false,
+    "rationale": "観測期間が baseline に届いていないため判定を保留する（増加が実体か取り込み開始かを区別できない）。"
+  },
+  "schema_version": "1.0"
+}
