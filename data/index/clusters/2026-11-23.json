@@ -69,7 +69,11 @@
     "https://nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon": "clu_3e2d44d4bc",
     "https://nasa.gov/image-article/studying-cancer-cells-in-microgravity": "clu_462ccaef46",
     "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution": "clu_c18fa60e78",
-    "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-08": "clu_f4efce428e"
+    "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-08": "clu_f4efce428e",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2564": "clu_4957f6abce",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2562": "clu_c10da9e173",
+    "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2554": "clu_9fb987deb3",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2553": "clu_18eef1c9bd"
   },
   "by_hash": {
     "ccd405867751bc46401ac02c02fe369535dfb51d9fffe433fe68cfd5b629758a": "clu_caa46c374a",
@@ -140,7 +144,11 @@
     "8593a20e4a84c532a458b18fabc0945e39ebb7e1fda75d163c7b7c473db4c25e": "clu_3e2d44d4bc",
     "66f1579a1a753ab05dc7406eebc59043594748b53a22534a13005e650d58641f": "clu_462ccaef46",
     "fa1b83cf58779bbec2506331d1e9fbe793d66c527edd9ae483c17660eafa1118": "clu_c18fa60e78",
-    "1533022245a681ebee80dc32c2ac3013ad0857281786dd958135e8e82d51a158": "clu_f4efce428e"
+    "1533022245a681ebee80dc32c2ac3013ad0857281786dd958135e8e82d51a158": "clu_f4efce428e",
+    "729603c693c347543fda9a3f917ed54cf09835b8661ae85dea0023a338841fad": "clu_4957f6abce",
+    "9dee375a1b4578891628f2c4f0856b605c3165a477abb810ef3acc5db85b5f6f": "clu_c10da9e173",
+    "5c56b7239ff25f895e0e7d6442a27a7760167266a3a69a0638f8cc541b845b81": "clu_9fb987deb3",
+    "635983fe3aa31cd709fd46057679dbc1a9c4e7807e322d9b6ee1dfa66289db1e": "clu_18eef1c9bd"
   },
   "by_key": {
     "office of the federal register::amendment of class d and e airspace and removal of class e airspace over lebanon, nh::2026-11-23": "clu_caa46c374a",
@@ -207,7 +215,11 @@
     "nasa::nasa seeks partners to design first nuclear reactor for the moon::2026-11-23": "clu_3e2d44d4bc",
     "nasa::studying cancer cells in microgravity::2026-11-23": "clu_462ccaef46",
     "nasa::nasa’s webb shows how supernova dust chronicles star evolution::2026-11-23": "clu_c18fa60e78",
-    "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-08: 218,982.661 gwh::2026-11-23": "clu_f4efce428e"
+    "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-08: 218,982.661 gwh::2026-11-23": "clu_f4efce428e",
+    "european commission::commission imposes provisional import quotas on hybrid passenger vehicles::2026-11-23": "clu_4957f6abce",
+    "european commission::commission calls for joint eu efforts to reduce tax gaps and boost public finances::2026-11-23": "clu_c10da9e173",
+    "european commission::questions and answers on the 2027 european semester autumn package::2026-11-23": "clu_9fb987deb3",
+    "european commission::commission sets out key eu policy priorities for 2027 in its european semester autumn package::2026-11-23": "clu_18eef1c9bd"
   },
   "clusters": {
     "clu_caa46c374a": {
@@ -829,6 +841,42 @@
       ],
       "source_ids": [
         "src_eurostat_industry_energy"
+      ]
+    },
+    "clu_4957f6abce": {
+      "primary_event_id": "evt_20261125_729603c693",
+      "event_ids": [
+        "evt_20261125_729603c693"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_c10da9e173": {
+      "primary_event_id": "evt_20261125_9dee375a1b",
+      "event_ids": [
+        "evt_20261125_9dee375a1b"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_9fb987deb3": {
+      "primary_event_id": "evt_20261125_5c56b7239f",
+      "event_ids": [
+        "evt_20261125_5c56b7239f"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_18eef1c9bd": {
+      "primary_event_id": "evt_20261125_635983fe3a",
+      "event_ids": [
+        "evt_20261125_635983fe3a"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }
