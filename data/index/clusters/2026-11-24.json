@@ -788,7 +788,13 @@
     "https://nasa.gov/nasa/nasa-content-coming-to-big-screen-at-greenbelt-maryland-cinema": "clu_18f9c1ee6a",
     "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar": "clu_9d8d14a036",
     "https://war.gov/News/Contracts/Contract/Article/4659308/contracts-for-nov-24-2026": "clu_a1bf442b8a",
-    "https://nasa.gov/missions/station/nasas-northrop-grumman-crs-25-mission-overview": "clu_019ec46e03"
+    "https://nasa.gov/missions/station/nasas-northrop-grumman-crs-25-mission-overview": "clu_019ec46e03",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2567": "clu_c18fd17821",
+    "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2569": "clu_6127938b4e",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2576": "clu_68c288ac91",
+    "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2580": "clu_07cf06f959",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2573": "clu_fcb535b15c",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2574": "clu_6a293b5809"
   },
   "by_hash": {
     "fcc6e42be917d9e17ffd879ac90349972b0205f77981e490756b406598b8ea98": "clu_e5911964b3",
@@ -1572,7 +1578,13 @@
     "ed761d776e136f94df566a3110830ddb0bfea83370222fbd9b998bd74dbb94b1": "clu_18f9c1ee6a",
     "7aa5385da2aecc1d3590bcc14231a9df077700dd52b56a344b5f60e884eebdcf": "clu_9d8d14a036",
     "5062ba0e43cc6e4d743436ab2f6368554bda2915b04f686151296f7604d86134": "clu_a1bf442b8a",
-    "748a0cb24b70789a40d5256e1a352a6ff2d3e96f48dbf7a02480685d0ed4eccc": "clu_019ec46e03"
+    "748a0cb24b70789a40d5256e1a352a6ff2d3e96f48dbf7a02480685d0ed4eccc": "clu_019ec46e03",
+    "80ad011f2ae0c4fb58f5393ed80c744d5472c784970695a22ea875f1bddebb69": "clu_c18fd17821",
+    "fe28e5fd999c16a44551b02573e12ec539df9ac51df26e23bd201c2b44b12fb6": "clu_6127938b4e",
+    "272feabc0f7781c31da486721fa368f5b8398f9f07490fad3032b2c1de974157": "clu_68c288ac91",
+    "51c7ac5f9e399358fe1dad4ec0cee152e6bb973f280329b1e7e0acd0b7e5e2e7": "clu_07cf06f959",
+    "cebf4ac60f3b4d727f607bc20e5437fa1b7d7e19432570c0f625791d50febbd6": "clu_fcb535b15c",
+    "0d983c10148383c390f26a10fc9e24696ba0e153db234d61934f7cbb00d54af7": "clu_6a293b5809"
   },
   "by_key": {
     "日本銀行::令和8年11月20日からの大雪に係る災害等に対する金融上の措置について(福島県)::2026-11-24": "clu_e5911964b3",
@@ -2352,7 +2364,13 @@
     "nasa::nasa+ content coming to big screen at greenbelt, maryland cinema::2026-11-24": "clu_18f9c1ee6a",
     "nasa::nasa hubble’s new view of ngc 4394 raises the bar::2026-11-24": "clu_9d8d14a036",
     "u.s. department of war (旧 department of defense)::contracts for nov. 24, 2026::2026-11-24": "clu_a1bf442b8a",
-    "nasa::nasa’s northrop grumman crs-25 mission overview::2026-11-24": "clu_019ec46e03"
+    "nasa::nasa’s northrop grumman crs-25 mission overview::2026-11-24": "clu_019ec46e03",
+    "european commission::commission proposes quantum act and new sovereign tech equity fund to strengthen europe's industrial capacity and security::2026-11-24": "clu_c18fd17821",
+    "european commission::factsheet: quantum act::2026-11-24": "clu_6127938b4e",
+    "european commission::commission prolongs state aid framework to support sectors affected by middle east crisis until june 2027::2026-11-24": "clu_68c288ac91",
+    "european commission::speech by president von der leyen at the european parliament plenary debate on europe's role and capacity to protect the international order and secure a just and lasting peace for ukraine::2026-11-24": "clu_07cf06f959",
+    "european commission::commission issues positive opinion on the compatibility of a sustainability agreement in the french wine sector with competition rules for agriculture::2026-11-24": "clu_fcb535b15c",
+    "european commission::commission fines firmenich, givaudan and iff €471.9 million for participating in an international fragrance cartel::2026-11-24": "clu_6a293b5809"
   },
   "clusters": {
     "clu_e5911964b3": {
@@ -9391,6 +9409,60 @@
       ],
       "source_ids": [
         "src_nasa_news"
+      ]
+    },
+    "clu_c18fd17821": {
+      "primary_event_id": "evt_20261126_80ad011f2a",
+      "event_ids": [
+        "evt_20261126_80ad011f2a"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_6127938b4e": {
+      "primary_event_id": "evt_20261126_fe28e5fd99",
+      "event_ids": [
+        "evt_20261126_fe28e5fd99"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_68c288ac91": {
+      "primary_event_id": "evt_20261126_272feabc0f",
+      "event_ids": [
+        "evt_20261126_272feabc0f"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_07cf06f959": {
+      "primary_event_id": "evt_20261126_51c7ac5f9e",
+      "event_ids": [
+        "evt_20261126_51c7ac5f9e"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_fcb535b15c": {
+      "primary_event_id": "evt_20261126_cebf4ac60f",
+      "event_ids": [
+        "evt_20261126_cebf4ac60f"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_6a293b5809": {
+      "primary_event_id": "evt_20261126_0d983c1014",
+      "event_ids": [
+        "evt_20261126_0d983c1014"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
       ]
     }
   }
