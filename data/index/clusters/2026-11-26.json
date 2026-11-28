@@ -401,7 +401,9 @@
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-08": "clu_e45f4f690c",
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-05": "clu_379097e6cf",
     "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-04": "clu_2bd2848c42",
-    "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-01": "clu_46835c08bf"
+    "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem?keys=TOTAL%2FGWH%2FEU27_2020&period=2026-01": "clu_46835c08bf",
+    "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2592": "clu_68e71e1ee3",
+    "https://spectrum.ieee.org/jupiter-europa-clipper-mission-jpl": "clu_b988e326de"
   },
   "by_hash": {
     "0a24ea16987bb23dd1d7dabbd9ad360dec7d3fb65d93847558e4493e4232db2c": "clu_5cb8a097dc",
@@ -805,7 +807,9 @@
     "b15e40451b29bb111abd934d41920f2d15503cd610a5d230a72ddf246e115e35": "clu_e45f4f690c",
     "fcf9e099ae543eac874e9b01c37f8e79021553f4006d6f6e00fee899144392eb": "clu_379097e6cf",
     "92981ca7d6ee73ba520978367d31b447130dcda88f77ee5a31585f6d26db34b2": "clu_2bd2848c42",
-    "a1559c4570782e06d33f3ac1494b5e699bcd9e43e463b7beb8b391704a14f29d": "clu_46835c08bf"
+    "a1559c4570782e06d33f3ac1494b5e699bcd9e43e463b7beb8b391704a14f29d": "clu_46835c08bf",
+    "6bfa6a00407e51067e8a7e09e22d7e259f461e090b819af29709f069bf6cd984": "clu_68e71e1ee3",
+    "94e3547a11ea80bb86b15313a8a4072d0b14be27155cc3167153f7559fa2c11b": "clu_b988e326de"
   },
   "by_key": {
     "日本銀行::【挨拶】田村審議委員「わが国の経済・物価情勢と金融政策」(山梨)::2026-11-26": "clu_5cb8a097dc",
@@ -1209,7 +1213,9 @@
     "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-08: 219,381.326 gwh::2026-11-26": "clu_e45f4f690c",
     "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-05: 210,594.913 gwh::2026-11-26": "clu_379097e6cf",
     "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-04: 212,967.851 gwh::2026-11-26": "clu_2bd2848c42",
-    "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-01: 269,583.366 gwh::2026-11-26": "clu_46835c08bf"
+    "european commission (eurostat)::net electricity generation by type of fuel - monthly data(total, european union - 27 countries (from 2020)) 2026-01: 269,583.366 gwh::2026-11-26": "clu_46835c08bf",
+    "european commission::commission unconditionally approves deutsche börse's acquisition of allfunds::2026-11-26": "clu_68e71e1ee3",
+    "ieee::how engineers designed a mission to one of jupiter’s icy moons::2026-11-26": "clu_b988e326de"
   },
   "clusters": {
     "clu_5cb8a097dc": {
@@ -4828,6 +4834,24 @@
       ],
       "source_ids": [
         "src_eurostat_industry_energy"
+      ]
+    },
+    "clu_68e71e1ee3": {
+      "primary_event_id": "evt_20261128_6bfa6a0040",
+      "event_ids": [
+        "evt_20261128_6bfa6a0040"
+      ],
+      "source_ids": [
+        "src_eu_commission_press"
+      ]
+    },
+    "clu_b988e326de": {
+      "primary_event_id": "evt_20261128_94e3547a11",
+      "event_ids": [
+        "evt_20261128_94e3547a11"
+      ],
+      "source_ids": [
+        "src_ieee_spectrum"
       ]
     }
   }
